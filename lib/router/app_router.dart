@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../screens/app_shell.dart';
+import '../screens/auth_screen.dart';
 import '../screens/cases_screen.dart';
 import '../screens/exam_screen.dart';
 import '../screens/home_screen.dart';
@@ -13,6 +14,7 @@ import '../screens/practice_screen.dart';
 import '../screens/premium_screen.dart';
 import '../screens/radar_screen.dart';
 import '../screens/results_screen.dart';
+import '../screens/speed_battle_screen.dart';
 import '../state/app_state.dart';
 
 /// Configuración de rutas de la PWA.
@@ -25,11 +27,16 @@ GoRouter createAppRouter(AppState appState) {
       final loc = state.matchedLocation;
       final onboarded = appState.profile.onboardingComplete;
 
-      if (!onboarded &&
-          loc != '/' &&
-          loc != '/onboarding' &&
-          !loc.startsWith('/practice') &&
-          !loc.startsWith('/results')) {
+      const publicPaths = {
+        '/',
+        '/onboarding',
+        '/auth',
+        '/practice',
+        '/results',
+        '/premium',
+      };
+
+      if (!onboarded && !publicPaths.contains(loc) && !loc.startsWith('/practice')) {
         return '/';
       }
 
@@ -44,6 +51,10 @@ GoRouter createAppRouter(AppState appState) {
         builder: (context, state) => const LandingScreen(),
       ),
       GoRoute(
+        path: '/auth',
+        builder: (context, state) => const AuthScreen(),
+      ),
+      GoRoute(
         path: '/onboarding',
         builder: (context, state) => const OnboardingScreen(),
       ),
@@ -54,6 +65,10 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/exam',
         builder: (context, state) => const ExamScreen(),
+      ),
+      GoRoute(
+        path: '/speed',
+        builder: (context, state) => const SpeedBattleScreen(),
       ),
       GoRoute(
         path: '/results',

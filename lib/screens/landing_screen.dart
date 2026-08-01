@@ -111,8 +111,12 @@ class _HeroCopy extends StatelessWidget {
           runSpacing: 12,
           children: [
             FilledButton(
+              onPressed: () => context.go('/auth'),
+              child: const Text('Empezar ahora'),
+            ),
+            OutlinedButton(
               onPressed: () => context.go('/onboarding'),
-              child: const Text('Empezar diagnóstico'),
+              child: const Text('Continuar como invitado'),
             ),
             OutlinedButton.icon(
               onPressed: pwa.canInstall

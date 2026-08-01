@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../config/app_config.dart';
 import '../data/question_bank.dart';
 import '../models/enums.dart';
 import '../models/question.dart';
@@ -46,6 +47,9 @@ class AppState extends ChangeNotifier {
       profile.isPremium || monthlyShortExamsUsed < freeMonthlyShortExams;
 
   bool get cloudSyncEnabled => _sync.available;
+  bool get isAnonymousUser => _sync.isAnonymous;
+  String? get authEmail => _sync.email;
+  String? get authDisplayName => _sync.displayName;
 
   DailyStudyPlan get todayPlan {
     final base = StudyPlanService.buildFor(profile);
@@ -89,7 +93,9 @@ class AppState extends ChangeNotifier {
         } else if (profile.onboardingComplete) {
           await _sync.saveRemoteProfile(profile);
         }
-        syncStatus = 'Progreso sincronizado en la nube';
+        syncStatus = _sync.isAnonymous
+            ? 'Sesión invitado (nube). Guarda tu cuenta para no perder progreso.'
+            : 'Cuenta conectada · progreso en la nube';
       } else {
         syncStatus = _sync.lastError ??
             'Modo local: activa Auth anónimo en Firebase para sincronizar.';
@@ -105,6 +111,8 @@ class AppState extends ChangeNotifier {
       notifyListeners();
     }
   }
+
+  Future<void> persistNow() => _persist();
 
   Future<void> _persist() async {
     try {
@@ -186,9 +194,84 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<bool> activatePremiumWithCode(String code) async {
+    final normalized = code.trim().toUpperCase();
+    if (!AppConfig.premiumAccessCodes.contains(normalized)) {
+      lastError = 'Código inválido. Verifica e intenta de nuevo.';
+      notifyListeners();
+      return false;
+    }
+    profile = profile.copyWith(isPremium: true);
+    lastError = null;
+    await _persist();
+    notifyListeners();
+    return true;
+  }
+
+  Future<bool> signInWithEmail(String email, String password) async {
+    final ok = await _sync.signInWithEmail(email: email, password: password);
+    if (!ok) {
+      lastError = _sync.lastError;
+      notifyListeners();
+      return false;
+    }
+    await _reloadAfterAuth();
+    return true;
+  }
+
+  Future<bool> registerWithEmail(String email, String password) async {
+    final ok = await _sync.registerWithEmail(email: email, password: password);
+    if (!ok) {
+      lastError = _sync.lastError;
+      notifyListeners();
+      return false;
+    }
+    await _reloadAfterAuth();
+    return true;
+  }
+
+  Future<bool> signInWithGoogle() async {
+    final ok = await _sync.signInWithGoogle();
+    if (!ok) {
+      lastError = _sync.lastError;
+      notifyListeners();
+      return false;
+    }
+    await _reloadAfterAuth();
+    return true;
+  }
+
+  Future<void> signOut() async {
+    await _sync.signOutToAnonymous();
+    syncStatus = _sync.available
+        ? 'Sesión invitado (nube)'
+        : 'Modo local';
+    notifyListeners();
+  }
+
+  Future<void> _reloadAfterAuth() async {
+    final remote = await _sync.loadRemoteProfile();
+    if (remote != null && remote.totalAnswers >= profile.totalAnswers) {
+      profile = remote;
+      _refreshDailyFlags();
+    } else {
+      await _sync.saveRemoteProfile(profile);
+    }
+    if (_sync.email != null &&
+        (profile.displayName.isEmpty || profile.displayName == 'Aspirante')) {
+      final name = _sync.displayName ?? _sync.email!.split('@').first;
+      profile = profile.copyWith(displayName: name);
+    }
+    syncStatus = 'Cuenta conectada · progreso en la nube';
+    lastError = null;
+    await _persist();
+    notifyListeners();
+  }
+
   void startSession({
     required SessionMode mode,
     CompetencyPillar? pillar,
+    Especialidad? specialty,
     int count = 10,
     bool casesOnly = false,
     String? planTaskId,
@@ -203,7 +286,12 @@ class AppState extends ChangeNotifier {
     currentQuestions = QuestionBank.forSession(
       mode: mode,
       pillar: pillar,
-      count: mode == SessionMode.dailyStreak ? freeDailyLimit : count,
+      specialty: specialty,
+      count: mode == SessionMode.dailyStreak
+          ? freeDailyLimit
+          : mode == SessionMode.speedBattle
+              ? 30
+              : count,
       casesOnly: casesOnly,
     );
     currentMode = mode;
@@ -288,7 +376,11 @@ class AppState extends ChangeNotifier {
     selectedOption = null;
     revealed = false;
     questionStartedAt = DateTime.now();
-    notifyListeners();
+    if (currentMode == SessionMode.speedBattle) {
+      await _persist();
+    } else {
+      notifyListeners();
+    }
     return false;
   }
 

@@ -34,6 +34,15 @@ class HomeScreen extends StatelessWidget {
                   children: [
                     const Expanded(child: BrandMark(compact: true)),
                     IconButton(
+                      tooltip: state.isAnonymousUser ? 'Guardar cuenta' : 'Cuenta',
+                      onPressed: () => context.push('/auth'),
+                      icon: Icon(
+                        state.isAnonymousUser
+                            ? Icons.person_add_alt_1_outlined
+                            : Icons.person_outline,
+                      ),
+                    ),
+                    IconButton(
                       tooltip: 'Modo oscuro',
                       onPressed: () => state.toggleDarkMode(),
                       icon: Icon(
@@ -53,6 +62,10 @@ class HomeScreen extends StatelessWidget {
                       : '${profile.cargo?.label ?? ''} · ${profile.especialidad!.label}',
                   style: theme.textTheme.bodyLarge,
                 ),
+                if (!state.isAnonymousUser && state.authEmail != null) ...[
+                  const SizedBox(height: 4),
+                  Text(state.authEmail!, style: theme.textTheme.bodySmall),
+                ],
                 const SizedBox(height: 18),
                 _StreakCard(
                   streak: profile.streakDays,
@@ -134,10 +147,36 @@ class HomeScreen extends StatelessWidget {
                         onTap: () => context.push('/cases'),
                       ),
                       _ModeCard(
+                        title: 'Reto 60s',
+                        subtitle: 'Agilidad mental contrarreloj.',
+                        icon: Icons.bolt_outlined,
+                        color: AppColors.goldDeep,
+                        onTap: () {
+                          state.startSession(mode: SessionMode.speedBattle);
+                          context.push('/speed');
+                        },
+                      ),
+                      _ModeCard(
+                        title: 'Mi especialidad',
+                        subtitle: profile.especialidad == null
+                            ? 'Práctica del módulo de área'
+                            : 'Enfocado en ${profile.especialidad!.label}',
+                        icon: Icons.school_outlined,
+                        color: AppColors.inkSoft,
+                        onTap: () {
+                          state.startSession(
+                            mode: SessionMode.practice,
+                            specialty: profile.especialidad,
+                            count: 8,
+                          );
+                          context.push('/practice');
+                        },
+                      ),
+                      _ModeCard(
                         title: 'Plan diario',
                         subtitle: 'Ruta hasta tu fecha de examen.',
                         icon: Icons.route_outlined,
-                        color: AppColors.goldDeep,
+                        color: AppColors.canopy,
                         onTap: () => context.go('/app/plan'),
                       ),
                     ];

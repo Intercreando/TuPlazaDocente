@@ -39,6 +39,7 @@ enum SessionMode {
   exam,
   dailyStreak,
   diagnostic,
+  speedBattle,
 }
 
 enum QuestionDifficulty {

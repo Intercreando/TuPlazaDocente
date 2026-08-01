@@ -1,14 +1,53 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
+import 'package:url_launcher/url_launcher.dart';
 
+import '../config/app_config.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 
-/// Paywall freemium (demo local de activación Premium).
-class PremiumScreen extends StatelessWidget {
+/// Paywall freemium con Mercado Pago / código / demo.
+class PremiumScreen extends StatefulWidget {
   const PremiumScreen({super.key});
+
+  @override
+  State<PremiumScreen> createState() => _PremiumScreenState();
+}
+
+class _PremiumScreenState extends State<PremiumScreen> {
+  final _codeController = TextEditingController();
+  bool _busy = false;
+
+  @override
+  void dispose() {
+    _codeController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _openMercadoPago() async {
+    if (!AppConfig.hasMercadoPagoCheckout) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text(
+            'Mercado Pago aún no está configurado. Usa un código o activa la demo, '
+            'o define MP_CHECKOUT_URL en el build.',
+          ),
+        ),
+      );
+      return;
+    }
+
+    final uri = Uri.parse(AppConfig.mercadoPagoCheckoutUrl);
+    final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
+    if (!mounted) return;
+    if (!ok) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('No pudimos abrir el checkout de pago.')),
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -49,18 +88,18 @@ class PremiumScreen extends StatelessWidget {
                   const SizedBox(height: 22),
                   _PlanCard(
                     title: 'Gratis',
-                    price: '\$0',
+                    price: r'$0',
                     items: const [
                       'Reto diario de 5 preguntas',
                       '1 simulacro corto al mes',
-                      'Estadísticas básicas',
+                      'Reto 60s y estadísticas básicas',
                     ],
                     highlighted: false,
                   ),
                   const SizedBox(height: 12),
                   _PlanCard(
                     title: 'Premium',
-                    price: 'Pago único / convocatoria',
+                    price: AppConfig.premiumPriceLabel,
                     items: const [
                       'Banco ilimitado con explicación profunda',
                       'Simulacros completos + mapa de calor',
@@ -75,23 +114,68 @@ class PremiumScreen extends StatelessWidget {
                       onPressed: () => context.go('/app'),
                       child: const Text('Ya eres Premium · Ir a entrenar'),
                     )
-                  else
-                    FilledButton(
-                      onPressed: () async {
-                        await state.activatePremiumDemo();
-                        if (!context.mounted) return;
-                        ScaffoldMessenger.of(context).showSnackBar(
-                          const SnackBar(
-                            content: Text(
-                              'Premium demo activado en este dispositivo. '
-                              'Luego conectaremos pagos reales (Mercado Pago/Stripe).',
-                            ),
-                          ),
-                        );
-                        context.go('/app');
-                      },
-                      child: const Text('Activar Premium (demo)'),
+                  else ...[
+                    FilledButton.icon(
+                      onPressed: _busy ? null : _openMercadoPago,
+                      icon: const Icon(Icons.payments_outlined),
+                      label: const Text('Pagar con Mercado Pago'),
                     ),
+                    const SizedBox(height: 12),
+                    Text('¿Tienes código de acceso?', style: theme.textTheme.titleSmall),
+                    const SizedBox(height: 8),
+                    TextField(
+                      controller: _codeController,
+                      textCapitalization: TextCapitalization.characters,
+                      decoration: const InputDecoration(
+                        labelText: 'Código Premium',
+                        hintText: 'PLAZA2026',
+                      ),
+                    ),
+                    const SizedBox(height: 10),
+                    OutlinedButton(
+                      onPressed: _busy
+                          ? null
+                          : () async {
+                              final messenger = ScaffoldMessenger.of(context);
+                              final router = GoRouter.of(context);
+                              setState(() => _busy = true);
+                              final ok = await state.activatePremiumWithCode(
+                                _codeController.text,
+                              );
+                              if (!mounted) return;
+                              setState(() => _busy = false);
+                              messenger.showSnackBar(
+                                SnackBar(
+                                  content: Text(
+                                    ok
+                                        ? 'Premium activado con código.'
+                                        : state.lastError ?? 'Código inválido.',
+                                  ),
+                                ),
+                              );
+                              if (ok) router.go('/app');
+                            },
+                      child: const Text('Activar con código'),
+                    ),
+                    const SizedBox(height: 8),
+                    TextButton(
+                      onPressed: _busy
+                          ? null
+                          : () async {
+                              await state.activatePremiumDemo();
+                              if (!context.mounted) return;
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                const SnackBar(
+                                  content: Text(
+                                    'Premium demo activado en este dispositivo.',
+                                  ),
+                                ),
+                              );
+                              context.go('/app');
+                            },
+                      child: const Text('Activar demo (sin pago)'),
+                    ),
+                  ],
                 ],
               ),
             ),

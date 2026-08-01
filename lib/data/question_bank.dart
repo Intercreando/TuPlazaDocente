@@ -1,10 +1,15 @@
 import '../models/enums.dart';
 import '../models/question.dart';
 import 'extra_questions.dart';
+import 'specialty_questions.dart';
 
 /// Banco inicial calibrado al estilo CNSC/ICFES (ítems originales).
 abstract final class QuestionBank {
-  static List<Question> get all => List.unmodifiable([..._items, ...ExtraQuestions.items]);
+  static List<Question> get all => List.unmodifiable([
+        ..._items,
+        ...ExtraQuestions.items,
+        ...SpecialtyQuestions.items,
+      ]);
 
   static List<Question> byPillar(CompetencyPillar pillar) =>
       all.where((q) => q.pillar == pillar).toList();
@@ -26,19 +31,32 @@ abstract final class QuestionBank {
     return selected.take(count).toList();
   }
 
+  static List<Question> bySpecialty(Especialidad specialty) {
+    final tagged = all.where((q) => q.specialtyTags.contains(specialty)).toList();
+    if (tagged.isNotEmpty) return tagged;
+    return byPillar(CompetencyPillar.pedagogico);
+  }
+
   static List<Question> forSession({
     required SessionMode mode,
     CompetencyPillar? pillar,
+    Especialidad? specialty,
     int count = 10,
     bool casesOnly = false,
   }) {
     if (mode == SessionMode.dailyStreak) return dailySet();
     if (mode == SessionMode.diagnostic) return diagnosticSet();
+    if (mode == SessionMode.speedBattle) {
+      final shuffled = [...all]..shuffle();
+      return shuffled.take(30).toList();
+    }
     var source = casesOnly
         ? caseStudies()
-        : pillar == null
-            ? all
-            : byPillar(pillar);
+        : specialty != null
+            ? bySpecialty(specialty)
+            : pillar == null
+                ? all
+                : byPillar(pillar);
     if (source.isEmpty) source = all;
     final shuffled = [...source]..shuffle();
     return shuffled.take(count.clamp(1, shuffled.length)).toList();
