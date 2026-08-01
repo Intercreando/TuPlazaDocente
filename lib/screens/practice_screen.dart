@@ -1,0 +1,177 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_animate/flutter_animate.dart';
+import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
+
+import '../models/enums.dart';
+import '../state/app_state.dart';
+import '../theme/app_colors.dart';
+import '../widgets/option_tile.dart';
+
+/// Modo práctica / racha / diagnóstico con explicación inmediata.
+class PracticeScreen extends StatelessWidget {
+  const PracticeScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final state = context.watch<AppState>();
+    final theme = Theme.of(context);
+    final question = state.currentQuestion;
+
+    if (question == null) {
+      return Scaffold(
+        appBar: AppBar(title: const Text('Práctica')),
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(24),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  state.lastError ?? 'No hay una sesión activa.',
+                  style: theme.textTheme.bodyLarge,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                FilledButton(
+                  onPressed: () => context.go('/app'),
+                  child: const Text('Volver al inicio'),
+                ),
+              ],
+            ),
+          ),
+        ),
+      );
+    }
+
+    final letters = ['A', 'B', 'C', 'D'];
+    final progress = (state.currentIndex + 1) / state.currentQuestions.length;
+    final title = switch (state.currentMode) {
+      SessionMode.dailyStreak => 'Reto diario',
+      SessionMode.diagnostic => 'Diagnóstico inicial',
+      _ => 'Modo práctica',
+    };
+
+    return Scaffold(
+      appBar: AppBar(
+        title: Text(title),
+        leading: IconButton(
+          icon: const Icon(Icons.close),
+          onPressed: () {
+            state.clearSession();
+            context.go('/app');
+          },
+        ),
+      ),
+      body: Center(
+        child: ConstrainedBox(
+          constraints: const BoxConstraints(maxWidth: 760),
+          child: ListView(
+            padding: const EdgeInsets.fromLTRB(20, 8, 20, 28),
+            children: [
+              ClipRRect(
+                borderRadius: BorderRadius.circular(99),
+                child: LinearProgressIndicator(value: progress, minHeight: 8),
+              ),
+              const SizedBox(height: 10),
+              Text(
+                'Pregunta ${state.currentIndex + 1} de ${state.currentQuestions.length}',
+                style: theme.textTheme.labelMedium,
+              ),
+              const SizedBox(height: 14),
+              Wrap(
+                spacing: 8,
+                runSpacing: 8,
+                children: [
+                  Chip(label: Text(question.pillar.label)),
+                  Chip(label: Text(question.topic)),
+                  if (question.isCaseStudy)
+                    const Chip(
+                      avatar: Icon(Icons.apartment_outlined, size: 16),
+                      label: Text('Caso de aula'),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 14),
+              if (question.caseContext != null) ...[
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: AppColors.skyLine.withValues(alpha: 0.10),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: AppColors.skyLine.withValues(alpha: 0.35)),
+                  ),
+                  child: Text(question.caseContext!, style: theme.textTheme.bodyMedium),
+                ),
+                const SizedBox(height: 14),
+              ],
+              Text(question.stem, style: theme.textTheme.titleLarge)
+                  .animate(key: ValueKey(question.id))
+                  .fadeIn(duration: 300.ms)
+                  .slideY(begin: 0.04, end: 0),
+              const SizedBox(height: 18),
+              ...List.generate(question.options.length, (i) {
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: OptionTile(
+                    letter: letters[i],
+                    label: question.options[i],
+                    selected: state.selectedOption == i,
+                    showResult: state.revealed,
+                    isCorrect: i == question.correctIndex,
+                    onTap: () => state.selectOption(i),
+                  ),
+                );
+              }),
+              if (state.revealed) ...[
+                const SizedBox(height: 8),
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.all(16),
+                  decoration: BoxDecoration(
+                    color: AppColors.mist.withValues(
+                      alpha: theme.brightness == Brightness.dark ? 0.12 : 1,
+                    ),
+                    borderRadius: BorderRadius.circular(16),
+                    border: Border.all(color: AppColors.canopy.withValues(alpha: 0.35)),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text('Retroalimentación pedagógica', style: theme.textTheme.titleSmall),
+                      const SizedBox(height: 8),
+                      Text(question.explanation, style: theme.textTheme.bodyMedium),
+                      if (question.normativeRefs.isNotEmpty) ...[
+                        const SizedBox(height: 10),
+                        Text(
+                          'Referencias: ${question.normativeRefs.join(' · ')}',
+                          style: theme.textTheme.labelMedium,
+                        ),
+                      ],
+                    ],
+                  ),
+                ).animate().fadeIn(duration: 280.ms),
+              ],
+              const SizedBox(height: 20),
+              FilledButton(
+                onPressed: state.selectedOption == null
+                    ? null
+                    : () async {
+                        if (!state.revealed) {
+                          state.revealPracticeAnswer();
+                          return;
+                        }
+                        final finished = await state.submitAndAdvance();
+                        if (!context.mounted) return;
+                        if (finished) context.go('/results');
+                      },
+                child: Text(state.revealed ? 'Siguiente' : 'Verificar'),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}

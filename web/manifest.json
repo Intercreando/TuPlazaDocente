@@ -1,0 +1,37 @@
+{
+  "name": "TuPlazaDocente",
+  "short_name": "TuPlaza",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#F5F8F6",
+  "theme_color": "#0C2F2B",
+  "description": "Entrenador táctico del Concurso Docente del Magisterio (CNSC/ICFES).",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "lang": "es-CO",
+  "categories": ["education", "productivity"],
+  "icons": [
+    {
+      "src": "icons/Icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/Icon-maskable-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "icons/Icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

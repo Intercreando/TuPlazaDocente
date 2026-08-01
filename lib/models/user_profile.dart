@@ -1,0 +1,168 @@
+import 'enums.dart';
+
+/// Perfil del aspirante y progreso persistente.
+class UserProfile {
+  const UserProfile({
+    this.displayName = '',
+    this.cargo,
+    this.especialidad,
+    this.onboardingComplete = false,
+    this.isPremium = false,
+    this.darkMode = false,
+    this.streakDays = 0,
+    this.lastStreakDate,
+    this.dailyCompletedToday = false,
+    this.examDate,
+    this.topicMastery = const {},
+    this.pillarCorrect = const {},
+    this.pillarTotal = const {},
+    this.completedPlanTaskIds = const [],
+    this.planTaskDate,
+  });
+
+  final String displayName;
+  final CargoAspiracion? cargo;
+  final Especialidad? especialidad;
+  final bool onboardingComplete;
+  final bool isPremium;
+  final bool darkMode;
+  final int streakDays;
+  final DateTime? lastStreakDate;
+  final bool dailyCompletedToday;
+  final DateTime? examDate;
+  final Map<String, double> topicMastery;
+  final Map<String, int> pillarCorrect;
+  final Map<String, int> pillarTotal;
+  final List<String> completedPlanTaskIds;
+  final DateTime? planTaskDate;
+
+  int get totalAnswers =>
+      pillarTotal.values.fold<int>(0, (sum, value) => sum + value);
+
+  UserProfile copyWith({
+    String? displayName,
+    CargoAspiracion? cargo,
+    Especialidad? especialidad,
+    bool? onboardingComplete,
+    bool? isPremium,
+    bool? darkMode,
+    int? streakDays,
+    DateTime? lastStreakDate,
+    bool? dailyCompletedToday,
+    DateTime? examDate,
+    Map<String, double>? topicMastery,
+    Map<String, int>? pillarCorrect,
+    Map<String, int>? pillarTotal,
+    List<String>? completedPlanTaskIds,
+    DateTime? planTaskDate,
+  }) {
+    return UserProfile(
+      displayName: displayName ?? this.displayName,
+      cargo: cargo ?? this.cargo,
+      especialidad: especialidad ?? this.especialidad,
+      onboardingComplete: onboardingComplete ?? this.onboardingComplete,
+      isPremium: isPremium ?? this.isPremium,
+      darkMode: darkMode ?? this.darkMode,
+      streakDays: streakDays ?? this.streakDays,
+      lastStreakDate: lastStreakDate ?? this.lastStreakDate,
+      dailyCompletedToday: dailyCompletedToday ?? this.dailyCompletedToday,
+      examDate: examDate ?? this.examDate,
+      topicMastery: topicMastery ?? this.topicMastery,
+      pillarCorrect: pillarCorrect ?? this.pillarCorrect,
+      pillarTotal: pillarTotal ?? this.pillarTotal,
+      completedPlanTaskIds: completedPlanTaskIds ?? this.completedPlanTaskIds,
+      planTaskDate: planTaskDate ?? this.planTaskDate,
+    );
+  }
+
+  double pillarAccuracy(CompetencyPillar pillar) {
+    final total = pillarTotal[pillar.name] ?? 0;
+    if (total == 0) return 0;
+    final correct = pillarCorrect[pillar.name] ?? 0;
+    return correct / total;
+  }
+
+  String get weakestPillarLabel {
+    CompetencyPillar? weakest;
+    var lowest = 2.0;
+    for (final pillar in CompetencyPillar.values) {
+      final acc = pillarAccuracy(pillar);
+      final total = pillarTotal[pillar.name] ?? 0;
+      if (total == 0) continue;
+      if (acc < lowest) {
+        lowest = acc;
+        weakest = pillar;
+      }
+    }
+    return weakest?.label ?? 'Componente Pedagógico';
+  }
+
+  Map<String, dynamic> toJson() => {
+        'displayName': displayName,
+        'cargo': cargo?.name,
+        'especialidad': especialidad?.name,
+        'onboardingComplete': onboardingComplete,
+        'isPremium': isPremium,
+        'darkMode': darkMode,
+        'streakDays': streakDays,
+        'lastStreakDate': lastStreakDate?.toIso8601String(),
+        'dailyCompletedToday': dailyCompletedToday,
+        'examDate': examDate?.toIso8601String(),
+        'topicMastery': topicMastery,
+        'pillarCorrect': pillarCorrect,
+        'pillarTotal': pillarTotal,
+        'completedPlanTaskIds': completedPlanTaskIds,
+        'planTaskDate': planTaskDate?.toIso8601String(),
+      };
+
+  factory UserProfile.fromJson(Map<String, dynamic> json) {
+    DateTime? parseDate(String? value) =>
+        value == null ? null : DateTime.tryParse(value);
+
+    Map<String, double> mastery = {};
+    final rawMastery = json['topicMastery'];
+    if (rawMastery is Map) {
+      mastery = rawMastery.map(
+        (k, v) => MapEntry(k.toString(), (v as num).toDouble()),
+      );
+    }
+
+    Map<String, int> readIntMap(String key) {
+      final raw = json[key];
+      if (raw is! Map) return {};
+      return raw.map((k, v) => MapEntry(k.toString(), (v as num).toInt()));
+    }
+
+    final rawTasks = json['completedPlanTaskIds'];
+    final tasks = rawTasks is List
+        ? rawTasks.map((e) => e.toString()).toList()
+        : <String>[];
+
+    return UserProfile(
+      displayName: (json['displayName'] as String?) ?? '',
+      cargo: _enumByName(CargoAspiracion.values, json['cargo'] as String?),
+      especialidad:
+          _enumByName(Especialidad.values, json['especialidad'] as String?),
+      onboardingComplete: json['onboardingComplete'] as bool? ?? false,
+      isPremium: json['isPremium'] as bool? ?? false,
+      darkMode: json['darkMode'] as bool? ?? false,
+      streakDays: json['streakDays'] as int? ?? 0,
+      lastStreakDate: parseDate(json['lastStreakDate'] as String?),
+      dailyCompletedToday: json['dailyCompletedToday'] as bool? ?? false,
+      examDate: parseDate(json['examDate'] as String?),
+      topicMastery: mastery,
+      pillarCorrect: readIntMap('pillarCorrect'),
+      pillarTotal: readIntMap('pillarTotal'),
+      completedPlanTaskIds: tasks,
+      planTaskDate: parseDate(json['planTaskDate'] as String?),
+    );
+  }
+}
+
+T? _enumByName<T extends Enum>(List<T> values, String? name) {
+  if (name == null) return null;
+  for (final value in values) {
+    if (value.name == name) return value;
+  }
+  return null;
+}

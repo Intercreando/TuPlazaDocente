@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="TuPlazaDocente: entrenador táctico del Concurso Docente CNSC/ICFES. Microlearning, radar de competencias y simulacros con control de tiempo.">
+  <meta name="theme-color" content="#0C2F2B">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="TuPlazaDocente">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <link rel="icon" type="image/png" href="favicon.png"/>
+  <title>TuPlazaDocente</title>
+  <link rel="manifest" href="manifest.json">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      background:
+        radial-gradient(circle at 20% 10%, #3FAE9640, transparent 40%),
+        radial-gradient(circle at 90% 80%, #E3A00830, transparent 35%),
+        #F5F8F6;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      color: #12201E;
+    }
+    .boot {
+      min-height: 100%;
+      display: grid;
+      place-items: center;
+      text-align: center;
+      padding: 24px;
+    }
+    .mark {
+      width: 64px;
+      height: 64px;
+      border-radius: 18px;
+      display: grid;
+      place-items: center;
+      margin: 0 auto 16px;
+      background: linear-gradient(135deg, #0C2F2B, #1F6B5C);
+      color: #E3A008;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .title {
+      font-size: 1.4rem;
+      font-weight: 700;
+      margin: 0 0 6px;
+    }
+    .sub {
+      margin: 0;
+      opacity: 0.75;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="boot" id="boot">
+    <div>
+      <div class="mark">TP</div>
+      <p class="title">TuPlazaDocente</p>
+      <p class="sub">Cargando tu entrenador del concurso…</p>
+    </div>
+  </div>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>
