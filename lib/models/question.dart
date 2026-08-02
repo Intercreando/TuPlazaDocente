@@ -1,6 +1,7 @@
 import 'enums.dart';
+import 'knowledge_taxonomy.dart';
 
-/// Pregunta del banco con explicación pedagógica.
+/// Pregunta del banco con cerebro pedagógico (norma + teoría + distractores).
 class Question {
   const Question({
     required this.id,
@@ -15,6 +16,14 @@ class Question {
     this.caseContext,
     this.normativeRefs = const [],
     this.specialtyTags = const [],
+    this.module,
+    this.subtopic,
+    this.targetCargo,
+    this.knowledgeTags = const [],
+    this.normativeJustification,
+    this.theoreticalJustification,
+    this.distractorAnalysis = const {},
+    this.recommendedSeconds,
   });
 
   final String id;
@@ -30,7 +39,57 @@ class Question {
   final List<String> normativeRefs;
   final List<Especialidad> specialtyTags;
 
+  /// Campos del cerebro enriquecido (estándar oro).
+  final ContentModule? module;
+  final String? subtopic;
+  final Especialidad? targetCargo;
+  final List<KnowledgeTag> knowledgeTags;
+  final String? normativeJustification;
+  final String? theoreticalJustification;
+
+  /// Clave = índice de opción (0..n). Explica por qué es distractor.
+  final Map<int, String> distractorAnalysis;
+
+  /// Override opcional de `tiempo_recomendado_seg` en JSON.
+  /// Si es null, se usa el default del nivel de dificultad.
+  final int? recommendedSeconds;
+
   bool isCorrect(int selectedIndex) => selectedIndex == correctIndex;
+
+  /// Alias JSON: `dificultad` (1 = rápida, 2 = estándar, 3 = alta exigencia).
+  int get dificultad => difficulty.level;
+
+  /// Alias JSON: `tiempo_recomendado_seg`.
+  int get tiempoRecomendadoSeg =>
+      recommendedSeconds ?? difficulty.defaultSeconds;
+
+  /// Compatibilidad con el nombre anterior del campo.
+  int get expectedSeconds => tiempoRecomendadoSeg;
+
+  String get moduleLabel => module?.label ?? pillar.label;
+
+  String get subtopicLabel => subtopic ?? topic;
+
+  /// Retroalimentación unificada para ítems antiguos y nuevos.
+  String get richFeedback {
+    final parts = <String>[];
+    if (normativeJustification != null && normativeJustification!.isNotEmpty) {
+      parts.add(normativeJustification!);
+    }
+    if (theoreticalJustification != null &&
+        theoreticalJustification!.isNotEmpty) {
+      parts.add(theoreticalJustification!);
+    }
+    if (parts.isEmpty) return explanation;
+    return parts.join('\n\n');
+  }
+
+  List<String> get referenceLabels {
+    if (knowledgeTags.isNotEmpty) {
+      return knowledgeTags.map((t) => t.display).toList();
+    }
+    return normativeRefs;
+  }
 }
 
 /// Registro de respuesta para métricas y mapa de calor.

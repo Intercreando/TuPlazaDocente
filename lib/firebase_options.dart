@@ -29,7 +29,8 @@ class DefaultFirebaseOptions {
     appId: '1:472139054798:web:aef4f94fa8e5bc7e845a9f',
     messagingSenderId: '472139054798',
     projectId: 'tuplazadocente-9334d',
-    authDomain: 'tuplazadocente-9334d.firebaseapp.com',
+    // Dominio propio para que Google muestre tuplazadocente.com (no *.firebaseapp.com).
+    authDomain: 'tuplazadocente.com',
     storageBucket: 'tuplazadocente-9334d.firebasestorage.app',
     measurementId: 'G-R8PQ3JBS6K',
   );

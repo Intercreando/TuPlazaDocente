@@ -174,9 +174,12 @@ class FirebaseSyncService {
   Future<void> saveRemoteProfile(UserProfile profile) async {
     if (!available || uid == null) return;
     try {
+      // isPremium solo lo escribe el backend (Mercado Pago / códigos).
+      final data = Map<String, dynamic>.from(profile.toJson())
+        ..remove('isPremium');
       await _db.collection('users').doc(uid).set(
         {
-          ...profile.toJson(),
+          ...data,
           'email': email,
           'authProvider': isAnonymous ? 'anonymous' : 'registered',
           'updatedAt': FieldValue.serverTimestamp(),

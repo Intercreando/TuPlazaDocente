@@ -8,7 +8,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 
-/// Paywall freemium con Mercado Pago / código / demo.
+/// Paywall freemium con Mercado Pago (Cloud Function) / código / demo.
 class PremiumScreen extends StatefulWidget {
   const PremiumScreen({super.key});
 
@@ -19,6 +19,43 @@ class PremiumScreen extends StatefulWidget {
 class _PremiumScreenState extends State<PremiumScreen> {
   final _codeController = TextEditingController();
   bool _busy = false;
+  String? _returnStatus;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final status = GoRouterState.of(context).uri.queryParameters['status'];
+    if (status != null && status != _returnStatus) {
+      _returnStatus = status;
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        _handleReturnStatus(status);
+      });
+    }
+  }
+
+  Future<void> _handleReturnStatus(String status) async {
+    final state = context.read<AppState>();
+    final messenger = ScaffoldMessenger.of(context);
+    if (status == 'success' || status == 'pending') {
+      await state.refreshPremiumFromCloud();
+      if (!mounted) return;
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            state.profile.isPremium
+                ? 'Pago confirmado. ¡Ya eres Premium!'
+                : 'Pago recibido. Si aún no aparece Premium, espera unos segundos y recarga.',
+          ),
+        ),
+      );
+    } else if (status == 'failure') {
+      messenger.showSnackBar(
+        const SnackBar(
+          content: Text('El pago no se completó. Puedes intentar de nuevo.'),
+        ),
+      );
+    }
+  }
 
   @override
   void dispose() {
@@ -27,25 +64,43 @@ class _PremiumScreenState extends State<PremiumScreen> {
   }
 
   Future<void> _openMercadoPago() async {
-    if (!AppConfig.hasMercadoPagoCheckout) {
-      ScaffoldMessenger.of(context).showSnackBar(
+    final state = context.read<AppState>();
+    final messenger = ScaffoldMessenger.of(context);
+    if (state.isAnonymousUser) {
+      messenger.showSnackBar(
         const SnackBar(
           content: Text(
-            'Mercado Pago aún no está configurado. Usa un código o activa la demo, '
-            'o define MP_CHECKOUT_URL en el build.',
+            'Para pagar Premium, guarda tu cuenta con Google o correo primero.',
           ),
         ),
       );
+      context.push('/auth');
       return;
     }
 
-    final uri = Uri.parse(AppConfig.mercadoPagoCheckoutUrl);
-    final ok = await launchUrl(uri, mode: LaunchMode.externalApplication);
-    if (!mounted) return;
-    if (!ok) {
-      ScaffoldMessenger.of(context).showSnackBar(
-        const SnackBar(content: Text('No pudimos abrir el checkout de pago.')),
+    setState(() => _busy = true);
+    try {
+      final url = await state.startMercadoPagoCheckout();
+      final ok = await launchUrl(
+        Uri.parse(url),
+        mode: LaunchMode.externalApplication,
       );
+      if (!ok && mounted) {
+        messenger.showSnackBar(
+          const SnackBar(content: Text('No pudimos abrir Mercado Pago.')),
+        );
+      }
+    } catch (_) {
+      if (!mounted) return;
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            state.lastError ?? 'No pudimos iniciar el checkout.',
+          ),
+        ),
+      );
+    } finally {
+      if (mounted) setState(() => _busy = false);
     }
   }
 
@@ -78,7 +133,10 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       icon: const Icon(Icons.close),
                     ),
                   ),
-                  Text('Premium por convocatoria', style: theme.textTheme.headlineMedium),
+                  Text(
+                    'Premium por convocatoria',
+                    style: theme.textTheme.headlineMedium,
+                  ),
                   const SizedBox(height: 8),
                   Text(
                     'Acceso ilimitado al banco explicado, simulacros cronometrados, '
@@ -118,10 +176,15 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     FilledButton.icon(
                       onPressed: _busy ? null : _openMercadoPago,
                       icon: const Icon(Icons.payments_outlined),
-                      label: const Text('Pagar con Mercado Pago'),
+                      label: Text(
+                        _busy ? 'Creando checkout…' : 'Pagar con Mercado Pago',
+                      ),
                     ),
                     const SizedBox(height: 12),
-                    Text('¿Tienes código de acceso?', style: theme.textTheme.titleSmall),
+                    Text(
+                      '¿Tienes código de acceso?',
+                      style: theme.textTheme.titleSmall,
+                    ),
                     const SizedBox(height: 8),
                     TextField(
                       controller: _codeController,
@@ -162,18 +225,25 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       onPressed: _busy
                           ? null
                           : () async {
-                              await state.activatePremiumDemo();
-                              if (!context.mounted) return;
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                const SnackBar(
+                              final messenger = ScaffoldMessenger.of(context);
+                              final router = GoRouter.of(context);
+                              setState(() => _busy = true);
+                              final ok = await state.activatePremiumDemo();
+                              if (!mounted) return;
+                              setState(() => _busy = false);
+                              messenger.showSnackBar(
+                                SnackBar(
                                   content: Text(
-                                    'Premium demo activado en este dispositivo.',
+                                    ok
+                                        ? 'Premium demo activado.'
+                                        : state.lastError ??
+                                            'No se pudo activar la demo.',
                                   ),
                                 ),
                               );
-                              context.go('/app');
+                              if (ok) router.go('/app');
                             },
-                      child: const Text('Activar demo (sin pago)'),
+                      child: const Text('Activar demo (código DEMO-LOCAL)'),
                     ),
                   ],
                 ],

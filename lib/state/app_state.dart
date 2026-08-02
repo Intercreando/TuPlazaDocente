@@ -3,30 +3,45 @@ import 'dart:convert';
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../config/app_config.dart';
 import '../data/question_bank.dart';
 import '../models/enums.dart';
 import '../models/question.dart';
 import '../models/study_plan.dart';
 import '../models/user_profile.dart';
 import '../services/firebase_sync_service.dart';
+import '../services/payment_service.dart';
+import '../services/question_repository.dart';
+import '../services/streak_notification_service.dart';
 import '../services/study_plan_service.dart';
+import '../services/tag_mastery_service.dart';
 
 /// Estado global de progreso, perfil y sesiones.
 class AppState extends ChangeNotifier {
-  AppState({FirebaseSyncService? syncService})
-      : _sync = syncService ?? FirebaseSyncService();
+  AppState({
+    FirebaseSyncService? syncService,
+    PaymentService? paymentService,
+    StreakNotificationService? notificationService,
+    QuestionRepository? questionRepository,
+  })  : _sync = syncService ?? FirebaseSyncService(),
+        _payments = paymentService ?? PaymentService(),
+        _notifications = notificationService ?? StreakNotificationService(),
+        _questions = questionRepository ?? QuestionRepository();
 
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const freeDailyLimit = 5;
   static const freeMonthlyShortExams = 1;
 
   final FirebaseSyncService _sync;
+  final PaymentService _payments;
+  final StreakNotificationService _notifications;
+  final QuestionRepository _questions;
 
   UserProfile profile = const UserProfile();
   bool ready = false;
   String? lastError;
   String? syncStatus;
+  String questionSource = 'local';
+  int questionCount = 0;
 
   List<Question> currentQuestions = [];
   SessionMode? currentMode;
@@ -101,15 +116,27 @@ class AppState extends ChangeNotifier {
             'Modo local: activa Auth anónimo en Firebase para sincronizar.';
       }
 
+      await _questions.loadIntoBank();
+      questionSource = _questions.source;
+      questionCount = QuestionBank.all.length;
+
       ready = true;
       lastError = null;
       notifyListeners();
+      await _maybeRemindStreak();
     } catch (e) {
       ready = true;
       lastError = 'No pudimos cargar tu progreso. Empezaremos limpio.';
       profile = const UserProfile();
       notifyListeners();
     }
+  }
+
+  Future<void> _maybeRemindStreak() async {
+    if (!profile.streakRemindersEnabled || profile.dailyCompletedToday) {
+      return;
+    }
+    await _notifications.showStreakReminder(streakDays: profile.streakDays);
   }
 
   Future<void> persistNow() => _persist();
@@ -188,24 +215,74 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> activatePremiumDemo() async {
-    profile = profile.copyWith(isPremium: true);
+  Future<bool> activatePremiumDemo() async {
+    return activatePremiumWithCode('DEMO-LOCAL');
+  }
+
+  Future<bool> activatePremiumWithCode(String code) async {
+    try {
+      await _payments.activateWithCode(code);
+      final remote = await _sync.loadRemoteProfile();
+      if (remote != null) {
+        profile = remote.copyWith(
+          // Conserva preferencias locales no críticas.
+          darkMode: profile.darkMode,
+          streakRemindersEnabled: profile.streakRemindersEnabled,
+        );
+      } else {
+        profile = profile.copyWith(isPremium: true);
+      }
+      lastError = null;
+      await _persist();
+      notifyListeners();
+      return true;
+    } catch (e) {
+      lastError = e.toString().replaceFirst('Exception: ', '');
+      notifyListeners();
+      return false;
+    }
+  }
+
+  Future<String> startMercadoPagoCheckout() async {
+    try {
+      final url = await _payments.createCheckoutUrl();
+      lastError = null;
+      return url;
+    } catch (e) {
+      lastError = e.toString().replaceFirst('Exception: ', '');
+      notifyListeners();
+      rethrow;
+    }
+  }
+
+  Future<bool> enableStreakReminders() async {
+    final granted = await _notifications.requestPermission();
+    if (!granted) {
+      lastError =
+          'Permiso de notificaciones denegado. Actívalo en el navegador para la racha.';
+      notifyListeners();
+      return false;
+    }
+    profile = profile.copyWith(streakRemindersEnabled: true);
+    lastError = null;
+    await _persist();
+    await _notifications.showStreakReminder(streakDays: profile.streakDays);
+    notifyListeners();
+    return true;
+  }
+
+  Future<void> disableStreakReminders() async {
+    profile = profile.copyWith(streakRemindersEnabled: false);
     await _persist();
     notifyListeners();
   }
 
-  Future<bool> activatePremiumWithCode(String code) async {
-    final normalized = code.trim().toUpperCase();
-    if (!AppConfig.premiumAccessCodes.contains(normalized)) {
-      lastError = 'Código inválido. Verifica e intenta de nuevo.';
-      notifyListeners();
-      return false;
-    }
-    profile = profile.copyWith(isPremium: true);
-    lastError = null;
+  Future<void> refreshPremiumFromCloud() async {
+    final remote = await _sync.loadRemoteProfile();
+    if (remote == null) return;
+    profile = profile.copyWith(isPremium: remote.isPremium);
     await _persist();
     notifyListeners();
-    return true;
   }
 
   Future<bool> signInWithEmail(String email, String password) async {
@@ -275,6 +352,8 @@ class AppState extends ChangeNotifier {
     int count = 10,
     bool casesOnly = false,
     String? planTaskId,
+    int? difficultyLevel,
+    int? minDifficultyLevel,
   }) {
     if (mode == SessionMode.exam && !canStartShortExam) {
       lastError =
@@ -293,6 +372,8 @@ class AppState extends ChangeNotifier {
               ? 30
               : count,
       casesOnly: casesOnly,
+      difficultyLevel: difficultyLevel,
+      minDifficultyLevel: minDifficultyLevel,
     );
     currentMode = mode;
     currentIndex = 0;
@@ -398,10 +479,25 @@ class AppState extends ChangeNotifier {
     mastery[question.topic] =
         (prev + (correct ? 0.08 : -0.06)).clamp(0.05, 0.98);
 
+    // Mapa de Maestría por etiquetas del cerebro (norma / teoría / referente).
+    final tagCorrect = Map<String, int>.from(profile.tagCorrect);
+    final tagTotal = Map<String, int>.from(profile.tagTotal);
+    final seen = <String>{};
+    for (final tag in question.knowledgeTags) {
+      final key = tag.code.name;
+      if (!seen.add(key)) continue;
+      tagTotal[key] = (tagTotal[key] ?? 0) + 1;
+      if (correct) {
+        tagCorrect[key] = (tagCorrect[key] ?? 0) + 1;
+      }
+    }
+
     profile = profile.copyWith(
       pillarCorrect: pillarCorrect,
       pillarTotal: pillarTotal,
       topicMastery: mastery,
+      tagCorrect: tagCorrect,
+      tagTotal: tagTotal,
     );
   }
 
@@ -487,6 +583,10 @@ class AppState extends ChangeNotifier {
   }
 
   String studyFocusMessage() {
+    // Prioriza el Mapa de Maestría por etiquetas (sensación de currículo, no de conteo).
+    if (profile.tagTotal.isNotEmpty || profile.totalAnswers > 0) {
+      return TagMasteryService.recommendationMessage(profile);
+    }
     final weak = profile.weakestPillarLabel;
     final numerica =
         (profile.pillarAccuracy(CompetencyPillar.aptitudNumerica) * 100).round();
@@ -495,9 +595,10 @@ class AppState extends ChangeNotifier {
     if ((profile.pillarTotal[CompetencyPillar.pedagogico.name] ?? 0) == 0 &&
         (profile.pillarTotal[CompetencyPillar.aptitudNumerica.name] ?? 0) ==
             0) {
-      return 'Completa tu reto diario para activar el Radar de Competencias.';
+      return 'Completa tu reto diario para activar el Mapa de Maestría por normas y teorías.';
     }
     return 'Tu Aptitud Numérica está al $numerica%, pero tu $weak '
         'necesita foco hoy (Pedagógico en ~$pedagogico%).';
   }
 }
+

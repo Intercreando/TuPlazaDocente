@@ -1,15 +1,42 @@
 import '../models/enums.dart';
 import '../models/question.dart';
+import 'calibrated_bank.dart';
 import 'extra_questions.dart';
+import 'gold_brain_bank.dart';
 import 'specialty_questions.dart';
 
-/// Banco inicial calibrado al estilo CNSC/ICFES (ítems originales).
+/// Banco calibrado al estilo CNSC/ICFES (local + remoto/asset).
 abstract final class QuestionBank {
-  static List<Question> get all => List.unmodifiable([
+  static List<Question> _remote = const [];
+
+  static List<Question> get _localBundle => [
+        ...GoldBrainBank.items,
         ..._items,
         ...ExtraQuestions.items,
         ...SpecialtyQuestions.items,
-      ]);
+        ...CalibratedBank.items,
+      ];
+
+  /// Preferencia: remoto/asset si existe; si no, bundle local.
+  static List<Question> get all {
+    if (_remote.isNotEmpty) {
+      final localIds = _remote.map((q) => q.id).toSet();
+      final extras =
+          _localBundle.where((q) => !localIds.contains(q.id)).toList();
+      return List.unmodifiable([..._remote, ...extras]);
+    }
+    return List.unmodifiable(_localBundle);
+  }
+
+  static void replaceRemote(List<Question> items) {
+    _remote = List.unmodifiable(items);
+  }
+
+  static void clearRemote() {
+    _remote = const [];
+  }
+
+  static int get remoteCount => _remote.length;
 
   static List<Question> byPillar(CompetencyPillar pillar) =>
       all.where((q) => q.pillar == pillar).toList();
@@ -37,19 +64,29 @@ abstract final class QuestionBank {
     return byPillar(CompetencyPillar.pedagogico);
   }
 
+  static List<Question> byDifficultyLevel(int level) =>
+      all.where((q) => q.dificultad == level).toList();
+
   static List<Question> forSession({
     required SessionMode mode,
     CompetencyPillar? pillar,
     Especialidad? specialty,
     int count = 10,
     bool casesOnly = false,
+    int? difficultyLevel,
+    int? minDifficultyLevel,
   }) {
     if (mode == SessionMode.dailyStreak) return dailySet();
     if (mode == SessionMode.diagnostic) return diagnosticSet();
+
+    // Reto rápido: solo nivel 1 (~45s por ítem).
     if (mode == SessionMode.speedBattle) {
-      final shuffled = [...all]..shuffle();
-      return shuffled.take(30).toList();
+      var fast = byDifficultyLevel(1);
+      if (fast.isEmpty) fast = [...all];
+      final shuffled = [...fast]..shuffle();
+      return shuffled.take(30.clamp(1, shuffled.length)).toList();
     }
+
     var source = casesOnly
         ? caseStudies()
         : specialty != null
@@ -57,6 +94,14 @@ abstract final class QuestionBank {
             : pillar == null
                 ? all
                 : byPillar(pillar);
+
+    if (difficultyLevel != null) {
+      source = source.where((q) => q.dificultad == difficultyLevel).toList();
+    } else if (minDifficultyLevel != null) {
+      source =
+          source.where((q) => q.dificultad >= minDifficultyLevel).toList();
+    }
+
     if (source.isEmpty) source = all;
     final shuffled = [...source]..shuffle();
     return shuffled.take(count.clamp(1, shuffled.length)).toList();

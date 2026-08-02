@@ -36,7 +36,10 @@ GoRouter createAppRouter(AppState appState) {
         '/premium',
       };
 
-      if (!onboarded && !publicPaths.contains(loc) && !loc.startsWith('/practice')) {
+      if (!onboarded &&
+          !publicPaths.contains(loc) &&
+          !loc.startsWith('/practice') &&
+          !loc.startsWith('/premium')) {
         return '/';
       }
 

@@ -9,7 +9,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/option_tile.dart';
 
-/// Reto de agilidad mental: 60 segundos, máxima cantidad de aciertos.
+/// Reto rápido: ítems nivel 1 con temporizador por pregunta (~45s).
 class SpeedBattleScreen extends StatefulWidget {
   const SpeedBattleScreen({super.key});
 
@@ -18,13 +18,14 @@ class SpeedBattleScreen extends StatefulWidget {
 }
 
 class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
-  static const _totalSeconds = 60;
   Timer? _timer;
-  int _remaining = _totalSeconds;
+  int _remaining = 45;
+  int _budget = 45;
   int _score = 0;
   int _attempts = 0;
   bool _finished = false;
   bool _busy = false;
+  int _trackedIndex = -1;
 
   @override
   void initState() {
@@ -35,17 +36,41 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
           state.currentQuestions.isEmpty) {
         state.startSession(mode: SessionMode.speedBattle);
       }
-      _startTimer();
+      _armForCurrentQuestion();
     });
   }
 
-  void _startTimer() {
+  void _armForCurrentQuestion() {
+    final state = context.read<AppState>();
+    final question = state.currentQuestion;
+    if (question == null) return;
+    if (state.currentIndex == _trackedIndex && _timer != null) return;
+    _trackedIndex = state.currentIndex;
     _timer?.cancel();
-    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+    _budget = question.tiempoRecomendadoSeg.clamp(20, 60);
+    _remaining = _budget;
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) async {
       if (!mounted || _finished) return;
       if (_remaining <= 1) {
         timer.cancel();
-        _finish();
+        // Tiempo agotado: fuerza una opción incorrecta y avanza.
+        final app = context.read<AppState>();
+        final q = app.currentQuestion;
+        if (q != null) {
+          final wrong = (q.correctIndex + 1) % q.options.length;
+          app.selectOption(wrong);
+        }
+        setState(() {
+          _attempts += 1;
+        });
+        final depleted = await app.submitAndAdvance();
+        if (!mounted) return;
+        if (depleted || app.currentQuestion == null) {
+          await _finish();
+        } else {
+          _armForCurrentQuestion();
+          setState(() {});
+        }
         return;
       }
       setState(() => _remaining -= 1);
@@ -56,8 +81,7 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
     if (_finished) return;
     setState(() => _finished = true);
     _timer?.cancel();
-    final state = context.read<AppState>();
-    await state.persistNow();
+    await context.read<AppState>().persistNow();
   }
 
   Future<void> _answer(int index) async {
@@ -80,6 +104,9 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
 
     if (depleted || state.currentQuestion == null) {
       await _finish();
+    } else {
+      _armForCurrentQuestion();
+      setState(() {});
     }
   }
 
@@ -95,11 +122,11 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
     final theme = Theme.of(context);
     final question = state.currentQuestion;
     final letters = ['A', 'B', 'C', 'D'];
-    final urgent = _remaining <= 10;
+    final urgent = _remaining <= (_budget * 0.25).ceil().clamp(6, 12);
 
     if (_finished) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Reto 60s')),
+        appBar: AppBar(title: const Text('Reto rápido')),
         body: Center(
           child: ConstrainedBox(
             constraints: const BoxConstraints(maxWidth: 520),
@@ -108,7 +135,7 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
               child: Column(
                 mainAxisSize: MainAxisSize.min,
                 children: [
-                  Text('Tiempo terminado', style: theme.textTheme.headlineMedium),
+                  Text('Reto terminado', style: theme.textTheme.headlineMedium),
                   const SizedBox(height: 12),
                   Text(
                     'Aciertos: $_score / $_attempts',
@@ -118,9 +145,7 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    _score >= 8
-                        ? 'Agilidad alta. Mantén este ritmo en lectura y numérica.'
-                        : 'Buen intento. Practica bloques cortos para subir velocidad sin perder criterio.',
+                    'Modo nivel 1 · tiempo por ítem según tiempo_recomendado_seg',
                     style: theme.textTheme.bodyLarge,
                     textAlign: TextAlign.center,
                   ),
@@ -137,13 +162,13 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
                     onPressed: () {
                       setState(() {
                         _finished = false;
-                        _remaining = _totalSeconds;
                         _score = 0;
                         _attempts = 0;
                         _busy = false;
+                        _trackedIndex = -1;
                       });
                       state.startSession(mode: SessionMode.speedBattle);
-                      _startTimer();
+                      _armForCurrentQuestion();
                     },
                     child: const Text('Repetir reto'),
                   ),
@@ -157,14 +182,14 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
 
     if (question == null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Reto 60s')),
+        appBar: AppBar(title: const Text('Reto rápido')),
         body: const Center(child: CircularProgressIndicator()),
       );
     }
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Reto 60s'),
+        title: const Text('Reto rápido · N1'),
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () async {
@@ -197,14 +222,17 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
                 children: [
                   Text('Aciertos: $_score', style: theme.textTheme.titleMedium),
                   const Spacer(),
-                  Text('Intentos: $_attempts', style: theme.textTheme.labelLarge),
+                  Text(
+                    'Nivel ${question.dificultad} · ${question.tiempoRecomendadoSeg}s',
+                    style: theme.textTheme.labelLarge,
+                  ),
                 ],
               ),
               const SizedBox(height: 8),
               ClipRRect(
                 borderRadius: BorderRadius.circular(99),
                 child: LinearProgressIndicator(
-                  value: _remaining / _totalSeconds,
+                  value: _remaining / _budget,
                   minHeight: 8,
                   color: urgent ? AppColors.coral : AppColors.goldDeep,
                 ),

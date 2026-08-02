@@ -43,7 +43,24 @@ enum SessionMode {
 }
 
 enum QuestionDifficulty {
-  basico,
-  intermedio,
-  avanzado,
+  /// Nivel 1 — Reto rápido (~45s).
+  basico(1, 45, 'Rápida'),
+
+  /// Nivel 2 — Simulacro estándar (~90s).
+  intermedio(2, 90, 'Estándar'),
+
+  /// Nivel 3 — Alta exigencia / casos largos (~120s).
+  avanzado(3, 120, 'Alta exigencia');
+
+  const QuestionDifficulty(this.level, this.defaultSeconds, this.label);
+  final int level;
+  final int defaultSeconds;
+  final String label;
+
+  static QuestionDifficulty fromLevel(int level) {
+    return QuestionDifficulty.values.firstWhere(
+      (d) => d.level == level,
+      orElse: () => QuestionDifficulty.intermedio,
+    );
+  }
 }

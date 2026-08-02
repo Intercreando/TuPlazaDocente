@@ -4,10 +4,12 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
+import '../services/tag_mastery_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
+import '../widgets/tag_mastery_map.dart';
 
 /// Home: racha, plan del día y accesos a modos estrella.
 class HomeScreen extends StatelessWidget {
@@ -76,38 +78,114 @@ class HomeScreen extends StatelessWidget {
                   },
                 ).animate().fadeIn(duration: 450.ms).slideY(begin: 0.05, end: 0),
                 const SizedBox(height: 14),
-                Container(
-                  padding: const EdgeInsets.all(18),
-                  decoration: BoxDecoration(
-                    color: isDark ? AppColors.darkSurface : AppColors.white,
-                    borderRadius: BorderRadius.circular(20),
-                    border: Border.all(color: theme.colorScheme.outline),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: [
-                      Text('Foco recomendado', style: theme.textTheme.titleMedium),
-                      const SizedBox(height: 8),
-                      Text(state.studyFocusMessage(), style: theme.textTheme.bodyMedium),
-                      const SizedBox(height: 12),
-                      Text(
-                        'Plan de hoy: ${state.todayPlan.completedCount}/'
-                        '${state.todayPlan.tasks.length} bloques · '
-                        '${state.todayPlan.intensityLabel}',
-                        style: theme.textTheme.labelLarge,
+                Builder(
+                  builder: (context) {
+                    final masteryRows =
+                        TagMasteryService.buildMap(profile);
+                    final recommended =
+                        TagMasteryService.recommendedToday(profile);
+                    return Container(
+                      padding: const EdgeInsets.all(18),
+                      decoration: BoxDecoration(
+                        color: isDark ? AppColors.darkSurface : AppColors.white,
+                        borderRadius: BorderRadius.circular(20),
+                        border: Border.all(color: theme.colorScheme.outline),
                       ),
-                      const SizedBox(height: 10),
-                      OutlinedButton(
-                        onPressed: () => context.go('/app/plan'),
-                        child: const Text('Abrir plan diario'),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Mapa de Maestría',
+                            style: theme.textTheme.titleMedium,
+                          ),
+                          const SizedBox(height: 6),
+                          Text(
+                            'No contamos ítems: medimos dominio por norma y teoría. '
+                            'Tu currículo de competencias se construye con cada respuesta.',
+                            style: theme.textTheme.bodyMedium,
+                          ),
+                          const SizedBox(height: 12),
+                          TagMasteryMap(
+                            rows: masteryRows,
+                            compact: true,
+                            maxItems: 4,
+                            recommendedCode: recommended?.code.name,
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            state.studyFocusMessage(),
+                            style: theme.textTheme.labelLarge,
+                          ),
+                          const SizedBox(height: 12),
+                          Text(
+                            'Plan de hoy: ${state.todayPlan.completedCount}/'
+                            '${state.todayPlan.tasks.length} bloques · '
+                            '${state.todayPlan.intensityLabel}',
+                            style: theme.textTheme.labelMedium,
+                          ),
+                          const SizedBox(height: 10),
+                          Wrap(
+                            spacing: 8,
+                            runSpacing: 8,
+                            children: [
+                              OutlinedButton(
+                                onPressed: () => context.go('/app/radar'),
+                                child: const Text('Ver mapa completo'),
+                              ),
+                              OutlinedButton(
+                                onPressed: () => context.go('/app/plan'),
+                                child: const Text('Abrir plan diario'),
+                              ),
+                            ],
+                          ),
+                        ],
                       ),
-                    ],
-                  ),
+                    );
+                  },
                 ),
                 if (state.syncStatus != null) ...[
                   const SizedBox(height: 10),
                   Text(state.syncStatus!, style: theme.textTheme.bodySmall),
                 ],
+                Text(
+                  'Cerebro pedagógico activo · norma + teoría + distractores'
+                  '${state.questionSource.isNotEmpty ? ' · ${state.questionSource}' : ''}',
+                  style: theme.textTheme.labelMedium,
+                ),
+                const SizedBox(height: 12),
+                SwitchListTile(
+                  contentPadding: EdgeInsets.zero,
+                  title: Text(
+                    'Recordatorio de racha',
+                    style: theme.textTheme.titleSmall,
+                  ),
+                  subtitle: Text(
+                    profile.streakRemindersEnabled
+                        ? 'Te avisaremos si aún no completas las 5 preguntas del día'
+                        : 'Activa notificaciones del navegador para no romper la racha',
+                    style: theme.textTheme.bodySmall,
+                  ),
+                  value: profile.streakRemindersEnabled,
+                  activeThumbColor: AppColors.gold,
+                  onChanged: (value) async {
+                    if (value) {
+                      final ok = await state.enableStreakReminders();
+                      if (!context.mounted) return;
+                      if (!ok) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              state.lastError ??
+                                  'No se pudo activar el recordatorio.',
+                            ),
+                          ),
+                        );
+                      }
+                    } else {
+                      await state.disableStreakReminders();
+                    }
+                  },
+                ),
                 const SizedBox(height: 22),
                 Text('Entrenar ahora', style: theme.textTheme.titleLarge),
                 const SizedBox(height: 12),
@@ -127,7 +205,7 @@ class HomeScreen extends StatelessWidget {
                       ),
                       _ModeCard(
                         title: 'Examen Real',
-                        subtitle: '2 min por pregunta + mapa de calor.',
+                        subtitle: 'Tiempo por ítem + mapa de calor.',
                         icon: Icons.timer_outlined,
                         color: AppColors.coral,
                         onTap: () {
@@ -140,6 +218,24 @@ class HomeScreen extends StatelessWidget {
                         },
                       ),
                       _ModeCard(
+                        title: 'Alta exigencia',
+                        subtitle: 'Casos nivel 3 · ~120s por ítem.',
+                        icon: Icons.whatshot_outlined,
+                        color: AppColors.danger,
+                        onTap: () {
+                          if (!state.canStartShortExam) {
+                            context.push('/premium');
+                            return;
+                          }
+                          state.startSession(
+                            mode: SessionMode.exam,
+                            count: 6,
+                            minDifficultyLevel: 3,
+                          );
+                          context.push('/exam');
+                        },
+                      ),
+                      _ModeCard(
                         title: 'Casos de Aula',
                         subtitle: 'Situaciones con debido proceso.',
                         icon: Icons.groups_2_outlined,
@@ -147,8 +243,8 @@ class HomeScreen extends StatelessWidget {
                         onTap: () => context.push('/cases'),
                       ),
                       _ModeCard(
-                        title: 'Reto 60s',
-                        subtitle: 'Agilidad mental contrarreloj.',
+                        title: 'Reto rápido',
+                        subtitle: 'Nivel 1 · ~45s por pregunta.',
                         icon: Icons.bolt_outlined,
                         color: AppColors.goldDeep,
                         onTap: () {

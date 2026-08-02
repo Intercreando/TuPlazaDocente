@@ -8,7 +8,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/option_tile.dart';
 
-/// Modo examen real: 2 minutos por pregunta.
+/// Modo examen real: temporizador por ítem según `tiempo_recomendado_seg`.
 class ExamScreen extends StatefulWidget {
   const ExamScreen({super.key});
 
@@ -17,9 +17,9 @@ class ExamScreen extends StatefulWidget {
 }
 
 class _ExamScreenState extends State<ExamScreen> {
-  static const _secondsPerQuestion = 120;
   Timer? _timer;
-  int _remaining = _secondsPerQuestion;
+  int _remaining = 90;
+  int _budget = 90;
   int _trackedIndex = -1;
 
   @override
@@ -28,13 +28,14 @@ class _ExamScreenState extends State<ExamScreen> {
     final state = context.watch<AppState>();
     if (state.currentIndex != _trackedIndex) {
       _trackedIndex = state.currentIndex;
-      _restartTimer();
+      _restartTimer(state.currentQuestion?.tiempoRecomendadoSeg ?? 90);
     }
   }
 
-  void _restartTimer() {
+  void _restartTimer(int seconds) {
     _timer?.cancel();
-    _remaining = _secondsPerQuestion;
+    _budget = seconds.clamp(20, 180);
+    _remaining = _budget;
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) async {
       if (!mounted) return;
       if (_remaining <= 1) {
@@ -77,7 +78,7 @@ class _ExamScreenState extends State<ExamScreen> {
     }
 
     final letters = ['A', 'B', 'C', 'D'];
-    final urgent = _remaining <= 20;
+    final urgent = _remaining <= (_budget * 0.2).ceil().clamp(8, 25);
     final progress = (state.currentIndex + 1) / state.currentQuestions.length;
 
     return Scaffold(
@@ -133,7 +134,9 @@ class _ExamScreenState extends State<ExamScreen> {
               ),
               const SizedBox(height: 12),
               Text(
-                'Ítem ${state.currentIndex + 1}/${state.currentQuestions.length} · ${question.pillar.label}',
+                'Ítem ${state.currentIndex + 1}/${state.currentQuestions.length} · '
+                '${question.pillar.label} · Nivel ${question.dificultad} · '
+                '${question.tiempoRecomendadoSeg}s',
                 style: theme.textTheme.labelMedium,
               ),
               const SizedBox(height: 16),

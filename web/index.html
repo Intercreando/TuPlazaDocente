@@ -58,6 +58,29 @@
       opacity: 0.75;
       font-size: 0.95rem;
     }
+    .hint {
+      margin: 14px 0 0;
+      opacity: 0.7;
+      font-size: 0.85rem;
+      max-width: 28rem;
+      line-height: 1.4;
+    }
+    .actions {
+      margin-top: 16px;
+      display: none;
+      gap: 8px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .actions.show { display: flex; }
+    .actions button {
+      border: 0;
+      border-radius: 999px;
+      padding: 10px 16px;
+      background: #0C2F2B;
+      color: #F5F8F6;
+      font-weight: 600;
+    }
   </style>
 </head>
 <body>
@@ -65,9 +88,59 @@
     <div>
       <div class="mark">TP</div>
       <p class="title">TuPlazaDocente</p>
-      <p class="sub">Cargando tu entrenador del concurso…</p>
+      <p class="sub" id="bootSub">Cargando tu entrenador del concurso…</p>
+      <p class="hint" id="bootHint">En celular puede tardar la primera vez (descarga ~3 MB). Usa Wi‑Fi si puedes.</p>
+      <div class="actions" id="bootActions">
+        <button type="button" id="bootReload">Reintentar</button>
+        <button type="button" id="bootClear">Limpiar caché y reintentar</button>
+      </div>
     </div>
   </div>
+  <script>
+    (function () {
+      var sub = document.getElementById('bootSub');
+      var hint = document.getElementById('bootHint');
+      var actions = document.getElementById('bootActions');
+      var reloadBtn = document.getElementById('bootReload');
+      var clearBtn = document.getElementById('bootClear');
+
+      // Si la app Flutter no arranca a tiempo, ofrecer recuperación (muy útil en móvil).
+      setTimeout(function () {
+        if (!document.getElementById('boot')) return;
+        if (sub) sub.textContent = 'La carga está tardando más de lo normal…';
+        if (hint) {
+          hint.textContent =
+            'Prueba con https://tuplazadocente.com (sin www). Si sigue en blanco, limpia caché del sitio o usa Chrome/Safari actualizado.';
+        }
+        if (actions) actions.classList.add('show');
+      }, 12000);
+
+      if (reloadBtn) {
+        reloadBtn.addEventListener('click', function () {
+          location.reload();
+        });
+      }
+      if (clearBtn) {
+        clearBtn.addEventListener('click', function () {
+          var done = function () { location.reload(true); };
+          if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.getRegistrations().then(function (regs) {
+              return Promise.all(regs.map(function (r) { return r.unregister(); }));
+            }).then(function () {
+              if (window.caches) {
+                return caches.keys().then(function (keys) {
+                  return Promise.all(keys.map(function (k) { return caches.delete(k); }));
+                });
+              }
+            }).then(done).catch(done);
+          } else {
+            done();
+          }
+        });
+      }
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
+

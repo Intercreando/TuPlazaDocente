@@ -1,0 +1,19 @@
+{
+  "name": "tu-plaza-docente-functions",
+  "description": "Cloud Functions: Mercado Pago + recordatorios de racha",
+  "engines": {
+    "node": "22"
+  },
+  "main": "index.js",
+  "scripts": {
+    "serve": "firebase emulators:start --only functions",
+    "deploy": "firebase deploy --only functions",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "firebase-admin": "^13.0.2",
+    "firebase-functions": "^6.3.0",
+    "mercadopago": "^2.3.0"
+  },
+  "private": true
+}

@@ -16,8 +16,11 @@ class UserProfile {
     this.topicMastery = const {},
     this.pillarCorrect = const {},
     this.pillarTotal = const {},
+    this.tagCorrect = const {},
+    this.tagTotal = const {},
     this.completedPlanTaskIds = const [],
     this.planTaskDate,
+    this.streakRemindersEnabled = false,
   });
 
   final String displayName;
@@ -33,8 +36,16 @@ class UserProfile {
   final Map<String, double> topicMastery;
   final Map<String, int> pillarCorrect;
   final Map<String, int> pillarTotal;
+
+  /// Aciertos por [KnowledgeCode.name] (Mapa de Maestría).
+  final Map<String, int> tagCorrect;
+
+  /// Intentos por [KnowledgeCode.name] (Mapa de Maestría).
+  final Map<String, int> tagTotal;
+
   final List<String> completedPlanTaskIds;
   final DateTime? planTaskDate;
+  final bool streakRemindersEnabled;
 
   int get totalAnswers =>
       pillarTotal.values.fold<int>(0, (sum, value) => sum + value);
@@ -53,8 +64,11 @@ class UserProfile {
     Map<String, double>? topicMastery,
     Map<String, int>? pillarCorrect,
     Map<String, int>? pillarTotal,
+    Map<String, int>? tagCorrect,
+    Map<String, int>? tagTotal,
     List<String>? completedPlanTaskIds,
     DateTime? planTaskDate,
+    bool? streakRemindersEnabled,
   }) {
     return UserProfile(
       displayName: displayName ?? this.displayName,
@@ -70,8 +84,12 @@ class UserProfile {
       topicMastery: topicMastery ?? this.topicMastery,
       pillarCorrect: pillarCorrect ?? this.pillarCorrect,
       pillarTotal: pillarTotal ?? this.pillarTotal,
+      tagCorrect: tagCorrect ?? this.tagCorrect,
+      tagTotal: tagTotal ?? this.tagTotal,
       completedPlanTaskIds: completedPlanTaskIds ?? this.completedPlanTaskIds,
       planTaskDate: planTaskDate ?? this.planTaskDate,
+      streakRemindersEnabled:
+          streakRemindersEnabled ?? this.streakRemindersEnabled,
     );
   }
 
@@ -79,6 +97,13 @@ class UserProfile {
     final total = pillarTotal[pillar.name] ?? 0;
     if (total == 0) return 0;
     final correct = pillarCorrect[pillar.name] ?? 0;
+    return correct / total;
+  }
+
+  double tagAccuracy(String knowledgeCodeName) {
+    final total = tagTotal[knowledgeCodeName] ?? 0;
+    if (total == 0) return 0;
+    final correct = tagCorrect[knowledgeCodeName] ?? 0;
     return correct / total;
   }
 
@@ -111,8 +136,11 @@ class UserProfile {
         'topicMastery': topicMastery,
         'pillarCorrect': pillarCorrect,
         'pillarTotal': pillarTotal,
+        'tagCorrect': tagCorrect,
+        'tagTotal': tagTotal,
         'completedPlanTaskIds': completedPlanTaskIds,
         'planTaskDate': planTaskDate?.toIso8601String(),
+        'streakRemindersEnabled': streakRemindersEnabled,
       };
 
   factory UserProfile.fromJson(Map<String, dynamic> json) {
@@ -153,8 +181,11 @@ class UserProfile {
       topicMastery: mastery,
       pillarCorrect: readIntMap('pillarCorrect'),
       pillarTotal: readIntMap('pillarTotal'),
+      tagCorrect: readIntMap('tagCorrect'),
+      tagTotal: readIntMap('tagTotal'),
       completedPlanTaskIds: tasks,
       planTaskDate: parseDate(json['planTaskDate'] as String?),
+      streakRemindersEnabled: json['streakRemindersEnabled'] as bool? ?? false,
     );
   }
 }

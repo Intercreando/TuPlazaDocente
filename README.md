@@ -46,6 +46,9 @@ firebase deploy --only hosting
    - **Email/Password**
    - **Google** (con tu OAuth client web)
 2. En Authentication → Settings → Authorized domains: `tuplazadocente.com` y `tuplazadocente-9334d.web.app`
+3. En Google Cloud → APIs y servicios → Credenciales → Cliente OAuth **Web**, añade URI de redirección:
+   `https://tuplazadocente.com/__/auth/handler`
+4. En el cliente, `authDomain` debe ser `tuplazadocente.com` (ver `lib/firebase_options.dart`)
 3. Firestore en `southamerica-east1` con rules de `users/{uid}`
 4. Deploy:
 
@@ -54,10 +57,46 @@ flutter build web --release
 firebase deploy --only hosting,firestore
 ```
 
-Checkout Mercado Pago (opcional):
+## Mercado Pago (Cloud Functions)
+
+1. Crea un Access Token en [Mercado Pago Developers](https://www.mercadopago.com.co/developers)
+2. Guárdalo como secreto (nunca en el cliente):
 
 ```bash
-flutter build web --release --dart-define=MP_CHECKOUT_URL=https://www.mercadopago.com.co/checkout/v1/redirect?pref_id=XXXX
+firebase functions:secrets:set MP_ACCESS_TOKEN
 ```
 
-Códigos Premium demo: `PLAZA2026`, `DOCENTE-REY`, `TUPLAZA-PREMIUM`
+3. Despliega functions + rules + hosting:
+
+```bash
+cd functions && npm install && cd ..
+firebase deploy --only functions,firestore,hosting
+```
+
+4. En la app: Premium → **Pagar con Mercado Pago** (requiere cuenta Google/correo)
+
+Códigos Premium (servidor): `PLAZA2026`, `DOCENTE-REY`, `TUPLAZA-PREMIUM`, `DEMO-LOCAL`
+
+## Recordatorios de racha
+
+- Toggle en Home → pide permiso del navegador y muestra aviso local
+- Cron Cloud Function `sendStreakReminders` (19:00 America/Bogota) envía FCM si el usuario tiene `fcmToken`
+
+## Banco de preguntas (volumen / Firestore)
+
+1. Generar JSON (ya hay ~210 ítems en formato oro):
+
+```bash
+cd tools/seed
+node generate_bank.js
+```
+
+2. Subir a Firestore (requiere Application Default Credentials):
+
+```bash
+gcloud auth application-default login
+node seed_firestore.js
+```
+
+La app carga en este orden: **Firestore → asset seed → bundle local**.
+En Home verás `Banco: N ítems · fuente firestore|asset|local`.

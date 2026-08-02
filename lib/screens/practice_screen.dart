@@ -139,13 +139,65 @@ class PracticeScreen extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Text('Retroalimentación pedagógica', style: theme.textTheme.titleSmall),
-                      const SizedBox(height: 8),
-                      Text(question.explanation, style: theme.textTheme.bodyMedium),
-                      if (question.normativeRefs.isNotEmpty) ...[
-                        const SizedBox(height: 10),
+                      Text(
+                        'Cerebro pedagógico TuPlazaDocente',
+                        style: theme.textTheme.titleSmall,
+                      ),
+                      const SizedBox(height: 6),
+                      Text(
+                        '${question.moduleLabel} · ${question.subtopicLabel}',
+                        style: theme.textTheme.labelMedium,
+                      ),
+                      if (question.knowledgeTags.isNotEmpty) ...[
+                        const SizedBox(height: 6),
                         Text(
-                          'Referencias: ${question.normativeRefs.join(' · ')}',
+                          question.knowledgeTags
+                              .map((t) => t.display)
+                              .join(' · '),
+                          style: theme.textTheme.labelSmall,
+                        ),
+                      ],
+                      if (question.normativeJustification != null) ...[
+                        const SizedBox(height: 12),
+                        Text('Justificación normativa', style: theme.textTheme.labelLarge),
+                        const SizedBox(height: 4),
+                        Text(
+                          question.normativeJustification!,
+                          style: theme.textTheme.bodyMedium,
+                        ),
+                      ],
+                      if (question.theoreticalJustification != null) ...[
+                        const SizedBox(height: 12),
+                        Text('Justificación teórica', style: theme.textTheme.labelLarge),
+                        const SizedBox(height: 4),
+                        Text(
+                          question.theoreticalJustification!,
+                          style: theme.textTheme.bodyMedium,
+                        ),
+                      ],
+                      if (question.normativeJustification == null &&
+                          question.theoreticalJustification == null) ...[
+                        const SizedBox(height: 8),
+                        Text(question.explanation, style: theme.textTheme.bodyMedium),
+                      ],
+                      if (state.selectedOption != null &&
+                          question.distractorAnalysis[state.selectedOption!] !=
+                              null) ...[
+                        const SizedBox(height: 12),
+                        Text(
+                          'Por qué tu opción no es la mejor',
+                          style: theme.textTheme.labelLarge,
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          question.distractorAnalysis[state.selectedOption!]!,
+                          style: theme.textTheme.bodyMedium,
+                        ),
+                      ],
+                      if (question.referenceLabels.isNotEmpty) ...[
+                        const SizedBox(height: 12),
+                        Text(
+                          'Referentes: ${question.referenceLabels.join(' · ')}',
                           style: theme.textTheme.labelMedium,
                         ),
                       ],
