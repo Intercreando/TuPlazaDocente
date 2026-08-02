@@ -170,14 +170,14 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   if (state.profile.isPremium)
                     FilledButton(
                       onPressed: () => context.go('/app'),
-                      child: const Text('Ya eres Premium · Ir a entrenar'),
+                      child: const Text('Ya eres Premium · Continuar entrenando'),
                     )
                   else ...[
                     FilledButton.icon(
                       onPressed: _busy ? null : _openMercadoPago,
                       icon: const Icon(Icons.payments_outlined),
                       label: Text(
-                        _busy ? 'Creando checkout…' : 'Pagar con Mercado Pago',
+                        _busy ? 'Preparando el pago…' : 'Pagar con Mercado Pago',
                       ),
                     ),
                     const SizedBox(height: 12),
@@ -243,7 +243,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                               );
                               if (ok) router.go('/app');
                             },
-                      child: const Text('Activar demo (código DEMO-LOCAL)'),
+                      child: const Text('Activar acceso demo'),
                     ),
                   ],
                 ],

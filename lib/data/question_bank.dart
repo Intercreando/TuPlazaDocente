@@ -3,6 +3,7 @@ import '../models/question.dart';
 import 'calibrated_bank.dart';
 import 'extra_questions.dart';
 import 'gold_brain_bank.dart';
+import 'rector_brain_bank.dart';
 import 'specialty_questions.dart';
 
 /// Banco calibrado al estilo CNSC/ICFES (local + remoto/asset).
@@ -11,6 +12,7 @@ abstract final class QuestionBank {
 
   static List<Question> get _localBundle => [
         ...GoldBrainBank.items,
+        ...RectorBrainBank.items,
         ..._items,
         ...ExtraQuestions.items,
         ...SpecialtyQuestions.items,
@@ -49,7 +51,28 @@ abstract final class QuestionBank {
     return shuffled.take(count).toList();
   }
 
-  static List<Question> diagnosticSet({int count = 20}) {
+  static List<Question> diagnosticSet({
+    int count = 20,
+    Especialidad? specialty,
+  }) {
+    if (specialty != null) {
+      final focused = [...bySpecialty(specialty)]..shuffle();
+      final mixed = [...all]..shuffle();
+      final selected = <Question>[];
+      final seen = <String>{};
+      void takeFrom(List<Question> source, int n) {
+        for (final q in source) {
+          if (selected.length >= n) break;
+          if (seen.add(q.id)) selected.add(q);
+        }
+      }
+
+      final focusQuota = (count * 0.6).round().clamp(8, count);
+      takeFrom(focused, focusQuota);
+      takeFrom(mixed, count);
+      return selected.take(count).toList();
+    }
+
     final perPillar = (count / CompetencyPillar.values.length).ceil();
     final selected = <Question>[];
     for (final pillar in CompetencyPillar.values) {
@@ -77,7 +100,9 @@ abstract final class QuestionBank {
     int? minDifficultyLevel,
   }) {
     if (mode == SessionMode.dailyStreak) return dailySet();
-    if (mode == SessionMode.diagnostic) return diagnosticSet();
+    if (mode == SessionMode.diagnostic) {
+      return diagnosticSet(count: count, specialty: specialty);
+    }
 
     // Reto rápido: solo nivel 1 (~45s por ítem).
     if (mode == SessionMode.speedBattle) {
@@ -94,6 +119,14 @@ abstract final class QuestionBank {
             : pillar == null
                 ? all
                 : byPillar(pillar);
+
+    // Casos de aula con perfil de gestión: prioriza escenarios directivos/rectoría.
+    if (casesOnly && specialty != null) {
+      final focused = source
+          .where((q) => q.specialtyTags.contains(specialty))
+          .toList();
+      if (focused.isNotEmpty) source = focused;
+    }
 
     if (difficultyLevel != null) {
       source = source.where((q) => q.dificultad == difficultyLevel).toList();

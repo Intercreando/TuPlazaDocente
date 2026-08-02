@@ -13,7 +13,8 @@
   "dependencies": {
     "firebase-admin": "^13.0.2",
     "firebase-functions": "^6.3.0",
-    "mercadopago": "^2.3.0"
+    "mercadopago": "^2.3.0",
+    "msedge-tts": "^2.0.7"
   },
   "private": true
 }

@@ -150,13 +150,22 @@ class FirebaseSyncService {
     }
   }
 
-  Future<void> signOutToAnonymous() async {
+  Future<bool> signOutToAnonymous() async {
     try {
+      lastError = null;
       await _auth.signOut();
+      uid = null;
+      available = false;
       await ensureSignedIn();
+      if (!available) {
+        lastError ??= 'No se pudo abrir una sesión de invitado.';
+        return false;
+      }
+      return true;
     } catch (e) {
       lastError = 'No se pudo cerrar sesión.';
       debugPrint('signOutToAnonymous: $e');
+      return false;
     }
   }
 

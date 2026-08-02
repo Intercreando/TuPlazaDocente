@@ -128,7 +128,7 @@ class ResultsScreen extends StatelessWidget {
                   state.clearSession();
                   context.go('/app/radar');
                 },
-                child: const Text('Ver Radar de Competencias'),
+                child: const Text('Ver radar de competencias'),
               ),
             ],
           ),

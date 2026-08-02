@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import 'router/app_router.dart';
 import 'services/pwa_install_service.dart';
+import 'services/tts_service.dart';
 import 'state/app_state.dart';
 import 'theme/app_theme.dart';
 
@@ -18,6 +19,7 @@ class TuPlazaDocenteApp extends StatefulWidget {
 class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
   late final AppState _appState;
   late final PwaInstallService _pwaInstallService;
+  late final TtsService _ttsService;
   late final GoRouter _router;
 
   @override
@@ -25,6 +27,7 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
     super.initState();
     _appState = AppState();
     _pwaInstallService = PwaInstallService();
+    _ttsService = TtsService();
     _router = createAppRouter(_appState);
     _appState.bootstrap();
   }
@@ -33,6 +36,7 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
   void dispose() {
     _appState.dispose();
     _pwaInstallService.dispose();
+    _ttsService.dispose();
     _router.dispose();
     super.dispose();
   }
@@ -43,6 +47,7 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
       providers: [
         ChangeNotifierProvider.value(value: _appState),
         ChangeNotifierProvider.value(value: _pwaInstallService),
+        ChangeNotifierProvider.value(value: _ttsService),
       ],
       child: Consumer<AppState>(
         builder: (context, state, _) {

@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../models/enums.dart';
 import '../services/tag_mastery_service.dart';
 import '../state/app_state.dart';
+import '../theme/app_button_styles.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
@@ -130,7 +131,7 @@ class HomeScreen extends StatelessWidget {
                             children: [
                               OutlinedButton(
                                 onPressed: () => context.go('/app/radar'),
-                                child: const Text('Ver mapa completo'),
+                                child: const Text('Ver mapa de dominio'),
                               ),
                               OutlinedButton(
                                 onPressed: () => context.go('/app/plan'),
@@ -369,13 +370,15 @@ class _StreakCard extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 16),
-          FilledButton(
-            style: FilledButton.styleFrom(
-              backgroundColor: AppColors.gold,
-              foregroundColor: AppColors.ink,
-            ),
+          FilledButton.icon(
+            style: AppButtonStyles.filledOnBrand(completed: doneToday),
             onPressed: doneToday ? null : onStart,
-            child: Text(doneToday ? 'Reto completado' : 'Hacer reto de hoy'),
+            icon: Icon(
+              doneToday ? Icons.check_circle_rounded : Icons.bolt_rounded,
+            ),
+            label: Text(
+              doneToday ? 'Reto completado' : 'Iniciar reto de hoy',
+            ),
           ),
         ],
       ),

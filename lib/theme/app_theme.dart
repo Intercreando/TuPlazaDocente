@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
+import 'app_button_styles.dart';
 import 'app_colors.dart';
 import 'app_typography.dart';
 
@@ -8,7 +9,7 @@ import 'app_typography.dart';
 abstract final class AppTheme {
   static ThemeData light() {
     final textTheme = AppTypography.lightTextTheme();
-    final colorScheme = ColorScheme.light(
+    final scheme = ColorScheme.light(
       primary: AppColors.ink,
       onPrimary: AppColors.white,
       primaryContainer: AppColors.mist,
@@ -29,7 +30,7 @@ abstract final class AppTheme {
     return ThemeData(
       useMaterial3: true,
       brightness: Brightness.light,
-      colorScheme: colorScheme,
+      colorScheme: scheme,
       scaffoldBackgroundColor: AppColors.parchment,
       textTheme: textTheme,
       appBarTheme: AppBarTheme(
@@ -49,27 +50,21 @@ abstract final class AppTheme {
         ),
       ),
       filledButtonTheme: FilledButtonThemeData(
-        style: FilledButton.styleFrom(
-          backgroundColor: AppColors.ink,
-          foregroundColor: AppColors.white,
-          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 16),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        style: AppButtonStyles.filled(
           textStyle: textTheme.labelLarge,
+          dark: false,
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
-        style: OutlinedButton.styleFrom(
-          foregroundColor: AppColors.ink,
-          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 16),
-          side: const BorderSide(color: AppColors.inkSoft, width: 1.4),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        style: AppButtonStyles.outlined(
           textStyle: textTheme.labelLarge,
+          dark: false,
         ),
       ),
       textButtonTheme: TextButtonThemeData(
-        style: TextButton.styleFrom(
-          foregroundColor: AppColors.canopy,
+        style: AppButtonStyles.text(
           textStyle: textTheme.labelLarge,
+          dark: false,
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(
@@ -91,10 +86,13 @@ abstract final class AppTheme {
       chipTheme: ChipThemeData(
         backgroundColor: AppColors.mist,
         selectedColor: AppColors.ink,
-        labelStyle: textTheme.labelMedium,
-        secondaryLabelStyle: textTheme.labelMedium?.copyWith(color: AppColors.white),
+        disabledColor: AppColors.stroke,
+        labelStyle: textTheme.labelMedium?.copyWith(color: AppColors.textPrimary),
+        secondaryLabelStyle:
+            textTheme.labelMedium?.copyWith(color: AppColors.white),
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        side: const BorderSide(color: AppColors.stroke),
       ),
       dividerTheme: const DividerThemeData(color: AppColors.stroke, thickness: 1),
       progressIndicatorTheme: const ProgressIndicatorThemeData(
@@ -106,7 +104,7 @@ abstract final class AppTheme {
 
   static ThemeData dark() {
     final textTheme = AppTypography.darkTextTheme();
-    final colorScheme = ColorScheme.dark(
+    final scheme = ColorScheme.dark(
       primary: AppColors.seafoam,
       onPrimary: AppColors.ink,
       primaryContainer: AppColors.darkElevated,
@@ -124,7 +122,7 @@ abstract final class AppTheme {
     return ThemeData(
       useMaterial3: true,
       brightness: Brightness.dark,
-      colorScheme: colorScheme,
+      colorScheme: scheme,
       scaffoldBackgroundColor: AppColors.darkBg,
       textTheme: textTheme,
       appBarTheme: AppBarTheme(
@@ -144,21 +142,21 @@ abstract final class AppTheme {
         ),
       ),
       filledButtonTheme: FilledButtonThemeData(
-        style: FilledButton.styleFrom(
-          backgroundColor: AppColors.seafoam,
-          foregroundColor: AppColors.ink,
-          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 16),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        style: AppButtonStyles.filled(
           textStyle: textTheme.labelLarge,
+          dark: true,
         ),
       ),
       outlinedButtonTheme: OutlinedButtonThemeData(
-        style: OutlinedButton.styleFrom(
-          foregroundColor: AppColors.darkText,
-          padding: const EdgeInsets.symmetric(horizontal: 22, vertical: 16),
-          side: const BorderSide(color: AppColors.darkStroke, width: 1.4),
-          shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+        style: AppButtonStyles.outlined(
           textStyle: textTheme.labelLarge,
+          dark: true,
+        ),
+      ),
+      textButtonTheme: TextButtonThemeData(
+        style: AppButtonStyles.text(
+          textStyle: textTheme.labelLarge,
+          dark: true,
         ),
       ),
       inputDecorationTheme: InputDecorationTheme(
@@ -177,7 +175,23 @@ abstract final class AppTheme {
           borderSide: const BorderSide(color: AppColors.seafoam, width: 1.6),
         ),
       ),
-      dividerTheme: const DividerThemeData(color: AppColors.darkStroke, thickness: 1),
+      chipTheme: ChipThemeData(
+        backgroundColor: AppColors.darkElevated,
+        selectedColor: AppColors.seafoam,
+        disabledColor: AppColors.darkStroke,
+        labelStyle: textTheme.labelMedium?.copyWith(color: AppColors.darkText),
+        secondaryLabelStyle:
+            textTheme.labelMedium?.copyWith(color: AppColors.ink),
+        padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+        side: const BorderSide(color: AppColors.darkStroke),
+      ),
+      dividerTheme:
+          const DividerThemeData(color: AppColors.darkStroke, thickness: 1),
+      progressIndicatorTheme: const ProgressIndicatorThemeData(
+        color: AppColors.seafoam,
+        linearTrackColor: AppColors.darkElevated,
+      ),
     );
   }
 }

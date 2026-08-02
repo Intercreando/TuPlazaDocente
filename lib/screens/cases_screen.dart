@@ -7,6 +7,7 @@ import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/listen_button.dart';
 
 /// Módulo Casos de Aula (situacional interactivo).
 class CasesScreen extends StatelessWidget {
@@ -44,7 +45,7 @@ class CasesScreen extends StatelessWidget {
                     context.push('/practice');
                   },
                   icon: const Icon(Icons.play_arrow_rounded),
-                  label: const Text('Entrenar 4 casos ahora'),
+                  label: const Text('Practicar 4 casos'),
                 ),
                 const SizedBox(height: 18),
                 Text('Banco de casos', style: theme.textTheme.titleLarge),
@@ -86,12 +87,27 @@ class CasesScreen extends StatelessWidget {
                           const SizedBox(height: 10),
                           Align(
                             alignment: Alignment.centerRight,
-                            child: TextButton(
-                              onPressed: () {
-                                state.startSingleQuestion(q);
-                                context.push('/practice');
-                              },
-                              child: const Text('Resolver este caso'),
+                            child: Wrap(
+                              spacing: 8,
+                              runSpacing: 8,
+                              alignment: WrapAlignment.end,
+                              children: [
+                                ListenButton(
+                                  text: [
+                                    if (q.caseContext != null) q.caseContext!,
+                                    q.stem,
+                                  ].join('\n\n'),
+                                  speakKey: 'case-preview-${q.id}',
+                                  label: 'Escuchar',
+                                ),
+                                TextButton(
+                                  onPressed: () {
+                                    state.startSingleQuestion(q);
+                                    context.push('/practice');
+                                  },
+                                  child: const Text('Resolver caso'),
+                                ),
+                              ],
                             ),
                           ),
                         ],

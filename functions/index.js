@@ -11,13 +11,16 @@ const {initializeApp} = require("firebase-admin/app");
 const {getFirestore, FieldValue} = require("firebase-admin/firestore");
 const {getMessaging} = require("firebase-admin/messaging");
 const {MercadoPagoConfig, Preference, Payment} = require("mercadopago");
+const {MsEdgeTTS, OUTPUT_FORMAT} = require("msedge-tts");
 
 initializeApp();
 
 const mpAccessToken = defineSecret("MP_ACCESS_TOKEN");
 
 const PREMIUM_PRICE_COP = 89900;
-const APP_URL = "https://tuplazadocente-9334d.web.app";
+const APP_URL = "https://tuplazadocente.com";
+const TTS_VOICE = "es-CO-SalomeNeural";
+const TTS_MAX_CHARS = 1800;
 const VALID_PREMIUM_CODES = new Set([
   "PLAZA2026",
   "DOCENTE-REY",
@@ -261,5 +264,108 @@ exports.sendStreakReminders = onSchedule(
       console.log(
           `Recordatorios enviados: success=${response.successCount} failure=${response.failureCount}`,
       );
+    },
+);
+
+/**
+ * Escapa texto para SSML/XML.
+ * @param {string} value
+ * @return {string}
+ */
+function escapeXml(value) {
+  return String(value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&apos;");
+}
+
+/**
+ * Suaviza el texto para una prosodia más natural.
+ * @param {string} value
+ * @return {string}
+ */
+function humanizeForSpeech(value) {
+  return String(value)
+      .replace(/\s+/g, " ")
+      .replace(/·/g, ",")
+      .replace(/\s*\|\s*/g, ". ")
+      .replace(/\s*\/\s*/g, ", ")
+      .replace(/\s{2,}/g, " ")
+      .trim();
+}
+
+/**
+ * Sintetiza voz neural (Edge Read Aloud) en español colombiano.
+ * Requiere Auth (incluye anónimo). Devuelve MP3 en base64.
+ */
+exports.synthesizeSpeech = onCall(
+    {
+      region: "southamerica-east1",
+      cors: true,
+      timeoutSeconds: 60,
+      memory: "512MiB",
+    },
+    async (request) => {
+      if (!request.auth?.uid) {
+        throw new HttpsError(
+            "unauthenticated",
+            "Debes tener sesión (invitado o cuenta) para usar la voz.",
+        );
+      }
+
+      const raw = humanizeForSpeech(request.data?.text || "");
+      if (!raw) {
+        throw new HttpsError("invalid-argument", "No hay texto para leer.");
+      }
+      if (raw.length > TTS_MAX_CHARS) {
+        throw new HttpsError(
+            "invalid-argument",
+            `El texto supera ${TTS_MAX_CHARS} caracteres.`,
+        );
+      }
+
+      const voice = typeof request.data?.voice === "string" &&
+        request.data.voice.includes("Neural")
+        ? request.data.voice
+        : TTS_VOICE;
+
+      try {
+        const tts = new MsEdgeTTS();
+        await tts.setMetadata(
+            voice,
+            OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3,
+        );
+
+        const safeText = escapeXml(raw);
+        const {audioStream} = tts.toStream(safeText, {
+          // Un poco más pausado y cálido que el default robótico.
+          rate: "-8%",
+          pitch: "-2Hz",
+        });
+
+        const chunks = [];
+        for await (const chunk of audioStream) {
+          chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
+        }
+        const audio = Buffer.concat(chunks);
+        if (audio.length < 64) {
+          throw new HttpsError("internal", "La síntesis no devolvió audio.");
+        }
+
+        return {
+          contentType: "audio/mpeg",
+          voice,
+          base64: audio.toString("base64"),
+        };
+      } catch (e) {
+        console.error("synthesizeSpeech error:", e);
+        if (e instanceof HttpsError) throw e;
+        throw new HttpsError(
+            "internal",
+            "No se pudo generar la voz neural. Intenta de nuevo.",
+        );
+      }
     },
 );

@@ -93,7 +93,8 @@ class _HeroCopy extends StatelessWidget {
           const SizedBox(height: 28),
         ],
         Text(
-          'Entrena como se piensa\nel concurso, no como se vende.',
+          'No estudies más horas.\n'
+          'Entrena inteligente y asegura tu plaza en propiedad.',
           style: theme.textTheme.displaySmall,
         )
             .animate()
@@ -101,8 +102,10 @@ class _HeroCopy extends StatelessWidget {
             .slideY(begin: 0.06, end: 0),
         const SizedBox(height: 14),
         Text(
-          'Microlearning táctico para CNSC/ICFES: feedback pedagógico, '
-          'radar de competencias y simulacros con control de tiempo.',
+          'El concurso docente no se pasa memorizando leyes, se pasa dominando '
+          'la lógica de evaluación de la CNSC. Practica con casos de aula reales, '
+          'domina la norma y entiende exactamente por qué fallan las respuestas '
+          'incorrectas en sesiones de 10 minutos al día.',
           style: theme.textTheme.bodyLarge,
         ).animate().fadeIn(duration: 600.ms, delay: 160.ms),
         const SizedBox(height: 28),
@@ -112,7 +115,7 @@ class _HeroCopy extends StatelessWidget {
           children: [
             FilledButton(
               onPressed: () => context.go('/auth'),
-              child: const Text('Empezar ahora'),
+              child: const Text('Comenzar ahora'),
             ),
             OutlinedButton(
               onPressed: () => context.go('/onboarding'),

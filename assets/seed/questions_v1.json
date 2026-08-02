@@ -1,22 +1,22 @@
 {
   "version": 3,
-  "generatedAt": "2026-08-02T00:10:45.906Z",
-  "count": 668,
-  "goldHandcrafted": 458,
+  "generatedAt": "2026-08-02T11:38:28.906Z",
+  "count": 684,
+  "goldHandcrafted": 474,
   "quality": {
     "pos": {
-      "0": 169,
-      "1": 151,
-      "2": 168,
-      "3": 180
+      "0": 176,
+      "1": 154,
+      "2": 179,
+      "3": 175
     },
     "dif": {
-      "1": 61,
-      "2": 306,
-      "3": 301
+      "1": 63,
+      "2": 319,
+      "3": 302
     },
-    "hardened": 155,
-    "total": 668
+    "hardened": 156,
+    "total": 684
   },
   "items": [
     {
@@ -21980,6 +21980,755 @@
     {
       "published": true,
       "schemaVersion": 1,
+      "id": "oro-rect-01",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / PEI participativo",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / PEI participativo",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "La rectoría reescribe el PEI en un fin de semana para una visita de supervisión, sin docentes, familias ni estudiantes.",
+      "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+      "options": [
+        "Documentar el caso de forma genérica sin activar SIEE, PIAR, ruta 1620 u orientación de área según corresponda",
+        "Reabrir un proceso participativo con gobierno escolar y socializar ajustes antes de formalizar",
+        "Delegar la solución solo a familias o canales informales, sin instancia ni registro institucional",
+        "Usar sanción visible como única estrategia, sin criterios formativos ni restauración del vínculo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ley 115 y Decreto 1860 conciben el PEI como proyecto de la comunidad educativa, no como trámite unilateral de rectoría. Sin participación, el PEI pierde apropiación y no orienta prácticas reales de aula ni de gestión.",
+      "normativeJustification": "Ley 115 y Decreto 1860 conciben el PEI como proyecto de la comunidad educativa, no como trámite unilateral de rectoría.",
+      "theoreticalJustification": "Sin participación, el PEI pierde apropiación y no orienta prácticas reales de aula ni de gestión.",
+      "distractorAnalysis": {
+        "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+        "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+        "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+      },
+      "knowledgeTags": [
+        {
+          "code": "ley115",
+          "focus": "PEI"
+        },
+        {
+          "code": "decreto1860",
+          "focus": "gobierno escolar"
+        }
+      ],
+      "normativeRefs": [
+        "ley115",
+        "decreto1860"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 95,
+      "isCaseStudy": true,
+      "qualityHardened": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-02",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / Consejo Directivo",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / Consejo Directivo",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Hay que aprobar el presupuesto de inversión y el rector lo decide solo por chat con el pagador, sin sesión del Consejo Directivo.",
+      "stem": "Según el gobierno escolar (D.1860), conviene:",
+      "options": [
+        "Convocar al Consejo Directivo, deliberar con actas y formalizar la decisión",
+        "Mantener la decisión informal por agilidad",
+        "Consultar solo al consejo de padres por WhatsApp",
+        "Esperar a que supervisión dicte el presupuesto"
+      ],
+      "correctIndex": 0,
+      "explanation": "El Decreto 1860 asigna al Consejo Directivo competencias de gobierno institucional; las decisiones de impacto deben ser trazables. La gobernanza escolar legitima recursos y reduce riesgos de arbitrariedad o captura informal.",
+      "normativeJustification": "El Decreto 1860 asigna al Consejo Directivo competencias de gobierno institucional; las decisiones de impacto deben ser trazables.",
+      "theoreticalJustification": "La gobernanza escolar legitima recursos y reduce riesgos de arbitrariedad o captura informal.",
+      "distractorAnalysis": {
+        "1": "La agilidad no justifica omitir el órgano competente.",
+        "2": "El consejo de padres no reemplaza al Consejo Directivo.",
+        "3": "La supervisión no sustituye la autonomía con control interno."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1860",
+          "focus": "Consejo Directivo"
+        },
+        {
+          "code": "ley115",
+          "focus": "gobierno escolar"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1860",
+        "ley115"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-03",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / Manual de convivencia",
+      "module": "Inclusión y convivencia escolar",
+      "subtopic": "Rectoría / Manual de convivencia",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "El manual de convivencia tiene 8 años, copia normas de otra IE y no tipifica rutas digitales ni debida proceso.",
+      "stem": "La acción rectoral prioritaria es:",
+      "options": [
+        "Seguir usándolo porque 'siempre ha servido'",
+        "Publicar sanciones ejemplarizantes en redes sin revisar el manual",
+        "Reemplazarlo por un reglamento verbal del rector",
+        "Actualizarlo con participación, tipificación clara y rutas alineadas a Ley 1620 y Guías MEN 49/51"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ley 1620 y Guías MEN 49/51 exigen manual vivo, contextualizado y coherente con rutas de atención. Un manual desactualizado genera inequidad, improvisación y vulnerabilidad jurídica.",
+      "normativeJustification": "Ley 1620 y Guías MEN 49/51 exigen manual vivo, contextualizado y coherente con rutas de atención.",
+      "theoreticalJustification": "Un manual desactualizado genera inequidad, improvisación y vulnerabilidad jurídica.",
+      "distractorAnalysis": {
+        "0": "La antigüedad no garantiza validez ni pertinencia.",
+        "1": "La exposición pública no es ruta institucional.",
+        "2": "El reglamento verbal carece de trazabilidad y participación."
+      },
+      "knowledgeTags": [
+        {
+          "code": "ley1620",
+          "focus": "manual de convivencia"
+        },
+        {
+          "code": "guiaMen49",
+          "focus": "actualización"
+        },
+        {
+          "code": "guiaMen51",
+          "focus": "rutas"
+        }
+      ],
+      "normativeRefs": [
+        "ley1620",
+        "guiaMen49",
+        "guiaMen51"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-04",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / SIEE",
+      "module": "Pedagogía y evaluación formativa",
+      "subtopic": "Rectoría / SIEE",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Familias desconocen la escala; docentes del mismo grado valoran con criterios distintos; hay quejas por promoción.",
+      "stem": "Como rector, la intervención más coherente con el Decreto 1290 es:",
+      "options": [
+        "Dejar que cada docente invente su propia escala cada periodo",
+        "Imponer promedios nacionales sin SIEE institucional",
+        "Liderar revisión, socialización y monitoreo del SIEE para aplicación coherente",
+        "Prohibir que familias pregunten por criterios"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Decreto 1290 exige un sistema institucional de evaluación conocido, aplicado y orientado al aprendizaje. La coherencia de criterios genera confianza y mejora la autorregulación del aprendizaje.",
+      "normativeJustification": "El Decreto 1290 exige un sistema institucional de evaluación conocido, aplicado y orientado al aprendizaje.",
+      "theoreticalJustification": "La coherencia de criterios genera confianza y mejora la autorregulación del aprendizaje.",
+      "distractorAnalysis": {
+        "0": "La inconsistencia vulnera el debido proceso evaluativo.",
+        "1": "La autonomía institucional se ejerce vía SIEE, no vía imposición externa genérica.",
+        "3": "La opacidad aumenta conflicto y desconfianza."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1290",
+          "focus": "SIEE institucional"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1290"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-05",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / Comité de convivencia",
+      "module": "Inclusión y convivencia escolar",
+      "subtopic": "Rectoría / Comité de convivencia",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Un caso Tipo II llega a rectoría. El rector propone 'arreglarlo en privado' sin activar el comité ni registrar.",
+      "stem": "La respuesta correcta es:",
+      "options": [
+        "Publicar los nombres en la cartelera",
+        "Expulsar de inmediato sin procedimiento",
+        "Cerrar el caso en privado para proteger la imagen institucional",
+        "Activar la ruta, proteger a las partes, registrar y hacer seguimiento con el Comité de Convivencia"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ley 1620 y Guías 49/51 exigen ruta de atención integral con trazabilidad y roles definidos. La informalidad protege la imagen, no los derechos ni el debido proceso.",
+      "normativeJustification": "Ley 1620 y Guías 49/51 exigen ruta de atención integral con trazabilidad y roles definidos.",
+      "theoreticalJustification": "La informalidad protege la imagen, no los derechos ni el debido proceso.",
+      "distractorAnalysis": {
+        "0": "La exposición pública vulnera intimidad.",
+        "1": "Sin procedimiento no hay garantía de derechos.",
+        "2": "El secreto informal puede constituir omisión."
+      },
+      "knowledgeTags": [
+        {
+          "code": "ley1620",
+          "focus": "Comité de Convivencia"
+        },
+        {
+          "code": "guiaMen51",
+          "focus": "Tipo II"
+        }
+      ],
+      "normativeRefs": [
+        "ley1620",
+        "guiaMen51"
+      ],
+      "difficulty": "avanzado",
+      "dificultad": 3,
+      "recommendedSeconds": 120,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-06",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / inclusión y PIAR",
+      "module": "Inclusión y convivencia escolar",
+      "subtopic": "Rectoría / inclusión y PIAR",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Ingresa un estudiante con discapacidad. Varios docentes dicen 'no estamos formados' y piden negarle el cupo.",
+      "stem": "La postura rectoral alineada al Decreto 1421 es:",
+      "options": [
+        "Trasladarlo de inmediato a otra IE sin plan",
+        "Aceptarlo sin ningún ajuste 'para que se adapte solo'",
+        "Garantizar el ingreso, activar PIAR/ajustes razonables y acompañar al equipo docente",
+        "Negar el cupo por falta de formación del equipo"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Decreto 1421 orienta educación inclusiva con PIAR y ajustes razonables; la falta de formación no habilita exclusión. El liderazgo inclusivo convierte la barrera del entorno en objeto de gestión, no en culpa del estudiante.",
+      "normativeJustification": "El Decreto 1421 orienta educación inclusiva con PIAR y ajustes razonables; la falta de formación no habilita exclusión.",
+      "theoreticalJustification": "El liderazgo inclusivo convierte la barrera del entorno en objeto de gestión, no en culpa del estudiante.",
+      "distractorAnalysis": {
+        "0": "El traslado sin plan puede ser exclusión encubierta.",
+        "1": "Sin ajustes se niega el derecho a aprender en igualdad de condiciones.",
+        "3": "La formación se gestiona; no justifica discriminación."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1421",
+          "focus": "PIAR y ajustes"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1421"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-07",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / PMI y PEI",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / PMI y PEI",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "El PMI lista compras de equipos, pero no se articula con las metas del PEI ni con evidencias de aprendizaje.",
+      "stem": "La mejora de gestión más sólida es:",
+      "options": [
+        "Cambiar el PEI cada mes según la moda pedagógica",
+        "Alinear el PMI a prioridades del PEI con indicadores de aprendizaje y seguimiento",
+        "Eliminar el PEI porque el PMI basta para supervisión",
+        "Mantener el PMI como lista de compras independiente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La gestión institucional debe articular PEI, mejoramiento y calidad del servicio educativo. Un plan de mejoramiento sin norte pedagógico gasta recursos sin transformar resultados de aprendizaje.",
+      "normativeJustification": "La gestión institucional debe articular PEI, mejoramiento y calidad del servicio educativo.",
+      "theoreticalJustification": "Un plan de mejoramiento sin norte pedagógico gasta recursos sin transformar resultados de aprendizaje.",
+      "distractorAnalysis": {
+        "0": "La inestabilidad documental impide seguimiento serio.",
+        "2": "El PMI no sustituye la identidad y horizonte del PEI.",
+        "3": "Compras sin foco pedagógico son gestión incompleta."
+      },
+      "knowledgeTags": [
+        {
+          "code": "ley115",
+          "focus": "PEI"
+        },
+        {
+          "code": "decreto1860",
+          "focus": "mejoramiento"
+        }
+      ],
+      "normativeRefs": [
+        "ley115",
+        "decreto1860"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-08",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / Estatuto 1278",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / Estatuto 1278",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Un aspirante a docente afirma que el nombramiento se obtiene por amistad con el rector, sin concurso.",
+      "stem": "La lectura correcta del marco de profesionalización (D.1278) es:",
+      "options": [
+        "Solo importa la antigüedad en el municipio",
+        "El ingreso a la carrera docente se rige por concurso y reglas del sistema, no por favor informal",
+        "Sí: el rector nombra libremente sin reglas",
+        "El consejo de padres decide los nombramientos"
+      ],
+      "correctIndex": 1,
+      "explanation": "El Decreto 1278 estructura la carrera docente con ingreso por mérito/concurso y reglas del sistema educativo. La profesionalización protege la calidad y la igualdad de oportunidades frente al clientelismo.",
+      "normativeJustification": "El Decreto 1278 estructura la carrera docente con ingreso por mérito/concurso y reglas del sistema educativo.",
+      "theoreticalJustification": "La profesionalización protege la calidad y la igualdad de oportunidades frente al clientelismo.",
+      "distractorAnalysis": {
+        "0": "La antigüedad local no sustituye el concurso.",
+        "2": "El nombramiento no es potestad informal del rector.",
+        "3": "El consejo de padres no nombra docentes de carrera."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1278",
+          "focus": "ingreso y carrera"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1278"
+      ],
+      "difficulty": "basico",
+      "dificultad": 1,
+      "recommendedSeconds": 60,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-09",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / liderazgo pedagógico",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / liderazgo pedagógico",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "La rectoría dedica casi todo el tiempo a disciplina de pasillo y trámites; casi no hay acompañamiento a planeación ni a evidencias de aula.",
+      "stem": "Un liderazgo rectoral más pedagógico priorizaría:",
+      "options": [
+        "Acompañar aulas, analizar evidencias de aprendizaje y apoyar planes de mejoramiento docente",
+        "Eliminar el SIEE para reducir carga",
+        "Solo vigilancia de pasillos y sanciones",
+        "Delegar toda la pedagogía a las familias"
+      ],
+      "correctIndex": 0,
+      "explanation": "La gestión directiva debe velar por la calidad del servicio educativo (Ley 115, D.1860, D.1278). El liderazgo pedagógico mejora resultados cuando se centra en la enseñanza y el aprendizaje.",
+      "normativeJustification": "La gestión directiva debe velar por la calidad del servicio educativo (Ley 115, D.1860, D.1278).",
+      "theoreticalJustification": "El liderazgo pedagógico mejora resultados cuando se centra en la enseñanza y el aprendizaje.",
+      "distractorAnalysis": {
+        "1": "El SIEE es obligatorio y orientador.",
+        "2": "La convivencia importa, pero no sustituye el foco de aprendizaje.",
+        "3": "Las familias no reemplazan la gestión pedagógica institucional."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1278",
+          "focus": "calidad del servicio"
+        },
+        {
+          "code": "decreto1860",
+          "focus": "gestión"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1278",
+        "decreto1860"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-10",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / Consejo Académico",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / Consejo Académico",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Se cambia el plan de estudios de un área por decisión unilateral del rector, sin Consejo Académico ni socialización docente.",
+      "stem": "Lo más coherente con el gobierno escolar es:",
+      "options": [
+        "Ignorar el plan de estudios porque 'cada docente hace lo suyo'",
+        "Consultar solo a un influencer educativo",
+        "Someter el ajuste al Consejo Académico y socializar criterios pedagógicos con el equipo",
+        "Validar el cambio unilateral por agilidad"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Decreto 1860 organiza instancias (entre ellas el Consejo Académico) para decisiones curriculares institucionales. Los cambios curriculares requieren deliberación pedagógica para coherencia y apropiación.",
+      "normativeJustification": "El Decreto 1860 organiza instancias (entre ellas el Consejo Académico) para decisiones curriculares institucionales.",
+      "theoreticalJustification": "Los cambios curriculares requieren deliberación pedagógica para coherencia y apropiación.",
+      "distractorAnalysis": {
+        "0": "La atomización rompe el proyecto curricular común.",
+        "1": "Las modas externas no sustituyen el órgano institucional.",
+        "3": "La agilidad no justifica saltarse la instancia académica."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1860",
+          "focus": "Consejo Académico"
+        },
+        {
+          "code": "lineamientos",
+          "focus": "plan de estudios"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1860",
+        "lineamientos"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-11",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / promoción y apoyo",
+      "module": "Pedagogía y evaluación formativa",
+      "subtopic": "Rectoría / promoción y apoyo",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Al final del año, varios estudiantes con bajo desempeño no tuvieron planes de apoyo; la rectoría quiere negar promoción masivamente 'para subir estándares'.",
+      "stem": "Según el Decreto 1290, la postura más sólida es:",
+      "options": [
+        "Evaluar solo con una prueba externa de un día",
+        "Promover a todos automáticamente sin criterios",
+        "Exigir que haya habido estrategias de apoyo y seguimiento antes de decidir promoción",
+        "Negar promoción sin evidencias de acompañamiento previo"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Decreto 1290 vincula evaluación, seguimiento y estrategias de apoyo al proceso de promoción. La exigencia académica es legítima cuando va acompañada de acompañamiento pedagógico, no solo de corte punitivo final.",
+      "normativeJustification": "El Decreto 1290 vincula evaluación, seguimiento y estrategias de apoyo al proceso de promoción.",
+      "theoreticalJustification": "La exigencia académica es legítima cuando va acompañada de acompañamiento pedagógico, no solo de corte punitivo final.",
+      "distractorAnalysis": {
+        "0": "Una sola prueba no agota la evaluación integral.",
+        "1": "La promoción sin criterios no es el estándar del 1290.",
+        "3": "Omite el deber de apoyo durante el proceso."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1290",
+          "focus": "promoción y apoyo"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1290"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-12",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / clima laboral",
+      "module": "Competencias comportamentales",
+      "subtopic": "Rectoría / clima laboral",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Dos docentes discuten fuerte en un corredor lleno de estudiantes. El tono escala y hay público.",
+      "stem": "La intervención rectoral más profesional es:",
+      "options": [
+        "Sancionar a ambos sin escuchar versiones",
+        "Ignorar el conflicto porque 'son adultos'",
+        "Contener, separar del escenario público, restablecer clima y abrir un espacio privado de mediación con acuerdos",
+        "Confrontarlos en público para 'dar ejemplo'"
+      ],
+      "correctIndex": 2,
+      "explanation": "El liderazgo directivo debe proteger el clima institucional y el debido proceso en conflictos laborales/pedagógicos. La contención pública y la mediación privada reducen daño al clima y permiten acuerdos sostenibles.",
+      "normativeJustification": "El liderazgo directivo debe proteger el clima institucional y el debido proceso en conflictos laborales/pedagógicos.",
+      "theoreticalJustification": "La contención pública y la mediación privada reducen daño al clima y permiten acuerdos sostenibles.",
+      "distractorAnalysis": {
+        "0": "Sancionar sin escuchar vulnera debido proceso.",
+        "1": "Omitir puede normalizar violencia simbólica ante estudiantes.",
+        "3": "La confrontación pública refuerza el espectáculo del conflicto."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1278",
+          "focus": "clima y liderazgo"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1278"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-13",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / rutas de riesgo",
+      "module": "Inclusión y convivencia escolar",
+      "subtopic": "Rectoría / rutas de riesgo",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Familias desconocen cómo reportar una situación de riesgo; solo existe un chat informal del rector.",
+      "stem": "La mejora institucional correcta es:",
+      "options": [
+        "Publicar rumores en redes para 'investigar en comunidad'",
+        "Mantener solo el WhatsApp del rector como canal único",
+        "Prohibir reportes de familias",
+        "Socializar canales formales, protocolos y roles del Comité de Convivencia con trazabilidad"
+      ],
+      "correctIndex": 3,
+      "explanation": "Ley 1620 y Guías MEN orientan rutas claras, accesibles y con registro institucional. Canales formales reducen re-victimización y dependencia de una sola persona.",
+      "normativeJustification": "Ley 1620 y Guías MEN orientan rutas claras, accesibles y con registro institucional.",
+      "theoreticalJustification": "Canales formales reducen re-victimización y dependencia de una sola persona.",
+      "distractorAnalysis": {
+        "0": "Investigar por redes vulnera derechos y sesga el proceso.",
+        "1": "Un chat personal no garantiza trazabilidad ni continuidad.",
+        "2": "Las familias son parte de la ruta de protección."
+      },
+      "knowledgeTags": [
+        {
+          "code": "ley1620",
+          "focus": "canales de reporte"
+        },
+        {
+          "code": "guiaMen49",
+          "focus": "protocolo"
+        }
+      ],
+      "normativeRefs": [
+        "ley1620",
+        "guiaMen49"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-14",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / gobierno escolar activo",
+      "module": "Gestión institucional y PEI",
+      "subtopic": "Rectoría / gobierno escolar activo",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "El gobierno escolar no se reunió en el año; las decisiones de impacto se improvisan.",
+      "stem": "La acción rectoral prioritaria es:",
+      "options": [
+        "Esperar a que supervisión nombre los órganos",
+        "Sustituir instancias por encuestas anónimas en redes",
+        "Reactivar calendarios, convocatorias, quórums y actas de las instancias del gobierno escolar",
+        "Centralizar todo en rectoría 'para no perder tiempo'"
+      ],
+      "correctIndex": 2,
+      "explanation": "El Decreto 1860 organiza el gobierno escolar; su funcionamiento periódico es parte de la gestión institucional. Sin instancias activas no hay participación real ni memoria institucional de decisiones.",
+      "normativeJustification": "El Decreto 1860 organiza el gobierno escolar; su funcionamiento periódico es parte de la gestión institucional.",
+      "theoreticalJustification": "Sin instancias activas no hay participación real ni memoria institucional de decisiones.",
+      "distractorAnalysis": {
+        "0": "La reactivación es deber institucional, no solo de supervisión.",
+        "1": "Las redes no reemplazan órganos estatutarios.",
+        "3": "La centralización excesiva debilita legitimidad y control."
+      },
+      "knowledgeTags": [
+        {
+          "code": "decreto1860",
+          "focus": "gobierno escolar"
+        },
+        {
+          "code": "ley115",
+          "focus": "participación"
+        }
+      ],
+      "normativeRefs": [
+        "decreto1860",
+        "ley115"
+      ],
+      "difficulty": "basico",
+      "dificultad": 1,
+      "recommendedSeconds": 60,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-15",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / calidad curricular",
+      "module": "Currículo y referentes MEN",
+      "subtopic": "Rectoría / calidad curricular",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "Docentes enseñan 'lo que alcanza el libro' sin articulación a DBA/EBC ni seguimiento institucional.",
+      "stem": "El liderazgo rectoral más pertinente es:",
+      "options": [
+        "Imponer un único cuadernillo nacional sin contexto",
+        "Dejar el currículo solo a la preferencia individual de cada docente",
+        "Orientar planeación y seguimiento con referentes MEN (DBA/EBC/lineamientos) y evidencias de aprendizaje",
+        "Prohibir cualquier libro de texto"
+      ],
+      "correctIndex": 2,
+      "explanation": "Los referentes de calidad MEN orientan el currículo; la gestión institucional debe monitorear su apropiación. El libro es un medio; el norte son aprendizajes esenciales con seguimiento colegiado.",
+      "normativeJustification": "Los referentes de calidad MEN orientan el currículo; la gestión institucional debe monitorear su apropiación.",
+      "theoreticalJustification": "El libro es un medio; el norte son aprendizajes esenciales con seguimiento colegiado.",
+      "distractorAnalysis": {
+        "0": "La imposición descontextualizada ignora el PEI y el contexto.",
+        "1": "La atomización rompe coherencia institucional.",
+        "3": "El problema no es el libro, sino la falta de norte curricular."
+      },
+      "knowledgeTags": [
+        {
+          "code": "dba",
+          "focus": "planeación"
+        },
+        {
+          "code": "ebc",
+          "focus": "competencias"
+        },
+        {
+          "code": "lineamientos",
+          "focus": "currículo"
+        }
+      ],
+      "normativeRefs": [
+        "dba",
+        "ebc",
+        "lineamientos"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
+      "id": "oro-rect-16",
+      "pillar": "pedagogico",
+      "topic": "Rectoría / comunicación con familias",
+      "module": "Competencias comportamentales",
+      "subtopic": "Rectoría / comunicación con familias",
+      "targetCargo": "directivos",
+      "specialtyTags": [
+        "directivos"
+      ],
+      "caseContext": "En reunión de padres, una familia acusa públicamente a un docente con tono agresivo. Hay estudiantes presentes.",
+      "stem": "La respuesta rectoral más adecuada es:",
+      "options": [
+        "Dejar que el debate escale en público 'para transparencia'",
+        "Expulsar a la familia del colegio en el acto sin procedimiento",
+        "Ridiculizar a la familia para defender al docente",
+        "Contener el espacio, proteger la dignidad de las partes y abrir un canal privado con debido proceso"
+      ],
+      "correctIndex": 3,
+      "explanation": "El liderazgo institucional debe garantizar respeto, debido proceso y canales formales de reclamación. La contención pública y el proceso privado protegen clima, derechos y posibilidad de solución.",
+      "normativeJustification": "El liderazgo institucional debe garantizar respeto, debido proceso y canales formales de reclamación.",
+      "theoreticalJustification": "La contención pública y el proceso privado protegen clima, derechos y posibilidad de solución.",
+      "distractorAnalysis": {
+        "0": "El espectáculo público daña clima y puede revictimizar.",
+        "1": "Sanciones inmediatas sin proceso son arbitrarias.",
+        "2": "La ridiculización escalada el conflicto y modela violencia."
+      },
+      "knowledgeTags": [
+        {
+          "code": "ley1620",
+          "focus": "clima y respeto"
+        }
+      ],
+      "normativeRefs": [
+        "ley1620"
+      ],
+      "difficulty": "intermedio",
+      "dificultad": 2,
+      "recommendedSeconds": 90,
+      "isCaseStudy": true
+    },
+    {
+      "published": true,
+      "schemaVersion": 1,
       "id": "fs-gold-001",
       "pillar": "pedagogico",
       "topic": "Decreto 1290 / Vygotsky",
@@ -22268,19 +23017,19 @@
       "subtopic": "Porcentajes sin calculadora",
       "stem": "¿Cuánto es el 35% de 200?",
       "options": [
-        "84",
         "70",
-        "62",
-        "80"
+        "80",
+        "84",
+        "62"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "35% de 200 = (35/100)×200 = 70.",
       "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
       "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
       "distractorAnalysis": {
-        "0": "Redondeo o proporción invertida.",
-        "2": "Confusión entre aumento porcentual y porcentaje directo.",
-        "3": "Error típico: operar el porcentaje como entero sin dividir entre 100."
+        "1": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
+        "2": "Redondeo o proporción invertida.",
+        "3": "Confusión entre aumento porcentual y porcentaje directo."
       },
       "knowledgeTags": [
         {
@@ -22304,8 +23053,8 @@
       "subtopic": "Porcentajes sin calculadora",
       "stem": "¿Cuánto es el 12% de 80?",
       "options": [
-        "12",
         "2",
+        "12",
         "10",
         "20"
       ],
@@ -22340,19 +23089,19 @@
       "subtopic": "Porcentajes sin calculadora",
       "stem": "¿Cuánto es el 45% de 320?",
       "options": [
-        "144",
-        "154",
+        "136",
         "173",
-        "136"
+        "144",
+        "154"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "45% de 320 = (45/100)×320 = 144.",
       "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
       "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
       "distractorAnalysis": {
-        "1": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
-        "2": "Redondeo o proporción invertida.",
-        "3": "Confusión entre aumento porcentual y porcentaje directo."
+        "0": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
+        "1": "Confusión entre aumento porcentual y porcentaje directo.",
+        "3": "Redondeo o proporción invertida."
       },
       "knowledgeTags": [
         {
@@ -22376,19 +23125,19 @@
       "subtopic": "Porcentajes sin calculadora",
       "stem": "¿Cuánto es el 18% de 250?",
       "options": [
-        "54",
         "45",
+        "55",
         "37",
-        "55"
+        "54"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "18% de 250 = (18/100)×250 = 45.",
       "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
       "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
       "distractorAnalysis": {
-        "0": "Confusión entre aumento porcentual y porcentaje directo.",
-        "2": "Redondeo o proporción invertida.",
-        "3": "Error típico: operar el porcentaje como entero sin dividir entre 100."
+        "1": "Confusión entre aumento porcentual y porcentaje directo.",
+        "2": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
+        "3": "Redondeo o proporción invertida."
       },
       "knowledgeTags": [
         {
@@ -22449,8 +23198,8 @@
       "stem": "Si 6 docentes elaboran 9 rúbricas en el mismo tiempo, ¿cuántas elaborarán 10 docentes a igual ritmo?",
       "options": [
         "17",
-        "12",
         "20",
+        "12",
         "15"
       ],
       "correctIndex": 3,
@@ -22485,8 +23234,8 @@
       "stem": "Si 15 docentes elaboran 4 rúbricas en el mismo tiempo, ¿cuántas elaborarán 9 docentes a igual ritmo?",
       "options": [
         "2",
-        "4",
         "1",
+        "4",
         "7"
       ],
       "correctIndex": 0,
@@ -22520,19 +23269,19 @@
       "subtopic": "Proporción directa",
       "stem": "Si 20 docentes elaboran 7 rúbricas en el mismo tiempo, ¿cuántas elaborarán 28 docentes a igual ritmo?",
       "options": [
-        "12",
         "10",
         "7",
-        "15"
+        "15",
+        "12"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "(7/20)×28 = 10.",
       "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
       "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
       "distractorAnalysis": {
-        "0": "Olvidar la tasa unitaria.",
-        "2": "Invertir la razón.",
-        "3": "Sumar en lugar de proporcionalizar."
+        "1": "Sumar en lugar de proporcionalizar.",
+        "2": "Olvidar la tasa unitaria.",
+        "3": "Invertir la razón."
       },
       "knowledgeTags": [
         {
@@ -22556,19 +23305,19 @@
       "subtopic": "Proporción directa",
       "stem": "Si 9 docentes elaboran 6 rúbricas en el mismo tiempo, ¿cuántas elaborarán 15 docentes a igual ritmo?",
       "options": [
-        "12",
-        "10",
+        "7",
         "15",
-        "7"
+        "12",
+        "10"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "(6/9)×15 = 10.",
       "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
       "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
       "distractorAnalysis": {
-        "0": "Olvidar la tasa unitaria.",
-        "2": "Invertir la razón.",
-        "3": "Sumar en lugar de proporcionalizar."
+        "0": "Invertir la razón.",
+        "1": "Olvidar la tasa unitaria.",
+        "2": "Sumar en lugar de proporcionalizar."
       },
       "knowledgeTags": [
         {
@@ -22593,18 +23342,18 @@
       "stem": "Cuatro simulacros dieron 61, 71, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
         "81",
-        "68",
         "77",
-        "73"
+        "73",
+        "68"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "Error de signo al despejar.",
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -22664,10 +23413,10 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 63, 73, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "64",
         "77",
+        "73",
         "69",
-        "73"
+        "64"
       ],
       "correctIndex": 2,
       "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
@@ -22700,19 +23449,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 64, 74, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "75",
-        "71",
         "67",
-        "62"
+        "75",
+        "62",
+        "71"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "1": "Usar la mediana u otro estadístico.",
+        "2": "Error de signo al despejar.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -22736,10 +23485,10 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 65, 70, 70, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "74",
+        "65",
         "70",
-        "78",
-        "65"
+        "74",
+        "78"
       ],
       "correctIndex": 1,
       "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
@@ -22772,19 +23521,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 66, 71, 71, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "66",
+        "62",
         "70",
-        "57",
-        "62"
+        "66",
+        "57"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico."
+        "1": "Usar la mediana u otro estadístico.",
+        "2": "Error de signo al despejar.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -22808,19 +23557,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 60, 72, 72, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "67",
-        "75",
+        "71",
         "62",
-        "71"
+        "67",
+        "75"
       ],
-      "correctIndex": 0,
+      "correctIndex": 2,
       "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Usar la mediana u otro estadístico.",
+        "1": "Error de signo al despejar.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -22844,9 +23593,9 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 61, 73, 73, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
+        "60",
         "69",
         "73",
-        "60",
         "65"
       ],
       "correctIndex": 3,
@@ -22880,19 +23629,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 62, 74, 65, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "76",
-        "80",
         "72",
-        "67"
+        "80",
+        "67",
+        "76"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "1": "Error de signo al despejar.",
+        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -22918,8 +23667,8 @@
       "options": [
         "75",
         "83",
-        "70",
-        "79"
+        "79",
+        "70"
       ],
       "correctIndex": 0,
       "explanation": "Suma actual 275. Meta 5×70=350. Falta 75.",
@@ -22988,19 +23737,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 65, 72, 68, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "60",
         "73",
+        "65",
         "69",
-        "65"
+        "60"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Error de signo al despejar."
+        "0": "Error de signo al despejar.",
+        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23024,19 +23773,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 66, 73, 69, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "71",
-        "67",
         "63",
-        "58"
+        "71",
+        "58",
+        "67"
       ],
-      "correctIndex": 2,
+      "correctIndex": 0,
       "explanation": "Suma actual 287. Meta 5×70=350. Falta 63.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "1": "Error de signo al despejar.",
+        "2": "Usar la mediana u otro estadístico.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23060,19 +23809,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 60, 74, 70, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "63",
-        "76",
         "72",
-        "68"
+        "68",
+        "63",
+        "76"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Error de signo al despejar.",
+        "2": "Usar la mediana u otro estadístico.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23096,19 +23845,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 61, 70, 71, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "75",
         "71",
+        "66",
         "79",
-        "66"
+        "75"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "2": "Error de signo al despejar.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "1": "Usar la mediana u otro estadístico.",
+        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Error de signo al despejar."
       },
       "knowledgeTags": [
         {
@@ -23132,10 +23881,10 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 62, 71, 72, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "77",
-        "69",
         "73",
-        "64"
+        "69",
+        "64",
+        "77"
       ],
       "correctIndex": 1,
       "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
@@ -23168,19 +23917,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 63, 72, 73, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "62",
-        "67",
+        "75",
         "71",
-        "75"
+        "62",
+        "67"
       ],
-      "correctIndex": 1,
+      "correctIndex": 3,
       "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "0": "Error de signo al despejar.",
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "2": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23204,19 +23953,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 64, 73, 65, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "63",
-        "76",
         "72",
-        "68"
+        "76",
+        "68",
+        "63"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "Error de signo al despejar.",
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23240,19 +23989,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 65, 74, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
+        "74",
         "66",
-        "70",
         "61",
-        "74"
+        "70"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Suma actual 284. Meta 5×70=350. Falta 66.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Error de signo al despejar.",
+        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23278,17 +24027,17 @@
       "options": [
         "77",
         "73",
-        "64",
-        "69"
+        "69",
+        "64"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Usar la mediana u otro estadístico.",
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Error de signo al despejar."
       },
       "knowledgeTags": [
         {
@@ -23313,9 +24062,9 @@
       "stem": "Cuatro simulacros dieron 60, 71, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
         "74",
-        "82",
+        "78",
         "69",
-        "78"
+        "82"
       ],
       "correctIndex": 0,
       "explanation": "Suma actual 276. Meta 5×70=350. Falta 74.",
@@ -23350,17 +24099,17 @@
       "options": [
         "67",
         "76",
-        "80",
-        "72"
+        "72",
+        "80"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Error de signo al despejar."
+        "0": "Error de signo al despejar.",
+        "1": "Usar la mediana u otro estadístico.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23384,19 +24133,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 62, 73, 70, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "78",
-        "74",
         "65",
-        "70"
+        "74",
+        "70",
+        "78"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "Error de signo al despejar.",
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23420,19 +24169,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 63, 74, 71, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "57",
         "62",
+        "57",
         "66",
         "70"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "1": "Usar la mediana u otro estadístico.",
+        "2": "Error de signo al despejar.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23456,19 +24205,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 64, 70, 72, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "60",
+        "65",
         "69",
         "73",
-        "65"
+        "60"
       ],
-      "correctIndex": 3,
+      "correctIndex": 0,
       "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "2": "Error de signo al despejar.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23492,19 +24241,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 65, 71, 73, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "67",
         "63",
-        "58",
-        "71"
+        "67",
+        "71",
+        "58"
       ],
-      "correctIndex": 1,
+      "correctIndex": 0,
       "explanation": "Suma actual 287. Meta 5×70=350. Falta 63.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "1": "Error de signo al despejar.",
+        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23530,8 +24279,8 @@
       "options": [
         "70",
         "65",
-        "74",
-        "78"
+        "78",
+        "74"
       ],
       "correctIndex": 0,
       "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
@@ -23564,19 +24313,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 60, 73, 66, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
+        "83",
         "70",
         "75",
-        "79",
-        "83"
+        "79"
       ],
-      "correctIndex": 1,
+      "correctIndex": 2,
       "explanation": "Suma actual 275. Meta 5×70=350. Falta 75.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Error de signo al despejar.",
+        "1": "Usar la mediana u otro estadístico.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23601,18 +24350,18 @@
       "stem": "Cuatro simulacros dieron 61, 74, 67, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
         "77",
-        "68",
+        "73",
         "81",
-        "73"
+        "68"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "2": "Error de signo al despejar.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23636,19 +24385,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 62, 70, 68, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "70",
         "65",
         "74",
-        "78"
+        "78",
+        "70"
       ],
-      "correctIndex": 0,
+      "correctIndex": 3,
       "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "Usar la mediana u otro estadístico.",
+        "1": "Error de signo al despejar.",
+        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23672,19 +24421,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 63, 71, 69, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "72",
-        "63",
+        "76",
         "68",
-        "76"
+        "72",
+        "63"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Error de signo al despejar.",
+        "2": "Usar la mediana u otro estadístico.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23708,19 +24457,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 64, 72, 70, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "66",
         "61",
+        "66",
         "70",
         "74"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Suma actual 284. Meta 5×70=350. Falta 66.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "0": "Usar la mediana u otro estadístico.",
+        "2": "Error de signo al despejar.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23745,18 +24494,18 @@
       "stem": "Cuatro simulacros dieron 65, 73, 71, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
         "59",
+        "64",
         "68",
-        "72",
-        "64"
+        "72"
       ],
-      "correctIndex": 3,
+      "correctIndex": 1,
       "explanation": "Suma actual 286. Meta 5×70=350. Falta 64.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Error de signo al despejar.",
+        "2": "Usar la mediana u otro estadístico.",
+        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
       },
       "knowledgeTags": [
         {
@@ -23780,9 +24529,9 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 66, 74, 72, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "57",
-        "66",
         "70",
+        "66",
+        "57",
         "62"
       ],
       "correctIndex": 3,
@@ -23816,19 +24565,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 60, 70, 73, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "76",
         "80",
-        "67",
-        "72"
+        "76",
+        "72",
+        "67"
       ],
-      "correctIndex": 3,
+      "correctIndex": 2,
       "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "Error de signo al despejar.",
+        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "3": "Usar la mediana u otro estadístico."
       },
       "knowledgeTags": [
         {
@@ -23852,9 +24601,9 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 61, 71, 65, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
+        "68",
         "81",
         "77",
-        "68",
         "73"
       ],
       "correctIndex": 3,
@@ -23889,18 +24638,18 @@
       "stem": "Cuatro simulacros dieron 62, 72, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
         "75",
-        "66",
         "71",
+        "66",
         "79"
       ],
-      "correctIndex": 2,
+      "correctIndex": 1,
       "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "2": "Usar la mediana u otro estadístico.",
+        "3": "Error de signo al despejar."
       },
       "knowledgeTags": [
         {
@@ -23924,19 +24673,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Cuatro simulacros dieron 63, 73, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
       "options": [
-        "69",
-        "77",
         "64",
-        "73"
+        "69",
+        "73",
+        "77"
       ],
-      "correctIndex": 0,
+      "correctIndex": 1,
       "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
       "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
       "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
       "distractorAnalysis": {
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+        "2": "Usar la mediana u otro estadístico.",
+        "3": "Error de signo al despejar."
       },
       "knowledgeTags": [
         {

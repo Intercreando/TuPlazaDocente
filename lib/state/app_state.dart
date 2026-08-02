@@ -336,12 +336,63 @@ class AppState extends ChangeNotifier {
     return true;
   }
 
-  Future<void> signOut() async {
-    await _sync.signOutToAnonymous();
-    syncStatus = _sync.available
-        ? 'Sesión invitado (nube)'
-        : 'Modo local';
-    notifyListeners();
+  /// Cierra la cuenta registrada, guarda su progreso en la nube y deja un invitado limpio.
+  /// Conserva solo la preferencia de tema oscuro en el dispositivo.
+  Future<bool> signOut() async {
+    try {
+      final keepDarkMode = profile.darkMode;
+
+      // 1) Persistir progreso de la cuenta registrada antes de soltar el UID.
+      if (!_sync.isAnonymous && _sync.available) {
+        try {
+          await _sync.saveRemoteProfile(profile);
+        } catch (e) {
+          debugPrint('signOut: no se pudo guardar remoto previo: $e');
+        }
+      }
+
+      // 2) Cortar entrenamiento en curso.
+      _resetSessionFields();
+
+      // 3) Firebase: salir y volver a anónimo (nuevo UID).
+      final switched = await _sync.signOutToAnonymous();
+      if (!switched) {
+        lastError = _sync.lastError ?? 'No se pudo cerrar sesión por completo.';
+        syncStatus = lastError;
+        notifyListeners();
+        return false;
+      }
+
+      // 4) Perfil invitado fresco (sin Premium ni progreso heredado).
+      profile = UserProfile(darkMode: keepDarkMode);
+      lastResult = null;
+      lastError = null;
+
+      // 5) Si el nuevo UID ya tiene algo remoto, úsalo; si no, queda limpio.
+      if (_sync.available) {
+        try {
+          final remote = await _sync.loadRemoteProfile();
+          if (remote != null) {
+            profile = remote.copyWith(darkMode: keepDarkMode);
+            _refreshDailyFlags();
+          }
+        } catch (e) {
+          debugPrint('signOut: carga remota del invitado: $e');
+        }
+      }
+
+      await _persist();
+      syncStatus = _sync.available
+          ? 'Sesión invitado (nube). Tu cuenta quedó guardada; puedes volver a entrar cuando quieras.'
+          : 'Sesión invitado local. Tu cuenta en la nube quedó guardada.';
+      notifyListeners();
+      return true;
+    } catch (e) {
+      lastError = 'No se pudo cerrar sesión. Intenta de nuevo.';
+      debugPrint('signOut: $e');
+      notifyListeners();
+      return false;
+    }
   }
 
   Future<void> _reloadAfterAuth() async {
@@ -380,10 +431,13 @@ class AppState extends ChangeNotifier {
       return;
     }
 
+    final resolvedSpecialty = specialty ??
+        _specialtyForSession(mode, pillar: pillar, casesOnly: casesOnly);
+
     currentQuestions = QuestionBank.forSession(
       mode: mode,
       pillar: pillar,
-      specialty: specialty,
+      specialty: resolvedSpecialty,
       count: mode == SessionMode.dailyStreak
           ? freeDailyLimit
           : mode == SessionMode.speedBattle
@@ -404,6 +458,33 @@ class AppState extends ChangeNotifier {
     sessionStartedAt = DateTime.now();
     questionStartedAt = DateTime.now();
     notifyListeners();
+  }
+
+  /// Prioriza Gestión directiva para Rector/Directivo cuando no hay foco de pilar.
+  Especialidad? _specialtyForSession(
+    SessionMode mode, {
+    CompetencyPillar? pillar,
+    bool casesOnly = false,
+  }) {
+    if (mode == SessionMode.speedBattle || mode == SessionMode.dailyStreak) {
+      return null;
+    }
+
+    final esGestion = profile.cargo?.esGestionInstitucional == true;
+
+    if (mode == SessionMode.diagnostic || casesOnly) {
+      if (esGestion) return Especialidad.directivos;
+      return profile.especialidad;
+    }
+
+    // Con pilar explícito (plan diario) respetamos el foco del radar.
+    if (pillar != null) return null;
+
+    if (esGestion) return Especialidad.directivos;
+    if (mode == SessionMode.practice || mode == SessionMode.exam) {
+      return profile.especialidad;
+    }
+    return null;
   }
 
   void startPlanTask(StudyTask task) {
@@ -587,7 +668,7 @@ class AppState extends ChangeNotifier {
     );
   }
 
-  void clearSession() {
+  void _resetSessionFields() {
     currentQuestions = [];
     currentMode = null;
     currentIndex = 0;
@@ -597,6 +678,10 @@ class AppState extends ChangeNotifier {
     questionStartedAt = null;
     sessionStartedAt = null;
     activePlanTaskId = null;
+  }
+
+  void clearSession() {
+    _resetSessionFields();
     notifyListeners();
   }
 

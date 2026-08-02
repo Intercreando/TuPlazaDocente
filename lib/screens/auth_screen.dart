@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../services/tts_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
@@ -145,7 +146,7 @@ class _AuthScreenState extends State<AuthScreen> {
                     child: Text(
                       _registerMode
                           ? '¿Ya tienes cuenta? Inicia sesión'
-                          : '¿Nuevo aquí? Crear cuenta',
+                          : '¿Aún no tienes cuenta? Crear cuenta',
                     ),
                   ),
                   const SizedBox(height: 8),
@@ -169,15 +170,26 @@ class _AuthScreenState extends State<AuthScreen> {
                           ? null
                           : () async {
                               final messenger = ScaffoldMessenger.of(context);
+                              final router = GoRouter.of(context);
+                              final tts = context.read<TtsService>();
                               setState(() => _loading = true);
-                              await state.signOut();
+                              try {
+                                tts.stop();
+                              } catch (_) {}
+                              final ok = await state.signOut();
                               if (!mounted) return;
                               setState(() => _loading = false);
                               messenger.showSnackBar(
-                                const SnackBar(
-                                  content: Text('Sesión cerrada. Sigues como invitado.'),
+                                SnackBar(
+                                  content: Text(
+                                    ok
+                                        ? 'Sesión cerrada. Entraste como invitado sin el progreso de esa cuenta.'
+                                        : state.lastError ??
+                                            'No se pudo cerrar sesión.',
+                                  ),
                                 ),
                               );
+                              if (ok) router.go('/');
                             },
                       child: const Text('Cerrar sesión'),
                     ),

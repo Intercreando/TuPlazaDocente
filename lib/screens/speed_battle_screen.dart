@@ -145,7 +145,7 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Modo nivel 1 · tiempo por ítem según tiempo_recomendado_seg',
+                    'Preguntas de nivel básico con tiempo límite por ítem.',
                     style: theme.textTheme.bodyLarge,
                     textAlign: TextAlign.center,
                   ),
@@ -189,7 +189,7 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Reto rápido · N1'),
+        title: const Text('Reto rápido · Nivel 1'),
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () async {

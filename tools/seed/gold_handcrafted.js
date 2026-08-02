@@ -7,6 +7,7 @@ const {wave2} = require("./gold_wave2_1278_guias");
 const {wave3} = require("./gold_wave3_especialidades");
 const {wave4} = require("./gold_wave4_cerebro");
 const {wave4b} = require("./gold_wave4b_volumen");
+const {wave5} = require("./gold_wave5_rector");
 
 /** @type {ReturnType<typeof gold>[]} */
 const handcrafted = [
@@ -810,6 +811,11 @@ for (const q of wave4) {
   handcrafted.push(q);
 }
 for (const q of wave4b) {
+  handcrafted.push(q);
+}
+
+// Quinta ola: casos específicos de rectoría (Gestión directiva)
+for (const q of wave5) {
   handcrafted.push(q);
 }
 

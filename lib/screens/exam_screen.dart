@@ -71,7 +71,7 @@ class _ExamScreenState extends State<ExamScreen> {
         body: Center(
           child: FilledButton(
             onPressed: () => context.go('/app'),
-            child: const Text('Volver'),
+            child: const Text('Volver al inicio'),
           ),
         ),
       );

@@ -141,6 +141,24 @@ abstract final class StudyPlanService {
       );
     }
 
+    if (profile.cargo?.esGestionInstitucional == true ||
+        profile.especialidad == Especialidad.directivos) {
+      tasks.add(
+        StudyTask(
+          id: 'rector-block',
+          title: profile.cargo == CargoAspiracion.rector
+              ? 'Casos de rectoría'
+              : 'Gestión directiva',
+          subtitle: 'PEI, gobierno escolar, SIEE y convivencia institucional',
+          pillar: CompetencyPillar.pedagogico,
+          questionCount: intensity == 'Base' ? 4 : 6,
+          mode: SessionMode.practice,
+          minutes: 12,
+          isCaseStudy: true,
+        ),
+      );
+    }
+
     return tasks;
   }
 }

@@ -4,13 +4,23 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
+import '../services/tts_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../widgets/listen_button.dart';
 import '../widgets/option_tile.dart';
 
 /// Modo práctica / racha / diagnóstico con explicación inmediata.
 class PracticeScreen extends StatelessWidget {
   const PracticeScreen({super.key});
+
+  Future<void> _stopVoice(BuildContext context) async {
+    try {
+      context.read<TtsService>().stop();
+    } catch (_) {
+      // Silencioso: no bloquear la navegación si el motor de voz falla.
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -51,13 +61,17 @@ class PracticeScreen extends StatelessWidget {
       SessionMode.diagnostic => 'Diagnóstico inicial',
       _ => 'Modo práctica',
     };
+    final promptKey = 'prompt-${question.id}';
+    final feedbackKey = 'feedback-${question.id}';
 
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
         leading: IconButton(
           icon: const Icon(Icons.close),
-          onPressed: () {
+          onPressed: () async {
+            await _stopVoice(context);
+            if (!context.mounted) return;
             state.clearSession();
             context.go('/app');
           },
@@ -92,6 +106,15 @@ class PracticeScreen extends StatelessWidget {
                     ),
                 ],
               ),
+              const SizedBox(height: 12),
+              Align(
+                alignment: Alignment.centerLeft,
+                child: ListenButton(
+                  text: question.speakPrompt,
+                  speakKey: promptKey,
+                  label: 'Escuchar pregunta',
+                ),
+              ),
               const SizedBox(height: 14),
               if (question.caseContext != null) ...[
                 Container(
@@ -100,9 +123,14 @@ class PracticeScreen extends StatelessWidget {
                   decoration: BoxDecoration(
                     color: AppColors.skyLine.withValues(alpha: 0.10),
                     borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: AppColors.skyLine.withValues(alpha: 0.35)),
+                    border: Border.all(
+                      color: AppColors.skyLine.withValues(alpha: 0.35),
+                    ),
                   ),
-                  child: Text(question.caseContext!, style: theme.textTheme.bodyMedium),
+                  child: Text(
+                    question.caseContext!,
+                    style: theme.textTheme.bodyMedium,
+                  ),
                 ),
                 const SizedBox(height: 14),
               ],
@@ -134,7 +162,9 @@ class PracticeScreen extends StatelessWidget {
                       alpha: theme.brightness == Brightness.dark ? 0.12 : 1,
                     ),
                     borderRadius: BorderRadius.circular(16),
-                    border: Border.all(color: AppColors.canopy.withValues(alpha: 0.35)),
+                    border: Border.all(
+                      color: AppColors.canopy.withValues(alpha: 0.35),
+                    ),
                   ),
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -143,7 +173,13 @@ class PracticeScreen extends StatelessWidget {
                         'Cerebro pedagógico TuPlazaDocente',
                         style: theme.textTheme.titleSmall,
                       ),
-                      const SizedBox(height: 6),
+                      const SizedBox(height: 8),
+                      ListenButton(
+                        text: question.speakFeedback,
+                        speakKey: feedbackKey,
+                        label: 'Escuchar explicación',
+                      ),
+                      const SizedBox(height: 10),
                       Text(
                         '${question.moduleLabel} · ${question.subtopicLabel}',
                         style: theme.textTheme.labelMedium,
@@ -159,7 +195,10 @@ class PracticeScreen extends StatelessWidget {
                       ],
                       if (question.normativeJustification != null) ...[
                         const SizedBox(height: 12),
-                        Text('Justificación normativa', style: theme.textTheme.labelLarge),
+                        Text(
+                          'Justificación normativa',
+                          style: theme.textTheme.labelLarge,
+                        ),
                         const SizedBox(height: 4),
                         Text(
                           question.normativeJustification!,
@@ -168,7 +207,10 @@ class PracticeScreen extends StatelessWidget {
                       ],
                       if (question.theoreticalJustification != null) ...[
                         const SizedBox(height: 12),
-                        Text('Justificación teórica', style: theme.textTheme.labelLarge),
+                        Text(
+                          'Justificación teórica',
+                          style: theme.textTheme.labelLarge,
+                        ),
                         const SizedBox(height: 4),
                         Text(
                           question.theoreticalJustification!,
@@ -178,7 +220,10 @@ class PracticeScreen extends StatelessWidget {
                       if (question.normativeJustification == null &&
                           question.theoreticalJustification == null) ...[
                         const SizedBox(height: 8),
-                        Text(question.explanation, style: theme.textTheme.bodyMedium),
+                        Text(
+                          question.explanation,
+                          style: theme.textTheme.bodyMedium,
+                        ),
                       ],
                       if (state.selectedOption != null &&
                           question.distractorAnalysis[state.selectedOption!] !=
@@ -210,6 +255,8 @@ class PracticeScreen extends StatelessWidget {
                 onPressed: state.selectedOption == null
                     ? null
                     : () async {
+                        await _stopVoice(context);
+                        if (!context.mounted) return;
                         if (!state.revealed) {
                           state.revealPracticeAnswer();
                           return;
@@ -218,7 +265,9 @@ class PracticeScreen extends StatelessWidget {
                         if (!context.mounted) return;
                         if (finished) context.go('/results');
                       },
-                child: Text(state.revealed ? 'Siguiente' : 'Verificar'),
+                child: Text(
+                  state.revealed ? 'Continuar' : 'Comprobar respuesta',
+                ),
               ),
             ],
           ),
