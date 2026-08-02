@@ -4,23 +4,14 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
-import '../services/tts_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
-import '../widgets/listen_button.dart';
+import '../widgets/normative_link_chips.dart';
 import '../widgets/option_tile.dart';
 
 /// Modo práctica / racha / diagnóstico con explicación inmediata.
 class PracticeScreen extends StatelessWidget {
   const PracticeScreen({super.key});
-
-  Future<void> _stopVoice(BuildContext context) async {
-    try {
-      context.read<TtsService>().stop();
-    } catch (_) {
-      // Silencioso: no bloquear la navegación si el motor de voz falla.
-    }
-  }
 
   @override
   Widget build(BuildContext context) {
@@ -61,17 +52,13 @@ class PracticeScreen extends StatelessWidget {
       SessionMode.diagnostic => 'Diagnóstico inicial',
       _ => 'Modo práctica',
     };
-    final promptKey = 'prompt-${question.id}';
-    final feedbackKey = 'feedback-${question.id}';
 
     return Scaffold(
       appBar: AppBar(
         title: Text(title),
         leading: IconButton(
           icon: const Icon(Icons.close),
-          onPressed: () async {
-            await _stopVoice(context);
-            if (!context.mounted) return;
+          onPressed: () {
             state.clearSession();
             context.go('/app');
           },
@@ -105,15 +92,6 @@ class PracticeScreen extends StatelessWidget {
                       label: Text('Caso de aula'),
                     ),
                 ],
-              ),
-              const SizedBox(height: 12),
-              Align(
-                alignment: Alignment.centerLeft,
-                child: ListenButton(
-                  text: question.speakPrompt,
-                  speakKey: promptKey,
-                  label: 'Escuchar pregunta',
-                ),
               ),
               const SizedBox(height: 14),
               if (question.caseContext != null) ...[
@@ -172,12 +150,6 @@ class PracticeScreen extends StatelessWidget {
                       Text(
                         'Cerebro pedagógico TuPlazaDocente',
                         style: theme.textTheme.titleSmall,
-                      ),
-                      const SizedBox(height: 8),
-                      ListenButton(
-                        text: question.speakFeedback,
-                        speakKey: feedbackKey,
-                        label: 'Escuchar explicación',
                       ),
                       const SizedBox(height: 10),
                       Text(
@@ -246,6 +218,8 @@ class PracticeScreen extends StatelessWidget {
                           style: theme.textTheme.labelMedium,
                         ),
                       ],
+                      const SizedBox(height: 12),
+                      NormativeLinkChips(question: question),
                     ],
                   ),
                 ).animate().fadeIn(duration: 280.ms),
@@ -255,8 +229,6 @@ class PracticeScreen extends StatelessWidget {
                 onPressed: state.selectedOption == null
                     ? null
                     : () async {
-                        await _stopVoice(context);
-                        if (!context.mounted) return;
                         if (!state.revealed) {
                           state.revealPracticeAnswer();
                           return;

@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
-import '../services/tts_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
@@ -171,11 +170,7 @@ class _AuthScreenState extends State<AuthScreen> {
                           : () async {
                               final messenger = ScaffoldMessenger.of(context);
                               final router = GoRouter.of(context);
-                              final tts = context.read<TtsService>();
                               setState(() => _loading = true);
-                              try {
-                                tts.stop();
-                              } catch (_) {}
                               final ok = await state.signOut();
                               if (!mounted) return;
                               setState(() => _loading = false);

@@ -30,6 +30,8 @@ class AppState extends ChangeNotifier {
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const freeDailyLimit = 5;
   static const freeMonthlyShortExams = 1;
+  /// Sesiones de práctica libre (además del reto diario) permitidas por día en Gratis.
+  static const freePracticeSessionsPerDay = 1;
 
   final FirebaseSyncService _sync;
   final PaymentService _payments;
@@ -53,6 +55,9 @@ class AppState extends ChangeNotifier {
   DateTime? sessionStartedAt;
   SessionResult? lastResult;
   int monthlyShortExamsUsed = 0;
+  String examsMonthKey = '';
+  int freePracticeSessionsUsed = 0;
+  String freePracticeDayKey = '';
   String? activePlanTaskId;
 
   Question? get currentQuestion =>
@@ -60,6 +65,13 @@ class AppState extends ChangeNotifier {
 
   bool get canStartShortExam =>
       profile.isPremium || monthlyShortExamsUsed < freeMonthlyShortExams;
+
+  bool get canStartFreePractice =>
+      profile.isPremium ||
+      freePracticeSessionsUsed < freePracticeSessionsPerDay;
+
+  bool get canAccessCases => profile.isPremium;
+  bool get canAccessSpecialty => profile.isPremium;
 
   bool get cloudSyncEnabled => _sync.available;
   bool get isAnonymousUser => _sync.isAnonymous;
@@ -99,6 +111,10 @@ class AppState extends ChangeNotifier {
         _refreshDailyFlags();
       }
       monthlyShortExamsUsed = prefs.getInt('monthly_short_exams') ?? 0;
+      examsMonthKey = prefs.getString('exams_month_key') ?? '';
+      freePracticeSessionsUsed = prefs.getInt('free_practice_used') ?? 0;
+      freePracticeDayKey = prefs.getString('free_practice_day') ?? '';
+      _refreshQuotaFlags();
 
       // Mostrar UI cuanto antes; la nube/banco no deben dejar la app colgada.
       ready = true;
@@ -164,6 +180,9 @@ class AppState extends ChangeNotifier {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setString(_storageKey, jsonEncode(profile.toJson()));
       await prefs.setInt('monthly_short_exams', monthlyShortExamsUsed);
+      await prefs.setString('exams_month_key', examsMonthKey);
+      await prefs.setInt('free_practice_used', freePracticeSessionsUsed);
+      await prefs.setString('free_practice_day', freePracticeDayKey);
       if (_sync.available) {
         await _sync.saveRemoteProfile(profile);
         if (_sync.lastError != null) {
@@ -199,6 +218,25 @@ class AppState extends ChangeNotifier {
           planTaskDate: today,
         );
       }
+    }
+
+    _refreshQuotaFlags();
+  }
+
+  /// Reinicia cupos diarios/mensuales del plan Gratis.
+  void _refreshQuotaFlags() {
+    final now = DateTime.now();
+    final dayKey =
+        '${now.year}-${now.month.toString().padLeft(2, '0')}-${now.day.toString().padLeft(2, '0')}';
+    final monthKey = '${now.year}-${now.month.toString().padLeft(2, '0')}';
+
+    if (freePracticeDayKey != dayKey) {
+      freePracticeDayKey = dayKey;
+      freePracticeSessionsUsed = 0;
+    }
+    if (examsMonthKey != monthKey) {
+      examsMonthKey = monthKey;
+      monthlyShortExamsUsed = 0;
     }
   }
 
@@ -432,7 +470,7 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  void startSession({
+  bool startSession({
     required SessionMode mode,
     CompetencyPillar? pillar,
     Especialidad? specialty,
@@ -442,20 +480,50 @@ class AppState extends ChangeNotifier {
     int? difficultyLevel,
     int? minDifficultyLevel,
   }) {
+    _refreshQuotaFlags();
+
     if (mode == SessionMode.exam && !canStartShortExam) {
       lastError =
           'Ya usaste tu simulacro gratis del mes. Activa Premium para continuar.';
       notifyListeners();
-      return;
+      return false;
+    }
+
+    if (!profile.isPremium) {
+      if (casesOnly) {
+        lastError =
+            'Casos de Aula es Premium. En Gratis tienes el reto diario y 1 práctica al día.';
+        notifyListeners();
+        return false;
+      }
+      if (specialty != null) {
+        lastError =
+            'La práctica por especialidad es Premium. Activa Premium o usa el reto diario.';
+        notifyListeners();
+        return false;
+      }
+      final countsAsFreePractice = mode == SessionMode.practice &&
+          !casesOnly &&
+          specialty == null;
+      if (countsAsFreePractice && !canStartFreePractice) {
+        lastError =
+            'Ya usaste tu práctica gratis de hoy. Mañana se reinicia, o activa Premium para practicar sin límite.';
+        notifyListeners();
+        return false;
+      }
     }
 
     final resolvedSpecialty = specialty ??
         _specialtyForSession(mode, pillar: pillar, casesOnly: casesOnly);
 
+    // En Gratis, la especialidad automática del cargo no debe saltarse el paywall.
+    final effectiveSpecialty =
+        profile.isPremium ? resolvedSpecialty : specialty;
+
     currentQuestions = QuestionBank.forSession(
       mode: mode,
       pillar: pillar,
-      specialty: resolvedSpecialty,
+      specialty: effectiveSpecialty,
       count: mode == SessionMode.dailyStreak
           ? freeDailyLimit
           : mode == SessionMode.speedBattle
@@ -475,7 +543,17 @@ class AppState extends ChangeNotifier {
     activePlanTaskId = planTaskId;
     sessionStartedAt = DateTime.now();
     questionStartedAt = DateTime.now();
+
+    if (!profile.isPremium &&
+        mode == SessionMode.practice &&
+        !casesOnly &&
+        specialty == null) {
+      freePracticeSessionsUsed += 1;
+      _persist();
+    }
+
     notifyListeners();
+    return true;
   }
 
   /// Prioriza Gestión directiva para Rector/Directivo cuando no hay foco de pilar.
@@ -505,17 +583,13 @@ class AppState extends ChangeNotifier {
     return null;
   }
 
-  void startPlanTask(StudyTask task) {
-    startSession(
-      mode: task.mode,
-      pillar: task.isCaseStudy ? null : task.pillar,
-      count: task.questionCount,
-      casesOnly: task.isCaseStudy,
-      planTaskId: task.id,
-    );
-  }
-
-  void startSingleQuestion(Question question) {
+  bool startSingleQuestion(Question question) {
+    if (!profile.isPremium) {
+      lastError =
+          'Abrir casos sueltos es Premium. Activa Premium para el banco completo.';
+      notifyListeners();
+      return false;
+    }
     currentQuestions = [question];
     currentMode = SessionMode.practice;
     currentIndex = 0;
@@ -528,6 +602,17 @@ class AppState extends ChangeNotifier {
     sessionStartedAt = DateTime.now();
     questionStartedAt = DateTime.now();
     notifyListeners();
+    return true;
+  }
+
+  bool startPlanTask(StudyTask task) {
+    return startSession(
+      mode: task.mode,
+      pillar: task.isCaseStudy ? null : task.pillar,
+      count: task.questionCount,
+      casesOnly: task.isCaseStudy,
+      planTaskId: task.id,
+    );
   }
 
   void selectOption(int index) {

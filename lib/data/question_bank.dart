@@ -177,10 +177,11 @@ abstract final class QuestionBank {
       stem:
           'La secuencia de puntajes de un grupo es 12, 15, 21, 33, 57… ¿Cuál sigue?',
       options: ['87', '93', '99', '105'],
-      correctIndex: 1,
+      correctIndex: 3,
       explanation:
-          'Cada término suma el anterior más un número de Fibonacci de diferencias: '
-          '+3, +6, +12, +24… (duplicando el incremento). 57 + 36 = 93.',
+          'Las diferencias entre términos son +3, +6, +12, +24: cada incremento '
+          'duplica al anterior. El siguiente incremento es 24×2 = 48; '
+          'por tanto 57 + 48 = 105.',
       difficulty: QuestionDifficulty.intermedio,
     ),
     Question(

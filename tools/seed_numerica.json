@@ -1,0 +1,702 @@
+[
+  {
+    "id": "fs-num-pct-1",
+    "topic": "Porcentajes",
+    "stem": "¿Cuánto es el 20% de 150?",
+    "options": [
+      "40",
+      "30",
+      "22",
+      "36"
+    ],
+    "correctIndex": 1,
+    "correct": "30",
+    "explanation": "20% de 150 = (20/100)×150 = 30."
+  },
+  {
+    "id": "fs-num-pct-2",
+    "topic": "Porcentajes",
+    "stem": "¿Cuánto es el 35% de 200?",
+    "options": [
+      "70",
+      "80",
+      "84",
+      "62"
+    ],
+    "correctIndex": 0,
+    "correct": "70",
+    "explanation": "35% de 200 = (35/100)×200 = 70."
+  },
+  {
+    "id": "fs-num-pct-3",
+    "topic": "Porcentajes",
+    "stem": "¿Cuánto es el 12% de 80?",
+    "options": [
+      "2",
+      "12",
+      "10",
+      "20"
+    ],
+    "correctIndex": 2,
+    "correct": "10",
+    "explanation": "12% de 80 = (12/100)×80 = 10."
+  },
+  {
+    "id": "fs-num-pct-4",
+    "topic": "Porcentajes",
+    "stem": "¿Cuánto es el 45% de 320?",
+    "options": [
+      "136",
+      "173",
+      "144",
+      "154"
+    ],
+    "correctIndex": 2,
+    "correct": "144",
+    "explanation": "45% de 320 = (45/100)×320 = 144."
+  },
+  {
+    "id": "fs-num-pct-5",
+    "topic": "Porcentajes",
+    "stem": "¿Cuánto es el 18% de 250?",
+    "options": [
+      "45",
+      "55",
+      "37",
+      "54"
+    ],
+    "correctIndex": 0,
+    "correct": "45",
+    "explanation": "18% de 250 = (18/100)×250 = 45."
+  },
+  {
+    "id": "fs-num-r3-6",
+    "topic": "Regla de tres",
+    "stem": "Si 8 docentes elaboran 5 rúbricas en el mismo tiempo, ¿cuántas elaborarán 12 docentes a igual ritmo?",
+    "options": [
+      "5",
+      "8",
+      "13",
+      "10"
+    ],
+    "correctIndex": 1,
+    "correct": "8",
+    "explanation": "(5/8)×12 = 8."
+  },
+  {
+    "id": "fs-num-r3-7",
+    "topic": "Regla de tres",
+    "stem": "Si 6 docentes elaboran 9 rúbricas en el mismo tiempo, ¿cuántas elaborarán 10 docentes a igual ritmo?",
+    "options": [
+      "17",
+      "20",
+      "12",
+      "15"
+    ],
+    "correctIndex": 3,
+    "correct": "15",
+    "explanation": "(9/6)×10 = 15."
+  },
+  {
+    "id": "fs-num-r3-8",
+    "topic": "Regla de tres",
+    "stem": "Si 15 docentes elaboran 4 rúbricas en el mismo tiempo, ¿cuántas elaborarán 9 docentes a igual ritmo?",
+    "options": [
+      "2",
+      "1",
+      "4",
+      "7"
+    ],
+    "correctIndex": 0,
+    "correct": "2",
+    "explanation": "(4/15)×9 = 2."
+  },
+  {
+    "id": "fs-num-r3-9",
+    "topic": "Regla de tres",
+    "stem": "Si 20 docentes elaboran 7 rúbricas en el mismo tiempo, ¿cuántas elaborarán 28 docentes a igual ritmo?",
+    "options": [
+      "10",
+      "7",
+      "15",
+      "12"
+    ],
+    "correctIndex": 0,
+    "correct": "10",
+    "explanation": "(7/20)×28 = 10."
+  },
+  {
+    "id": "fs-num-r3-10",
+    "topic": "Regla de tres",
+    "stem": "Si 9 docentes elaboran 6 rúbricas en el mismo tiempo, ¿cuántas elaborarán 15 docentes a igual ritmo?",
+    "options": [
+      "7",
+      "15",
+      "12",
+      "10"
+    ],
+    "correctIndex": 3,
+    "correct": "10",
+    "explanation": "(6/9)×15 = 10."
+  },
+  {
+    "id": "fs-num-avg-1",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 61, 71, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "81",
+      "77",
+      "73",
+      "68"
+    ],
+    "correctIndex": 2,
+    "correct": "73",
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73."
+  },
+  {
+    "id": "fs-num-avg-2",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 62, 72, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "75",
+      "79",
+      "66",
+      "71"
+    ],
+    "correctIndex": 3,
+    "correct": "71",
+    "explanation": "Suma actual 279. Meta 5×70=350. Falta 71."
+  },
+  {
+    "id": "fs-num-avg-3",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 63, 73, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "77",
+      "73",
+      "69",
+      "64"
+    ],
+    "correctIndex": 2,
+    "correct": "69",
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69."
+  },
+  {
+    "id": "fs-num-avg-4",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 64, 74, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "67",
+      "75",
+      "62",
+      "71"
+    ],
+    "correctIndex": 0,
+    "correct": "67",
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67."
+  },
+  {
+    "id": "fs-num-avg-5",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 65, 70, 70, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "65",
+      "70",
+      "74",
+      "78"
+    ],
+    "correctIndex": 1,
+    "correct": "70",
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70."
+  },
+  {
+    "id": "fs-num-avg-6",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 66, 71, 71, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "62",
+      "70",
+      "66",
+      "57"
+    ],
+    "correctIndex": 0,
+    "correct": "62",
+    "explanation": "Suma actual 288. Meta 5×70=350. Falta 62."
+  },
+  {
+    "id": "fs-num-avg-7",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 60, 72, 72, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "71",
+      "62",
+      "67",
+      "75"
+    ],
+    "correctIndex": 2,
+    "correct": "67",
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67."
+  },
+  {
+    "id": "fs-num-avg-8",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 61, 73, 73, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "60",
+      "69",
+      "73",
+      "65"
+    ],
+    "correctIndex": 3,
+    "correct": "65",
+    "explanation": "Suma actual 285. Meta 5×70=350. Falta 65."
+  },
+  {
+    "id": "fs-num-avg-9",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 62, 74, 65, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "72",
+      "80",
+      "67",
+      "76"
+    ],
+    "correctIndex": 0,
+    "correct": "72",
+    "explanation": "Suma actual 278. Meta 5×70=350. Falta 72."
+  },
+  {
+    "id": "fs-num-avg-10",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 63, 70, 66, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "75",
+      "83",
+      "79",
+      "70"
+    ],
+    "correctIndex": 0,
+    "correct": "75",
+    "explanation": "Suma actual 275. Meta 5×70=350. Falta 75."
+  },
+  {
+    "id": "fs-num-avg-11",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 64, 71, 67, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "68",
+      "81",
+      "73",
+      "77"
+    ],
+    "correctIndex": 2,
+    "correct": "73",
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73."
+  },
+  {
+    "id": "fs-num-avg-12",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 65, 72, 68, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "73",
+      "65",
+      "69",
+      "60"
+    ],
+    "correctIndex": 1,
+    "correct": "65",
+    "explanation": "Suma actual 285. Meta 5×70=350. Falta 65."
+  },
+  {
+    "id": "fs-num-avg-13",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 66, 73, 69, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "63",
+      "71",
+      "58",
+      "67"
+    ],
+    "correctIndex": 0,
+    "correct": "63",
+    "explanation": "Suma actual 287. Meta 5×70=350. Falta 63."
+  },
+  {
+    "id": "fs-num-avg-14",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 60, 74, 70, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "72",
+      "68",
+      "63",
+      "76"
+    ],
+    "correctIndex": 1,
+    "correct": "68",
+    "explanation": "Suma actual 282. Meta 5×70=350. Falta 68."
+  },
+  {
+    "id": "fs-num-avg-15",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 61, 70, 71, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "71",
+      "66",
+      "79",
+      "75"
+    ],
+    "correctIndex": 0,
+    "correct": "71",
+    "explanation": "Suma actual 279. Meta 5×70=350. Falta 71."
+  },
+  {
+    "id": "fs-num-avg-16",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 62, 71, 72, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "73",
+      "69",
+      "64",
+      "77"
+    ],
+    "correctIndex": 1,
+    "correct": "69",
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69."
+  },
+  {
+    "id": "fs-num-avg-17",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 63, 72, 73, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "75",
+      "71",
+      "62",
+      "67"
+    ],
+    "correctIndex": 3,
+    "correct": "67",
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67."
+  },
+  {
+    "id": "fs-num-avg-18",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 64, 73, 65, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "72",
+      "76",
+      "68",
+      "63"
+    ],
+    "correctIndex": 2,
+    "correct": "68",
+    "explanation": "Suma actual 282. Meta 5×70=350. Falta 68."
+  },
+  {
+    "id": "fs-num-avg-19",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 65, 74, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "74",
+      "66",
+      "61",
+      "70"
+    ],
+    "correctIndex": 1,
+    "correct": "66",
+    "explanation": "Suma actual 284. Meta 5×70=350. Falta 66."
+  },
+  {
+    "id": "fs-num-avg-20",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 66, 70, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "77",
+      "73",
+      "69",
+      "64"
+    ],
+    "correctIndex": 2,
+    "correct": "69",
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69."
+  },
+  {
+    "id": "fs-num-avg-21",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 60, 71, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "74",
+      "78",
+      "69",
+      "82"
+    ],
+    "correctIndex": 0,
+    "correct": "74",
+    "explanation": "Suma actual 276. Meta 5×70=350. Falta 74."
+  },
+  {
+    "id": "fs-num-avg-22",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 61, 72, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "67",
+      "76",
+      "72",
+      "80"
+    ],
+    "correctIndex": 2,
+    "correct": "72",
+    "explanation": "Suma actual 278. Meta 5×70=350. Falta 72."
+  },
+  {
+    "id": "fs-num-avg-23",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 62, 73, 70, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "65",
+      "74",
+      "70",
+      "78"
+    ],
+    "correctIndex": 2,
+    "correct": "70",
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70."
+  },
+  {
+    "id": "fs-num-avg-24",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 63, 74, 71, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "62",
+      "57",
+      "66",
+      "70"
+    ],
+    "correctIndex": 0,
+    "correct": "62",
+    "explanation": "Suma actual 288. Meta 5×70=350. Falta 62."
+  },
+  {
+    "id": "fs-num-avg-25",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 64, 70, 72, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "65",
+      "69",
+      "73",
+      "60"
+    ],
+    "correctIndex": 0,
+    "correct": "65",
+    "explanation": "Suma actual 285. Meta 5×70=350. Falta 65."
+  },
+  {
+    "id": "fs-num-avg-26",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 65, 71, 73, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "63",
+      "67",
+      "71",
+      "58"
+    ],
+    "correctIndex": 0,
+    "correct": "63",
+    "explanation": "Suma actual 287. Meta 5×70=350. Falta 63."
+  },
+  {
+    "id": "fs-num-avg-27",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 66, 72, 65, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "70",
+      "65",
+      "78",
+      "74"
+    ],
+    "correctIndex": 0,
+    "correct": "70",
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70."
+  },
+  {
+    "id": "fs-num-avg-28",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 60, 73, 66, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "83",
+      "70",
+      "75",
+      "79"
+    ],
+    "correctIndex": 2,
+    "correct": "75",
+    "explanation": "Suma actual 275. Meta 5×70=350. Falta 75."
+  },
+  {
+    "id": "fs-num-avg-29",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 61, 74, 67, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "77",
+      "73",
+      "81",
+      "68"
+    ],
+    "correctIndex": 1,
+    "correct": "73",
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73."
+  },
+  {
+    "id": "fs-num-avg-30",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 62, 70, 68, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "65",
+      "74",
+      "78",
+      "70"
+    ],
+    "correctIndex": 3,
+    "correct": "70",
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70."
+  },
+  {
+    "id": "fs-num-avg-31",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 63, 71, 69, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "76",
+      "68",
+      "72",
+      "63"
+    ],
+    "correctIndex": 1,
+    "correct": "68",
+    "explanation": "Suma actual 282. Meta 5×70=350. Falta 68."
+  },
+  {
+    "id": "fs-num-avg-32",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 64, 72, 70, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "61",
+      "66",
+      "70",
+      "74"
+    ],
+    "correctIndex": 1,
+    "correct": "66",
+    "explanation": "Suma actual 284. Meta 5×70=350. Falta 66."
+  },
+  {
+    "id": "fs-num-avg-33",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 65, 73, 71, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "59",
+      "64",
+      "68",
+      "72"
+    ],
+    "correctIndex": 1,
+    "correct": "64",
+    "explanation": "Suma actual 286. Meta 5×70=350. Falta 64."
+  },
+  {
+    "id": "fs-num-avg-34",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 66, 74, 72, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "70",
+      "66",
+      "57",
+      "62"
+    ],
+    "correctIndex": 3,
+    "correct": "62",
+    "explanation": "Suma actual 288. Meta 5×70=350. Falta 62."
+  },
+  {
+    "id": "fs-num-avg-35",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 60, 70, 73, 75. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "80",
+      "76",
+      "72",
+      "67"
+    ],
+    "correctIndex": 2,
+    "correct": "72",
+    "explanation": "Suma actual 278. Meta 5×70=350. Falta 72."
+  },
+  {
+    "id": "fs-num-avg-36",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 61, 71, 65, 80. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "68",
+      "81",
+      "77",
+      "73"
+    ],
+    "correctIndex": 3,
+    "correct": "73",
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73."
+  },
+  {
+    "id": "fs-num-avg-37",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 62, 72, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "75",
+      "71",
+      "66",
+      "79"
+    ],
+    "correctIndex": 1,
+    "correct": "71",
+    "explanation": "Suma actual 279. Meta 5×70=350. Falta 71."
+  },
+  {
+    "id": "fs-num-avg-38",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 63, 73, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "64",
+      "69",
+      "73",
+      "77"
+    ],
+    "correctIndex": 1,
+    "correct": "69",
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69."
+  },
+  {
+    "id": "fs-num-avg-39",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 64, 74, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "67",
+      "62",
+      "75",
+      "71"
+    ],
+    "correctIndex": 0,
+    "correct": "67",
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67."
+  },
+  {
+    "id": "fs-num-avg-40",
+    "topic": "Promedios",
+    "stem": "Cuatro simulacros dieron 65, 70, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "78",
+      "65",
+      "74",
+      "70"
+    ],
+    "correctIndex": 3,
+    "correct": "70",
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70."
+  }
+]

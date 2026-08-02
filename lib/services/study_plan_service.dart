@@ -146,9 +146,7 @@ abstract final class StudyPlanService {
       tasks.add(
         StudyTask(
           id: 'rector-block',
-          title: profile.cargo == CargoAspiracion.rector
-              ? 'Casos de rectoría'
-              : 'Gestión directiva',
+          title: 'Gestión directiva',
           subtitle: 'PEI, gobierno escolar, SIEE y convivencia institucional',
           pillar: CompetencyPillar.pedagogico,
           questionCount: intensity == 'Base' ? 4 : 6,

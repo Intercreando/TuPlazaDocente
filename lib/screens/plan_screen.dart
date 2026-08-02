@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
-import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
 import '../models/study_plan.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../theme/layout_breakpoints.dart';
+import '../utils/session_launch.dart';
 import '../widgets/atmospheric_background.dart';
 
 /// Plan de estudio diario hasta la fecha del examen.
@@ -26,9 +27,11 @@ class PlanScreen extends StatelessWidget {
       child: SafeArea(
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 860),
+            constraints: BoxConstraints(
+              maxWidth: LayoutBreakpoints.contentMaxWidth(context),
+            ),
             child: ListView(
-              padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
+              padding: LayoutBreakpoints.pagePadding(context),
               children: [
                 Text('Plan de hoy', style: theme.textTheme.headlineMedium),
                 const SizedBox(height: 6),
@@ -117,14 +120,14 @@ class PlanScreen extends StatelessWidget {
                     child: _PlanTaskTile(
                       task: task,
                       onStart: () {
-                        if (task.mode == SessionMode.exam &&
-                            !state.canStartShortExam) {
-                          context.push('/premium');
-                          return;
-                        }
-                        state.startPlanTask(task);
-                        context.push(
-                          task.mode == SessionMode.exam ? '/exam' : '/practice',
+                        final ok = state.startPlanTask(task);
+                        launchSessionOrPaywall(
+                          context: context,
+                          state: state,
+                          started: ok,
+                          route: task.mode == SessionMode.exam
+                              ? '/exam'
+                              : '/practice',
                         );
                       },
                     ),

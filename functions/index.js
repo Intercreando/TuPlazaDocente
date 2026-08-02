@@ -69,7 +69,7 @@ exports.createPremiumCheckout = onCall(
                 id: "premium-convocatoria",
                 title: "TuPlazaDocente Premium — Convocatoria",
                 description:
-                  "Acceso Premium por convocatoria: banco ilimitado, simulacros y radar avanzado.",
+                  "Acceso Premium: pago único por convocatoria. Práctica y simulacros ilimitados, casos y especialidad.",
                 quantity: 1,
                 currency_id: "COP",
                 unit_price: PREMIUM_PRICE_COP,

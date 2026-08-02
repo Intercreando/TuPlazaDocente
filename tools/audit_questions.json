@@ -1,0 +1,1618 @@
+[
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-01",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "Un colegio reduce en 20% el tiempo de una jornada de 6 horas para un simulacro. ¿Cuántos minutos dura la jornada resultante?",
+    "options": [
+      "240 minutos",
+      "288 minutos",
+      "300 minutos",
+      "320 minutos"
+    ],
+    "correctIndex": 1,
+    "correct": "288 minutos",
+    "explanation": "El 20% de 6 horas (360 min) es 72 min. 360 − 72 = 288 minutos. En prueba sin calculadora, convierte primero a minutos y aplica la resta del porcentaje."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-02",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "stem": "Si 8 docentes elaboran 40 rúbricas en 5 días, ¿cuántas rúbricas elaborarán 12 docentes en 5 días, a igual ritmo?",
+    "options": [
+      "48",
+      "50",
+      "60",
+      "72"
+    ],
+    "correctIndex": 2,
+    "correct": "60",
+    "explanation": "La proporción es directa con el número de docentes: (40/8) × 12 = 5 × 12 = 60. El tiempo se mantiene constante."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-03",
+    "pillar": "aptitudNumerica",
+    "topic": "Lógica matemática",
+    "stem": "La secuencia de puntajes de un grupo es 12, 15, 21, 33, 57… ¿Cuál sigue?",
+    "options": [
+      "87",
+      "93",
+      "99",
+      "105"
+    ],
+    "correctIndex": 3,
+    "correct": "105",
+    "explanation": "Las diferencias entre términos son +3, +6, +12, +24: cada incremento duplica al anterior. El siguiente incremento es 24×2 = 48; por tanto 57 + 48 = 105."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-04",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "stem": "Cinco estudiantes obtienen 3.2, 3.8, 4.0, 2.9 y 4.1. Si se elimina el menor puntaje, ¿cuál es el nuevo promedio aproximado?",
+    "options": [
+      "3.50",
+      "3.68",
+      "3.78",
+      "3.90"
+    ],
+    "correctIndex": 2,
+    "correct": "3.78",
+    "explanation": "Se elimina 2.9. Suma restante: 3.2+3.8+4.0+4.1 = 15.1; 15.1/4 = 3.775 ≈ 3.78."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-05",
+    "pillar": "aptitudNumerica",
+    "topic": "Proporciones",
+    "stem": "En una institución, la razón estudiantes:docentes es 28:1. Si hay 36 docentes, ¿cuántos estudiantes hay?",
+    "options": [
+      "864",
+      "980",
+      "1008",
+      "1120"
+    ],
+    "correctIndex": 2,
+    "correct": "1008",
+    "explanation": "28 × 36 = 1008. Multiplica el término de la razón por la cantidad dada."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "lec-01",
+    "pillar": "lecturaCritica",
+    "topic": "Premisas",
+    "stem": "“Solo si se garantiza la participación de las familias, el PEI será legítimo. El PEI de la institución X no involucró a las familias. Por tanto, no es legítimo.” ¿Qué tipo de razonamiento predomina?",
+    "options": [
+      "Inducción por analogía",
+      "Deducción modus tollens",
+      "Falacia de autoridad",
+      "Generalización apresurada"
+    ],
+    "correctIndex": 1,
+    "correct": "Deducción modus tollens",
+    "explanation": "La estructura es: si P entonces Q; no Q; luego no P (modus tollens). Identificar conectores condicionales es clave en lectura argumentativa."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "lec-02",
+    "pillar": "lecturaCritica",
+    "topic": "Conectores",
+    "stem": "En el fragmento: “La evaluación formativa retroalimenta el proceso; no obstante, muchas instituciones la reducen a notas parciales.” ¿Qué función cumple “no obstante”?",
+    "options": [
+      "Adición de ejemplos",
+      "Causa-efecto",
+      "Contraste u oposición",
+      "Temporalidad secuencial"
+    ],
+    "correctIndex": 2,
+    "correct": "Contraste u oposición",
+    "explanation": "“No obstante” introduce una idea que matiza o se opone a la anterior: contraste."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "lec-03",
+    "pillar": "lecturaCritica",
+    "topic": "Idea principal",
+    "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico al aula, sino que exige ajustes razonables en evaluación y convivencia. ¿Cuál es la idea principal?",
+    "options": [
+      "La inclusión es solo infraestructura",
+      "La inclusión exige transformar prácticas pedagógicas",
+      "La evaluación debe ser homogénea para todos",
+      "La convivencia es independiente del currículo"
+    ],
+    "correctIndex": 1,
+    "correct": "La inclusión exige transformar prácticas pedagógicas",
+    "explanation": "La tesis central amplía la inclusión más allá del acceso: implica cambios en evaluación y convivencia."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "lec-04",
+    "pillar": "lecturaCritica",
+    "topic": "Inferencia",
+    "stem": "“Los docentes que planifican con evidencia de aprendizaje reducen la improvisación y elevan la coherencia curricular.” Se puede inferir que:",
+    "options": [
+      "La improvisación siempre es indeseable",
+      "Planificar con evidencia favorece coherencia",
+      "El currículo no requiere evidencia",
+      "Solo los directivos deben planificar"
+    ],
+    "correctIndex": 1,
+    "correct": "Planificar con evidencia favorece coherencia",
+    "explanation": "La inferencia válida se limita a lo sustentado: evidencia en la planificación → mayor coherencia."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "lec-05",
+    "pillar": "lecturaCritica",
+    "topic": "Supuestos",
+    "stem": "Un autor afirma: “Sin liderazgo pedagógico, no hay mejora escolar sostenible.” ¿Qué supuesto está implícito?",
+    "options": [
+      "La mejora depende solo de recursos",
+      "El liderazgo pedagógico influye en la sostenibilidad del cambio",
+      "Los docentes no necesitan acompañamiento",
+      "Las pruebas externas miden liderazgo"
+    ],
+    "correctIndex": 1,
+    "correct": "El liderazgo pedagógico influye en la sostenibilidad del cambio",
+    "explanation": "El enunciado asume una relación causal entre liderazgo pedagógico y sostenibilidad de la mejora."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-01",
+    "pillar": "pedagogico",
+    "topic": "Evaluación formativa",
+    "stem": "Una docente usa rúbricas compartidas con estudiantes antes de una producción escrita y ajusta la secuencia según los avances. ¿Qué enfoque predomina?",
+    "options": [
+      "Evaluación sumativa exclusiva",
+      "Evaluación formativa orientada al aprendizaje",
+      "Promoción automática sin criterios",
+      "Homologación externa de resultados"
+    ],
+    "correctIndex": 1,
+    "correct": "Evaluación formativa orientada al aprendizaje",
+    "explanation": "Compartir criterios y ajustar la enseñanza con evidencia en proceso es evaluación formativa (Decreto 1290: la evaluación como parte del proceso formativo)."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-02",
+    "pillar": "pedagogico",
+    "topic": "PEI",
+    "stem": "Según la Ley 115, el Proyecto Educativo Institucional debe:",
+    "options": [
+      "Ser un documento exclusivo de la secretaría de educación",
+      "Orientar la identidad, objetivos y organización de la institución con participación de la comunidad",
+      "Reemplazar el currículo nacional en todas las áreas",
+      "Definir únicamente el calendario de evaluaciones externas"
+    ],
+    "correctIndex": 1,
+    "correct": "Orientar la identidad, objetivos y organización de la institución con participación de la comunidad",
+    "explanation": "El PEI expresa la identidad institucional y se construye con participación de la comunidad educativa (Ley 115)."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-03",
+    "pillar": "pedagogico",
+    "topic": "Inclusión",
+    "stem": "Un estudiante con discapacidad visual requiere material en braille y mayor tiempo en evaluaciones. La respuesta pedagógica más coherente es:",
+    "options": [
+      "Eximirlo de todas las evaluaciones",
+      "Aplicar ajustes razonables sin bajar la expectativa de aprendizaje esencial",
+      "Separarlo permanentemente del grupo",
+      "Evaluarlo solo de forma oral sin criterios previos"
+    ],
+    "correctIndex": 1,
+    "correct": "Aplicar ajustes razonables sin bajar la expectativa de aprendizaje esencial",
+    "explanation": "La inclusión implica ajustes razonables (acceso y participación) manteniendo metas esenciales de aprendizaje."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-04",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "¿Cuál debe ser el primer paso institucional ante un reporte de acoso escolar reiterado?",
+    "options": [
+      "Publicar el caso en redes del colegio",
+      "Activar el protocolo del Manual de Convivencia y el Comité de Convivencia Escolar",
+      "Suspender de inmediato sin debido proceso",
+      "Ignorar el reporte si no hay pruebas físicas"
+    ],
+    "correctIndex": 1,
+    "correct": "Activar el protocolo del Manual de Convivencia y el Comité de Convivencia Escolar",
+    "explanation": "La Ley 1620 y su decreto reglamentario exigen rutas de atención, debido proceso y rol del Comité de Convivencia."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-05",
+    "pillar": "pedagogico",
+    "topic": "Currículo",
+    "stem": "La coherencia vertical del currículo se evidencia cuando:",
+    "options": [
+      "Cada grado ignora los aprendizajes previos",
+      "Los aprendizajes se articulan progresivamente entre grados y ciclos",
+      "Solo se enseñan contenidos de la prueba externa",
+      "El plan de área cambia cada semana sin criterios"
+    ],
+    "correctIndex": 1,
+    "correct": "Los aprendizajes se articulan progresivamente entre grados y ciclos",
+    "explanation": "La coherencia vertical organiza la progresión de aprendizajes a lo largo de la trayectoria escolar."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-06",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "En una clase de matemáticas, varios estudiantes no logran el objetivo. La decisión más alineada con evaluación formativa es:",
+    "options": [
+      "Pasar al siguiente tema para cumplir el plan",
+      "Reenseñar con otra estrategia y evidencias de progreso",
+      "Bajar la nota de todo el grupo por igual",
+      "Eliminar el objetivo del periodo"
+    ],
+    "correctIndex": 1,
+    "correct": "Reenseñar con otra estrategia y evidencias de progreso",
+    "explanation": "La evaluación formativa usa evidencia para ajustar la enseñanza: reenseñar con estrategias alternativas."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "com-01",
+    "pillar": "comportamental",
+    "topic": "Trabajo en equipo",
+    "stem": "En una reunión de área hay desacuerdo fuerte sobre criterios de evaluación. La conducta más alineada al perfil del servicio público es:",
+    "options": [
+      "Imponer la postura propia sin escuchar",
+      "Facilitar acuerdos basados en evidencias y normas institucionales",
+      "Aplazar indefinidamente la decisión",
+      "Delegar el conflicto a los estudiantes"
+    ],
+    "correctIndex": 1,
+    "correct": "Facilitar acuerdos basados en evidencias y normas institucionales",
+    "explanation": "Se valora orientación al logro colectivo, escucha activa y decisiones basadas en criterios institucionales."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "com-02",
+    "pillar": "comportamental",
+    "topic": "Resolución de conflictos",
+    "stem": "Dos colegas discuten frente a estudiantes. Como compañero, ¿qué acción es más adecuada?",
+    "options": [
+      "Escalárlo en el chat del grupo de padres",
+      "Intervenir con calma, sugerir continuar en espacio privado y preservar el clima escolar",
+      "Tomar partido públicamente",
+      "Grabar la discusión como evidencia"
+    ],
+    "correctIndex": 1,
+    "correct": "Intervenir con calma, sugerir continuar en espacio privado y preservar el clima escolar",
+    "explanation": "El perfil comportamental prioriza autocontrol, cuidado del clima escolar y canales institucionales."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "com-03",
+    "pillar": "comportamental",
+    "topic": "Liderazgo",
+    "stem": "Un coordinador nota baja apropiación del PEI en el equipo. La mejor acción inicial es:",
+    "options": [
+      "Sancionar a quienes no lo citan",
+      "Diagnosticar brechas, socializar sentido del PEI y acordar rutinas de apropiación",
+      "Reescribir el PEI sin la comunidad",
+      "Ignorar el tema hasta la visita de supervisión"
+    ],
+    "correctIndex": 1,
+    "correct": "Diagnosticar brechas, socializar sentido del PEI y acordar rutinas de apropiación",
+    "explanation": "El liderazgo pedagógico combina diagnóstico, sentido compartido y rutinas de implementación."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "com-04",
+    "pillar": "comportamental",
+    "topic": "Orientación al ciudadano",
+    "stem": "Un acudiente llega molesto por una nota. La respuesta más profesional es:",
+    "options": [
+      "Responder con el mismo tono",
+      "Escuchar, explicar criterios con evidencia y ofrecer ruta de aclaración institucional",
+      "Prometer cambiar la nota de inmediato",
+      "Evitar la conversación"
+    ],
+    "correctIndex": 1,
+    "correct": "Escuchar, explicar criterios con evidencia y ofrecer ruta de aclaración institucional",
+    "explanation": "Competencias de servicio: empatía, claridad, apego a procedimientos y respeto."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "com-05",
+    "pillar": "comportamental",
+    "topic": "Integridad",
+    "stem": "Te piden adelantar información confidencial de un proceso de selección interna. Debes:",
+    "options": [
+      "Compartirla con un amigo de confianza",
+      "Negarte con respeto y seguir el conducto regular de información",
+      "Venderla a cambio de un favor",
+      "Publicarla anónimamente"
+    ],
+    "correctIndex": 1,
+    "correct": "Negarte con respeto y seguir el conducto regular de información",
+    "explanation": "La integridad y confidencialidad son centrales en el perfil comportamental del servidor público."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "com-06",
+    "pillar": "comportamental",
+    "topic": "Casos de aula",
+    "stem": "Un docente observa que un colega suele ridiculizar errores en clase. ¿Qué acción priorizar?",
+    "options": [
+      "Confrontarlo frente a todo el equipo sin contexto",
+      "Documentar hechos, acompañar con evidencia y activar rutas institucionales de convivencia laboral",
+      "Imitar la práctica para “ganar respeto”",
+      "Comentar el caso con estudiantes"
+    ],
+    "correctIndex": 1,
+    "correct": "Documentar hechos, acompañar con evidencia y activar rutas institucionales de convivencia laboral",
+    "explanation": "Se espera protección del clima escolar, debido proceso y canales formales, no espectáculo ni omisión."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-01",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "Un docente mejora su precisión de 60% a 75% en un pilar. ¿Cuál fue el aumento porcentual relativo sobre el valor inicial?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correctIndex": 2,
+    "correct": "25%",
+    "explanation": "Aumento absoluto = 15 puntos. Relativo: 15/60 = 0.25 = 25%. No confundas puntos porcentuales con variación relativa."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-02",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "stem": "Si 15 aspirantes resuelven un taller en 6 horas, ¿cuántas horas necesitarían 9 aspirantes al mismo ritmo (trabajo inverso)?",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 3,
+    "correct": "10",
+    "explanation": "Más personas → menos tiempo. 15×6 = 90 “aspirante-hora”; 90/9 = 10 horas."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-03",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "stem": "Los puntajes de cuatro simulacros son 62, 70, 74 y 66. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "70",
+      "74",
+      "78",
+      "82"
+    ],
+    "correctIndex": 2,
+    "correct": "78",
+    "explanation": "Suma actual 272. Para promedio 70 en 5 pruebas: 350. Falta 350−272 = 78."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-04",
+    "pillar": "aptitudNumerica",
+    "topic": "Proporciones",
+    "stem": "En un aula la razón niñas:niños es 5:3. Si hay 24 niños, ¿cuántas niñas hay?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correctIndex": 2,
+    "correct": "40",
+    "explanation": "3 partes = 24 → 1 parte = 8. Niñas = 5×8 = 40."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-05",
+    "pillar": "aptitudNumerica",
+    "topic": "Lógica matemática",
+    "stem": "Un reloj se atrasa 3 minutos cada hora real. Si se sincroniza a las 12:00, ¿qué hora marcará cuando sean las 16:00 reales?",
+    "options": [
+      "15:48",
+      "15:50",
+      "15:52",
+      "16:12"
+    ],
+    "correctIndex": 0,
+    "correct": "15:48",
+    "explanation": "En 4 horas se atrasa 12 minutos → marca 15:48."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-01",
+    "pillar": "lecturaCritica",
+    "topic": "Premisas",
+    "stem": "“Todo plan de aula coherente parte de evidencias de aprendizaje. Este plan no usó evidencias. Por tanto, no es coherente.” La estructura es:",
+    "options": [
+      "Analogía",
+      "Modus tollens",
+      "Generalización apresurada",
+      "Falsa causa"
+    ],
+    "correctIndex": 1,
+    "correct": "Modus tollens",
+    "explanation": "Si P→Q y no Q, entonces no P. Aquí: evidencia→coherencia; no evidencia ⇒ no coherente."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-02",
+    "pillar": "lecturaCritica",
+    "topic": "Conectores",
+    "stem": "“La inclusión exige ajustes; por consiguiente, evaluar igual a todos sin criterios diferenciados puede vulnerar derechos.” “Por consiguiente” indica:",
+    "options": [
+      "Concesión",
+      "Ejemplo",
+      "Consecuencia",
+      "Oposición"
+    ],
+    "correctIndex": 2,
+    "correct": "Consecuencia",
+    "explanation": "“Por consiguiente” introduce una conclusión/consecuencia lógica."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-03",
+    "pillar": "lecturaCritica",
+    "topic": "Idea principal",
+    "stem": "Un texto sostiene que la convivencia escolar no se reduce a sanción, sino a formación ciudadana y restauración. La idea principal es:",
+    "options": [
+      "La sanción es inútil siempre",
+      "La convivencia exige enfoque formativo y restaurativo",
+      "Solo el comité decide todo",
+      "Las familias no participan"
+    ],
+    "correctIndex": 1,
+    "correct": "La convivencia exige enfoque formativo y restaurativo",
+    "explanation": "La tesis amplía convivencia más allá del castigo: formación y restauración."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-04",
+    "pillar": "lecturaCritica",
+    "topic": "Inferencia",
+    "stem": "“Los colegios que acompañan la planeación entre pares mejoran la coherencia curricular.” Se puede inferir que:",
+    "options": [
+      "El trabajo colaborativo docente puede fortalecer coherencia",
+      "Sin pares no hay currículo",
+      "Solo directivos planean",
+      "Las pruebas externas sobran"
+    ],
+    "correctIndex": 0,
+    "correct": "El trabajo colaborativo docente puede fortalecer coherencia",
+    "explanation": "La inferencia válida se limita a la relación planteada: acompañamiento entre pares ↔ coherencia."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-05",
+    "pillar": "lecturaCritica",
+    "topic": "Supuestos",
+    "stem": "“Sin evaluación formativa no hay mejora sostenible del aprendizaje.” Un supuesto implícito es:",
+    "options": [
+      "La evaluación formativa contribuye a sostener mejoras",
+      "Solo las pruebas externas importan",
+      "Los estudiantes no necesitan retroalimentación",
+      "El currículo es irrelevante"
+    ],
+    "correctIndex": 0,
+    "correct": "La evaluación formativa contribuye a sostener mejoras",
+    "explanation": "El enunciado asume que la evaluación formativa es condición relevante de mejora sostenible."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-01",
+    "pillar": "pedagogico",
+    "topic": "Evaluación formativa",
+    "stem": "Una rúbrica compartida antes de la producción y usada para reenseñar es evidencia de:",
+    "options": [
+      "Evaluación punitiva",
+      "Evaluación formativa",
+      "Promoción automática",
+      "Homologación externa"
+    ],
+    "correctIndex": 1,
+    "correct": "Evaluación formativa",
+    "explanation": "Criterios previos + uso de evidencia para ajustar enseñanza = evaluación formativa (D.1290)."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-02",
+    "pillar": "pedagogico",
+    "topic": "Ley 115",
+    "stem": "Según la Ley 115, la educación es un proceso que busca, entre otros fines:",
+    "options": [
+      "Solo empleabilidad inmediata",
+      "Formación integral de la persona y ejercicio de la ciudadanía",
+      "Eliminar la autonomía escolar",
+      "Sustituir a la familia"
+    ],
+    "correctIndex": 1,
+    "correct": "Formación integral de la persona y ejercicio de la ciudadanía",
+    "explanation": "La Ley General de Educación orienta a formación integral y ciudadanía, no a un fin único laboral."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-03",
+    "pillar": "pedagogico",
+    "topic": "Inclusión",
+    "stem": "Un ajuste razonable correcto en evaluación implica:",
+    "options": [
+      "Eliminar aprendizajes esenciales",
+      "Cambiar forma/tiempo/apoyos manteniendo metas esenciales",
+      "Separar permanentemente al estudiante",
+      "No evaluar nunca"
+    ],
+    "correctIndex": 1,
+    "correct": "Cambiar forma/tiempo/apoyos manteniendo metas esenciales",
+    "explanation": "Ajuste razonable ≠ bajar expectativa esencial; cambia condiciones de acceso y demostración."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-04",
+    "pillar": "pedagogico",
+    "topic": "Currículo",
+    "stem": "La coherencia horizontal del currículo se observa cuando:",
+    "options": [
+      "Las áreas se ignoran entre sí",
+      "Hay articulación entre áreas/proyectos en el mismo grado o ciclo",
+      "Solo se enseña para la prueba",
+      "Cada docente inventa sin acuerdos"
+    ],
+    "correctIndex": 1,
+    "correct": "Hay articulación entre áreas/proyectos en el mismo grado o ciclo",
+    "explanation": "Coherencia horizontal = diálogo entre áreas/proyectos en un mismo nivel o ciclo."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-05",
+    "pillar": "pedagogico",
+    "topic": "PEI",
+    "stem": "El PEI pierde legitimidad principalmente cuando:",
+    "options": [
+      "Se construye con la comunidad educativa",
+      "Se impone sin participación ni sentido compartido",
+      "Orienta la gestión institucional",
+      "Se revisa periódicamente"
+    ],
+    "correctIndex": 1,
+    "correct": "Se impone sin participación ni sentido compartido",
+    "explanation": "El PEI es pacto de identidad institucional; sin participación pierde apropiación y legitimidad."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-06",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "Ante un conflicto grave entre estudiantes, la institución debe priorizar:",
+    "options": [
+      "Exposición pública en redes",
+      "Ruta del Manual de Convivencia y debido proceso",
+      "Silencio absoluto sin registro",
+      "Sanción sin investigación"
+    ],
+    "correctIndex": 1,
+    "correct": "Ruta del Manual de Convivencia y debido proceso",
+    "explanation": "Ley 1620: rutas, debido proceso, registro y seguimiento institucional."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-com-01",
+    "pillar": "comportamental",
+    "topic": "Integridad",
+    "stem": "Te ofrecen adelantar resultados de una selección interna a cambio de un favor. Debes:",
+    "options": [
+      "Aceptar si es “de confianza”",
+      "Rechazar y seguir el conducto regular",
+      "Negociar otro favor",
+      "Publicarlo anónimamente"
+    ],
+    "correctIndex": 1,
+    "correct": "Rechazar y seguir el conducto regular",
+    "explanation": "Integridad y confidencialidad son centrales en el perfil del servidor público."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-com-02",
+    "pillar": "comportamental",
+    "topic": "Trabajo en equipo",
+    "stem": "Hay desacuerdo técnico en el área. La conducta más alineada es:",
+    "options": [
+      "Imponer sin escuchar",
+      "Aportar evidencia, escuchar y construir acuerdo institucional",
+      "Sabotear la reunión",
+      "Quejarte con padres"
+    ],
+    "correctIndex": 1,
+    "correct": "Aportar evidencia, escuchar y construir acuerdo institucional",
+    "explanation": "Se valora colaboración, evidencia y orientación a acuerdos útiles para el servicio educativo."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-com-03",
+    "pillar": "comportamental",
+    "topic": "Orientación al ciudadano",
+    "stem": "Una familia no comprende una estrategia de apoyo. La mejor respuesta es:",
+    "options": [
+      "Usar tecnicismos sin ejemplos",
+      "Explicar con claridad, empatía y siguiente paso concreto",
+      "Evitar la conversación",
+      "Prometer resultados garantizados"
+    ],
+    "correctIndex": 1,
+    "correct": "Explicar con claridad, empatía y siguiente paso concreto",
+    "explanation": "Servicio ciudadano: claridad + empatía + ruta de acción, con apego institucional."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-com-04",
+    "pillar": "comportamental",
+    "topic": "Liderazgo",
+    "stem": "Baja apropiación de una meta institucional. El liderazgo pedagógico inicia por:",
+    "options": [
+      "Sancionar de inmediato",
+      "Diagnosticar, dar sentido compartido y acordar rutinas",
+      "Ignorar hasta supervisión",
+      "Cambiar la meta sin diálogo"
+    ],
+    "correctIndex": 1,
+    "correct": "Diagnosticar, dar sentido compartido y acordar rutinas",
+    "explanation": "Liderazgo eficaz: diagnóstico → sentido → rutinas de implementación."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-com-05",
+    "pillar": "comportamental",
+    "topic": "Resolución de conflictos",
+    "stem": "Un colega eleva el tono frente a estudiantes. Tu mejor primera acción es:",
+    "options": [
+      "Escalárlo en redes",
+      "Intervenir con calma y reconducir a espacio privado/institucional",
+      "Tomar partido público",
+      "Ignorar por completo"
+    ],
+    "correctIndex": 1,
+    "correct": "Intervenir con calma y reconducir a espacio privado/institucional",
+    "explanation": "Prioriza clima escolar, autocontrol y canales formales."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-esp-01",
+    "pillar": "pedagogico",
+    "topic": "Didáctica de matemáticas",
+    "stem": "Para superar un error conceptual de valor posicional, conviene:",
+    "options": [
+      "Solo más hojas de algoritmos",
+      "Material concreto + representación + contraste de errores frecuentes",
+      "Omitir el tema",
+      "Castigar el error"
+    ],
+    "correctIndex": 1,
+    "correct": "Material concreto + representación + contraste de errores frecuentes",
+    "explanation": "El error conceptual se aborda con representaciones múltiples y análisis del error, no con repetición ciega."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-esp-02",
+    "pillar": "pedagogico",
+    "topic": "Lenguaje",
+    "stem": "Una secuencia potente para argumentar en secundaria es:",
+    "options": [
+      "Copiar un ensayo modelo sin análisis",
+      "Identificar tesis ajena → construir tesis propia → soportar con evidencia",
+      "Solo dictado",
+      "Evitar textos controversiales siempre"
+    ],
+    "correctIndex": 1,
+    "correct": "Identificar tesis ajena → construir tesis propia → soportar con evidencia",
+    "explanation": "La escritura argumentativa se enseña con modelado de estructura y evidencia, no con copia pasiva."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-esp-03",
+    "pillar": "pedagogico",
+    "topic": "Ciencias",
+    "stem": "En un laboratorio escolar, el foco de evaluación formativa debería incluir:",
+    "options": [
+      "Solo el resultado final correcto",
+      "Pregunta, procedimiento, registro de evidencia y explicación",
+      "Solo limpieza del puesto",
+      "Memorizar la receta sin sentido"
+    ],
+    "correctIndex": 1,
+    "correct": "Pregunta, procedimiento, registro de evidencia y explicación",
+    "explanation": "La indagación evalúa el proceso científico completo, no únicamente el “dato final”."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-esp-04",
+    "pillar": "pedagogico",
+    "topic": "Primera infancia",
+    "stem": "En preescolar, documentar el aprendizaje con sentido implica:",
+    "options": [
+      "Exámenes escritos diarios",
+      "Registros de observación, producciones y relatos del juego",
+      "Rankings públicos",
+      "Solo asistencia"
+    ],
+    "correctIndex": 1,
+    "correct": "Registros de observación, producciones y relatos del juego",
+    "explanation": "La documentación pedagógica observa procesos naturales de juego, lenguaje e interacción."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-caso-01",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "La decisión más coherente con inclusión y debido proceso es:",
+    "options": [
+      "Negar el cupo por “no estar preparados”",
+      "Matricular, caracterizar y definir ajustes con el equipo de apoyo",
+      "Aceptar sin ningún plan",
+      "Separar al estudiante en otra jornada sin análisis"
+    ],
+    "correctIndex": 1,
+    "correct": "Matricular, caracterizar y definir ajustes con el equipo de apoyo",
+    "explanation": "Inclusión operativa: acceso + caracterización + plan de apoyos/ajustes razonables."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-caso-02",
+    "pillar": "comportamental",
+    "topic": "Casos de aula",
+    "stem": "Como orientador/directivo, ¿qué priorizas?",
+    "options": [
+      "Minimizar el hecho para proteger imagen",
+      "Activar ruta, proteger al menor y comunicar con respeto a la familia",
+      "Exponer nombres en asamblea",
+      "Delegar solo a redes sociales"
+    ],
+    "correctIndex": 1,
+    "correct": "Activar ruta, proteger al menor y comunicar con respeto a la familia",
+    "explanation": "Protección, protocolo y comunicación cuidadosa son el estándar de servicio público educativo."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-06",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "De 180 docentes, el 40% ya completó el diagnóstico. ¿Cuántos faltan?",
+    "options": [
+      "72",
+      "88",
+      "108",
+      "120"
+    ],
+    "correctIndex": 2,
+    "correct": "108",
+    "explanation": "Completaron 72; faltan 180−72 = 108 (60%)."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-06",
+    "pillar": "lecturaCritica",
+    "topic": "Idea principal",
+    "stem": "Un autor afirma que microlearning + retroalimentación normativa supera a las clases largas pasivas para aspirantes trabajadores. La idea principal es:",
+    "options": [
+      "Las clases largas son siempre mejores",
+      "El diseño de práctica breve con feedback de calidad es más efectivo para este público",
+      "No hace falta estudiar",
+      "Solo importan los PDFs"
+    ],
+    "correctIndex": 1,
+    "correct": "El diseño de práctica breve con feedback de calidad es más efectivo para este público",
+    "explanation": "La tesis compara formatos y privilegia práctica breve con feedback normativo."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-ped-07",
+    "pillar": "pedagogico",
+    "topic": "Decreto 1290",
+    "stem": "El Decreto 1290 enfatiza que la evaluación debe servir principalmente para:",
+    "options": [
+      "Castigar el bajo desempeño",
+      "Formar, diagnosticar y mejorar aprendizajes",
+      "Reemplazar la enseñanza",
+      "Homogeneizar sin criterios"
+    ],
+    "correctIndex": 1,
+    "correct": "Formar, diagnosticar y mejorar aprendizajes",
+    "explanation": "La evaluación se entiende como parte del proceso formativo, no como fin punitivo."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-com-06",
+    "pillar": "comportamental",
+    "topic": "Autocontrol",
+    "stem": "Recibes una crítica injusta en consejo de docentes. La respuesta más profesional es:",
+    "options": [
+      "Responder con ataques personales",
+      "Escuchar, pedir evidencias y proponer revisión con datos",
+      "Abandonar la reunión",
+      "Quejarte con estudiantes"
+    ],
+    "correctIndex": 1,
+    "correct": "Escuchar, pedir evidencias y proponer revisión con datos",
+    "explanation": "Autocontrol + orientación a evidencia sostiene el clima institucional."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "num-06",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "De 250 aspirantes, el 36% aprueba la primera fase. ¿Cuántos no aprueban?",
+    "options": [
+      "80",
+      "90",
+      "160",
+      "170"
+    ],
+    "correctIndex": 2,
+    "correct": "160",
+    "explanation": "Aprueban 0.36 × 250 = 90. No aprueban 250 − 90 = 160. Atajo: 64% de 250 = 0.64 × 250 = 160."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "num-07",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "stem": "Un simulacro de 80 ítems se responde en 160 minutos. A ese ritmo, ¿cuántos minutos se necesitan para 50 ítems?",
+    "options": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
+    "correctIndex": 1,
+    "correct": "100",
+    "explanation": "160/80 = 2 min por ítem. 50 × 2 = 100 minutos."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "num-08",
+    "pillar": "aptitudNumerica",
+    "topic": "Lógica matemática",
+    "stem": "Si todos los coordinadores son docentes y algunos docentes son orientadores, ¿cuál afirmación es necesariamente verdadera?",
+    "options": [
+      "Todos los orientadores son coordinadores",
+      "Algunos coordinadores podrían no ser orientadores",
+      "Ningún docente es coordinador",
+      "Todos los docentes son coordinadores"
+    ],
+    "correctIndex": 1,
+    "correct": "Algunos coordinadores podrían no ser orientadores",
+    "explanation": "“Todos los coordinadores son docentes” no implica que sean orientadores. Por tanto, algunos coordinadores podrían no serlo."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "lec-06",
+    "pillar": "lecturaCritica",
+    "topic": "Idea principal",
+    "stem": "Un texto argumenta que la calidad educativa mejora cuando el liderazgo distribuye responsabilidades pedagógicas y no solo administrativas. La idea principal es:",
+    "options": [
+      "La administración escolar sobra",
+      "El liderazgo pedagógico compartido impulsa la calidad",
+      "Solo el rector debe decidir el currículo",
+      "Las pruebas externas definen el liderazgo"
+    ],
+    "correctIndex": 1,
+    "correct": "El liderazgo pedagógico compartido impulsa la calidad",
+    "explanation": "La tesis central vincula calidad con liderazgo pedagógico distribuido, no meramente administrativo."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "lec-07",
+    "pillar": "lecturaCritica",
+    "topic": "Conectores",
+    "stem": "“La institución avanzó en inclusión; sin embargo, la evaluación sigue siendo homogénea.” El conector introduce:",
+    "options": [
+      "Ejemplificación",
+      "Consecuencia",
+      "Contraste",
+      "Enumeración"
+    ],
+    "correctIndex": 2,
+    "correct": "Contraste",
+    "explanation": "“Sin embargo” marca oposición entre avance inclusivo y evaluación homogénea."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "lec-08",
+    "pillar": "lecturaCritica",
+    "topic": "Inferencia",
+    "stem": "“Quienes retroalimentan con evidencia concreta elevan la autoeficacia docente.” Se infiere que:",
+    "options": [
+      "Toda retroalimentación es inútil",
+      "La calidad de la retroalimentación puede influir en la autoeficacia",
+      "La autoeficacia no se relaciona con la práctica",
+      "Solo los directivos dan retroalimentación"
+    ],
+    "correctIndex": 1,
+    "correct": "La calidad de la retroalimentación puede influir en la autoeficacia",
+    "explanation": "La inferencia válida se limita a la relación planteada: evidencia en feedback → posible alza de autoeficacia."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "ped-07",
+    "pillar": "pedagogico",
+    "topic": "Decreto 1290",
+    "stem": "Según el Decreto 1290, la evaluación de los estudiantes debe ser, entre otras:",
+    "options": [
+      "Solo sumativa y secreta",
+      "Integral, flexible y formativa",
+      "Exclusiva de pruebas externas",
+      "Homogénea sin ajustes"
+    ],
+    "correctIndex": 1,
+    "correct": "Integral, flexible y formativa",
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa, al servicio del aprendizaje."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "ped-08",
+    "pillar": "pedagogico",
+    "topic": "PEI",
+    "stem": "Una institución actualiza su PEI sin consultar a familias ni estudiantes. La práctica es débil porque:",
+    "options": [
+      "El PEI no requiere participación",
+      "La legitimidad del PEI se construye con la comunidad educativa",
+      "Solo la secretaría puede escribir el PEI",
+      "El PEI se reemplaza por el PMI"
+    ],
+    "correctIndex": 1,
+    "correct": "La legitimidad del PEI se construye con la comunidad educativa",
+    "explanation": "La Ley 115 y la gestión escolar conciben el PEI como construcción participativa de la comunidad educativa."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "com-07",
+    "pillar": "comportamental",
+    "topic": "Trabajo en equipo",
+    "stem": "En un consejo de docentes surge una crítica dura a tu propuesta. La mejor respuesta es:",
+    "options": [
+      "Interrumpir y defenderte de inmediato",
+      "Escuchar, pedir evidencias y construir un ajuste compartido",
+      "Abandonar la reunión",
+      "Responder en el grupo de WhatsApp de padres"
+    ],
+    "correctIndex": 1,
+    "correct": "Escuchar, pedir evidencias y construir un ajuste compartido",
+    "explanation": "El perfil valora escucha, orientación a evidencias y construcción colectiva de acuerdos."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "com-08",
+    "pillar": "comportamental",
+    "topic": "Orientación al ciudadano",
+    "stem": "Una familia pide explicación sobre una estrategia de apoyo. Debes:",
+    "options": [
+      "Responder con tecnicismos sin ejemplos",
+      "Explicar con claridad, empatía y siguiente paso concreto",
+      "Decir que “así es la norma” y cerrar",
+      "Evitar el contacto"
+    ],
+    "correctIndex": 1,
+    "correct": "Explicar con claridad, empatía y siguiente paso concreto",
+    "explanation": "Servicio ciudadano = claridad + empatía + ruta de acción, sin perder el marco institucional."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-01",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "Tras el reporte, ¿qué secuencia es más coherente con la ruta de atención?",
+    "options": [
+      "Castigo inmediato público y cierre del caso",
+      "Escucha a las partes, activa protocolo, registra y hace seguimiento",
+      "Trasladar al estudiante sin debido proceso",
+      "Publicar nombres para “crear conciencia”"
+    ],
+    "correctIndex": 1,
+    "correct": "Escucha a las partes, activa protocolo, registra y hace seguimiento",
+    "explanation": "La Ley 1620 exige rutas de atención, debido proceso, registro y seguimiento por el Comité de Convivencia."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-02",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "¿Cuál decisión protege mejor el derecho a la educación y la inclusión?",
+    "options": [
+      "Eximir al estudiante de todo aprendizaje esencial",
+      "Diseñar ajustes razonables en materiales, tiempo y forma de evaluar",
+      "Separarlo permanentemente del aula",
+      "Evaluarlo sin criterios conocidos"
+    ],
+    "correctIndex": 1,
+    "correct": "Diseñar ajustes razonables en materiales, tiempo y forma de evaluar",
+    "explanation": "Inclusión = participación con ajustes razonables, manteniendo expectativas esenciales de aprendizaje."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-03",
+    "pillar": "comportamental",
+    "topic": "Casos de aula",
+    "stem": "Como docente que presencia la escena, ¿qué haces primero?",
+    "options": [
+      "Grabar y subir a redes",
+      "Intervenir con calma, proteger a estudiantes y reconducir el conflicto a un espacio privado/institucional",
+      "Tomar partido frente al grupo",
+      "Ignorar para “no meterte”"
+    ],
+    "correctIndex": 1,
+    "correct": "Intervenir con calma, proteger a estudiantes y reconducir el conflicto a un espacio privado/institucional",
+    "explanation": "Prioriza clima escolar, autocontrol y canales institucionales. Evita espectáculo y omisión."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-04",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "La acción más alineada con evaluación formativa es:",
+    "options": [
+      "Seguir el plan sin cambios para “cumplir temario”",
+      "Reenseñar con otra estrategia, usar evidencia y ajustar la secuencia",
+      "Bajar la nota a todo el curso por igual",
+      "Eliminar el objetivo del periodo"
+    ],
+    "correctIndex": 1,
+    "correct": "Reenseñar con otra estrategia, usar evidencia y ajustar la secuencia",
+    "explanation": "La evaluación formativa convierte la evidencia de error en decisión didáctica: reenseñar y ajustar."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-05",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "¿Qué debe priorizar el equipo directivo?",
+    "options": [
+      "Responder solo por redes sociales",
+      "Activar protocolo, comunicar con respeto a la familia y proteger la intimidad del menor",
+      "Minimizar el hecho para evitar “problemas de imagen”",
+      "Sancionar sin investigación"
+    ],
+    "correctIndex": 1,
+    "correct": "Activar protocolo, comunicar con respeto a la familia y proteger la intimidad del menor",
+    "explanation": "Gestión directiva responsable: protocolo, comunicación cuidadosa y protección de derechos."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-06",
+    "pillar": "comportamental",
+    "topic": "Casos de aula",
+    "stem": "La respuesta más profesional es:",
+    "options": [
+      "Prometer cambiar la nota al instante",
+      "Escuchar, mostrar criterios/evidencias y explicar la ruta de aclaración",
+      "Responder con el mismo tono de molestia",
+      "Cerrar la puerta y no atender"
+    ],
+    "correctIndex": 1,
+    "correct": "Escuchar, mostrar criterios/evidencias y explicar la ruta de aclaración",
+    "explanation": "Competencia de servicio: empatía + transparencia de criterios + conducto regular."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-mat-01",
+    "pillar": "pedagogico",
+    "topic": "Didáctica de matemáticas",
+    "stem": "Para introducir fracciones equivalentes en primaria, la secuencia más sólida es:",
+    "options": [
+      "Definición formal → ejercicios abstractos → concreto",
+      "Material concreto → representación gráfica → simbolización",
+      "Solo algoritmos de amplificación",
+      "Memorizar tablas sin sentido"
+    ],
+    "correctIndex": 1,
+    "correct": "Material concreto → representación gráfica → simbolización",
+    "explanation": "La trayectoria concreto → pictórico → simbólico favorece comprensión conceptual antes del algoritmo."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-mat-02",
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento proporcional",
+    "stem": "Si 3/5 de un grupo de 40 estudiantes domina un indicador, ¿cuántos aún no lo dominan?",
+    "options": [
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "correctIndex": 1,
+    "correct": "16",
+    "explanation": "Dominan (3/5)×40 = 24. No dominan 40 − 24 = 16."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-len-01",
+    "pillar": "pedagogico",
+    "topic": "Comprensión lectora",
+    "stem": "En lenguaje, una estrategia formativa potente tras una lectura argumentativa es:",
+    "options": [
+      "Solo calificar ortografía",
+      "Pedir que identifiquen tesis, argumentos y contraargumentos con evidencia del texto",
+      "Copiar el texto completo",
+      "Evitar el debate"
+    ],
+    "correctIndex": 1,
+    "correct": "Pedir que identifiquen tesis, argumentos y contraargumentos con evidencia del texto",
+    "explanation": "Enseña estructura argumentativa y metacognición lectora, alineada a lectura crítica del concurso."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-len-02",
+    "pillar": "lecturaCritica",
+    "topic": "Género discursivo",
+    "stem": "Un texto que presenta una tesis, argumentos y una conclusión persuasiva pertenece principalmente a:",
+    "options": [
+      "Narración literaria",
+      "Discurso argumentativo",
+      "Instructivo técnico",
+      "Descripción científica pura"
+    ],
+    "correctIndex": 1,
+    "correct": "Discurso argumentativo",
+    "explanation": "La presencia de tesis + argumentos + conclusión persuasiva tipifica el discurso argumentativo."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-cie-01",
+    "pillar": "pedagogico",
+    "topic": "Indagación científica",
+    "stem": "En ciencias naturales, el enfoque de indagación prioriza que el estudiante:",
+    "options": [
+      "Memorice definiciones sin experimentación",
+      "Formule preguntas, explore evidencias y construya explicaciones",
+      "Copie el informe del docente",
+      "Evite el error experimental"
+    ],
+    "correctIndex": 1,
+    "correct": "Formule preguntas, explore evidencias y construya explicaciones",
+    "explanation": "La indagación centra el aprendizaje en preguntas, evidencia y explicación, no en la memorización aislada."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-soc-01",
+    "pillar": "pedagogico",
+    "topic": "Pensamiento social",
+    "stem": "Una clase de sociales sobre conflicto escolar gana potencia cuando:",
+    "options": [
+      "Se impone una sola versión histórica",
+      "Se analizan causas, actores, normas y posibles resoluciones pacíficas",
+      "Se evita cualquier controversia",
+      "Solo se memorizan fechas"
+    ],
+    "correctIndex": 1,
+    "correct": "Se analizan causas, actores, normas y posibles resoluciones pacíficas",
+    "explanation": "El pensamiento social crítico articula contexto, actores, normatividad y alternativas de resolución."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-pre-01",
+    "pillar": "pedagogico",
+    "topic": "Primera infancia",
+    "stem": "En preescolar, la evaluación más coherente con el desarrollo es:",
+    "options": [
+      "Exámenes escritos estandarizados diarios",
+      "Observación sistemática del juego, el lenguaje y la interacción",
+      "Rankings públicos de niños",
+      "Solo calificación numérica final"
+    ],
+    "correctIndex": 1,
+    "correct": "Observación sistemática del juego, el lenguaje y la interacción",
+    "explanation": "En primera infancia prima la observación del desarrollo en contextos naturales de juego y lenguaje."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-pri-01",
+    "pillar": "pedagogico",
+    "topic": "Gestión de aula",
+    "stem": "Para un grupo de primaria con alta dispersión, la mejor primera medida es:",
+    "options": [
+      "Aumentar castigos colectivos",
+      "Establecer rutinas claras, expectativas compartidas y acompañamiento cercano",
+      "Ignorar la dispersión",
+      "Eliminar el recreo"
+    ],
+    "correctIndex": 1,
+    "correct": "Establecer rutinas claras, expectativas compartidas y acompañamiento cercano",
+    "explanation": "La gestión preventiva (rutinas + expectativas + presencia pedagógica) reduce dispersión mejor que el castigo reactivo."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-dir-01",
+    "pillar": "comportamental",
+    "topic": "Liderazgo directivo",
+    "stem": "Un coordinador quiere mejorar resultados de lectura. La acción inicial más estratégica es:",
+    "options": [
+      "Sancionar docentes sin diagnóstico",
+      "Analizar evidencias por grado, acordar meta común y acompañar aulas",
+      "Comprar software sin plan",
+      "Cambiar el PEI sin la comunidad"
+    ],
+    "correctIndex": 1,
+    "correct": "Analizar evidencias por grado, acordar meta común y acompañar aulas",
+    "explanation": "Liderazgo pedagógico: evidencia → meta compartida → acompañamiento situacional en el aula."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-dir-02",
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar",
+    "stem": "El PMI y el PEI se relacionan mejor cuando:",
+    "options": [
+      "Son documentos aislados",
+      "El PMI opera mejoras alineadas a la identidad y metas del PEI",
+      "Solo el PMI importa para supervisión",
+      "El PEI se actualiza cada semana sin criterios"
+    ],
+    "correctIndex": 1,
+    "correct": "El PMI opera mejoras alineadas a la identidad y metas del PEI",
+    "explanation": "Coherencia institucional: el plan de mejoramiento debe servir a la visión y prioridades del PEI."
+  },
+  {
+    "file": "lib/data/gold_brain_bank.dart",
+    "id": "gold-ped-001",
+    "pillar": "pedagogico",
+    "topic": "Evaluación formativa",
+    "stem": "Teniendo en cuenta las teorías del aprendizaje y la normativa de evaluación, la estrategia pedagógica más adecuada para acompañar a este estudiante es:",
+    "options": [
+      "Asignarle guías individuales de repaso para la casa para nivelar sus falencias.",
+      "Diseñar actividades de trabajo colaborativo que aprovechen la Zona de Desarrollo Próximo para andamiar su proceso.",
+      "Repetir la explicación magistral frente a todo el grupo hasta que el estudiante memorice el algoritmo.",
+      "Sancionar el trabajo en parejas para garantizar que la evaluación sea estrictamente individual."
+    ],
+    "correctIndex": 1,
+    "correct": "Diseñar actividades de trabajo colaborativo que aprovechen la Zona de Desarrollo Próximo para andamiar su proceso.",
+    "explanation": "La mejor opción articula Decreto 1290 (evaluación formativa centrada en el estudiante) con Vygotsky (ZDP y andamiaje entre pares)."
+  },
+  {
+    "file": "lib/data/gold_brain_bank.dart",
+    "id": "gold-ped-002",
+    "pillar": "pedagogico",
+    "topic": "Inclusión",
+    "stem": "De acuerdo con el marco de educación inclusiva, la decisión más adecuada es:",
+    "options": [
+      "Eximirla de todas las evaluaciones del periodo.",
+      "Diseñar PIAR y ajustes razonables en materiales, tiempo y forma de demostrar el aprendizaje esencial.",
+      "Trasladarla a otra institución “mejor preparada” sin plan.",
+      "Evaluarla solo de forma oral improvisada, sin criterios previos."
+    ],
+    "correctIndex": 1,
+    "correct": "Diseñar PIAR y ajustes razonables en materiales, tiempo y forma de demostrar el aprendizaje esencial.",
+    "explanation": "El Decreto 1421 orienta PIAR y ajustes razonables manteniendo expectativas esenciales."
+  },
+  {
+    "file": "lib/data/gold_brain_bank.dart",
+    "id": "gold-ped-003",
+    "pillar": "pedagogico",
+    "topic": "Aprendizaje significativo",
+    "stem": "Esta práctica se alinea principalmente con:",
+    "options": [
+      "Castigo del error y memorización del algoritmo.",
+      "Aprendizaje significativo (Ausubel) articulando saberes previos con el nuevo contenido y referentes DBA.",
+      "Solo exposición magistral sin activar conocimientos previos.",
+      "Evaluación sumativa exclusiva al final del año."
+    ],
+    "correctIndex": 1,
+    "correct": "Aprendizaje significativo (Ausubel) articulando saberes previos con el nuevo contenido y referentes DBA.",
+    "explanation": "Ausubel: anclar en saberes previos. Los DBA orientan la progresión esperada del aprendizaje."
+  },
+  {
+    "file": "lib/data/gold_brain_bank.dart",
+    "id": "gold-ped-004",
+    "pillar": "pedagogico",
+    "topic": "PEI y gobierno escolar",
+    "stem": "La lectura más coherente con la norma es:",
+    "options": [
+      "Es válido porque el PEI es un trámite exclusivo de rectoría.",
+      "Debilita la legitimidad del PEI, que debe construirse con la comunidad educativa (Ley 115 / D.1860).",
+      "Solo importa el PMI, el PEI es opcional.",
+      "La supervisión puede reemplazar al gobierno escolar."
+    ],
+    "correctIndex": 1,
+    "correct": "Debilita la legitimidad del PEI, que debe construirse con la comunidad educativa (Ley 115 / D.1860).",
+    "explanation": "El PEI expresa identidad institucional y se construye con participación de la comunidad educativa."
+  },
+  {
+    "file": "lib/data/gold_brain_bank.dart",
+    "id": "gold-ped-005",
+    "pillar": "pedagogico",
+    "topic": "Convivencia escolar",
+    "stem": "El primer curso de acción institucional correcto es:",
+    "options": [
+      "Publicar el caso en redes del colegio para generar “escarmiento”.",
+      "Activar la ruta del Manual de Convivencia y el Comité de Convivencia Escolar con debido proceso.",
+      "Suspender sin investigación ni registro.",
+      "Ignorar el reporte si no hay prueba física inmediata."
+    ],
+    "correctIndex": 1,
+    "correct": "Activar la ruta del Manual de Convivencia y el Comité de Convivencia Escolar con debido proceso.",
+    "explanation": "Ley 1620 y su desarrollo exigen rutas de atención, debido proceso y seguimiento."
+  },
+  {
+    "file": "lib/data/gold_brain_bank.dart",
+    "id": "gold-ped-006",
+    "pillar": "pedagogico",
+    "topic": "Desarrollo cognitivo",
+    "stem": "La respuesta pedagógica más coherente es:",
+    "options": [
+      "Sustituir el juego por planas numéricas diarias.",
+      "Sostener experiencias concretas y juego como base del pensamiento, alineadas al desarrollo y a la educación inicial.",
+      "Evaluar solo con exámenes escritos estandarizados.",
+      "Ignorar el desarrollo cognitivo y homogeneizar actividades de primaria."
+    ],
+    "correctIndex": 1,
+    "correct": "Sostener experiencias concretas y juego como base del pensamiento, alineadas al desarrollo y a la educación inicial.",
+    "explanation": "Piaget y la educación inicial priorizan acción y representación antes de la formalización abstracta."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-01",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / PEI participativo",
+    "stem": "La decisión más alineada a Ley 115 / Decreto 1860 es:",
+    "options": [
+      "Validar el documento unilateral porque el rector es el máximo responsable",
+      "Reabrir un proceso participativo con gobierno escolar y socializar ajustes antes de formalizar",
+      "Archivar el PEI y operar solo con el PMI",
+      "Delegar el PEI a un abogado externo sin comunidad"
+    ],
+    "correctIndex": 1,
+    "correct": "Reabrir un proceso participativo con gobierno escolar y socializar ajustes antes de formalizar",
+    "explanation": "Ley 115 y Decreto 1860 conciben el PEI como proyecto de la comunidad educativa, no como trámite unilateral de rectoría."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-02",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / Consejo Directivo",
+    "stem": "Según el gobierno escolar (D.1860), conviene:",
+    "options": [
+      "Mantener la decisión informal por agilidad",
+      "Convocar al Consejo Directivo, deliberar con actas y formalizar la decisión",
+      "Consultar solo al consejo de padres por WhatsApp",
+      "Esperar a que supervisión dicte el presupuesto"
+    ],
+    "correctIndex": 1,
+    "correct": "Convocar al Consejo Directivo, deliberar con actas y formalizar la decisión",
+    "explanation": "El Decreto 1860 asigna al Consejo Directivo competencias de gobierno institucional; las decisiones de impacto deben ser trazables."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-03",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / Manual de convivencia",
+    "stem": "La acción rectoral prioritaria es:",
+    "options": [
+      "siempre ha servido",
+      "Actualizarlo con participación, tipificación clara y rutas alineadas a Ley 1620 y Guías MEN 49/51",
+      "Reemplazarlo por un reglamento verbal del rector",
+      "Publicar sanciones ejemplarizantes en redes sin revisar el manual"
+    ],
+    "correctIndex": 1,
+    "correct": "Actualizarlo con participación, tipificación clara y rutas alineadas a Ley 1620 y Guías MEN 49/51",
+    "explanation": "Ley 1620 y Guías MEN 49/51 exigen manual vivo, contextualizado y coherente con rutas de atención."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-04",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / SIEE",
+    "stem": "Como rector, la intervención más coherente con el Decreto 1290 es:",
+    "options": [
+      "Prohibir que familias pregunten por criterios",
+      "Liderar revisión, socialización y monitoreo del SIEE para aplicación coherente",
+      "Imponer promedios nacionales sin SIEE institucional",
+      "Dejar que cada docente invente su propia escala cada periodo"
+    ],
+    "correctIndex": 1,
+    "correct": "Liderar revisión, socialización y monitoreo del SIEE para aplicación coherente",
+    "explanation": "El Decreto 1290 exige un sistema institucional de evaluación conocido, aplicado y orientado al aprendizaje."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-05",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / Comité de convivencia",
+    "stem": "La respuesta correcta es:",
+    "options": [
+      "Cerrar el caso en privado para proteger la imagen institucional",
+      "Activar la ruta, proteger a las partes, registrar y hacer seguimiento con el Comité de Convivencia",
+      "Expulsar de inmediato sin procedimiento",
+      "Publicar los nombres en la cartelera"
+    ],
+    "correctIndex": 1,
+    "correct": "Activar la ruta, proteger a las partes, registrar y hacer seguimiento con el Comité de Convivencia",
+    "explanation": "Ley 1620 y Guías 49/51 exigen ruta de atención integral con trazabilidad y roles definidos."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-06",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / inclusión y PIAR",
+    "stem": "La postura rectoral alineada al Decreto 1421 es:",
+    "options": [
+      "Negar el cupo por falta de formación del equipo",
+      "Garantizar el ingreso, activar PIAR/ajustes razonables y acompañar al equipo docente",
+      "para que se adapte solo",
+      "Trasladarlo de inmediato a otra IE sin plan"
+    ],
+    "correctIndex": 1,
+    "correct": "Garantizar el ingreso, activar PIAR/ajustes razonables y acompañar al equipo docente",
+    "explanation": "El Decreto 1421 orienta educación inclusiva con PIAR y ajustes razonables; la falta de formación no habilita exclusión."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-07",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / PMI y PEI",
+    "stem": "La mejora de gestión más sólida es:",
+    "options": [
+      "Mantener el PMI como lista de compras independiente",
+      "Alinear el PMI a prioridades del PEI con indicadores de aprendizaje y seguimiento",
+      "Eliminar el PEI porque el PMI basta para supervisión",
+      "Cambiar el PEI cada mes según la moda pedagógica"
+    ],
+    "correctIndex": 1,
+    "correct": "Alinear el PMI a prioridades del PEI con indicadores de aprendizaje y seguimiento",
+    "explanation": "La gestión institucional debe articular PEI, mejoramiento y calidad del servicio educativo."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-08",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / Estatuto 1278",
+    "stem": "La lectura correcta del marco de profesionalización (D.1278) es:",
+    "options": [
+      "Sí: el rector nombra libremente sin reglas",
+      "El ingreso a la carrera docente se rige por concurso y reglas del sistema, no por favor informal",
+      "Solo importa la antigüedad en el municipio",
+      "El consejo de padres decide los nombramientos"
+    ],
+    "correctIndex": 1,
+    "correct": "El ingreso a la carrera docente se rige por concurso y reglas del sistema, no por favor informal",
+    "explanation": "El Decreto 1278 estructura la carrera docente con ingreso por mérito/concurso y reglas del sistema educativo."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-09",
+    "pillar": "comportamental",
+    "topic": "Rectoría / liderazgo pedagógico",
+    "stem": "Un liderazgo rectoral más pedagógico priorizaría:",
+    "options": [
+      "Solo vigilancia de pasillos y sanciones",
+      "Acompañar aulas, analizar evidencias de aprendizaje y apoyar planes de mejoramiento docente",
+      "Eliminar el SIEE para reducir carga",
+      "Delegar toda la pedagogía a las familias"
+    ],
+    "correctIndex": 1,
+    "correct": "Acompañar aulas, analizar evidencias de aprendizaje y apoyar planes de mejoramiento docente",
+    "explanation": "La gestión directiva debe velar por la calidad del servicio educativo (Ley 115, D.1860, D.1278)."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-10",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / Consejo Académico",
+    "stem": "Lo más coherente con el gobierno escolar es:",
+    "options": [
+      "Validar el cambio unilateral por agilidad",
+      "Someter el ajuste al Consejo Académico y socializar criterios pedagógicos con el equipo",
+      "Consultar solo a un influencer educativo",
+      "cada docente hace lo suyo"
+    ],
+    "correctIndex": 1,
+    "correct": "Someter el ajuste al Consejo Académico y socializar criterios pedagógicos con el equipo",
+    "explanation": "El Decreto 1860 organiza instancias (entre ellas el Consejo Académico) para decisiones curriculares institucionales."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-11",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / promoción y apoyo",
+    "stem": "Según el Decreto 1290, la postura más sólida es:",
+    "options": [
+      "Negar promoción sin evidencias de acompañamiento previo",
+      "Exigir que haya habido estrategias de apoyo y seguimiento antes de decidir promoción",
+      "Promover a todos automáticamente sin criterios",
+      "Evaluar solo con una prueba externa de un día"
+    ],
+    "correctIndex": 1,
+    "correct": "Exigir que haya habido estrategias de apoyo y seguimiento antes de decidir promoción",
+    "explanation": "El Decreto 1290 vincula evaluación, seguimiento y estrategias de apoyo al proceso de promoción."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-12",
+    "pillar": "comportamental",
+    "topic": "Rectoría / clima laboral",
+    "stem": "La intervención rectoral más profesional es:",
+    "options": [
+      "dar ejemplo",
+      "Contener, separar del escenario público, restablecer clima y abrir un espacio privado de mediación con acuerdos",
+      "son adultos",
+      "Sancionar a ambos sin escuchar versiones"
+    ],
+    "correctIndex": 1,
+    "correct": "Contener, separar del escenario público, restablecer clima y abrir un espacio privado de mediación con acuerdos",
+    "explanation": "El liderazgo directivo debe proteger el clima institucional y el debido proceso en conflictos laborales/pedagógicos."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-13",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / rutas de riesgo",
+    "stem": "La mejora institucional correcta es:",
+    "options": [
+      "Mantener solo el WhatsApp del rector como canal único",
+      "Socializar canales formales, protocolos y roles del Comité de Convivencia con trazabilidad",
+      "Prohibir reportes de familias",
+      "investigar en comunidad"
+    ],
+    "correctIndex": 1,
+    "correct": "Socializar canales formales, protocolos y roles del Comité de Convivencia con trazabilidad",
+    "explanation": "Ley 1620 y Guías MEN orientan rutas claras, accesibles y con registro institucional."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-14",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / gobierno escolar activo",
+    "stem": "La acción rectoral prioritaria es:",
+    "options": [
+      "para no perder tiempo",
+      "Reactivar calendarios, convocatorias, quórums y actas de las instancias del gobierno escolar",
+      "Sustituir instancias por encuestas anónimas en redes",
+      "Esperar a que supervisión nombre los órganos"
+    ],
+    "correctIndex": 1,
+    "correct": "Reactivar calendarios, convocatorias, quórums y actas de las instancias del gobierno escolar",
+    "explanation": "El Decreto 1860 organiza el gobierno escolar; su funcionamiento periódico es parte de la gestión institucional."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-15",
+    "pillar": "pedagogico",
+    "topic": "Rectoría / calidad curricular",
+    "stem": "El liderazgo rectoral más pertinente es:",
+    "options": [
+      "Prohibir cualquier libro de texto",
+      "Orientar planeación y seguimiento con referentes MEN (DBA/EBC/lineamientos) y evidencias de aprendizaje",
+      "Imponer un único cuadernillo nacional sin contexto",
+      "Dejar el currículo solo a la preferencia individual de cada docente"
+    ],
+    "correctIndex": 1,
+    "correct": "Orientar planeación y seguimiento con referentes MEN (DBA/EBC/lineamientos) y evidencias de aprendizaje",
+    "explanation": "Los referentes de calidad MEN orientan el currículo; la gestión institucional debe monitorear su apropiación."
+  },
+  {
+    "file": "lib/data/rector_brain_bank.dart",
+    "id": "oro-rect-16",
+    "pillar": "comportamental",
+    "topic": "Rectoría / comunicación con familias",
+    "stem": "La respuesta rectoral más adecuada es:",
+    "options": [
+      "para transparencia",
+      "Contener el espacio, proteger la dignidad de las partes y abrir un canal privado con debido proceso",
+      "Expulsar a la familia del colegio en el acto sin procedimiento",
+      "Ridiculizar a la familia para defender al docente"
+    ],
+    "correctIndex": 1,
+    "correct": "Contener el espacio, proteger la dignidad de las partes y abrir un canal privado con debido proceso",
+    "explanation": "El liderazgo institucional debe garantizar respeto, debido proceso y canales formales de reclamación."
+  }
+]

@@ -51,10 +51,11 @@ class QuestionRepository {
   }
 
   Future<List<Question>> _loadCloud() async {
+    // Límite amplio: el seed supera 500 y truncar deja claves viejas/incompletas.
     final snap = await _db
         .collection('questions')
         .where('published', isEqualTo: true)
-        .limit(500)
+        .limit(2000)
         .get();
 
     final items = <Question>[];

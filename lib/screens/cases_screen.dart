@@ -6,8 +6,8 @@ import '../data/question_bank.dart';
 import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/session_launch.dart';
 import '../widgets/atmospheric_background.dart';
-import '../widgets/listen_button.dart';
 
 /// Módulo Casos de Aula (situacional interactivo).
 class CasesScreen extends StatelessWidget {
@@ -37,15 +37,38 @@ class CasesScreen extends StatelessWidget {
                 const SizedBox(height: 14),
                 FilledButton.icon(
                   onPressed: () {
-                    state.startSession(
+                    if (!state.canAccessCases) {
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                          content: const Text(
+                            'Casos de Aula es Premium.',
+                          ),
+                          action: SnackBarAction(
+                            label: 'Premium',
+                            onPressed: () => context.push('/premium'),
+                          ),
+                        ),
+                      );
+                      return;
+                    }
+                    final ok = state.startSession(
                       mode: SessionMode.practice,
                       count: 4,
                       casesOnly: true,
                     );
-                    context.push('/practice');
+                    launchSessionOrPaywall(
+                      context: context,
+                      state: state,
+                      started: ok,
+                      route: '/practice',
+                    );
                   },
                   icon: const Icon(Icons.play_arrow_rounded),
-                  label: const Text('Practicar 4 casos'),
+                  label: Text(
+                    state.canAccessCases
+                        ? 'Practicar 4 casos'
+                        : 'Casos · Premium',
+                  ),
                 ),
                 const SizedBox(height: 18),
                 Text('Banco de casos', style: theme.textTheme.titleLarge),
@@ -87,27 +110,17 @@ class CasesScreen extends StatelessWidget {
                           const SizedBox(height: 10),
                           Align(
                             alignment: Alignment.centerRight,
-                            child: Wrap(
-                              spacing: 8,
-                              runSpacing: 8,
-                              alignment: WrapAlignment.end,
-                              children: [
-                                ListenButton(
-                                  text: [
-                                    if (q.caseContext != null) q.caseContext!,
-                                    q.stem,
-                                  ].join('\n\n'),
-                                  speakKey: 'case-preview-${q.id}',
-                                  label: 'Escuchar',
-                                ),
-                                TextButton(
-                                  onPressed: () {
-                                    state.startSingleQuestion(q);
-                                    context.push('/practice');
-                                  },
-                                  child: const Text('Resolver caso'),
-                                ),
-                              ],
+                            child: TextButton(
+                              onPressed: () {
+                                final ok = state.startSingleQuestion(q);
+                                launchSessionOrPaywall(
+                                  context: context,
+                                  state: state,
+                                  started: ok,
+                                  route: '/practice',
+                                );
+                              },
+                              child: const Text('Resolver caso'),
                             ),
                           ),
                         ],

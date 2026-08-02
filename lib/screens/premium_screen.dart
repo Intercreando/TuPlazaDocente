@@ -139,18 +139,44 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Acceso ilimitado al banco explicado, simulacros cronometrados, '
-                    'módulo de especialidad y radar avanzado.',
+                    'En Gratis entrenas todos los días con límites claros. '
+                    'Premium quita los topes y abre casos, especialidad y simulacros libres.',
                     style: theme.textTheme.bodyLarge,
+                  ),
+                  const SizedBox(height: 12),
+                  Container(
+                    width: double.infinity,
+                    padding: const EdgeInsets.all(14),
+                    decoration: BoxDecoration(
+                      color: AppColors.mist,
+                      borderRadius: BorderRadius.circular(14),
+                      border: Border.all(color: theme.colorScheme.outline),
+                    ),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          AppConfig.premiumBillingLabel,
+                          style: theme.textTheme.titleSmall,
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          AppConfig.premiumBillingDetail,
+                          style: theme.textTheme.bodySmall,
+                        ),
+                      ],
+                    ),
                   ),
                   const SizedBox(height: 22),
                   _PlanCard(
                     title: 'Gratis',
                     price: r'$0',
+                    billingNote: 'Sin pago',
                     items: const [
-                      'Reto diario de 5 preguntas',
+                      'Reto diario de 5 preguntas (todos los días)',
+                      '1 sesión de práctica al día',
                       '1 simulacro corto al mes',
-                      'Reto 60s y estadísticas básicas',
+                      'Reto rápido y radar básico',
                     ],
                     highlighted: false,
                   ),
@@ -158,11 +184,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   _PlanCard(
                     title: 'Premium',
                     price: AppConfig.premiumPriceLabel,
+                    billingNote: AppConfig.premiumBillingLabel,
                     items: const [
-                      'Banco ilimitado con explicación profunda',
-                      'Simulacros completos + mapa de calor',
-                      'Casos de aula y especialidad',
-                      'Radar avanzado y plan hasta el examen',
+                      'Práctica ilimitada con explicaciones',
+                      'Simulacros ilimitados + mapa de calor',
+                      'Casos de aula y práctica por especialidad',
+                      'Drill cronometrado en el plan (cerca del examen)',
                     ],
                     highlighted: true,
                   ),
@@ -177,8 +204,15 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       onPressed: _busy ? null : _openMercadoPago,
                       icon: const Icon(Icons.payments_outlined),
                       label: Text(
-                        _busy ? 'Preparando el pago…' : 'Pagar con Mercado Pago',
+                        _busy
+                            ? 'Preparando el pago…'
+                            : 'Pagar una vez · Mercado Pago',
                       ),
+                    ),
+                    const SizedBox(height: 8),
+                    Text(
+                      'Pago único. No se renueva solo cada mes.',
+                      style: theme.textTheme.bodySmall,
                     ),
                     const SizedBox(height: 12),
                     Text(
@@ -262,12 +296,14 @@ class _PlanCard extends StatelessWidget {
     required this.price,
     required this.items,
     required this.highlighted,
+    this.billingNote,
   });
 
   final String title;
   final String price;
   final List<String> items;
   final bool highlighted;
+  final String? billingNote;
 
   @override
   Widget build(BuildContext context) {
@@ -298,6 +334,17 @@ class _PlanCard extends StatelessWidget {
               color: highlighted ? AppColors.white : null,
             ),
           ),
+          if (billingNote != null) ...[
+            const SizedBox(height: 4),
+            Text(
+              billingNote!,
+              style: theme.textTheme.labelMedium?.copyWith(
+                color: highlighted
+                    ? AppColors.seafoam
+                    : AppColors.textMuted,
+              ),
+            ),
+          ],
           const SizedBox(height: 12),
           ...items.map(
             (item) => Padding(

@@ -50,7 +50,7 @@ const rows = [
   ["Inclusión y convivencia escolar", "primaria", "ley1620", "Canales formales.", "WhatsApp no es la ruta.", "El conflicto se 'resuelve' en el grupo de padres.", "Conducirlo a la ruta institucional y proteger intimidad", "Seguir en WhatsApp", "Publicar capturas", "Dejar que insulten hasta cansarse", 3],
   ["Inclusión y convivencia escolar", "directivos", "guiaMen51", "Roles claros.", "Protocolo operable.", "Nadie sabe quién activa la ruta en un recreo crítico.", "Definir roles, formar al equipo y ensayar el protocolo", "Improvisar cada vez", "Solo afiche sin práctica", "Esperar a orientación al día siguiente siempre", 2],
   ["Inclusión y convivencia escolar", "primaria", "guiaMen49|ley1620", "No discriminación.", "Escuela segura.", "Hostigan a un estudiante por su procedencia étnica y se minimiza.", "Activar protección, educación en derechos y ruta", "Minimizar", "Culpar a la víctima", "Ignorar porque 'son bromas'", 3],
-  ["Inclusión y convivencia escolar", "directivos", "guiaMen49", "Seguimiento.", "Acuerdos con monitoreo.", "Tras mediación exitosa, no hay verificación a 15 días.", "Programar seguimiento de clima y cumplimiento", "Archivar el mismo día", "Amenazar sin mediación", "Mover solo a la víctima", 2],
+  ["Inclusión y convivencia escolar", "directivos", "guiaMen49|ley1620", "Ley 1620 / Guía 49: la Ruta incluye seguimiento tras la atención.", "La mediación sin monitoreo deja el conflicto en riesgo de reaparecer.", "En una IE, un conflicto Tipo I entre dos estudiantes de 7° se resolvió con mediación y acuerdos firmados. Han pasado dos semanas y nadie verifica cumplimiento ni clima entre las partes.", "Programar y registrar el seguimiento del cumplimiento de los acuerdos y del clima escolar entre las partes", "Archivar el caso el mismo día de la mediación, porque el acuerdo verbal ya basta", "Imponer una sanción disciplinaria inmediata, aunque no se haya evaluado el cumplimiento de los acuerdos", "Cambiar solo de grupo a la víctima para evitar que el conflicto se repita", 2, "Según la Ruta de Atención Integral para la Convivencia Escolar (Ley 1620 y Guía MEN 49), la decisión más coherente es:"],
 
   // —— PEI / 1860 / 1278 ——
   ["Gestión institucional y PEI", "directivos", "ley115|decreto1860", "PEI orientador.", "Gobierno escolar real.", "Decisiones de calendario y evaluación se toman sin consejo académico.", "Reactivar instancias con actas y participación docente", "Seguir por WhatsApp unilateral", "Simular actas", "Eliminar consejos", 3],
@@ -143,7 +143,7 @@ function tagsFrom(csv) {
 
 /** @type {ReturnType<typeof gold>[]} */
 const wave4b = rows.map((r, i) => {
-  const [module, cargo, tagsCsv, norma, theory, caso, good, n1, n2, n3, dif] = r;
+  const [module, cargo, tagsCsv, norma, theory, caso, good, n1, n2, n3, dif, customStem] = r;
   const tagsCargo =
     cargo === "directivos"
       ? ["directivos"]
@@ -158,14 +158,15 @@ const wave4b = rows.map((r, i) => {
               : cargo === "sociales"
                 ? ["sociales", "primaria"]
                 : ["primaria"];
+  const primaryTag = String(tagsCsv).split("|")[0];
   return gold({
     id: `oro-c4b-${i + 1}`,
     module,
-    subtema: `${String(tagsCsv).split("|")[0]} · volumen ${i + 1}`,
+    subtema: `${primaryTag}`,
     cargo,
     tagsCargo,
     caso,
-    stem: stems[i % stems.length],
+    stem: customStem || stems[i % stems.length],
     options: [n1, good, n2, n3],
     correct: "B",
     norma,

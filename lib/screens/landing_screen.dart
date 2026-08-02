@@ -7,12 +7,15 @@ import 'package:provider/provider.dart';
 
 import '../services/pwa_install_service.dart';
 import '../theme/app_colors.dart';
+import '../theme/layout_breakpoints.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_logo.dart';
 import '../widgets/brand_mark.dart';
+import '../widgets/concurso_phase_badge.dart';
 import '../widgets/landing_credibility_sections.dart';
+import '../widgets/premium_chrome.dart';
 
-/// Primera vista: marca hero + CTA + instalar PWA + secciones de confianza.
+/// Landing premium: hero editorial en desktop + secciones de confianza.
 class LandingScreen extends StatelessWidget {
   const LandingScreen({super.key});
 
@@ -21,66 +24,120 @@ class LandingScreen extends StatelessWidget {
     final theme = Theme.of(context);
     final pwa = context.watch<PwaInstallService>();
     final isDark = theme.brightness == Brightness.dark;
-    final width = MediaQuery.sizeOf(context).width;
-    final isWide = width >= 900;
+    final desktop = LayoutBreakpoints.isDesktop(context);
+    final wide = LayoutBreakpoints.isWide(context);
 
     return Scaffold(
       body: AtmosphericBackground(
         dark: isDark,
-        child: SafeArea(
-          child: LayoutBuilder(
-            builder: (context, constraints) {
-              return SingleChildScrollView(
-                padding: EdgeInsets.symmetric(
-                  horizontal: isWide ? 40 : 22,
-                  vertical: 18,
-                ),
-                child: ConstrainedBox(
-                  constraints: BoxConstraints(
-                    minHeight: constraints.maxHeight - 36,
-                    maxWidth: 1100,
-                  ),
-                  child: Center(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.stretch,
-                      children: [
-                        if (isWide)
-                          SizedBox(
-                            height: math.max(560.0, constraints.maxHeight - 36),
-                            child: Row(
-                              crossAxisAlignment: CrossAxisAlignment.stretch,
-                              children: [
-                                Expanded(child: _HeroCopy(pwa: pwa)),
-                                const SizedBox(width: 36),
-                                Expanded(child: _HeroVisual(theme: theme)),
+        child: Column(
+          children: [
+            if (desktop) const LandingHeader(),
+            Expanded(
+              child: LayoutBuilder(
+                builder: (context, constraints) {
+                  final maxW = LayoutBreakpoints.contentMaxWidth(context);
+                  final hPad = desktop ? (wide ? 48.0 : 36.0) : 22.0;
+
+                  return SingleChildScrollView(
+                    child: Center(
+                      child: ConstrainedBox(
+                        constraints: BoxConstraints(maxWidth: maxW),
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(
+                            horizontal: hPad,
+                            vertical: desktop ? 8 : 18,
+                          ),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: [
+                              if (desktop)
+                                SizedBox(
+                                  height: math.max(
+                                    560.0,
+                                    math.min(
+                                      720.0,
+                                      constraints.maxHeight - 24,
+                                    ),
+                                  ),
+                                  child: Row(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
+                                    children: [
+                                      Expanded(
+                                        flex: 11,
+                                        child: _HeroCopy(
+                                          pwa: pwa,
+                                          showBrand: false,
+                                          desktop: true,
+                                        ),
+                                      ),
+                                      SizedBox(width: wide ? 56 : 40),
+                                      Expanded(
+                                        flex: 9,
+                                        child: _HeroVisual(
+                                          theme: theme,
+                                          desktop: true,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                )
+                              else ...[
+                                const BrandMark(),
+                                const SizedBox(height: 28),
+                                _HeroCopy(pwa: pwa, showBrand: false),
+                                const SizedBox(height: 28),
+                                _HeroVisual(theme: theme, compact: true),
                               ],
-                            ),
-                          )
-                        else ...[
-                          const BrandMark(),
-                          const SizedBox(height: 28),
-                          _HeroCopy(pwa: pwa, showBrand: false),
-                          const SizedBox(height: 28),
-                          _HeroVisual(theme: theme, compact: true),
-                        ],
-                        const LandingCredibilitySections(),
-                      ],
+                              const LandingCredibilitySections(),
+                            ],
+                          ),
+                        ),
+                      ),
                     ),
-                  ),
-                ),
-              );
-            },
-          ),
+                  );
+                },
+              ),
+            ),
+          ],
         ),
       ),
     );
   }
 }
+
 class _HeroCopy extends StatelessWidget {
-  const _HeroCopy({required this.pwa, this.showBrand = true});
+  const _HeroCopy({
+    required this.pwa,
+    this.showBrand = true,
+    this.desktop = false,
+  });
 
   final PwaInstallService pwa;
   final bool showBrand;
+  final bool desktop;
+
+  Future<void> _install(BuildContext context) async {
+    if (pwa.canInstall) {
+      final ok = await pwa.promptInstall();
+      if (!context.mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(
+            ok
+                ? 'Confirma en el diálogo del sistema. Luego busca el icono en tu inicio.'
+                : pwa.fallbackInstallMessage,
+          ),
+        ),
+      );
+      return;
+    }
+    if (!context.mounted) return;
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(content: Text(pwa.fallbackInstallMessage)),
+    );
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -94,23 +151,30 @@ class _HeroCopy extends StatelessWidget {
           const BrandMark(),
           const SizedBox(height: 28),
         ],
+        ConcursoPhaseBadge(showDetail: desktop),
+        SizedBox(height: desktop ? 18 : 14),
         Text(
           'No estudies más horas.\n'
           'Entrena inteligente y asegura tu plaza en propiedad.',
-          style: theme.textTheme.displaySmall,
+          style: desktop
+              ? theme.textTheme.displayMedium
+              : theme.textTheme.displaySmall,
         )
             .animate()
             .fadeIn(duration: 600.ms, delay: 80.ms)
             .slideY(begin: 0.06, end: 0),
-        const SizedBox(height: 14),
-        Text(
-          'El concurso docente no se pasa memorizando leyes, se pasa dominando '
-          'la lógica de evaluación de la CNSC. Practica con casos de aula reales, '
-          'domina la norma y entiende exactamente por qué fallan las respuestas '
-          'incorrectas en sesiones de 10 minutos al día.',
-          style: theme.textTheme.bodyLarge,
-        ).animate().fadeIn(duration: 600.ms, delay: 160.ms),
-        const SizedBox(height: 28),
+        SizedBox(height: desktop ? 18 : 14),
+        ConstrainedBox(
+          constraints: BoxConstraints(maxWidth: desktop ? 520 : double.infinity),
+          child: Text(
+            'El concurso docente no se pasa memorizando leyes, se pasa dominando '
+            'la lógica de evaluación de la CNSC. Practica con casos de aula reales, '
+            'domina la norma y entiende exactamente por qué fallan las respuestas '
+            'incorrectas en sesiones de 10 minutos al día.',
+            style: theme.textTheme.bodyLarge,
+          ).animate().fadeIn(duration: 600.ms, delay: 160.ms),
+        ),
+        SizedBox(height: desktop ? 32 : 28),
         Wrap(
           spacing: 12,
           runSpacing: 12,
@@ -123,35 +187,17 @@ class _HeroCopy extends StatelessWidget {
               onPressed: () => context.go('/onboarding'),
               child: const Text('Continuar como invitado'),
             ),
-            OutlinedButton.icon(
-              onPressed: () async {
-                if (pwa.canInstall) {
-                  final ok = await pwa.promptInstall();
-                  if (!context.mounted) return;
-                  ScaffoldMessenger.of(context).showSnackBar(
-                    SnackBar(
-                      content: Text(
-                        ok
-                            ? 'Confirma en el diálogo del sistema. Luego busca el icono en tu inicio.'
-                            : pwa.fallbackInstallMessage,
-                      ),
-                    ),
-                  );
-                  return;
-                }
-                if (!context.mounted) return;
-                ScaffoldMessenger.of(context).showSnackBar(
-                  SnackBar(content: Text(pwa.fallbackInstallMessage)),
-                );
-              },
-              icon: const Icon(Icons.download_for_offline_outlined),
-              label: const Text('Instalar en el inicio'),
-            ),
+            if (!desktop)
+              OutlinedButton.icon(
+                onPressed: () => _install(context),
+                icon: const Icon(Icons.download_for_offline_outlined),
+                label: const Text('Instalar en el inicio'),
+              ),
           ],
         ).animate().fadeIn(duration: 500.ms, delay: 260.ms),
         const SizedBox(height: 18),
         Text(
-          'Gratis: reto diario de 5 preguntas · Premium: banco ilimitado y simulacros.',
+          'Gratis: reto diario + 1 práctica/día + 1 simulacro/mes. Premium: sin límites, casos y especialidad.',
           style: theme.textTheme.bodySmall,
         ),
       ],
@@ -160,16 +206,21 @@ class _HeroCopy extends StatelessWidget {
 }
 
 class _HeroVisual extends StatelessWidget {
-  const _HeroVisual({required this.theme, this.compact = false});
+  const _HeroVisual({
+    required this.theme,
+    this.compact = false,
+    this.desktop = false,
+  });
 
   final ThemeData theme;
   final bool compact;
+  final bool desktop;
 
   @override
   Widget build(BuildContext context) {
-    final pad = compact ? 18.0 : 28.0;
-    final markSize = compact ? 48.0 : 64.0;
-    final watermark = compact ? 140.0 : 240.0;
+    final pad = compact ? 18.0 : (desktop ? 32.0 : 28.0);
+    final markSize = compact ? 48.0 : (desktop ? 72.0 : 64.0);
+    final watermark = compact ? 140.0 : (desktop ? 280.0 : 240.0);
 
     return Container(
       width: double.infinity,

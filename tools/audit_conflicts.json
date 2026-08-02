@@ -1,0 +1,965 @@
+[
+  {
+    "stem": "Desde lineamientos de ciencias, lo más coherente es:",
+    "n": 2,
+    "answers": [
+      "Integrar indagación, evidencia y explicación como núcleo del área",
+      "Diseñar indagación con observación, registro de evidencias y explicación"
+    ],
+    "samples": [
+      {
+        "id": "oro-lin-01",
+        "ci": 2,
+        "ans": "Integrar indagación, evidencia y explicación como núcleo del área",
+        "opts": [
+          "Eliminar el registro experimental",
+          "Evaluar solo limpieza del laboratorio",
+          "Integrar indagación, evidencia y explicación como núcleo del área",
+          "Reducir ciencias a memorización de definiciones"
+        ]
+      },
+      {
+        "id": "oro-esp-cie-01",
+        "ci": 1,
+        "ans": "Diseñar indagación con observación, registro de evidencias y explicación",
+        "opts": [
+          "Copiar la Wikipedia al cuaderno",
+          "Diseñar indagación con observación, registro de evidencias y explicación",
+          "Omitir el tema",
+          "Memorizar definiciones y repetir"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "La opción más coherente con referentes MEN y mediación pedagógica es:",
+    "n": 21,
+    "answers": [
+      "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+      "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+      "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+      "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+      "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+      "Mantener aprendizajes esenciales con ajustes de acceso y demostración",
+      "Conducirlo por la ruta institucional y proteger intimidad",
+      "Releer EBC y reorientar metas a saber/saber hacer",
+      "Acompañar la inducción y el periodo de prueba con mentoría pedagógica",
+      "Actualizar el manual con definiciones claras alineadas a la Guía 49 y la Ley 1620",
+      "Liderar la actualización con el comité y participación amplia",
+      "Garantizar juego y actividad física como parte del aprendizaje",
+      "Respetar trayectorias y privilegiar lenguaje oral, juego simbólico y exploración",
+      "Activar la cadena de roles definida en el protocolo institucional",
+      "Enseñar y evaluar oralidad con rúbricas y situaciones auténticas",
+      "Diseñar problemas desafiantes con propósito formativo y andamiaje",
+      "Enseñar uso ético de fuentes y parafraseo según grado",
+      "Institucionalizar actas claras que registren decisiones pedagógicas"
+    ],
+    "samples": [
+      {
+        "id": "oro-x-1290-vyg-1",
+        "ci": 1,
+        "ans": "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+        "opts": [
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso"
+        ]
+      },
+      {
+        "id": "oro-x-1290-vyg-2",
+        "ci": 2,
+        "ans": "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "opts": [
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso"
+        ]
+      },
+      {
+        "id": "oro-x-1290-aus-11",
+        "ci": 2,
+        "ans": "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+        "opts": [
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-16",
+        "ci": 1,
+        "ans": "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "opts": [
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”",
+          "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "n": 64,
+    "answers": [
+      "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+      "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+      "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+      "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+      "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+      "Reactivar instancias y calendarios de participación",
+      "Diagnosticar previos y conectar el nuevo contenido",
+      "Focalizar DBA del grado y asegurar aprendizajes esenciales",
+      "Activar procedimientos institucionales con debido proceso y registro",
+      "Abrir roles de mentoría y comunidades de aprendizaje entre pares",
+      "Diseñar rutinas con juego, lenguaje y movimiento significativos",
+      "Documentar con evidencias y diseñar mediaciones diferenciadas",
+      "Aplicar también protocolos frente a vulneraciones por adultos según competencia",
+      "Equilibrar ficha puntual con juego, movimiento y proyectos cortos",
+      "Describir avances con lenguaje de proceso y metas próximas",
+      "Actualizar con comité, participación y tipologías vigentes (Guía 49)",
+      "Enseñar autoevaluación con rúbrica clara y contraste frente a evidencias del trabajo",
+      "Triangular procesos, productos y autoevaluación con función formativa",
+      "Ajustar materiales (visuales, tiempo, formato) según PIAR y evaluar el aprendizaje esencial",
+      "Aplicar los ajustes acordados también en evaluaciones internas alineadas al PIAR",
+      "Tipificar, proteger, activar ruta y hacer seguimiento del clima digital/escolar",
+      "Diseñar promoción (ciudadanía, diálogo, cuidado) con el comité a lo largo del año",
+      "Hacer lectura de contexto con datos y priorizar prevención focalizada",
+      "Reactivar instancias con calendario, participación y actas trazables",
+      "Definir PMI con metas medibles, responsables y seguimiento periódico",
+      "Diseñar secuencias de lectura/escritura/oralidad con propósito y audiencia real",
+      "Alinear tareas y criterios de evaluación a los DBA declarados",
+      "Acompañar literacidad emergente con sentido; no castigar el ritmo madurativo",
+      "Valorar la lengua propia y fortalecer el castellano sin estigma",
+      "Usar el error para indagar el pensamiento y reenseñar con representación",
+      "Explicitar criterios de proceso, representación, resultado y comunicación",
+      "Ciclo planificar–textualizar–revisar con criterios conocidos",
+      "Valorar propósito, audiencia, organización discursiva y uso ético de fuentes",
+      "Proteger la intimidad y redirigir a canales institucionales pertinentes",
+      "Priorizar el aprendizaje con lo disponible, pedir apoyo institucional con propuestas concretas",
+      "Usar el error como evidencia formativa para reorganizar la enseñanza",
+      "Mediar acuerdos restaurativos con seguimiento según el manual",
+      "Rediseñar tareas con meta de competencia y evidencia observable",
+      "Indagar con evidencia y luego formalizar el lenguaje científico",
+      "Incluir criterios de argumentación alineados a lo enseñado",
+      "Devolver comentarios ligados a criterios y un próximo paso",
+      "Mantener esenciales de ciencias con ajustes de acceso/demostración",
+      "Rediseñar participación segura con ajustes y meta de aprendizaje",
+      "Actualizar con comité, contexto local y tipologías vigentes",
+      "Activar protección, educación en derechos y ruta",
+      "Traducir el PEI a rutinas, roles y recursos de inclusión",
+      "Definir metas, indicadores, responsables y fechas",
+      "Transitar enactivo→icónico→simbólico con conexiones",
+      "Incluir inferencia, propósito y evaluación del texto",
+      "Ampliar y reformular el habla en situaciones auténticas",
+      "Nombrar emociones, modelar turnos y acuerdos simples",
+      "Facilitar acuerdo con SIEE y evidencias documentadas",
+      "Priorizar aprendizaje con lo disponible y pedir apoyo con propuestas",
+      "Ajustar demanda y mediar con material hacia el DBA",
+      "Andamiar planificación, modelos y revisión colaborativa",
+      "Ajustes + ruta de convivencia ante discriminación",
+      "Mantener acompañamiento escolar de bienestar y aprendizajes",
+      "Evaluar pregunta, evidencia, explicación y comunicación",
+      "Ruta de convivencia + sostener ajustes sin estigmatizar"
+    ],
+    "samples": [
+      {
+        "id": "oro-x-1290-vyg-3",
+        "ci": 1,
+        "ans": "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+        "opts": [
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Entregar la rúbrica después de calificar “para que no se preparen”"
+        ]
+      },
+      {
+        "id": "oro-x-1290-vyg-6",
+        "ci": 3,
+        "ans": "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+        "opts": [
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles"
+        ]
+      },
+      {
+        "id": "oro-x-1290-vyg-7",
+        "ci": 0,
+        "ans": "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+        "opts": [
+          "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos"
+        ]
+      },
+      {
+        "id": "oro-x-1620-rest-22",
+        "ci": 2,
+        "ans": "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+        "opts": [
+          "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+          "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+          "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+          "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Cuál de las siguientes respuestas evita tanto el activismo vacío como la omisión normativa?",
+    "n": 23,
+    "answers": [
+      "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+      "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+      "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+      "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+      "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+      "Triangular evidencias (procesos, productos, autoevaluación) con función formativa",
+      "Actualizarlo con comunidad y usarlo como norte de la gestión",
+      "Distinguir SIEE estudiantil (1290) de evaluación de desempeño docente (1278)",
+      "Diagnosticar previos y conectar el nuevo contenido",
+      "Incluir etapa icónica/pictórica de transición",
+      "Focalizar DBA del grado y asegurar aprendizajes esenciales",
+      "Documentar prácticas reales y honestas con evidencias de aprendizaje",
+      "Diseñar acciones de promoción (ciudadanía, cuidado, diálogo) en el calendario escolar",
+      "Socializar rutas, roles y canales de reporte de forma comprensible",
+      "Escuchar, proteger, registrar y aplicar la ruta según tipificación",
+      "Mantener seguimiento escolar de bienestar y aprendizajes",
+      "Permitir representaciones concretas/icónicas según necesidad de comprensión",
+      "Definir evidencias y criterios por área articulados al proyecto",
+      "Articular número, medida y estimación en contextos reales",
+      "Incluir inferencia, propósito del autor y evaluación del texto",
+      "Definir metas, indicadores, responsables y fechas de seguimiento"
+    ],
+    "samples": [
+      {
+        "id": "oro-x-1290-vyg-4",
+        "ci": 2,
+        "ans": "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+        "opts": [
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso"
+        ]
+      },
+      {
+        "id": "oro-x-1290-vyg-5",
+        "ci": 0,
+        "ans": "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+        "opts": [
+          "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-17",
+        "ci": 1,
+        "ans": "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+        "opts": [
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”",
+          "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-21",
+        "ci": 3,
+        "ans": "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+        "opts": [
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR",
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”",
+          "Describir el logro frente a criterios y ofrecer una acción concreta de mejora"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "n": 30,
+    "answers": [
+      "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+      "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+      "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+      "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+      "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+      "Buscar apoyo institucional y avanzar PIAR/ajustes con el equipo",
+      "Mantener aprendizajes esenciales con ajustes de acceso y demostración",
+      "Conformarlo/activarlo y operar rutas del manual",
+      "Actualizarlo con comunidad y usarlo como norte de la gestión",
+      "Diseñar tareas con mediación y participación guiada",
+      "Incluir etapa icónica/pictórica de transición",
+      "Usarla para mejoramiento del servicio y planes de desarrollo profesional",
+      "Programar seguimiento de acuerdos y clima del grupo",
+      "Compartir avances del desarrollo con ejemplos concretos y acuerdos de acompañamiento",
+      "Releer lineamientos y explicitar el enfoque en el plan de área",
+      "Diseñar ciclos de pregunta–exploración–explicación–comunicación",
+      "Alinear metas del periodo a DBA y EBC del grado/área",
+      "Protocolizar cuidado, registro y comunicación con familias",
+      "Diseñar asamblea breve con participación infantil real",
+      "Usar materiales del entorno y reciclados con intencionalidad",
+      "Usar herramientas con intencionalidad según la meta de aprendizaje",
+      "Diagnosticar errores conceptuales y reenseñar con representación",
+      "Retroalimentar ideas, organización, audiencia y luego convenciones",
+      "Explicitar audiencia y propósito antes de producir",
+      "Proteger tiempo de enseñanza-aprendizaje como bien público",
+      "Protocolizar PIAR, roles de apoyo y seguimiento institucional (1421)",
+      "Abrir canales de participación y escuela de padres con sentido pedagógico"
+    ],
+    "samples": [
+      {
+        "id": "oro-x-1290-aus-8",
+        "ci": 2,
+        "ans": "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+        "opts": [
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos"
+        ]
+      },
+      {
+        "id": "oro-x-1290-aus-9",
+        "ci": 1,
+        "ans": "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "opts": [
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos"
+        ]
+      },
+      {
+        "id": "oro-x-1290-aus-14",
+        "ci": 0,
+        "ans": "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+        "opts": [
+          "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos"
+        ]
+      },
+      {
+        "id": "oro-x-pei-1860-30",
+        "ci": 3,
+        "ans": "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "opts": [
+          "Documentar el caso de forma genérica sin activar SIEE, PIAR, ruta 1620 u orientación de área según corresponda",
+          "Delegar la solución solo a familias o canales informales, sin instancia ni registro institucional",
+          "Usar sanción visible como única estrategia, sin criterios formativos ni restauración del vínculo",
+          "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "n": 33,
+    "answers": [
+      "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+      "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+      "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+      "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+      "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+      "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+      "Entregar y socializar criterios antes de la producción",
+      "Triangular evidencias (procesos, productos, autoevaluación) con función formativa",
+      "Buscar apoyo institucional y avanzar PIAR/ajustes con el equipo",
+      "Conducirlo por la ruta institucional y proteger intimidad",
+      "Respetar juego, exploración y evaluación por observación",
+      "Proporcionar respuesta formativa acorde a la tipificación",
+      "Diagnosticar clima, riesgos y percepciones de la comunidad educativa",
+      "Activar acciones pedagógicas y de protección frente a discriminación",
+      "Acompañar regulación emocional con cuidado y límites respetuosos",
+      "Incluir producción y comprensión de textos con criterios de desempeño",
+      "Trabajar problemas del entorno con respeto, evidencia y pensamiento crítico",
+      "Acompañar la literacidad emergente con juego, nombre propio y trazos significativos; no castigar el desarrollo",
+      "Valorar y enseñar estrategias, justificación y verificación",
+      "Explorar propiedades, composición/descomposición y argumentación",
+      "Distribuir recolección y lectura de datos a lo largo del año",
+      "Validar estrategias correctas equivalentes y comparar eficiencia",
+      "Diseñar tareas de escucha activa con propósito (tomar notas, responder, resumir)",
+      "Diseñar inducción obligatoria con mentoría y documentos vivos",
+      "Usar datos para decisiones de acompañamiento y recursos",
+      "Reabrir un proceso participativo con gobierno escolar y socializar ajustes antes de formalizar"
+    ],
+    "samples": [
+      {
+        "id": "oro-x-1290-aus-10",
+        "ci": 0,
+        "ans": "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+        "opts": [
+          "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Entregar la rúbrica después de calificar “para que no se preparen”"
+        ]
+      },
+      {
+        "id": "oro-x-1290-aus-12",
+        "ci": 1,
+        "ans": "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+        "opts": [
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso",
+          "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Entregar la rúbrica después de calificar “para que no se preparen”"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-15",
+        "ci": 3,
+        "ans": "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+        "opts": [
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”",
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR",
+          "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros"
+        ]
+      },
+      {
+        "id": "oro-x-1620-rest-23",
+        "ci": 0,
+        "ans": "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "opts": [
+          "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+          "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+          "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+          "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "n": 28,
+    "answers": [
+      "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+      "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+      "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+      "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+      "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+      "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+      "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+      "Entregar y socializar criterios antes de la producción",
+      "Conformarlo/activarlo y operar rutas del manual",
+      "Reactivar instancias y calendarios de participación",
+      "Distinguir SIEE estudiantil (1290) de evaluación de desempeño docente (1278)",
+      "Respetar juego, exploración y evaluación por observación",
+      "Releer EBC y reorientar metas a saber/saber hacer",
+      "Priorizar desarrollo profesional alineado a necesidades de desempeño y aprendizaje de estudiantes",
+      "Socializar criterios de desempeño y brindar retroalimentación oportuna",
+      "Diseñar reconocimiento del buen desempeño y rutas justas ante incumplimientos",
+      "Formar al equipo y ensayar la activación de protocolos",
+      "Mediar con adultos responsables y condiciones de seguridad",
+      "Prolongar y mediar el juego simbólico como espacio de lenguaje, cuidado y representación",
+      "Mantener exploración artística con rutinas de cuidado del espacio",
+      "Valorar la lengua propia y fortalecer el castellano como L2/adicional sin estigma",
+      "Circulares libros con acuerdos de cuidado y tiempo de lectura libre",
+      "Trabajar interpretación, disfrutar estético y producir respuesta creativa",
+      "Acompañar legibilidad con respeto y metas formativas privadas"
+    ],
+    "samples": [
+      {
+        "id": "oro-x-1290-aus-13",
+        "ci": 0,
+        "ans": "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+        "opts": [
+          "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+          "Calificar con un único instrumento final y devolver solo la nota, sin criterios previos",
+          "Entregar la rúbrica después de calificar “para que no se preparen”",
+          "Promover por promedio aritmético aunque no haya evidencias formativas del proceso"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-18",
+        "ci": 3,
+        "ans": "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+        "opts": [
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”",
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR",
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-19",
+        "ci": 1,
+        "ans": "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+        "opts": [
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR",
+          "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”"
+        ]
+      },
+      {
+        "id": "oro-x-1421-1290-20",
+        "ci": 3,
+        "ans": "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+        "opts": [
+          "Bajar la meta esencial de forma informal, sin acuerdo ni registro en el PIAR",
+          "Eximir de toda evidencia de aprendizaje esencial “para no complicarse”",
+          "Mantener la misma evidencia para todos “por equidad”, sin ajustes del PIAR",
+          "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Lo correcto es:",
+    "n": 2,
+    "answers": [
+      "Activar remisión a autoridades competentes y acciones de protección, además del manejo escolar",
+      "Activar la ruta (Guías 49/51, Ley 1620), proteger, registrar y hacer seguimiento"
+    ],
+    "samples": [
+      {
+        "id": "oro-g51-02",
+        "ci": 2,
+        "ans": "Activar remisión a autoridades competentes y acciones de protección, además del manejo escolar",
+        "opts": [
+          "Quedarse solo con amonestación interna",
+          "Ocultar el caso para 'proteger la imagen'",
+          "Activar remisión a autoridades competentes y acciones de protección, además del manejo escolar",
+          "Expulsar sin registro ni ruta"
+        ]
+      },
+      {
+        "id": "oro-esp-dir-03",
+        "ci": 3,
+        "ans": "Activar la ruta (Guías 49/51, Ley 1620), proteger, registrar y hacer seguimiento",
+        "opts": [
+          "Publicar nombres en redes",
+          "Expulsar sin procedimiento",
+          "Mantener el secreto informal",
+          "Activar la ruta (Guías 49/51, Ley 1620), proteger, registrar y hacer seguimiento"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "n": 43,
+    "answers": [
+      "Devolver a cada estudiante su logro frente a criterios y un siguiente paso de mejora",
+      "Entrenar coevaluación con protocolo de evidencias y lenguaje de la rúbrica",
+      "Guiar el portfolio con criterios, selección de evidencias y reflexión de mejora",
+      "Organizar tiempos, roles y seguimiento institucional del PIAR como deber del establecimiento",
+      "Acordar en equipo PIAR: mantener esenciales y ajustar acceso/demostración con la familia",
+      "Programar seguimiento de acuerdos, clima y posible reincidencia",
+      "Reactivarlo con calendario, actas y liderazgo de promoción/prevención",
+      "Observar con criterios, devolver feedback y acordar mejoramiento profesional",
+      "Socializar y monitorear aplicación coherente del SIEE en toda la IE",
+      "Definir evidencias y criterios por área articulados al proyecto",
+      "Explorar ideas previas y conectar el nuevo contenido (aprendizaje significativo)",
+      "Diseñar criterios y evidencias coherentes con lo enseñado y los referentes",
+      "Dialogar con evidencias del enfoque de desarrollo y acordar apoyos coherentes en casa",
+      "Integrar cuidado y aprendizaje como dimensiones inseparables",
+      "Distribuir recolección y lectura de datos a lo largo del año",
+      "Usar herramientas con intencionalidad según la meta de aprendizaje",
+      "Valorar diversidad lingüística y enseñar registros según contexto, deteniendo discriminación",
+      "Enseñar uso ético de fuentes y parafraseo según grado",
+      "Documentar prácticas reales y honestas; rechazar la simulación",
+      "Registrar, comunicar a quienes corresponde y activar cuidado/seguimiento",
+      "Diseñar roles de mediación intencional y evaluar el progreso individual con criterios",
+      "Alinear evidencias a los desempeños enseñados (saber/saber hacer)",
+      "Negarte y documentar prácticas reales; escalar por canal institucional",
+      "Diseñar retirada gradual del andamiaje y evaluar el progreso hacia la autonomía",
+      "Usar evidencias diversas con función formativa a lo largo del periodo",
+      "Garantizar atención con PIAR, ajustes y trabajo de equipo",
+      "Permitir la representación acordada y valorar el aprendizaje esencial",
+      "Activar remisión competente + protección + seguimiento escolar",
+      "Conducirlo a la ruta institucional y proteger intimidad",
+      "Usarla con criterios, devolución y plan de mejora",
+      "Auditar aplicación del SIEE y formar al equipo en criterios",
+      "Diseñar indagación con pregunta, evidencia y explicación",
+      "Activar previos y conectar metas EBC al contexto",
+      "Usar la rutina para lenguaje, autonomía y cuidado",
+      "Conteo, clasificación y comparación en juego/rutinas",
+      "Proteger y activar ruta protocolizada",
+      "Rechazar y mantener criterios; reportar si corresponde",
+      "Usar organizador previo y ejemplos del entorno",
+      "Usar modelos/analogías adecuadas al grado y evidencias observables",
+      "Observar aprendizaje, devolver feedback y acordar mejora",
+      "Diseñar roles, evidencias individuales/grupales y criterios claros",
+      "Espacios de socialización y mejora del SIEE con representación estudiantil",
+      "Abrir mentoría y comunidades de práctica con tiempo protegido"
+    ],
+    "samples": [
+      {
+        "id": "oro-c4-1",
+        "ci": 2,
+        "ans": "Devolver a cada estudiante su logro frente a criterios y un siguiente paso de mejora",
+        "opts": [
+          "Publicar el ranking completo para 'motivar competencia sana'",
+          "Subir todas las notas por 'clima' sin evidencia nueva",
+          "Devolver a cada estudiante su logro frente a criterios y un siguiente paso de mejora",
+          "Repetir la misma prueba sin analizar errores frecuentes"
+        ]
+      },
+      {
+        "id": "oro-c4-6",
+        "ci": 1,
+        "ans": "Entrenar coevaluación con protocolo de evidencias y lenguaje de la rúbrica",
+        "opts": [
+          "Dejar comentarios libres sin formación ni criterios",
+          "Entrenar coevaluación con protocolo de evidencias y lenguaje de la rúbrica",
+          "Usar coevaluación para castigar socialmente",
+          "Prohibir coevaluación porque genera conflicto"
+        ]
+      },
+      {
+        "id": "oro-c4-11",
+        "ci": 0,
+        "ans": "Guiar el portfolio con criterios, selección de evidencias y reflexión de mejora",
+        "opts": [
+          "Guiar el portfolio con criterios, selección de evidencias y reflexión de mejora",
+          "Acumular hojas sin propósito ni revisión",
+          "Eliminar el portfolio porque 'toma tiempo'",
+          "Calificar el portfolio solo por cantidad de páginas"
+        ]
+      },
+      {
+        "id": "oro-c4-16",
+        "ci": 2,
+        "ans": "Organizar tiempos, roles y seguimiento institucional del PIAR como deber del establecimiento",
+        "opts": [
+          "Dejar toda la carga en un solo docente 'voluntario'",
+          "Negar apoyos hasta 'tener más presupuesto'",
+          "Organizar tiempos, roles y seguimiento institucional del PIAR como deber del establecimiento",
+          "Evaluar inclusión solo con una jornada simbólica al año"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "n": 43,
+    "answers": [
+      "Diseñar recuperación con representaciones y tiempo suficiente, manteniendo la meta esencial",
+      "Reenseñar con diagnóstico del error, nuevas representaciones y evidencia de cierre",
+      "Evaluar comprensión (literal/inferencial) con textos y tareas alineadas a DBA/EBC",
+      "Evaluar aprendizajes esenciales con ajustes y evidencias accesibles, no notas simbólicas",
+      "Rediseñar participación con ajustes y metas esenciales de la clase, no exclusión",
+      "Restringir información a quienes deben actuar en la ruta y proteger identidad",
+      "Activar protección, educación en derechos y ruta ante discriminación",
+      "Implementar inducción obligatoria con mentoría y documentos vivos",
+      "Proteger tiempo de enseñanza-aprendizaje y alinear eventos al PEI",
+      "Validar estrategias equivalentes y comparar eficiencia/representaciones",
+      "Diseñar progresión representacional con conexiones explícitas",
+      "Reequilibrar la jornada con juego intencional, lenguaje y exploración como eje",
+      "Trabajar nociones matemáticas en juego y rutinas (conteo, serieción, comparación)",
+      "Plantear problemas con sentido, varias estrategias y socialización de representaciones",
+      "Contextualizar situaciones al entorno manteniendo la estructura matemática del DBA",
+      "Organizar secuencias con textos auténticos y producción con audiencia",
+      "Diseñar situaciones orales con rúbricas de claridad, escucha y argumentación",
+      "Negarte con respeto y proponer corregir el registro con la verdad institucional",
+      "Escuchar, proteger y activar ruta de atención según protocolo, sin exponerlo en redes",
+      "Diagnosticar previos y conectar el contenido nuevo antes de evaluar",
+      "Ajustar el acceso al material y mediar la participación",
+      "Socializar rúbrica/criterios antes y usarlos en la devolución",
+      "Transitar por representaciones concretas e icónicas antes del símbolo",
+      "Simplificar criterios esenciales, socializarlos y usarlos en la devolución",
+      "Ajustar demandas al nivel de desarrollo y mediar con representaciones concretas",
+      "Anticipar transiciones con apoyos visuales/rutinas y documentar",
+      "Protocolizar roles, tiempos PIAR y seguimiento institucional",
+      "Proteger identidad y manejar el caso por la ruta con quienes deben saber",
+      "Definir roles, formar al equipo y ensayar el protocolo",
+      "Separar SIEE (1290) de desempeño docente (1278)",
+      "Retirar la publicación y usar canales que protejan datos",
+      "Trabajar el problema con respeto, evidencia y formación ciudadana",
+      "Valorar proceso, representación y argumentación",
+      "Observar y documentar procesos con devolución a familias",
+      "Espacios de juego e interacción con materiales",
+      "Documentar lo real y rechazar la simulación",
+      "Acompañar con evidencia y plan de mejora privado/profesional",
+      "Diseñar descubrimiento guiado con meta y socialización",
+      "Comprender procesos, causas y evidencias en contexto",
+      "Transición gradual con mediación y evaluación formativa",
+      "Definir metas EBC/DBA, evidencias y responsables",
+      "Observar desencadenantes, mediar, cuidar y acordar con familia; ruta proporcional",
+      "Partir de experiencia/previos y subir hacia formalización"
+    ],
+    "samples": [
+      {
+        "id": "oro-c4-2",
+        "ci": 3,
+        "ans": "Diseñar recuperación con representaciones y tiempo suficiente, manteniendo la meta esencial",
+        "opts": [
+          "Eximirlo de demostrar el aprendizaje esencial",
+          "Sustituir matemáticas por copia de procedimientos ajenos",
+          "Mantener el cronómetro idéntico 'para que sea justo'",
+          "Diseñar recuperación con representaciones y tiempo suficiente, manteniendo la meta esencial"
+        ]
+      },
+      {
+        "id": "oro-c4-7",
+        "ci": 3,
+        "ans": "Reenseñar con diagnóstico del error, nuevas representaciones y evidencia de cierre",
+        "opts": [
+          "Seguir el libro para 'no retrasarse' aunque no haya comprensión",
+          "Poner más tarea idéntica sin mediación distinta",
+          "Culpar a las familias como única explicación",
+          "Reenseñar con diagnóstico del error, nuevas representaciones y evidencia de cierre"
+        ]
+      },
+      {
+        "id": "oro-c4-12",
+        "ci": 3,
+        "ans": "Evaluar comprensión (literal/inferencial) con textos y tareas alineadas a DBA/EBC",
+        "opts": [
+          "Abandonar la lectura oral por completo",
+          "Evaluar comprensión solo con dictado de palabras",
+          "Seguir midiendo solo velocidad como indicador único",
+          "Evaluar comprensión (literal/inferencial) con textos y tareas alineadas a DBA/EBC"
+        ]
+      },
+      {
+        "id": "oro-c4-17",
+        "ci": 1,
+        "ans": "Evaluar aprendizajes esenciales con ajustes y evidencias accesibles, no notas simbólicas",
+        "opts": [
+          "Eximir de toda evaluación del periodo",
+          "Evaluar aprendizajes esenciales con ajustes y evidencias accesibles, no notas simbólicas",
+          "Usar la misma prueba sin ningún ajuste",
+          "Asignar la nota mínima sin evidencia de aprendizaje"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Para no caer en activismo vacío ni en omisión normativa, conviene:",
+    "n": 43,
+    "answers": [
+      "Aplicar criterios del SIEE y evidencias de proceso, no solo el promedio aritmético",
+      "Diseñar mediación intencional y evaluar el progreso hacia la autonomía con criterios",
+      "Operar el PIAR en la evaluación cotidiana con roles claros y seguimiento",
+      "Eliminar/gestionar la barrera y garantizar participación en la vida escolar con plan institucional",
+      "Actualizar el manual con tipologías, rutas y participación del comité",
+      "Tipificar con proporcionalidad y aplicar respuesta formativa acorde al Tipo I",
+      "Activar protocolo frente a vulneración por adulto según competencia y protección al estudiante",
+      "Acompañar práctica, co-planificar metas de aprendizaje y hacer seguimiento",
+      "Priorizar desarrollo profesional situado (comunidades de aprendizaje, mentoría, microformación)",
+      "Promover ciclo pregunta–exploración–evidencia–explicación",
+      "Seleccionar recursos solo si sirven a una meta EBC/DBA/lineamiento explícita",
+      "Registrar observaciones del desarrollo con ejemplos y devolución a familias",
+      "Diseñar asamblea breve con participación infantil real",
+      "Valorar y enseñar estrategias, justificación y verificación",
+      "Ajustar forma/tiempo de evidencia manteniendo el aprendizaje esencial del PIAR",
+      "Preguntas de interpretación, evaluación de argumentos y respuesta propia",
+      "Andamiar con vocabulario, lectura compartida y preguntas guía",
+      "Facilitar diálogo con evidencia, SIEE y acuerdos documentados",
+      "Proteger el espacio, bajar la tensión y reconducir a reunión privada con protocolo",
+      "Partir de anclajes existentes y diseñar mediación diferenciada",
+      "Proteger a la víctima y activar ruta también con quien agrede, con debido proceso",
+      "Cesar la filtración, proteger datos y usar canales institucionales",
+      "Mostrar modelos, criterios y andamiaje de planificación textual",
+      "Revisar evidencias y criterios del SIEE antes de decidir",
+      "Diagnosticar errores y reenseñar con nueva representación hacia el DBA",
+      "Planear retirada gradual del andamiaje según evidencia",
+      "Llevar la solicitud al equipo PIAR y acordar evidencias accesibles",
+      "Acuerdos formativos/restaurativos con seguimiento",
+      "Programar seguimiento de clima y cumplimiento",
+      "Reactivar calendarios y participación efectiva",
+      "Activar el comité y operar rutas con roles",
+      "Diseñar producciones con audiencia y propósito auténticos",
+      "Contextualizar referentes al territorio manteniendo la meta",
+      "Ajustes sensoriales y acompañamiento; no sanción como única vía",
+      "Explicar enfoque con evidencias y acordar apoyos coherentes",
+      "Interrumpir con respeto y activar ruta si aplica",
+      "Proteger el espacio, bajar tensión y reunión privada protocolizada",
+      "Incluir verbalización de estrategias y criterios de éxito",
+      "Diseñar diálogo matemático con normas de argumentación",
+      "Priorizar aprendizajes esenciales con evidencias de cierre",
+      "Enseñar uso ético de herramientas con propósito, criterios y autoría",
+      "Aplicar la misma ruta y debido proceso, sin privilegios",
+      "Menos evidencias, más profundas, con devolución útil"
+    ],
+    "samples": [
+      {
+        "id": "oro-c4-4",
+        "ci": 1,
+        "ans": "Aplicar criterios del SIEE y evidencias de proceso, no solo el promedio aritmético",
+        "opts": [
+          "Promover siempre por empatía aunque falte evidencia",
+          "Aplicar criterios del SIEE y evidencias de proceso, no solo el promedio aritmético",
+          "Reprobar sin revisar el carácter formativo del SIEE",
+          "Cambiar la escala del SIEE en la misma reunión sin proceso"
+        ]
+      },
+      {
+        "id": "oro-c4-9",
+        "ci": 3,
+        "ans": "Diseñar mediación intencional y evaluar el progreso hacia la autonomía con criterios",
+        "opts": [
+          "Ignorar la evidencia de avance con mediación",
+          "Prohibir toda ayuda entre pares de forma permanente",
+          "Bajar la nota por haber trabajado en pareja aunque el SIEE lo permita",
+          "Diseñar mediación intencional y evaluar el progreso hacia la autonomía con criterios"
+        ]
+      },
+      {
+        "id": "oro-c4-14",
+        "ci": 1,
+        "ans": "Operar el PIAR en la evaluación cotidiana con roles claros y seguimiento",
+        "opts": [
+          "Anular el PIAR porque 'complica la logística'",
+          "Operar el PIAR en la evaluación cotidiana con roles claros y seguimiento",
+          "Dejar el PIAR solo para visitas de supervisión",
+          "Inventar ajustes el día del examen sin acuerdo previo"
+        ]
+      },
+      {
+        "id": "oro-c4-19",
+        "ci": 0,
+        "ans": "Eliminar/gestionar la barrera y garantizar participación en la vida escolar con plan institucional",
+        "opts": [
+          "Eliminar/gestionar la barrera y garantizar participación en la vida escolar con plan institucional",
+          "Culpar al estudiante por no 'adaptarse'",
+          "Documentar la barrera sin ninguna acción de mejora",
+          "Mantener la exclusión del descanso como medida permanente"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "n": 43,
+    "answers": [
+      "Socializar criterios antes de la producción para orientar el aprendizaje",
+      "Acortar el ciclo feedback–acción con devoluciones oportunas y accionables",
+      "Diseñar apoyos ambientales/organizativos y criterios claros, evitando sanción como única respuesta",
+      "Asumir corresponsabilidad de aula + equipo de apoyo con PIAR y ajustes en la enseñanza",
+      "Activar remisión a autoridades competentes y acciones de protección, además del manejo escolar",
+      "Socializar canales, roles y ruta de forma comprensible a la comunidad",
+      "Alinear planes de área, SIEE y proyectos al horizonte del PEI con el consejo académico",
+      "Conectar evaluación de desempeño con plan de desarrollo profesional y evidencias",
+      "Reorientar metas a EBC/DBA del grado y explicitar evidencias de aprendizaje",
+      "Analizar problemas locales con evidencia, respeto y pensamiento crítico",
+      "Asegurar aprendizajes esenciales del grado y progresión sólida",
+      "Organizar ambientes de juego, exploración e interacción con materiales significativos",
+      "Ajustar ambiente/tiempos/señales y documentar apoyos (PIAR si aplica)",
+      "Explorar propiedades, composición/descomposición y argumentación espacial",
+      "Diagnosticar errores conceptuales y reenseñar con nueva mediación",
+      "Activar previos, propósito comunicativo y modelos antes de producir",
+      "Circular libros con acuerdos de cuidado y tiempo de lectura libre",
+      "Interrumpir con respeto, proteger dignidad y activar ruta institucional si aplica",
+      "Rechazar, mantener criterios del SIEE y reportar por canal institucional si corresponde",
+      "Retirar andamiajes de forma gradual según evidencia de autonomía",
+      "Hacer seguimiento de acuerdos y clima",
+      "Socializar criterios y devolver feedback con plan de mejora",
+      "Diagnosticar previos con material y conectar el algoritmo a la comprensión",
+      "Unificar/socializar el SIEE y monitorear su aplicación",
+      "Aplicar el ajuste de tiempo y evaluar el aprendizaje esencial",
+      "Ajustar tamaño/contraste/formato digital y evaluar comprensión esencial",
+      "Intervenir con mediación, tipificación y seguimiento del clima",
+      "Programar promoción con el comité a lo largo del año",
+      "Reactivar instancias con actas y participación docente",
+      "Inducción obligatoria + mentoría pedagógica",
+      "Articular lineamientos + EBC/DBA en planeación y evaluación",
+      "Focalizar DBA del grado y asegurar bases",
+      "Mediar el juego como espacio de lenguaje y aprendizaje",
+      "Diálogo periódico sobre desarrollo con evidencias y acuerdos",
+      "Negarte y corregir el registro con la verdad",
+      "Proteger intimidad y redirigir a canales debidos",
+      "Mediar con pistas decrecientes y evaluar autonomía creciente",
+      "Revisar evidencias y SIEE con trazabilidad",
+      "Restaurar clima con ruta y retomar aprendizajes con criterios",
+      "Corregir la puntualidad y no delegar la tarea docente al estudiante",
+      "Usar la explicación errónea como objeto de análisis colectivo respetuoso",
+      "Contrastar autoevaluación con evidencias y criterios compartidos",
+      "Diseñar desafíos en ZDP con andamiaje y propósito formativo"
+    ],
+    "samples": [
+      {
+        "id": "oro-c4-5",
+        "ci": 3,
+        "ans": "Socializar criterios antes de la producción para orientar el aprendizaje",
+        "opts": [
+          "Entregar criterios solo a quienes 'se portan bien'",
+          "Evaluar sin rúbrica y decidir por impresión general",
+          "Usar rúbrica secreta incluso para el equipo docente",
+          "Socializar criterios antes de la producción para orientar el aprendizaje"
+        ]
+      },
+      {
+        "id": "oro-c4-10",
+        "ci": 0,
+        "ans": "Acortar el ciclo feedback–acción con devoluciones oportunas y accionables",
+        "opts": [
+          "Acortar el ciclo feedback–acción con devoluciones oportunas y accionables",
+          "Concentrar toda la devolución en el boletín final",
+          "Dar feedback solo a quienes reprobaron",
+          "Sustituir feedback por más contenido nuevo"
+        ]
+      },
+      {
+        "id": "oro-c4-15",
+        "ci": 0,
+        "ans": "Diseñar apoyos ambientales/organizativos y criterios claros, evitando sanción como única respuesta",
+        "opts": [
+          "Diseñar apoyos ambientales/organizativos y criterios claros, evitando sanción como única respuesta",
+          "Aumentar sanciones para 'corregir conducta'",
+          "Ignorar el tema porque 'es problema de la casa'",
+          "Excluirlo del aula cada vez que se mueve"
+        ]
+      },
+      {
+        "id": "oro-c4-20",
+        "ci": 1,
+        "ans": "Asumir corresponsabilidad de aula + equipo de apoyo con PIAR y ajustes en la enseñanza",
+        "opts": [
+          "Delegar toda decisión pedagógica solo a orientación",
+          "Asumir corresponsabilidad de aula + equipo de apoyo con PIAR y ajustes en la enseñanza",
+          "Hacer inclusión solo en actos cívicos",
+          "Rechazar estudiantes con discapacidad en el grupo"
+        ]
+      }
+    ]
+  },
+  {
+    "stem": "La acción rectoral prioritaria es:",
+    "n": 2,
+    "answers": [
+      "Actualizarlo con participación, tipificación clara y rutas alineadas a Ley 1620 y Guías MEN 49/51",
+      "Reactivar calendarios, convocatorias, quórums y actas de las instancias del gobierno escolar"
+    ],
+    "samples": [
+      {
+        "id": "oro-rect-03",
+        "ci": 3,
+        "ans": "Actualizarlo con participación, tipificación clara y rutas alineadas a Ley 1620 y Guías MEN 49/51",
+        "opts": [
+          "Seguir usándolo porque 'siempre ha servido'",
+          "Publicar sanciones ejemplarizantes en redes sin revisar el manual",
+          "Reemplazarlo por un reglamento verbal del rector",
+          "Actualizarlo con participación, tipificación clara y rutas alineadas a Ley 1620 y Guías MEN 49/51"
+        ]
+      },
+      {
+        "id": "oro-rect-14",
+        "ci": 2,
+        "ans": "Reactivar calendarios, convocatorias, quórums y actas de las instancias del gobierno escolar",
+        "opts": [
+          "Esperar a que supervisión nombre los órganos",
+          "Sustituir instancias por encuestas anónimas en redes",
+          "Reactivar calendarios, convocatorias, quórums y actas de las instancias del gobierno escolar",
+          "Centralizar todo en rectoría 'para no perder tiempo'"
+        ]
+      }
+    ]
+  }
+]

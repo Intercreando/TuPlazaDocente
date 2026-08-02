@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 
 import '../models/enums.dart';
 import '../theme/app_colors.dart';
+import '../theme/layout_breakpoints.dart';
 
 /// Secciones de credibilidad debajo del hero (sin alterar el copy principal).
 class LandingCredibilitySections extends StatelessWidget {
@@ -10,18 +11,18 @@ class LandingCredibilitySections extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        SizedBox(height: 40),
-        _TrustFactsStrip(),
-        SizedBox(height: 48),
-        _SpecializationSection(),
-        SizedBox(height: 48),
-        _WhyTrustSection(),
-        SizedBox(height: 48),
-        _TransparencyBand(),
-        SizedBox(height: 24),
+        SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 56 : 40),
+        const _TrustFactsStrip(),
+        SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
+        const _SpecializationSection(),
+        SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
+        const _WhyTrustSection(),
+        SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
+        const _TransparencyBand(),
+        const SizedBox(height: 32),
       ],
     );
   }
@@ -264,14 +265,13 @@ class _WhyTrustSection extends StatelessWidget {
     (
       Icons.verified_user_outlined,
       'Empieza gratis, sin letra chica',
-      'Puedes entrenar sin pagar. Premium solo si quieres banco ilimitado y simulacros.',
+      'Gratis: reto diario, 1 práctica al día y 1 simulacro al mes. Premium desbloquea el resto sin tope.',
     ),
   ];
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final isDark = theme.brightness == Brightness.dark;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -286,38 +286,72 @@ class _WhyTrustSection extends StatelessWidget {
           style: theme.textTheme.bodyLarge,
         ),
         const SizedBox(height: 22),
-        for (final point in _points) ...[
-          DecoratedBox(
-            decoration: BoxDecoration(
-              border: Border(
-                bottom: BorderSide(
-                  color: isDark ? AppColors.darkStroke : AppColors.stroke,
-                ),
-              ),
-            ),
-            child: Padding(
-              padding: const EdgeInsets.symmetric(vertical: 16),
-              child: Row(
+        LayoutBuilder(
+          builder: (context, constraints) {
+            final desktop = constraints.maxWidth >= 720;
+            if (!desktop) {
+              return Column(
+                children: [
+                  for (final point in _points) _TrustPointRow(point: point),
+                ],
+              );
+            }
+            return Wrap(
+              spacing: 24,
+              runSpacing: 8,
+              children: [
+                for (final point in _points)
+                  SizedBox(
+                    width: (constraints.maxWidth - 24) / 2,
+                    child: _TrustPointRow(point: point),
+                  ),
+              ],
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _TrustPointRow extends StatelessWidget {
+  const _TrustPointRow({required this.point});
+
+  final (IconData, String, String) point;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final isDark = theme.brightness == Brightness.dark;
+
+    return DecoratedBox(
+      decoration: BoxDecoration(
+        border: Border(
+          bottom: BorderSide(
+            color: isDark ? AppColors.darkStroke : AppColors.stroke,
+          ),
+        ),
+      ),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 16),
+        child: Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Icon(point.$1, color: AppColors.canopy),
+            const SizedBox(width: 14),
+            Expanded(
+              child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Icon(point.$1, color: AppColors.canopy),
-                  const SizedBox(width: 14),
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(point.$2, style: theme.textTheme.titleMedium),
-                        const SizedBox(height: 4),
-                        Text(point.$3, style: theme.textTheme.bodyMedium),
-                      ],
-                    ),
-                  ),
+                  Text(point.$2, style: theme.textTheme.titleMedium),
+                  const SizedBox(height: 4),
+                  Text(point.$3, style: theme.textTheme.bodyMedium),
                 ],
               ),
             ),
-          ),
-        ],
-      ],
+          ],
+        ),
+      ),
     );
   }
 }
@@ -329,41 +363,85 @@ class _TransparencyBand extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final desktop = LayoutBreakpoints.isDesktop(context);
 
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.all(24),
+      padding: EdgeInsets.all(desktop ? 36 : 24),
       decoration: BoxDecoration(
         color: AppColors.ink,
         borderRadius: BorderRadius.circular(20),
       ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            'Claridad desde el primer minuto',
-            style: theme.textTheme.titleLarge?.copyWith(color: AppColors.gold),
-          ),
-          const SizedBox(height: 10),
-          Text(
-            'TuPlazaDocente es un entrenador táctico del Concurso Docente. '
-            'No somos una entidad oficial del Estado. Nuestro foco es ayudarte '
-            'a practicar con criterio, entender tus errores y sostener un plan diario.',
-            style: theme.textTheme.bodyMedium?.copyWith(
-              color: AppColors.white.withValues(alpha: 0.9),
+      child: desktop
+          ? Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        'Claridad desde el primer minuto',
+                        style: theme.textTheme.headlineSmall?.copyWith(
+                          color: AppColors.gold,
+                        ),
+                      ),
+                      const SizedBox(height: 10),
+                      Text(
+                        'TuPlazaDocente es un entrenador táctico del Concurso Docente. '
+                        'No somos una entidad oficial del Estado. Nuestro foco es ayudarte '
+                        'a practicar con criterio, entender tus errores y sostener un plan diario.',
+                        style: theme.textTheme.bodyMedium?.copyWith(
+                          color: AppColors.white.withValues(alpha: 0.9),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(width: 28),
+                FilledButton(
+                  onPressed: () => context.go('/auth'),
+                  style: FilledButton.styleFrom(
+                    backgroundColor: AppColors.gold,
+                    foregroundColor: AppColors.ink,
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 28,
+                      vertical: 18,
+                    ),
+                  ),
+                  child: const Text('Empezar con confianza'),
+                ),
+              ],
+            )
+          : Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Claridad desde el primer minuto',
+                  style: theme.textTheme.titleLarge?.copyWith(
+                    color: AppColors.gold,
+                  ),
+                ),
+                const SizedBox(height: 10),
+                Text(
+                  'TuPlazaDocente es un entrenador táctico del Concurso Docente. '
+                  'No somos una entidad oficial del Estado. Nuestro foco es ayudarte '
+                  'a practicar con criterio, entender tus errores y sostener un plan diario.',
+                  style: theme.textTheme.bodyMedium?.copyWith(
+                    color: AppColors.white.withValues(alpha: 0.9),
+                  ),
+                ),
+                const SizedBox(height: 18),
+                FilledButton(
+                  onPressed: () => context.go('/auth'),
+                  style: FilledButton.styleFrom(
+                    backgroundColor: AppColors.gold,
+                    foregroundColor: AppColors.ink,
+                  ),
+                  child: const Text('Empezar con confianza'),
+                ),
+              ],
             ),
-          ),
-          const SizedBox(height: 18),
-          FilledButton(
-            onPressed: () => context.go('/auth'),
-            style: FilledButton.styleFrom(
-              backgroundColor: AppColors.gold,
-              foregroundColor: AppColors.ink,
-            ),
-            child: const Text('Empezar con confianza'),
-          ),
-        ],
-      ),
     );
   }
 }

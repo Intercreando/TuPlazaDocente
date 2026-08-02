@@ -5,6 +5,7 @@ import '../models/enums.dart';
 import '../services/tag_mastery_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../theme/layout_breakpoints.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/competency_radar.dart';
 import '../widgets/tag_mastery_map.dart';
@@ -27,9 +28,11 @@ class RadarScreen extends StatelessWidget {
       child: SafeArea(
         child: Center(
           child: ConstrainedBox(
-            constraints: const BoxConstraints(maxWidth: 860),
+            constraints: BoxConstraints(
+              maxWidth: LayoutBreakpoints.contentMaxWidth(context),
+            ),
             child: ListView(
-              padding: const EdgeInsets.fromLTRB(20, 16, 20, 28),
+              padding: LayoutBreakpoints.pagePadding(context),
               children: [
                 Text('Tu radar', style: theme.textTheme.headlineMedium),
                 const SizedBox(height: 6),

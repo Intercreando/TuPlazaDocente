@@ -229,16 +229,25 @@ for (const g of goldPed) {
 }
 
 // ——— Generación Aptitud Numérica (volumen con explicación) ———
+// Solo enteros exactos: NUNCA usar Math.round sobre el resultado correcto
+// (eso marcó 9.6→10 y 7.5→8 en producción y destruye credibilidad).
+function assertExactInteger(value, label) {
+  if (!Number.isFinite(value) || Math.abs(value - Math.round(value)) > 1e-9) {
+    throw new Error(`Aptitud numérica inválida (${label}): resultado no entero exacto = ${value}`);
+  }
+  return Math.round(value);
+}
+
 const numCases = [
   {a: 20, b: 150, op: "pct_of", label: "porcentaje de un total"},
   {a: 35, b: 200, op: "pct_of"},
-  {a: 12, b: 80, op: "pct_of"},
+  {a: 12.5, b: 80, op: "pct_of"},
   {a: 45, b: 320, op: "pct_of"},
   {a: 18, b: 250, op: "pct_of"},
-  {a: 8, b: 5, op: "rule3", c: 12},
+  {a: 9, b: 6, op: "rule3", c: 12},
   {a: 6, b: 9, op: "rule3", c: 10},
-  {a: 15, b: 4, op: "rule3", c: 9},
-  {a: 20, b: 7, op: "rule3", c: 28},
+  {a: 15, b: 5, op: "rule3", c: 6},
+  {a: 14, b: 5, op: "rule3", c: 28},
   {a: 9, b: 6, op: "rule3", c: 15},
 ];
 
@@ -246,7 +255,7 @@ let n = 0;
 for (const c of numCases) {
   n += 1;
   if (c.op === "pct_of") {
-    const correct = Math.round((c.a / 100) * c.b);
+    const correct = assertExactInteger((c.a / 100) * c.b, `pct ${c.a}% de ${c.b}`);
     const opts = [correct, correct + 10, correct - 8, Math.round(correct * 1.2)]
         .map((v) => Math.abs(v))
         .filter((v, i, arr) => arr.indexOf(v) === i);
@@ -281,8 +290,7 @@ for (const c of numCases) {
     });
   } else {
     // a trabajadores hacen b tareas; ¿cuántas hacen c trabajadores?
-    const rate = c.b / c.a;
-    const correct = Math.round(rate * c.c);
+    const correct = assertExactInteger((c.b / c.a) * c.c, `regla3 ${c.a}->${c.b} x ${c.c}`);
     const opts = [correct, correct + 2, correct - 3, correct + 5].map((v) => Math.abs(v));
     const unique = [...new Set(opts)];
     while (unique.length < 4) unique.push(correct + unique.length);

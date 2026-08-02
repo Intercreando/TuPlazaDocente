@@ -90,34 +90,6 @@ class Question {
     }
     return normativeRefs;
   }
-
-  /// Texto listo para lectura en voz (caso + enunciado + opciones).
-  String get speakPrompt {
-    final buffer = StringBuffer();
-    if (caseContext != null && caseContext!.trim().isNotEmpty) {
-      buffer.writeln('Caso de aula.');
-      buffer.writeln(caseContext!.trim());
-      buffer.writeln();
-    }
-    buffer.writeln('Pregunta.');
-    buffer.writeln(stem.trim());
-    buffer.writeln();
-    buffer.writeln('Opciones.');
-    const letters = ['A', 'B', 'C', 'D'];
-    for (var i = 0; i < options.length; i++) {
-      final letter = i < letters.length ? letters[i] : '${i + 1}';
-      buffer.writeln('$letter. ${options[i].trim()}');
-    }
-    return buffer.toString().trim();
-  }
-
-  /// Texto de feedback para lectura tras comprobar la respuesta.
-  String get speakFeedback {
-    final buffer = StringBuffer();
-    buffer.writeln('Explicación.');
-    buffer.writeln(richFeedback.trim());
-    return buffer.toString().trim();
-  }
 }
 
 /// Registro de respuesta para métricas y mapa de calor.

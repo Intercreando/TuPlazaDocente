@@ -168,7 +168,7 @@ class UserProfile {
 
     return UserProfile(
       displayName: (json['displayName'] as String?) ?? '',
-      cargo: _enumByName(CargoAspiracion.values, json['cargo'] as String?),
+      cargo: _parseCargo(json['cargo'] as String?),
       especialidad:
           _enumByName(Especialidad.values, json['especialidad'] as String?),
       onboardingComplete: json['onboardingComplete'] as bool? ?? false,
@@ -196,4 +196,11 @@ T? _enumByName<T extends Enum>(List<T> values, String? name) {
     if (value.name == name) return value;
   }
   return null;
+}
+
+/// Migra el valor legacy `rector` al único cargo [CargoAspiracion.directivo].
+CargoAspiracion? _parseCargo(String? name) {
+  if (name == null) return null;
+  if (name == 'rector') return CargoAspiracion.directivo;
+  return _enumByName(CargoAspiracion.values, name);
 }

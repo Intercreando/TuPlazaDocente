@@ -157,7 +157,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     _especialidad = sugerida;
                                   } else if (_especialidad ==
                                       Especialidad.directivos) {
-                                    // Al salir de rector/directivo, pide especialidad de aula.
+                                    // Al salir de directivo, pide especialidad de aula.
                                     _especialidad = null;
                                   }
                                 }),
@@ -351,11 +351,9 @@ class _StepEspecialidad extends StatelessWidget {
     final opciones = cargo != null && cargo!.esGestionInstitucional
         ? const [Especialidad.directivos]
         : Especialidad.values;
-    final hint = cargo == CargoAspiracion.rector
-        ? 'Para Rector calibramos el banco de Gestión directiva: PEI, gobierno escolar, SIEE y convivencia.'
-        : cargo == CargoAspiracion.directivo
-            ? 'Para Directivo / Coordinador priorizamos Gestión directiva e liderazgo pedagógico.'
-            : null;
+    final hint = cargo == CargoAspiracion.directivo
+        ? 'Para Directivo (coordinación o rectoría) calibramos Gestión directiva: PEI, gobierno escolar, SIEE y convivencia.'
+        : null;
 
     return ListView(
       children: [

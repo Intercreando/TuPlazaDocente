@@ -1,0 +1,338 @@
+[
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-01",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "Un colegio reduce en 20% el tiempo de una jornada de 6 horas para un simulacro. ¿Cuántos minutos dura la jornada resultante?",
+    "options": [
+      "240 minutos",
+      "288 minutos",
+      "300 minutos",
+      "320 minutos"
+    ],
+    "correctIndex": 1,
+    "correct": "288 minutos",
+    "explanation": "El 20% de 6 horas (360 min) es 72 min. 360 − 72 = 288 minutos. En prueba sin calculadora, convierte primero a minutos y aplica la resta del porcentaje."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-02",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "stem": "Si 8 docentes elaboran 40 rúbricas en 5 días, ¿cuántas rúbricas elaborarán 12 docentes en 5 días, a igual ritmo?",
+    "options": [
+      "48",
+      "50",
+      "60",
+      "72"
+    ],
+    "correctIndex": 2,
+    "correct": "60",
+    "explanation": "La proporción es directa con el número de docentes: (40/8) × 12 = 5 × 12 = 60. El tiempo se mantiene constante."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-03",
+    "pillar": "aptitudNumerica",
+    "topic": "Lógica matemática",
+    "stem": "La secuencia de puntajes de un grupo es 12, 15, 21, 33, 57… ¿Cuál sigue?",
+    "options": [
+      "87",
+      "93",
+      "99",
+      "105"
+    ],
+    "correctIndex": 3,
+    "correct": "105",
+    "explanation": "Las diferencias entre términos son +3, +6, +12, +24: cada incremento duplica al anterior. El siguiente incremento es 24×2 = 48; por tanto 57 + 48 = 105."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-04",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "stem": "Cinco estudiantes obtienen 3.2, 3.8, 4.0, 2.9 y 4.1. Si se elimina el menor puntaje, ¿cuál es el nuevo promedio aproximado?",
+    "options": [
+      "3.50",
+      "3.68",
+      "3.78",
+      "3.90"
+    ],
+    "correctIndex": 2,
+    "correct": "3.78",
+    "explanation": "Se elimina 2.9. Suma restante: 3.2+3.8+4.0+4.1 = 15.1; 15.1/4 = 3.775 ≈ 3.78."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "num-05",
+    "pillar": "aptitudNumerica",
+    "topic": "Proporciones",
+    "stem": "En una institución, la razón estudiantes:docentes es 28:1. Si hay 36 docentes, ¿cuántos estudiantes hay?",
+    "options": [
+      "864",
+      "980",
+      "1008",
+      "1120"
+    ],
+    "correctIndex": 2,
+    "correct": "1008",
+    "explanation": "28 × 36 = 1008. Multiplica el término de la razón por la cantidad dada."
+  },
+  {
+    "file": "lib/data/question_bank.dart",
+    "id": "ped-01",
+    "pillar": "pedagogico",
+    "topic": "Evaluación formativa",
+    "stem": "Una docente usa rúbricas compartidas con estudiantes antes de una producción escrita y ajusta la secuencia según los avances. ¿Qué enfoque predomina?",
+    "options": [
+      "Evaluación sumativa exclusiva",
+      "Evaluación formativa orientada al aprendizaje",
+      "Promoción automática sin criterios",
+      "Homologación externa de resultados"
+    ],
+    "correctIndex": 1,
+    "correct": "Evaluación formativa orientada al aprendizaje",
+    "explanation": "Compartir criterios y ajustar la enseñanza con evidencia en proceso es evaluación formativa (Decreto 1290: la evaluación como parte del proceso formativo)."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-01",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "Un docente mejora su precisión de 60% a 75% en un pilar. ¿Cuál fue el aumento porcentual relativo sobre el valor inicial?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correctIndex": 2,
+    "correct": "25%",
+    "explanation": "Aumento absoluto = 15 puntos. Relativo: 15/60 = 0.25 = 25%. No confundas puntos porcentuales con variación relativa."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-02",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "stem": "Si 15 aspirantes resuelven un taller en 6 horas, ¿cuántas horas necesitarían 9 aspirantes al mismo ritmo (trabajo inverso)?",
+    "options": [
+      "4",
+      "8",
+      "9",
+      "10"
+    ],
+    "correctIndex": 3,
+    "correct": "10",
+    "explanation": "Más personas → menos tiempo. 15×6 = 90 “aspirante-hora”; 90/9 = 10 horas."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-03",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "stem": "Los puntajes de cuatro simulacros son 62, 70, 74 y 66. ¿Qué puntaje se necesita en el quinto para promedio 70?",
+    "options": [
+      "70",
+      "74",
+      "78",
+      "82"
+    ],
+    "correctIndex": 2,
+    "correct": "78",
+    "explanation": "Suma actual 272. Para promedio 70 en 5 pruebas: 350. Falta 350−272 = 78."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-04",
+    "pillar": "aptitudNumerica",
+    "topic": "Proporciones",
+    "stem": "En un aula la razón niñas:niños es 5:3. Si hay 24 niños, ¿cuántas niñas hay?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correctIndex": 2,
+    "correct": "40",
+    "explanation": "3 partes = 24 → 1 parte = 8. Niñas = 5×8 = 40."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-05",
+    "pillar": "aptitudNumerica",
+    "topic": "Lógica matemática",
+    "stem": "Un reloj se atrasa 3 minutos cada hora real. Si se sincroniza a las 12:00, ¿qué hora marcará cuando sean las 16:00 reales?",
+    "options": [
+      "15:48",
+      "15:50",
+      "15:52",
+      "16:12"
+    ],
+    "correctIndex": 0,
+    "correct": "15:48",
+    "explanation": "En 4 horas se atrasa 12 minutos → marca 15:48."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-02",
+    "pillar": "lecturaCritica",
+    "topic": "Conectores",
+    "stem": "“La inclusión exige ajustes; por consiguiente, evaluar igual a todos sin criterios diferenciados puede vulnerar derechos.” “Por consiguiente” indica:",
+    "options": [
+      "Concesión",
+      "Ejemplo",
+      "Consecuencia",
+      "Oposición"
+    ],
+    "correctIndex": 2,
+    "correct": "Consecuencia",
+    "explanation": "“Por consiguiente” introduce una conclusión/consecuencia lógica."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-lec-03",
+    "pillar": "lecturaCritica",
+    "topic": "Idea principal",
+    "stem": "Un texto sostiene que la convivencia escolar no se reduce a sanción, sino a formación ciudadana y restauración. La idea principal es:",
+    "options": [
+      "La sanción es inútil siempre",
+      "La convivencia exige enfoque formativo y restaurativo",
+      "Solo el comité decide todo",
+      "Las familias no participan"
+    ],
+    "correctIndex": 1,
+    "correct": "La convivencia exige enfoque formativo y restaurativo",
+    "explanation": "La tesis amplía convivencia más allá del castigo: formación y restauración."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-esp-02",
+    "pillar": "pedagogico",
+    "topic": "Lenguaje",
+    "stem": "Una secuencia potente para argumentar en secundaria es:",
+    "options": [
+      "Copiar un ensayo modelo sin análisis",
+      "Identificar tesis ajena → construir tesis propia → soportar con evidencia",
+      "Solo dictado",
+      "Evitar textos controversiales siempre"
+    ],
+    "correctIndex": 1,
+    "correct": "Identificar tesis ajena → construir tesis propia → soportar con evidencia",
+    "explanation": "La escritura argumentativa se enseña con modelado de estructura y evidencia, no con copia pasiva."
+  },
+  {
+    "file": "lib/data/calibrated_bank.dart",
+    "id": "cal-num-06",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "De 180 docentes, el 40% ya completó el diagnóstico. ¿Cuántos faltan?",
+    "options": [
+      "72",
+      "88",
+      "108",
+      "120"
+    ],
+    "correctIndex": 2,
+    "correct": "108",
+    "explanation": "Completaron 72; faltan 180−72 = 108 (60%)."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "num-06",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "stem": "De 250 aspirantes, el 36% aprueba la primera fase. ¿Cuántos no aprueban?",
+    "options": [
+      "80",
+      "90",
+      "160",
+      "170"
+    ],
+    "correctIndex": 2,
+    "correct": "160",
+    "explanation": "Aprueban 0.36 × 250 = 90. No aprueban 250 − 90 = 160. Atajo: 64% de 250 = 0.64 × 250 = 160."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "num-07",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "stem": "Un simulacro de 80 ítems se responde en 160 minutos. A ese ritmo, ¿cuántos minutos se necesitan para 50 ítems?",
+    "options": [
+      "90",
+      "100",
+      "110",
+      "120"
+    ],
+    "correctIndex": 1,
+    "correct": "100",
+    "explanation": "160/80 = 2 min por ítem. 50 × 2 = 100 minutos."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "num-08",
+    "pillar": "aptitudNumerica",
+    "topic": "Lógica matemática",
+    "stem": "Si todos los coordinadores son docentes y algunos docentes son orientadores, ¿cuál afirmación es necesariamente verdadera?",
+    "options": [
+      "Todos los orientadores son coordinadores",
+      "Algunos coordinadores podrían no ser orientadores",
+      "Ningún docente es coordinador",
+      "Todos los docentes son coordinadores"
+    ],
+    "correctIndex": 1,
+    "correct": "Algunos coordinadores podrían no ser orientadores",
+    "explanation": "“Todos los coordinadores son docentes” no implica que sean orientadores. Por tanto, algunos coordinadores podrían no serlo."
+  },
+  {
+    "file": "lib/data/extra_questions.dart",
+    "id": "caso-01",
+    "pillar": "pedagogico",
+    "topic": "Casos de aula",
+    "stem": "Tras el reporte, ¿qué secuencia es más coherente con la ruta de atención?",
+    "options": [
+      "Castigo inmediato público y cierre del caso",
+      "Escucha a las partes, activa protocolo, registra y hace seguimiento",
+      "Trasladar al estudiante sin debido proceso",
+      "Publicar nombres para “crear conciencia”"
+    ],
+    "correctIndex": 1,
+    "correct": "Escucha a las partes, activa protocolo, registra y hace seguimiento",
+    "explanation": "La Ley 1620 exige rutas de atención, debido proceso, registro y seguimiento por el Comité de Convivencia."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-mat-01",
+    "pillar": "pedagogico",
+    "topic": "Didáctica de matemáticas",
+    "stem": "Para introducir fracciones equivalentes en primaria, la secuencia más sólida es:",
+    "options": [
+      "Definición formal → ejercicios abstractos → concreto",
+      "Material concreto → representación gráfica → simbolización",
+      "Solo algoritmos de amplificación",
+      "Memorizar tablas sin sentido"
+    ],
+    "correctIndex": 1,
+    "correct": "Material concreto → representación gráfica → simbolización",
+    "explanation": "La trayectoria concreto → pictórico → simbólico favorece comprensión conceptual antes del algoritmo."
+  },
+  {
+    "file": "lib/data/specialty_questions.dart",
+    "id": "esp-mat-02",
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento proporcional",
+    "stem": "Si 3/5 de un grupo de 40 estudiantes domina un indicador, ¿cuántos aún no lo dominan?",
+    "options": [
+      "8",
+      "16",
+      "24",
+      "32"
+    ],
+    "correctIndex": 1,
+    "correct": "16",
+    "explanation": "Dominan (3/5)×40 = 24. No dominan 40 − 24 = 16."
+  }
+]

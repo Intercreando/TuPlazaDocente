@@ -4,16 +4,15 @@ library;
 enum CargoAspiracion {
   docenteAula('Docente de Aula'),
   orientador('Orientador'),
-  directivo('Directivo / Coordinador'),
-  rector('Rector');
+  /// Incluye coordinador, rector y otros cargos de gestión institucional.
+  directivo('Directivo');
 
   const CargoAspiracion(this.label);
   final String label;
 
-  /// Especialidad sugerida al calibrar el plan (rector/directivo → gestión).
+  /// Especialidad sugerida al calibrar el plan (directivo → gestión).
   Especialidad? get especialidadSugerida {
     switch (this) {
-      case CargoAspiracion.rector:
       case CargoAspiracion.directivo:
         return Especialidad.directivos;
       case CargoAspiracion.docenteAula:
@@ -23,8 +22,7 @@ enum CargoAspiracion {
   }
 
   /// Cargos de liderazgo institucional (banco de gestión directiva).
-  bool get esGestionInstitucional =>
-      this == CargoAspiracion.rector || this == CargoAspiracion.directivo;
+  bool get esGestionInstitucional => this == CargoAspiracion.directivo;
 }
 
 enum Especialidad {
