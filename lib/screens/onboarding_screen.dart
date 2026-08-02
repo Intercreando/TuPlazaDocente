@@ -10,8 +10,11 @@ import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
 
 /// Onboarding inteligente: cargo, especialidad y fecha de examen.
+/// Con [editing] = true permite cambiar el perfil tras el primer ingreso.
 class OnboardingScreen extends StatefulWidget {
-  const OnboardingScreen({super.key});
+  const OnboardingScreen({super.key, this.editing = false});
+
+  final bool editing;
 
   @override
   State<OnboardingScreen> createState() => _OnboardingScreenState();
@@ -24,6 +27,25 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   DateTime? _examDate;
   int _step = 0;
   String? _error;
+  bool _saving = false;
+
+  @override
+  void initState() {
+    super.initState();
+    if (!widget.editing) return;
+    // Carga el perfil actual tras montar (Provider disponible).
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      final profile = context.read<AppState>().profile;
+      setState(() {
+        _nameController.text =
+            profile.displayName == 'Aspirante' ? '' : profile.displayName;
+        _cargo = profile.cargo;
+        _especialidad = profile.especialidad;
+        _examDate = profile.examDate;
+      });
+    });
+  }
 
   @override
   void dispose() {
@@ -36,20 +58,47 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       setState(() => _error = 'Selecciona cargo y especialidad para continuar.');
       return;
     }
-    setState(() => _error = null);
+    setState(() {
+      _error = null;
+      _saving = true;
+    });
     final state = context.read<AppState>();
-    await state.completeOnboarding(
-      name: _nameController.text,
-      cargo: _cargo!,
-      especialidad: _especialidad!,
-      examDate: _examDate,
-    );
-    if (!mounted) return;
-    if (startDiagnostic) {
-      state.startSession(mode: SessionMode.diagnostic, count: 20);
-      context.go('/practice');
-    } else {
-      context.go('/app');
+    try {
+      if (widget.editing) {
+        await state.updateAspirationProfile(
+          name: _nameController.text,
+          cargo: _cargo!,
+          especialidad: _especialidad!,
+          examDate: _examDate,
+        );
+      } else {
+        await state.completeOnboarding(
+          name: _nameController.text,
+          cargo: _cargo!,
+          especialidad: _especialidad!,
+          examDate: _examDate,
+        );
+      }
+      if (!mounted) return;
+      if (startDiagnostic && !widget.editing) {
+        state.startSession(mode: SessionMode.diagnostic, count: 20);
+        context.go('/practice');
+      } else {
+        if (widget.editing && mounted) {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Perfil actualizado. El entrenamiento ya usa tu nuevo foco.'),
+            ),
+          );
+        }
+        context.go('/app');
+      }
+    } catch (_) {
+      if (!mounted) return;
+      setState(() {
+        _saving = false;
+        _error = 'No se pudo guardar el perfil. Intenta de nuevo.';
+      });
     }
   }
 
@@ -57,6 +106,11 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
+    final title =
+        widget.editing ? 'Editar tu perfil' : 'Tu ruta personalizada';
+    final subtitle = widget.editing
+        ? 'Cambia cargo, especialidad o fecha de examen cuando quieras.'
+        : 'En 1 minuto calibramos cargo, especialidad y plan diario.';
 
     return Scaffold(
       body: AtmosphericBackground(
@@ -70,14 +124,21 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const BrandMark(compact: true),
-                    const SizedBox(height: 24),
-                    Text('Tu ruta personalizada', style: theme.textTheme.headlineMedium),
-                    const SizedBox(height: 8),
-                    Text(
-                      'En 1 minuto calibramos cargo, especialidad y plan diario.',
-                      style: theme.textTheme.bodyLarge,
+                    Row(
+                      children: [
+                        const Expanded(child: BrandMark(compact: true)),
+                        if (widget.editing)
+                          IconButton(
+                            tooltip: 'Cerrar',
+                            onPressed: _saving ? null : () => context.go('/app'),
+                            icon: const Icon(Icons.close),
+                          ),
+                      ],
                     ),
+                    const SizedBox(height: 24),
+                    Text(title, style: theme.textTheme.headlineMedium),
+                    const SizedBox(height: 8),
+                    Text(subtitle, style: theme.textTheme.bodyLarge),
                     const SizedBox(height: 20),
                     _StepDots(step: _step),
                     const SizedBox(height: 20),
@@ -94,6 +155,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                   final sugerida = v.especialidadSugerida;
                                   if (sugerida != null) {
                                     _especialidad = sugerida;
+                                  } else if (_especialidad ==
+                                      Especialidad.directivos) {
+                                    // Al salir de rector/directivo, pide especialidad de aula.
+                                    _especialidad = null;
                                   }
                                 }),
                               )
@@ -102,7 +167,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     key: const ValueKey('esp'),
                                     cargo: _cargo,
                                     especialidad: _especialidad,
-                                    onSelect: (v) => setState(() => _especialidad = v),
+                                    onSelect: (v) =>
+                                        setState(() => _especialidad = v),
                                   )
                                 : _StepExamDate(
                                     key: const ValueKey('date'),
@@ -112,8 +178,10 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                       final picked = await showDatePicker(
                                         context: context,
                                         firstDate: now,
-                                        lastDate: now.add(const Duration(days: 800)),
-                                        initialDate: _examDate ?? now.add(const Duration(days: 90)),
+                                        lastDate:
+                                            now.add(const Duration(days: 800)),
+                                        initialDate: _examDate ??
+                                            now.add(const Duration(days: 90)),
                                       );
                                       if (picked != null) {
                                         setState(() => _examDate = picked);
@@ -125,7 +193,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                     if (_error != null) ...[
                       Text(
                         _error!,
-                        style: theme.textTheme.bodyMedium?.copyWith(color: AppColors.danger),
+                        style: theme.textTheme.bodyMedium
+                            ?.copyWith(color: AppColors.danger),
                       ),
                       const SizedBox(height: 8),
                     ],
@@ -133,36 +202,55 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       children: [
                         if (_step > 0)
                           OutlinedButton(
-                            onPressed: () => setState(() => _step -= 1),
+                            onPressed:
+                                _saving ? null : () => setState(() => _step -= 1),
                             child: const Text('Atrás'),
                           ),
                         const Spacer(),
                         if (_step < 2)
                           FilledButton(
-                            onPressed: () {
-                              if (_step == 0 && _cargo == null) {
-                                setState(() => _error = 'Elige el cargo al que aspiras.');
-                                return;
-                              }
-                              if (_step == 1 && _especialidad == null) {
-                                setState(() => _error = 'Elige tu especialidad o nivel.');
-                                return;
-                              }
-                              setState(() {
-                                _error = null;
-                                _step += 1;
-                              });
-                            },
+                            onPressed: _saving
+                                ? null
+                                : () {
+                                    if (_step == 0 && _cargo == null) {
+                                      setState(
+                                        () => _error =
+                                            'Elige el cargo al que aspiras.',
+                                      );
+                                      return;
+                                    }
+                                    if (_step == 1 && _especialidad == null) {
+                                      setState(
+                                        () => _error =
+                                            'Elige tu especialidad o nivel.',
+                                      );
+                                      return;
+                                    }
+                                    setState(() {
+                                      _error = null;
+                                      _step += 1;
+                                    });
+                                  },
                             child: const Text('Continuar'),
+                          )
+                        else if (widget.editing)
+                          FilledButton(
+                            onPressed:
+                                _saving ? null : () => _finish(startDiagnostic: false),
+                            child: Text(_saving ? 'Guardando…' : 'Guardar cambios'),
                           )
                         else ...[
                           TextButton(
-                            onPressed: () => _finish(startDiagnostic: false),
+                            onPressed: _saving
+                                ? null
+                                : () => _finish(startDiagnostic: false),
                             child: const Text('Ir al inicio'),
                           ),
                           const SizedBox(width: 8),
                           FilledButton(
-                            onPressed: () => _finish(startDiagnostic: true),
+                            onPressed: _saving
+                                ? null
+                                : () => _finish(startDiagnostic: true),
                             child: const Text('Diagnóstico inicial'),
                           ),
                         ],

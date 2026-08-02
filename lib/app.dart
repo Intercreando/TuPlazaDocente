@@ -6,7 +6,9 @@ import 'router/app_router.dart';
 import 'services/pwa_install_service.dart';
 import 'services/tts_service.dart';
 import 'state/app_state.dart';
+import 'theme/app_colors.dart';
 import 'theme/app_theme.dart';
+import 'widgets/brand_logo.dart';
 
 /// Raíz de la aplicación TuPlazaDocente.
 class TuPlazaDocenteApp extends StatefulWidget {
@@ -56,8 +58,26 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
               debugShowCheckedModeBanner: false,
               theme: AppTheme.light(),
               darkTheme: AppTheme.dark(),
-              home: const Scaffold(
-                body: Center(child: CircularProgressIndicator()),
+              home: Scaffold(
+                backgroundColor: AppColors.parchment,
+                body: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const BrandLogo(size: 96),
+                      const SizedBox(height: 16),
+                      Text(
+                        'TuPlazaDocente',
+                        style: AppTheme.light().textTheme.headlineSmall,
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        'Cargando...',
+                        style: AppTheme.light().textTheme.bodySmall,
+                      ),
+                    ],
+                  ),
+                ),
               ),
             );
           }

@@ -69,6 +69,15 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: 4),
                   Text(state.authEmail!, style: theme.textTheme.bodySmall),
                 ],
+                const SizedBox(height: 10),
+                Align(
+                  alignment: Alignment.centerLeft,
+                  child: OutlinedButton.icon(
+                    onPressed: () => context.push('/onboarding?edit=1'),
+                    icon: const Icon(Icons.edit_outlined),
+                    label: const Text('Cambiar cargo o especialidad'),
+                  ),
+                ),
                 const SizedBox(height: 18),
                 _StreakCard(
                   streak: profile.streakDays,

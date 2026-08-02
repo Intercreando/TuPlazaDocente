@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
 import '../theme/app_colors.dart';
+import 'brand_logo.dart';
 
-/// Marca hero-level de TuPlazaDocente.
+/// Marca hero-level de TuPlazaDocente (logo SVG + wordmark tipográfico).
 class BrandMark extends StatelessWidget {
   const BrandMark({
     super.key,
@@ -21,46 +22,41 @@ class BrandMark extends StatelessWidget {
     final subtitleColor = light
         ? AppColors.white.withValues(alpha: 0.82)
         : theme.colorScheme.onSurfaceVariant;
+    final markSize = compact ? 40.0 : 52.0;
 
     return Row(
       mainAxisSize: MainAxisSize.min,
       children: [
-        Container(
-          width: compact ? 40 : 52,
-          height: compact ? 40 : 52,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(compact ? 12 : 16),
-            gradient: const LinearGradient(
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-              colors: [AppColors.ink, AppColors.canopy],
-            ),
-          ),
-          child: Center(
-            child: Text(
-              'TP',
-              style: theme.textTheme.titleMedium?.copyWith(
-                color: AppColors.gold,
-              ),
-            ),
-          ),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(compact ? 12 : 16),
+          child: BrandLogo(size: markSize),
         ),
         SizedBox(width: compact ? 10 : 14),
-        Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            Text(
-              'TuPlazaDocente',
-              style: (compact ? theme.textTheme.titleMedium : theme.textTheme.headlineSmall)
-                  ?.copyWith(color: titleColor),
-            ),
-            if (!compact)
+        Flexible(
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            mainAxisSize: MainAxisSize.min,
+            children: [
               Text(
-                'Entrenador del concurso magisterio',
-                style: theme.textTheme.bodySmall?.copyWith(color: subtitleColor),
+                'TuPlazaDocente',
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
+                style: (compact
+                        ? theme.textTheme.titleMedium
+                        : theme.textTheme.headlineSmall)
+                    ?.copyWith(color: titleColor),
               ),
-          ],
+              if (!compact)
+                Text(
+                  'Entrenador del concurso magisterio',
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: theme.textTheme.bodySmall?.copyWith(
+                    color: subtitleColor,
+                  ),
+                ),
+            ],
+          ),
         ),
       ],
     ).animate().fadeIn(duration: 500.ms).slideY(begin: 0.08, end: 0);

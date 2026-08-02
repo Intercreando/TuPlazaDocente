@@ -43,3 +43,7 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+
+# Tools locales
+tools/logo/node_modules/
+tools/logo/package-lock.json

@@ -43,7 +43,10 @@ GoRouter createAppRouter(AppState appState) {
         return '/';
       }
 
-      if (onboarded && (loc == '/' || loc == '/onboarding')) {
+      final editingProfile = loc == '/onboarding' &&
+          state.uri.queryParameters['edit'] == '1';
+      if (onboarded && loc == '/') return '/app';
+      if (onboarded && loc == '/onboarding' && !editingProfile) {
         return '/app';
       }
       return null;
@@ -59,7 +62,10 @@ GoRouter createAppRouter(AppState appState) {
       ),
       GoRoute(
         path: '/onboarding',
-        builder: (context, state) => const OnboardingScreen(),
+        builder: (context, state) {
+          final editing = state.uri.queryParameters['edit'] == '1';
+          return OnboardingScreen(editing: editing);
+        },
       ),
       GoRoute(
         path: '/practice',

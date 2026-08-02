@@ -8,9 +8,11 @@ import 'package:provider/provider.dart';
 import '../services/pwa_install_service.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/brand_logo.dart';
 import '../widgets/brand_mark.dart';
+import '../widgets/landing_credibility_sections.dart';
 
-/// Primera vista: marca hero + CTA + instalar PWA.
+/// Primera vista: marca hero + CTA + instalar PWA + secciones de confianza.
 class LandingScreen extends StatelessWidget {
   const LandingScreen({super.key});
 
@@ -39,10 +41,14 @@ class LandingScreen extends StatelessWidget {
                     maxWidth: 1100,
                   ),
                   child: Center(
-                    child: isWide
-                        ? SizedBox(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        if (isWide)
+                          SizedBox(
                             height: math.max(560.0, constraints.maxHeight - 36),
                             child: Row(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 Expanded(child: _HeroCopy(pwa: pwa)),
                                 const SizedBox(width: 36),
@@ -50,19 +56,16 @@ class LandingScreen extends StatelessWidget {
                               ],
                             ),
                           )
-                        : Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              const BrandMark(),
-                              const SizedBox(height: 28),
-                              _HeroCopy(pwa: pwa, showBrand: false),
-                              const SizedBox(height: 28),
-                              SizedBox(
-                                height: 360,
-                                child: _HeroVisual(theme: theme),
-                              ),
-                            ],
-                          ),
+                        else ...[
+                          const BrandMark(),
+                          const SizedBox(height: 28),
+                          _HeroCopy(pwa: pwa, showBrand: false),
+                          const SizedBox(height: 28),
+                          _HeroVisual(theme: theme, compact: true),
+                        ],
+                        const LandingCredibilitySections(),
+                      ],
+                    ),
                   ),
                 ),
               );
@@ -73,7 +76,6 @@ class LandingScreen extends StatelessWidget {
     );
   }
 }
-
 class _HeroCopy extends StatelessWidget {
   const _HeroCopy({required this.pwa, this.showBrand = true});
 
@@ -122,35 +124,26 @@ class _HeroCopy extends StatelessWidget {
               child: const Text('Continuar como invitado'),
             ),
             OutlinedButton.icon(
-              onPressed: pwa.canInstall
-                  ? () async {
-                      final ok = await pwa.promptInstall();
-                      if (!context.mounted) return;
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            ok
-                                ? 'Instalación iniciada. Busca el icono en tu inicio.'
-                                : pwa.iosHintVisible
-                                    ? 'En iPhone: Compartir → Añadir a pantalla de inicio.'
-                                    : 'Si no aparece el diálogo, usa el menú del navegador → Instalar app.',
-                          ),
-                        ),
-                      );
-                    }
-                  : () {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: Text(
-                            pwa.isStandalone
-                                ? 'Ya estás en modo app instalada.'
-                                : pwa.iosHintVisible
-                                    ? 'En iPhone: Compartir → Añadir a pantalla de inicio.'
-                                    : 'Abre el menú del navegador y elige “Instalar app” o “Instalar en el inicio”.',
-                          ),
-                        ),
-                      );
-                    },
+              onPressed: () async {
+                if (pwa.canInstall) {
+                  final ok = await pwa.promptInstall();
+                  if (!context.mounted) return;
+                  ScaffoldMessenger.of(context).showSnackBar(
+                    SnackBar(
+                      content: Text(
+                        ok
+                            ? 'Confirma en el diálogo del sistema. Luego busca el icono en tu inicio.'
+                            : pwa.fallbackInstallMessage,
+                      ),
+                    ),
+                  );
+                  return;
+                }
+                if (!context.mounted) return;
+                ScaffoldMessenger.of(context).showSnackBar(
+                  SnackBar(content: Text(pwa.fallbackInstallMessage)),
+                );
+              },
               icon: const Icon(Icons.download_for_offline_outlined),
               label: const Text('Instalar en el inicio'),
             ),
@@ -167,16 +160,21 @@ class _HeroCopy extends StatelessWidget {
 }
 
 class _HeroVisual extends StatelessWidget {
-  const _HeroVisual({required this.theme});
+  const _HeroVisual({required this.theme, this.compact = false});
 
   final ThemeData theme;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
+    final pad = compact ? 18.0 : 28.0;
+    final markSize = compact ? 48.0 : 64.0;
+    final watermark = compact ? 140.0 : 240.0;
+
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(28),
+        borderRadius: BorderRadius.circular(compact ? 22 : 28),
         gradient: const LinearGradient(
           begin: Alignment.topLeft,
           end: Alignment.bottomRight,
@@ -187,38 +185,52 @@ class _HeroVisual extends StatelessWidget {
       child: Stack(
         children: [
           Positioned(
-            right: -30,
-            bottom: -20,
-            child: Icon(
-              Icons.school_rounded,
-              size: 220,
-              color: AppColors.white.withValues(alpha: 0.06),
+            right: compact ? -24 : -10,
+            bottom: compact ? -28 : -10,
+            child: Opacity(
+              opacity: 0.12,
+              child: BrandLogo(size: watermark),
             ),
           ),
           Padding(
-            padding: const EdgeInsets.all(28),
+            padding: EdgeInsets.all(pad),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
+              mainAxisSize: compact ? MainAxisSize.min : MainAxisSize.max,
               children: [
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(compact ? 14 : 18),
+                  child: BrandLogo(size: markSize),
+                ),
+                SizedBox(height: compact ? 10 : 14),
                 Text(
                   'TuPlazaDocente',
-                  style: theme.textTheme.headlineMedium?.copyWith(
-                    color: AppColors.gold,
-                  ),
+                  style: (compact
+                          ? theme.textTheme.titleLarge
+                          : theme.textTheme.headlineMedium)
+                      ?.copyWith(color: AppColors.gold),
                 ),
-                const SizedBox(height: 8),
+                const SizedBox(height: 6),
                 Text(
-                  'Sesiones de 10–15 minutos.\nExplicaciones que enseñan el criterio del ítem.',
-                  style: theme.textTheme.titleMedium?.copyWith(
+                  compact
+                      ? 'Sesiones de 10–15 min con explicaciones del criterio del ítem.'
+                      : 'Sesiones de 10–15 minutos.\nExplicaciones que enseñan el criterio del ítem.',
+                  style: (compact
+                          ? theme.textTheme.bodyMedium
+                          : theme.textTheme.titleMedium)
+                      ?.copyWith(
                     color: AppColors.white.withValues(alpha: 0.92),
                   ),
                 ),
-                const Spacer(),
-                _MetricChip(label: 'Racha', value: 'Día 1'),
-                const SizedBox(height: 10),
-                _MetricChip(label: 'Foco hoy', value: 'Evaluación formativa'),
-                const SizedBox(height: 10),
-                _MetricChip(label: 'Modo', value: 'Práctica táctica'),
+                if (compact)
+                  const SizedBox(height: 16)
+                else
+                  const Spacer(),
+                const _MetricChip(label: 'Racha', value: 'Día 1'),
+                const SizedBox(height: 8),
+                const _MetricChip(label: 'Foco hoy', value: 'Evaluación formativa'),
+                const SizedBox(height: 8),
+                const _MetricChip(label: 'Modo', value: 'Práctica táctica'),
               ],
             ),
           ),
@@ -242,7 +254,7 @@ class _MetricChip extends StatelessWidget {
     final theme = Theme.of(context);
     return Container(
       width: double.infinity,
-      padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 10),
       decoration: BoxDecoration(
         color: AppColors.white.withValues(alpha: 0.08),
         borderRadius: BorderRadius.circular(14),
@@ -256,10 +268,17 @@ class _MetricChip extends StatelessWidget {
               color: AppColors.white.withValues(alpha: 0.7),
             ),
           ),
-          const Spacer(),
-          Text(
-            value,
-            style: theme.textTheme.titleSmall?.copyWith(color: AppColors.white),
+          const SizedBox(width: 10),
+          Expanded(
+            child: Text(
+              value,
+              textAlign: TextAlign.end,
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
+              style: theme.textTheme.titleSmall?.copyWith(
+                color: AppColors.white,
+              ),
+            ),
           ),
         ],
       ),

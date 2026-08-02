@@ -110,20 +110,23 @@ class FirebaseSyncService {
 
   Future<bool> signInWithGoogle() async {
     try {
-      final provider = GoogleAuthProvider()
-        ..addScope('email')
-        ..setCustomParameters({'prompt': 'select_account'});
+      final provider = GoogleAuthProvider()..addScope('email');
+      // Solo pedimos selector en el primer intento (cuenta cerrada / cambiar cuenta).
+      provider.setCustomParameters({'prompt': 'select_account'});
 
       final current = _auth.currentUser;
-      UserCredential cred;
+      late UserCredential cred;
+
       if (kIsWeb) {
         if (current != null && current.isAnonymous) {
           try {
+            // Nuevo Google: conserva el UID anónimo y su progreso en Firestore.
             cred = await current.linkWithPopup(provider);
           } on FirebaseAuthException catch (e) {
-            if (e.code == 'credential-already-in-use' ||
-                e.code == 'email-already-in-use') {
-              cred = await _auth.signInWithPopup(provider);
+            if (_isExistingGoogleAccountConflict(e)) {
+              // Cuenta Google ya registrada: NO abrir otro selector.
+              // Reutiliza la credencial del primer popup (o un popup silencioso).
+              cred = await _signInExistingGoogleWithoutReprompt(e);
             } else {
               rethrow;
             }
@@ -148,6 +151,31 @@ class FirebaseSyncService {
       debugPrint('signInWithGoogle: $e');
       return false;
     }
+  }
+
+  bool _isExistingGoogleAccountConflict(FirebaseAuthException e) {
+    return e.code == 'credential-already-in-use' ||
+        e.code == 'email-already-in-use' ||
+        e.code == 'account-exists-with-different-credential';
+  }
+
+  /// Tras un link fallido porque la cuenta ya existe: entra sin volver a listar cuentas.
+  Future<UserCredential> _signInExistingGoogleWithoutReprompt(
+    FirebaseAuthException linkError,
+  ) async {
+    final pending = linkError.credential;
+    if (pending != null) {
+      try {
+        return await _auth.signInWithCredential(pending);
+      } catch (e) {
+        debugPrint('signInWithCredential tras link: $e');
+      }
+    }
+
+    // Fallback: el navegador ya tiene la sesión Google del primer intento.
+    // Sin prompt=select_account suele completar solo, sin segunda lista.
+    final silent = GoogleAuthProvider()..addScope('email');
+    return _auth.signInWithPopup(silent);
   }
 
   Future<bool> signOutToAnonymous() async {

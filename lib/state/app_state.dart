@@ -221,6 +221,24 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  /// Actualiza cargo/especialidad/nombre/fecha sin reiniciar el progreso.
+  Future<void> updateAspirationProfile({
+    required String name,
+    required CargoAspiracion cargo,
+    required Especialidad especialidad,
+    DateTime? examDate,
+  }) async {
+    profile = profile.copyWith(
+      displayName: name.trim().isEmpty ? profile.displayName : name.trim(),
+      cargo: cargo,
+      especialidad: especialidad,
+      examDate: examDate ?? profile.examDate,
+      onboardingComplete: true,
+    );
+    await _persist();
+    notifyListeners();
+  }
+
   Future<void> updateExamDate(DateTime date) async {
     profile = profile.copyWith(examDate: date);
     await _persist();

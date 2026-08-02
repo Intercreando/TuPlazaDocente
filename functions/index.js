@@ -18,7 +18,7 @@ initializeApp();
 const mpAccessToken = defineSecret("MP_ACCESS_TOKEN");
 
 const PREMIUM_PRICE_COP = 89900;
-const APP_URL = "https://tuplazadocente.com";
+const APP_URL = "https://www.tuplazadocente.com";
 const TTS_VOICE = "es-CO-SalomeNeural";
 const TTS_MAX_CHARS = 1800;
 const VALID_PREMIUM_CODES = new Set([

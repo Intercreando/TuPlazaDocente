@@ -2,7 +2,7 @@
 
 PWA (Progressive Web App) para entrenar el **Concurso Docente del Magisterio** (CNSC/ICFES): microlearning, feedback pedagógico, radar de competencias, racha diaria y simulacro con mapa de calor de tiempo.
 
-Dominio: [TuPlazaDocente.com](https://tuplazadocente.com)
+Dominio: [www.tuplazadocente.com](https://www.tuplazadocente.com)
 
 ## Stack
 
@@ -45,10 +45,11 @@ firebase deploy --only hosting
    - **Anonymous**
    - **Email/Password**
    - **Google** (con tu OAuth client web)
-2. En Authentication → Settings → Authorized domains: `tuplazadocente.com` y `tuplazadocente-9334d.web.app`
+2. En Authentication → Settings → Authorized domains: `www.tuplazadocente.com`, `tuplazadocente.com` y `tuplazadocente-9334d.web.app`
 3. En Google Cloud → APIs y servicios → Credenciales → Cliente OAuth **Web**, añade URI de redirección:
-   `https://tuplazadocente.com/__/auth/handler`
-4. En el cliente, `authDomain` debe ser `tuplazadocente.com` (ver `lib/firebase_options.dart`)
+   `https://www.tuplazadocente.com/__/auth/handler`
+4. En el cliente, `authDomain` debe ser `www.tuplazadocente.com` (ver `lib/firebase_options.dart`)
+5. En Hosting → Dominios personalizados: añade `www.tuplazadocente.com` como principal y redirige `tuplazadocente.com` → `www`
 3. Firestore en `southamerica-east1` con rules de `users/{uid}`
 4. Deploy:
 
