@@ -100,8 +100,39 @@
         return Promise.all(jobs);
       }
 
-      // Solo limpia SW/caché cuando hay un build nuevo (actualizaciones).
-      // Si se limpia en cada visita, Chrome nunca ofrece "Instalar app".
+      function registerInstallSw() {
+        if (!('serviceWorker' in navigator)) return;
+        navigator.serviceWorker.register('/sw.js').catch(function () {});
+      }
+
+      // Elimina el SW agresivo de Flutter (flutter_service_worker.js) que deja
+      // builds viejos cacheados y la PWA se queda en "Cargando...".
+      function purgeStaleFlutterWorker() {
+        if (!('serviceWorker' in navigator)) return Promise.resolve(false);
+        return navigator.serviceWorker.getRegistrations().then(function (regs) {
+          var killed = false;
+          return Promise.all(regs.map(function (reg) {
+            var url = (reg.active && reg.active.scriptURL) ||
+              (reg.waiting && reg.waiting.scriptURL) ||
+              (reg.installing && reg.installing.scriptURL) || '';
+            if (url.indexOf('flutter_service_worker.js') !== -1) {
+              killed = true;
+              return reg.unregister();
+            }
+            return Promise.resolve();
+          })).then(function () { return killed; });
+        }).catch(function () { return false; });
+      }
+
+      purgeStaleFlutterWorker().then(function (killed) {
+        if (killed && window.caches && caches.keys) {
+          return caches.keys().then(function (keys) {
+            return Promise.all(keys.map(function (key) { return caches.delete(key); }));
+          }).then(function () { location.reload(); });
+        }
+      });
+
+      // Limpia SW/caché cuando hay un build nuevo (actualizaciones).
       fetch('/version.json?t=' + Date.now(), { cache: 'no-store' })
         .then(function (r) { return r.json(); })
         .then(function (info) {
@@ -114,15 +145,10 @@
             });
           }
           localStorage.setItem(BUILD_KEY, id);
-          // SW con fetch handler: necesario para el diálogo nativo en Chrome Android.
-          if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js').catch(function () {});
-          }
+          registerInstallSw();
         })
         .catch(function () {
-          if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js').catch(function () {});
-          }
+          registerInstallSw();
         });
 
       function hideBoot() {
@@ -130,16 +156,16 @@
         if (boot) boot.remove();
       }
 
-      // Mantener logo propio hasta el primer frame de Flutter
-      // (evitar flash del indicador/logo genérico del engine).
       window.addEventListener('flutter-first-frame', function () {
         hideBoot();
       });
-      setTimeout(hideBoot, 12000);
+      // Si el engine tarda o falla en silencio, no dejar la pantalla congelada.
+      setTimeout(hideBoot, 8000);
 
       window.addEventListener('error', function (e) {
         var sub = document.getElementById('bootSub');
         if (sub) sub.textContent = 'Error: ' + (e.message || 'carga');
+        hideBoot();
       });
       window.addEventListener('unhandledrejection', function (e) {
         var sub = document.getElementById('bootSub');

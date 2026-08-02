@@ -1,5 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 
 import '../models/user_profile.dart';
@@ -9,31 +10,51 @@ class FirebaseSyncService {
   FirebaseSyncService({
     FirebaseAuth? auth,
     FirebaseFirestore? firestore,
-  })  : _auth = auth ?? FirebaseAuth.instance,
-        _db = firestore ?? FirebaseFirestore.instance;
+  })  : _authOverride = auth,
+        _dbOverride = firestore;
 
-  final FirebaseAuth _auth;
-  final FirebaseFirestore _db;
+  final FirebaseAuth? _authOverride;
+  final FirebaseFirestore? _dbOverride;
 
   bool available = false;
   String? uid;
   String? lastError;
 
-  User? get currentUser => _auth.currentUser;
+  bool get _firebaseReady => Firebase.apps.isNotEmpty;
+
+  FirebaseAuth? get _auth {
+    if (_authOverride != null) return _authOverride;
+    if (!_firebaseReady) return null;
+    return FirebaseAuth.instance;
+  }
+
+  FirebaseFirestore? get _db {
+    if (_dbOverride != null) return _dbOverride;
+    if (!_firebaseReady) return null;
+    return FirebaseFirestore.instance;
+  }
+
+  User? get currentUser => _auth?.currentUser;
   bool get isAnonymous => currentUser?.isAnonymous ?? true;
   String? get email => currentUser?.email;
   String? get displayName => currentUser?.displayName;
 
   Future<void> ensureSignedIn() async {
+    final auth = _auth;
+    if (auth == null) {
+      available = false;
+      lastError = 'Modo local: Firebase no está disponible en este momento.';
+      return;
+    }
     try {
-      final current = _auth.currentUser;
+      final current = auth.currentUser;
       if (current != null) {
         uid = current.uid;
         available = true;
         lastError = null;
         return;
       }
-      final cred = await _auth.signInAnonymously().timeout(
+      final cred = await auth.signInAnonymously().timeout(
         const Duration(seconds: 6),
       );
       uid = cred.user?.uid;
@@ -52,8 +73,13 @@ class FirebaseSyncService {
     required String email,
     required String password,
   }) async {
+    final auth = _auth;
+    if (auth == null) {
+      lastError = 'Firebase no está disponible. Recarga e intenta de nuevo.';
+      return false;
+    }
     try {
-      final cred = await _auth.signInWithEmailAndPassword(
+      final cred = await auth.signInWithEmailAndPassword(
         email: email.trim(),
         password: password,
       );
@@ -75,8 +101,13 @@ class FirebaseSyncService {
     required String email,
     required String password,
   }) async {
+    final auth = _auth;
+    if (auth == null) {
+      lastError = 'Firebase no está disponible. Recarga e intenta de nuevo.';
+      return false;
+    }
     try {
-      final current = _auth.currentUser;
+      final current = auth.currentUser;
       if (current != null && current.isAnonymous) {
         final credential = EmailAuthProvider.credential(
           email: email.trim(),
@@ -85,7 +116,7 @@ class FirebaseSyncService {
         final linked = await current.linkWithCredential(credential);
         uid = linked.user?.uid;
       } else {
-        final cred = await _auth.createUserWithEmailAndPassword(
+        final cred = await auth.createUserWithEmailAndPassword(
           email: email.trim(),
           password: password,
         );
@@ -95,7 +126,6 @@ class FirebaseSyncService {
       lastError = null;
       return true;
     } on FirebaseAuthException catch (e) {
-      // Si el email ya existe, intenta login directo.
       if (e.code == 'email-already-in-use') {
         return signInWithEmail(email: email, password: password);
       }
@@ -109,33 +139,34 @@ class FirebaseSyncService {
   }
 
   Future<bool> signInWithGoogle() async {
+    final auth = _auth;
+    if (auth == null) {
+      lastError = 'Firebase no está disponible. Recarga e intenta de nuevo.';
+      return false;
+    }
     try {
       final provider = GoogleAuthProvider()..addScope('email');
-      // Solo pedimos selector en el primer intento (cuenta cerrada / cambiar cuenta).
       provider.setCustomParameters({'prompt': 'select_account'});
 
-      final current = _auth.currentUser;
+      final current = auth.currentUser;
       late UserCredential cred;
 
       if (kIsWeb) {
         if (current != null && current.isAnonymous) {
           try {
-            // Nuevo Google: conserva el UID anónimo y su progreso en Firestore.
             cred = await current.linkWithPopup(provider);
           } on FirebaseAuthException catch (e) {
             if (_isExistingGoogleAccountConflict(e)) {
-              // Cuenta Google ya registrada: NO abrir otro selector.
-              // Reutiliza la credencial del primer popup (o un popup silencioso).
-              cred = await _signInExistingGoogleWithoutReprompt(e);
+              cred = await _signInExistingGoogleWithoutReprompt(auth, e);
             } else {
               rethrow;
             }
           }
         } else {
-          cred = await _auth.signInWithPopup(provider);
+          cred = await auth.signInWithPopup(provider);
         }
       } else {
-        cred = await _auth.signInWithProvider(provider);
+        cred = await auth.signInWithProvider(provider);
       }
 
       uid = cred.user?.uid;
@@ -159,29 +190,32 @@ class FirebaseSyncService {
         e.code == 'account-exists-with-different-credential';
   }
 
-  /// Tras un link fallido porque la cuenta ya existe: entra sin volver a listar cuentas.
   Future<UserCredential> _signInExistingGoogleWithoutReprompt(
+    FirebaseAuth auth,
     FirebaseAuthException linkError,
   ) async {
     final pending = linkError.credential;
     if (pending != null) {
       try {
-        return await _auth.signInWithCredential(pending);
+        return await auth.signInWithCredential(pending);
       } catch (e) {
         debugPrint('signInWithCredential tras link: $e');
       }
     }
 
-    // Fallback: el navegador ya tiene la sesión Google del primer intento.
-    // Sin prompt=select_account suele completar solo, sin segunda lista.
     final silent = GoogleAuthProvider()..addScope('email');
-    return _auth.signInWithPopup(silent);
+    return auth.signInWithPopup(silent);
   }
 
   Future<bool> signOutToAnonymous() async {
+    final auth = _auth;
+    if (auth == null) {
+      lastError = 'Firebase no está disponible.';
+      return false;
+    }
     try {
       lastError = null;
-      await _auth.signOut();
+      await auth.signOut();
       uid = null;
       available = false;
       await ensureSignedIn();
@@ -198,9 +232,10 @@ class FirebaseSyncService {
   }
 
   Future<UserProfile?> loadRemoteProfile() async {
-    if (!available || uid == null) return null;
+    final db = _db;
+    if (!available || uid == null || db == null) return null;
     try {
-      final snap = await _db.collection('users').doc(uid).get();
+      final snap = await db.collection('users').doc(uid).get();
       if (!snap.exists || snap.data() == null) return null;
       return UserProfile.fromJson(snap.data()!);
     } catch (e) {
@@ -211,12 +246,12 @@ class FirebaseSyncService {
   }
 
   Future<void> saveRemoteProfile(UserProfile profile) async {
-    if (!available || uid == null) return;
+    final db = _db;
+    if (!available || uid == null || db == null) return;
     try {
-      // isPremium solo lo escribe el backend (Mercado Pago / códigos).
       final data = Map<String, dynamic>.from(profile.toJson())
         ..remove('isPremium');
-      await _db.collection('users').doc(uid).set(
+      await db.collection('users').doc(uid).set(
         {
           ...data,
           'email': email,

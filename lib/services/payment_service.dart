@@ -1,13 +1,23 @@
 import 'package:cloud_functions/cloud_functions.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 
 /// Cliente de checkout Premium vía Cloud Function + Mercado Pago.
 class PaymentService {
-  PaymentService({FirebaseFunctions? functions})
-      : _functions = functions ??
-            FirebaseFunctions.instanceFor(region: 'southamerica-east1');
+  PaymentService({FirebaseFunctions? functions}) : _functionsOverride = functions;
 
-  final FirebaseFunctions _functions;
+  final FirebaseFunctions? _functionsOverride;
+
+  FirebaseFunctions get _functions {
+    final override = _functionsOverride;
+    if (override != null) return override;
+    if (Firebase.apps.isEmpty) {
+      throw Exception(
+        'Firebase no está disponible. Recarga la página e intenta de nuevo.',
+      );
+    }
+    return FirebaseFunctions.instanceFor(region: 'southamerica-east1');
+  }
 
   /// Crea preferencia y devuelve URL de pago (init_point).
   Future<String> createCheckoutUrl() async {

@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 
@@ -11,13 +12,19 @@ import '../models/question.dart';
 /// Carga el banco: Firestore → asset seed → bundle local.
 class QuestionRepository {
   QuestionRepository({FirebaseFirestore? firestore})
-      : _db = firestore ?? FirebaseFirestore.instance;
+      : _firestoreOverride = firestore;
 
-  final FirebaseFirestore _db;
+  final FirebaseFirestore? _firestoreOverride;
 
   int cloudCount = 0;
   int assetCount = 0;
   String source = 'local';
+
+  FirebaseFirestore? get _db {
+    if (_firestoreOverride != null) return _firestoreOverride;
+    if (Firebase.apps.isEmpty) return null;
+    return FirebaseFirestore.instance;
+  }
 
   Future<void> loadIntoBank() async {
     try {
@@ -51,8 +58,10 @@ class QuestionRepository {
   }
 
   Future<List<Question>> _loadCloud() async {
-    // Límite amplio: el seed supera 500 y truncar deja claves viejas/incompletas.
-    final snap = await _db
+    final db = _db;
+    if (db == null) return const [];
+
+    final snap = await db
         .collection('questions')
         .where('published', isEqualTo: true)
         .limit(2000)
