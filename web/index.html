@@ -4,39 +4,32 @@
   <base href="$FLUTTER_BASE_HREF">
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="TuPlazaDocente: entrenador táctico del Concurso Docente CNSC/ICFES. Microlearning, radar de competencias y simulacros con control de tiempo.">
+  <meta name="description" content="TuPlazaDocente: entrenador táctico del Concurso Docente CNSC/ICFES.">
   <meta name="theme-color" content="#0C2F2B">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="apple-mobile-web-app-title" content="TuPlazaDocente">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
   <link rel="icon" type="image/png" href="favicon.png"/>
   <title>TuPlazaDocente</title>
   <link rel="manifest" href="manifest.json">
-
   <style>
     html, body {
       height: 100%;
       margin: 0;
-      background:
-        radial-gradient(circle at 20% 10%, #3FAE9640, transparent 40%),
-        radial-gradient(circle at 90% 80%, #E3A00830, transparent 35%),
-        #F5F8F6;
-      font-family: "Segoe UI", system-ui, sans-serif;
+      background: #F5F8F6;
+      font-family: system-ui, sans-serif;
       color: #12201E;
     }
-    .boot {
+    #boot {
       min-height: 100%;
       display: grid;
       place-items: center;
       text-align: center;
       padding: 24px;
     }
-    .mark {
+    #boot .mark {
       width: 64px;
       height: 64px;
       border-radius: 18px;
@@ -46,101 +39,52 @@
       background: linear-gradient(135deg, #0C2F2B, #1F6B5C);
       color: #E3A008;
       font-weight: 700;
-      letter-spacing: 0.5px;
     }
-    .title {
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin: 0 0 6px;
-    }
-    .sub {
-      margin: 0;
-      opacity: 0.75;
-      font-size: 0.95rem;
-    }
-    .hint {
-      margin: 14px 0 0;
-      opacity: 0.7;
-      font-size: 0.85rem;
-      max-width: 28rem;
-      line-height: 1.4;
-    }
-    .actions {
-      margin-top: 16px;
-      display: none;
-      gap: 8px;
-      justify-content: center;
-      flex-wrap: wrap;
-    }
-    .actions.show { display: flex; }
-    .actions button {
-      border: 0;
-      border-radius: 999px;
-      padding: 10px 16px;
-      background: #0C2F2B;
-      color: #F5F8F6;
-      font-weight: 600;
-    }
+    #boot p { margin: 0 0 8px; }
+    #boot .sub { opacity: 0.75; }
   </style>
 </head>
 <body>
-  <div class="boot" id="boot">
+  <div id="boot">
     <div>
       <div class="mark">TP</div>
-      <p class="title">TuPlazaDocente</p>
-      <p class="sub" id="bootSub">Cargando tu entrenador del concurso…</p>
-      <p class="hint" id="bootHint">En celular puede tardar la primera vez (descarga ~3 MB). Usa Wi‑Fi si puedes.</p>
-      <div class="actions" id="bootActions">
-        <button type="button" id="bootReload">Reintentar</button>
-        <button type="button" id="bootClear">Limpiar caché y reintentar</button>
-      </div>
+      <p><strong>TuPlazaDocente</strong></p>
+      <p class="sub" id="bootSub">Cargando...</p>
     </div>
   </div>
   <script>
     (function () {
-      var sub = document.getElementById('bootSub');
-      var hint = document.getElementById('bootHint');
-      var actions = document.getElementById('bootActions');
-      var reloadBtn = document.getElementById('bootReload');
-      var clearBtn = document.getElementById('bootClear');
+      function hideBoot() {
+        var boot = document.getElementById('boot');
+        if (boot) boot.remove();
+      }
 
-      // Si la app Flutter no arranca a tiempo, ofrecer recuperación (muy útil en móvil).
-      setTimeout(function () {
-        if (!document.getElementById('boot')) return;
-        if (sub) sub.textContent = 'La carga está tardando más de lo normal…';
-        if (hint) {
-          hint.textContent =
-            'Prueba con https://tuplazadocente.com (sin www). Si sigue en blanco, limpia caché del sitio o usa Chrome/Safari actualizado.';
+      // Cuando Flutter monta la vista, quitar el boot.
+      var obs = new MutationObserver(function () {
+        if (
+          document.querySelector('flutter-view') ||
+          document.querySelector('flt-glass-pane') ||
+          document.querySelector('flt-scene')
+        ) {
+          hideBoot();
+          obs.disconnect();
         }
-        if (actions) actions.classList.add('show');
-      }, 12000);
+      });
+      obs.observe(document.documentElement, { childList: true, subtree: true });
 
-      if (reloadBtn) {
-        reloadBtn.addEventListener('click', function () {
-          location.reload();
-        });
-      }
-      if (clearBtn) {
-        clearBtn.addEventListener('click', function () {
-          var done = function () { location.reload(true); };
-          if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.getRegistrations().then(function (regs) {
-              return Promise.all(regs.map(function (r) { return r.unregister(); }));
-            }).then(function () {
-              if (window.caches) {
-                return caches.keys().then(function (keys) {
-                  return Promise.all(keys.map(function (k) { return caches.delete(k); }));
-                });
-              }
-            }).then(done).catch(done);
-          } else {
-            done();
-          }
-        });
-      }
+      // Failsafe: nunca dejar el boot encima más de 10s.
+      setTimeout(hideBoot, 10000);
+
+      window.addEventListener('error', function (e) {
+        var sub = document.getElementById('bootSub');
+        if (sub) sub.textContent = 'Error: ' + (e.message || 'carga');
+      });
+      window.addEventListener('unhandledrejection', function (e) {
+        var sub = document.getElementById('bootSub');
+        if (sub) sub.textContent = 'Error: ' + (e.reason || 'promesa');
+      });
     })();
   </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
-

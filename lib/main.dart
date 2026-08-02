@@ -8,12 +8,13 @@ import 'firebase_options.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
+  // No bloquear la UI si Firebase tarda o cuelga (móvil/PC con red inestable).
   try {
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
-    );
+    ).timeout(const Duration(seconds: 8));
   } catch (e) {
-    debugPrint('Firebase no inicializó: $e');
+    debugPrint('Firebase no inicializó a tiempo: $e');
   }
 
   try {

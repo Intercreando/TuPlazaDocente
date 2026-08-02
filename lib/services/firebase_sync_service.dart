@@ -33,7 +33,9 @@ class FirebaseSyncService {
         lastError = null;
         return;
       }
-      final cred = await _auth.signInAnonymously();
+      final cred = await _auth.signInAnonymously().timeout(
+        const Duration(seconds: 6),
+      );
       uid = cred.user?.uid;
       available = uid != null;
       lastError = null;

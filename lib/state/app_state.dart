@@ -88,7 +88,9 @@ class AppState extends ChangeNotifier {
 
   Future<void> bootstrap() async {
     try {
-      final prefs = await SharedPreferences.getInstance();
+      final prefs = await SharedPreferences.getInstance().timeout(
+        const Duration(seconds: 3),
+      );
       final raw = prefs.getString(_storageKey);
       if (raw != null) {
         profile = UserProfile.fromJson(
@@ -98,29 +100,45 @@ class AppState extends ChangeNotifier {
       }
       monthlyShortExamsUsed = prefs.getInt('monthly_short_exams') ?? 0;
 
-      await _sync.ensureSignedIn();
-      if (_sync.available) {
-        final remote = await _sync.loadRemoteProfile();
-        if (remote != null && remote.totalAnswers >= profile.totalAnswers) {
-          profile = remote;
-          _refreshDailyFlags();
-          await prefs.setString(_storageKey, jsonEncode(profile.toJson()));
-        } else if (profile.onboardingComplete) {
-          await _sync.saveRemoteProfile(profile);
+      // Mostrar UI cuanto antes; la nube/banco no deben dejar la app colgada.
+      ready = true;
+      notifyListeners();
+
+      try {
+        await _sync.ensureSignedIn().timeout(const Duration(seconds: 8));
+        if (_sync.available) {
+          final remote = await _sync
+              .loadRemoteProfile()
+              .timeout(const Duration(seconds: 8));
+          if (remote != null && remote.totalAnswers >= profile.totalAnswers) {
+            profile = remote;
+            _refreshDailyFlags();
+            await prefs.setString(_storageKey, jsonEncode(profile.toJson()));
+          } else if (profile.onboardingComplete) {
+            await _sync.saveRemoteProfile(profile);
+          }
+          syncStatus = _sync.isAnonymous
+              ? 'Sesión invitado (nube). Guarda tu cuenta para no perder progreso.'
+              : 'Cuenta conectada · progreso en la nube';
+        } else {
+          syncStatus = _sync.lastError ??
+              'Modo local: activa Auth anónimo en Firebase para sincronizar.';
         }
-        syncStatus = _sync.isAnonymous
-            ? 'Sesión invitado (nube). Guarda tu cuenta para no perder progreso.'
-            : 'Cuenta conectada · progreso en la nube';
-      } else {
-        syncStatus = _sync.lastError ??
-            'Modo local: activa Auth anónimo en Firebase para sincronizar.';
+      } catch (e) {
+        syncStatus = 'Modo local temporal (nube lenta o no disponible).';
+        debugPrint('bootstrap sync: $e');
       }
 
-      await _questions.loadIntoBank();
-      questionSource = _questions.source;
-      questionCount = QuestionBank.all.length;
+      try {
+        await _questions.loadIntoBank().timeout(const Duration(seconds: 20));
+        questionSource = _questions.source;
+        questionCount = QuestionBank.all.length;
+      } catch (e) {
+        questionSource = 'local';
+        questionCount = QuestionBank.all.length;
+        debugPrint('bootstrap questions: $e');
+      }
 
-      ready = true;
       lastError = null;
       notifyListeners();
       await _maybeRemindStreak();
