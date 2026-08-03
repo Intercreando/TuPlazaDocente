@@ -1,6 +1,6 @@
 {
   "name": "tu-plaza-docente-functions",
-  "description": "Cloud Functions: Mercado Pago + recordatorios de racha",
+  "description": "Cloud Functions: Wompi (pagos) + recordatorios de racha",
   "engines": {
     "node": "22"
   },
@@ -13,7 +13,6 @@
   "dependencies": {
     "firebase-admin": "^13.0.2",
     "firebase-functions": "^6.3.0",
-    "mercadopago": "^2.3.0",
     "msedge-tts": "^2.0.7"
   },
   "private": true

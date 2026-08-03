@@ -1,6 +1,6 @@
 /// Configuración de producto sin secretos embebidos.
 abstract final class AppConfig {
-  /// Precio mostrado (informativo). El cobro real lo define Mercado Pago.
+  /// Precio mostrado (informativo). El cobro real lo define Wompi.
   static const String premiumPriceLabel = r'$89.900 COP';
 
   /// Aclara que no es suscripción mensual.

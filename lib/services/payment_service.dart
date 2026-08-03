@@ -2,7 +2,7 @@ import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 
-/// Cliente de checkout Premium vía Cloud Function + Mercado Pago.
+/// Cliente de checkout Premium vía Cloud Function + Wompi (Colombia).
 class PaymentService {
   PaymentService({FirebaseFunctions? functions}) : _functionsOverride = functions;
 
@@ -19,7 +19,7 @@ class PaymentService {
     return FirebaseFunctions.instanceFor(region: 'southamerica-east1');
   }
 
-  /// Crea preferencia y devuelve URL de pago (init_point).
+  /// Crea checkout Wompi y devuelve la URL de pago (Web Checkout).
   Future<String> createCheckoutUrl() async {
     try {
       final callable = _functions.httpsCallable('createPremiumCheckout');
@@ -27,7 +27,7 @@ class PaymentService {
       final data = Map<String, dynamic>.from(result.data as Map);
       final initPoint = data['initPoint'] as String?;
       if (initPoint == null || initPoint.isEmpty) {
-        throw Exception('No recibimos la URL de Mercado Pago.');
+        throw Exception('No recibimos la URL de Wompi.');
       }
       return initPoint;
     } on FirebaseFunctionsException catch (e) {
@@ -63,7 +63,7 @@ class PaymentService {
         return 'Inicia sesión (Google o correo) antes de continuar.';
       case 'failed-precondition':
         return e.message ??
-            'Mercado Pago aún no está configurado en el servidor.';
+            'Wompi aún no está configurado en el servidor.';
       case 'invalid-argument':
         return e.message ?? 'Código inválido.';
       case 'unavailable':

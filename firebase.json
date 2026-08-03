@@ -18,6 +18,9 @@
   ],
   "hosting": {
     "public": "build/web",
+    "predeploy": [
+      "node tools/validate_bank_sync.js --dart"
+    ],
     "ignore": [
       "firebase.json",
       "**/.*",

@@ -8,6 +8,8 @@ const {wave3} = require("./gold_wave3_especialidades");
 const {wave4} = require("./gold_wave4_cerebro");
 const {wave4b} = require("./gold_wave4b_volumen");
 const {wave5} = require("./gold_wave5_rector");
+const {ciencias: wave6Cie} = require("./gold_wave6_ciencias");
+const {sociales: wave6Soc} = require("./gold_wave6_sociales");
 
 /** @type {ReturnType<typeof gold>[]} */
 const handcrafted = [
@@ -816,6 +818,14 @@ for (const q of wave4b) {
 
 // Quinta ola: casos específicos de rectoría (Gestión directiva)
 for (const q of wave5) {
+  handcrafted.push(q);
+}
+
+// Sexta ola: refuerzo Ciencias Naturales y Ciencias Sociales
+for (const q of wave6Cie) {
+  handcrafted.push(q);
+}
+for (const q of wave6Soc) {
   handcrafted.push(q);
 }
 

@@ -1,24 +1,32 @@
 /**
  * Cloud Functions TuPlazaDocente:
- * - createPremiumCheckout: crea preferencia Mercado Pago
- * - mercadoPagoWebhook: confirma pago y activa Premium
+ * - createPremiumCheckout: crea checkout Wompi (Colombia)
+ * - wompiWebhook: confirma pago y activa Premium
  * - sendStreakReminders: recordatorio diario de racha (FCM)
  */
+const crypto = require("crypto");
 const {onCall, onRequest, HttpsError} = require("firebase-functions/v2/https");
 const {onSchedule} = require("firebase-functions/v2/scheduler");
 const {defineSecret} = require("firebase-functions/params");
 const {initializeApp} = require("firebase-admin/app");
 const {getFirestore, FieldValue} = require("firebase-admin/firestore");
 const {getMessaging} = require("firebase-admin/messaging");
-const {MercadoPagoConfig, Preference, Payment} = require("mercadopago");
 const {MsEdgeTTS, OUTPUT_FORMAT} = require("msedge-tts");
 
 initializeApp();
 
-const mpAccessToken = defineSecret("MP_ACCESS_TOKEN");
+/** Llave pública Wompi (pub_test_… / pub_prod_…). */
+const wompiPublicKey = defineSecret("WOMPI_PUBLIC_KEY");
+/** Secreto de integridad para firma del checkout. */
+const wompiIntegritySecret = defineSecret("WOMPI_INTEGRITY_SECRET");
+/** Secreto de eventos para validar webhooks. */
+const wompiEventsSecret = defineSecret("WOMPI_EVENTS_SECRET");
 
 const PREMIUM_PRICE_COP = 89900;
+/** Wompi cobra en centavos: $89.900 COP → 8.990.000 centavos. */
+const PREMIUM_AMOUNT_CENTS = PREMIUM_PRICE_COP * 100;
 const APP_URL = "https://www.tuplazadocente.com";
+const WOMPI_CHECKOUT_BASE = "https://checkout.wompi.co/p/";
 const TTS_VOICE = "es-CO-SalomeNeural";
 const TTS_MAX_CHARS = 1800;
 const VALID_PREMIUM_CODES = new Set([
@@ -29,20 +37,65 @@ const VALID_PREMIUM_CODES = new Set([
 ]);
 
 /**
- * @param {string} token
- * @return {MercadoPagoConfig}
+ * Firma de integridad del Web Checkout Wompi.
+ * SHA256(reference + amountInCents + currency + integritySecret)
+ * @param {string} reference
+ * @param {number} amountInCents
+ * @param {string} currency
+ * @param {string} integritySecret
+ * @return {string}
  */
-function mpClient(token) {
-  return new MercadoPagoConfig({accessToken: token, options: {timeout: 8000}});
+function wompiIntegritySignature(reference, amountInCents, currency, integritySecret) {
+  const raw = `${reference}${amountInCents}${currency}${integritySecret}`;
+  return crypto.createHash("sha256").update(raw).digest("hex");
 }
 
 /**
- * Crea checkout Premium autenticado.
+ * Lee ruta tipo "transaction.id" dentro de un objeto.
+ * @param {object} root
+ * @param {string} path
+ * @return {*}
+ */
+function readPath(root, path) {
+  return String(path).split(".").reduce(
+      (acc, key) => (acc == null ? undefined : acc[key]),
+      root,
+  );
+}
+
+/**
+ * Valida checksum del evento Wompi (SHA256 de properties + timestamp + eventsSecret).
+ * @param {object} eventBody
+ * @param {string} eventsSecret
+ * @return {boolean}
+ */
+function verifyWompiEvent(eventBody, eventsSecret) {
+  const checksum = eventBody?.signature?.checksum ||
+    null;
+  const properties = eventBody?.signature?.properties;
+  const timestamp = eventBody?.timestamp;
+  if (!checksum || !Array.isArray(properties) || timestamp == null) {
+    return false;
+  }
+  let concat = "";
+  for (const prop of properties) {
+    const value = readPath(eventBody.data, prop);
+    if (value === undefined || value === null) return false;
+    concat += String(value);
+  }
+  concat += String(timestamp);
+  concat += eventsSecret;
+  const computed = crypto.createHash("sha256").update(concat).digest("hex");
+  return computed.toUpperCase() === String(checksum).toUpperCase();
+}
+
+/**
+ * Crea checkout Premium autenticado (Wompi Web Checkout).
  */
 exports.createPremiumCheckout = onCall(
     {
       region: "southamerica-east1",
-      secrets: [mpAccessToken],
+      secrets: [wompiPublicKey, wompiIntegritySecret],
       cors: true,
     },
     async (request) => {
@@ -52,65 +105,56 @@ exports.createPremiumCheckout = onCall(
 
       const uid = request.auth.uid;
       const email = request.auth.token.email || null;
-      const token = mpAccessToken.value();
-      if (!token) {
+      const publicKey = wompiPublicKey.value();
+      const integritySecret = wompiIntegritySecret.value();
+      if (!publicKey || !integritySecret) {
         throw new HttpsError(
             "failed-precondition",
-            "Mercado Pago no está configurado (MP_ACCESS_TOKEN).",
+            "Wompi no está configurado (WOMPI_PUBLIC_KEY / WOMPI_INTEGRITY_SECRET).",
         );
       }
 
       try {
-        const preference = new Preference(mpClient(token));
-        const result = await preference.create({
-          body: {
-            items: [
-              {
-                id: "premium-convocatoria",
-                title: "TuPlazaDocente Premium — Convocatoria",
-                description:
-                  "Acceso Premium: pago único por convocatoria. Práctica y simulacros ilimitados, casos y especialidad.",
-                quantity: 1,
-                currency_id: "COP",
-                unit_price: PREMIUM_PRICE_COP,
-              },
-            ],
-            payer: email ? {email} : undefined,
-            external_reference: uid,
-            metadata: {
-              uid,
-              product: "premium_convocatoria",
-            },
-            back_urls: {
-              success: `${APP_URL}/premium?status=success`,
-              failure: `${APP_URL}/premium?status=failure`,
-              pending: `${APP_URL}/premium?status=pending`,
-            },
-            auto_return: "approved",
-            notification_url:
-              `https://southamerica-east1-tuplazadocente-9334d.cloudfunctions.net/mercadoPagoWebhook`,
-            statement_descriptor: "TUPLAZADOCENTE",
-          },
-        });
+        const reference = `TPD_${uid}_${Date.now()}`;
+        const currency = "COP";
+        const integrity = wompiIntegritySignature(
+            reference,
+            PREMIUM_AMOUNT_CENTS,
+            currency,
+            integritySecret,
+        );
 
-        const initPoint = result.init_point || result.sandbox_init_point;
-        if (!initPoint) {
-          throw new HttpsError("internal", "Mercado Pago no devolvió URL de pago.");
+        const params = new URLSearchParams({
+          "public-key": publicKey,
+          currency,
+          "amount-in-cents": String(PREMIUM_AMOUNT_CENTS),
+          reference,
+          "signature:integrity": integrity,
+          "redirect-url": `${APP_URL}/premium?status=pending`,
+        });
+        if (email) {
+          params.set("customer-data:email", email);
         }
 
-        await getFirestore().collection("payments").doc(String(result.id)).set({
+        const initPoint = `${WOMPI_CHECKOUT_BASE}?${params.toString()}`;
+
+        await getFirestore().collection("payments").doc(reference).set({
           uid,
-          preferenceId: result.id,
+          reference,
+          provider: "wompi",
           status: "created",
           amount: PREMIUM_PRICE_COP,
-          currency: "COP",
+          amountInCents: PREMIUM_AMOUNT_CENTS,
+          currency,
+          email: email || null,
           createdAt: FieldValue.serverTimestamp(),
         }, {merge: true});
 
         return {
-          preferenceId: result.id,
+          preferenceId: reference,
+          reference,
           initPoint,
-          sandboxInitPoint: result.sandbox_init_point || null,
+          amountInCents: PREMIUM_AMOUNT_CENTS,
         };
       } catch (error) {
         console.error("createPremiumCheckout error", error);
@@ -124,61 +168,105 @@ exports.createPremiumCheckout = onCall(
 );
 
 /**
- * Webhook Mercado Pago: activa isPremium al confirmar pago.
+ * Webhook Wompi (URL de eventos): activa isPremium al confirmar pago APPROVED.
+ * Configura en el Dashboard Wompi (Sandbox y Producción por separado):
+ * https://southamerica-east1-tuplazadocente-9334d.cloudfunctions.net/wompiWebhook
  */
-exports.mercadoPagoWebhook = onRequest(
+exports.wompiWebhook = onRequest(
     {
       region: "southamerica-east1",
-      secrets: [mpAccessToken],
+      secrets: [wompiEventsSecret],
       cors: false,
     },
     async (req, res) => {
       try {
-        if (req.method !== "POST" && req.method !== "GET") {
+        if (req.method !== "POST") {
           res.status(405).send("Method not allowed");
           return;
         }
 
-        const type = req.query.type || req.body?.type || req.query.topic;
-        const dataId = req.query["data.id"] ||
-          req.body?.data?.id ||
-          req.query.id;
+        const body = typeof req.body === "string" ?
+          JSON.parse(req.body) :
+          (req.body || {});
 
-        // Mercado Pago hace ping; respondemos 200 rápido si no hay pago.
-        if (!dataId || (type && !String(type).includes("payment"))) {
+        const eventsSecret = wompiEventsSecret.value();
+        if (!eventsSecret) {
+          console.error("WOMPI_EVENTS_SECRET vacío");
+          res.status(500).send("misconfigured");
+          return;
+        }
+
+        const headerChecksum = req.get("X-Event-Checksum");
+        if (headerChecksum && body.signature) {
+          body.signature.checksum = body.signature.checksum || headerChecksum;
+        }
+
+        if (!verifyWompiEvent(body, eventsSecret)) {
+          console.warn("wompiWebhook: firma inválida");
+          res.status(401).send("invalid signature");
+          return;
+        }
+
+        if (body.event !== "transaction.updated") {
           res.status(200).send("OK");
           return;
         }
 
-        const token = mpAccessToken.value();
-        const paymentApi = new Payment(mpClient(token));
-        const payment = await paymentApi.get({id: String(dataId)});
-        const status = payment.status;
-        const uid = payment.external_reference || payment.metadata?.uid;
+        const tx = body.data?.transaction;
+        if (!tx?.id) {
+          res.status(200).send("OK");
+          return;
+        }
 
-        await getFirestore().collection("payments").doc(String(dataId)).set({
-          uid: uid || null,
-          paymentId: dataId,
-          status,
-          amount: payment.transaction_amount || null,
-          currency: payment.currency_id || "COP",
-          rawStatusDetail: payment.status_detail || null,
-          updatedAt: FieldValue.serverTimestamp(),
-        }, {merge: true});
+        const status = String(tx.status || "").toUpperCase();
+        const reference = String(tx.reference || "");
+        const amountInCents = tx.amount_in_cents ?? null;
 
-        if (status === "approved" && uid) {
+        let uid = null;
+        if (reference) {
+          const payRef = getFirestore().collection("payments").doc(reference);
+          const paySnap = await payRef.get();
+          if (paySnap.exists) {
+            uid = paySnap.data()?.uid || null;
+          }
+          // Fallback: TPD_{uid}_{timestamp}
+          if (!uid && reference.startsWith("TPD_")) {
+            const parts = reference.split("_");
+            if (parts.length >= 3) {
+              uid = parts.slice(1, -1).join("_");
+            }
+          }
+
+          await payRef.set({
+            uid: uid || null,
+            reference,
+            provider: "wompi",
+            transactionId: tx.id,
+            status,
+            amountInCents,
+            currency: tx.currency || "COP",
+            paymentMethodType: tx.payment_method_type || null,
+            customerEmail: tx.customer_email || null,
+            updatedAt: FieldValue.serverTimestamp(),
+          }, {merge: true});
+        }
+
+        const amountOk = amountInCents == null ||
+          Number(amountInCents) === PREMIUM_AMOUNT_CENTS;
+
+        if (status === "APPROVED" && uid && amountOk) {
           await getFirestore().collection("users").doc(String(uid)).set({
             isPremium: true,
             premiumActivatedAt: FieldValue.serverTimestamp(),
-            premiumSource: "mercadopago",
-            premiumPaymentId: String(dataId),
+            premiumSource: "wompi",
+            premiumPaymentId: String(tx.id),
+            premiumReference: reference || null,
           }, {merge: true});
         }
 
         res.status(200).send("OK");
       } catch (error) {
-        console.error("mercadoPagoWebhook error", error);
-        // 200 para evitar reintentos infinitos agresivos; logueamos el fallo.
+        console.error("wompiWebhook error", error);
         res.status(200).send("ERROR_LOGGED");
       }
     },

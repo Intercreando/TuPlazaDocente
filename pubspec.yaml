@@ -1,7 +1,7 @@
 name: tu_plaza_docente
 description: "TuPlazaDocente — PWA entrenadora del Concurso Docente CNSC/ICFES."
 publish_to: 'none'
-version: 0.1.11+12
+version: 0.1.12+13
 
 environment:
   sdk: ^3.11.3
@@ -38,5 +38,6 @@ flutter:
   uses-material-design: true
   assets:
     - assets/seed/questions_v1.json
+    - assets/seed/directivo_aptitudes_v1.json
     - assets/icons/
     - assets/brand/

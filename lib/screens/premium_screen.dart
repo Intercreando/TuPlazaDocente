@@ -8,7 +8,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 
-/// Paywall freemium con Mercado Pago (Cloud Function) / código / demo.
+/// Paywall freemium con Wompi (Cloud Function) / código / demo.
 class PremiumScreen extends StatefulWidget {
   const PremiumScreen({super.key});
 
@@ -63,7 +63,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
     super.dispose();
   }
 
-  Future<void> _openMercadoPago() async {
+  Future<void> _openWompiCheckout() async {
     final state = context.read<AppState>();
     final messenger = ScaffoldMessenger.of(context);
     if (state.isAnonymousUser) {
@@ -80,14 +80,14 @@ class _PremiumScreenState extends State<PremiumScreen> {
 
     setState(() => _busy = true);
     try {
-      final url = await state.startMercadoPagoCheckout();
+      final url = await state.startPremiumCheckout();
       final ok = await launchUrl(
         Uri.parse(url),
         mode: LaunchMode.externalApplication,
       );
       if (!ok && mounted) {
         messenger.showSnackBar(
-          const SnackBar(content: Text('No pudimos abrir Mercado Pago.')),
+          const SnackBar(content: Text('No pudimos abrir Wompi.')),
         );
       }
     } catch (_) {
@@ -201,12 +201,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     )
                   else ...[
                     FilledButton.icon(
-                      onPressed: _busy ? null : _openMercadoPago,
+                      onPressed: _busy ? null : _openWompiCheckout,
                       icon: const Icon(Icons.payments_outlined),
                       label: Text(
                         _busy
                             ? 'Preparando el pago…'
-                            : 'Pagar una vez · Mercado Pago',
+                            : 'Pagar una vez · Wompi',
                       ),
                     ),
                     const SizedBox(height: 8),

@@ -9,14 +9,36 @@
  * Opción B (si tienes gcloud):
  *   gcloud auth application-default login
  *   node seed_firestore.js
+ *
+ * Antes de subir, corre validate_bank_sync (IDs únicos + lotes + Dart).
+ * Omite con: SKIP_BANK_VALIDATE=1
  */
 const fs = require("fs");
 const path = require("path");
+const {spawnSync} = require("child_process");
 const admin = require("firebase-admin");
 
 const PROJECT_ID = "tuplazadocente-9334d";
 const SEED_PATH = path.join(__dirname, "..", "..", "assets", "seed", "questions_v1.json");
 const SA_PATH = path.join(__dirname, "serviceAccount.json");
+const VALIDATE_SCRIPT = path.join(__dirname, "..", "validate_bank_sync.js");
+
+function runPreSeedValidation() {
+  if (process.env.SKIP_BANK_VALIDATE === "1") {
+    console.warn("SKIP_BANK_VALIDATE=1: se omite validate_bank_sync");
+    return;
+  }
+  console.log("Pre-seed: validate_bank_sync --dart …");
+  const result = spawnSync(
+      process.execPath,
+      [VALIDATE_SCRIPT, "--dart"],
+      {stdio: "inherit"},
+  );
+  if (result.status !== 0) {
+    console.error("Validación del banco falló. Corrige el drift antes de sembrar.");
+    process.exit(result.status || 1);
+  }
+}
 
 function initAdmin() {
   if (admin.apps.length) return;
@@ -63,6 +85,8 @@ async function main() {
     console.error("No existe el seed. Corre primero: node generate_bank.js");
     process.exit(1);
   }
+
+  runPreSeedValidation();
 
   initAdmin();
   const db = admin.firestore();

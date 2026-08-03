@@ -2,6 +2,12 @@
   "name": "tuplaza-seed",
   "private": true,
   "type": "commonjs",
+  "scripts": {
+    "validate": "node ../validate_bank_sync.js --dart",
+    "validate:strict": "node ../validate_bank_sync.js --strict",
+    "seed": "node ../validate_bank_sync.js --dart && node seed_firestore.js",
+    "audit": "node ../audit_answer_key.js"
+  },
   "dependencies": {
     "firebase-admin": "^13.0.2"
   }

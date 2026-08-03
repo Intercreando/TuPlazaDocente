@@ -317,7 +317,7 @@ class AppState extends ChangeNotifier {
     }
   }
 
-  Future<String> startMercadoPagoCheckout() async {
+  Future<String> startPremiumCheckout() async {
     try {
       final url = await _payments.createCheckoutUrl();
       lastError = null;
@@ -328,6 +328,10 @@ class AppState extends ChangeNotifier {
       rethrow;
     }
   }
+
+  /// Alias legado (antes Mercado Pago).
+  Future<String> startMercadoPagoCheckout() => startPremiumCheckout();
+
 
   Future<bool> enableStreakReminders() async {
     final granted = await _notifications.requestPermission();

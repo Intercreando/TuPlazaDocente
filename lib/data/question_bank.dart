@@ -1,9 +1,12 @@
 import '../models/enums.dart';
 import '../models/question.dart';
 import 'calibrated_bank.dart';
+import 'ciencias_brain_bank.dart';
+import 'directivo_aptitudes_bank.dart';
 import 'extra_questions.dart';
 import 'gold_brain_bank.dart';
 import 'rector_brain_bank.dart';
+import 'sociales_brain_bank.dart';
 import 'specialty_questions.dart';
 
 /// Banco calibrado al estilo CNSC/ICFES (local + remoto/asset).
@@ -13,6 +16,9 @@ abstract final class QuestionBank {
   static List<Question> get _localBundle => [
         ...GoldBrainBank.items,
         ...RectorBrainBank.items,
+        ...DirectivoAptitudesBank.items,
+        ...CienciasBrainBank.items,
+        ...SocialesBrainBank.items,
         ..._items,
         ...ExtraQuestions.items,
         ...SpecialtyQuestions.items,
