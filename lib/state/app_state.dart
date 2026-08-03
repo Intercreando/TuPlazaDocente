@@ -289,10 +289,6 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<bool> activatePremiumDemo() async {
-    return activatePremiumWithCode('DEMO-LOCAL');
-  }
-
   Future<bool> activatePremiumWithCode(String code) async {
     try {
       await _payments.activateWithCode(code);
@@ -663,11 +659,7 @@ class AppState extends ChangeNotifier {
     selectedOption = null;
     revealed = false;
     questionStartedAt = DateTime.now();
-    if (currentMode == SessionMode.speedBattle) {
-      await _persist();
-    } else {
-      notifyListeners();
-    }
+    notifyListeners();
     return false;
   }
 

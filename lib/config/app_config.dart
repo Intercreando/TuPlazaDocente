@@ -11,10 +11,12 @@ abstract final class AppConfig {
       'docente vigente (CNSC) hasta que esa etapa termine. No es una suscripción.';
 
   /// Códigos válidos también en Cloud Function `activatePremiumCode`.
+  /// No publicar estos valores en marketing ni README.
   static const Set<String> premiumAccessCodes = {
     'PLAZA2026',
     'DOCENTE-REY',
     'TUPLAZA-PREMIUM',
-    'DEMO-LOCAL',
   };
+
+  static const String supportEmail = 'soporte@tuplazadocente.com';
 }

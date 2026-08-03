@@ -22,9 +22,16 @@ class PaymentService {
   /// Crea checkout Wompi y devuelve la URL de pago (Web Checkout).
   Future<String> createCheckoutUrl() async {
     try {
-      final callable = _functions.httpsCallable('createPremiumCheckout');
+      final callable = _functions.httpsCallable(
+        'createPremiumCheckout',
+        options: HttpsCallableOptions(timeout: const Duration(seconds: 45)),
+      );
       final result = await callable.call();
-      final data = Map<String, dynamic>.from(result.data as Map);
+      final raw = result.data;
+      if (raw is! Map) {
+        throw Exception('Respuesta inválida del servidor de pagos.');
+      }
+      final data = Map<String, dynamic>.from(raw);
       final initPoint = data['initPoint'] as String?;
       if (initPoint == null || initPoint.isEmpty) {
         throw Exception('No recibimos la URL de Wompi.');
@@ -32,11 +39,15 @@ class PaymentService {
       return initPoint;
     } on FirebaseFunctionsException catch (e) {
       debugPrint(
-        'PaymentService createCheckout: ${e.code} ${e.message}',
+        'PaymentService createCheckout: ${e.code} ${e.message} ${e.details}',
       );
       throw Exception(_friendlyFunctionsError(e));
     } catch (e) {
       debugPrint('PaymentService createCheckout error: $e');
+      final msg = e.toString().replaceFirst('Exception: ', '');
+      if (msg.isNotEmpty && !msg.contains('No pudimos iniciar')) {
+        throw Exception(msg);
+      }
       throw Exception(
         'No pudimos iniciar el pago. Verifica tu conexión e intenta de nuevo.',
       );

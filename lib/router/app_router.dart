@@ -8,6 +8,7 @@ import '../screens/cases_screen.dart';
 import '../screens/exam_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/landing_screen.dart';
+import '../screens/legal_document_screen.dart';
 import '../screens/onboarding_screen.dart';
 import '../screens/plan_screen.dart';
 import '../screens/practice_screen.dart';
@@ -34,12 +35,15 @@ GoRouter createAppRouter(AppState appState) {
         '/practice',
         '/results',
         '/premium',
+        '/legal/terms',
+        '/legal/privacy',
       };
 
       if (!onboarded &&
           !publicPaths.contains(loc) &&
           !loc.startsWith('/practice') &&
-          !loc.startsWith('/premium')) {
+          !loc.startsWith('/premium') &&
+          !loc.startsWith('/legal')) {
         return '/';
       }
 
@@ -86,6 +90,18 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/premium',
         builder: (context, state) => const PremiumScreen(),
+      ),
+      GoRoute(
+        path: '/legal/terms',
+        builder: (context, state) => const LegalDocumentScreen(
+          kind: LegalDocumentKind.terms,
+        ),
+      ),
+      GoRoute(
+        path: '/legal/privacy',
+        builder: (context, state) => const LegalDocumentScreen(
+          kind: LegalDocumentKind.privacy,
+        ),
       ),
       GoRoute(
         path: '/cases',

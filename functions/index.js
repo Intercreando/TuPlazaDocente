@@ -11,7 +11,6 @@ const {defineSecret} = require("firebase-functions/params");
 const {initializeApp} = require("firebase-admin/app");
 const {getFirestore, FieldValue} = require("firebase-admin/firestore");
 const {getMessaging} = require("firebase-admin/messaging");
-const {MsEdgeTTS, OUTPUT_FORMAT} = require("msedge-tts");
 
 initializeApp();
 
@@ -27,13 +26,10 @@ const PREMIUM_PRICE_COP = 89900;
 const PREMIUM_AMOUNT_CENTS = PREMIUM_PRICE_COP * 100;
 const APP_URL = "https://www.tuplazadocente.com";
 const WOMPI_CHECKOUT_BASE = "https://checkout.wompi.co/p/";
-const TTS_VOICE = "es-CO-SalomeNeural";
-const TTS_MAX_CHARS = 1800;
 const VALID_PREMIUM_CODES = new Set([
   "PLAZA2026",
   "DOCENTE-REY",
   "TUPLAZA-PREMIUM",
-  "DEMO-LOCAL",
 ]);
 
 /**
@@ -96,7 +92,8 @@ exports.createPremiumCheckout = onCall(
     {
       region: "southamerica-east1",
       secrets: [wompiPublicKey, wompiIntegritySecret],
-      cors: true,
+      timeoutSeconds: 30,
+      memory: "256MiB",
     },
     async (request) => {
       if (!request.auth?.uid) {
@@ -105,16 +102,23 @@ exports.createPremiumCheckout = onCall(
 
       const uid = request.auth.uid;
       const email = request.auth.token.email || null;
-      const publicKey = wompiPublicKey.value();
-      const integritySecret = wompiIntegritySecret.value();
+      const publicKey = String(wompiPublicKey.value() || "").trim();
+      const integritySecret = String(wompiIntegritySecret.value() || "").trim();
       if (!publicKey || !integritySecret) {
         throw new HttpsError(
             "failed-precondition",
             "Wompi no está configurado (WOMPI_PUBLIC_KEY / WOMPI_INTEGRITY_SECRET).",
         );
       }
+      if (!publicKey.startsWith("pub_")) {
+        throw new HttpsError(
+            "failed-precondition",
+            "WOMPI_PUBLIC_KEY no parece una llave pública (debe iniciar con pub_test_ o pub_prod_).",
+        );
+      }
 
       try {
+        // Referencia única; incluye uid para recuperar Premium si falla el doc payments.
         const reference = `TPD_${uid}_${Date.now()}`;
         const currency = "COP";
         const integrity = wompiIntegritySignature(
@@ -124,31 +128,36 @@ exports.createPremiumCheckout = onCall(
             integritySecret,
         );
 
-        const params = new URLSearchParams({
-          "public-key": publicKey,
-          currency,
-          "amount-in-cents": String(PREMIUM_AMOUNT_CENTS),
-          reference,
-          "signature:integrity": integrity,
-          "redirect-url": `${APP_URL}/premium?status=pending`,
-        });
+        const params = new URLSearchParams();
+        params.set("public-key", publicKey);
+        params.set("currency", currency);
+        params.set("amount-in-cents", String(PREMIUM_AMOUNT_CENTS));
+        params.set("reference", reference);
+        params.set("signature:integrity", integrity);
+        params.set("redirect-url", `${APP_URL}/premium?status=pending`);
         if (email) {
           params.set("customer-data:email", email);
         }
 
         const initPoint = `${WOMPI_CHECKOUT_BASE}?${params.toString()}`;
+        console.log("createPremiumCheckout ok", {uid, reference, hasEmail: Boolean(email)});
 
-        await getFirestore().collection("payments").doc(reference).set({
-          uid,
-          reference,
-          provider: "wompi",
-          status: "created",
-          amount: PREMIUM_PRICE_COP,
-          amountInCents: PREMIUM_AMOUNT_CENTS,
-          currency,
-          email: email || null,
-          createdAt: FieldValue.serverTimestamp(),
-        }, {merge: true});
+        // No bloqueamos el checkout si falla el registro (permisos / latencia).
+        try {
+          await getFirestore().collection("payments").doc(reference).set({
+            uid,
+            reference,
+            provider: "wompi",
+            status: "created",
+            amount: PREMIUM_PRICE_COP,
+            amountInCents: PREMIUM_AMOUNT_CENTS,
+            currency,
+            email: email || null,
+            createdAt: FieldValue.serverTimestamp(),
+          }, {merge: true});
+        } catch (persistError) {
+          console.error("createPremiumCheckout persist warning", persistError);
+        }
 
         return {
           preferenceId: reference,
@@ -168,9 +177,8 @@ exports.createPremiumCheckout = onCall(
 );
 
 /**
- * Webhook Wompi (URL de eventos): activa isPremium al confirmar pago APPROVED.
- * Configura en el Dashboard Wompi (Sandbox y Producción por separado):
- * https://southamerica-east1-tuplazadocente-9334d.cloudfunctions.net/wompiWebhook
+ * Webhook Wompi: activa isPremium si status APPROVED.
+ * Resuelve uid desde payments/{reference} o desde referencia TPD_{uid}_{timestamp}.
  */
 exports.wompiWebhook = onRequest(
     {
@@ -189,7 +197,7 @@ exports.wompiWebhook = onRequest(
           JSON.parse(req.body) :
           (req.body || {});
 
-        const eventsSecret = wompiEventsSecret.value();
+        const eventsSecret = String(wompiEventsSecret.value() || "").trim();
         if (!eventsSecret) {
           console.error("WOMPI_EVENTS_SECRET vacío");
           res.status(500).send("misconfigured");
@@ -225,10 +233,15 @@ exports.wompiWebhook = onRequest(
         let uid = null;
         if (reference) {
           const payRef = getFirestore().collection("payments").doc(reference);
-          const paySnap = await payRef.get();
-          if (paySnap.exists) {
-            uid = paySnap.data()?.uid || null;
+          try {
+            const paySnap = await payRef.get();
+            if (paySnap.exists) {
+              uid = paySnap.data()?.uid || null;
+            }
+          } catch (e) {
+            console.error("wompiWebhook read payment", e);
           }
+
           // Fallback: TPD_{uid}_{timestamp}
           if (!uid && reference.startsWith("TPD_")) {
             const parts = reference.split("_");
@@ -248,7 +261,22 @@ exports.wompiWebhook = onRequest(
             paymentMethodType: tx.payment_method_type || null,
             customerEmail: tx.customer_email || null,
             updatedAt: FieldValue.serverTimestamp(),
-          }, {merge: true});
+          }, {merge: true}).catch((e) => {
+            console.error("wompiWebhook persist payment", e);
+          });
+        }
+
+        // Fallback: buscar usuario por email del comprobante.
+        if (!uid && tx.customer_email) {
+          try {
+            const users = await getFirestore().collection("users")
+                .where("email", "==", String(tx.customer_email))
+                .limit(1)
+                .get();
+            if (!users.empty) uid = users.docs[0].id;
+          } catch (e) {
+            console.error("wompiWebhook email lookup", e);
+          }
         }
 
         const amountOk = amountInCents == null ||
@@ -262,6 +290,9 @@ exports.wompiWebhook = onRequest(
             premiumPaymentId: String(tx.id),
             premiumReference: reference || null,
           }, {merge: true});
+          console.log("wompiWebhook premium activated", {uid, reference});
+        } else {
+          console.log("wompiWebhook skip activate", {status, uid, amountOk, reference});
         }
 
         res.status(200).send("OK");
@@ -292,7 +323,7 @@ exports.activatePremiumCode = onCall(
       await getFirestore().collection("users").doc(request.auth.uid).set({
         isPremium: true,
         premiumActivatedAt: FieldValue.serverTimestamp(),
-        premiumSource: code === "DEMO-LOCAL" ? "demo" : "code",
+        premiumSource: "code",
         premiumCode: code,
       }, {merge: true});
 
@@ -352,108 +383,5 @@ exports.sendStreakReminders = onSchedule(
       console.log(
           `Recordatorios enviados: success=${response.successCount} failure=${response.failureCount}`,
       );
-    },
-);
-
-/**
- * Escapa texto para SSML/XML.
- * @param {string} value
- * @return {string}
- */
-function escapeXml(value) {
-  return String(value)
-      .replace(/&/g, "&amp;")
-      .replace(/</g, "&lt;")
-      .replace(/>/g, "&gt;")
-      .replace(/"/g, "&quot;")
-      .replace(/'/g, "&apos;");
-}
-
-/**
- * Suaviza el texto para una prosodia más natural.
- * @param {string} value
- * @return {string}
- */
-function humanizeForSpeech(value) {
-  return String(value)
-      .replace(/\s+/g, " ")
-      .replace(/·/g, ",")
-      .replace(/\s*\|\s*/g, ". ")
-      .replace(/\s*\/\s*/g, ", ")
-      .replace(/\s{2,}/g, " ")
-      .trim();
-}
-
-/**
- * Sintetiza voz neural (Edge Read Aloud) en español colombiano.
- * Requiere Auth (incluye anónimo). Devuelve MP3 en base64.
- */
-exports.synthesizeSpeech = onCall(
-    {
-      region: "southamerica-east1",
-      cors: true,
-      timeoutSeconds: 60,
-      memory: "512MiB",
-    },
-    async (request) => {
-      if (!request.auth?.uid) {
-        throw new HttpsError(
-            "unauthenticated",
-            "Debes tener sesión (invitado o cuenta) para usar la voz.",
-        );
-      }
-
-      const raw = humanizeForSpeech(request.data?.text || "");
-      if (!raw) {
-        throw new HttpsError("invalid-argument", "No hay texto para leer.");
-      }
-      if (raw.length > TTS_MAX_CHARS) {
-        throw new HttpsError(
-            "invalid-argument",
-            `El texto supera ${TTS_MAX_CHARS} caracteres.`,
-        );
-      }
-
-      const voice = typeof request.data?.voice === "string" &&
-        request.data.voice.includes("Neural")
-        ? request.data.voice
-        : TTS_VOICE;
-
-      try {
-        const tts = new MsEdgeTTS();
-        await tts.setMetadata(
-            voice,
-            OUTPUT_FORMAT.AUDIO_24KHZ_48KBITRATE_MONO_MP3,
-        );
-
-        const safeText = escapeXml(raw);
-        const {audioStream} = tts.toStream(safeText, {
-          // Un poco más pausado y cálido que el default robótico.
-          rate: "-8%",
-          pitch: "-2Hz",
-        });
-
-        const chunks = [];
-        for await (const chunk of audioStream) {
-          chunks.push(Buffer.isBuffer(chunk) ? chunk : Buffer.from(chunk));
-        }
-        const audio = Buffer.concat(chunks);
-        if (audio.length < 64) {
-          throw new HttpsError("internal", "La síntesis no devolvió audio.");
-        }
-
-        return {
-          contentType: "audio/mpeg",
-          voice,
-          base64: audio.toString("base64"),
-        };
-      } catch (e) {
-        console.error("synthesizeSpeech error:", e);
-        if (e instanceof HttpsError) throw e;
-        throw new HttpsError(
-            "internal",
-            "No se pudo generar la voz neural. Intenta de nuevo.",
-        );
-      }
     },
 );

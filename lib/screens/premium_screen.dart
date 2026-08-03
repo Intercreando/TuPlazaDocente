@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import '../config/app_config.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/open_external_url.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/legal_footer_links.dart';
 
-/// Paywall freemium con Wompi (Cloud Function) / código / demo.
+/// Paywall freemium con Wompi (Cloud Function) / código.
 class PremiumScreen extends StatefulWidget {
   const PremiumScreen({super.key});
 
@@ -81,21 +82,22 @@ class _PremiumScreenState extends State<PremiumScreen> {
     setState(() => _busy = true);
     try {
       final url = await state.startPremiumCheckout();
-      final ok = await launchUrl(
-        Uri.parse(url),
-        mode: LaunchMode.externalApplication,
-      );
+      final ok = await openExternalUrl(url);
       if (!ok && mounted) {
         messenger.showSnackBar(
           const SnackBar(content: Text('No pudimos abrir Wompi.')),
         );
       }
-    } catch (_) {
+    } catch (e) {
       if (!mounted) return;
+      final detail = state.lastError ??
+          e.toString().replaceFirst('Exception: ', '');
       messenger.showSnackBar(
         SnackBar(
           content: Text(
-            state.lastError ?? 'No pudimos iniciar el checkout.',
+            detail.isNotEmpty
+                ? detail
+                : 'No pudimos iniciar el checkout.',
           ),
         ),
       );
@@ -214,6 +216,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       'Pago único. No se renueva solo cada mes.',
                       style: theme.textTheme.bodySmall,
                     ),
+                    const SizedBox(height: 10),
+                    const LegalFooterLinks(),
                     const SizedBox(height: 12),
                     Text(
                       '¿Tienes código de acceso?',
@@ -253,31 +257,6 @@ class _PremiumScreenState extends State<PremiumScreen> {
                               if (ok) router.go('/app');
                             },
                       child: const Text('Activar con código'),
-                    ),
-                    const SizedBox(height: 8),
-                    TextButton(
-                      onPressed: _busy
-                          ? null
-                          : () async {
-                              final messenger = ScaffoldMessenger.of(context);
-                              final router = GoRouter.of(context);
-                              setState(() => _busy = true);
-                              final ok = await state.activatePremiumDemo();
-                              if (!mounted) return;
-                              setState(() => _busy = false);
-                              messenger.showSnackBar(
-                                SnackBar(
-                                  content: Text(
-                                    ok
-                                        ? 'Premium demo activado.'
-                                        : state.lastError ??
-                                            'No se pudo activar la demo.',
-                                  ),
-                                ),
-                              );
-                              if (ok) router.go('/app');
-                            },
-                      child: const Text('Activar acceso demo'),
                     ),
                   ],
                 ],

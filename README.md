@@ -34,10 +34,10 @@ firebase deploy --only hosting
 6. Práctica con explicación inmediata
 7. Examen real (2 min/pregunta) + mapa de calor
 8. Radar de competencias
-9. Freemium / Premium demo
+9. Freemium / Premium (Wompi)
 10. Sync con Firebase Auth (anónimo / email / Google) + Firestore
 11. Reto 60s de agilidad mental
-12. Premium: Wompi (Colombia) · códigos · demo
+12. Legales: `/legal/terms` y `/legal/privacy`
 
 ## Firebase (una vez)
 
@@ -60,11 +60,10 @@ firebase deploy --only hosting,firestore
 
 ## Wompi — pagos Premium (Colombia)
 
-1. Crea cuenta de comercio en [Wompi](https://comercios.wompi.co/) y obtén:
-   - Llave pública (`pub_test_…` / `pub_prod_…`)
-   - Secreto de integridad
-   - Secreto de eventos (webhook)
+### Sandbox (pruebas)
 
+1. Crea cuenta de comercio en [Wompi](https://comercios.wompi.co/) y obtén llaves de **pruebas**:
+   - `pub_test_…`, `test_integrity_…`, `test_events_…`
 2. Guarda los secretos en Firebase (nunca en el cliente):
 
 ```bash
@@ -73,22 +72,58 @@ firebase functions:secrets:set WOMPI_INTEGRITY_SECRET
 firebase functions:secrets:set WOMPI_EVENTS_SECRET
 ```
 
-3. En el Dashboard Wompi → URL de eventos (Sandbox y Producción por separado):
+3. Dashboard Wompi (**Sandbox**) → URL de eventos:
 
 ```text
 https://southamerica-east1-tuplazadocente-9334d.cloudfunctions.net/wompiWebhook
 ```
 
-4. Despliega functions:
+4. Despliega functions y prueba en la app (tarjeta `4242…` / Nequi `3991111111`).
+
+### Checklist — pasar a producción (cobros reales)
+
+Usa esta lista **en orden**. No cobres a usuarios hasta marcar todos los puntos críticos.
+
+- [ ] Comercio Wompi **aprobado** para producción (documentación / KYC al día).
+- [ ] En Dashboard Wompi → **Producción**, copiar:
+  - `pub_prod_…`
+  - secreto de integridad de producción
+  - secreto de eventos de producción
+- [ ] Actualizar secrets en Firebase con los valores **prod** (mismos nombres de secret):
 
 ```bash
-cd functions && npm install && cd ..
+firebase functions:secrets:set WOMPI_PUBLIC_KEY
+firebase functions:secrets:set WOMPI_INTEGRITY_SECRET
+firebase functions:secrets:set WOMPI_EVENTS_SECRET
+```
+
+- [ ] Verificar que `WOMPI_PUBLIC_KEY` empieza por `pub_prod_` (no `pub_test_`).
+- [ ] Redeploy functions para que lean los secrets nuevos:
+
+```bash
 firebase deploy --only functions
 ```
 
-5. En la app: Premium → **Pagar una vez · Wompi** (requiere cuenta Google/correo)
+- [ ] En Dashboard Wompi → **Producción** → URL de eventos = la misma `…/wompiWebhook`.
+- [ ] Pago real de prueba (monto bajo o el Premium) con cuenta real:
+  - [ ] Wompi muestra APPROVED
+  - [ ] En Firestore, `payments/{reference}` queda aprobado / coherente
+  - [ ] `users/{uid}.isPremium == true`
+  - [ ] Tras volver a `/premium`, la UI muestra Premium
+- [ ] Revisar que Términos y Privacidad están publicados (`/legal/terms`, `/legal/privacy`) y enlazados en Auth + Premium.
+- [ ] Definir correo de soporte real (hoy: `soporte@tuplazadocente.com` en `legal_documents.dart`) y que recibas ese buzón.
+- [ ] Rotar o invalidar códigos Premium que hayan sido públicos; no volver a publicarlos en README.
+- [ ] Soft launch: 2–5 pagos reales y revisar logs de `createPremiumCheckout` / `wompiWebhook` 24–48 h.
 
-Códigos Premium (servidor): `PLAZA2026`, `DOCENTE-REY`, `TUPLAZA-PREMIUM`, `DEMO-LOCAL`
+**Rollback rápido a sandbox:** vuelve a setear secrets `pub_test_` / `test_*` y redespliega functions.
+
+Códigos Premium: viven solo en Cloud Function `activatePremiumCode` (no los publiques).
+
+## Legales
+
+- Términos: https://www.tuplazadocente.com/legal/terms
+- Privacidad: https://www.tuplazadocente.com/legal/privacy
+- Textos editables en `lib/config/legal_documents.dart`
 
 ## Recordatorios de racha
 
@@ -125,5 +160,5 @@ node seed_firestore.js
 
 `firebase deploy --only hosting` también corre `validate_bank_sync --dart` en predeploy.
 
-La app carga en este orden: **Firestore → asset seed → bundle local**.
-En Home verás `Banco: N ítems · fuente firestore|asset|local`.
+La app carga el banco **asset-first** (seed embebido) y solo lee Firestore masivo si `meta/question_bank` indica versión/conteo más nuevo.
+En Home verás la fuente `asset|firestore|local`.

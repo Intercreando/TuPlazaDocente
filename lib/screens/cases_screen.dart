@@ -8,6 +8,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../utils/session_launch.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/feature_access_badge.dart';
 
 /// Módulo Casos de Aula (situacional interactivo).
 class CasesScreen extends StatelessWidget {
@@ -31,9 +32,21 @@ class CasesScreen extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
               children: [
                 Text(
-                  'Situaciones reales de colegio. Eliges cómo actuar y ves el debido proceso.',
+                  state.canAccessCases
+                      ? 'Situaciones reales de colegio. Eliges cómo actuar y ves el debido proceso.'
+                      : 'Vista previa del banco. Resolver casos requiere Premium '
+                          '(candado en cada ficha).',
                   style: theme.textTheme.bodyLarge,
                 ),
+                if (!state.canAccessCases) ...[
+                  const SizedBox(height: 10),
+                  const Align(
+                    alignment: Alignment.centerLeft,
+                    child: FeatureAccessBadge(
+                      level: FeatureAccessLevel.locked,
+                    ),
+                  ),
+                ],
                 const SizedBox(height: 14),
                 FilledButton.icon(
                   onPressed: () {
@@ -63,67 +76,108 @@ class CasesScreen extends StatelessWidget {
                       route: '/practice',
                     );
                   },
-                  icon: const Icon(Icons.play_arrow_rounded),
+                  icon: Icon(
+                    state.canAccessCases
+                        ? Icons.play_arrow_rounded
+                        : Icons.lock_outline_rounded,
+                  ),
                   label: Text(
                     state.canAccessCases
                         ? 'Practicar 4 casos'
-                        : 'Casos · Premium',
+                        : 'Desbloquear Casos · Premium',
                   ),
                 ),
                 const SizedBox(height: 18),
                 Text('Banco de casos', style: theme.textTheme.titleLarge),
                 const SizedBox(height: 10),
                 ...cases.map((q) {
+                  final locked = !state.canAccessCases;
                   return Padding(
                     padding: const EdgeInsets.only(bottom: 10),
-                    child: Container(
-                      padding: const EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        color: isDark ? AppColors.darkSurface : AppColors.white,
-                        borderRadius: BorderRadius.circular(18),
-                        border: Border.all(color: theme.colorScheme.outline),
-                      ),
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Row(
-                            children: [
-                              Chip(label: Text(q.pillar.label)),
-                              const SizedBox(width: 8),
-                              if (q.normativeRefs.isNotEmpty)
-                                Flexible(
-                                  child: Text(
-                                    q.normativeRefs.first,
-                                    style: theme.textTheme.labelMedium,
-                                    overflow: TextOverflow.ellipsis,
+                    child: Opacity(
+                      opacity: locked ? 0.75 : 1,
+                      child: Container(
+                        padding: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          color:
+                              isDark ? AppColors.darkSurface : AppColors.white,
+                          borderRadius: BorderRadius.circular(18),
+                          border: Border.all(
+                            color: locked
+                                ? AppColors.gold.withValues(alpha: 0.5)
+                                : theme.colorScheme.outline,
+                          ),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Row(
+                              children: [
+                                Chip(label: Text(q.pillar.label)),
+                                const SizedBox(width: 8),
+                                if (q.normativeRefs.isNotEmpty)
+                                  Flexible(
+                                    child: Text(
+                                      q.normativeRefs.first,
+                                      style: theme.textTheme.labelMedium,
+                                      overflow: TextOverflow.ellipsis,
+                                    ),
                                   ),
-                                ),
-                            ],
-                          ),
-                          const SizedBox(height: 8),
-                          Text(
-                            q.caseContext ?? q.stem,
-                            style: theme.textTheme.titleSmall,
-                            maxLines: 3,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                          const SizedBox(height: 10),
-                          Align(
-                            alignment: Alignment.centerRight,
-                            child: TextButton(
-                              onPressed: () {
-                                final ok = state.startSingleQuestion(q);
-                                launchSessionOrPaywall(
-                                  context: context,
-                                  state: state,
-                                  started: ok,
-                                  route: '/practice',
-                                );
-                              },
-                              child: const Text('Resolver caso'),
+                                if (locked) ...[
+                                  const SizedBox(width: 8),
+                                  const FeatureAccessBadge(
+                                    level: FeatureAccessLevel.locked,
+                                  ),
+                                ],
+                              ],
                             ),
-                          ),
-                        ],
+                            const SizedBox(height: 8),
+                            Text(
+                              q.caseContext ?? q.stem,
+                              style: theme.textTheme.titleSmall,
+                              maxLines: 3,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                            const SizedBox(height: 10),
+                            Align(
+                              alignment: Alignment.centerRight,
+                              child: TextButton.icon(
+                                onPressed: () {
+                                  if (locked) {
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: const Text(
+                                          'Resolver casos es Premium.',
+                                        ),
+                                        action: SnackBarAction(
+                                          label: 'Premium',
+                                          onPressed: () =>
+                                              context.push('/premium'),
+                                        ),
+                                      ),
+                                    );
+                                    return;
+                                  }
+                                  final ok = state.startSingleQuestion(q);
+                                  launchSessionOrPaywall(
+                                    context: context,
+                                    state: state,
+                                    started: ok,
+                                    route: '/practice',
+                                  );
+                                },
+                                icon: Icon(
+                                  locked
+                                      ? Icons.lock_outline_rounded
+                                      : Icons.play_arrow_rounded,
+                                ),
+                                label: Text(
+                                  locked ? 'Premium' : 'Resolver caso',
+                                ),
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
                     ),
                   );

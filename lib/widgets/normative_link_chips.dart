@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
-
 import '../config/normative_links.dart';
 import '../models/question.dart';
 import '../theme/app_colors.dart';
+import '../utils/open_external_url.dart';
+
 
 /// Chips bajo la explicación para abrir la norma o guía oficial en la web.
 class NormativeLinkChips extends StatelessWidget {
@@ -14,10 +14,7 @@ class NormativeLinkChips extends StatelessWidget {
   Future<void> _open(BuildContext context, NormativeSource source) async {
     final messenger = ScaffoldMessenger.of(context);
     try {
-      final ok = await launchUrl(
-        source.uri,
-        mode: LaunchMode.externalApplication,
-      );
+      final ok = await openExternalUrl(source.uri.toString());
       if (!ok && context.mounted) {
         messenger.showSnackBar(
           SnackBar(

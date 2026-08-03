@@ -9,6 +9,7 @@ import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
 import '../utils/session_launch.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/feature_access_badge.dart';
 
 /// Plan de estudio diario hasta la fecha del examen.
 class PlanScreen extends StatelessWidget {
@@ -119,6 +120,8 @@ class PlanScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(bottom: 10),
                     child: _PlanTaskTile(
                       task: task,
+                      premiumLocked: !state.profile.isPremium &&
+                          task.isCaseStudy,
                       onStart: () {
                         final ok = state.startPlanTask(task);
                         launchSessionOrPaywall(
@@ -143,59 +146,92 @@ class PlanScreen extends StatelessWidget {
 }
 
 class _PlanTaskTile extends StatelessWidget {
-  const _PlanTaskTile({required this.task, required this.onStart});
+  const _PlanTaskTile({
+    required this.task,
+    required this.onStart,
+    this.premiumLocked = false,
+  });
 
   final StudyTask task;
   final VoidCallback onStart;
+  final bool premiumLocked;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return Material(
-      color: theme.cardTheme.color,
-      borderRadius: BorderRadius.circular(18),
-      child: InkWell(
-        onTap: task.completed ? null : onStart,
+    return Opacity(
+      opacity: premiumLocked && !task.completed ? 0.78 : 1,
+      child: Material(
+        color: theme.cardTheme.color,
         borderRadius: BorderRadius.circular(18),
-        child: Container(
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(18),
-            border: Border.all(
-              color: task.completed ? AppColors.success : theme.colorScheme.outline,
+        child: InkWell(
+          onTap: task.completed ? null : onStart,
+          borderRadius: BorderRadius.circular(18),
+          child: Container(
+            padding: const EdgeInsets.all(16),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(18),
+              border: Border.all(
+                color: task.completed
+                    ? AppColors.success
+                    : premiumLocked
+                        ? AppColors.gold.withValues(alpha: 0.55)
+                        : theme.colorScheme.outline,
+              ),
+              color: premiumLocked && !task.completed
+                  ? AppColors.gold.withValues(alpha: 0.06)
+                  : null,
             ),
-          ),
-          child: Row(
-            children: [
-              Icon(
-                task.completed
-                    ? Icons.check_circle
-                    : task.isCaseStudy
-                        ? Icons.apartment_outlined
-                        : Icons.play_circle_outline,
-                color: task.completed ? AppColors.success : AppColors.canopy,
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(task.title, style: theme.textTheme.titleSmall),
-                    const SizedBox(height: 2),
-                    Text(
-                      '${task.subtitle} · ${task.questionCount}Q · ${task.minutes} min',
-                      style: theme.textTheme.bodySmall,
+            child: Row(
+              children: [
+                Icon(
+                  task.completed
+                      ? Icons.check_circle
+                      : premiumLocked
+                          ? Icons.lock_outline_rounded
+                          : task.isCaseStudy
+                              ? Icons.apartment_outlined
+                              : Icons.play_circle_outline,
+                  color: task.completed
+                      ? AppColors.success
+                      : premiumLocked
+                          ? AppColors.goldDeep
+                          : AppColors.canopy,
+                ),
+                const SizedBox(width: 12),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(task.title, style: theme.textTheme.titleSmall),
+                      const SizedBox(height: 2),
+                      Text(
+                        '${task.subtitle} · ${task.questionCount}Q · ${task.minutes} min',
+                        style: theme.textTheme.bodySmall,
+                      ),
+                    ],
+                  ),
+                ),
+                if (task.completed)
+                  Text(
+                    'Hecho',
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      color: AppColors.success,
                     ),
-                  ],
-                ),
-              ),
-              Text(
-                task.completed ? 'Hecho' : 'Empezar',
-                style: theme.textTheme.labelLarge?.copyWith(
-                  color: task.completed ? AppColors.success : AppColors.canopy,
-                ),
-              ),
-            ],
+                  )
+                else if (premiumLocked)
+                  const FeatureAccessBadge(
+                    level: FeatureAccessLevel.locked,
+                  )
+                else
+                  Text(
+                    'Empezar',
+                    style: theme.textTheme.labelLarge?.copyWith(
+                      color: AppColors.canopy,
+                    ),
+                  ),
+              ],
+            ),
           ),
         ),
       ),

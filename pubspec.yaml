@@ -1,7 +1,7 @@
 name: tu_plaza_docente
 description: "TuPlazaDocente — PWA entrenadora del Concurso Docente CNSC/ICFES."
 publish_to: 'none'
-version: 0.1.12+13
+version: 0.1.16+17
 
 environment:
   sdk: ^3.11.3

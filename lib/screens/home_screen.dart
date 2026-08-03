@@ -14,7 +14,10 @@ import '../theme/layout_breakpoints.dart';
 import '../utils/session_launch.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
+import '../widgets/feature_access_badge.dart';
+import '../widgets/freemium_scope_banner.dart';
 import '../widgets/tag_mastery_map.dart';
+import '../widgets/training_mode_card.dart';
 
 /// Home: hub de entrenamiento (dashboard en escritorio, lista en móvil).
 class HomeScreen extends StatelessWidget {
@@ -138,7 +141,11 @@ class _MobileHome extends StatelessWidget {
         _ReminderTile(state: state),
         const SizedBox(height: 22),
         Text('Entrenar ahora', style: theme.textTheme.titleLarge),
-        const SizedBox(height: 12),
+        const SizedBox(height: 8),
+        if (!profile.isPremium) ...[
+          const FreemiumScopeBanner(),
+          const SizedBox(height: 12),
+        ],
         _ModesGrid(state: state),
         if (!profile.isPremium) ...[
           const SizedBox(height: 18),
@@ -219,9 +226,15 @@ class _DesktopHome extends StatelessWidget {
                     Text('Entrenar ahora', style: theme.textTheme.headlineSmall),
                     const SizedBox(height: 6),
                     Text(
-                      'Elige el modo según tu energía de hoy.',
+                      profile.isPremium
+                          ? 'Elige el modo según tu energía de hoy.'
+                          : 'Los modos con candado o chip Premium se desbloquean al pagar.',
                       style: theme.textTheme.bodyMedium,
                     ),
+                    if (!profile.isPremium) ...[
+                      const SizedBox(height: 12),
+                      const FreemiumScopeBanner(),
+                    ],
                     const SizedBox(height: 16),
                     _ModesGrid(state: state, columns: 2),
                     if (!profile.isPremium) ...[
@@ -420,16 +433,34 @@ class _ModesGrid extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final profile = state.profile;
+    final premium = profile.isPremium;
+
+    FeatureAccessLevel practiceAccess() {
+      if (premium) return FeatureAccessLevel.open;
+      return state.canStartFreePractice
+          ? FeatureAccessLevel.limited
+          : FeatureAccessLevel.locked;
+    }
+
+    FeatureAccessLevel examAccess() {
+      if (premium) return FeatureAccessLevel.open;
+      return state.canStartShortExam
+          ? FeatureAccessLevel.limited
+          : FeatureAccessLevel.locked;
+    }
+
     final cards = [
-      _ModeCard(
+      TrainingModeCard(
         title: 'Modo Práctica',
-        subtitle: state.profile.isPremium
+        subtitle: premium
             ? 'Sin reloj. Explicación inmediata.'
             : state.canStartFreePractice
-                ? 'Gratis hoy: 1 sesión · luego Premium'
-                : 'Cupo de hoy agotado · Premium ilimitado',
+                ? 'Hoy te queda 1 sesión gratis'
+                : 'Cupo de hoy agotado · desbloquea con Premium',
         icon: Icons.menu_book_rounded,
         color: AppColors.canopy,
+        access: practiceAccess(),
+        limitedLabel: '1 / día',
         onTap: () {
           final ok = state.startSession(mode: SessionMode.practice, count: 8);
           launchSessionOrPaywall(
@@ -440,15 +471,17 @@ class _ModesGrid extends StatelessWidget {
           );
         },
       ),
-      _ModeCard(
+      TrainingModeCard(
         title: 'Examen Real',
         subtitle: state.canStartShortExam
-            ? (state.profile.isPremium
+            ? (premium
                 ? 'Tiempo por ítem + mapa de calor.'
                 : '1 simulacro gratis este mes')
-            : 'Cupo mensual usado · Premium ilimitado',
+            : 'Cupo mensual usado · desbloquea con Premium',
         icon: Icons.timer_outlined,
         color: AppColors.coral,
+        access: examAccess(),
+        limitedLabel: '1 / mes',
         onTap: () {
           final ok = state.startSession(mode: SessionMode.exam, count: 8);
           launchSessionOrPaywall(
@@ -459,11 +492,17 @@ class _ModesGrid extends StatelessWidget {
           );
         },
       ),
-      _ModeCard(
+      TrainingModeCard(
         title: 'Alta exigencia',
-        subtitle: 'Casos nivel 3 · usa cupo de simulacro',
+        subtitle: premium
+            ? 'Casos nivel 3 · simulacro intensivo'
+            : state.canStartShortExam
+                ? 'Nivel 3 · consume tu 1 simulacro/mes'
+                : 'Cupo de simulacro usado · Premium',
         icon: Icons.whatshot_outlined,
         color: AppColors.danger,
+        access: examAccess(),
+        limitedLabel: '1 / mes',
         onTap: () {
           final ok = state.startSession(
             mode: SessionMode.exam,
@@ -478,13 +517,16 @@ class _ModesGrid extends StatelessWidget {
           );
         },
       ),
-      _ModeCard(
+      TrainingModeCard(
         title: 'Casos de Aula',
         subtitle: state.canAccessCases
             ? 'Situaciones con debido proceso.'
-            : 'Incluido en Premium',
+            : 'Bloqueado en Gratis · incluido en Premium',
         icon: Icons.groups_2_outlined,
         color: AppColors.skyLine,
+        access: state.canAccessCases
+            ? FeatureAccessLevel.open
+            : FeatureAccessLevel.locked,
         onTap: () {
           if (!state.canAccessCases) {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -503,11 +545,12 @@ class _ModesGrid extends StatelessWidget {
           context.push('/cases');
         },
       ),
-      _ModeCard(
+      TrainingModeCard(
         title: 'Reto rápido',
-        subtitle: 'Nivel 1 · ~45s por pregunta · Gratis',
+        subtitle: 'Nivel 1 · ~45s por pregunta · siempre gratis',
         icon: Icons.bolt_outlined,
         color: AppColors.goldDeep,
+        access: FeatureAccessLevel.open,
         onTap: () {
           final ok = state.startSession(mode: SessionMode.speedBattle);
           launchSessionOrPaywall(
@@ -518,15 +561,18 @@ class _ModesGrid extends StatelessWidget {
           );
         },
       ),
-      _ModeCard(
+      TrainingModeCard(
         title: 'Mi especialidad',
         subtitle: state.canAccessSpecialty
             ? (profile.especialidad == null
                 ? 'Práctica del módulo de área'
                 : 'Enfocado en ${profile.especialidad!.label}')
-            : 'Incluido en Premium',
+            : 'Bloqueado en Gratis · incluido en Premium',
         icon: Icons.school_outlined,
         color: AppColors.inkSoft,
+        access: state.canAccessSpecialty
+            ? FeatureAccessLevel.open
+            : FeatureAccessLevel.locked,
         onTap: () {
           if (!state.canAccessSpecialty) {
             ScaffoldMessenger.of(context).showSnackBar(
@@ -563,11 +609,17 @@ class _ModesGrid extends StatelessWidget {
           );
         },
       ),
-      _ModeCard(
+      TrainingModeCard(
         title: 'Plan diario',
-        subtitle: 'Ruta hasta tu fecha de examen.',
+        subtitle: premium
+            ? 'Ruta hasta tu fecha de examen.'
+            : 'Ruta gratis · algunas tareas piden Premium',
         icon: Icons.route_outlined,
         color: AppColors.canopy,
+        access: premium
+            ? FeatureAccessLevel.open
+            : FeatureAccessLevel.limited,
+        limitedLabel: 'Mixto',
         onTap: () => context.go('/app/plan'),
       ),
     ];
@@ -687,71 +739,6 @@ class _StreakCard extends StatelessWidget {
             ),
           ),
         ],
-      ),
-    );
-  }
-}
-
-class _ModeCard extends StatelessWidget {
-  const _ModeCard({
-    required this.title,
-    required this.subtitle,
-    required this.icon,
-    required this.color,
-    required this.onTap,
-  });
-
-  final String title;
-  final String subtitle;
-  final IconData icon;
-  final Color color;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    return Material(
-      color: theme.cardTheme.color,
-      borderRadius: BorderRadius.circular(20),
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(20),
-        child: Container(
-          width: double.infinity,
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(20),
-            border: Border.all(color: theme.colorScheme.outline),
-          ),
-          child: Row(
-            children: [
-              Container(
-                width: 46,
-                height: 46,
-                decoration: BoxDecoration(
-                  color: color.withValues(alpha: 0.14),
-                  borderRadius: BorderRadius.circular(14),
-                ),
-                child: Icon(icon, color: color),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(title, style: theme.textTheme.titleSmall),
-                    const SizedBox(height: 2),
-                    Text(subtitle, style: theme.textTheme.bodySmall),
-                  ],
-                ),
-              ),
-              Icon(
-                Icons.chevron_right,
-                color: theme.colorScheme.onSurfaceVariant,
-              ),
-            ],
-          ),
-        ),
       ),
     );
   }

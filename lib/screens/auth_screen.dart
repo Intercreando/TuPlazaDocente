@@ -6,6 +6,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
+import '../widgets/legal_footer_links.dart';
 
 /// Acceso con Google, email o continuar como invitado.
 class AuthScreen extends StatefulWidget {
@@ -78,7 +79,9 @@ class _AuthScreenState extends State<AuthScreen> {
                     'Conecta tu cuenta para sincronizar racha, plan y Premium entre dispositivos.',
                     style: theme.textTheme.bodyLarge,
                   ),
-                  const SizedBox(height: 22),
+                  const SizedBox(height: 10),
+                  const LegalFooterLinks(compact: true),
+                  const SizedBox(height: 18),
                   FilledButton.icon(
                     onPressed: _loading ? null : () => _run(state.signInWithGoogle),
                     icon: const Icon(Icons.g_mobiledata_rounded),

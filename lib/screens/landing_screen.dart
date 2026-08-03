@@ -13,6 +13,7 @@ import '../widgets/brand_logo.dart';
 import '../widgets/brand_mark.dart';
 import '../widgets/concurso_phase_badge.dart';
 import '../widgets/landing_credibility_sections.dart';
+import '../widgets/legal_footer_links.dart';
 import '../widgets/premium_chrome.dart';
 
 /// Landing premium: hero editorial en desktop + secciones de confianza.
@@ -91,6 +92,12 @@ class LandingScreen extends StatelessWidget {
                                 _HeroVisual(theme: theme, compact: true),
                               ],
                               const LandingCredibilitySections(),
+                              const SizedBox(height: 28),
+                              const LegalFooterLinks(
+                                compact: true,
+                                prefix: 'Consulta nuestros',
+                              ),
+                              const SizedBox(height: 12),
                             ],
                           ),
                         ),
