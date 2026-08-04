@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../models/enums.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import 'concurso_bento_grid.dart';
 import 'testimonials_section.dart';
 
 /// Secciones de credibilidad debajo del hero (sin alterar el copy principal).
@@ -16,6 +17,8 @@ class LandingCredibilitySections extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 56 : 40),
+        const ConcursoBentoGrid(),
+        SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
         const _TrustFactsStrip(),
         SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
         const _SpecializationSection(),
