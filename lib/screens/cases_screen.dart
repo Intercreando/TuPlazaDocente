@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../data/question_bank.dart';
 import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/app_snackbars.dart';
 import '../utils/session_launch.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/feature_access_badge.dart';
@@ -51,16 +51,9 @@ class CasesScreen extends StatelessWidget {
                 FilledButton.icon(
                   onPressed: () {
                     if (!state.canAccessCases) {
-                      ScaffoldMessenger.of(context).showSnackBar(
-                        SnackBar(
-                          content: const Text(
-                            'Casos de Aula es Premium.',
-                          ),
-                          action: SnackBarAction(
-                            label: 'Premium',
-                            onPressed: () => context.push('/premium'),
-                          ),
-                        ),
+                      AppSnackbars.premiumLocked(
+                        context,
+                        'Casos de Aula es Premium.',
                       );
                       return;
                     }
@@ -144,17 +137,9 @@ class CasesScreen extends StatelessWidget {
                               child: TextButton.icon(
                                 onPressed: () {
                                   if (locked) {
-                                    ScaffoldMessenger.of(context).showSnackBar(
-                                      SnackBar(
-                                        content: const Text(
-                                          'Resolver casos es Premium.',
-                                        ),
-                                        action: SnackBarAction(
-                                          label: 'Premium',
-                                          onPressed: () =>
-                                              context.push('/premium'),
-                                        ),
-                                      ),
+                                    AppSnackbars.premiumLocked(
+                                      context,
+                                      'Resolver casos es Premium.',
                                     );
                                     return;
                                   }

@@ -17,6 +17,7 @@ import '../widgets/brand_mark.dart';
 import '../widgets/feature_access_badge.dart';
 import '../widgets/freemium_scope_banner.dart';
 import '../widgets/tag_mastery_map.dart';
+import '../utils/app_snackbars.dart';
 import '../widgets/testimonials_section.dart';
 import '../widgets/training_mode_card.dart';
 
@@ -544,16 +545,9 @@ class _ModesGrid extends StatelessWidget {
             : FeatureAccessLevel.locked,
         onTap: () {
           if (!state.canAccessCases) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: const Text(
-                  'Casos de Aula es Premium. En Gratis: reto diario + 1 práctica al día.',
-                ),
-                action: SnackBarAction(
-                  label: 'Premium',
-                  onPressed: () => context.push('/premium'),
-                ),
-              ),
+            AppSnackbars.premiumLocked(
+              context,
+              'Casos de Aula es Premium. En Gratis: reto diario + 1 práctica al día.',
             );
             return;
           }
@@ -590,24 +584,16 @@ class _ModesGrid extends StatelessWidget {
             : FeatureAccessLevel.locked,
         onTap: () {
           if (!state.canAccessSpecialty) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              SnackBar(
-                content: const Text(
-                  'La práctica por especialidad es Premium.',
-                ),
-                action: SnackBarAction(
-                  label: 'Premium',
-                  onPressed: () => context.push('/premium'),
-                ),
-              ),
+            AppSnackbars.premiumLocked(
+              context,
+              'La práctica por especialidad es Premium.',
             );
             return;
           }
           if (profile.especialidad == null) {
-            ScaffoldMessenger.of(context).showSnackBar(
-              const SnackBar(
-                content: Text('Primero elige tu especialidad en el perfil.'),
-              ),
+            AppSnackbars.show(
+              context,
+              message: 'Primero elige tu especialidad en el perfil.',
             );
             return;
           }
