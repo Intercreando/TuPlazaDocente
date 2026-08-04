@@ -74,9 +74,13 @@ class PaymentService {
         return 'Inicia sesión (Google o correo) antes de continuar.';
       case 'failed-precondition':
         return e.message ??
-            'Wompi aún no está configurado en el servidor.';
+            'No se pudo completar la operación (revisa cuenta o código).';
       case 'invalid-argument':
         return e.message ?? 'Código inválido.';
+      case 'already-exists':
+        return e.message ?? 'Ya canjeaste este código.';
+      case 'resource-exhausted':
+        return e.message ?? 'Este código ya no tiene usos disponibles.';
       case 'unavailable':
       case 'not-found':
         return 'El servicio de pagos no está desplegado o disponible aún.';

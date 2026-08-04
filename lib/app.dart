@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
@@ -17,7 +19,8 @@ class TuPlazaDocenteApp extends StatefulWidget {
   State<TuPlazaDocenteApp> createState() => _TuPlazaDocenteAppState();
 }
 
-class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
+class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp>
+    with WidgetsBindingObserver {
   late final AppState _appState;
   late final PwaInstallService _pwaInstallService;
   late final GoRouter _router;
@@ -25,6 +28,7 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     _appState = AppState();
     _pwaInstallService = PwaInstallService();
     _router = createAppRouter(_appState);
@@ -32,7 +36,15 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp> {
   }
 
   @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      unawaited(_appState.refreshPremiumDeviceSlot());
+    }
+  }
+
+  @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     _appState.dispose();
     _pwaInstallService.dispose();
     _router.dispose();

@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../models/enums.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import 'testimonials_section.dart';
 
 /// Secciones de credibilidad debajo del hero (sin alterar el copy principal).
 class LandingCredibilitySections extends StatelessWidget {
@@ -20,6 +21,8 @@ class LandingCredibilitySections extends StatelessWidget {
         const _SpecializationSection(),
         SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
         const _WhyTrustSection(),
+        SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
+        const TestimonialsSection(limit: 4, showCompose: true),
         SizedBox(height: LayoutBreakpoints.isDesktop(context) ? 64 : 48),
         const _TransparencyBand(),
         const SizedBox(height: 32),

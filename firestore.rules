@@ -24,6 +24,12 @@ service cloud.firestore {
         || premiumUnchanged()
       );
       allow delete: if false;
+
+      // Dispositivos Premium: solo lectura del dueño; escritura vía Admin SDK.
+      match /devices/{deviceId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
     }
 
     match /payments/{paymentId} {
@@ -41,6 +47,20 @@ service cloud.firestore {
 
     match /meta/{docId} {
       allow read: if request.auth != null;
+      allow write: if false;
+    }
+
+    // Códigos promo: solo Admin SDK (Cloud Functions / consola).
+    match /promoCodes/{codeId} {
+      allow read, write: if false;
+      match /redemptions/{uid} {
+        allow read, write: if false;
+      }
+    }
+
+    // Opiniones: lectura pública solo si approved; escritura vía Cloud Functions.
+    match /testimonials/{id} {
+      allow read: if resource.data.approved == true;
       allow write: if false;
     }
   }

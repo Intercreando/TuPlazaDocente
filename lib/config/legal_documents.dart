@@ -24,17 +24,23 @@ abstract final class LegalDocuments {
       title: '3. Cuentas y uso permitido',
       body:
           'Puedes usar el servicio como invitado o con cuenta (Google o correo). Eres responsable '
-          'de la confidencialidad de tu acceso. Está prohibido: abusar de la plataforma, intentar '
-          'eludir límites freemium de forma fraudulenta, revender el acceso Premium sin '
-          'autorización, o usar el contenido para entrenar sistemas ajenos a tu preparación personal.',
+          'de la confidencialidad de tu acceso. La cuenta es de uso personal: no compartas tu '
+          'contraseña ni el acceso Premium con terceros para que varios aspirantes entren a la vez. '
+          'Cada persona aprende distinto; la app construye un perfil propio (racha, radar, plan y '
+          'maestría). Si varias personas usan la misma cuenta, ese perfil se contamina y el '
+          'entrenamiento deja de ser útil para nadie. Está prohibido: abusar de la plataforma, '
+          'eludir límites freemium de forma fraudulenta, revender el acceso Premium, o usar el '
+          'contenido para entrenar sistemas ajenos a tu preparación personal. Podemos limitar el '
+          'número de dispositivos concurrentes por cuenta.',
     ),
     LegalSection(
       title: '4. Plan Gratis y Premium',
       body:
           'El plan Gratis incluye cupos diarios/mensuales y modos limitados. Premium es un pago '
           'único por convocatoria vigente (no es suscripción automática). El precio vigente se '
-          'muestra en la pantalla Premium. Códigos de acceso pueden existir con fines internos '
-          'o promocionales y pueden revocarse.',
+          'muestra en la pantalla Premium. Premium puede usarse en hasta 3 dispositivos de la '
+          'misma cuenta; si abres un cuarto, el más antiguo puede cerrarse. Códigos de acceso '
+          'pueden existir con fines internos o promocionales y pueden revocarse.',
     ),
     LegalSection(
       title: '5. Pagos',

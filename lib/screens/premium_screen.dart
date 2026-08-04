@@ -213,7 +213,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     ),
                     const SizedBox(height: 8),
                     Text(
-                      'Pago único. No se renueva solo cada mes.',
+                      'Pago único. No se renueva solo cada mes. '
+                      'Premium en tu cuenta: hasta ${AppConfig.maxPremiumDevices} dispositivos. '
+                      'No compartas el acceso: el radar, la racha y el plan se arman con tu forma de aprender.',
                       style: theme.textTheme.bodySmall,
                     ),
                     const SizedBox(height: 10),
@@ -229,7 +231,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       textCapitalization: TextCapitalization.characters,
                       decoration: const InputDecoration(
                         labelText: 'Código Premium',
-                        hintText: 'PLAZA2026',
+                        hintText: 'Tu código',
                       ),
                     ),
                     const SizedBox(height: 10),

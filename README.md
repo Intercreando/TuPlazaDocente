@@ -117,7 +117,48 @@ firebase deploy --only functions
 
 **Rollback rápido a sandbox:** vuelve a setear secrets `pub_test_` / `test_*` y redespliega functions.
 
-Códigos Premium: viven solo en Cloud Function `activatePremiumCode` (no los publiques).
+Códigos Premium: colección Firestore `promoCodes` (crear sin redesplegar). Ver sección siguiente.
+
+## Códigos promocionales Premium
+
+Los códigos ya **no** van hardcodeados. Viven en Firestore:
+
+`promoCodes/{CODIGO}`
+
+Campos útiles:
+
+| Campo | Ejemplo | Nota |
+|-------|---------|------|
+| `active` | `true` | Si `false`, no se puede canjear |
+| `maxRedemptions` | `50` | `0` = ilimitado |
+| `redeemedCount` | `0` | Lo incrementa el servidor |
+| `expiresAt` | timestamp | Opcional |
+| `note` | `"lanzamiento"` | Solo interno |
+
+### Crear desde script
+
+```bash
+cd tools/seed
+# Migra códigos internos iniciales (una vez):
+node seed_promo_codes.js
+
+# Promo nueva (50 usos):
+node seed_promo_codes.js --code PROMO-ABRIL --max 50 --note "lanzamiento abril"
+
+# Un solo uso (cortesía):
+node seed_promo_codes.js --code VIP-ELKIN --max 1
+
+# Desactivar:
+node seed_promo_codes.js --code PROMO-ABRIL --disable
+```
+
+### Crear desde Firebase Console
+
+1. Firestore → colección `promoCodes`
+2. Document ID = el código en MAYÚSCULAS (ej. `PROMO-ABRIL`)
+3. Campos: `active` (bool true), `maxRedemptions` (number), `redeemedCount` (number 0), `code` (string igual al ID)
+
+Reglas: nadie del cliente puede leer/escribir códigos (solo Cloud Functions).
 
 ## Legales
 

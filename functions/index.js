@@ -1,7 +1,9 @@
 /**
  * Cloud Functions TuPlazaDocente:
- * - createPremiumCheckout: crea checkout Wompi (Colombia)
- * - wompiWebhook: confirma pago y activa Premium
+ * - createPremiumCheckout / wompiWebhook: pagos Wompi
+ * - activatePremiumCode: códigos Premium
+ * - registerPremiumDevice / checkPremiumDevice: cupo de dispositivos
+ * - submitTestimonial: opiniones de comunidad (moderación)
  * - sendStreakReminders: recordatorio diario de racha (FCM)
  */
 const crypto = require("crypto");
@@ -26,11 +28,8 @@ const PREMIUM_PRICE_COP = 89900;
 const PREMIUM_AMOUNT_CENTS = PREMIUM_PRICE_COP * 100;
 const APP_URL = "https://www.tuplazadocente.com";
 const WOMPI_CHECKOUT_BASE = "https://checkout.wompi.co/p/";
-const VALID_PREMIUM_CODES = new Set([
-  "PLAZA2026",
-  "DOCENTE-REY",
-  "TUPLAZA-PREMIUM",
-]);
+/** Cupo de dispositivos concurrentes por cuenta Premium. */
+const MAX_PREMIUM_DEVICES = 3;
 
 /**
  * Firma de integridad del Web Checkout Wompi.
@@ -304,30 +303,302 @@ exports.wompiWebhook = onRequest(
 );
 
 /**
- * Activa Premium con código (servidor). El cliente no puede auto-asignarse Premium.
+ * Activa Premium con código promocional (colección promoCodes).
+ * El cliente no puede auto-asignarse Premium.
  */
 exports.activatePremiumCode = onCall(
     {
       region: "southamerica-east1",
       cors: true,
+      timeoutSeconds: 20,
+      memory: "256MiB",
     },
     async (request) => {
       if (!request.auth?.uid) {
         throw new HttpsError("unauthenticated", "Debes iniciar sesión.");
       }
+      if (request.auth.token.firebase?.sign_in_provider === "anonymous") {
+        throw new HttpsError(
+            "failed-precondition",
+            "Guarda tu cuenta (Google o correo) antes de canjear un código.",
+        );
+      }
+
+      const uid = request.auth.uid;
       const code = String(request.data?.code || "").trim().toUpperCase();
-      if (!VALID_PREMIUM_CODES.has(code)) {
+      if (!/^[A-Z0-9_-]{4,32}$/.test(code)) {
         throw new HttpsError("invalid-argument", "Código inválido.");
       }
 
-      await getFirestore().collection("users").doc(request.auth.uid).set({
-        isPremium: true,
-        premiumActivatedAt: FieldValue.serverTimestamp(),
-        premiumSource: "code",
-        premiumCode: code,
-      }, {merge: true});
+      const db = getFirestore();
+      const codeRef = db.collection("promoCodes").doc(code);
+      const userRef = db.collection("users").doc(uid);
+      const redemptionRef = codeRef.collection("redemptions").doc(uid);
 
+      try {
+        await db.runTransaction(async (tx) => {
+          const codeSnap = await tx.get(codeRef);
+          if (!codeSnap.exists) {
+            throw new HttpsError("invalid-argument", "Código inválido.");
+          }
+          const data = codeSnap.data() || {};
+          if (data.active !== true) {
+            throw new HttpsError("failed-precondition", "Este código ya no está activo.");
+          }
+          if (data.expiresAt && typeof data.expiresAt.toMillis === "function") {
+            if (data.expiresAt.toMillis() < Date.now()) {
+              throw new HttpsError("failed-precondition", "Este código expiró.");
+            }
+          }
+          const max = Number(data.maxRedemptions) || 0;
+          const used = Number(data.redeemedCount) || 0;
+          if (max > 0 && used >= max) {
+            throw new HttpsError(
+                "resource-exhausted",
+                "Este código ya alcanzó el máximo de usos.",
+            );
+          }
+
+          const redSnap = await tx.get(redemptionRef);
+          if (redSnap.exists) {
+            throw new HttpsError(
+                "already-exists",
+                "Ya canjeaste este código en esta cuenta.",
+            );
+          }
+
+          tx.set(redemptionRef, {
+            uid,
+            redeemedAt: FieldValue.serverTimestamp(),
+          });
+          tx.update(codeRef, {
+            redeemedCount: FieldValue.increment(1),
+            lastRedeemedAt: FieldValue.serverTimestamp(),
+          });
+          tx.set(userRef, {
+            isPremium: true,
+            premiumActivatedAt: FieldValue.serverTimestamp(),
+            premiumSource: "promo_code",
+            premiumCode: code,
+          }, {merge: true});
+        });
+      } catch (error) {
+        if (error instanceof HttpsError) throw error;
+        console.error("activatePremiumCode transaction", error);
+        throw new HttpsError(
+            "internal",
+            "No pudimos validar el código. Intenta de nuevo.",
+        );
+      }
+
+      console.log("activatePremiumCode ok", {uid, code});
       return {ok: true, code};
+    },
+);
+
+/**
+ * Registra un dispositivo Premium y expulsa los más antiguos si superan el cupo.
+ */
+exports.registerPremiumDevice = onCall(
+    {
+      region: "southamerica-east1",
+      cors: true,
+      timeoutSeconds: 20,
+      memory: "256MiB",
+    },
+    async (request) => {
+      if (!request.auth?.uid) {
+        throw new HttpsError("unauthenticated", "Debes iniciar sesión.");
+      }
+      if (request.auth.token.firebase?.sign_in_provider === "anonymous") {
+        return {ok: true, skipped: true, allowed: true, reason: "anonymous"};
+      }
+
+      const uid = request.auth.uid;
+      const deviceId = String(request.data?.deviceId || "").trim();
+      if (!/^[a-zA-Z0-9_-]{8,64}$/.test(deviceId)) {
+        throw new HttpsError("invalid-argument", "deviceId inválido.");
+      }
+      const label = String(request.data?.label || "Dispositivo").slice(0, 120);
+      const maxDevices = Math.min(
+          Math.max(Number(request.data?.maxDevices) || MAX_PREMIUM_DEVICES, 1),
+          5,
+      );
+
+      const db = getFirestore();
+      const userRef = db.collection("users").doc(uid);
+      const userSnap = await userRef.get();
+      if (!userSnap.exists || userSnap.data()?.isPremium !== true) {
+        return {ok: true, skipped: true, allowed: true, reason: "not_premium"};
+      }
+
+      const devicesCol = userRef.collection("devices");
+      const deviceRef = devicesCol.doc(deviceId);
+      const existing = await deviceRef.get();
+      if (existing.exists) {
+        await deviceRef.update({
+          label,
+          lastSeenAt: FieldValue.serverTimestamp(),
+          revoked: false,
+        });
+      } else {
+        await deviceRef.set({
+          deviceId,
+          label,
+          platform: "web",
+          revoked: false,
+          createdAt: FieldValue.serverTimestamp(),
+          lastSeenAt: FieldValue.serverTimestamp(),
+        });
+      }
+
+      const all = await devicesCol.orderBy("lastSeenAt", "asc").get();
+      const kicked = [];
+      const overflow = all.size - maxDevices;
+      if (overflow > 0) {
+        const candidates = all.docs.filter((doc) => doc.id !== deviceId);
+        for (let i = 0; i < overflow && i < candidates.length; i++) {
+          kicked.push(candidates[i].id);
+          await candidates[i].ref.delete();
+        }
+      }
+
+      console.log("registerPremiumDevice", {
+        uid,
+        deviceId,
+        kicked: kicked.length,
+        maxDevices,
+      });
+
+      return {
+        ok: true,
+        allowed: true,
+        maxDevices,
+        kicked,
+        activeCount: Math.min(all.size, maxDevices),
+      };
+    },
+);
+
+/**
+ * Verifica si el dispositivo sigue activo en el cupo Premium.
+ */
+exports.checkPremiumDevice = onCall(
+    {
+      region: "southamerica-east1",
+      cors: true,
+      timeoutSeconds: 15,
+      memory: "256MiB",
+    },
+    async (request) => {
+      if (!request.auth?.uid) {
+        throw new HttpsError("unauthenticated", "Debes iniciar sesión.");
+      }
+      if (request.auth.token.firebase?.sign_in_provider === "anonymous") {
+        return {ok: true, skipped: true, allowed: true, reason: "anonymous"};
+      }
+
+      const uid = request.auth.uid;
+      const deviceId = String(request.data?.deviceId || "").trim();
+      if (!/^[a-zA-Z0-9_-]{8,64}$/.test(deviceId)) {
+        throw new HttpsError("invalid-argument", "deviceId inválido.");
+      }
+
+      const db = getFirestore();
+      const userRef = db.collection("users").doc(uid);
+      const userSnap = await userRef.get();
+      if (!userSnap.exists || userSnap.data()?.isPremium !== true) {
+        return {ok: true, skipped: true, allowed: true, reason: "not_premium"};
+      }
+
+      const deviceRef = userRef.collection("devices").doc(deviceId);
+      const deviceSnap = await deviceRef.get();
+      if (!deviceSnap.exists || deviceSnap.data()?.revoked === true) {
+        return {
+          ok: true,
+          allowed: false,
+          reason: "revoked",
+          message:
+            "Esta cuenta Premium alcanzó el límite de dispositivos. " +
+            "Cerramos la sesión en este equipo.",
+          maxDevices: MAX_PREMIUM_DEVICES,
+        };
+      }
+
+      await deviceRef.update({
+        lastSeenAt: FieldValue.serverTimestamp(),
+      });
+
+      return {
+        ok: true,
+        allowed: true,
+        maxDevices: MAX_PREMIUM_DEVICES,
+      };
+    },
+);
+
+/**
+ * Recibe una opinión de usuario (queda pendiente de moderación).
+ */
+exports.submitTestimonial = onCall(
+    {
+      region: "southamerica-east1",
+      cors: true,
+      timeoutSeconds: 20,
+      memory: "256MiB",
+    },
+    async (request) => {
+      if (!request.auth?.uid) {
+        throw new HttpsError("unauthenticated", "Debes iniciar sesión.");
+      }
+      if (request.auth.token.firebase?.sign_in_provider === "anonymous") {
+        throw new HttpsError(
+            "failed-precondition",
+            "Guarda tu cuenta (Google o correo) para dejar una opinión.",
+        );
+      }
+
+      const uid = request.auth.uid;
+      const text = String(request.data?.text || "").trim();
+      const displayName = String(request.data?.displayName || "").trim();
+      const roleLabel = String(request.data?.roleLabel || "").trim();
+
+      if (text.length < 20 || text.length > 400) {
+        throw new HttpsError(
+            "invalid-argument",
+            "La opinión debe tener entre 20 y 400 caracteres.",
+        );
+      }
+      if (displayName.length < 2 || displayName.length > 60) {
+        throw new HttpsError("invalid-argument", "Nombre a mostrar inválido.");
+      }
+
+      const db = getFirestore();
+      const weekAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+      const recent = await db.collection("testimonials")
+          .where("uid", "==", uid)
+          .where("createdAt", ">", weekAgo)
+          .limit(1)
+          .get();
+      if (!recent.empty) {
+        throw new HttpsError(
+            "resource-exhausted",
+            "Ya enviaste una opinión recientemente. Puedes intentar de nuevo en unos días.",
+        );
+      }
+
+      await db.collection("testimonials").add({
+        text,
+        displayName,
+        roleLabel: roleLabel || null,
+        uid,
+        source: "user",
+        approved: false,
+        createdAt: FieldValue.serverTimestamp(),
+      });
+
+      console.log("submitTestimonial ok", {uid, len: text.length});
+      return {ok: true, pending: true};
     },
 );
 

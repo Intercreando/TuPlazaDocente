@@ -10,13 +10,8 @@ abstract final class AppConfig {
       'Un solo pago: sin cuotas mensuales. El acceso Premium cubre la convocatoria '
       'docente vigente (CNSC) hasta que esa etapa termine. No es una suscripción.';
 
-  /// Códigos válidos también en Cloud Function `activatePremiumCode`.
-  /// No publicar estos valores en marketing ni README.
-  static const Set<String> premiumAccessCodes = {
-    'PLAZA2026',
-    'DOCENTE-REY',
-    'TUPLAZA-PREMIUM',
-  };
+  /// Dispositivos concurrentes permitidos por cuenta Premium.
+  static const int maxPremiumDevices = 3;
 
   static const String supportEmail = 'soporte@tuplazadocente.com';
 }

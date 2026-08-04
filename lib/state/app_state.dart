@@ -1,13 +1,16 @@
+import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
+import '../config/app_config.dart';
 import '../data/question_bank.dart';
 import '../models/enums.dart';
 import '../models/question.dart';
 import '../models/study_plan.dart';
 import '../models/user_profile.dart';
+import '../services/device_session_service.dart';
 import '../services/firebase_sync_service.dart';
 import '../services/payment_service.dart';
 import '../services/question_repository.dart';
@@ -22,10 +25,12 @@ class AppState extends ChangeNotifier {
     PaymentService? paymentService,
     StreakNotificationService? notificationService,
     QuestionRepository? questionRepository,
+    DeviceSessionService? deviceSessionService,
   })  : _sync = syncService ?? FirebaseSyncService(),
         _payments = paymentService ?? PaymentService(),
         _notifications = notificationService ?? StreakNotificationService(),
-        _questions = questionRepository ?? QuestionRepository();
+        _questions = questionRepository ?? QuestionRepository(),
+        _devices = deviceSessionService ?? DeviceSessionService();
 
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const freeDailyLimit = 5;
@@ -37,6 +42,10 @@ class AppState extends ChangeNotifier {
   final PaymentService _payments;
   final StreakNotificationService _notifications;
   final QuestionRepository _questions;
+  final DeviceSessionService _devices;
+
+  Timer? _deviceHeartbeat;
+  bool _deviceGateBusy = false;
 
   UserProfile profile = const UserProfile();
   bool ready = false;
@@ -157,6 +166,7 @@ class AppState extends ChangeNotifier {
 
       lastError = null;
       notifyListeners();
+      await _syncPremiumDeviceSlot(register: true);
       await _maybeRemindStreak();
     } catch (e) {
       ready = true;
@@ -164,6 +174,57 @@ class AppState extends ChangeNotifier {
       profile = const UserProfile();
       notifyListeners();
     }
+  }
+
+  /// Registra o verifica el cupo de dispositivos Premium (máx. N).
+  Future<void> _syncPremiumDeviceSlot({required bool register}) async {
+    if (!profile.isPremium || _sync.isAnonymous || !_sync.available) {
+      _deviceHeartbeat?.cancel();
+      _deviceHeartbeat = null;
+      return;
+    }
+    if (_deviceGateBusy) return;
+    _deviceGateBusy = true;
+    try {
+      final result = register
+          ? await _devices.registerPremiumDevice()
+          : await _devices.checkPremiumDevice();
+      if (!result.allowed && !result.skipped) {
+        await _evictForDeviceLimit(result.message);
+        return;
+      }
+      _deviceHeartbeat?.cancel();
+      _deviceHeartbeat = Timer.periodic(
+        const Duration(minutes: 3),
+        (_) => unawaited(refreshPremiumDeviceSlot()),
+      );
+    } finally {
+      _deviceGateBusy = false;
+    }
+  }
+
+  /// Revalida el dispositivo (resume de app / heartbeat).
+  Future<void> refreshPremiumDeviceSlot() async {
+    await _syncPremiumDeviceSlot(register: false);
+  }
+
+  Future<void> _evictForDeviceLimit(String? message) async {
+    _deviceHeartbeat?.cancel();
+    _deviceHeartbeat = null;
+    final detail = message ??
+        'Esta cuenta Premium ya está activa en '
+            '${AppConfig.maxPremiumDevices} dispositivos. '
+            'Cerramos la sesión aquí.';
+    await signOut();
+    lastError = detail;
+    syncStatus = detail;
+    notifyListeners();
+  }
+
+  @override
+  void dispose() {
+    _deviceHeartbeat?.cancel();
+    super.dispose();
   }
 
   Future<void> _maybeRemindStreak() async {
@@ -305,6 +366,7 @@ class AppState extends ChangeNotifier {
       lastError = null;
       await _persist();
       notifyListeners();
+      await _syncPremiumDeviceSlot(register: true);
       return true;
     } catch (e) {
       lastError = e.toString().replaceFirst('Exception: ', '');
@@ -357,6 +419,9 @@ class AppState extends ChangeNotifier {
     profile = profile.copyWith(isPremium: remote.isPremium);
     await _persist();
     notifyListeners();
+    if (profile.isPremium) {
+      await _syncPremiumDeviceSlot(register: true);
+    }
   }
 
   Future<bool> signInWithEmail(String email, String password) async {
@@ -396,6 +461,8 @@ class AppState extends ChangeNotifier {
   /// Conserva solo la preferencia de tema oscuro en el dispositivo.
   Future<bool> signOut() async {
     try {
+      _deviceHeartbeat?.cancel();
+      _deviceHeartbeat = null;
       final keepDarkMode = profile.darkMode;
 
       // 1) Persistir progreso de la cuenta registrada antes de soltar el UID.
@@ -468,6 +535,7 @@ class AppState extends ChangeNotifier {
     lastError = null;
     await _persist();
     notifyListeners();
+    await _syncPremiumDeviceSlot(register: true);
   }
 
   bool startSession({

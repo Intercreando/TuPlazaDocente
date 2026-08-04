@@ -17,6 +17,7 @@ import '../widgets/brand_mark.dart';
 import '../widgets/feature_access_badge.dart';
 import '../widgets/freemium_scope_banner.dart';
 import '../widgets/tag_mastery_map.dart';
+import '../widgets/testimonials_section.dart';
 import '../widgets/training_mode_card.dart';
 
 /// Home: hub de entrenamiento (dashboard en escritorio, lista en móvil).
@@ -151,6 +152,13 @@ class _MobileHome extends StatelessWidget {
           const SizedBox(height: 18),
           _PremiumTile(),
         ],
+        const SizedBox(height: 28),
+        const TestimonialsSection(
+          limit: 3,
+          showCompose: true,
+          compact: true,
+          showSubtitle: false,
+        ),
       ],
     );
   }
@@ -246,6 +254,13 @@ class _DesktopHome extends StatelessWidget {
               ),
             ],
           ),
+        ),
+        const SizedBox(height: 28),
+        const TestimonialsSection(
+          limit: 3,
+          showCompose: true,
+          compact: true,
+          showSubtitle: false,
         ),
       ],
     );
@@ -669,7 +684,8 @@ class _PremiumTile extends StatelessWidget {
       title: Text('Desbloquear Premium', style: theme.textTheme.titleSmall),
       subtitle: Text(
         '${AppConfig.premiumPriceLabel} · ${AppConfig.premiumBillingLabel}. '
-        'Práctica y simulacros sin tope, casos y especialidad.',
+        'Práctica y simulacros sin tope, casos y especialidad. '
+        'Tu progreso es personal: no conviene compartir la cuenta.',
         style: theme.textTheme.bodySmall,
       ),
       onTap: () => context.push('/premium'),
