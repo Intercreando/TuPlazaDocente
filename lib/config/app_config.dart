@@ -3,6 +3,9 @@ abstract final class AppConfig {
   /// Precio mostrado (informativo). El cobro real lo define Wompi.
   static const String premiumPriceLabel = r'$89.900 COP';
 
+  /// Valor numérico Premium en COP (Meta Pixel / analítica).
+  static const double premiumPriceCop = 89900;
+
   /// Aclara que no es suscripción mensual.
   static const String premiumBillingLabel = 'Pago único por convocatoria';
 

@@ -17,6 +17,7 @@ import '../services/question_repository.dart';
 import '../services/streak_notification_service.dart';
 import '../services/study_plan_service.dart';
 import '../services/tag_mastery_service.dart';
+import '../utils/meta_pixel.dart';
 
 /// Estado global de progreso, perfil y sesiones.
 class AppState extends ChangeNotifier {
@@ -443,6 +444,9 @@ class AppState extends ChangeNotifier {
       return false;
     }
     await _reloadAfterAuth();
+    if (_sync.lastAuthWasRegistration) {
+      MetaPixel.completeRegistration(method: 'email');
+    }
     return true;
   }
 
@@ -454,6 +458,9 @@ class AppState extends ChangeNotifier {
       return false;
     }
     await _reloadAfterAuth();
+    if (_sync.lastAuthWasRegistration) {
+      MetaPixel.completeRegistration(method: 'google');
+    }
     return true;
   }
 

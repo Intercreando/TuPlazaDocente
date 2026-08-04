@@ -20,6 +20,9 @@ class FirebaseSyncService {
   String? uid;
   String? lastError;
 
+  /// True solo cuando el último auth exitoso creó/vinculó cuenta nueva (no login).
+  bool lastAuthWasRegistration = false;
+
   bool get _firebaseReady => Firebase.apps.isNotEmpty;
 
   FirebaseAuth? get _auth {
@@ -85,6 +88,7 @@ class FirebaseSyncService {
       );
       uid = cred.user?.uid;
       available = uid != null;
+      lastAuthWasRegistration = false;
       lastError = null;
       return true;
     } on FirebaseAuthException catch (e) {
@@ -115,12 +119,14 @@ class FirebaseSyncService {
         );
         final linked = await current.linkWithCredential(credential);
         uid = linked.user?.uid;
+        lastAuthWasRegistration = true;
       } else {
         final cred = await auth.createUserWithEmailAndPassword(
           email: email.trim(),
           password: password,
         );
         uid = cred.user?.uid;
+        lastAuthWasRegistration = true;
       }
       available = uid != null;
       lastError = null;
@@ -150,27 +156,33 @@ class FirebaseSyncService {
 
       final current = auth.currentUser;
       late UserCredential cred;
+      var wasRegistration = false;
 
       if (kIsWeb) {
         if (current != null && current.isAnonymous) {
           try {
             cred = await current.linkWithPopup(provider);
+            wasRegistration = true;
           } on FirebaseAuthException catch (e) {
             if (_isExistingGoogleAccountConflict(e)) {
               cred = await _signInExistingGoogleWithoutReprompt(auth, e);
+              wasRegistration = false;
             } else {
               rethrow;
             }
           }
         } else {
           cred = await auth.signInWithPopup(provider);
+          wasRegistration = cred.additionalUserInfo?.isNewUser ?? false;
         }
       } else {
         cred = await auth.signInWithProvider(provider);
+        wasRegistration = cred.additionalUserInfo?.isNewUser ?? false;
       }
 
       uid = cred.user?.uid;
       available = uid != null;
+      lastAuthWasRegistration = wasRegistration;
       lastError = null;
       return true;
     } on FirebaseAuthException catch (e) {

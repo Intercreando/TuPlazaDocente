@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../config/app_config.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/meta_pixel.dart';
 import '../utils/open_external_url.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/legal_footer_links.dart';
@@ -38,7 +39,33 @@ class _PremiumScreenState extends State<PremiumScreen> {
     final state = context.read<AppState>();
     final messenger = ScaffoldMessenger.of(context);
     if (status == 'success' || status == 'pending') {
+      final wasPremium = state.profile.isPremium;
+      var purchaseTracked = false;
+
+      Future<void> tryTrackPurchase() async {
+        if (purchaseTracked || wasPremium || !state.profile.isPremium) {
+          return;
+        }
+        MetaPixel.purchase(
+          value: AppConfig.premiumPriceCop,
+          currency: 'COP',
+          contentName: 'Premium convocatoria',
+        );
+        purchaseTracked = true;
+      }
+
       await state.refreshPremiumFromCloud();
+      if (!mounted) return;
+      await tryTrackPurchase();
+
+      // Webhook puede tardar unos segundos tras el redirect de Wompi.
+      if (status == 'success' && !state.profile.isPremium) {
+        await Future<void>.delayed(const Duration(seconds: 3));
+        if (!mounted) return;
+        await state.refreshPremiumFromCloud();
+        await tryTrackPurchase();
+      }
+
       if (!mounted) return;
       messenger.showSnackBar(
         SnackBar(
