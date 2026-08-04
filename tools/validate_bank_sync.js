@@ -20,7 +20,7 @@ const PROJECT_ID = "tuplazadocente-9334d";
 
 /** Conteos esperados de lotes gestionados por merge. */
 const EXPECTED = {
-  "dir-apt-": 200,
+  "dir-apt-": 400,
   "oro-cie-": 32,
   "oro-soc-": 32,
 };

@@ -7,7 +7,7 @@
 const fs = require("fs");
 const path = require("path");
 const {letterIndex} = require("./gold_handcrafted_core");
-const {raw} = require("./directivo_aptitudes_part6");
+const {raw} = require("./directivo_aptitudes_part8");
 
 const SEED_PATH = path.join(__dirname, "..", "..", "assets", "seed", "questions_v1.json");
 const DART_DIR = path.join(__dirname, "..", "..", "lib", "data");
@@ -50,8 +50,29 @@ function moduleFor(item) {
       if (item.module === "Gestión escolar") {
         return "Gestión institucional y PEI";
       }
+      if (item.module === "Conocimientos disciplinares") {
+        return "Currículo y referentes MEN";
+      }
       return "Pedagogía y evaluación formativa";
   }
+}
+
+const ESPECIALIDAD_DART = {
+  preescolar: "Especialidad.preescolar",
+  primaria: "Especialidad.primaria",
+  matematicas: "Especialidad.matematicas",
+  ciencias: "Especialidad.ciencias",
+  lenguaje: "Especialidad.lenguaje",
+  sociales: "Especialidad.sociales",
+  directivos: "Especialidad.directivos",
+};
+
+function resolveSpecialty(item) {
+  const tags = item.specialtyTags && item.specialtyTags.length
+      ? item.specialtyTags
+      : [item.targetCargo || "directivos"];
+  const primary = tags[0] || "directivos";
+  return {tags, primary};
 }
 
 function knowledgeTags(tags) {
@@ -77,14 +98,15 @@ function distractors(options, correctLetter) {
 function toSeedItem(item) {
   const correctIndex = letterIndex(item.correct);
   const dif = item.dif ?? 2;
+  const {tags, primary} = resolveSpecialty(item);
   return {
     id: item.id,
     pillar: item.pillar,
     topic: item.topic,
     module: moduleFor(item),
     subtopic: item.topic,
-    targetCargo: "directivos",
-    specialtyTags: ["directivos"],
+    targetCargo: primary,
+    specialtyTags: tags,
     caseContext: item.caso || null,
     stem: item.stem,
     options: item.options,
@@ -142,6 +164,9 @@ function dartModule(item) {
       if (item.module === "Gestión escolar") {
         return "ContentModule.gestionInstitucional";
       }
+      if (item.module === "Conocimientos disciplinares") {
+        return "ContentModule.curriculumReferentes";
+      }
       return "ContentModule.pedagogiaEvaluacion";
   }
 }
@@ -175,14 +200,19 @@ function toDartQuestion(item) {
   const opts = item.options
       .map((o) => `        '${escapeDart(o)}',`)
       .join("\n");
+  const {tags, primary} = resolveSpecialty(item);
+  const dartPrimary = ESPECIALIDAD_DART[primary] || "Especialidad.directivos";
+  const dartTags = tags
+      .map((t) => ESPECIALIDAD_DART[t] || "Especialidad.directivos")
+      .join(", ");
   return `    Question(
       id: '${item.id}',
       pillar: ${dartPillar(item.pillar)},
       topic: '${escapeDart(item.topic)}',
       module: ${dartModule(item)},
       subtopic: '${escapeDart(item.module)}',
-      targetCargo: Especialidad.directivos,
-      specialtyTags: [Especialidad.directivos],${caso}
+      targetCargo: ${dartPrimary},
+      specialtyTags: [${dartTags}],${caso}
       stem: '${escapeDart(item.stem)}',
       options: [
 ${opts}
@@ -224,6 +254,11 @@ function writeDartBanks(items) {
       filter: (i) => i.module === "Gestión escolar",
     },
     {
+      name: "disciplinares",
+      className: "DirectivoAptitudesDisciplinaresBank",
+      filter: (i) => i.module === "Conocimientos disciplinares",
+    },
+    {
       name: "pedagogicas",
       className: "DirectivoAptitudesPedagogicasBank",
       filter: (i) => i.module === "Competencias pedagógicas",
@@ -237,12 +272,29 @@ function writeDartBanks(items) {
   for (const g of groups) {
     const subset = items.filter(g.filter);
     const waves = [
-      {suffix: "", label: "ola 1", className: g.className, items: subset.filter((i) => itemNum(i) < 101)},
+      {
+        suffix: "",
+        label: "ola 1",
+        className: g.className,
+        items: subset.filter((i) => itemNum(i) < 101),
+      },
       {
         suffix: "_ola2",
         label: "ola 2",
         className: `${g.className}Ola2`,
-        items: subset.filter((i) => itemNum(i) >= 101),
+        items: subset.filter((i) => itemNum(i) >= 101 && itemNum(i) < 201),
+      },
+      {
+        suffix: "_ola3",
+        label: "ola 3",
+        className: `${g.className}Ola3`,
+        items: subset.filter((i) => itemNum(i) >= 201 && itemNum(i) < 301),
+      },
+      {
+        suffix: "_ola4",
+        label: "ola 4",
+        className: `${g.className}Ola4`,
+        items: subset.filter((i) => itemNum(i) >= 301),
       },
     ];
 
@@ -272,7 +324,7 @@ ${body},
   const facade = `import '../models/question.dart';
 ${facadeImports.join("\n")}
 
-/// Banco Directivo Docente — Aptitudes y Competencias Básicas (olas 1 y 2).
+/// Banco Directivo Docente — Aptitudes y Competencias Básicas (olas 1–4).
 abstract final class DirectivoAptitudesBank {
   static List<Question> get items => [
 ${facadeSpreads.join("\n")}
@@ -286,18 +338,18 @@ ${facadeSpreads.join("\n")}
 }
 
 function main() {
-  if (raw.length !== 200) {
-    console.error(`Se esperaban 200 ítems, hay ${raw.length}`);
+  if (raw.length !== 400) {
+    console.error(`Se esperaban 400 ítems, hay ${raw.length}`);
     process.exit(1);
   }
 
   const ids = new Set(raw.map((r) => r.id));
-  if (ids.size !== 200) {
+  if (ids.size !== 400) {
     console.error("IDs duplicados en el lote Directivo");
     process.exit(1);
   }
 
-  // Validar claves (muestra olas 1 y 2)
+  // Validar claves (muestra olas 1–4)
   const expected = {
     "dir-apt-num-21": 1,
     "dir-apt-num-23": 2,
@@ -307,6 +359,16 @@ function main() {
     "dir-apt-lec-101": 0,
     "dir-apt-ges-161": 0,
     "dir-apt-ped-200": 3,
+    "dir-apt-lec-201": 0,
+    "dir-apt-num-221": 0,
+    "dir-apt-blan-241": 0,
+    "dir-apt-dis-261": 0,
+    "dir-apt-ped-300": 3,
+    "dir-apt-lec-301": 0,
+    "dir-apt-num-321": 0,
+    "dir-apt-blan-341": 0,
+    "dir-apt-dis-361": 0,
+    "dir-apt-ped-400": 3,
   };
   for (const [id, idx] of Object.entries(expected)) {
     const q = raw.find((r) => r.id === id);

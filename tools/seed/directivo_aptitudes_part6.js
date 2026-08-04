@@ -532,4 +532,4 @@ for (const q of pedago) {
   });
 }
 
-module.exports = {raw};
+module.exports = {raw, push};
