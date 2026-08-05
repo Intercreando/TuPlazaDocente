@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../config/admin_config.dart';
 import '../config/app_config.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
@@ -229,6 +230,27 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       child: const Text('Ya eres Premium · Continuar entrenando'),
                     )
                   else ...[
+                    if (state.pendingDiscountPercent != null &&
+                        state.pendingDiscountPercent! > 0) ...[
+                      Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(14),
+                        decoration: BoxDecoration(
+                          color: AppColors.gold.withValues(alpha: 0.12),
+                          borderRadius: BorderRadius.circular(14),
+                          border: Border.all(
+                            color: AppColors.gold.withValues(alpha: 0.45),
+                          ),
+                        ),
+                        child: Text(
+                          'Código ${state.pendingDiscountCode ?? ''} · '
+                          '${state.pendingDiscountPercent}% de descuento listo. '
+                          'Al pagar con Wompi se aplica el precio rebajado.',
+                          style: theme.textTheme.bodyMedium,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                    ],
                     FilledButton.icon(
                       onPressed: _busy ? null : _openWompiCheckout,
                       icon: const Icon(Icons.payments_outlined),
@@ -274,19 +296,45 @@ class _PremiumScreenState extends State<PremiumScreen> {
                               );
                               if (!mounted) return;
                               setState(() => _busy = false);
-                              messenger.showSnackBar(
-                                SnackBar(
-                                  content: Text(
-                                    ok
-                                        ? 'Premium activado con código.'
-                                        : state.lastError ?? 'Código inválido.',
+                              if (!ok) {
+                                messenger.showSnackBar(
+                                  SnackBar(
+                                    content: Text(
+                                      state.lastError ?? 'Código inválido.',
+                                    ),
                                   ),
+                                );
+                                return;
+                              }
+                              final redeem = state.lastPromoRedeem;
+                              if (redeem != null && redeem.isDiscount) {
+                                messenger.showSnackBar(
+                                  SnackBar(
+                                    content: Text(
+                                      'Descuento del ${redeem.discountPercent}% aplicado. '
+                                      'Ahora paga con Wompi el precio rebajado.',
+                                    ),
+                                  ),
+                                );
+                                return;
+                              }
+                              messenger.showSnackBar(
+                                const SnackBar(
+                                  content: Text('Premium activado con código.'),
                                 ),
                               );
-                              if (ok) router.go('/app');
+                              router.go('/app');
                             },
                       child: const Text('Activar con código'),
                     ),
+                    if (AdminConfig.isAdminEmail(state.authEmail)) ...[
+                      const SizedBox(height: 18),
+                      OutlinedButton.icon(
+                        onPressed: () => context.push('/admin/promos'),
+                        icon: const Icon(Icons.admin_panel_settings_outlined),
+                        label: const Text('Panel de códigos (admin)'),
+                      ),
+                    ],
                   ],
                 ],
               ),

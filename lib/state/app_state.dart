@@ -13,6 +13,7 @@ import '../models/user_profile.dart';
 import '../services/device_session_service.dart';
 import '../services/firebase_sync_service.dart';
 import '../services/payment_service.dart';
+import '../services/promo_code_service.dart';
 import '../services/question_repository.dart';
 import '../services/streak_notification_service.dart';
 import '../services/study_plan_service.dart';
@@ -353,28 +354,47 @@ class AppState extends ChangeNotifier {
 
   Future<bool> activatePremiumWithCode(String code) async {
     try {
-      await _payments.activateWithCode(code);
+      final result = await _payments.activateWithCode(code);
       final remote = await _sync.loadRemoteProfile();
       if (remote != null) {
         profile = remote.copyWith(
-          // Conserva preferencias locales no críticas.
           darkMode: profile.darkMode,
           streakRemindersEnabled: profile.streakRemindersEnabled,
         );
-      } else {
+      } else if (result.isGrant) {
         profile = profile.copyWith(isPremium: true);
       }
       lastError = null;
       await _persist();
       notifyListeners();
-      await _syncPremiumDeviceSlot(register: true);
+      if (result.isGrant) {
+        await _syncPremiumDeviceSlot(register: true);
+        lastPromoRedeem = result;
+      } else {
+        lastPromoRedeem = result;
+      }
       return true;
     } catch (e) {
       lastError = e.toString().replaceFirst('Exception: ', '');
+      lastPromoRedeem = null;
       notifyListeners();
       return false;
     }
   }
+
+  /// Descuento promocional pendiente (Wompi).
+  int? get pendingDiscountPercent =>
+      lastPromoRedeem?.isDiscount == true
+          ? lastPromoRedeem!.discountPercent
+          : _sync.pendingDiscountPercent;
+
+  String? get pendingDiscountCode =>
+      lastPromoRedeem?.isDiscount == true
+          ? lastPromoRedeem!.code
+          : _sync.pendingDiscountCode;
+
+  /// Último canje de código (para mostrar descuento en Premium).
+  PromoRedeemResult? lastPromoRedeem;
 
   Future<String> startPremiumCheckout() async {
     try {

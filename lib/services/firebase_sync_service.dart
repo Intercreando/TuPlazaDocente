@@ -23,6 +23,10 @@ class FirebaseSyncService {
   /// True solo cuando el último auth exitoso creó/vinculó cuenta nueva (no login).
   bool lastAuthWasRegistration = false;
 
+  /// Descuento pendiente leído de Firestore (solo servidor lo escribe).
+  int? pendingDiscountPercent;
+  String? pendingDiscountCode;
+
   bool get _firebaseReady => Firebase.apps.isNotEmpty;
 
   FirebaseAuth? get _auth {
@@ -249,7 +253,16 @@ class FirebaseSyncService {
     try {
       final snap = await db.collection('users').doc(uid).get();
       if (!snap.exists || snap.data() == null) return null;
-      return UserProfile.fromJson(snap.data()!);
+      final data = snap.data()!;
+      final pending = data['pendingPromoDiscount'];
+      if (pending is Map) {
+        pendingDiscountPercent = (pending['percent'] as num?)?.toInt();
+        pendingDiscountCode = pending['code']?.toString();
+      } else {
+        pendingDiscountPercent = null;
+        pendingDiscountCode = null;
+      }
+      return UserProfile.fromJson(data);
     } catch (e) {
       lastError = 'No se pudo leer tu progreso en la nube.';
       debugPrint('FirebaseSync loadRemoteProfile: $e');

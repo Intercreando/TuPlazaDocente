@@ -8,7 +8,14 @@ service cloud.firestore {
     function premiumUnchanged() {
       return !request.resource.data.diff(resource.data)
         .affectedKeys()
-        .hasAny(['isPremium', 'premiumActivatedAt', 'premiumSource', 'premiumPaymentId']);
+        .hasAny([
+          'isPremium',
+          'premiumActivatedAt',
+          'premiumSource',
+          'premiumPaymentId',
+          'premiumCode',
+          'pendingPromoDiscount',
+        ]);
     }
 
     function premiumNotSetOnCreate() {

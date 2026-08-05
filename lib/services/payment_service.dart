@@ -2,6 +2,8 @@ import 'package:cloud_functions/cloud_functions.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/foundation.dart';
 
+import 'promo_code_service.dart';
+
 /// Cliente de checkout Premium vía Cloud Function + Wompi (Colombia).
 class PaymentService {
   PaymentService({FirebaseFunctions? functions}) : _functionsOverride = functions;
@@ -54,18 +56,10 @@ class PaymentService {
     }
   }
 
-  /// Activa Premium con código validado en servidor.
-  Future<void> activateWithCode(String code) async {
-    try {
-      final callable = _functions.httpsCallable('activatePremiumCode');
-      await callable.call(<String, dynamic>{'code': code.trim()});
-    } on FirebaseFunctionsException catch (e) {
-      debugPrint('PaymentService activateWithCode: ${e.code} ${e.message}');
-      throw Exception(_friendlyFunctionsError(e));
-    } catch (e) {
-      debugPrint('PaymentService activateWithCode error: $e');
-      throw Exception('No pudimos validar el código. Intenta de nuevo.');
-    }
+  /// Activa Premium o aplica descuento con código validado en servidor.
+  Future<PromoRedeemResult> activateWithCode(String code) async {
+    final promo = PromoCodeService();
+    return promo.redeem(code);
   }
 
   String _friendlyFunctionsError(FirebaseFunctionsException e) {

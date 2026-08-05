@@ -13,6 +13,7 @@ const {defineSecret} = require("firebase-functions/params");
 const {initializeApp} = require("firebase-admin/app");
 const {getFirestore, FieldValue} = require("firebase-admin/firestore");
 const {getMessaging} = require("firebase-admin/messaging");
+const promoAdmin = require("./promo_admin");
 
 initializeApp();
 
@@ -117,12 +118,32 @@ exports.createPremiumCheckout = onCall(
       }
 
       try {
+        const db = getFirestore();
+        const userSnap = await db.collection("users").doc(uid).get();
+        const pending = userSnap.exists ? (userSnap.data()?.pendingPromoDiscount || null) : null;
+
+        let priceCop = PREMIUM_PRICE_COP;
+        let amountCents = PREMIUM_AMOUNT_CENTS;
+        let appliedPromo = null;
+        if (pending && pending.type === "discount") {
+          const pct = Math.min(99, Math.max(1, Number(pending.percent) || 0));
+          if (pct > 0) {
+            priceCop = Math.round(PREMIUM_PRICE_COP * (100 - pct) / 100);
+            if (priceCop < 1000) priceCop = 1000;
+            amountCents = priceCop * 100;
+            appliedPromo = {
+              code: pending.code || null,
+              percent: pct,
+            };
+          }
+        }
+
         // Referencia única; incluye uid para recuperar Premium si falla el doc payments.
         const reference = `TPD_${uid}_${Date.now()}`;
         const currency = "COP";
         const integrity = wompiIntegritySignature(
             reference,
-            PREMIUM_AMOUNT_CENTS,
+            amountCents,
             currency,
             integritySecret,
         );
@@ -130,7 +151,7 @@ exports.createPremiumCheckout = onCall(
         const params = new URLSearchParams();
         params.set("public-key", publicKey);
         params.set("currency", currency);
-        params.set("amount-in-cents", String(PREMIUM_AMOUNT_CENTS));
+        params.set("amount-in-cents", String(amountCents));
         params.set("reference", reference);
         params.set("signature:integrity", integrity);
         params.set("redirect-url", `${APP_URL}/premium?status=pending`);
@@ -139,19 +160,26 @@ exports.createPremiumCheckout = onCall(
         }
 
         const initPoint = `${WOMPI_CHECKOUT_BASE}?${params.toString()}`;
-        console.log("createPremiumCheckout ok", {uid, reference, hasEmail: Boolean(email)});
+        console.log("createPremiumCheckout ok", {
+          uid,
+          reference,
+          amountCents,
+          promo: appliedPromo?.code || null,
+        });
 
         // No bloqueamos el checkout si falla el registro (permisos / latencia).
         try {
-          await getFirestore().collection("payments").doc(reference).set({
+          await db.collection("payments").doc(reference).set({
             uid,
             reference,
             provider: "wompi",
             status: "created",
-            amount: PREMIUM_PRICE_COP,
-            amountInCents: PREMIUM_AMOUNT_CENTS,
+            amount: priceCop,
+            amountInCents: amountCents,
             currency,
             email: email || null,
+            promoCode: appliedPromo?.code || null,
+            discountPercent: appliedPromo?.percent || null,
             createdAt: FieldValue.serverTimestamp(),
           }, {merge: true});
         } catch (persistError) {
@@ -162,7 +190,11 @@ exports.createPremiumCheckout = onCall(
           preferenceId: reference,
           reference,
           initPoint,
-          amountInCents: PREMIUM_AMOUNT_CENTS,
+          amountInCents: amountCents,
+          amountCop: priceCop,
+          listPriceCop: PREMIUM_PRICE_COP,
+          discountPercent: appliedPromo?.percent || 0,
+          promoCode: appliedPromo?.code || null,
         };
       } catch (error) {
         console.error("createPremiumCheckout error", error);
@@ -230,12 +262,17 @@ exports.wompiWebhook = onRequest(
         const amountInCents = tx.amount_in_cents ?? null;
 
         let uid = null;
+        let expectedAmountCents = PREMIUM_AMOUNT_CENTS;
         if (reference) {
           const payRef = getFirestore().collection("payments").doc(reference);
           try {
             const paySnap = await payRef.get();
             if (paySnap.exists) {
-              uid = paySnap.data()?.uid || null;
+              const payData = paySnap.data() || {};
+              uid = payData.uid || null;
+              if (payData.amountInCents != null) {
+                expectedAmountCents = Number(payData.amountInCents);
+              }
             }
           } catch (e) {
             console.error("wompiWebhook read payment", e);
@@ -279,7 +316,7 @@ exports.wompiWebhook = onRequest(
         }
 
         const amountOk = amountInCents == null ||
-          Number(amountInCents) === PREMIUM_AMOUNT_CENTS;
+          Number(amountInCents) === Number(expectedAmountCents);
 
         if (status === "APPROVED" && uid && amountOk) {
           await getFirestore().collection("users").doc(String(uid)).set({
@@ -288,8 +325,9 @@ exports.wompiWebhook = onRequest(
             premiumSource: "wompi",
             premiumPaymentId: String(tx.id),
             premiumReference: reference || null,
+            pendingPromoDiscount: FieldValue.delete(),
           }, {merge: true});
-          console.log("wompiWebhook premium activated", {uid, reference});
+          console.log("wompiWebhook premium activated", {uid, reference, amountInCents});
         } else {
           console.log("wompiWebhook skip activate", {status, uid, amountOk, reference});
         }
@@ -370,17 +408,39 @@ exports.activatePremiumCode = onCall(
           tx.set(redemptionRef, {
             uid,
             redeemedAt: FieldValue.serverTimestamp(),
+            type: (data.type === "discount" && Number(data.discountPercent) > 0 &&
+              Number(data.discountPercent) < 100) ? "discount" : "grant",
+            discountPercent: Number(data.discountPercent) || 0,
           });
           tx.update(codeRef, {
             redeemedCount: FieldValue.increment(1),
             lastRedeemedAt: FieldValue.serverTimestamp(),
           });
-          tx.set(userRef, {
-            isPremium: true,
-            premiumActivatedAt: FieldValue.serverTimestamp(),
-            premiumSource: "promo_code",
-            premiumCode: code,
-          }, {merge: true});
+
+          const isDiscount = data.type === "discount" &&
+            Number(data.discountPercent) > 0 &&
+            Number(data.discountPercent) < 100;
+
+          if (isDiscount) {
+            const pct = Math.min(99, Math.max(1, Number(data.discountPercent)));
+            tx.set(userRef, {
+              pendingPromoDiscount: {
+                code,
+                type: "discount",
+                percent: pct,
+                appliedAt: FieldValue.serverTimestamp(),
+              },
+              premiumCode: code,
+            }, {merge: true});
+          } else {
+            tx.set(userRef, {
+              isPremium: true,
+              premiumActivatedAt: FieldValue.serverTimestamp(),
+              premiumSource: "promo_code",
+              premiumCode: code,
+              pendingPromoDiscount: FieldValue.delete(),
+            }, {merge: true});
+          }
         });
       } catch (error) {
         if (error instanceof HttpsError) throw error;
@@ -391,8 +451,22 @@ exports.activatePremiumCode = onCall(
         );
       }
 
-      console.log("activatePremiumCode ok", {uid, code});
-      return {ok: true, code};
+      const finalSnap = await codeRef.get();
+      const finalData = finalSnap.data() || {};
+      const isDiscount = finalData.type === "discount" &&
+        Number(finalData.discountPercent) > 0 &&
+        Number(finalData.discountPercent) < 100;
+      const percent = isDiscount ?
+        Math.min(99, Math.max(1, Number(finalData.discountPercent))) :
+        0;
+
+      console.log("activatePremiumCode ok", {uid, code, isDiscount, percent});
+      return {
+        ok: true,
+        code,
+        type: isDiscount ? "discount" : "grant",
+        discountPercent: percent,
+      };
     },
 );
 
@@ -656,3 +730,8 @@ exports.sendStreakReminders = onSchedule(
       );
     },
 );
+
+exports.adminUpsertPromoCode = promoAdmin.adminUpsertPromoCode;
+exports.adminListPromoCodes = promoAdmin.adminListPromoCodes;
+exports.adminSetPromoCodeActive = promoAdmin.adminSetPromoCodeActive;
+exports.adminDeletePromoCode = promoAdmin.adminDeletePromoCode;

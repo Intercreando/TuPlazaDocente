@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../screens/admin_promo_screen.dart';
 import '../screens/app_shell.dart';
 import '../screens/auth_screen.dart';
 import '../screens/cases_screen.dart';
@@ -35,6 +36,7 @@ GoRouter createAppRouter(AppState appState) {
         '/practice',
         '/results',
         '/premium',
+        '/admin/promos',
         '/legal/terms',
         '/legal/privacy',
       };
@@ -43,6 +45,7 @@ GoRouter createAppRouter(AppState appState) {
           !publicPaths.contains(loc) &&
           !loc.startsWith('/practice') &&
           !loc.startsWith('/premium') &&
+          !loc.startsWith('/admin') &&
           !loc.startsWith('/legal')) {
         return '/';
       }
@@ -90,6 +93,10 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/premium',
         builder: (context, state) => const PremiumScreen(),
+      ),
+      GoRoute(
+        path: '/admin/promos',
+        builder: (context, state) => const AdminPromoScreen(),
       ),
       GoRoute(
         path: '/legal/terms',
