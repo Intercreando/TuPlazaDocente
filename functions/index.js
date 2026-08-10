@@ -94,6 +94,8 @@ exports.createPremiumCheckout = onCall(
       secrets: [wompiPublicKey, wompiIntegritySecret],
       timeoutSeconds: 30,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       if (!request.auth?.uid) {
@@ -216,6 +218,8 @@ exports.wompiWebhook = onRequest(
       region: "southamerica-east1",
       secrets: [wompiEventsSecret],
       cors: false,
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (req, res) => {
       try {
@@ -350,6 +354,8 @@ exports.activatePremiumCode = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       if (!request.auth?.uid) {
@@ -479,6 +485,8 @@ exports.registerPremiumDevice = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       if (!request.auth?.uid) {
@@ -563,6 +571,8 @@ exports.checkPremiumDevice = onCall(
       cors: true,
       timeoutSeconds: 15,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       if (!request.auth?.uid) {
@@ -620,6 +630,8 @@ exports.submitTestimonial = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       if (!request.auth?.uid) {
@@ -684,6 +696,8 @@ exports.sendStreakReminders = onSchedule(
       schedule: "0 19 * * *",
       timeZone: "America/Bogota",
       region: "southamerica-east1",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async () => {
       const db = getFirestore();

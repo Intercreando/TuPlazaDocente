@@ -114,6 +114,51 @@ abstract final class AppButtonStyles {
     );
   }
 
+  /// CTA de checkout Premium (fondo claro): oro de marca + tinta oscura.
+  static ButtonStyle premiumCheckout({required TextStyle? textStyle}) {
+    return ButtonStyle(
+      elevation: const WidgetStatePropertyAll(0),
+      minimumSize: const WidgetStatePropertyAll(Size(double.infinity, 54)),
+      padding: const WidgetStatePropertyAll(
+        EdgeInsets.symmetric(horizontal: 24, vertical: 18),
+      ),
+      shape: WidgetStatePropertyAll(
+        RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
+      ),
+      textStyle: WidgetStatePropertyAll(textStyle),
+      backgroundColor: WidgetStateProperty.resolveWith((states) {
+        if (states.contains(WidgetState.disabled)) {
+          return AppColors.gold.withValues(alpha: 0.45);
+        }
+        return AppColors.gold;
+      }),
+      foregroundColor: WidgetStateProperty.resolveWith((states) {
+        if (states.contains(WidgetState.disabled)) {
+          return AppColors.ink.withValues(alpha: 0.55);
+        }
+        return AppColors.ink;
+      }),
+      side: WidgetStateProperty.resolveWith((states) {
+        if (states.contains(WidgetState.disabled)) {
+          return BorderSide(
+            color: AppColors.goldDeep.withValues(alpha: 0.35),
+            width: 1.2,
+          );
+        }
+        return const BorderSide(color: AppColors.goldDeep, width: 1.2);
+      }),
+      overlayColor: WidgetStateProperty.resolveWith((states) {
+        if (states.contains(WidgetState.pressed)) {
+          return AppColors.ink.withValues(alpha: 0.12);
+        }
+        if (states.contains(WidgetState.hovered)) {
+          return AppColors.ink.withValues(alpha: 0.08);
+        }
+        return null;
+      }),
+    );
+  }
+
   /// CTA sobre fondos oscuros/marca (racha, hero oscuro).
   static ButtonStyle filledOnBrand({required bool completed}) {
     return ButtonStyle(

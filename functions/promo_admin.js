@@ -34,6 +34,8 @@ exports.adminUpsertPromoCode = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       const adminEmail = assertAdmin(request);
@@ -133,6 +135,8 @@ exports.adminListPromoCodes = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       assertAdmin(request);
@@ -171,6 +175,8 @@ exports.adminSetPromoCodeActive = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       assertAdmin(request);
@@ -202,6 +208,8 @@ exports.adminDeletePromoCode = onCall(
       cors: true,
       timeoutSeconds: 20,
       memory: "256MiB",
+      minInstances: 0,
+      maxInstances: 5,
     },
     async (request) => {
       assertAdmin(request);

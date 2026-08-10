@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import '../config/admin_config.dart';
 import '../config/app_config.dart';
 import '../state/app_state.dart';
+import '../theme/app_button_styles.dart';
 import '../theme/app_colors.dart';
 import '../utils/meta_pixel.dart';
 import '../utils/open_external_url.dart';
@@ -134,11 +135,50 @@ class _PremiumScreenState extends State<PremiumScreen> {
     }
   }
 
+  Future<void> _activateWithCode() async {
+    final state = context.read<AppState>();
+    final messenger = ScaffoldMessenger.of(context);
+    final router = GoRouter.of(context);
+    setState(() => _busy = true);
+    final ok = await state.activatePremiumWithCode(_codeController.text);
+    if (!mounted) return;
+    setState(() => _busy = false);
+    if (!ok) {
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(state.lastError ?? 'Código inválido.'),
+        ),
+      );
+      return;
+    }
+    final redeem = state.lastPromoRedeem;
+    if (redeem != null && redeem.isDiscount) {
+      messenger.showSnackBar(
+        SnackBar(
+          content: Text(
+            'Descuento del ${redeem.discountPercent}% aplicado. '
+            'Ahora paga con Wompi el precio rebajado.',
+          ),
+        ),
+      );
+      return;
+    }
+    messenger.showSnackBar(
+      const SnackBar(content: Text('Premium activado con código.')),
+    );
+    router.go('/app');
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final state = context.watch<AppState>();
     final isDark = theme.brightness == Brightness.dark;
+    final footerStyle = theme.textTheme.labelSmall?.copyWith(
+      color: isDark
+          ? AppColors.darkTextSecondary.withValues(alpha: 0.75)
+          : AppColors.textMuted.withValues(alpha: 0.85),
+    );
 
     return Scaffold(
       body: AtmosphericBackground(
@@ -211,6 +251,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     highlighted: false,
                   ),
                   const SizedBox(height: 12),
+                  // 1. Tarjeta de Plan Premium
                   _PlanCard(
                     title: 'Premium',
                     price: AppConfig.premiumPriceLabel,
@@ -251,25 +292,36 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       ),
                       const SizedBox(height: 12),
                     ],
-                    FilledButton.icon(
+                    // 2. CTA de pago + señales de confianza
+                    FilledButton(
+                      style: AppButtonStyles.premiumCheckout(
+                        textStyle: theme.textTheme.titleSmall?.copyWith(
+                          color: AppColors.ink,
+                        ),
+                      ),
                       onPressed: _busy ? null : _openWompiCheckout,
-                      icon: const Icon(Icons.payments_outlined),
-                      label: Text(
+                      child: Text(
                         _busy
                             ? 'Preparando el pago…'
-                            : 'Pagar una vez · Wompi',
+                            : 'Adquirir Premium · ${AppConfig.checkoutPriceLabel(
+                                discountPercent: state.pendingDiscountPercent,
+                              )}',
                       ),
                     ),
-                    const SizedBox(height: 8),
-                    Text(
-                      'Pago único. No se renueva solo cada mes. '
-                      'Premium en tu cuenta: hasta ${AppConfig.maxPremiumDevices} dispositivos. '
-                      'No compartas el acceso: el radar, la racha y el plan se arman con tu forma de aprender.',
-                      style: theme.textTheme.bodySmall,
-                    ),
-                    const SizedBox(height: 10),
-                    const LegalFooterLinks(),
                     const SizedBox(height: 12),
+                    _CheckoutTrustRow(isDark: isDark),
+                    const SizedBox(height: 6),
+                    Text(
+                      'Te redirigimos a Wompi para pagar. Sin renovación automática.',
+                      textAlign: TextAlign.center,
+                      style: theme.textTheme.labelSmall?.copyWith(
+                        color: isDark
+                            ? AppColors.darkTextSecondary
+                            : AppColors.textMuted,
+                      ),
+                    ),
+                    const SizedBox(height: 28),
+                    // 3. Código promocional + botón fantasma
                     Text(
                       '¿Tienes código de acceso?',
                       style: theme.textTheme.titleSmall,
@@ -285,47 +337,27 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     ),
                     const SizedBox(height: 10),
                     OutlinedButton(
-                      onPressed: _busy
-                          ? null
-                          : () async {
-                              final messenger = ScaffoldMessenger.of(context);
-                              final router = GoRouter.of(context);
-                              setState(() => _busy = true);
-                              final ok = await state.activatePremiumWithCode(
-                                _codeController.text,
-                              );
-                              if (!mounted) return;
-                              setState(() => _busy = false);
-                              if (!ok) {
-                                messenger.showSnackBar(
-                                  SnackBar(
-                                    content: Text(
-                                      state.lastError ?? 'Código inválido.',
-                                    ),
-                                  ),
-                                );
-                                return;
-                              }
-                              final redeem = state.lastPromoRedeem;
-                              if (redeem != null && redeem.isDiscount) {
-                                messenger.showSnackBar(
-                                  SnackBar(
-                                    content: Text(
-                                      'Descuento del ${redeem.discountPercent}% aplicado. '
-                                      'Ahora paga con Wompi el precio rebajado.',
-                                    ),
-                                  ),
-                                );
-                                return;
-                              }
-                              messenger.showSnackBar(
-                                const SnackBar(
-                                  content: Text('Premium activado con código.'),
-                                ),
-                              );
-                              router.go('/app');
-                            },
+                      onPressed: _busy ? null : _activateWithCode,
                       child: const Text('Activar con código'),
+                    ),
+                    const SizedBox(height: 20),
+                    // 4. Divisor
+                    Divider(
+                      color: (isDark ? AppColors.darkStroke : AppColors.stroke)
+                          .withValues(alpha: 0.7),
+                    ),
+                    const SizedBox(height: 16),
+                    // 5. Footer legal / explicativo
+                    Text(
+                      'Pago único. No se renueva solo cada mes. '
+                      'Premium en tu cuenta: hasta ${AppConfig.maxPremiumDevices} dispositivos. '
+                      'No compartas el acceso: el radar, la racha y el plan se arman con tu forma de aprender.',
+                      style: footerStyle,
+                    ),
+                    const SizedBox(height: 10),
+                    const LegalFooterLinks(
+                      compact: true,
+                      prefix: 'Al pagar aceptas',
                     ),
                     if (AdminConfig.isAdminEmail(state.authEmail)) ...[
                       const SizedBox(height: 18),
@@ -342,6 +374,39 @@ class _PremiumScreenState extends State<PremiumScreen> {
           ),
         ),
       ),
+    );
+  }
+}
+
+/// Fila compacta de confianza bajo el CTA de pago.
+class _CheckoutTrustRow extends StatelessWidget {
+  const _CheckoutTrustRow({required this.isDark});
+
+  final bool isDark;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final color = isDark ? AppColors.darkTextSecondary : AppColors.textSecondary;
+    final style = theme.textTheme.labelMedium?.copyWith(color: color);
+
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.lock_outline_rounded, size: 16, color: color),
+        const SizedBox(width: 6),
+        Flexible(
+          child: Text(
+            'Pago único · Seguro con Wompi',
+            textAlign: TextAlign.center,
+            style: style,
+          ),
+        ),
+        const SizedBox(width: 10),
+        Icon(Icons.verified_user_outlined, size: 16, color: color),
+        const SizedBox(width: 6),
+        Icon(Icons.credit_card_outlined, size: 16, color: color),
+      ],
     );
   }
 }

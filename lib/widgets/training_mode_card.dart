@@ -55,43 +55,17 @@ class TrainingModeCard extends StatelessWidget {
             ),
             child: Row(
               children: [
-                Stack(
-                  clipBehavior: Clip.none,
-                  children: [
-                    Container(
-                      width: 46,
-                      height: 46,
-                      decoration: BoxDecoration(
-                        color: color.withValues(alpha: locked ? 0.08 : 0.14),
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: Icon(
-                        icon,
-                        color: locked ? color.withValues(alpha: 0.55) : color,
-                      ),
-                    ),
-                    if (locked)
-                      Positioned(
-                        right: -4,
-                        bottom: -4,
-                        child: Container(
-                          padding: const EdgeInsets.all(3),
-                          decoration: BoxDecoration(
-                            color: AppColors.gold,
-                            shape: BoxShape.circle,
-                            border: Border.all(
-                              color: theme.cardTheme.color ?? AppColors.white,
-                              width: 1.5,
-                            ),
-                          ),
-                          child: const Icon(
-                            Icons.lock_rounded,
-                            size: 11,
-                            color: AppColors.ink,
-                          ),
-                        ),
-                      ),
-                  ],
+                Container(
+                  width: 46,
+                  height: 46,
+                  decoration: BoxDecoration(
+                    color: color.withValues(alpha: locked ? 0.08 : 0.14),
+                    borderRadius: BorderRadius.circular(14),
+                  ),
+                  child: Icon(
+                    icon,
+                    color: locked ? color.withValues(alpha: 0.55) : color,
+                  ),
                 ),
                 const SizedBox(width: 12),
                 Expanded(
@@ -116,12 +90,8 @@ class TrainingModeCard extends StatelessWidget {
                 ),
                 const SizedBox(width: 6),
                 Icon(
-                  locked
-                      ? Icons.lock_outline_rounded
-                      : Icons.chevron_right,
-                  color: locked
-                      ? AppColors.goldDeep
-                      : theme.colorScheme.onSurfaceVariant,
+                  Icons.chevron_right,
+                  color: theme.colorScheme.onSurfaceVariant,
                 ),
               ],
             ),
