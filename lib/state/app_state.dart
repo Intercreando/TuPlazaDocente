@@ -18,6 +18,7 @@ import '../services/question_repository.dart';
 import '../services/streak_notification_service.dart';
 import '../services/study_plan_service.dart';
 import '../services/tag_mastery_service.dart';
+import '../utils/google_ads_tag.dart';
 import '../utils/meta_pixel.dart';
 
 /// Estado global de progreso, perfil y sesiones.
@@ -36,6 +37,7 @@ class AppState extends ChangeNotifier {
 
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const _checkoutAmountKey = 'pending_checkout_amount_cop';
+  static const _checkoutTxKey = 'pending_checkout_transaction_id';
   static const freeDailyLimit = 5;
   static const freeMonthlyShortExams = 1;
   /// Sesiones de práctica libre (además del reto diario) permitidas por día en Gratis.
@@ -400,7 +402,10 @@ class AppState extends ChangeNotifier {
   Future<PremiumCheckoutSession> startPremiumCheckout() async {
     try {
       final session = await _payments.createCheckout();
-      await rememberCheckoutAmount(session.amountCop);
+      await rememberCheckoutAmount(
+        session.amountCop,
+        transactionId: session.reference,
+      );
       lastError = null;
       return session;
     } catch (e) {
@@ -415,29 +420,37 @@ class AppState extends ChangeNotifier {
       startPremiumCheckout();
 
   /// Guarda el monto real del checkout (para Purchase al volver de Wompi).
-  Future<void> rememberCheckoutAmount(double amountCop) async {
+  Future<void> rememberCheckoutAmount(
+    double amountCop, {
+    String? transactionId,
+  }) async {
     if (amountCop <= 0) return;
     try {
       final prefs = await SharedPreferences.getInstance();
       await prefs.setDouble(_checkoutAmountKey, amountCop);
+      if (transactionId != null && transactionId.isNotEmpty) {
+        await prefs.setString(_checkoutTxKey, transactionId);
+      }
     } catch (e) {
       debugPrint('rememberCheckoutAmount: $e');
     }
   }
 
   /// Lee y limpia el monto pendiente de checkout; fallback al precio de lista.
-  Future<double> takeCheckoutPurchaseValue() async {
+  Future<({double value, String? transactionId})> takeCheckoutPurchaseValue() async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final stored = prefs.getDouble(_checkoutAmountKey);
+      final tx = prefs.getString(_checkoutTxKey);
       if (stored != null && stored > 0) {
         await prefs.remove(_checkoutAmountKey);
-        return stored;
+        await prefs.remove(_checkoutTxKey);
+        return (value: stored, transactionId: tx);
       }
     } catch (e) {
       debugPrint('takeCheckoutPurchaseValue: $e');
     }
-    return AppConfig.premiumPriceCop;
+    return (value: AppConfig.premiumPriceCop, transactionId: null);
   }
 
   Future<bool> enableStreakReminders() async {
@@ -494,6 +507,7 @@ class AppState extends ChangeNotifier {
     await _reloadAfterAuth();
     if (_sync.lastAuthWasRegistration) {
       MetaPixel.completeRegistration(method: 'email');
+      GoogleAdsTag.completeRegistration();
     }
     return true;
   }
@@ -508,6 +522,7 @@ class AppState extends ChangeNotifier {
     await _reloadAfterAuth();
     if (_sync.lastAuthWasRegistration) {
       MetaPixel.completeRegistration(method: 'google');
+      GoogleAdsTag.completeRegistration();
     }
     return true;
   }

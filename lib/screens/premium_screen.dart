@@ -7,6 +7,7 @@ import '../config/app_config.dart';
 import '../state/app_state.dart';
 import '../theme/app_button_styles.dart';
 import '../theme/app_colors.dart';
+import '../utils/google_ads_tag.dart';
 import '../utils/meta_pixel.dart';
 import '../utils/open_external_url.dart';
 import '../widgets/atmospheric_background.dart';
@@ -48,11 +49,16 @@ class _PremiumScreenState extends State<PremiumScreen> {
         if (purchaseTracked || wasPremium || !state.profile.isPremium) {
           return;
         }
-        final value = await state.takeCheckoutPurchaseValue();
+        final purchase = await state.takeCheckoutPurchaseValue();
         MetaPixel.purchase(
-          value: value,
+          value: purchase.value,
           currency: 'COP',
           contentName: 'Premium convocatoria',
+        );
+        GoogleAdsTag.purchase(
+          value: purchase.value,
+          currency: 'COP',
+          transactionId: purchase.transactionId,
         );
         purchaseTracked = true;
       }
