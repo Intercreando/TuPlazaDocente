@@ -204,6 +204,13 @@
       setTimeout(hideBoot, 8000);
 
       window.addEventListener('error', function (e) {
+        var src = '';
+        try {
+          src = String((e.filename || (e.target && e.target.src) || ''));
+        } catch (_) {}
+        if (/googletagmanager|google-analytics|googleadservices|facebook\.net|fbevents|connect\.facebook/i.test(src)) {
+          return;
+        }
         var sub = document.getElementById('bootSub');
         if (sub) sub.textContent = 'Error: ' + (e.message || 'carga');
         hideBoot();
