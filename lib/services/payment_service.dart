@@ -4,6 +4,23 @@ import 'package:flutter/foundation.dart';
 
 import 'promo_code_service.dart';
 
+/// Sesión de checkout Premium (URL Wompi + monto real cobrado).
+class PremiumCheckoutSession {
+  const PremiumCheckoutSession({
+    required this.initPoint,
+    required this.amountCop,
+    this.reference,
+    this.listPriceCop,
+    this.discountPercent = 0,
+  });
+
+  final String initPoint;
+  final double amountCop;
+  final String? reference;
+  final double? listPriceCop;
+  final int discountPercent;
+}
+
 /// Cliente de checkout Premium vía Cloud Function + Wompi (Colombia).
 class PaymentService {
   PaymentService({FirebaseFunctions? functions}) : _functionsOverride = functions;
@@ -21,8 +38,8 @@ class PaymentService {
     return FirebaseFunctions.instanceFor(region: 'southamerica-east1');
   }
 
-  /// Crea checkout Wompi y devuelve la URL de pago (Web Checkout).
-  Future<String> createCheckoutUrl() async {
+  /// Crea checkout Wompi y devuelve URL + monto real (con descuento si aplica).
+  Future<PremiumCheckoutSession> createCheckout() async {
     try {
       final callable = _functions.httpsCallable(
         'createPremiumCheckout',
@@ -38,7 +55,22 @@ class PaymentService {
       if (initPoint == null || initPoint.isEmpty) {
         throw Exception('No recibimos la URL de Wompi.');
       }
-      return initPoint;
+
+      final amountCop = _asDouble(data['amountCop']) ??
+          (_asDouble(data['amountInCents']) != null
+              ? _asDouble(data['amountInCents'])! / 100
+              : null);
+      if (amountCop == null || amountCop <= 0) {
+        throw Exception('No recibimos el monto del checkout.');
+      }
+
+      return PremiumCheckoutSession(
+        initPoint: initPoint,
+        amountCop: amountCop,
+        reference: data['reference']?.toString(),
+        listPriceCop: _asDouble(data['listPriceCop']),
+        discountPercent: (data['discountPercent'] as num?)?.toInt() ?? 0,
+      );
     } on FirebaseFunctionsException catch (e) {
       debugPrint(
         'PaymentService createCheckout: ${e.code} ${e.message} ${e.details}',
@@ -46,20 +78,29 @@ class PaymentService {
       throw Exception(_friendlyFunctionsError(e));
     } catch (e) {
       debugPrint('PaymentService createCheckout error: $e');
-      final msg = e.toString().replaceFirst('Exception: ', '');
-      if (msg.isNotEmpty && !msg.contains('No pudimos iniciar')) {
-        throw Exception(msg);
-      }
+      if (e is Exception) rethrow;
       throw Exception(
         'No pudimos iniciar el pago. Verifica tu conexión e intenta de nuevo.',
       );
     }
   }
 
+  /// Alias: solo la URL (compatibilidad).
+  Future<String> createCheckoutUrl() async {
+    final session = await createCheckout();
+    return session.initPoint;
+  }
+
   /// Activa Premium o aplica descuento con código validado en servidor.
   Future<PromoRedeemResult> activateWithCode(String code) async {
     final promo = PromoCodeService();
     return promo.redeem(code);
+  }
+
+  double? _asDouble(Object? raw) {
+    if (raw is num) return raw.toDouble();
+    if (raw is String) return double.tryParse(raw);
+    return null;
   }
 
   String _friendlyFunctionsError(FirebaseFunctionsException e) {

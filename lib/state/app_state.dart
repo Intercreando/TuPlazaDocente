@@ -35,6 +35,7 @@ class AppState extends ChangeNotifier {
         _devices = deviceSessionService ?? DeviceSessionService();
 
   static const _storageKey = 'tu_plaza_docente_profile_v1';
+  static const _checkoutAmountKey = 'pending_checkout_amount_cop';
   static const freeDailyLimit = 5;
   static const freeMonthlyShortExams = 1;
   /// Sesiones de práctica libre (además del reto diario) permitidas por día en Gratis.
@@ -396,11 +397,12 @@ class AppState extends ChangeNotifier {
   /// Último canje de código (para mostrar descuento en Premium).
   PromoRedeemResult? lastPromoRedeem;
 
-  Future<String> startPremiumCheckout() async {
+  Future<PremiumCheckoutSession> startPremiumCheckout() async {
     try {
-      final url = await _payments.createCheckoutUrl();
+      final session = await _payments.createCheckout();
+      await rememberCheckoutAmount(session.amountCop);
       lastError = null;
-      return url;
+      return session;
     } catch (e) {
       lastError = e.toString().replaceFirst('Exception: ', '');
       notifyListeners();
@@ -409,8 +411,34 @@ class AppState extends ChangeNotifier {
   }
 
   /// Alias legado (antes Mercado Pago).
-  Future<String> startMercadoPagoCheckout() => startPremiumCheckout();
+  Future<PremiumCheckoutSession> startMercadoPagoCheckout() =>
+      startPremiumCheckout();
 
+  /// Guarda el monto real del checkout (para Purchase al volver de Wompi).
+  Future<void> rememberCheckoutAmount(double amountCop) async {
+    if (amountCop <= 0) return;
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setDouble(_checkoutAmountKey, amountCop);
+    } catch (e) {
+      debugPrint('rememberCheckoutAmount: $e');
+    }
+  }
+
+  /// Lee y limpia el monto pendiente de checkout; fallback al precio de lista.
+  Future<double> takeCheckoutPurchaseValue() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final stored = prefs.getDouble(_checkoutAmountKey);
+      if (stored != null && stored > 0) {
+        await prefs.remove(_checkoutAmountKey);
+        return stored;
+      }
+    } catch (e) {
+      debugPrint('takeCheckoutPurchaseValue: $e');
+    }
+    return AppConfig.premiumPriceCop;
+  }
 
   Future<bool> enableStreakReminders() async {
     final granted = await _notifications.requestPermission();

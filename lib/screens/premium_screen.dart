@@ -48,8 +48,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
         if (purchaseTracked || wasPremium || !state.profile.isPremium) {
           return;
         }
+        final value = await state.takeCheckoutPurchaseValue();
         MetaPixel.purchase(
-          value: AppConfig.premiumPriceCop,
+          value: value,
           currency: 'COP',
           contentName: 'Premium convocatoria',
         );
@@ -110,8 +111,13 @@ class _PremiumScreenState extends State<PremiumScreen> {
 
     setState(() => _busy = true);
     try {
-      final url = await state.startPremiumCheckout();
-      final ok = await openExternalUrl(url);
+      final session = await state.startPremiumCheckout();
+      MetaPixel.initiateCheckout(
+        value: session.amountCop,
+        currency: 'COP',
+        contentName: 'Premium convocatoria',
+      );
+      final ok = await openExternalUrl(session.initPoint);
       if (!ok && mounted) {
         messenger.showSnackBar(
           const SnackBar(content: Text('No pudimos abrir Wompi.')),
