@@ -60,7 +60,8 @@ class _DesktopBento extends StatelessWidget {
 
     return Column(
       children: [
-        IntrinsicHeight(
+        SizedBox(
+          height: wide ? 300 : 288,
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
@@ -75,6 +76,7 @@ class _DesktopBento extends StatelessWidget {
                   badge: 'Eliminatorio',
                   badgeKind: _BadgeKind.eliminatory,
                   featured: true,
+                  fill: true,
                 ),
               ),
               const SizedBox(width: gap),
@@ -86,16 +88,18 @@ class _DesktopBento extends StatelessWidget {
                   body: ConcursoScoringConfig.pedagogicalBody,
                   badge: 'Eliminatorio',
                   badgeKind: _BadgeKind.eliminatory,
+                  fill: true,
                 ),
               ),
             ],
           ),
         ),
         const SizedBox(height: gap),
-        IntrinsicHeight(
-          child: Row(
+        SizedBox(
+          height: wide ? 280 : 300,
+          child: const Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: const [
+            children: [
               Expanded(
                 child: _BentoTile(
                   title: ConcursoScoringConfig.softSkillsTitle,
@@ -103,6 +107,7 @@ class _DesktopBento extends StatelessWidget {
                   body: ConcursoScoringConfig.softSkillsBody,
                   badge: 'Clasificatorio',
                   badgeKind: _BadgeKind.classificatory,
+                  fill: true,
                 ),
               ),
               SizedBox(width: gap),
@@ -113,6 +118,7 @@ class _DesktopBento extends StatelessWidget {
                   body: ConcursoScoringConfig.antecedentsBody,
                   badge: 'Clasificatorio',
                   badgeKind: _BadgeKind.classificatory,
+                  fill: true,
                 ),
               ),
               SizedBox(width: gap),
@@ -126,6 +132,7 @@ class _DesktopBento extends StatelessWidget {
                   badgeKind: _BadgeKind.goal,
                   accentGold: true,
                   showCta: true,
+                  fill: true,
                 ),
               ),
             ],
@@ -205,6 +212,7 @@ class _BentoTile extends StatelessWidget {
     this.featured = false,
     this.accentGold = false,
     this.showCta = false,
+    this.fill = false,
   });
 
   final String title;
@@ -217,6 +225,7 @@ class _BentoTile extends StatelessWidget {
   final bool featured;
   final bool accentGold;
   final bool showCta;
+  final bool fill;
 
   @override
   Widget build(BuildContext context) {
@@ -239,14 +248,19 @@ class _BentoTile extends StatelessWidget {
         border: Border.all(color: border, width: accentGold ? 1.4 : 1),
       ),
       child: Padding(
-        padding: EdgeInsets.all(featured ? 22 : 18),
+        padding: EdgeInsets.all(featured ? 20 : 16),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             _KindBadge(label: badge, kind: badgeKind),
-            const SizedBox(height: 12),
-            Text(title, style: theme.textTheme.titleSmall),
-            SizedBox(height: featured ? 14 : 10),
+            const SizedBox(height: 10),
+            Text(
+              title,
+              style: theme.textTheme.titleSmall,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+            ),
+            SizedBox(height: featured ? 12 : 8),
             Text.rich(
               TextSpan(
                 children: [
@@ -273,14 +287,29 @@ class _BentoTile extends StatelessWidget {
                 ],
               ),
             ),
-            const SizedBox(height: 10),
-            Text(body, style: theme.textTheme.bodyMedium),
+            const SizedBox(height: 8),
+            if (fill)
+              Expanded(
+                child: Text(
+                  body,
+                  style: theme.textTheme.bodyMedium,
+                  maxLines: 5,
+                  overflow: TextOverflow.ellipsis,
+                ),
+              )
+            else
+              Text(body, style: theme.textTheme.bodyMedium),
             if (note != null) ...[
-              const SizedBox(height: 10),
-              Text(note!, style: theme.textTheme.labelMedium),
+              const SizedBox(height: 8),
+              Text(
+                note!,
+                style: theme.textTheme.labelMedium,
+                maxLines: fill ? 2 : null,
+                overflow: fill ? TextOverflow.ellipsis : TextOverflow.visible,
+              ),
             ],
             if (showCta) ...[
-              const SizedBox(height: 14),
+              const SizedBox(height: 12),
               Align(
                 alignment: Alignment.centerLeft,
                 child: FilledButton.tonal(

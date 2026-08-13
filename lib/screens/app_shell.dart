@@ -23,34 +23,37 @@ class AppShell extends StatelessWidget {
     final desktop = LayoutBreakpoints.isDesktop(context);
 
     if (!desktop) {
+      final onNews = navigationShell.currentIndex == 4;
       return Scaffold(
         body: navigationShell,
-        bottomNavigationBar: NavigationBar(
-          selectedIndex: navigationShell.currentIndex,
-          onDestinationSelected: _onTap,
-          destinations: const [
-            NavigationDestination(
-              icon: Icon(Icons.home_outlined),
-              selectedIcon: Icon(Icons.home_rounded),
-              label: 'Inicio',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.route_outlined),
-              selectedIcon: Icon(Icons.route),
-              label: 'Plan',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.radar_outlined),
-              selectedIcon: Icon(Icons.radar),
-              label: 'Radar',
-            ),
-            NavigationDestination(
-              icon: Icon(Icons.workspace_premium_outlined),
-              selectedIcon: Icon(Icons.workspace_premium),
-              label: 'Premium',
-            ),
-          ],
-        ),
+        bottomNavigationBar: onNews
+            ? null
+            : NavigationBar(
+                selectedIndex: navigationShell.currentIndex.clamp(0, 3),
+                onDestinationSelected: _onTap,
+                destinations: const [
+                  NavigationDestination(
+                    icon: Icon(Icons.home_outlined),
+                    selectedIcon: Icon(Icons.home_rounded),
+                    label: 'Inicio',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.route_outlined),
+                    selectedIcon: Icon(Icons.route),
+                    label: 'Plan',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.radar_outlined),
+                    selectedIcon: Icon(Icons.radar),
+                    label: 'Radar',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.workspace_premium_outlined),
+                    selectedIcon: Icon(Icons.workspace_premium),
+                    label: 'Premium',
+                  ),
+                ],
+              ),
       );
     }
 

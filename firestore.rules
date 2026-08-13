@@ -70,5 +70,11 @@ service cloud.firestore {
       allow read: if resource.data.approved == true;
       allow write: if false;
     }
+
+    // Noticias: lectura pública de publicadas; escritura solo Admin SDK.
+    match /news/{id} {
+      allow read: if resource.data.published == true;
+      allow write: if false;
+    }
   }
 }

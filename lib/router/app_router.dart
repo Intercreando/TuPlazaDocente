@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../screens/admin_news_screen.dart';
 import '../screens/admin_promo_screen.dart';
 import '../screens/app_shell.dart';
 import '../screens/auth_screen.dart';
@@ -10,6 +11,8 @@ import '../screens/exam_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/landing_screen.dart';
 import '../screens/legal_document_screen.dart';
+import '../screens/news_detail_screen.dart';
+import '../screens/news_screen.dart';
 import '../screens/onboarding_screen.dart';
 import '../screens/plan_screen.dart';
 import '../screens/practice_screen.dart';
@@ -46,7 +49,8 @@ GoRouter createAppRouter(AppState appState) {
           !loc.startsWith('/practice') &&
           !loc.startsWith('/premium') &&
           !loc.startsWith('/admin') &&
-          !loc.startsWith('/legal')) {
+          !loc.startsWith('/legal') &&
+          !loc.startsWith('/noticias')) {
         return '/';
       }
 
@@ -97,6 +101,16 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/admin/promos',
         builder: (context, state) => const AdminPromoScreen(),
+      ),
+      GoRoute(
+        path: '/admin/noticias',
+        builder: (context, state) => const AdminNewsScreen(),
+      ),
+      GoRoute(
+        path: '/noticias/:id',
+        builder: (context, state) => NewsDetailScreen(
+          id: state.pathParameters['id'] ?? '',
+        ),
       ),
       GoRoute(
         path: '/legal/terms',
@@ -155,6 +169,16 @@ GoRouter createAppRouter(AppState appState) {
                 path: '/app/premium',
                 pageBuilder: (context, state) => const NoTransitionPage(
                   child: PremiumScreen(),
+                ),
+              ),
+            ],
+          ),
+          StatefulShellBranch(
+            routes: [
+              GoRoute(
+                path: '/app/noticias',
+                pageBuilder: (context, state) => const NoTransitionPage(
+                  child: NewsScreen(),
                 ),
               ),
             ],

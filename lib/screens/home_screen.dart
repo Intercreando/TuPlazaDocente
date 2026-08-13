@@ -16,6 +16,7 @@ import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
 import '../widgets/feature_access_badge.dart';
 import '../widgets/freemium_scope_banner.dart';
+import '../widgets/news_highlight_strip.dart';
 import '../widgets/tag_mastery_map.dart';
 import '../utils/app_snackbars.dart';
 import '../widgets/testimonials_section.dart';
@@ -142,6 +143,11 @@ class _MobileHome extends StatelessWidget {
         const SizedBox(height: 12),
         _ReminderTile(state: state),
         const SizedBox(height: 22),
+        NewsHighlightStrip(
+          compact: true,
+          onSeeAll: () => context.go('/app/noticias'),
+        ),
+        const SizedBox(height: 22),
         Text('Entrenar ahora', style: theme.textTheme.titleLarge),
         const SizedBox(height: 8),
         if (!profile.isPremium) ...[
@@ -255,6 +261,10 @@ class _DesktopHome extends StatelessWidget {
               ),
             ],
           ),
+        ),
+        const SizedBox(height: 28),
+        NewsHighlightStrip(
+          onSeeAll: () => context.go('/app/noticias'),
         ),
         const SizedBox(height: 28),
         const TestimonialsSection(

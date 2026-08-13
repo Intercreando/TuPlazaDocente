@@ -14,6 +14,7 @@ import '../widgets/brand_mark.dart';
 import '../widgets/concurso_phase_badge.dart';
 import '../widgets/landing_credibility_sections.dart';
 import '../widgets/legal_footer_links.dart';
+import '../widgets/news_highlight_strip.dart';
 import '../widgets/premium_chrome.dart';
 
 /// Landing premium: hero editorial en desktop + secciones de confianza.
@@ -91,6 +92,8 @@ class LandingScreen extends StatelessWidget {
                                 const SizedBox(height: 28),
                                 _HeroVisual(theme: theme, compact: true),
                               ],
+                              const NewsHighlightStrip(compact: true),
+                              const SizedBox(height: 8),
                               const LandingCredibilitySections(),
                               const SizedBox(height: 28),
                               const LegalFooterLinks(

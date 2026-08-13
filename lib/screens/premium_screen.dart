@@ -378,6 +378,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
                         icon: const Icon(Icons.admin_panel_settings_outlined),
                         label: const Text('Panel de códigos (admin)'),
                       ),
+                      const SizedBox(height: 10),
+                      OutlinedButton.icon(
+                        onPressed: () => context.push('/admin/noticias'),
+                        icon: const Icon(Icons.campaign_outlined),
+                        label: const Text('Panel de noticias (admin)'),
+                      ),
                     ],
                   ],
                 ],

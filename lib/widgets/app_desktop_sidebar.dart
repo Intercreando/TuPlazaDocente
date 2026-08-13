@@ -31,18 +31,28 @@ class AppDesktopSidebar extends StatelessWidget {
         selectedIcon: Icons.home_rounded,
         label: 'Inicio',
         caption: 'Entrenar hoy',
+        branch: 0,
+      ),
+      const _SidebarItemData(
+        icon: Icons.campaign_outlined,
+        selectedIcon: Icons.campaign_rounded,
+        label: 'Noticias',
+        caption: 'Convocatoria',
+        branch: 4,
       ),
       const _SidebarItemData(
         icon: Icons.route_outlined,
         selectedIcon: Icons.route_rounded,
         label: 'Plan',
         caption: 'Ruta al examen',
+        branch: 1,
       ),
       const _SidebarItemData(
         icon: Icons.radar_outlined,
         selectedIcon: Icons.radar_rounded,
         label: 'Radar',
         caption: 'Tu progreso',
+        branch: 2,
       ),
       _SidebarItemData(
         icon: Icons.workspace_premium_outlined,
@@ -50,6 +60,7 @@ class AppDesktopSidebar extends StatelessWidget {
         label: 'Premium',
         caption: state.profile.isPremium ? 'Activo' : 'Desbloquear',
         accent: true,
+        branch: 3,
       ),
     ];
 
@@ -127,8 +138,8 @@ class AppDesktopSidebar extends StatelessWidget {
                 for (var i = 0; i < items.length; i++) ...[
                   _SidebarNavButton(
                     data: items[i],
-                    selected: selectedIndex == i,
-                    onTap: () => onDestinationSelected(i),
+                    selected: selectedIndex == items[i].branch,
+                    onTap: () => onDestinationSelected(items[i].branch),
                   ),
                   if (i < items.length - 1) const SizedBox(height: 8),
                 ],
@@ -194,6 +205,7 @@ class _SidebarItemData {
     required this.selectedIcon,
     required this.label,
     required this.caption,
+    required this.branch,
     this.accent = false,
   });
 
@@ -201,6 +213,7 @@ class _SidebarItemData {
   final IconData selectedIcon;
   final String label;
   final String caption;
+  final int branch;
   final bool accent;
 }
 

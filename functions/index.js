@@ -14,6 +14,7 @@ const {initializeApp} = require("firebase-admin/app");
 const {getFirestore, FieldValue} = require("firebase-admin/firestore");
 const {getMessaging} = require("firebase-admin/messaging");
 const promoAdmin = require("./promo_admin");
+const newsAdmin = require("./news_admin");
 
 initializeApp();
 
@@ -749,3 +750,7 @@ exports.adminUpsertPromoCode = promoAdmin.adminUpsertPromoCode;
 exports.adminListPromoCodes = promoAdmin.adminListPromoCodes;
 exports.adminSetPromoCodeActive = promoAdmin.adminSetPromoCodeActive;
 exports.adminDeletePromoCode = promoAdmin.adminDeletePromoCode;
+
+exports.adminUpsertNews = newsAdmin.adminUpsertNews;
+exports.adminListNews = newsAdmin.adminListNews;
+exports.adminDeleteNews = newsAdmin.adminDeleteNews;
