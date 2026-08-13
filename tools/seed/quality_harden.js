@@ -4,6 +4,7 @@
  * - Endurece plantillas con stems genéricos y distractores obvios.
  * - Sube dificultad cuando el ítem era demasiado predecible.
  */
+const {upgradePedagogicalItem} = require("./cns_c_near_miss");
 
 function hashSeed(str) {
   let h = 2166136261;
@@ -78,12 +79,12 @@ const WEAK_OPTION_SNIPPETS = [
 ];
 
 const STEM_VARIANTS = [
-  (c) => `Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?`,
-  (c) => `Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?`,
-  (c) => `Cuál de las siguientes respuestas evita tanto el activismo vacío como la omisión normativa?`,
-  (c) => `La opción más coherente con referentes MEN y mediación pedagógica es:`,
-  (c) => `Para no caer en una práctica “casi correcta” pero insuficiente, conviene:`,
-  (c) => `Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:`,
+  (c) => `A partir del caso, ¿qué decisión sostiene a la vez el derecho a aprender, la trazabilidad institucional y la mediación pedagógica?`,
+  (c) => `Dadas las tensiones del escenario (comunidad, equidad formal y marco vigente), ¿cuál intervención es la más defendible?`,
+  (c) => `Si debieras argumentar tu elección ante un jurado del concurso, ¿qué opción articula referente aplicable y mediación del aprendizaje?`,
+  (c) => `¿Qué decisión evita tanto la equidad entendida como homogeneidad como la flexibilidad que elimina la meta esencial?`,
+  (c) => `Evaluando criterios, evidencia e instancias, ¿cuál acción es la más coherente con el caso?`,
+  (c) => `¿Cuál respuesta es “casi institucional” en apariencia, pero en realidad es la única que cierra el problema de fondo?`,
 ];
 
 function looksLikeTemplate(item) {
@@ -261,6 +262,7 @@ function bumpEasyItems(item) {
 function applyQualityPass(items) {
   let next = retireWeakMicroClones(items);
   next = next.map((item) => hardenTemplate(item));
+  next = next.map((item) => upgradePedagogicalItem(item));
   next = next.map((item) => bumpEasyItems(item));
   next = next.map((item) => shuffleCorrectPosition(item));
   const report = balanceReport(next);

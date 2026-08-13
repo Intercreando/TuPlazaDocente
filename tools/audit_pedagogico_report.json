@@ -1,0 +1,610 @@
+{
+  "totalBanco": 1148,
+  "pedagogico": 763,
+  "criticos_score8plus": 0,
+  "altos_score5plus": 0,
+  "medios_score3a4": 0,
+  "flags": {},
+  "top40": [
+    {
+      "id": "oro-1290-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / evaluación formativa",
+      "stem": "¿Qué decisión articula una evaluación al servicio del aprendizaje, sin caer en rigor vacío ni en flexibilidad sin evidencia?",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Conservar evidencias periódicas, devolver a cada estudiante su logro frente a criterios conocidos y un siguiente paso, y usar el promedio solo como un insumo más del SIEE.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 1,
+      "caseContext": "Una docente de 5° cierra el periodo con el promedio de cuatro quizzes cronometrados. No hubo rúbricas previas ni devolución durante las semanas. El consejo de padres pide “más rigor” y un colega sugiere no cambiar nada “para que sea igual para todos”. El SIEE institucional habla de evaluación formativa."
+    },
+    {
+      "id": "oro-1290-02",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / escala de valoración",
+      "stem": "La lectura más alineada al Decreto 1290 es. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+      "options": [
+        "Solo el ICFES define la escala interna del colegio",
+        "La promoción no requiere criterios previos",
+        "No se puede valorar cualitativamente",
+        "La institución tiene autonomía para definir su escala de valoración en el SIEE"
+      ],
+      "correctIndex": 3,
+      "caseContext": "Un colegio impone una escala nacional única y prohíbe describir niveles de desempeño en el boletín. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-1290-03",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / promoción",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+        "Activar estrategias de apoyo y seguimiento antes de decidir la promoción"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante con dificultades reiteradas no recibe plan de apoyo; al final se le niega el grado sin acompañamiento previo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-1290-04",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Evaluación formativa (1290) y andamiaje en la ZDP (Vygotsky)",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: En 5°, varios estudiantes fallan problemas de proporciones. El docente diseña estaciones con mediación entre pares y rúbrica compartida. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-1290-05",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Activa aprendizajes previos (Ausubel) y usa evidencia para orientar la enseñanza (1290)",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Antes de enseñar ecosistemas, el docente explora ideas previas con un mapa conceptual colectivo y ajusta la secuencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-1421-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / PIAR",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+        "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+        "Elaborar PIAR con ajustes razonables en acceso, participación y evaluación",
+        "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+      ],
+      "correctIndex": 2,
+      "caseContext": "Un estudiante con discapacidad intelectual leve llega a 2°. No existe PIAR y se le exige el mismo formato de evaluación escrita cronometrada. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-1421-02",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / ajustes razonables",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+        "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+        "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+        "Proveer apoyos de acceso y tiempo adicional manteniendo aprendizajes esenciales"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Una estudiante con discapacidad auditiva requiere interpretación y más tiempo en evaluaciones orales/escritas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-1421-03",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "La decisión alineada a ambos decretos es. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+      "options": [
+        "Permitir formas diversas de evidenciar aprendizajes esenciales con criterios claros",
+        "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+        "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+        "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+      ],
+      "correctIndex": 0,
+      "caseContext": "El consejo académico debate si un estudiante con discapacidad puede ser evaluado con rúbrica flexible y productos alternativos. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-1620-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Ley 1620 / rutas de atención",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+        "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+        "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+        "Activar la ruta institucional y registrar el caso conforme a la Ley 1620"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay un reporte de ciberacoso entre estudiantes de 7°. El docente titular decide 'arreglarlo en privado' sin registro ni ruta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-1620-02",
+      "score": 0,
+      "flags": [],
+      "topic": "Ley 1620 / debido proceso",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Omitió debido proceso y la ruta del Manual/Comité de Convivencia",
+        "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+        "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+        "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+      ],
+      "correctIndex": 0,
+      "caseContext": "Coordinación suspende a un estudiante el mismo día del reporte, sin versión de las partes ni activación del comité. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-pei-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Ley 115 / Decreto 1860",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Es válido por eficiencia administrativa",
+        "Solo la secretaría puede escribir el PEI",
+        "Se debilita la legitimidad participativa del PEI y del gobierno escolar",
+        "El PEI no requiere comunidad educativa"
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se modifica el componente pedagógico del PEI sin consultar docentes ni gobierno escolar, 'para ganar tiempo'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-pei-02",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1860 / gobierno escolar",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Garantizar participación estudiantil en instancias del gobierno escolar",
+        "Decidir únicamente por redes sociales",
+        "Excluir siempre a estudiantes de esos temas",
+        "Solo escuchar a proveedores externos"
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: El consejo de estudiantes pide participar en la revisión del manual de convivencia y se les niega el espacio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-1278-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1278 / profesionalización docente",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Que hay deberes, derechos y evaluación de desempeño orientada al mejoramiento profesional",
+        "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+        "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+        "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente nuevo pregunta por evaluación de desempeño y oportunidades de mejoramiento en el marco del estatuto. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-vyg-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Vygotsky / andamiaje",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Andamiaje dentro de la Zona de Desarrollo Próximo",
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un niño no escribe un párrafo solo, pero con preguntas guía del docente organiza ideas y luego escribe con mayor autonomía. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-pia-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Piaget / educación inicial",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+        "Respeto al desarrollo cognitivo y al aprendizaje por acción/juego (Piaget + educación inicial)"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Familias piden 'planas de números' diarias en jardín. El equipo sostiene juego, exploración y representación concreta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-bru-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Bruner / representaciones",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Modos enactivo → icónico → simbólico (Bruner)",
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Para enseñar valor posicional: primero bloques, luego dibujos, después símbolos numéricos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-aus-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Ausubel / organizadores previos",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+        "Organizador previo para aprendizaje significativo (Ausubel)"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Antes de un tema histórico complejo, el docente presenta un esquema comparativo que conecta con lo ya estudiado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-ebc-01",
+      "score": 0,
+      "flags": [],
+      "topic": "EBC",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+        "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+        "Definir lo que el estudiante debe saber y saber hacer por grupos de grados",
+        "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+      ],
+      "correctIndex": 2,
+      "caseContext": "El área discute si planear por listados de temas del libro o por competencias de lenguaje por ciclos. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-dba-01",
+      "score": 0,
+      "flags": [],
+      "topic": "DBA",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+        "Usarlos como referente año a año para enfocar aprendizajes esenciales y evidencias",
+        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: En 3° se priorizan DBA de pensamiento numérico y se diseñan evidencias observables de esos aprendizajes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-lin-01",
+      "score": 0,
+      "flags": [],
+      "topic": "Lineamientos curriculares",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+        "Integrar indagación, evidencia y explicación como núcleo del área",
+        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: El equipo de ciencias debate si el laboratorio es 'actividad extra' o parte del enfoque de indagación del área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-1",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: El equipo observa bajo desempeño y responde solo con más tareas mecánicas para la casa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-2",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante avanza con apoyo de un par y se estanca cuando trabaja siempre aislado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-3",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay tensión entre cumplir temario y atender ritmos diversos del grupo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-4",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: La institución documenta poco las decisiones pedagógicas y de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-5",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se planea el periodo solo con el índice del libro texto. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-6",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+        "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante con apoyo de PIAR es evaluado igual que el grupo, sin ajustes acordados. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-vyg-7",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Vygotsky",
+      "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+      "options": [
+        "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: La retroalimentación solo dice 'mal' o 'bien' sin criterios ni siguiente paso. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-8",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: El equipo observa bajo desempeño y responde solo con más tareas mecánicas para la casa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-9",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante avanza con apoyo de un par y se estanca cuando trabaja siempre aislado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-10",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+      "options": [
+        "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay tensión entre cumplir temario y atender ritmos diversos del grupo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-11",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 2,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: La institución documenta poco las decisiones pedagógicas y de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-12",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+      "options": [
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se planea el periodo solo con el índice del libro texto. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-13",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+      "options": [
+        "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles",
+        "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+        "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+        "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante con apoyo de PIAR es evaluado igual que el grupo, sin ajustes acordados. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1290-aus-14",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1290 / Ausubel",
+      "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+      "options": [
+        "Describir el logro frente a criterios y ofrecer una acción concreta de mejora",
+        "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+        "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+        "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+      ],
+      "correctIndex": 0,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: La retroalimentación solo dice 'mal' o 'bien' sin criterios ni siguiente paso. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1421-1290-15",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+      "options": [
+        "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+        "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+        "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+        "Diagnosticar con evidencia, mediar aprendizajes y ajustar la enseñanza con criterios claros"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: El equipo observa bajo desempeño y responde solo con más tareas mecánicas para la casa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1421-1290-16",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "La opción más coherente con referentes MEN y mediación pedagógica es. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+      "options": [
+        "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+        "Diseñar andamiaje colaborativo intencional y evaluar el progreso con criterios formativos",
+        "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+        "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+      ],
+      "correctIndex": 1,
+      "caseContext": "Un estudiante avanza con apoyo de un par y se estanca cuando trabaja siempre aislado. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-x-1421-1290-17",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+      "options": [
+        "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+        "Priorizar aprendizajes esenciales con mediación diferenciada y evaluación formativa",
+        "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+        "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay tensión entre cumplir temario y atender ritmos diversos del grupo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1421-1290-18",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+      "options": [
+        "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+        "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+        "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+        "Registrar rutas, evidencias y acuerdos en claves institucionales (SIEE, convivencia, PIAR cuando aplique)"
+      ],
+      "correctIndex": 3,
+      "caseContext": "La institución documenta poco las decisiones pedagógicas y de convivencia. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia."
+    },
+    {
+      "id": "oro-x-1421-1290-19",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+      "options": [
+        "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+        "Referentes MEN (EBC/DBA/lineamientos) + diagnóstico de aula + criterios de evaluación",
+        "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+        "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+      ],
+      "correctIndex": 1,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se planea el periodo solo con el índice del libro texto. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    },
+    {
+      "id": "oro-x-1421-1290-20",
+      "score": 0,
+      "flags": [],
+      "topic": "Decreto 1421 / Decreto 1290",
+      "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+      "options": [
+        "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+        "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+        "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+        "Aplicar los ajustes del PIAR y evaluar aprendizajes esenciales con criterios accesibles"
+      ],
+      "correctIndex": 3,
+      "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante con apoyo de PIAR es evaluado igual que el grupo, sin ajustes acordados. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia."
+    }
+  ]
+}

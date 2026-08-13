@@ -10,28 +10,26 @@
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="TuPlazaDocente">
-  <link rel="apple-touch-icon" href="/icons/Icon-192.png">
-  <!-- Google Search exige favicon cuadrado múltiplo de 48px y estable -->
-  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="/icons/Icon-192.png">
-  <link rel="icon" type="image/png" sizes="512x512" href="/icons/Icon-512.png">
-  <link rel="shortcut icon" href="/favicon.ico">
-  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="apple-touch-icon" href="/icons/Icon-192.png?v=2">
+  <!-- Cache busting: Google/navegadores tenían cacheado el favicon de Flutter. -->
+  <link rel="icon" type="image/png" href="favicon.png?v=2"/>
+  <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png?v=2">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png?v=2">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png?v=2">
+  <link rel="icon" type="image/png" sizes="192x192" href="/icons/Icon-192.png?v=2">
+  <link rel="icon" type="image/png" sizes="512x512" href="/icons/Icon-512.png?v=2">
+  <link rel="shortcut icon" href="/favicon.ico?v=2">
+  <link rel="icon" href="/favicon.ico?v=2" sizes="any">
   <meta property="og:title" content="TuPlazaDocente">
   <meta property="og:description" content="Entrenador táctico del Concurso Docente CNSC/ICFES. Practica con casos reales y explicaciones normativas.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://www.tuplazadocente.com/">
-  <meta property="og:image" content="https://www.tuplazadocente.com/icons/Icon-512.png">
+  <meta property="og:image" content="https://www.tuplazadocente.com/icons/Icon-512.png?v=2">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="TuPlazaDocente">
   <meta name="twitter:description" content="Entrenador táctico del Concurso Docente CNSC/ICFES.">
-  <meta name="twitter:image" content="https://www.tuplazadocente.com/icons/Icon-512.png">
-  <link rel="preload" href="icons/logo-mark.svg" as="image" type="image/svg+xml">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&display=swap" rel="stylesheet">
+  <meta name="twitter:image" content="https://www.tuplazadocente.com/icons/Icon-512.png?v=2">
+  <link rel="preload" href="icons/logo-boot.png" as="image">
   <title>TuPlazaDocente</title>
   <link rel="manifest" href="manifest.json">
   <!-- Google tag (gtag.js) — Google Ads -->
@@ -77,33 +75,31 @@
       text-align: center;
       padding: 24px;
       background: #F5F8F6;
+      opacity: 1;
+      transition: opacity 0.28s ease;
     }
-    #boot .mark {
-      width: min(120px, 36vw);
+    #boot.boot-out {
+      opacity: 0;
+      pointer-events: none;
+    }
+    #boot .lockup {
+      width: min(240px, 68vw);
       height: auto;
-      border-radius: 22px;
       display: block;
-      margin: 0 auto 18px;
-      object-fit: contain;
+      animation: bootIn 0.35s ease-out;
     }
-    #boot .brand {
-      margin: 0 0 10px;
-      font-family: "Fraunces", Georgia, serif;
-      font-weight: 600;
-      font-size: clamp(1.6rem, 4vw, 2rem);
-      letter-spacing: -0.02em;
-      color: #0C2F2B;
+    @keyframes bootIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: none; }
     }
-    #boot .brand span { color: #E3A008; }
-    #boot .sub { margin: 0; opacity: 0.75; }
+    #boot .sub { margin: 16px 0 0; opacity: 0.7; min-height: 1.2em; }
   </style>
 </head>
 <body>
   <div id="boot">
     <div>
-      <img class="mark" src="icons/logo-mark.svg" width="120" height="120" alt="TuPlazaDocente">
-      <p class="brand"><span>TuPlaza</span>Docente</p>
-      <p class="sub" id="bootSub">Cargando...</p>
+      <img class="lockup" src="icons/logo-boot.png" width="240" height="251" alt="TuPlazaDocente">
+      <p class="sub" id="bootSub"></p>
     </div>
   </div>
   <script>
@@ -194,13 +190,14 @@
 
       function hideBoot() {
         var boot = document.getElementById('boot');
-        if (boot) boot.remove();
+        if (!boot || boot.classList.contains('boot-out')) return;
+        boot.classList.add('boot-out');
+        setTimeout(function () {
+          if (boot.parentNode) boot.remove();
+        }, 320);
       }
 
-      window.addEventListener('flutter-first-frame', function () {
-        hideBoot();
-      });
-      // Si el engine tarda o falla en silencio, no dejar la pantalla congelada.
+      // Flutter quita el overlay cuando la app está lista. Esto es respaldo.
       setTimeout(hideBoot, 8000);
 
       window.addEventListener('error', function (e) {
@@ -213,7 +210,6 @@
         }
         var sub = document.getElementById('bootSub');
         if (sub) sub.textContent = 'Error: ' + (e.message || 'carga');
-        hideBoot();
       });
       window.addEventListener('unhandledrejection', function (e) {
         var sub = document.getElementById('bootSub');

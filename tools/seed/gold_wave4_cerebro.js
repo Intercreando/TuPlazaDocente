@@ -5,11 +5,11 @@
 const {gold} = require("./gold_handcrafted_core");
 
 const stems = [
-  "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
-  "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
-  "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
-  "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
-  "Para no caer en activismo vacío ni en omisión normativa, conviene:",
+  "A partir del caso, ¿qué decisión sostiene el derecho a aprender, la trazabilidad y la mediación pedagógica?",
+  "Dadas las tensiones del escenario (comunidad, equidad formal y marco vigente), ¿cuál intervención es la más defendible?",
+  "Si debieras argumentar tu elección ante un jurado del concurso, ¿qué opción cierra el problema de fondo?",
+  "¿Qué decisión evita tanto tratar a todos igual por “equidad” como una flexibilidad que elimina la meta esencial?",
+  "Evaluando criterios, evidencia e instancias, ¿cuál acción es la más coherente con el caso?",
 ];
 
 /** @type {{module:string, cargo:string, tagsCargo:string[], tags:object[], norma:string, theory:string, cases:{caso:string, good:string, near:string[]}[]}[]} */

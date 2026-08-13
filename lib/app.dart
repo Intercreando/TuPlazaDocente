@@ -9,7 +9,7 @@ import 'services/pwa_install_service.dart';
 import 'state/app_state.dart';
 import 'theme/app_colors.dart';
 import 'theme/app_theme.dart';
-import 'widgets/brand_logo.dart';
+import 'utils/hide_web_boot.dart';
 
 /// Raíz de la aplicación TuPlazaDocente.
 class TuPlazaDocenteApp extends StatefulWidget {
@@ -24,6 +24,7 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp>
   late final AppState _appState;
   late final PwaInstallService _pwaInstallService;
   late final GoRouter _router;
+  var _bootHidden = false;
 
   @override
   void initState() {
@@ -60,31 +61,20 @@ class _TuPlazaDocenteAppState extends State<TuPlazaDocenteApp>
       ],
       child: Consumer<AppState>(
         builder: (context, state, _) {
+          if (state.ready && !_bootHidden) {
+            _bootHidden = true;
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              hideWebBoot();
+            });
+          }
           if (!state.ready) {
+            // El overlay HTML `#boot` cubre esto; mismo color para no parpadear.
             return MaterialApp(
               debugShowCheckedModeBanner: false,
               theme: AppTheme.light(),
-              darkTheme: AppTheme.dark(),
-              home: Scaffold(
+              home: const Scaffold(
                 backgroundColor: AppColors.parchment,
-                body: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const BrandLogo(size: 96),
-                      const SizedBox(height: 16),
-                      Text(
-                        'TuPlazaDocente',
-                        style: AppTheme.light().textTheme.headlineSmall,
-                      ),
-                      const SizedBox(height: 8),
-                      Text(
-                        'Cargando...',
-                        style: AppTheme.light().textTheme.bodySmall,
-                      ),
-                    ],
-                  ),
-                ),
+                body: SizedBox.expand(),
               ),
             );
           }

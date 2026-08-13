@@ -92,6 +92,7 @@ class LandingScreen extends StatelessWidget {
                                 const SizedBox(height: 28),
                                 _HeroVisual(theme: theme, compact: true),
                               ],
+                              SizedBox(height: desktop ? 32 : 40),
                               const NewsHighlightStrip(compact: true),
                               const SizedBox(height: 8),
                               const LandingCredibilitySections(),

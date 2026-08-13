@@ -113,6 +113,7 @@ class _MobileHome extends StatelessWidget {
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
+      mainAxisSize: MainAxisSize.min,
       children: [
         _GreetingBlock(name: name, state: state),
         const SizedBox(height: 18),
@@ -189,78 +190,81 @@ class _DesktopHome extends StatelessWidget {
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
+      mainAxisSize: MainAxisSize.min,
       children: [
         _GreetingBlock(name: name, state: state, desktop: true),
         const SizedBox(height: 28),
-        IntrinsicHeight(
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              Expanded(
-                flex: 5,
-                child: Column(
-                  children: [
-                    _StreakCard(
-                      streak: profile.streakDays,
-                      doneToday: profile.dailyCompletedToday,
-                      desktop: true,
-                      onStart: () {
-                        final ok =
-                            state.startSession(mode: SessionMode.dailyStreak);
-                        launchSessionOrPaywall(
-                          context: context,
-                          state: state,
-                          started: ok,
-                          route: '/practice',
-                        );
-                      },
-                    ),
-                    const SizedBox(height: 16),
-                    _MasteryPanel(state: state, isDark: isDark),
-                    const SizedBox(height: 12),
-                    _ReminderTile(state: state),
-                    if (state.syncStatus != null) ...[
-                      const SizedBox(height: 10),
-                      Align(
-                        alignment: Alignment.centerLeft,
-                        child: Text(
-                          state.syncStatus!,
-                          style: theme.textTheme.bodySmall,
-                        ),
+        // Sin IntrinsicHeight: el home vive en un ListView (altura infinita)
+        // y la grilla de modos usa LayoutBuilder; esa combinación rompe el layout.
+        Row(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Expanded(
+              flex: 5,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  _StreakCard(
+                    streak: profile.streakDays,
+                    doneToday: profile.dailyCompletedToday,
+                    desktop: true,
+                    onStart: () {
+                      final ok =
+                          state.startSession(mode: SessionMode.dailyStreak);
+                      launchSessionOrPaywall(
+                        context: context,
+                        state: state,
+                        started: ok,
+                        route: '/practice',
+                      );
+                    },
+                  ),
+                  const SizedBox(height: 16),
+                  _MasteryPanel(state: state, isDark: isDark),
+                  const SizedBox(height: 12),
+                  _ReminderTile(state: state),
+                  if (state.syncStatus != null) ...[
+                    const SizedBox(height: 10),
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        state.syncStatus!,
+                        style: theme.textTheme.bodySmall,
                       ),
-                    ],
-                  ],
-                ),
-              ),
-              const SizedBox(width: 24),
-              Expanded(
-                flex: 7,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('Entrenar ahora', style: theme.textTheme.headlineSmall),
-                    const SizedBox(height: 6),
-                    Text(
-                      profile.isPremium
-                          ? 'Elige el modo según tu energía de hoy.'
-                          : 'Los modos con candado o chip Premium se desbloquean al pagar.',
-                      style: theme.textTheme.bodyMedium,
                     ),
-                    if (!profile.isPremium) ...[
-                      const SizedBox(height: 12),
-                      const FreemiumScopeBanner(),
-                    ],
-                    const SizedBox(height: 16),
-                    _ModesGrid(state: state, columns: 2),
-                    if (!profile.isPremium) ...[
-                      const SizedBox(height: 18),
-                      _PremiumTile(),
-                    ],
                   ],
-                ),
+                ],
               ),
-            ],
-          ),
+            ),
+            const SizedBox(width: 24),
+            Expanded(
+              flex: 7,
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text('Entrenar ahora', style: theme.textTheme.headlineSmall),
+                  const SizedBox(height: 6),
+                  Text(
+                    profile.isPremium
+                        ? 'Elige el modo según tu energía de hoy.'
+                        : 'Los modos con candado o chip Premium se desbloquean al pagar.',
+                    style: theme.textTheme.bodyMedium,
+                  ),
+                  if (!profile.isPremium) ...[
+                    const SizedBox(height: 12),
+                    const FreemiumScopeBanner(),
+                  ],
+                  const SizedBox(height: 16),
+                  _ModesGrid(state: state, columns: 2),
+                  if (!profile.isPremium) ...[
+                    const SizedBox(height: 18),
+                    _PremiumTile(),
+                  ],
+                ],
+              ),
+            ),
+          ],
         ),
         const SizedBox(height: 28),
         NewsHighlightStrip(
