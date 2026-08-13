@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'app.dart';
 import 'bootstrap/firebase_web_plugins.dart';
 import 'firebase_options.dart';
+import 'theme/app_fonts.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +15,10 @@ Future<void> main() async {
     ensureFirebaseWebPlugins();
   }
 
-  await _initFirebase();
+  await Future.wait<void>([
+    _initFirebase(),
+    prepareAppFonts(),
+  ]);
 
   try {
     await SystemChrome.setPreferredOrientations([

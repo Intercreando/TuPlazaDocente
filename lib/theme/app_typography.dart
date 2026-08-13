@@ -7,86 +7,93 @@ import 'app_colors.dart';
 /// nunca fontSize/fontWeight sueltos.
 abstract final class AppTypography {
   static TextTheme lightTextTheme() {
-    final display = GoogleFonts.frauncesTextTheme();
-    final body = GoogleFonts.plusJakartaSansTextTheme();
-
-    return body.copyWith(
-      displayLarge: display.displayLarge?.copyWith(
-        color: AppColors.textPrimary,
-        fontWeight: FontWeight.w700,
+    final base = ThemeData.light().textTheme;
+    return TextTheme(
+      displayLarge: _display(
+        base.displayLarge,
+        weight: FontWeight.w700,
         letterSpacing: -1.2,
         height: 1.05,
       ),
-      displayMedium: display.displayMedium?.copyWith(
-        color: AppColors.textPrimary,
-        fontWeight: FontWeight.w700,
+      displayMedium: _display(
+        base.displayMedium,
+        weight: FontWeight.w700,
         letterSpacing: -0.8,
         height: 1.1,
       ),
-      displaySmall: display.displaySmall?.copyWith(
-        color: AppColors.textPrimary,
-        fontWeight: FontWeight.w600,
+      displaySmall: _display(
+        base.displaySmall,
+        weight: FontWeight.w600,
         letterSpacing: -0.4,
         height: 1.15,
       ),
-      headlineLarge: display.headlineLarge?.copyWith(
-        color: AppColors.textPrimary,
-        fontWeight: FontWeight.w700,
+      headlineLarge: _display(
+        base.headlineLarge,
+        weight: FontWeight.w700,
         height: 1.15,
       ),
-      headlineMedium: display.headlineMedium?.copyWith(
-        color: AppColors.textPrimary,
-        fontWeight: FontWeight.w600,
+      headlineMedium: _display(
+        base.headlineMedium,
+        weight: FontWeight.w600,
         height: 1.2,
       ),
-      headlineSmall: display.headlineSmall?.copyWith(
-        color: AppColors.textPrimary,
-        fontWeight: FontWeight.w600,
+      headlineSmall: _display(
+        base.headlineSmall,
+        weight: FontWeight.w600,
         height: 1.25,
       ),
-      titleLarge: body.titleLarge?.copyWith(
+      titleLarge: _body(
+        base.titleLarge,
         color: AppColors.textPrimary,
-        fontWeight: FontWeight.w700,
+        weight: FontWeight.w700,
         height: 1.3,
       ),
-      titleMedium: body.titleMedium?.copyWith(
+      titleMedium: _body(
+        base.titleMedium,
         color: AppColors.textPrimary,
-        fontWeight: FontWeight.w600,
+        weight: FontWeight.w600,
         height: 1.35,
       ),
-      titleSmall: body.titleSmall?.copyWith(
+      titleSmall: _body(
+        base.titleSmall,
         color: AppColors.textPrimary,
-        fontWeight: FontWeight.w600,
+        weight: FontWeight.w600,
         height: 1.35,
       ),
-      bodyLarge: body.bodyLarge?.copyWith(
+      bodyLarge: _body(
+        base.bodyLarge,
         color: AppColors.textPrimary,
-        fontWeight: FontWeight.w400,
+        weight: FontWeight.w400,
         height: 1.55,
       ),
-      bodyMedium: body.bodyMedium?.copyWith(
+      bodyMedium: _body(
+        base.bodyMedium,
         color: AppColors.textSecondary,
-        fontWeight: FontWeight.w400,
+        weight: FontWeight.w400,
         height: 1.5,
       ),
-      bodySmall: body.bodySmall?.copyWith(
+      bodySmall: _body(
+        base.bodySmall,
         color: AppColors.textMuted,
-        fontWeight: FontWeight.w400,
+        weight: FontWeight.w400,
         height: 1.45,
       ),
-      labelLarge: body.labelLarge?.copyWith(
+      labelLarge: _body(
+        base.labelLarge,
         color: AppColors.textPrimary,
-        fontWeight: FontWeight.w700,
+        weight: FontWeight.w700,
         letterSpacing: 0.2,
       ),
-      labelMedium: body.labelMedium?.copyWith(
+      labelMedium: _body(
+        base.labelMedium,
         color: AppColors.textSecondary,
-        fontWeight: FontWeight.w600,
+        weight: FontWeight.w600,
         letterSpacing: 0.2,
       ),
-      labelSmall: body.labelSmall?.copyWith(
+      labelSmall: _body(
+        base.labelSmall,
         color: AppColors.textMuted,
-        fontWeight: FontWeight.w600,
+        weight: FontWeight.w600,
         letterSpacing: 0.3,
       ),
     );
@@ -108,8 +115,40 @@ abstract final class AppTypography {
       bodyMedium: base.bodyMedium?.copyWith(color: AppColors.darkTextSecondary),
       bodySmall: base.bodySmall?.copyWith(color: AppColors.darkTextSecondary),
       labelLarge: base.labelLarge?.copyWith(color: AppColors.darkText),
-      labelMedium: base.labelMedium?.copyWith(color: AppColors.darkTextSecondary),
+      labelMedium:
+          base.labelMedium?.copyWith(color: AppColors.darkTextSecondary),
       labelSmall: base.labelSmall?.copyWith(color: AppColors.darkTextSecondary),
+    );
+  }
+
+  static TextStyle _display(
+    TextStyle? base, {
+    required FontWeight weight,
+    double? letterSpacing,
+    required double height,
+  }) {
+    return GoogleFonts.fraunces(
+      textStyle: base,
+      color: AppColors.textPrimary,
+      fontWeight: weight,
+      letterSpacing: letterSpacing,
+      height: height,
+    );
+  }
+
+  static TextStyle _body(
+    TextStyle? base, {
+    required Color color,
+    required FontWeight weight,
+    double? height,
+    double? letterSpacing,
+  }) {
+    return GoogleFonts.plusJakartaSans(
+      textStyle: base,
+      color: color,
+      fontWeight: weight,
+      height: height,
+      letterSpacing: letterSpacing,
     );
   }
 }
