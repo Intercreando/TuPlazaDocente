@@ -21,6 +21,7 @@ import '../screens/radar_screen.dart';
 import '../screens/results_screen.dart';
 import '../screens/speed_battle_screen.dart';
 import '../state/app_state.dart';
+import '../utils/paid_traffic.dart';
 
 /// Configuración de rutas de la PWA.
 GoRouter createAppRouter(AppState appState) {
@@ -28,6 +29,7 @@ GoRouter createAppRouter(AppState appState) {
     initialLocation: '/',
     refreshListenable: appState,
     redirect: (context, state) {
+      PaidTraffic.captureFromUri(state.uri);
       if (!appState.ready) return null;
       final loc = state.matchedLocation;
       final onboarded = appState.profile.onboardingComplete;

@@ -6,6 +6,7 @@ import '../services/pwa_install_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/paid_traffic.dart';
 import 'brand_mark.dart';
 
 /// Header de marketing para la landing (escritorio).
@@ -42,11 +43,13 @@ class LandingHeader extends StatelessWidget {
                 onPressed: () => context.go('/auth'),
                 child: const Text('Iniciar sesión'),
               ),
-              const SizedBox(width: 8),
-              OutlinedButton(
-                onPressed: () => context.go('/onboarding'),
-                child: const Text('Invitado'),
-              ),
+              if (!PaidTraffic.isPaid) ...[
+                const SizedBox(width: 8),
+                OutlinedButton(
+                  onPressed: () => context.go('/onboarding'),
+                  child: const Text('Invitado'),
+                ),
+              ],
               const SizedBox(width: 8),
               FilledButton(
                 onPressed: () => context.go('/auth'),

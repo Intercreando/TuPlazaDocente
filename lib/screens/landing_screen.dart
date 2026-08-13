@@ -8,6 +8,7 @@ import 'package:provider/provider.dart';
 import '../services/pwa_install_service.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/paid_traffic.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_logo.dart';
 import '../widgets/brand_mark.dart';
@@ -194,10 +195,12 @@ class _HeroCopy extends StatelessWidget {
               onPressed: () => context.go('/auth'),
               child: const Text('Comenzar ahora'),
             ),
-            OutlinedButton(
-              onPressed: () => context.go('/onboarding'),
-              child: const Text('Continuar como invitado'),
-            ),
+            // Tráfico de pauta: un solo CTA hacia registro (Pixel CompleteRegistration).
+            if (!PaidTraffic.isPaid)
+              OutlinedButton(
+                onPressed: () => context.go('/onboarding'),
+                child: const Text('Continuar como invitado'),
+              ),
             if (!desktop)
               OutlinedButton.icon(
                 onPressed: () => _install(context),

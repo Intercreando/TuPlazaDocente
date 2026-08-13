@@ -3,7 +3,27 @@
 <head>
   <base href="$FLUTTER_BASE_HREF">
   <meta charset="UTF-8">
+  <!-- Preconnect: Pixel, Ads y fuentes (google_fonts descarga desde gstatic). -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://connect.facebook.net">
+  <link rel="preconnect" href="https://www.googletagmanager.com">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <script>
+    // Marca la pestaña si el clic vino de pauta (fbclid / utm). Flutter lo lee después.
+    (function () {
+      try {
+        var q = new URLSearchParams(location.search);
+        var src = (q.get('utm_source') || '').toLowerCase();
+        var med = (q.get('utm_medium') || '').toLowerCase();
+        var paid = q.has('fbclid') || q.has('gclid') || q.has('ttclid') ||
+          src === 'facebook' || src === 'instagram' || src === 'fb' ||
+          src === 'ig' || src === 'meta' || src === 'anuncios' ||
+          med === 'cpc' || med === 'ppc' || med === 'paid' || med === 'paid_social';
+        if (paid) sessionStorage.setItem('tpd_paid_traffic', '1');
+      } catch (e) {}
+    })();
+  </script>
   <meta name="description" content="TuPlazaDocente: entrenador táctico del Concurso Docente CNSC/ICFES.">
   <meta name="theme-color" content="#0C2F2B">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">

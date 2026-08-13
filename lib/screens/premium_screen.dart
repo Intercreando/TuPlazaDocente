@@ -107,11 +107,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
       messenger.showSnackBar(
         const SnackBar(
           content: Text(
-            'Para pagar Premium, guarda tu cuenta con Google o correo primero.',
+            'Crea tu cuenta gratuita en segundos para poder habilitar tu acceso Premium.',
           ),
         ),
       );
-      context.push('/auth');
+      // Tras el registro, AuthScreen vuelve aquí (no a /app ni onboarding).
+      context.push('/auth?next=/premium');
       return;
     }
 

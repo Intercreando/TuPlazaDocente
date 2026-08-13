@@ -1,0 +1,6 @@
+/// En móvil/tests no hay clic de anuncio web: se trata como orgánico.
+abstract final class PaidTraffic {
+  static bool get isPaid => false;
+
+  static void captureFromUri(Uri uri) {}
+}

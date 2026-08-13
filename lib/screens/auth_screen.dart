@@ -4,6 +4,8 @@ import 'package:provider/provider.dart';
 
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/auth_next.dart';
+import '../utils/paid_traffic.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
 import '../widgets/legal_footer_links.dart';
@@ -29,12 +31,28 @@ class _AuthScreenState extends State<AuthScreen> {
     super.dispose();
   }
 
+  String? get _nextPath => sanitizeNextPath(
+        GoRouterState.of(context).uri.queryParameters['next'],
+      );
+
   Future<void> _run(Future<bool> Function() action) async {
+    final next = _nextPath;
     setState(() => _loading = true);
     final ok = await action();
     if (!mounted) return;
     setState(() => _loading = false);
     if (ok) {
+      if (next != null) {
+        if (next == '/premium' || next == '/app/premium') {
+          ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(
+              content: Text('Cuenta lista. Ya puedes adquirir Premium.'),
+            ),
+          );
+        }
+        context.go(next);
+        return;
+      }
       final onboarded = context.read<AppState>().profile.onboardingComplete;
       context.go(onboarded ? '/app' : '/onboarding');
     } else {
@@ -64,7 +82,13 @@ class _AuthScreenState extends State<AuthScreen> {
                   Align(
                     alignment: Alignment.centerLeft,
                     child: IconButton(
-                      onPressed: () => context.go('/'),
+                      onPressed: () {
+                        if (context.canPop()) {
+                          context.pop();
+                        } else {
+                          context.go('/');
+                        }
+                      },
                       icon: const Icon(Icons.arrow_back),
                     ),
                   ),
@@ -151,20 +175,25 @@ class _AuthScreenState extends State<AuthScreen> {
                           : '¿Aún no tienes cuenta? Crear cuenta',
                     ),
                   ),
-                  const SizedBox(height: 8),
-                  OutlinedButton(
-                    onPressed: _loading
-                        ? null
-                        : () {
-                            final onboarded = state.profile.onboardingComplete;
-                            context.go(onboarded ? '/app' : '/onboarding');
-                          },
-                    child: Text(
-                      state.isAnonymousUser
-                          ? 'Continuar como invitado'
-                          : 'Volver a entrenar',
+                  // Pauta o retorno a Premium: no ofrecer invitado (fuga de registro).
+                  if (!state.isAnonymousUser ||
+                      (!PaidTraffic.isPaid && _nextPath == null)) ...[
+                    const SizedBox(height: 8),
+                    OutlinedButton(
+                      onPressed: _loading
+                          ? null
+                          : () {
+                              final onboarded =
+                                  state.profile.onboardingComplete;
+                              context.go(onboarded ? '/app' : '/onboarding');
+                            },
+                      child: Text(
+                        state.isAnonymousUser
+                            ? 'Continuar como invitado'
+                            : 'Volver a entrenar',
+                      ),
                     ),
-                  ),
+                  ],
                   if (!state.isAnonymousUser) ...[
                     const SizedBox(height: 8),
                     TextButton(
