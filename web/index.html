@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-CO">
 <head>
   <base href="$FLUTTER_BASE_HREF">
   <meta charset="UTF-8">
@@ -24,12 +24,20 @@
       } catch (e) {}
     })();
   </script>
-  <meta name="description" content="TuPlazaDocente: entrenador táctico del Concurso Docente CNSC/ICFES.">
+  <meta name="description" content="TuPlazaDocente: entrenador del Concurso Docente CNSC/ICFES 2026. Practica con casos de aula, pedagogía, SIEE y simulacros cortos. Empieza gratis y prepárate para tu plaza en propiedad.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="googlebot" content="index, follow">
+  <meta name="author" content="TuPlazaDocente">
+  <meta name="geo.region" content="CO">
   <meta name="theme-color" content="#0C2F2B">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="TuPlazaDocente">
+  <link rel="canonical" href="https://www.tuplazadocente.com/">
+  <link rel="alternate" hreflang="es-CO" href="https://www.tuplazadocente.com/">
+  <link rel="alternate" hreflang="x-default" href="https://www.tuplazadocente.com/">
+  <link rel="sitemap" type="application/xml" href="/sitemap.xml">
   <link rel="apple-touch-icon" href="/icons/Icon-192.png?v=2">
   <!-- Cache busting: Google/navegadores tenían cacheado el favicon de Flutter. -->
   <link rel="icon" type="image/png" href="favicon.png?v=2"/>
@@ -40,17 +48,20 @@
   <link rel="icon" type="image/png" sizes="512x512" href="/icons/Icon-512.png?v=2">
   <link rel="shortcut icon" href="/favicon.ico?v=2">
   <link rel="icon" href="/favicon.ico?v=2" sizes="any">
-  <meta property="og:title" content="TuPlazaDocente">
-  <meta property="og:description" content="Entrenador táctico del Concurso Docente CNSC/ICFES. Practica con casos reales y explicaciones normativas.">
+  <meta property="og:title" content="TuPlazaDocente | Concurso Docente CNSC 2026">
+  <meta property="og:description" content="Entrenador del Concurso Docente CNSC/ICFES. Casos de aula, explicaciones normativas y sesiones de 10 minutos. Empieza gratis.">
   <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_CO">
+  <meta property="og:site_name" content="TuPlazaDocente">
   <meta property="og:url" content="https://www.tuplazadocente.com/">
   <meta property="og:image" content="https://www.tuplazadocente.com/icons/Icon-512.png?v=2">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="TuPlazaDocente">
-  <meta name="twitter:description" content="Entrenador táctico del Concurso Docente CNSC/ICFES.">
+  <meta property="og:image:alt" content="Logo de TuPlazaDocente">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="TuPlazaDocente | Concurso Docente CNSC 2026">
+  <meta name="twitter:description" content="Practica para el Concurso Docente CNSC/ICFES con casos reales y explicaciones del criterio del ítem.">
   <meta name="twitter:image" content="https://www.tuplazadocente.com/icons/Icon-512.png?v=2">
   <link rel="preload" href="icons/logo-boot.png" as="image">
-  <title>TuPlazaDocente</title>
+  <title>TuPlazaDocente | Entrenador del Concurso Docente CNSC 2026</title>
   <link rel="manifest" href="manifest.json">
   <!-- Google tag (gtag.js) — Google Ads -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=AW-17037005824"></script>
@@ -88,6 +99,53 @@
   src="https://www.facebook.com/tr?id=1565041928197797&ev=PageView&noscript=1"
   /></noscript>
   <!-- End Meta Pixel Code -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "https://www.tuplazadocente.com/#website",
+        "name": "TuPlazaDocente",
+        "url": "https://www.tuplazadocente.com/",
+        "inLanguage": "es-CO",
+        "description": "Entrenador del Concurso Docente CNSC/ICFES 2026: práctica con casos de aula, pedagogía y simulacros cortos.",
+        "publisher": { "@id": "https://www.tuplazadocente.com/#org" }
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://www.tuplazadocente.com/#org",
+        "name": "TuPlazaDocente",
+        "url": "https://www.tuplazadocente.com/",
+        "logo": "https://www.tuplazadocente.com/icons/Icon-512.png?v=2",
+        "areaServed": { "@type": "Country", "name": "Colombia" }
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": "TuPlazaDocente",
+        "applicationCategory": "EducationalApplication",
+        "operatingSystem": "Web",
+        "url": "https://www.tuplazadocente.com/",
+        "inLanguage": "es-CO",
+        "description": "PWA para entrenar el Concurso de Ingreso a la Carrera Docente (CNSC/ICFES) con casos, explicaciones y plan diario.",
+        "offers": [
+          {
+            "@type": "Offer",
+            "name": "Gratis",
+            "price": "0",
+            "priceCurrency": "COP"
+          },
+          {
+            "@type": "Offer",
+            "name": "Premium por convocatoria",
+            "price": "89900",
+            "priceCurrency": "COP"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
   <style>
     html, body {
       height: 100%;
@@ -124,9 +182,55 @@
       to { opacity: 1; transform: none; }
     }
     #boot .sub { margin: 16px 0 0; opacity: 0.7; min-height: 1.2em; }
+    /* HTML real para Google: el Canvas de Flutter no indexa texto. */
+    #seo {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 28px 22px 80px;
+      line-height: 1.5;
+    }
+    #seo h1 { font-size: 1.75rem; margin: 0 0 12px; }
+    #seo h2 { font-size: 1.2rem; margin: 28px 0 10px; }
+    #seo p, #seo li { font-size: 1rem; }
+    #seo a { color: #0C2F2B; }
   </style>
+  <noscript>
+    <style>#boot { display: none !important; }</style>
+  </noscript>
 </head>
 <body>
+  <main id="seo">
+    <h1>TuPlazaDocente: entrenador del Concurso Docente CNSC 2026</h1>
+    <p>
+      No estudies más horas. Entrena con criterio para el Concurso de Ingreso
+      a la Carrera Docente (CNSC/ICFES) y prepárate para tu plaza en propiedad.
+    </p>
+    <p>
+      El concurso no se pasa memorizando leyes: se pasa dominando la lógica de
+      evaluación. Practica con casos de aula reales, pedagogía, SIEE, PIAR y
+      simulacros cortos de 10 a 15 minutos al día.
+    </p>
+    <h2>Qué puedes entrenar</h2>
+    <ul>
+      <li>Pedagogía y evaluación formativa (Decreto 1290 y SIEE).</li>
+      <li>Aptitud numérica, lectura crítica y componente comportamental.</li>
+      <li>Casos de gestión escolar, gobierno escolar y atención a la diversidad.</li>
+      <li>Reto diario gratis, una práctica al día y un simulacro corto al mes.</li>
+    </ul>
+    <h2>Cómo empezar</h2>
+    <p>
+      Crea tu cuenta en <a href="/auth">TuPlazaDocente</a>, continúa el
+      onboarding y entra al plan diario. El plan Premium es un pago único por
+      convocatoria (no es suscripción). Consulta
+      <a href="/premium">Premium</a>,
+      <a href="/legal/terms">términos</a> y
+      <a href="/legal/privacy">privacidad</a>.
+    </p>
+    <p>
+      TuPlazaDocente es un entrenador independiente. No somos una entidad
+      oficial del Estado, de la CNSC ni del Ministerio de Educación.
+    </p>
+  </main>
   <div id="boot">
     <div>
       <img class="lockup" src="icons/logo-boot.png" width="240" height="251" alt="TuPlazaDocente">
@@ -219,7 +323,13 @@
           registerInstallSw();
         });
 
+      function hideSeo() {
+        var seo = document.getElementById('seo');
+        if (seo && seo.parentNode) seo.remove();
+      }
+
       function hideBoot() {
+        hideSeo();
         var boot = document.getElementById('boot');
         if (!boot || boot.classList.contains('boot-out')) return;
         boot.classList.add('boot-out');

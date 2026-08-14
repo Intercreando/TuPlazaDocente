@@ -2,9 +2,10 @@ import 'dart:async';
 
 import 'package:web/web.dart' as web;
 
-/// Quita el overlay HTML `#boot` con un fade corto.
+/// Quita el HTML de SEO y el overlay `#boot` cuando Flutter ya pintó.
 void hideWebBoot() {
   try {
+    web.document.getElementById('seo')?.remove();
     final boot = web.document.getElementById('boot');
     if (boot == null) return;
     boot.classList.add('boot-out');
