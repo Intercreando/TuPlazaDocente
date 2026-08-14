@@ -71,7 +71,18 @@
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '1565041928197797');
-  fbq('track', 'PageView');
+  (function () {
+    // eventID: Meta puede recibir PageView por píxel y por servidor (CAPI).
+    // El mismo id permite deduplicar y no contar dos veces.
+    var eventId;
+    try {
+      eventId = (crypto.randomUUID && crypto.randomUUID()) ||
+        ('pv_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10));
+    } catch (e) {
+      eventId = 'pv_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10);
+    }
+    fbq('track', 'PageView', {}, {eventID: eventId});
+  })();
   </script>
   <noscript><img height="1" width="1" style="display:none"
   src="https://www.facebook.com/tr?id=1565041928197797&ev=PageView&noscript=1"

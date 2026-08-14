@@ -1,10 +1,14 @@
 import 'dart:js_interop';
 
+import 'package:uuid/uuid.dart';
+
 /// Meta Pixel (fbq) en Flutter Web.
 @JS('fbq')
 external JSFunction? get _fbq;
 
 abstract final class MetaPixel {
+  static const _uuid = Uuid();
+
   static void completeRegistration({String? method}) {
     final params = <String, Object?>{
       'status': true,
@@ -54,11 +58,15 @@ abstract final class MetaPixel {
     try {
       final fbq = _fbq;
       if (fbq == null) return;
-      if (params == null) {
-        fbq.callAsFunction(null, 'track'.toJS, event.toJS);
-      } else {
-        fbq.callAsFunction(null, 'track'.toJS, event.toJS, params.jsify());
-      }
+      final payload = params ?? <String, Object?>{};
+      final options = <String, Object?>{'eventID': _uuid.v4()};
+      fbq.callAsFunction(
+        null,
+        'track'.toJS,
+        event.toJS,
+        payload.jsify(),
+        options.jsify(),
+      );
     } catch (_) {
       // Píxel bloqueado o no disponible.
     }
