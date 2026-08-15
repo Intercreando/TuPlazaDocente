@@ -55,7 +55,7 @@ class LandingHeader extends StatelessWidget {
                 onPressed: () => context.go('/auth'),
                 child: const Text('Comenzar'),
               ),
-              if (pwa.canInstall) ...[
+              if (pwa.canInstall && !PaidTraffic.isPaid) ...[
                 const SizedBox(width: 8),
                 IconButton(
                   tooltip: 'Instalar app',

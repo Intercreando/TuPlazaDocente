@@ -21,6 +21,9 @@
           src === 'ig' || src === 'meta' || src === 'anuncios' ||
           med === 'cpc' || med === 'ppc' || med === 'paid' || med === 'paid_social';
         if (paid) sessionStorage.setItem('tpd_paid_traffic', '1');
+        if (sessionStorage.getItem('tpd_paid_traffic') === '1') {
+          document.documentElement.classList.add('tpd-paid');
+        }
       } catch (e) {}
     })();
   </script>

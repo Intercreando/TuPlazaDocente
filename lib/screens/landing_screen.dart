@@ -6,6 +6,7 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../services/pwa_install_service.dart';
+import '../theme/app_button_styles.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
 import '../utils/paid_traffic.dart';
@@ -154,6 +155,10 @@ class _HeroCopy extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final paid = PaidTraffic.isPaid;
+    final gap = desktop ? 18.0 : 14.0;
+    final titleStyle =
+        desktop ? theme.textTheme.displayMedium : theme.textTheme.displaySmall;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -164,18 +169,16 @@ class _HeroCopy extends StatelessWidget {
           const SizedBox(height: 28),
         ],
         ConcursoPhaseBadge(showDetail: desktop),
-        SizedBox(height: desktop ? 18 : 14),
+        SizedBox(height: gap),
         Text(
           'No estudies más horas.\n'
           'Entrena inteligente y asegura tu plaza en propiedad.',
-          style: desktop
-              ? theme.textTheme.displayMedium
-              : theme.textTheme.displaySmall,
+          style: titleStyle,
         )
             .animate()
             .fadeIn(duration: 600.ms, delay: 80.ms)
             .slideY(begin: 0.06, end: 0),
-        SizedBox(height: desktop ? 18 : 14),
+        SizedBox(height: gap),
         ConstrainedBox(
           constraints: BoxConstraints(maxWidth: desktop ? 520 : double.infinity),
           child: Text(
@@ -187,33 +190,56 @@ class _HeroCopy extends StatelessWidget {
           ).animate().fadeIn(duration: 600.ms, delay: 160.ms),
         ),
         SizedBox(height: desktop ? 32 : 28),
-        Wrap(
-          spacing: 12,
-          runSpacing: 12,
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            FilledButton(
-              onPressed: () => context.go('/auth'),
-              child: const Text('Comenzar ahora'),
+            DecoratedBox(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                boxShadow: [
+                  BoxShadow(
+                    color: AppColors.gold.withValues(alpha: 0.38),
+                    blurRadius: 28,
+                    offset: const Offset(0, 10),
+                  ),
+                ],
+              ),
+              child: FilledButton.icon(
+                style: AppButtonStyles.premiumCheckout(
+                  textStyle: theme.textTheme.titleSmall?.copyWith(
+                    color: AppColors.ink,
+                  ),
+                ),
+                onPressed: () => context.go('/auth'),
+                icon: const Icon(Icons.play_circle_filled_rounded),
+                label: Text(
+                  paid
+                      ? 'Realiza tu primera simulación gratis'
+                      : 'Comenzar ahora',
+                ),
+              ),
             ),
-            // Tráfico de pauta: un solo CTA hacia registro (Pixel CompleteRegistration).
-            if (!PaidTraffic.isPaid)
-              OutlinedButton(
-                onPressed: () => context.go('/onboarding'),
-                child: const Text('Continuar como invitado'),
+            if (!paid) ...[
+              const SizedBox(height: 12),
+              Wrap(
+                spacing: 12,
+                runSpacing: 12,
+                children: [
+                  OutlinedButton(
+                    onPressed: () => context.go('/onboarding'),
+                    child: const Text('Continuar como invitado'),
+                  ),
+                  if (!desktop)
+                    OutlinedButton.icon(
+                      onPressed: () => _install(context),
+                      icon: const Icon(Icons.download_for_offline_outlined),
+                      label: const Text('Instalar en el inicio'),
+                    ),
+                ],
               ),
-            if (!desktop)
-              OutlinedButton.icon(
-                onPressed: () => _install(context),
-                icon: const Icon(Icons.download_for_offline_outlined),
-                label: const Text('Instalar en el inicio'),
-              ),
+            ],
           ],
         ).animate().fadeIn(duration: 500.ms, delay: 260.ms),
-        const SizedBox(height: 18),
-        Text(
-          'Gratis: reto diario + 1 práctica/día + 1 simulacro/mes. Premium: sin límites, casos y especialidad.',
-          style: theme.textTheme.bodySmall,
-        ),
       ],
     );
   }

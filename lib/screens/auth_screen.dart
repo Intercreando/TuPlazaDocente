@@ -25,6 +25,15 @@ class _AuthScreenState extends State<AuthScreen> {
   bool _loading = false;
 
   @override
+  void initState() {
+    super.initState();
+    // Tráfico de anuncio: la landing promete simulación, no “iniciar sesión”.
+    if (PaidTraffic.isPaid) {
+      _registerMode = true;
+    }
+  }
+
+  @override
   void dispose() {
     _emailController.dispose();
     _passwordController.dispose();
@@ -95,12 +104,18 @@ class _AuthScreenState extends State<AuthScreen> {
                   const BrandMark(compact: true),
                   const SizedBox(height: 22),
                   Text(
-                    _registerMode ? 'Crea tu cuenta' : 'Guarda tu progreso',
+                    PaidTraffic.isPaid
+                        ? 'Crea tu cuenta y entra al simulador'
+                        : (_registerMode
+                            ? 'Crea tu cuenta'
+                            : 'Guarda tu progreso'),
                     style: theme.textTheme.headlineMedium,
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'Conecta tu cuenta para sincronizar racha, plan y Premium entre dispositivos.',
+                    PaidTraffic.isPaid
+                        ? 'Con Google o correo, en segundos. Después eliges tu cargo y haces la primera simulación gratis.'
+                        : 'Conecta tu cuenta para sincronizar racha, plan y Premium entre dispositivos.',
                     style: theme.textTheme.bodyLarge,
                   ),
                   const SizedBox(height: 10),
