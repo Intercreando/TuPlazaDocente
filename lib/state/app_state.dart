@@ -497,6 +497,13 @@ class AppState extends ChangeNotifier {
     return true;
   }
 
+  Future<bool> sendPasswordReset(String email) async {
+    final ok = await _sync.sendPasswordReset(email: email);
+    lastError = _sync.lastError;
+    notifyListeners();
+    return ok;
+  }
+
   Future<bool> registerWithEmail(String email, String password) async {
     final ok = await _sync.registerWithEmail(email: email, password: password);
     if (!ok) {

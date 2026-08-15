@@ -105,6 +105,43 @@ class FirebaseSyncService {
     }
   }
 
+  /// Envía el correo de restablecimiento de Firebase Auth (enlace oficial).
+  Future<bool> sendPasswordReset({required String email}) async {
+    final auth = _auth;
+    if (auth == null) {
+      lastError = 'Firebase no está disponible. Recarga e intenta de nuevo.';
+      return false;
+    }
+    final trimmed = email.trim();
+    if (!trimmed.contains('@')) {
+      lastError = 'Escribe un correo válido para enviarte el enlace.';
+      return false;
+    }
+    try {
+      await auth.sendPasswordResetEmail(
+        email: trimmed,
+        actionCodeSettings: ActionCodeSettings(
+          url: 'https://www.tuplazadocente.com/auth',
+          handleCodeInApp: false,
+        ),
+      );
+      lastError = null;
+      return true;
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'user-not-found' || e.code == 'invalid-email') {
+        // No revelar si el correo existe; el usuario igual ve el mensaje genérico.
+        lastError = null;
+        return true;
+      }
+      lastError = _mapAuthError(e);
+      return false;
+    } catch (e) {
+      lastError = 'No se pudo enviar el correo. Intenta de nuevo en un momento.';
+      debugPrint('sendPasswordReset: $e');
+      return false;
+    }
+  }
+
   Future<bool> registerWithEmail({
     required String email,
     required String password,
@@ -308,6 +345,8 @@ class FirebaseSyncService {
         return 'Ese correo ya está registrado. Inicia sesión.';
       case 'popup-closed-by-user':
         return 'Cerraste la ventana de Google antes de terminar.';
+      case 'too-many-requests':
+        return 'Demasiados intentos. Espera unos minutos e inténtalo de nuevo.';
       case 'operation-not-allowed':
         return 'Este método de acceso no está habilitado en Firebase.';
       default:

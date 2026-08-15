@@ -72,6 +72,35 @@ class _AuthScreenState extends State<AuthScreen> {
     }
   }
 
+  Future<void> _sendPasswordReset() async {
+    final email = _emailController.text.trim();
+    final messenger = ScaffoldMessenger.of(context);
+    if (email.isEmpty || !email.contains('@')) {
+      messenger.showSnackBar(
+        const SnackBar(
+          content: Text(
+            'Escribe tu correo arriba y te enviamos el enlace para crear una nueva contraseña.',
+          ),
+        ),
+      );
+      return;
+    }
+    setState(() => _loading = true);
+    final ok = await context.read<AppState>().sendPasswordReset(email);
+    if (!mounted) return;
+    setState(() => _loading = false);
+    final error = context.read<AppState>().lastError;
+    messenger.showSnackBar(
+      SnackBar(
+        content: Text(
+          ok
+              ? 'Si hay una cuenta con ese correo, te enviamos un enlace. Revisa bandeja y spam. Si te registraste con Google, entra con Google.'
+              : (error ?? 'No se pudo enviar el correo. Intenta de nuevo.'),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -180,6 +209,14 @@ class _AuthScreenState extends State<AuthScreen> {
                           },
                     child: Text(_registerMode ? 'Crear cuenta' : 'Iniciar sesión'),
                   ),
+                  if (!_registerMode)
+                    Align(
+                      alignment: Alignment.centerRight,
+                      child: TextButton(
+                        onPressed: _loading ? null : _sendPasswordReset,
+                        child: const Text('¿Olvidaste tu contraseña?'),
+                      ),
+                    ),
                   TextButton(
                     onPressed: _loading
                         ? null
