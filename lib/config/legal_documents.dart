@@ -3,7 +3,7 @@ abstract final class LegalDocuments {
   static const String responsibleName = 'TuPlazaDocente';
   static const String contactEmail = 'soporte@tuplazadocente.com';
   static const String siteUrl = 'https://www.tuplazadocente.com';
-  static const String lastUpdatedLabel = '3 de agosto de 2026';
+  static const String lastUpdatedLabel = '15 de agosto de 2026';
 
   static const List<LegalSection> terms = [
     LegalSection(
@@ -38,8 +38,10 @@ abstract final class LegalDocuments {
       body:
           'El plan Gratis incluye cupos diarios/mensuales y modos limitados. Premium es un pago '
           'único por convocatoria vigente (no es suscripción automática). El precio vigente se '
-          'muestra en la pantalla Premium. Premium puede usarse en hasta 3 dispositivos de la '
-          'misma cuenta; si abres un cuarto, el más antiguo puede cerrarse. Códigos de acceso '
+          'muestra en la pantalla Premium. Quien llega por campaña publicitaria puede tener un '
+          'diagnóstico inicial obligatorio, sin simulacro cronometrado gratis, y un precio de '
+          'bienvenida temporal de 24 horas que no se reinicia; al vencer aplica el precio de lista. '
+          'Premium puede usarse en hasta 3 dispositivos de la misma cuenta; si abres un cuarto, el más antiguo puede cerrarse. Códigos de acceso '
           'pueden existir con fines internos o promocionales y pueden revocarse.',
     ),
     LegalSection(

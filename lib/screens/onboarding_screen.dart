@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
 import '../state/app_state.dart';
+import '../utils/paid_traffic.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
@@ -240,13 +241,16 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                             child: Text(_saving ? 'Guardando…' : 'Guardar cambios'),
                           )
                         else ...[
-                          TextButton(
-                            onPressed: _saving
-                                ? null
-                                : () => _finish(startDiagnostic: false),
-                            child: const Text('Ir al inicio'),
-                          ),
-                          const SizedBox(width: 8),
+                          if (!PaidTraffic.isPaid &&
+                              !context.read<AppState>().isPaidCohort) ...[
+                            TextButton(
+                              onPressed: _saving
+                                  ? null
+                                  : () => _finish(startDiagnostic: false),
+                              child: const Text('Ir al inicio'),
+                            ),
+                            const SizedBox(width: 8),
+                          ],
                           FilledButton(
                             onPressed: _saving
                                 ? null

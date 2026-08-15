@@ -21,6 +21,7 @@ import '../widgets/tag_mastery_map.dart';
 import '../utils/app_snackbars.dart';
 import '../widgets/testimonials_section.dart';
 import '../widgets/training_mode_card.dart';
+import '../widgets/welcome_offer_banner.dart';
 
 /// Home: hub de entrenamiento (dashboard en escritorio, lista en móvil).
 class HomeScreen extends StatelessWidget {
@@ -116,6 +117,8 @@ class _MobileHome extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         _GreetingBlock(name: name, state: state),
+        const SizedBox(height: 12),
+        const WelcomeOfferBanner(),
         const SizedBox(height: 18),
         _StreakCard(
           streak: profile.streakDays,
@@ -193,6 +196,8 @@ class _DesktopHome extends StatelessWidget {
       mainAxisSize: MainAxisSize.min,
       children: [
         _GreetingBlock(name: name, state: state, desktop: true),
+        const SizedBox(height: 12),
+        const WelcomeOfferBanner(),
         const SizedBox(height: 28),
         // Sin IntrinsicHeight: el home vive en un ListView (altura infinita)
         // y la grilla de modos usa LayoutBuilder; esa combinación rompe el layout.
@@ -507,11 +512,13 @@ class _ModesGrid extends StatelessWidget {
             ? (premium
                 ? 'Tiempo por ítem + mapa de calor.'
                 : '1 simulacro gratis este mes')
-            : 'Cupo mensual usado · desbloquea con Premium',
+            : (state.isPaidCohort
+                ? 'Simulacro cronometrado · Premium'
+                : 'Cupo mensual usado · desbloquea con Premium'),
         icon: Icons.timer_outlined,
         color: AppColors.coral,
         access: examAccess(),
-        limitedLabel: '1 / mes',
+        limitedLabel: state.isPaidCohort ? 'Premium' : '1 / mes',
         onTap: () {
           final ok = state.startSession(mode: SessionMode.exam, count: 8);
           launchSessionOrPaywall(
@@ -528,11 +535,13 @@ class _ModesGrid extends StatelessWidget {
             ? 'Casos nivel 3 · simulacro intensivo'
             : state.canStartShortExam
                 ? 'Nivel 3 · consume tu 1 simulacro/mes'
-                : 'Cupo de simulacro usado · Premium',
+                : (state.isPaidCohort
+                    ? 'Simulacro intensivo · Premium'
+                    : 'Cupo de simulacro usado · Premium'),
         icon: Icons.whatshot_outlined,
         color: AppColors.danger,
         access: examAccess(),
-        limitedLabel: '1 / mes',
+        limitedLabel: state.isPaidCohort ? 'Premium' : '1 / mes',
         onTap: () {
           final ok = state.startSession(
             mode: SessionMode.exam,

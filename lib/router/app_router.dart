@@ -7,6 +7,8 @@ import '../screens/admin_promo_screen.dart';
 import '../screens/app_shell.dart';
 import '../screens/auth_screen.dart';
 import '../screens/cases_screen.dart';
+import '../screens/diagnostic_gate_screen.dart';
+import '../screens/diagnostic_paywall_screen.dart';
 import '../screens/exam_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/landing_screen.dart';
@@ -41,6 +43,8 @@ GoRouter createAppRouter(AppState appState) {
         '/practice',
         '/results',
         '/premium',
+        '/diagnostico',
+        '/diagnostic-paywall',
         '/admin/promos',
         '/legal/terms',
         '/legal/privacy',
@@ -61,6 +65,21 @@ GoRouter createAppRouter(AppState appState) {
       if (onboarded && loc == '/') return '/app';
       if (onboarded && loc == '/onboarding' && !editingProfile) {
         return '/app';
+      }
+      if (onboarded && appState.needsPaidDiagnostic) {
+        const diagnosticAllowed = {
+          '/diagnostico',
+          '/practice',
+          '/results',
+          '/premium',
+          '/auth',
+          '/diagnostic-paywall',
+        };
+        if (!diagnosticAllowed.contains(loc) &&
+            !loc.startsWith('/legal') &&
+            !loc.startsWith('/premium')) {
+          return '/diagnostico';
+        }
       }
       return null;
     },
@@ -99,6 +118,14 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/premium',
         builder: (context, state) => const PremiumScreen(),
+      ),
+      GoRoute(
+        path: '/diagnostico',
+        builder: (context, state) => const DiagnosticGateScreen(),
+      ),
+      GoRoute(
+        path: '/diagnostic-paywall',
+        builder: (context, state) => const DiagnosticPaywallScreen(),
       ),
       GoRoute(
         path: '/admin/promos',

@@ -15,12 +15,20 @@ service cloud.firestore {
           'premiumPaymentId',
           'premiumCode',
           'pendingPromoDiscount',
+          'acquiredViaPaid',
+          'welcomeOfferExpiresAt',
+          'paidAcquisitionAt',
         ]);
     }
 
     function premiumNotSetOnCreate() {
-      return !('isPremium' in request.resource.data)
-        || request.resource.data.isPremium == false;
+      return (!('isPremium' in request.resource.data)
+        || request.resource.data.isPremium == false)
+        && (
+          !('acquiredViaPaid' in request.resource.data)
+          || request.resource.data.acquiredViaPaid == false
+        )
+        && !('welcomeOfferExpiresAt' in request.resource.data);
     }
 
     match /users/{userId} {

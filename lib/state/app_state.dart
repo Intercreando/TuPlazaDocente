@@ -18,8 +18,11 @@ import '../services/question_repository.dart';
 import '../services/streak_notification_service.dart';
 import '../services/study_plan_service.dart';
 import '../services/tag_mastery_service.dart';
+import '../config/paid_funnel.dart';
+import '../services/paid_acquisition_service.dart';
 import '../utils/google_ads_tag.dart';
 import '../utils/meta_pixel.dart';
+import '../utils/paid_traffic.dart';
 
 /// Estado global de progreso, perfil y sesiones.
 class AppState extends ChangeNotifier {
@@ -29,11 +32,13 @@ class AppState extends ChangeNotifier {
     StreakNotificationService? notificationService,
     QuestionRepository? questionRepository,
     DeviceSessionService? deviceSessionService,
+    PaidAcquisitionService? paidAcquisitionService,
   })  : _sync = syncService ?? FirebaseSyncService(),
         _payments = paymentService ?? PaymentService(),
         _notifications = notificationService ?? StreakNotificationService(),
         _questions = questionRepository ?? QuestionRepository(),
-        _devices = deviceSessionService ?? DeviceSessionService();
+        _devices = deviceSessionService ?? DeviceSessionService(),
+        _paidAcquisition = paidAcquisitionService ?? PaidAcquisitionService();
 
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const _checkoutAmountKey = 'pending_checkout_amount_cop';
@@ -48,9 +53,11 @@ class AppState extends ChangeNotifier {
   final StreakNotificationService _notifications;
   final QuestionRepository _questions;
   final DeviceSessionService _devices;
-
+  final PaidAcquisitionService _paidAcquisition;
   Timer? _deviceHeartbeat;
   bool _deviceGateBusy = false;
+  bool _paidClaimInFlight = false;
+  String? _paidClaimSettledUid;
 
   UserProfile profile = const UserProfile();
   bool ready = false;
@@ -77,8 +84,22 @@ class AppState extends ChangeNotifier {
   Question? get currentQuestion =>
       currentQuestions.isEmpty ? null : currentQuestions[currentIndex];
 
-  bool get canStartShortExam =>
-      profile.isPremium || monthlyShortExamsUsed < freeMonthlyShortExams;
+  bool get canStartShortExam => PaidFunnel.canStartShortExam(
+        profile: profile,
+        monthlyShortExamsUsed: monthlyShortExamsUsed,
+        freeMonthlyShortExams: freeMonthlyShortExams,
+      );
+
+  bool get isPaidCohort => PaidFunnel.isCohort(profile);
+
+  bool get needsPaidDiagnostic => PaidFunnel.needsDiagnostic(profile);
+
+  bool get welcomeOfferActive => PaidFunnel.welcomeOfferActive(profile);
+
+  int get displayedPremiumPriceCop => PaidFunnel.priceCop(
+        profile,
+        promoPercent: pendingDiscountPercent,
+      );
 
   bool get canStartFreePractice =>
       profile.isPremium ||
@@ -146,6 +167,10 @@ class AppState extends ChangeNotifier {
             await prefs.setString(_storageKey, jsonEncode(profile.toJson()));
           } else if (profile.onboardingComplete) {
             await _sync.saveRemoteProfile(profile);
+            if (remote != null) _mergePaidFunnelFromRemote(remote);
+          }
+          if (!_sync.isAnonymous) {
+            await _claimPaidAcquisitionIfNeeded();
           }
           syncStatus = _sync.isAnonymous
               ? 'Sesión invitado (nube). Guarda tu cuenta para no perder progreso.'
@@ -479,6 +504,7 @@ class AppState extends ChangeNotifier {
     final remote = await _sync.loadRemoteProfile();
     if (remote == null) return;
     profile = profile.copyWith(isPremium: remote.isPremium);
+    _mergePaidFunnelFromRemote(remote);
     await _persist();
     notifyListeners();
     if (profile.isPremium) {
@@ -540,6 +566,8 @@ class AppState extends ChangeNotifier {
     try {
       _deviceHeartbeat?.cancel();
       _deviceHeartbeat = null;
+      _paidClaimSettledUid = null;
+      PaidTraffic.clearClaimSettled();
       final keepDarkMode = profile.darkMode;
 
       // 1) Persistir progreso de la cuenta registrada antes de soltar el UID.
@@ -602,6 +630,7 @@ class AppState extends ChangeNotifier {
       _refreshDailyFlags();
     } else {
       await _sync.saveRemoteProfile(profile);
+      if (remote != null) _mergePaidFunnelFromRemote(remote);
     }
     if (_sync.email != null &&
         (profile.displayName.isEmpty || profile.displayName == 'Aspirante')) {
@@ -610,9 +639,61 @@ class AppState extends ChangeNotifier {
     }
     syncStatus = 'Cuenta conectada · progreso en la nube';
     lastError = null;
+    await _claimPaidAcquisitionIfNeeded();
     await _persist();
     notifyListeners();
     await _syncPremiumDeviceSlot(register: true);
+  }
+
+  void _mergePaidFunnelFromRemote(UserProfile remote) {
+    profile = profile.copyWith(
+      acquiredViaPaid: remote.acquiredViaPaid || profile.acquiredViaPaid,
+      welcomeOfferExpiresAt:
+          remote.welcomeOfferExpiresAt ?? profile.welcomeOfferExpiresAt,
+      diagnosticCompleted:
+          remote.diagnosticCompleted || profile.diagnosticCompleted,
+    );
+  }
+
+  /// Si el clic fue de pauta y la cuenta es nueva, el servidor sella oferta 24 h.
+  /// Una sola invocación por uid (no hay reintento en bucle).
+  Future<void> _claimPaidAcquisitionIfNeeded() async {
+    if (_sync.isAnonymous || !_sync.available) return;
+    final uid = _sync.uid;
+    if (uid == null || uid.isEmpty) return;
+    if (_paidClaimInFlight) return;
+    if (PaidTraffic.isClaimSettledFor(uid) || _paidClaimSettledUid == uid) {
+      return;
+    }
+    if (profile.acquiredViaPaid) {
+      PaidTraffic.markClaimSettled(uid);
+      _paidClaimSettledUid = uid;
+      return;
+    }
+    if (!PaidTraffic.isPaid || profile.isPremium) return;
+
+    _paidClaimInFlight = true;
+    try {
+      final claim = await _paidAcquisition.claim();
+      if (claim == null) return;
+      if (claim.rejected) {
+        PaidTraffic.markClaimSettled(uid);
+        _paidClaimSettledUid = uid;
+        return;
+      }
+      if (!claim.acquiredViaPaid) return;
+      profile = profile.copyWith(
+        acquiredViaPaid: true,
+        welcomeOfferExpiresAt:
+            claim.welcomeOfferExpiresAt ?? profile.welcomeOfferExpiresAt,
+      );
+      PaidTraffic.markClaimSettled(uid);
+      _paidClaimSettledUid = uid;
+    } catch (e) {
+      debugPrint('claimPaidAcquisitionIfNeeded: $e');
+    } finally {
+      _paidClaimInFlight = false;
+    }
   }
 
   bool startSession({
@@ -628,8 +709,9 @@ class AppState extends ChangeNotifier {
     _refreshQuotaFlags();
 
     if (mode == SessionMode.exam && !canStartShortExam) {
-      lastError =
-          'Ya usaste tu simulacro gratis del mes. Activa Premium para continuar.';
+      lastError = profile.acquiredViaPaid
+          ? 'El simulacro cronometrado (Examen Real) es Premium en cuentas de campaña. El diagnóstico y el reto diario siguen disponibles.'
+          : 'Ya usaste tu simulacro gratis del mes. Activa Premium para continuar.';
       notifyListeners();
       return false;
     }
@@ -858,6 +940,9 @@ class AppState extends ChangeNotifier {
     }
     if (currentMode == SessionMode.exam && !profile.isPremium) {
       monthlyShortExamsUsed += 1;
+    }
+    if (currentMode == SessionMode.diagnostic) {
+      profile = profile.copyWith(diagnosticCompleted: true);
     }
     if (activePlanTaskId != null) {
       _markPlanTaskDone(activePlanTaskId!);

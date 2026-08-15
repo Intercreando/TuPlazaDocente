@@ -118,9 +118,21 @@ class ResultsScreen extends StatelessWidget {
               FilledButton(
                 onPressed: () {
                   state.clearSession();
+                  if (result.mode == SessionMode.diagnostic &&
+                      state.isPaidCohort &&
+                      !state.profile.isPremium) {
+                    context.go('/diagnostic-paywall');
+                    return;
+                  }
                   context.go('/app');
                 },
-                child: const Text('Volver al inicio'),
+                child: Text(
+                  result.mode == SessionMode.diagnostic &&
+                          state.isPaidCohort &&
+                          !state.profile.isPremium
+                      ? 'Ver tu mapa de maestría'
+                      : 'Volver al inicio',
+                ),
               ),
               const SizedBox(height: 10),
               OutlinedButton(

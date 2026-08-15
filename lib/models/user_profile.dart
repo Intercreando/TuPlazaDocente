@@ -21,6 +21,9 @@ class UserProfile {
     this.completedPlanTaskIds = const [],
     this.planTaskDate,
     this.streakRemindersEnabled = false,
+    this.acquiredViaPaid = false,
+    this.welcomeOfferExpiresAt,
+    this.diagnosticCompleted = false,
   });
 
   final String displayName;
@@ -47,6 +50,15 @@ class UserProfile {
   final DateTime? planTaskDate;
   final bool streakRemindersEnabled;
 
+  /// True si el registro vino de campaña (lo escribe el servidor).
+  final bool acquiredViaPaid;
+
+  /// Caducidad real de la oferta $69.900 (servidor, no se reinicia).
+  final DateTime? welcomeOfferExpiresAt;
+
+  /// Completó el diagnóstico inicial (pauta: obligatorio).
+  final bool diagnosticCompleted;
+
   int get totalAnswers =>
       pillarTotal.values.fold<int>(0, (sum, value) => sum + value);
 
@@ -69,6 +81,9 @@ class UserProfile {
     List<String>? completedPlanTaskIds,
     DateTime? planTaskDate,
     bool? streakRemindersEnabled,
+    bool? acquiredViaPaid,
+    DateTime? welcomeOfferExpiresAt,
+    bool? diagnosticCompleted,
   }) {
     return UserProfile(
       displayName: displayName ?? this.displayName,
@@ -90,6 +105,10 @@ class UserProfile {
       planTaskDate: planTaskDate ?? this.planTaskDate,
       streakRemindersEnabled:
           streakRemindersEnabled ?? this.streakRemindersEnabled,
+      acquiredViaPaid: acquiredViaPaid ?? this.acquiredViaPaid,
+      welcomeOfferExpiresAt:
+          welcomeOfferExpiresAt ?? this.welcomeOfferExpiresAt,
+      diagnosticCompleted: diagnosticCompleted ?? this.diagnosticCompleted,
     );
   }
 
@@ -141,11 +160,22 @@ class UserProfile {
         'completedPlanTaskIds': completedPlanTaskIds,
         'planTaskDate': planTaskDate?.toIso8601String(),
         'streakRemindersEnabled': streakRemindersEnabled,
+        'acquiredViaPaid': acquiredViaPaid,
+        'welcomeOfferExpiresAt': welcomeOfferExpiresAt?.toIso8601String(),
+        'diagnosticCompleted': diagnosticCompleted,
       };
 
   factory UserProfile.fromJson(Map<String, dynamic> json) {
-    DateTime? parseDate(String? value) =>
-        value == null ? null : DateTime.tryParse(value);
+    DateTime? parseDate(dynamic value) {
+      if (value == null) return null;
+      if (value is DateTime) return value;
+      if (value is String) return DateTime.tryParse(value);
+      try {
+        final converted = (value as dynamic).toDate();
+        if (converted is DateTime) return converted;
+      } catch (_) {}
+      return null;
+    }
 
     Map<String, double> mastery = {};
     final rawMastery = json['topicMastery'];
@@ -175,17 +205,20 @@ class UserProfile {
       isPremium: json['isPremium'] as bool? ?? false,
       darkMode: json['darkMode'] as bool? ?? false,
       streakDays: json['streakDays'] as int? ?? 0,
-      lastStreakDate: parseDate(json['lastStreakDate'] as String?),
+      lastStreakDate: parseDate(json['lastStreakDate']),
       dailyCompletedToday: json['dailyCompletedToday'] as bool? ?? false,
-      examDate: parseDate(json['examDate'] as String?),
+      examDate: parseDate(json['examDate']),
       topicMastery: mastery,
       pillarCorrect: readIntMap('pillarCorrect'),
       pillarTotal: readIntMap('pillarTotal'),
       tagCorrect: readIntMap('tagCorrect'),
       tagTotal: readIntMap('tagTotal'),
       completedPlanTaskIds: tasks,
-      planTaskDate: parseDate(json['planTaskDate'] as String?),
+      planTaskDate: parseDate(json['planTaskDate']),
       streakRemindersEnabled: json['streakRemindersEnabled'] as bool? ?? false,
+      acquiredViaPaid: json['acquiredViaPaid'] == true,
+      welcomeOfferExpiresAt: parseDate(json['welcomeOfferExpiresAt']),
+      diagnosticCompleted: json['diagnosticCompleted'] == true,
     );
   }
 }

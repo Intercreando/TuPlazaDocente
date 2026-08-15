@@ -196,4 +196,24 @@ abstract final class TagMasteryService {
     }
     return 'Vas sólido en normas y teorías. Mantén el ritmo con un bloque mixto del cerebro pedagógico.';
   }
+
+  /// Texto del paywall post-diagnóstico: solo etiquetas con evidencia real.
+  static String diagnosticPaywallMessage(UserProfile profile) {
+    final weak = buildMap(profile)
+        .where(
+          (row) =>
+              row.total > 0 &&
+              (row.level == MasteryLevel.critico ||
+                  row.level == MasteryLevel.enDesarrollo),
+        )
+        .take(3)
+        .toList();
+    if (weak.isEmpty) {
+      return 'Tu diagnóstico salió sólido en los dominios que alcanzamos a medir. '
+          'Premium te deja simular sin tope y seguir subiendo el mapa.';
+    }
+    final names = weak.map((row) => row.headline).join(', ');
+    return 'En tu diagnóstico el mapa muestra huecos reales en: $names. '
+        'Premium abre práctica ilimitada y el simulacro cronometrado para corregirlos.';
+  }
 }

@@ -214,11 +214,19 @@ class _HeroCopy extends StatelessWidget {
                 icon: const Icon(Icons.play_circle_filled_rounded),
                 label: Text(
                   paid
-                      ? 'Realiza tu primera simulación gratis'
+                      ? 'Haz tu diagnóstico inicial gratis'
                       : 'Comenzar ahora',
                 ),
               ),
             ),
+            if (paid) ...[
+              const SizedBox(height: 10),
+              Text(
+                '20 preguntas de diagnóstico. Luego ves tu mapa real. '
+                'El simulacro cronometrado (Examen Real) es Premium.',
+                style: theme.textTheme.bodySmall,
+              ),
+            ],
             if (!paid) ...[
               const SizedBox(height: 12),
               Wrap(

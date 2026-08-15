@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:provider/provider.dart';
 
+import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 
 /// Aviso corto del plan Gratis vs Premium en el hub.
@@ -10,6 +12,12 @@ class FreemiumScopeBanner extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final paid = context.watch<AppState>().isPaidCohort;
+    final detail = paid
+        ? 'Libre: racha diaria, reto rápido y 1 práctica/día. '
+            'El simulacro cronometrado (Examen Real) es Premium.'
+        : 'Libre: racha diaria y reto rápido. Con cupo: 1 práctica/día '
+            'y 1 simulacro/mes. Candado = Casos y especialidad (Premium).';
 
     return Material(
       color: AppColors.mist,
@@ -37,13 +45,14 @@ class FreemiumScopeBanner extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'En Gratis hay cupos y modos con candado',
+                      paid
+                          ? 'En Gratis entrenas cada día; el simulacro cronometrado es Premium'
+                          : 'En Gratis hay cupos y modos con candado',
                       style: theme.textTheme.titleSmall,
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      'Libre: racha diaria y reto rápido. Con cupo: 1 práctica/día '
-                      'y 1 simulacro/mes. Candado = Casos y especialidad (Premium).',
+                      detail,
                       style: theme.textTheme.bodySmall,
                     ),
                   ],

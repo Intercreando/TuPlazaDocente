@@ -312,7 +312,10 @@ class FirebaseSyncService {
     if (!available || uid == null || db == null) return;
     try {
       final data = Map<String, dynamic>.from(profile.toJson())
-        ..remove('isPremium');
+        ..remove('isPremium')
+        // Solo el servidor escribe cohorte de pauta y caducidad de oferta.
+        ..remove('acquiredViaPaid')
+        ..remove('welcomeOfferExpiresAt');
       await db.collection('users').doc(uid).set(
         {
           ...data,

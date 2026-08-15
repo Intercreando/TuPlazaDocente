@@ -16,11 +16,18 @@
         var q = new URLSearchParams(location.search);
         var src = (q.get('utm_source') || '').toLowerCase();
         var med = (q.get('utm_medium') || '').toLowerCase();
-        var paid = q.has('fbclid') || q.has('gclid') || q.has('ttclid') ||
+        var paid = q.has('fbclid') || q.has('gclid') || q.has('gbraid') ||
+          q.has('wbraid') || q.has('ttclid') ||
           src === 'facebook' || src === 'instagram' || src === 'fb' ||
           src === 'ig' || src === 'meta' || src === 'anuncios' ||
-          med === 'cpc' || med === 'ppc' || med === 'paid' || med === 'paid_social';
-        if (paid) sessionStorage.setItem('tpd_paid_traffic', '1');
+          src === 'google' || src === 'googleads' || src === 'adwords' ||
+          med === 'cpc' || med === 'ppc' || med === 'paid' ||
+          med === 'paid_social' || med === 'display' || med === 'cpm' ||
+          med === 'paid_search';
+        if (paid) {
+          sessionStorage.setItem('tpd_paid_traffic', '1');
+          try { localStorage.setItem('tpd_paid_claim_at', String(Date.now())); } catch (e2) {}
+        }
         if (sessionStorage.getItem('tpd_paid_traffic') === '1') {
           document.documentElement.classList.add('tpd-paid');
         }

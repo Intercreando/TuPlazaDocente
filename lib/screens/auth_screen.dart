@@ -143,7 +143,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   const SizedBox(height: 8),
                   Text(
                     PaidTraffic.isPaid
-                        ? 'Con Google o correo, en segundos. Después eliges tu cargo y haces la primera simulación gratis.'
+                        ? 'Con Google o correo, en segundos. Después eliges tu cargo y haces el diagnóstico inicial gratis.'
                         : 'Conecta tu cuenta para sincronizar racha, plan y Premium entre dispositivos.',
                     style: theme.textTheme.bodyLarge,
                   ),

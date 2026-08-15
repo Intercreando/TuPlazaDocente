@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../models/enums.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/paid_traffic.dart';
 import 'concurso_bento_grid.dart';
 import 'testimonials_section.dart';
 
@@ -252,7 +253,7 @@ class _ChoiceChipButton extends StatelessWidget {
 class _WhyTrustSection extends StatelessWidget {
   const _WhyTrustSection();
 
-  static const _points = [
+  static const _pointsOrganic = [
     (
       Icons.menu_book_outlined,
       'Feedback que enseña',
@@ -275,9 +276,33 @@ class _WhyTrustSection extends StatelessWidget {
     ),
   ];
 
+  static const _pointsPaid = [
+    (
+      Icons.menu_book_outlined,
+      'Feedback que enseña',
+      'Cada respuesta explica el criterio del ítem y por qué fallan las distractoras.',
+    ),
+    (
+      Icons.school_outlined,
+      'Casos de aula reales',
+      'Practicas situaciones pedagógicas y de gestión, no solo teoría suelta.',
+    ),
+    (
+      Icons.timer_outlined,
+      'Sesiones cortas y constantes',
+      'Entrenamiento de 10–15 minutos con racha diaria para sostener el hábito.',
+    ),
+    (
+      Icons.verified_user_outlined,
+      'Empieza con tu diagnóstico gratis',
+      'Gratis: diagnóstico inicial, reto diario, 1 práctica al día y reto rápido. El simulacro cronometrado es Premium.',
+    ),
+  ];
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final points = PaidTraffic.isPaid ? _pointsPaid : _pointsOrganic;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -298,7 +323,7 @@ class _WhyTrustSection extends StatelessWidget {
             if (!desktop) {
               return Column(
                 children: [
-                  for (final point in _points) _TrustPointRow(point: point),
+                  for (final point in points) _TrustPointRow(point: point),
                 ],
               );
             }
@@ -306,7 +331,7 @@ class _WhyTrustSection extends StatelessWidget {
               spacing: 24,
               runSpacing: 8,
               children: [
-                for (final point in _points)
+                for (final point in points)
                   SizedBox(
                     width: (constraints.maxWidth - 24) / 2,
                     child: _TrustPointRow(point: point),

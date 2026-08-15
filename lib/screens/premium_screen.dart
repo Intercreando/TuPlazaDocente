@@ -255,20 +255,31 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     title: 'Gratis',
                     price: r'$0',
                     billingNote: 'Sin pago',
-                    items: const [
-                      'Reto diario de 5 preguntas (todos los días)',
-                      '1 sesión de práctica al día',
-                      '1 simulacro corto al mes',
-                      'Reto rápido y radar básico',
-                    ],
+                    items: state.isPaidCohort
+                        ? const [
+                            'Reto diario de 5 preguntas (todos los días)',
+                            '1 sesión de práctica al día',
+                            'Diagnóstico inicial gratis',
+                            'Reto rápido y radar básico',
+                          ]
+                        : const [
+                            'Reto diario de 5 preguntas (todos los días)',
+                            '1 sesión de práctica al día',
+                            '1 simulacro corto al mes',
+                            'Reto rápido y radar básico',
+                          ],
                     highlighted: false,
                   ),
                   const SizedBox(height: 12),
                   // 1. Tarjeta de Plan Premium
                   _PlanCard(
                     title: 'Premium',
-                    price: AppConfig.premiumPriceLabel,
-                    billingNote: AppConfig.premiumBillingLabel,
+                    price: state.welcomeOfferActive
+                        ? AppConfig.formatCop(state.displayedPremiumPriceCop)
+                        : AppConfig.premiumPriceLabel,
+                    billingNote: state.welcomeOfferActive
+                        ? 'Bienvenida 24 h · lista ${AppConfig.premiumPriceLabel}'
+                        : AppConfig.premiumBillingLabel,
                     items: const [
                       'Práctica ilimitada con explicaciones',
                       'Simulacros ilimitados + mapa de calor',
@@ -284,7 +295,27 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       child: const Text('Ya eres Premium · Continuar entrenando'),
                     )
                   else ...[
-                    if (state.pendingDiscountPercent != null &&
+                    if (state.welcomeOfferActive) ...[
+                      Container(
+                        width: double.infinity,
+                        padding: const EdgeInsets.all(14),
+                        decoration: BoxDecoration(
+                          color: AppColors.gold.withValues(alpha: 0.12),
+                          borderRadius: BorderRadius.circular(14),
+                          border: Border.all(
+                            color: AppColors.gold.withValues(alpha: 0.45),
+                          ),
+                        ),
+                        child: Text(
+                          'Oferta de bienvenida de campaña: '
+                          '${AppConfig.formatCop(state.displayedPremiumPriceCop)} '
+                          'en lugar de ${AppConfig.premiumPriceLabel}. '
+                          'El reloj no se reinicia; al vencer queda el precio de lista.',
+                          style: theme.textTheme.bodyMedium,
+                        ),
+                      ),
+                      const SizedBox(height: 12),
+                    ] else if (state.pendingDiscountPercent != null &&
                         state.pendingDiscountPercent! > 0) ...[
                       Container(
                         width: double.infinity,
@@ -316,9 +347,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                       child: Text(
                         _busy
                             ? 'Preparando el pago…'
-                            : 'Adquirir Premium · ${AppConfig.checkoutPriceLabel(
-                                discountPercent: state.pendingDiscountPercent,
-                              )}',
+                            : 'Adquirir Premium · ${AppConfig.formatCop(state.displayedPremiumPriceCop)}',
                       ),
                     ),
                     const SizedBox(height: 12),

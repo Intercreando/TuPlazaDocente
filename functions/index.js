@@ -5,6 +5,7 @@
  * - registerPremiumDevice / checkPremiumDevice: cupo de dispositivos
  * - submitTestimonial: opiniones de comunidad (moderación)
  * - trackMetaCapi: Pixel + Conversions API (event_id compartido)
+ * - claimPaidAcquisition: cohorte de pauta + oferta 24 h
  */
 const crypto = require("crypto");
 const {onCall, onRequest, HttpsError} = require("firebase-functions/v2/https");
@@ -16,6 +17,7 @@ const {getMessaging} = require("firebase-admin/messaging");
 const promoAdmin = require("./promo_admin");
 const newsAdmin = require("./news_admin");
 const metaCapi = require("./meta_capi");
+const paidFunnel = require("./paid_funnel");
 
 initializeApp();
 
@@ -124,22 +126,18 @@ exports.createPremiumCheckout = onCall(
       try {
         const db = getFirestore();
         const userSnap = await db.collection("users").doc(uid).get();
-        const pending = userSnap.exists ? (userSnap.data()?.pendingPromoDiscount || null) : null;
+        const userData = userSnap.exists ? (userSnap.data() || {}) : {};
+        const priced = paidFunnel.resolvePremiumPrice(userData);
 
-        let priceCop = PREMIUM_PRICE_COP;
-        let amountCents = PREMIUM_AMOUNT_CENTS;
+        const priceCop = priced.priceCop;
+        const amountCents = priceCop * 100;
         let appliedPromo = null;
-        if (pending && pending.type === "discount") {
-          const pct = Math.min(99, Math.max(1, Number(pending.percent) || 0));
-          if (pct > 0) {
-            priceCop = Math.round(PREMIUM_PRICE_COP * (100 - pct) / 100);
-            if (priceCop < 1000) priceCop = 1000;
-            amountCents = priceCop * 100;
-            appliedPromo = {
-              code: pending.code || null,
-              percent: pct,
-            };
-          }
+        const pending = userData.pendingPromoDiscount || null;
+        if (priced.source === "promo" && pending && pending.type === "discount") {
+          appliedPromo = {
+            code: pending.code || null,
+            percent: Math.min(99, Math.max(1, Number(pending.percent) || 0)),
+          };
         }
 
         // Referencia única; incluye uid para recuperar Premium si falla el doc payments.
@@ -184,6 +182,8 @@ exports.createPremiumCheckout = onCall(
             email: email || null,
             promoCode: appliedPromo?.code || null,
             discountPercent: appliedPromo?.percent || null,
+            priceSource: priced.source,
+            welcomeOffer: priced.welcomeActive,
             createdAt: FieldValue.serverTimestamp(),
           }, {merge: true});
         } catch (persistError) {
@@ -198,6 +198,7 @@ exports.createPremiumCheckout = onCall(
           amountCop: priceCop,
           listPriceCop: PREMIUM_PRICE_COP,
           discountPercent: appliedPromo?.percent || 0,
+          priceSource: priced.source,
           promoCode: appliedPromo?.code || null,
         };
       } catch (error) {
@@ -757,3 +758,4 @@ exports.adminListNews = newsAdmin.adminListNews;
 exports.adminDeleteNews = newsAdmin.adminDeleteNews;
 
 exports.trackMetaCapi = metaCapi.trackMetaCapi;
+exports.claimPaidAcquisition = paidFunnel.claimPaidAcquisition;

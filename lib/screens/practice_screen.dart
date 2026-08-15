@@ -59,8 +59,11 @@ class PracticeScreen extends StatelessWidget {
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () {
-            state.clearSession();
-            context.go('/app');
+            final paidGate = state.needsPaidDiagnostic;
+            if (!paidGate) {
+              state.clearSession();
+            }
+            context.go(paidGate ? '/diagnostico' : '/app');
           },
         ),
       ),
