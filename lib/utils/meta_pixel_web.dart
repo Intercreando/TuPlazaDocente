@@ -2,9 +2,12 @@ import 'dart:js_interop';
 
 import 'package:uuid/uuid.dart';
 
-/// Meta Pixel (fbq) en Flutter Web.
+/// Meta Pixel (fbq) + CAPI: el mismo event_id en navegador y servidor.
 @JS('fbq')
 external JSFunction? get _fbq;
+
+@JS('tpdTrackMetaCapi')
+external JSFunction? get _capi;
 
 abstract final class MetaPixel {
   static const _uuid = Uuid();
@@ -55,20 +58,33 @@ abstract final class MetaPixel {
   }
 
   static void _track(String event, Map<String, Object?>? params) {
+    final eventId = _uuid.v4();
+    final payload = params ?? <String, Object?>{};
+    final options = <String, Object?>{'eventID': eventId};
     try {
       final fbq = _fbq;
-      if (fbq == null) return;
-      final payload = params ?? <String, Object?>{};
-      final options = <String, Object?>{'eventID': _uuid.v4()};
-      fbq.callAsFunction(
-        null,
-        'track'.toJS,
-        event.toJS,
-        payload.jsify(),
-        options.jsify(),
-      );
+      if (fbq != null) {
+        fbq.callAsFunction(
+          null,
+          'track'.toJS,
+          event.toJS,
+          payload.jsify(),
+          options.jsify(),
+        );
+      }
     } catch (_) {
       // Píxel bloqueado o no disponible.
+    }
+    try {
+      final capi = _capi;
+      capi?.callAsFunction(
+        null,
+        event.toJS,
+        eventId.toJS,
+        payload.jsify(),
+      );
+    } catch (_) {
+      // CAPI no disponible (local / bloqueo).
     }
   }
 }

@@ -4,7 +4,7 @@
  * - activatePremiumCode: códigos Premium
  * - registerPremiumDevice / checkPremiumDevice: cupo de dispositivos
  * - submitTestimonial: opiniones de comunidad (moderación)
- * - sendStreakReminders: recordatorio diario de racha (FCM)
+ * - trackMetaCapi: Pixel + Conversions API (event_id compartido)
  */
 const crypto = require("crypto");
 const {onCall, onRequest, HttpsError} = require("firebase-functions/v2/https");
@@ -15,6 +15,7 @@ const {getFirestore, FieldValue} = require("firebase-admin/firestore");
 const {getMessaging} = require("firebase-admin/messaging");
 const promoAdmin = require("./promo_admin");
 const newsAdmin = require("./news_admin");
+const metaCapi = require("./meta_capi");
 
 initializeApp();
 
@@ -754,3 +755,5 @@ exports.adminDeletePromoCode = promoAdmin.adminDeletePromoCode;
 exports.adminUpsertNews = newsAdmin.adminUpsertNews;
 exports.adminListNews = newsAdmin.adminListNews;
 exports.adminDeleteNews = newsAdmin.adminDeleteNews;
+
+exports.trackMetaCapi = metaCapi.trackMetaCapi;

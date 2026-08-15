@@ -85,9 +85,37 @@
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
   fbq('init', '1565041928197797');
+  window.tpdTrackMetaCapi = function (eventName, eventId, customData) {
+    try {
+      var readCookie = function (name) {
+        var m = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
+        if (!m || !m[1]) return '';
+        try { return decodeURIComponent(m[1]); } catch (e) { return m[1]; }
+      };
+      var fbp = readCookie('_fbp');
+      var fbc = readCookie('_fbc');
+      var fbclid = new URLSearchParams(location.search).get('fbclid');
+      if (!fbc && fbclid) {
+        fbc = 'fb.1.' + Date.now() + '.' + fbclid;
+      }
+      fetch('/api/meta-capi', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          event_name: eventName,
+          event_id: eventId,
+          event_source_url: String(location.href).split('#')[0],
+          fbp: fbp || null,
+          fbc: fbc || null,
+          custom_data: customData || {}
+        }),
+        keepalive: true,
+        credentials: 'omit'
+      }).catch(function () {});
+    } catch (e) {}
+  };
   (function () {
-    // eventID: Meta puede recibir PageView por píxel y por servidor (CAPI).
-    // El mismo id permite deduplicar y no contar dos veces.
+    // El mismo event_id va al Pixel (navegador) y a CAPI (servidor).
     var eventId;
     try {
       eventId = (crypto.randomUUID && crypto.randomUUID()) ||
@@ -96,6 +124,10 @@
       eventId = 'pv_' + Date.now() + '_' + Math.random().toString(36).slice(2, 10);
     }
     fbq('track', 'PageView', {}, {eventID: eventId});
+    // Espera breve para que el Pixel escriba _fbp antes del envío CAPI.
+    setTimeout(function () {
+      window.tpdTrackMetaCapi('PageView', eventId, {});
+    }, 400);
   })();
   </script>
   <noscript><img height="1" width="1" style="display:none"
