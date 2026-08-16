@@ -6,7 +6,7 @@ import '../models/seo_landing_page.dart';
 import '../theme/app_button_styles.dart';
 import '../theme/app_colors.dart';
 
-/// Gancho de registro tras el cebo público.
+/// Bloque de registro al cierre de la guía pública.
 class SeoLandingCta extends StatelessWidget {
   const SeoLandingCta({super.key, required this.page, required this.loggedIn});
 
