@@ -21,8 +21,10 @@ import '../screens/practice_screen.dart';
 import '../screens/premium_screen.dart';
 import '../screens/radar_screen.dart';
 import '../screens/results_screen.dart';
+import '../screens/seo_landing_screen.dart';
 import '../screens/speed_battle_screen.dart';
 import '../state/app_state.dart';
+import '../config/seo_landing_routes.dart';
 import '../utils/paid_traffic.dart';
 
 /// Configuración de rutas de la PWA.
@@ -34,9 +36,10 @@ GoRouter createAppRouter(AppState appState) {
       PaidTraffic.captureFromUri(state.uri);
       if (!appState.ready) return null;
       final loc = state.matchedLocation;
+      if (SeoLandingRoutes.all.contains(loc)) return null;
       final onboarded = appState.profile.onboardingComplete;
 
-      const publicPaths = {
+      final publicPaths = {
         '/',
         '/onboarding',
         '/auth',
@@ -48,6 +51,7 @@ GoRouter createAppRouter(AppState appState) {
         '/admin/promos',
         '/legal/terms',
         '/legal/privacy',
+        ...SeoLandingRoutes.all,
       };
 
       if (!onboarded &&
@@ -87,6 +91,24 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/',
         builder: (context, state) => const LandingScreen(),
+      ),
+      GoRoute(
+        path: SeoLandingRoutes.casos,
+        builder: (context, state) => const SeoLandingScreen(
+          pageId: SeoLandingRoutes.casosId,
+        ),
+      ),
+      GoRoute(
+        path: SeoLandingRoutes.psicotecnica,
+        builder: (context, state) => const SeoLandingScreen(
+          pageId: SeoLandingRoutes.psicotecnicaId,
+        ),
+      ),
+      GoRoute(
+        path: SeoLandingRoutes.simulacro,
+        builder: (context, state) => const SeoLandingScreen(
+          pageId: SeoLandingRoutes.simulacroId,
+        ),
       ),
       GoRoute(
         path: '/auth',

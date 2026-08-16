@@ -41,6 +41,7 @@ flutter:
   assets:
     - assets/seed/questions_v1.json
     - assets/seed/directivo_aptitudes_v1.json
+    - assets/seo/landings.json
     - assets/icons/
     - assets/brand/
     - google_fonts/

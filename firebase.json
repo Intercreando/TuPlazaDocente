@@ -22,7 +22,8 @@
   "hosting": {
     "public": "build/web",
     "predeploy": [
-      "node tools/validate_bank_sync.js --dart"
+      "node tools/validate_bank_sync.js --dart",
+      "node tools/generate_seo_landings.js"
     ],
     "ignore": [
       "firebase.json",

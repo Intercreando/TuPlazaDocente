@@ -91,8 +91,53 @@
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1565041928197797');
-  window.tpdTrackMetaCapi = function (eventName, eventId, customData) {
+  var TPD_META_PIXEL = '1565041928197797';
+  (function () {
+    var bootUd = {};
+    try {
+      var bootEm = localStorage.getItem('tpd_meta_em_h') || '';
+      var bootEid = localStorage.getItem('tpd_meta_eid_h') || '';
+      if (/^[a-f0-9]{64}$/.test(bootEm)) bootUd.em = bootEm;
+      if (/^[a-f0-9]{64}$/.test(bootEid)) bootUd.external_id = bootEid;
+    } catch (e) {}
+    if (bootUd.em || bootUd.external_id) {
+      fbq('init', TPD_META_PIXEL, bootUd);
+    } else {
+      fbq('init', TPD_META_PIXEL);
+    }
+  })();
+  function tpdSha256Hex(value) {
+    if (!value || !window.crypto || !crypto.subtle) return Promise.resolve('');
+    return crypto.subtle.digest('SHA-256', new TextEncoder().encode(value)).then(function (buf) {
+      return Array.from(new Uint8Array(buf)).map(function (b) {
+        return b.toString(16).padStart(2, '0');
+      }).join('');
+    }).catch(function () { return ''; });
+  }
+  // Advanced Matching + hash local para PageView de visitas siguientes.
+  window.tpdRememberMetaUser = function (email, uid) {
+    var em = String(email || '').trim().toLowerCase();
+    var eid = String(uid || '').trim();
+    try {
+      if (window.fbq && (em.indexOf('@') !== -1 || eid.length >= 8)) {
+        var ud = {};
+        if (em.indexOf('@') !== -1) ud.em = em;
+        if (eid.length >= 8) ud.external_id = eid;
+        fbq('init', TPD_META_PIXEL, ud);
+      }
+    } catch (e1) {}
+    if (em.indexOf('@') !== -1) {
+      tpdSha256Hex(em).then(function (h) {
+        if (h) try { localStorage.setItem('tpd_meta_em_h', h); } catch (e2) {}
+      });
+    }
+    if (eid.length >= 8 && eid.length <= 128) {
+      tpdSha256Hex(eid).then(function (h) {
+        if (h) try { localStorage.setItem('tpd_meta_eid_h', h); } catch (e3) {}
+      });
+    }
+  };
+  window.tpdTrackMetaCapi = function (eventName, eventId, customData, userHints) {
     try {
       var readCookie = function (name) {
         var m = document.cookie.match(new RegExp('(?:^|; )' + name + '=([^;]*)'));
@@ -105,17 +150,34 @@
       if (!fbc && fbclid) {
         fbc = 'fb.1.' + Date.now() + '.' + fbclid;
       }
+      var hints = (userHints && typeof userHints === 'object') ? userHints : {};
+      var em = String(hints.email || '').trim().toLowerCase();
+      var eid = String(hints.external_id || hints.externalId || '').trim();
+      var emHash = '';
+      var eidHash = '';
+      try {
+        emHash = localStorage.getItem('tpd_meta_em_h') || '';
+        eidHash = localStorage.getItem('tpd_meta_eid_h') || '';
+      } catch (e) {}
+      if (em.indexOf('@') !== -1 || eid.length >= 8) {
+        window.tpdRememberMetaUser(em, eid);
+      }
+      var payload = {
+        event_name: eventName,
+        event_id: eventId,
+        event_source_url: String(location.href).split('#')[0],
+        fbp: fbp || null,
+        fbc: fbc || null,
+        custom_data: customData || {}
+      };
+      if (em.indexOf('@') !== -1) payload.email = em;
+      else if (/^[a-f0-9]{64}$/.test(emHash)) payload.em = emHash;
+      if (eid.length >= 8) payload.external_id = eid;
+      else if (/^[a-f0-9]{64}$/.test(eidHash)) payload.external_id = eidHash;
       fetch('/api/meta-capi', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          event_name: eventName,
-          event_id: eventId,
-          event_source_url: String(location.href).split('#')[0],
-          fbp: fbp || null,
-          fbc: fbc || null,
-          custom_data: customData || {}
-        }),
+        body: JSON.stringify(payload),
         keepalive: true,
         credentials: 'omit'
       }).catch(function () {});
@@ -268,6 +330,12 @@
       <a href="/legal/terms">términos</a> y
       <a href="/legal/privacy">privacidad</a>.
     </p>
+    <h2>Guías gratis (sin registro)</h2>
+    <ul>
+      <li><a href="/casos-de-aula-resueltos">Casos de aula resueltos y explicados</a></li>
+      <li><a href="/prueba-psicotecnica-docente-ejemplos">Ejemplos de prueba psicotécnica docente</a></li>
+      <li><a href="/simulacro-concurso-docente-gratis">Simulacro gratis del Concurso Docente 2026</a></li>
+    </ul>
     <p>
       TuPlazaDocente es un entrenador independiente. No somos una entidad
       oficial del Estado, de la CNSC ni del Ministerio de Educación.

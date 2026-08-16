@@ -18,6 +18,7 @@ import '../widgets/landing_credibility_sections.dart';
 import '../widgets/legal_footer_links.dart';
 import '../widgets/news_highlight_strip.dart';
 import '../widgets/premium_chrome.dart';
+import '../widgets/seo_guides_strip.dart';
 
 /// Landing premium: hero editorial en desktop + secciones de confianza.
 class LandingScreen extends StatelessWidget {
@@ -98,6 +99,8 @@ class LandingScreen extends StatelessWidget {
                               const NewsHighlightStrip(compact: true),
                               const SizedBox(height: 8),
                               const LandingCredibilitySections(),
+                              const SizedBox(height: 28),
+                              const SeoGuidesStrip(),
                               const SizedBox(height: 28),
                               const LegalFooterLinks(
                                 compact: true,

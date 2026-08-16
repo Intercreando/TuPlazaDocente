@@ -54,6 +54,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
           value: purchase.value,
           currency: 'COP',
           contentName: 'Premium convocatoria',
+          email: state.authEmail,
+          externalId: state.authUid,
         );
         GoogleAdsTag.purchase(
           value: purchase.value,
@@ -123,6 +125,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
         value: session.amountCop,
         currency: 'COP',
         contentName: 'Premium convocatoria',
+        email: state.authEmail,
+        externalId: state.authUid,
       );
       final ok = await openExternalUrl(session.initPoint);
       if (!ok && mounted) {

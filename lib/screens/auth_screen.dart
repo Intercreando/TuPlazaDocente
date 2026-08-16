@@ -24,11 +24,16 @@ class _AuthScreenState extends State<AuthScreen> {
   bool _registerMode = false;
   bool _loading = false;
 
+  bool _registerForced = false;
+
   @override
-  void initState() {
-    super.initState();
-    // Tráfico de anuncio: la landing promete simulación, no “iniciar sesión”.
-    if (PaidTraffic.isPaid) {
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_registerForced) return;
+    _registerForced = true;
+    final register =
+        GoRouterState.of(context).uri.queryParameters['register'] == '1';
+    if (PaidTraffic.isPaid || register) {
       _registerMode = true;
     }
   }
@@ -106,6 +111,9 @@ class _AuthScreenState extends State<AuthScreen> {
     final theme = Theme.of(context);
     final state = context.watch<AppState>();
     final isDark = theme.brightness == Brightness.dark;
+    final seoRegister =
+        GoRouterState.of(context).uri.queryParameters['register'] == '1';
+    final forceRegister = PaidTraffic.isPaid || seoRegister;
 
     return Scaffold(
       body: AtmosphericBackground(
@@ -144,7 +152,9 @@ class _AuthScreenState extends State<AuthScreen> {
                   Text(
                     PaidTraffic.isPaid
                         ? 'Con Google o correo, en segundos. Después eliges tu cargo y haces el diagnóstico inicial gratis.'
-                        : 'Conecta tu cuenta para sincronizar racha, plan y Premium entre dispositivos.',
+                        : (seoRegister
+                            ? 'Con Google o correo, en segundos. Luego eliges tu cargo y entras al simulador interactivo.'
+                            : 'Conecta tu cuenta para sincronizar racha, plan y Premium entre dispositivos.'),
                     style: theme.textTheme.bodyLarge,
                   ),
                   const SizedBox(height: 10),
@@ -229,7 +239,7 @@ class _AuthScreenState extends State<AuthScreen> {
                   ),
                   // Pauta o retorno a Premium: no ofrecer invitado (fuga de registro).
                   if (!state.isAnonymousUser ||
-                      (!PaidTraffic.isPaid && _nextPath == null)) ...[
+                      (!forceRegister && _nextPath == null)) ...[
                     const SizedBox(height: 8),
                     OutlinedButton(
                       onPressed: _loading

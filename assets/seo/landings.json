@@ -1,0 +1,325 @@
+{
+  "pages": [
+    {
+      "id": "casos",
+      "path": "/casos-de-aula-resueltos",
+      "kind": "worked",
+      "source": "seo_casos",
+      "title": "Casos de aula resueltos y explicados | Concurso Docente 2026",
+      "description": "Tres casos de aula de alta exigencia para el Concurso Docente CNSC 2026: evaluación formativa, PIAR e inclusión, y ruta de convivencia. Opciones creíbles, no caricaturas. Sin registro.",
+      "h1": "Casos de aula resueltos y explicados — Concurso Docente 2026",
+      "kicker": "Alta exigencia · sin registro",
+      "lead": "El concurso no premia la opción más “amable”. Premia el criterio. En cada caso las cuatro alternativas suenan profesionales: la trampa es un principio mal aplicado (andamiaje vs. abandono, inclusión vs. bajar la meta, mediación informal vs. ruta). No son ítems oficiales de la CNSC; sí son el tipo de distinción que pide el examen.",
+      "ctaTitle": "¿Quieres practicar más casos de este nivel, con tiempo de examen?",
+      "ctaBody": "Regístrate gratis y entra al simulador: el banco trabaja el mismo tipo de trampa (opciones creíbles, un solo criterio ganador).",
+      "ctaLabel": "Registrarme gratis y entrar al simulador",
+      "related": [
+        { "href": "/prueba-psicotecnica-docente-ejemplos", "label": "Ejemplos de prueba psicotécnica docente" },
+        { "href": "/simulacro-concurso-docente-gratis", "label": "Simulacro gratis del concurso" }
+      ],
+      "faq": [
+        {
+          "q": "¿Estos casos salen en el examen de la CNSC?",
+          "a": "No. Nadie puede prometer ítems oficiales. Estos casos entrenan la distinción que sí se evalúa: qué principio pedagógico o normativo sostiene la mejor actuación cuando todas las opciones “suenan bien”."
+        },
+        {
+          "q": "¿Por qué no hay una opción evidentemente absurda?",
+          "a": "Porque así es el examen. Si una alternativa se descarta por sentido común, no mide criterio. Aquí las cuatro podrían defenderse en una sala de profesores; solo una articula teoría, norma y evidencia del caso."
+        }
+      ],
+      "items": [
+        {
+          "id": "seo-caso-01",
+          "eyebrow": "Caso 1 · Evaluación y mediación",
+          "context": "En 3°, un estudiante no sostiene el algoritmo de la suma con llevadas cuando trabaja solo. En una tarea en pareja con un compañero más avanzado, explica el procedimiento y lo aplica. La docente debe planear la siguiente semana. Coordinación pide “que no se atrase el grado”.",
+          "stem": "La decisión más coherente con evaluación formativa y con la evidencia de este caso es:",
+          "options": [
+            "Aumentar talleres individuales para la casa, con el mismo algoritmo, hasta que el desempeño en solitario coincida con el de la pareja.",
+            "Dejarlo de forma permanente con ese compañero para que “le enseñe”, y usar ese tiempo para avanzar contenidos con el resto del grupo.",
+            "Diseñar tareas colaborativas con roles, modelar la estrategia y retirar el apoyo de forma gradual, verificando luego el desempeño independiente.",
+            "Remitirlo a recuperaciones externas con otro docente, para no detener el ritmo de la clase y “atenderlo en su nivel”."
+          ],
+          "correctIndex": 2,
+          "normative": "El Decreto 1290 de 2009 orienta una evaluación que identifica ritmos y características del estudiante para consolidar aprendizajes, no solo para certificar una nota. Segregar o “sacar” al estudiante del aula no es, por sí sola, una respuesta formativa.",
+          "theory": "La evidencia del caso apunta a la Zona de Desarrollo Próximo (Vygotsky): logra con mediación lo que aún no logra solo. Eso no autoriza a delegar la enseñanza en el par ni a inundarlo de práctica descontextualizada. El andamiaje es intencionado (roles, modelado, retiro gradual) y se valida después en desempeño independiente.",
+          "distractors": [
+            "Más de lo mismo, en soledad, ignora la evidencia: el avance apareció con mediación, no con volumen de tarea.",
+            "Parece ZDP, pero es abandono pedagógico: el par no está formado para andamiar y el docente se retira del caso.",
+            null,
+            "Atender “aparte” para no frenar al grupo convierte una necesidad de mediación en exclusión del espacio común."
+          ]
+        },
+        {
+          "id": "seo-caso-02",
+          "eyebrow": "Caso 2 · Inclusión y evaluación",
+          "context": "Ingresa a 4° una estudiante con discapacidad visual. El grado trabaja con guías impresas de alta densidad y pruebas cronometradas idénticas. La familia pregunta por el PIAR. Un docente propone “esperar al profesional de apoyo para no improvisar”; otro, “evaluarla con logros más simples para no frustrarla”.",
+          "stem": "Según el marco de educación inclusiva, la actuación más adecuada del colegio es:",
+          "options": [
+            "Mantener las mismas guías y el mismo tiempo, y conceder solo una prórroga en la prueba final del periodo, para no “diferenciar” al grupo.",
+            "Elaborar un PIAR que la exima de evidencias escritas y califique únicamente participación y actitud, mientras llega el profesional de apoyo.",
+            "Construir el PIAR con familia y apoyo disponible, ajustar formato, tiempo y canal de las evidencias, y conservar los aprendizajes esenciales del grado.",
+            "Aplazar cualquier ajuste hasta que la UAI o el profesional de apoyo entregue un dictamen completo, para no actuar sin experticia."
+          ],
+          "correctIndex": 2,
+          "normative": "El Decreto 1421 de 2017 orienta PIAR y ajustes razonables para participación y aprendizaje. El Decreto 1290 exige criterios de evaluación claros. Incluir no es eximir ni esperar indefinidamente a un especialista para empezar a quitar barreras.",
+          "theory": "El error frecuente es confundir igualdad (mismo instrumento, mismo tiempo) con equidad (mismo aprendizaje esencial, distintas vías de demostrarlo), o confundir PIAR con un currículo paralelo más bajo. El profesional de apoyo articula; no reemplaza la obligación inmediata del aula.",
+          "distractors": [
+            "Un extra de tiempo solo al final no corrige la barrera cotidiana del material impreso denso; es un ajuste tardío e incompleto.",
+            "Usar el nombre “PIAR” para eximir de evidencias baja la meta esencial y vacía el derecho a ser evaluada con criterios.",
+            null,
+            "Esperar el dictamen suena prudente, pero deja la barrera intacta. La inclusión no se suspende mientras llega un informe."
+          ]
+        },
+        {
+          "id": "seo-caso-03",
+          "eyebrow": "Caso 3 · Convivencia y evidencia",
+          "context": "Un estudiante de 8° reporta acoso reiterado en el descanso y en un grupo de WhatsApp. Hay testigos. Quien es señalado lo niega. El director de grupo quiere “cerrar hoy el tema con un diálogo entre los dos”. Orientación sugiere pedir capturas para la próxima semana y, si no llegan, no actuar.",
+          "stem": "El primer curso de acción institucional más adecuado es:",
+          "options": [
+            "Reunir el mismo día a los dos estudiantes, promover un pedido de disculpas y dar por cerrado el caso si ambos aceptan “hacer las paces”.",
+            "Activar la ruta del Manual de Convivencia: medidas de protección, recoger versiones, registrar y llevar el caso al Comité de Convivencia con seguimiento.",
+            "Enviar una circular a todas las familias de 8° describiendo el grupo de WhatsApp, para que “controlen a sus hijos” mientras se investiga.",
+            "Condicionar cualquier actuación a que quien denuncia entregue capturas en ocho días; si no, archivar por falta de prueba."
+          ],
+          "correctIndex": 1,
+          "normative": "La Ley 1620 de 2013 y las rutas de convivencia exigen atención, registro, seguimiento y rol del Comité, con protección a las partes. El diálogo restaurativo puede ser un medio, no un atajo para omitir el procedimiento ni para poner a la víctima a negociar el cierre.",
+          "theory": "Tres trampas habituales: (1) la conciliación exprés, que puede revictimizar; (2) la exposición grupal disfrazada de prevención; (3) trasladar la carga de la prueba al denunciante y usar la falta de captura como silencio institucional. La reiteración y los testigos ya habilitan la ruta.",
+          "distractors": [
+            "Hacer las paces el mismo día suena formativo, pero omite protección, registro y debido proceso; el acoso no se “cierra” con una disculpa bajo presión.",
+            null,
+            "Informar a todo el grado expone el caso, puede identificar a las partes y no sustituye la ruta confidencial.",
+            "La captura ayuda, pero no es condición para actuar. Pedirla como requisito archiva de hecho la denuncia."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psicotecnica",
+      "path": "/prueba-psicotecnica-docente-ejemplos",
+      "kind": "worked",
+      "source": "seo_psico",
+      "title": "Prueba psicotécnica docente: ejemplos resueltos | Concurso 2026",
+      "description": "Ejemplos exigentes de prueba psicotécnica docente (competencias comportamentales): juicio situacional con opciones profesionales. Ética, presión de acudientes y acoso digital. Sin registro.",
+      "h1": "Ejemplos de prueba psicotécnica docente (competencias comportamentales) — 2026",
+      "kicker": "Juicio situacional de alta exigencia",
+      "lead": "Lo que se busca como “prueba psicotécnica” en el concurso es juicio situacional: las cuatro opciones suelen parecer éticas. La diferencia está en el orden (proteger primero), el canal (institucional, no improvisado) y a quién no se usa (estudiantes como testigos o mediadores).",
+      "ctaTitle": "¿Quieres más situaciones de este nivel, cronometradas?",
+      "ctaBody": "Regístrate gratis y entra al simulador: el comportamental se gana descartando la opción que suena profesional pero salta un paso.",
+      "ctaLabel": "Registrarme gratis y practicar comportamental",
+      "related": [
+        { "href": "/casos-de-aula-resueltos", "label": "Casos de aula resueltos" },
+        { "href": "/simulacro-concurso-docente-gratis", "label": "Simulacro gratis del concurso" }
+      ],
+      "faq": [
+        {
+          "q": "¿La prueba psicotécnica docente es un test de personalidad?",
+          "a": "No. Entrenamos juicio situacional: qué haces primero, por qué canal y con qué protección, cuando hay conflicto, presión de un acudiente o riesgo digital."
+        },
+        {
+          "q": "¿Cómo se detecta la trampa si todas suenan bien?",
+          "a": "Pregúntate qué se omite. Suele fallar la opción que documenta pero no interviene, la que “restaura” sin recoger versiones, o la que usa al grupo como escenario pedagógico del caso de un menor."
+        }
+      ],
+      "items": [
+        {
+          "id": "seo-psico-01",
+          "eyebrow": "Situación 1 · Conflicto adulto a la vista",
+          "context": "Dos docentes discuten en voz alta en el patio. El tono escala. Un grupo de estudiantes observa. Estás de descanso; no eres coordinador ni rector. Una colega te dice: “mejor deja constancia después, no te metas entre pares”.",
+          "stem": "La actuación más profesional en este momento es:",
+          "options": [
+            "Intervenir con calma, retirar la escena del alcance de los estudiantes y, enseguida, informar a coordinación para que el desacuerdo se tramite por canal institucional.",
+            "No intervenir ahora para no exponer a los colegas; al terminar la jornada, radicar un relato escrito a rectoría.",
+            "Pedir a un monitor estudiantil que disperse al grupo y quedarte como testigo silencioso, para declarar después con precisión.",
+            "Sumarte al intercambio frente a los estudiantes y modelar una “mediación en caliente”, para que vean cómo se resuelven conflictos."
+          ],
+          "correctIndex": 0,
+          "normative": "El deber de cuidado sobre el clima que observan niñas, niños y adolescentes no se aplaza a un oficio de la tarde. Los conflictos laborales se tramitan en privado y por conducto institucional, no como lección pública.",
+          "theory": "La trampa de “dejar constancia después” prioriza la lealtad entre pares sobre la protección inmediata. Usar a un estudiante como portero involucra a un menor. Mediar en público convierte el descontrol adulto en currículo oculto.",
+          "distractors": [
+            null,
+            "El registro posterior es útil, pero no sustituye cortar ahora el modelamiento agresivo ante el estudiantado.",
+            "Encargar a un estudiante la contención del público lo pone en medio de un conflicto de adultos.",
+            "La mediación visible “con fines pedagógicos” prolonga la exposición y valida que el patio es el lugar del conflicto."
+          ]
+        },
+        {
+          "id": "seo-psico-02",
+          "eyebrow": "Situación 2 · Presión de un acudiente",
+          "context": "Un acudiente exige que, hoy mismo, se aparte del aula a un compañero de su hijo por una pelea en el descanso. No hay acta. Eres director de grupo. Coordinación está en una reunión de 20 minutos. El acudiente dice que, si no hay una medida visible, publicará el hecho en el grupo de familias.",
+          "stem": "La respuesta más alineada con debido proceso y con tu rol es:",
+          "options": [
+            "Acordar una conciliación entre las dos familias esa misma tarde, sin recoger aún las versiones de los estudiantes, para desactivar la amenaza pública.",
+            "Aplicar, como director de grupo, una separación de un día “cautelar” del señalado, y formalizar el papelería cuando coordinación salga.",
+            "Recibir al acudiente, explicar que no hay sanción sin versiones ni ruta, activar protección si hay riesgo, registrar el reporte y escalar de inmediato a coordinación/convivencia.",
+            "Indicarle que interponga primero una denuncia policial; el colegio actuará cuando haya un radicado externo."
+          ],
+          "correctIndex": 2,
+          "normative": "La Ley 1620 y el Manual de Convivencia exigen ruta, registro y decisión con garantías. La presión de un adulto —incluida la amenaza de redes— no crea competencia para sancionar ni desplaza el deber de cuidado de la escuela.",
+          "theory": "Tres atajos que suenan eficaces: restaurar sin evidencia (puede silenciar a la víctima), la cautela improvisada sin órgano competente, y tercerizar en la policía lo que es procedimiento escolar. La competencia comportamental es sostener el procedimiento bajo amenaza.",
+          "distractors": [
+            "La conciliación exprés entre familias, sin versiones de los estudiantes, convierte el caso en un arreglo de adultos y puede presionar a quien denunció.",
+            "Una medida “cautelar” decidida solo por el director de grupo, bajo chantaje, adelanta sanción sin competencia ni registro adecuado.",
+            null,
+            "La denuncia externa no es prerrequisito para que el colegio active su ruta. Esperarla es omisión."
+          ]
+        },
+        {
+          "id": "seo-psico-03",
+          "eyebrow": "Situación 3 · Contenido digital en el cambio de clase",
+          "context": "Un estudiante llora: un video suyo circula en un grupo. Varios compañeros ríen con el celular. Faltan cuatro minutos para la siguiente hora. Una colega propone “usar el caso en la clase de ética de mañana, que ya está planeada”. Orientación queda al otro extremo del bloque.",
+          "stem": "¿Qué haces primero, con el mejor criterio profesional?",
+          "options": [
+            "Abrir de una vez una conversación pedagógica con el grupo, usando el video como ejemplo de ciudadanía digital, para no perder el momento formativo.",
+            "Retener todos los celulares del curso hasta el viernes, como sanción colectiva, y continuar la clase según el plan de área.",
+            "Detener la circulación en ese espacio, proteger a quien está expuesto, informar a coordinación/convivencia y dejar registro; la pedagogía digital vendrá sin usar su caso como material.",
+            "Llevar solo al estudiante a un salón vacío a esperar orientación, y dejar al grupo seguir con el cambio de clase para “no afectar a los demás”."
+          ],
+          "correctIndex": 2,
+          "normative": "Ante posible acoso digital, el orden es: cortar el daño, proteger, informar, registrar. La Ley 1620 no pide una clase improvisada sobre la víctima ni un castigo grupal sin individualizar.",
+          "theory": "El “momento pedagógico” que usa el caso de un menor en público revictimiza. La sanción colectiva no identifica quién difunde. Sacar solo a la víctima y dejar el grupo con los celulares deja el daño activo. Primero se para la circulación; después, la ruta y, en otro marco, la formación digital.",
+          "distractors": [
+            "Didactizar el caso en caliente expone de nuevo a quien ya está humillado y convierte su intimidad en insumo de clase.",
+            "El castigo a todo el grupo no protege de forma específica ni reconstruye hechos; además, puede ser arbitrario.",
+            null,
+            "Aislar a la víctima y no intervenir el grupo deja el video corriendo. El “no afectar a los demás” prioriza el horario sobre el daño."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "simulacro",
+      "path": "/simulacro-concurso-docente-gratis",
+      "kind": "quiz",
+      "source": "seo_simulacro",
+      "title": "Simulacro gratis Concurso Docente 2026 | TuPlazaDocente",
+      "description": "Simulacro gratis de 5 ítems de alta exigencia: aptitud numérica (SIEE), lectura crítica, pedagogía e inclusión. Con explicación al terminar. Sin registro.",
+      "h1": "Simulacro gratis del Concurso Docente 2026 — con explicación al terminar",
+      "kicker": "5 ítems de alta exigencia · muestra",
+      "lead": "Muestra corta, no un examen oficial. Cada ítem tiene distractores plausibles (un cálculo a medio camino, una inferencia pasada de frenada, una teoría mal aplicada). Al terminar ves el puntaje y el criterio. El simulacro cronometrado completo está en la plataforma.",
+      "ctaTitle": "¿Quieres el simulacro interactivo a este nivel, con racha diaria?",
+      "ctaBody": "Regístrate gratis: practicas con tiempo y el mismo tipo de trampa. En el plan gratuito hay práctica diaria; el Examen Real cronometrado está en la app.",
+      "ctaLabel": "Registrarme gratis y hacer el simulador",
+      "related": [
+        { "href": "/casos-de-aula-resueltos", "label": "Casos de aula resueltos" },
+        { "href": "/prueba-psicotecnica-docente-ejemplos", "label": "Prueba psicotécnica: ejemplos" }
+      ],
+      "faq": [
+        {
+          "q": "¿Este simulacro es el examen oficial?",
+          "a": "No. Es una muestra de entrenamiento. Los pesos y el número de ítems los define la convocatoria vigente en cnsc.gov.co."
+        },
+        {
+          "q": "¿Por qué solo 5 preguntas?",
+          "a": "Porque esta página es cebo de criterio, no el producto. Si estas 5 se sienten exigentes, el simulador trabaja ese mismo nivel con más volumen y tiempo."
+        }
+      ],
+      "items": [
+        {
+          "id": "seo-sim-01",
+          "eyebrow": "Ítem 1 · Aptitud numérica (SIEE)",
+          "context": "El SIEE de una institución pondera tres evidencias del periodo: 20 %, 30 % y 50 %. Un estudiante tiene 4,0 en la primera y 3,0 en la segunda. Aún no presenta la tercera.",
+          "stem": "¿Cuál es la calificación mínima en la tercera evidencia para que el periodo quede en 3,5?",
+          "options": [
+            "3,0",
+            "3,5",
+            "3,6",
+            "4,0"
+          ],
+          "correctIndex": 2,
+          "normative": "En evaluación institucional, la nota del periodo es un promedio ponderado según el SIEE, no el simple promedio aritmético ni “sacar 3,5 en el último trabajo”.",
+          "theory": "0,20×4,0 + 0,30×3,0 + 0,50×x = 3,5 → 0,8 + 0,9 + 0,5x = 3,5 → 1,7 + 0,5x = 3,5 → 0,5x = 1,8 → x = 3,6. Quien elige 3,5 aplica el mínimo al último ítem. Quien elige 3,0 mira solo la segunda nota. Quien elige 4,0 redondea “para asegurar” sin calcular.",
+          "distractors": [
+            "Usa la 3,0 ya obtenida y la proyecta al periodo, sin ponderar lo que falta.",
+            "Confunde el 3,5 de corte con la nota que debe llevar la evidencia de mayor peso.",
+            null,
+            "Sobreestima “por si acaso” y no responde a la pregunta (el mínimo exacto)."
+          ]
+        },
+        {
+          "id": "seo-sim-02",
+          "eyebrow": "Ítem 2 · Lectura crítica",
+          "context": "“Si la evaluación ocurre solo al cierre del periodo, el docente no puede reorientar la enseñanza a tiempo. Por tanto, las instituciones que entregan un único informe final, sin evidencias intermedias, dificultan la mejora de los aprendizajes.”",
+          "stem": "¿Qué supuesto necesita el autor para que la conclusión se sostenga?",
+          "options": [
+            "Que todo informe final, por definición, impide cualquier conversación pedagógica durante el periodo.",
+            "Que contar con evidencias durante el proceso es condición para poder reorientar la enseñanza.",
+            "Que las familias no leen los informes y por eso la evaluación final es inútil.",
+            "Que mejorar los aprendizajes depende únicamente del número de boletines publicados."
+          ],
+          "correctIndex": 1,
+          "normative": "La lectura crítica del concurso distingue la premisa necesaria de la exageración. El texto no afirma que el informe final sea inútil en sí, ni que las familias no lean.",
+          "theory": "La primera oración liga evaluación-en-proceso con la posibilidad de reorientar. Sin ese supuesto, el “por tanto” no conecta con las instituciones que solo informan al final. A y D hinchan el reclamo; C introduce un actor (familias) que el texto no usa.",
+          "distractors": [
+            "Absoluto que el texto no enuncia: podría haber diálogo pedagógico aunque el informe sea único; el autor habla de evaluación como insumo para reorientar.",
+            null,
+            "Infiere un hecho sobre las familias que no está en el pasaje.",
+            "Reduce la tesis a cantidad de boletines; el autor habla de oportunidad para ajustar la enseñanza."
+          ]
+        },
+        {
+          "id": "seo-sim-03",
+          "eyebrow": "Ítem 3 · Pedagogía",
+          "context": "Antes de introducir fracciones equivalentes, el docente indaga qué saben los estudiantes sobre repartir y comparar partes de un todo, con material concreto, y anota lo que ya comprenden.",
+          "stem": "Esa práctica se justifica principalmente porque:",
+          "options": [
+            "El aprendizaje se consolida por repetición reforzada del algoritmo; el material concreto solo sirve si viene después de la memorización.",
+            "El contenido nuevo se comprende cuando se relaciona, de forma no arbitraria, con la estructura de conocimientos que el estudiante ya tiene.",
+            "El desarrollo cognitivo sigue estadios rígidos: en primaria no corresponde el objeto fracción hasta que todo el grupo esté en pensamiento formal.",
+            "El saber se construye solo entre pares; indagar saberes previos sesga al grupo y el docente debería abstenerse."
+          ],
+          "correctIndex": 1,
+          "normative": "Los referentes de calidad (DBA y EBC del MEN) describen progresiones de saber y saber hacer. Partir de lo que el grupo ya comprende hace viable esa progresión, sin esperar un estadio “puro” ni reducir el objeto a un algoritmo previo.",
+          "theory": "Es el núcleo del aprendizaje significativo (Ausubel). No se nombra en las opciones a propósito: el examen pide reconocer el principio. Piaget mal aplicado congela el currículo. El socioconstructivismo distorsionado niega el rol de diagnóstico del docente. El conductismo invierte el orden del caso.",
+          "distractors": [
+            "Invierte la secuencia del caso: aquí el concreto y lo previo van antes, no como premio después del algoritmo.",
+            null,
+            "Usa a Piaget de forma rígida: las fracciones en primaria no exigen pensamiento formal pleno de todo el grupo.",
+            "Distorsiona la mediación social: indagar lo previo no “sesga”; es condición para enseñar."
+          ]
+        },
+        {
+          "id": "seo-sim-04",
+          "eyebrow": "Ítem 4 · Comportamental (coordinación)",
+          "context": "En el área, dos docentes chocan por el peso de un taller en la nota del grado. El tono sube. El resto calla. Eres quien modera. Uno alega libertad de cátedra; el otro, “lo que ya acordamos en el SIEE”.",
+          "stem": "La actuación más adecuada es:",
+          "options": [
+            "Cerrar la reunión y comunicar por correo, esa noche, el peso que tú decidas, para no desgastar al equipo.",
+            "Permitir que el debate continúe hasta que uno ceda, porque el disenso “auténtico” fortalece al área.",
+            "Pausar, restablecer turnos y devolver el conflicto a los criterios compartidos del SIEE/acuerdo de área, con registro de lo decidido.",
+            "Autorizar que cada docente aplique su propia ponderación en su curso, en respeto a la autonomía didáctica."
+          ],
+          "correctIndex": 2,
+          "normative": "El SIEE y los acuerdos de área buscan que el estudiante no reciba reglas distintas según el adulto. La autonomía didáctica no equivale a ponderaciones incompatibles en el mismo grado.",
+          "theory": "Decidir tú por correo es eficaz y autoritario: apaga el conflicto y no construye criterio. Dejar que “gane el que más resiste” no es liderazgo. Partir el grado institucionaliza la inequidad. Mediar es devolver el problema a la norma común y dejar traza.",
+          "distractors": [
+            "Resuelve la tensión, no el fondo: el criterio sigue siendo tuyo, no del área, y el equipo no se apropia del SIEE.",
+            "El desgaste no es evidencia de calidad; sin reglas de diálogo, el más vehemente impone.",
+            null,
+            "La “autonomía” aquí produce dos sistemas de evaluación para el mismo grado: exactamente lo que el SIEE trata de evitar."
+          ]
+        },
+        {
+          "id": "seo-sim-05",
+          "eyebrow": "Ítem 5 · Lectura / inclusión",
+          "context": "“Garantizar el cupo y la rampa no agota la inclusión. Si la evaluación y las normas de convivencia siguen diseñadas para un estudiante promedio, la participación es apenas formal.”",
+          "stem": "La idea principal del texto es:",
+          "options": [
+            "El acceso físico es el indicador más confiable de inclusión, porque se puede verificar con facilidad.",
+            "La inclusión se realiza cuando se transforman evaluación y convivencia, no solo cuando hay acceso.",
+            "Para no discriminar, la evaluación debe ser idéntica en instrumento y tiempo para todos los estudiantes.",
+            "La convivencia es un asunto de orientación y no debe mezclarse con las decisiones de aula."
+          ],
+          "correctIndex": 1,
+          "normative": "El enfoque de inclusión (entre otros, Decreto 1421) articula acceso, participación y aprendizaje. La igualdad de instrumento no es, por sí sola, equidad.",
+          "theory": "El texto contrapone acceso (cupo, rampa) a participación real (evaluación y convivencia). A toma el dato verificable y lo vuelve tesis, contra el “no agota”. C es la trampa igualdad/equidad: el texto denuncia el diseño para el “promedio”. D separa convivencia y aula, precisamente lo que el autor niega.",
+          "distractors": [
+            "Convierte un medio verificable en la definición de inclusión; el texto dice que eso no basta.",
+            null,
+            "Suena justa (“el mismo examen para todos”), pero es el diseño para el estudiante promedio que el autor critica.",
+            "El pasaje pone la convivencia junto con la evaluación como prácticas a transformar, no como anexo de orientación."
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -112,6 +112,7 @@ class AppState extends ChangeNotifier {
   bool get isAnonymousUser => _sync.isAnonymous;
   String? get authEmail => _sync.email;
   String? get authDisplayName => _sync.displayName;
+  String? get authUid => _sync.isAnonymous ? null : _sync.uid;
 
   DailyStudyPlan get todayPlan {
     final base = StudyPlanService.buildFor(profile);
@@ -171,6 +172,7 @@ class AppState extends ChangeNotifier {
           }
           if (!_sync.isAnonymous) {
             await _claimPaidAcquisitionIfNeeded();
+            _identifyMetaPixel();
           }
           syncStatus = _sync.isAnonymous
               ? 'Sesión invitado (nube). Guarda tu cuenta para no perder progreso.'
@@ -539,7 +541,11 @@ class AppState extends ChangeNotifier {
     }
     await _reloadAfterAuth();
     if (_sync.lastAuthWasRegistration) {
-      MetaPixel.completeRegistration(method: 'email');
+      MetaPixel.completeRegistration(
+        method: 'email',
+        email: _sync.email,
+        externalId: _sync.uid,
+      );
       GoogleAdsTag.completeRegistration();
     }
     return true;
@@ -554,7 +560,11 @@ class AppState extends ChangeNotifier {
     }
     await _reloadAfterAuth();
     if (_sync.lastAuthWasRegistration) {
-      MetaPixel.completeRegistration(method: 'google');
+      MetaPixel.completeRegistration(
+        method: 'google',
+        email: _sync.email,
+        externalId: _sync.uid,
+      );
       GoogleAdsTag.completeRegistration();
     }
     return true;
@@ -640,9 +650,16 @@ class AppState extends ChangeNotifier {
     syncStatus = 'Cuenta conectada · progreso en la nube';
     lastError = null;
     await _claimPaidAcquisitionIfNeeded();
+    _identifyMetaPixel();
     await _persist();
     notifyListeners();
     await _syncPremiumDeviceSlot(register: true);
+  }
+
+  /// Correo y UID para matching de Meta (CAPI + visitas siguientes).
+  void _identifyMetaPixel() {
+    if (_sync.isAnonymous) return;
+    MetaPixel.identify(email: _sync.email, externalId: _sync.uid);
   }
 
   void _mergePaidFunnelFromRemote(UserProfile remote) {

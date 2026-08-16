@@ -64,6 +64,76 @@ function originOk(req) {
 }
 
 /**
+ * @param {string} raw
+ * @return {boolean}
+ */
+function isSha256Hex(raw) {
+  return /^[a-f0-9]{64}$/.test(raw);
+}
+
+/**
+ * @param {import("firebase-functions/v2/https").Request} req
+ * @return {string}
+ */
+function clientIpFrom(req) {
+  const headers = [
+    req.get("x-forwarded-for"),
+    req.get("x-real-ip"),
+    req.get("fastly-client-ip"),
+  ];
+  for (const header of headers) {
+    if (!header) continue;
+    const ip = String(header).split(",")[0].trim();
+    if (ip && ip !== "unknown" && /[:.]/.test(ip)) {
+      return ip.slice(0, 64);
+    }
+  }
+  const fallback = String(req.ip || "").trim();
+  return fallback.slice(0, 64);
+}
+
+/**
+ * Claves de matching para Events Manager (em, external_id, país, cookies, IP).
+ * El correo llega en claro por HTTPS same-origin y aquí se hashea; nunca se loguea.
+ * @param {import("firebase-functions/v2/https").Request} req
+ * @param {Record<string, unknown>} body
+ * @param {string} clientIp
+ * @return {Record<string, unknown>}
+ */
+function buildUserData(req, body, clientIp) {
+  const userData = {};
+  const userAgent = String(req.get("user-agent") || "").slice(0, 512);
+  if (clientIp) userData.client_ip_address = clientIp;
+  if (userAgent) userData.client_user_agent = userAgent;
+
+  const fbp = String(body.fbp || "").trim();
+  const fbc = String(body.fbc || "").trim();
+  if (fbp.startsWith("fb.")) userData.fbp = fbp.slice(0, 120);
+  if (fbc.startsWith("fb.")) userData.fbc = fbc.slice(0, 240);
+
+  const emHash = String(body.em || "").trim().toLowerCase();
+  if (isSha256Hex(emHash)) {
+    userData.em = [emHash];
+  } else {
+    const email = String(body.email || "").trim().toLowerCase();
+    if (email.includes("@") && email.length <= 120) {
+      userData.em = [sha256(email)];
+    }
+  }
+
+  const externalId = String(body.external_id || "").trim();
+  if (isSha256Hex(externalId.toLowerCase())) {
+    userData.external_id = [externalId.toLowerCase()];
+  } else if (externalId.length >= 8 && externalId.length <= 128) {
+    userData.external_id = [sha256(externalId)];
+  }
+
+  // Producto solo Colombia: señal de matching adicional (ISO-2 en minúscula).
+  userData.country = [sha256("co")];
+  return userData;
+}
+
+/**
  * @param {unknown} raw
  * @return {object}
  */
@@ -115,9 +185,7 @@ exports.trackMetaCapi = onRequest(
           return;
         }
 
-        const forwarded = String(req.get("x-forwarded-for") || "");
-        const clientIp = forwarded.split(",")[0].trim() ||
-          String(req.ip || "").trim();
+        const clientIp = clientIpFrom(req);
         if (isRateLimited(clientIp)) {
           res.status(204).json({ok: false, reason: "rate"});
           return;
@@ -147,25 +215,11 @@ exports.trackMetaCapi = onRequest(
           return;
         }
 
-        const userAgent = String(req.get("user-agent") || "").slice(0, 512);
-
-        const userData = {};
-        if (clientIp) userData.client_ip_address = clientIp;
-        if (userAgent) userData.client_user_agent = userAgent;
-
-        const fbp = String(body.fbp || "").trim();
-        const fbc = String(body.fbc || "").trim();
-        if (fbp.startsWith("fb.")) {
-          userData.fbp = fbp.slice(0, 120);
-        }
-        if (fbc.startsWith("fb.")) {
-          userData.fbc = fbc.slice(0, 240);
-        }
-
-        const email = String(body.email || "").trim().toLowerCase();
-        if (email.includes("@") && email.length <= 120) {
-          userData.em = [sha256(email)];
-        }
+        const userData = buildUserData(
+            req,
+            /** @type {Record<string, unknown>} */ (body),
+            clientIp,
+        );
 
         const eventSourceUrl = String(body.event_source_url || "").trim();
         const payload = {
