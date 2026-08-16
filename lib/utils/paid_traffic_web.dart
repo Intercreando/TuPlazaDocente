@@ -50,6 +50,9 @@ abstract final class PaidTraffic {
     }
   }
 
+  /// Pauta: registro. Orgánico: onboarding de invitado.
+  static String get startPath => isPaid ? '/auth' : '/onboarding';
+
   static bool get _pendingFresh {
     try {
       final raw = web.window.localStorage.getItem(_pendingKey);

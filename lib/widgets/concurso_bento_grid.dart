@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import '../config/concurso_scoring_config.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/paid_traffic.dart';
 
 /// Bento grid: radiografía del concurso (Landing). Responsive PC / móvil.
 class ConcursoBentoGrid extends StatelessWidget {
@@ -313,7 +314,7 @@ class _BentoTile extends StatelessWidget {
               Align(
                 alignment: Alignment.centerLeft,
                 child: FilledButton.tonal(
-                  onPressed: () => context.go('/onboarding'),
+                  onPressed: () => context.go(PaidTraffic.startPath),
                   child: const Text(ConcursoScoringConfig.goalCta),
                 ),
               ),

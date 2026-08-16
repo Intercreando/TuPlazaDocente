@@ -192,7 +192,7 @@ class _SpecializationSection extends StatelessWidget {
             for (final cargo in CargoAspiracion.values)
               _ChoiceChipButton(
                 label: cargo.label,
-                onTap: () => context.go('/onboarding'),
+                onTap: () => context.go(PaidTraffic.startPath),
               ),
           ],
         ),
@@ -209,7 +209,7 @@ class _SpecializationSection extends StatelessWidget {
             for (final esp in Especialidad.values)
               _ChoiceChipButton(
                 label: esp.label,
-                onTap: () => context.go('/onboarding'),
+                onTap: () => context.go(PaidTraffic.startPath),
               ),
           ],
         ),
