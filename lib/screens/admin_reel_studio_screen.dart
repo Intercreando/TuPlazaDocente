@@ -49,6 +49,11 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     return GoRouterState.of(context).uri.queryParameters['obs'] == '1';
   }
 
+  String get _obsQuery {
+    final revela = _revealMode ? '&revela=1' : '';
+    return 'obs=1&caso=${_clip.id}$revela';
+  }
+
   @override
   void initState() {
     super.initState();
@@ -81,10 +86,17 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     if (uri.query == _appliedQuery) return;
     _appliedQuery = uri.query;
     final clip = ReelStudioPack.byId(uri.queryParameters['caso']);
+    final reveal = uri.queryParameters['revela'] == '1';
     final startObs = uri.queryParameters['obs'] == '1' && !_playing;
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
-      setState(() => _clip = clip);
+      setState(() {
+        _clip = clip;
+        if (uri.queryParameters.containsKey('revela') ||
+            uri.queryParameters['obs'] == '1') {
+          _revealMode = reveal;
+        }
+      });
       if (startObs) _play();
     });
   }
@@ -336,8 +348,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         const SizedBox(height: 8),
                         OutlinedButton(
                           onPressed: () async {
-                            final url =
-                                'https://www.tuplazadocente.com/admin/estudio-reels?obs=1&caso=${_clip.id}';
+                          final url =
+                              'https://www.tuplazadocente.com/admin/estudio-reels?$_obsQuery';
                             await Clipboard.setData(ClipboardData(text: url));
                             if (!context.mounted) return;
                             AppSnackbars.show(
@@ -351,7 +363,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         const SizedBox(height: 8),
                         OutlinedButton(
                           onPressed: () => context.go(
-                            '/admin/estudio-reels?obs=1&caso=${_clip.id}',
+                            '/admin/estudio-reels?$_obsQuery',
                           ),
                           child: const Text('Pantalla completa OBS'),
                         ),
