@@ -102,9 +102,10 @@ class ReelType extends ThemeExtension<ReelType> {
       ),
       watermark: GoogleFonts.plusJakartaSans(
         color: AppColors.ink,
-        fontWeight: FontWeight.w700,
-        fontSize: 22,
-        height: 1.2,
+        fontWeight: FontWeight.w800,
+        fontSize: 32,
+        height: 1.15,
+        letterSpacing: -0.3,
       ),
       fineprint: GoogleFonts.plusJakartaSans(
         color: AppColors.textMuted,

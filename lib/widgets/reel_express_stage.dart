@@ -217,13 +217,13 @@ class _ReelWatermark extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
-    final markSize = large ? 48.0 : 32.0;
+    final markSize = large ? 72.0 : 56.0;
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         BrandLogo(size: markSize),
-        SizedBox(width: large ? 14 : 10),
-        Text(ReelStudioPack.brand, style: large ? type.brand : type.watermark),
+        SizedBox(width: large ? 16 : 14),
+        Text(ReelStudioPack.brand, style: type.watermark),
       ],
     );
   }
