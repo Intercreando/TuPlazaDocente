@@ -34,38 +34,38 @@ class ReelType extends ThemeExtension<ReelType> {
   final TextStyle watermark;
   final TextStyle fineprint;
 
-  /// Lienzo 1080×1920: jerarquía para captura, no para la app.
+  /// Lienzo 1080×1920: misma paleta que la web (pergamino, tinta, oro).
   static ReelType studio() {
     return ReelType(
       hook: GoogleFonts.fraunces(
-        color: AppColors.white,
+        color: AppColors.ink,
         fontWeight: FontWeight.w700,
         fontSize: 54,
         height: 1.08,
         letterSpacing: -1.2,
       ),
       hookCompact: GoogleFonts.fraunces(
-        color: AppColors.white,
+        color: AppColors.ink,
         fontWeight: FontWeight.w700,
         fontSize: 28,
         height: 1.15,
         letterSpacing: -0.4,
       ),
       kicker: GoogleFonts.plusJakartaSans(
-        color: AppColors.gold,
+        color: AppColors.goldDeep,
         fontWeight: FontWeight.w700,
         fontSize: 22,
         height: 1.2,
         letterSpacing: 1.4,
       ),
       situation: GoogleFonts.plusJakartaSans(
-        color: AppColors.white.withValues(alpha: 0.92),
+        color: AppColors.textPrimary,
         fontWeight: FontWeight.w500,
         fontSize: 28,
         height: 1.28,
       ),
       option: GoogleFonts.plusJakartaSans(
-        color: AppColors.white,
+        color: AppColors.textPrimary,
         fontWeight: FontWeight.w600,
         fontSize: 26,
         height: 1.25,
@@ -77,19 +77,19 @@ class ReelType extends ThemeExtension<ReelType> {
         height: 1,
       ),
       timer: GoogleFonts.fraunces(
-        color: AppColors.gold,
+        color: AppColors.goldDeep,
         fontWeight: FontWeight.w700,
-        fontSize: 120,
+        fontSize: 176,
         height: 1,
       ),
       cta: GoogleFonts.fraunces(
-        color: AppColors.gold,
+        color: AppColors.ink,
         fontWeight: FontWeight.w700,
         fontSize: 42,
         height: 1.15,
       ),
       brand: GoogleFonts.plusJakartaSans(
-        color: AppColors.white,
+        color: AppColors.ink,
         fontWeight: FontWeight.w700,
         fontSize: 22,
         height: 1.2,
@@ -101,13 +101,13 @@ class ReelType extends ThemeExtension<ReelType> {
         height: 1.15,
       ),
       watermark: GoogleFonts.plusJakartaSans(
-        color: AppColors.white.withValues(alpha: 0.78),
+        color: AppColors.ink,
         fontWeight: FontWeight.w700,
         fontSize: 18,
         height: 1.2,
       ),
       fineprint: GoogleFonts.plusJakartaSans(
-        color: AppColors.white.withValues(alpha: 0.55),
+        color: AppColors.textMuted,
         fontWeight: FontWeight.w500,
         fontSize: 16,
         height: 1.3,

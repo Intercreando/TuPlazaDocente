@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import '../data/reel_studio_pack.dart';
 import '../theme/app_colors.dart';
 import '../theme/reel_type.dart';
+import 'atmospheric_background.dart';
 import 'brand_logo.dart';
 
 enum ReelBeat { ready, hook, question, countdown, close }
@@ -46,123 +47,136 @@ class ReelExpressStage extends StatelessWidget {
     final showClose = beat == ReelBeat.close;
     final highlight = revealMode && beat == ReelBeat.close;
 
-    return ColoredBox(
-      color: AppColors.ink,
-      child: Padding(
-        padding: const EdgeInsets.fromLTRB(
-          safeLeft,
-          safeTop,
-          safeRight,
-          safeBottom,
-        ),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            const _ReelWatermark(),
-            const SizedBox(height: 16),
-            AnimatedSwitcher(
-              duration: const Duration(milliseconds: 280),
-              child: beat == ReelBeat.hook
-                  ? Column(
-                      key: const ValueKey('hook-full'),
-                      children: [
-                        Text(
-                          'CONCURSO DOCENTE 2026',
-                          style: type.kicker,
-                          textAlign: TextAlign.center,
-                        ),
-                        const SizedBox(height: 18),
-                        Text(
-                          ReelStudioPack.hook,
-                          style: type.hook,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                    )
-                  : beat == ReelBeat.close
-                  ? const SizedBox.shrink(key: ValueKey('hook-off'))
-                  : Text(
-                      key: const ValueKey('hook-compact'),
-                      ReelStudioPack.hook,
-                      style: type.hookCompact,
-                      textAlign: TextAlign.center,
-                    ),
-            ),
-            if (showQuestion) ...[
-              const SizedBox(height: 18),
-              if (!showClose) ...[
-                Text(clip.situation, style: type.situation),
-                const SizedBox(height: 12),
-                Text(clip.stem, style: type.kicker),
-                const SizedBox(height: 16),
-              ],
-              for (var i = 0; i < clip.options.length; i++) ...[
-                if (i > 0) const SizedBox(height: 10),
-                _OptionRow(
-                  letter: i < letters.length ? letters[i] : '${i + 1}',
-                  text: clip.options[i],
-                  marked: highlight && i == clip.correctIndex,
-                  dimmed: highlight && i != clip.correctIndex,
-                ),
-              ],
-            ],
-            const Spacer(),
-            if (showTimer) ...[
-              ClipRRect(
-                borderRadius: BorderRadius.circular(99),
-                child: SizedBox(
-                  height: 8,
-                  child: LinearProgressIndicator(
-                    value: countdownProgress.clamp(0.0, 1.0),
-                    backgroundColor: AppColors.white.withValues(alpha: 0.16),
-                    color: AppColors.gold,
-                  ),
-                ),
-              ),
-              const SizedBox(height: 8),
-              Transform.scale(
-                scale: timerPulse,
-                child: Text(
-                  '$countdownLeft',
-                  style: type.timer,
-                  textAlign: TextAlign.center,
-                ),
-              ),
-            ],
-            if (showClose) ...[
-              Text(
-                revealMode
-                    ? 'Respuesta: ${clip.correctLetter}\n${clip.revealWhy}'
-                    : ReelStudioPack.closeComenta,
-                style: type.cta,
-                textAlign: TextAlign.center,
-              ),
+    return ClipRect(
+      child: AtmosphericBackground(
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(
+            safeLeft,
+            safeTop,
+            safeRight,
+            safeBottom,
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              const _ReelWatermark(),
               const SizedBox(height: 16),
-              DecoratedBox(
-                decoration: BoxDecoration(
-                  color: AppColors.gold,
-                  borderRadius: BorderRadius.circular(18),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 22,
-                    vertical: 16,
+              AnimatedSwitcher(
+                duration: const Duration(milliseconds: 400),
+                child: beat == ReelBeat.hook
+                    ? Column(
+                        key: const ValueKey('hook-full'),
+                        children: [
+                          Text(
+                            'CONCURSO DOCENTE 2026',
+                            style: type.kicker,
+                            textAlign: TextAlign.center,
+                          ),
+                          const SizedBox(height: 18),
+                          Text(
+                            ReelStudioPack.hook,
+                            style: type.hook,
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      )
+                    : beat == ReelBeat.close
+                    ? const SizedBox.shrink(key: ValueKey('hook-off'))
+                    : Text(
+                        key: const ValueKey('hook-compact'),
+                        ReelStudioPack.hook,
+                        style: type.hookCompact,
+                        textAlign: TextAlign.center,
+                      ),
+              ),
+              if (showQuestion) ...[
+                const SizedBox(height: 18),
+                if (!showClose) ...[
+                  Text(clip.situation, style: type.situation),
+                  const SizedBox(height: 12),
+                  Text(clip.stem, style: type.kicker),
+                  const SizedBox(height: 16),
+                ],
+                for (var i = 0; i < clip.options.length; i++) ...[
+                  if (i > 0) const SizedBox(height: 10),
+                  _OptionRow(
+                    letter: i < letters.length ? letters[i] : '${i + 1}',
+                    text: clip.options[i],
+                    marked: highlight && i == clip.correctIndex,
+                    dimmed: highlight && i != clip.correctIndex,
                   ),
+                ],
+              ],
+              if (showTimer) ...[
+                const SizedBox(height: 56),
+                ClipRRect(
+                  borderRadius: BorderRadius.circular(99),
+                  child: SizedBox(
+                    height: 8,
+                    child: LinearProgressIndicator(
+                      value: countdownProgress.clamp(0.0, 1.0),
+                      backgroundColor: AppColors.mist,
+                      color: AppColors.gold,
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 8),
+                Transform.scale(
+                  scale: timerPulse,
                   child: Text(
-                    ReelStudioPack.closeRegister,
-                    style: type.ctaBar,
+                    '$countdownLeft',
+                    style: type.timer,
                     textAlign: TextAlign.center,
                   ),
                 ),
-              ),
+              ],
+              if (showClose) ...[
+                const SizedBox(height: 20),
+                Text(
+                  revealMode
+                      ? 'Respuesta: ${clip.correctLetter}\n${clip.revealWhy}'
+                      : ReelStudioPack.closeComenta,
+                  style: type.cta,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                DecoratedBox(
+                  decoration: BoxDecoration(
+                    color: AppColors.gold,
+                    borderRadius: BorderRadius.circular(18),
+                  ),
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 22,
+                      vertical: 16,
+                    ),
+                    child: Column(
+                      children: [
+                        Text(
+                          ReelStudioPack.site,
+                          style: type.ctaBar,
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          ReelStudioPack.closeAction,
+                          style: type.brand,
+                          textAlign: TextAlign.center,
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
+                const SizedBox(height: 12),
+              ],
               const SizedBox(height: 12),
+              Text(
+                ReelStudioPack.disclaimer,
+                style: type.fineprint,
+                textAlign: TextAlign.center,
+              ),
             ],
-            Text(
-              ReelStudioPack.disclaimer,
-              style: type.fineprint,
-              textAlign: TextAlign.center,
-            ),
-          ],
+          ),
         ),
       ),
     );
@@ -179,16 +193,7 @@ class _ReelWatermark extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        DecoratedBox(
-          decoration: BoxDecoration(
-            color: AppColors.white,
-            borderRadius: BorderRadius.circular(8),
-          ),
-          child: const Padding(
-            padding: EdgeInsets.all(3),
-            child: BrandLogo(size: 28),
-          ),
-        ),
+        const BrandLogo(size: 32),
         const SizedBox(width: 10),
         Text(ReelStudioPack.brand, style: type.watermark),
       ],
@@ -212,8 +217,8 @@ class _OptionRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
-    final bg = marked ? AppColors.gold : AppColors.inkSoft;
-    final border = marked ? AppColors.goldDeep : AppColors.canopy;
+    final bg = marked ? AppColors.gold : AppColors.white;
+    final border = marked ? AppColors.goldDeep : AppColors.stroke;
     return Opacity(
       opacity: dimmed ? 0.38 : 1,
       child: DecoratedBox(
@@ -245,7 +250,7 @@ class _OptionRow extends StatelessWidget {
                 child: Text(
                   text,
                   style: type.option.copyWith(
-                    color: marked ? AppColors.ink : AppColors.white,
+                    color: marked ? AppColors.ink : AppColors.textPrimary,
                   ),
                 ),
               ),

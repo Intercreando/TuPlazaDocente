@@ -25,9 +25,9 @@ class AdminReelStudioScreen extends StatefulWidget {
 }
 
 class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
-  /// Ciclo exacto de 15,00 s (hook + caso + cuenta + cierre).
+  /// Ciclo exacto de 15,00 s. El H1 se lee (~2,5 s) y luego entra el caso.
   static const _cycleMs = 15000;
-  static const _hookMs = 1600;
+  static const _hookMs = 2500;
   static const _countdownMs = 3000;
   static const _closeMs = 3000;
   static const _questionMs = _cycleMs - _hookMs - _countdownMs - _closeMs;

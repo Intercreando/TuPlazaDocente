@@ -30,8 +30,9 @@ class ReelClip {
 abstract final class ReelStudioPack {
   static const hook = '¿Pasarías esta pregunta del Concurso Docente?';
   static const closeComenta = 'Comenta A, B, C o D';
-  static const closeRegister = 'Busca TuPlazaDocente y crea tu cuenta gratis';
   static const site = 'tuplazadocente.com';
+  static const closeAction = 'Crea tu cuenta gratis';
+  static const closeRegister = '$site — $closeAction';
   static const brand = 'TuPlazaDocente';
   static const disclaimer = 'Entrenamiento. No es un ítem oficial de la CNSC.';
   static const hashtags =
