@@ -38,8 +38,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   DateTime? _startedAt;
   ReelClip _clip = ReelStudioPack.clips.first;
   bool _revealMode = false;
-  bool _loop = true;
   bool _playing = false;
+  bool _ended = false;
   bool _tickSound = true;
   int? _lastTickSecond;
 
@@ -102,6 +102,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   }
 
   ReelBeat get _beat {
+    if (_ended) return ReelBeat.close;
     if (!_playing) return ReelBeat.ready;
     final t = _elapsedMs;
     if (t < _hookMs) return ReelBeat.hook;
@@ -134,8 +135,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     if (!_playing) return 1;
     final t = _elapsedMs;
     if (t < _fadeMs) return t / _fadeMs;
-    final remain = _cycleMs - t;
-    if (remain < _fadeMs) return remain / _fadeMs;
     return 1;
   }
 
@@ -163,21 +162,28 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     _lastTickSecond = null;
     setState(() {
       _playing = true;
+      _ended = false;
       _startedAt = DateTime.now();
     });
     _tick = Timer.periodic(const Duration(milliseconds: 33), (_) {
       if (!mounted) return;
       if (_elapsedMs >= _cycleMs) {
-        if (_loop) {
-          _lastTickSecond = null;
-          setState(() => _startedAt = DateTime.now());
-        } else {
-          _reset();
-        }
+        _holdClose();
         return;
       }
       _maybeTick();
       setState(() {});
+    });
+  }
+
+  /// Congela el último fotograma (invitación a registrarse).
+  void _holdClose() {
+    _tick?.cancel();
+    _lastTickSecond = null;
+    setState(() {
+      _playing = false;
+      _ended = true;
+      _startedAt = null;
     });
   }
 
@@ -186,6 +192,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     _lastTickSecond = null;
     setState(() {
       _playing = false;
+      _ended = false;
       _startedAt = null;
     });
   }
@@ -200,8 +207,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
       _reset();
     } else if (key == LogicalKeyboardKey.keyC) {
       setState(() => _revealMode = !_revealMode);
-    } else if (key == LogicalKeyboardKey.keyL) {
-      setState(() => _loop = !_loop);
     }
   }
 
@@ -214,7 +219,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
           opacity: _stageOpacity.clamp(0.0, 1.0),
           child: ReelExpressStage(
             clip: _clip,
-            beat: _playing ? _beat : ReelBeat.question,
+            beat: (!_playing && !_ended) ? ReelBeat.question : _beat,
             countdownLeft: _countdownLeft,
             countdownProgress: _countdownProgress,
             timerPulse: _timerPulse,
@@ -313,12 +318,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         ),
                         SwitchListTile(
                           contentPadding: EdgeInsets.zero,
-                          title: const Text('Bucle'),
-                          value: _loop,
-                          onChanged: (v) => setState(() => _loop = v),
-                        ),
-                        SwitchListTile(
-                          contentPadding: EdgeInsets.zero,
                           title: const Text('Tick de cuenta'),
                           subtitle: Text(
                             'Click en 3-2-1. En OBS captura audio de Chrome.',
@@ -361,8 +360,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         const SizedBox(height: 16),
                         Text(
                           'OBS: captura la ventana de Chrome en 1080×1920. '
-                          'Espacio = play/parar. R = reset. C = revela. L = bucle. '
-                          'El registro solo aparece en los últimos 3 s. '
+                          'Espacio = play/parar. R = reset. C = revela. '
+                          'Al terminar se queda en el registro. '
                           'Haz clic una vez en Chrome si quieres el tick en el video.',
                           style: theme.textTheme.bodySmall,
                         ),

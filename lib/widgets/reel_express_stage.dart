@@ -30,8 +30,8 @@ class ReelExpressStage extends StatelessWidget {
   static const designSize = Size(1080, 1920);
   static const letters = ['A', 'B', 'C', 'D'];
 
-  /// TikTok/Reels: UI nativa come ~180 arriba, ~280 abajo, ~120 a la derecha.
-  static const safeTop = 180.0;
+  /// TikTok: barra “Buscar contenido relacionado” + likes a la derecha.
+  static const safeTop = 280.0;
   static const safeBottom = 280.0;
   static const safeRight = 120.0;
   static const safeLeft = 48.0;
