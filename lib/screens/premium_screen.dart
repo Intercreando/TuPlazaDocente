@@ -418,6 +418,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
                         icon: const Icon(Icons.campaign_outlined),
                         label: const Text('Panel de noticias (admin)'),
                       ),
+                      const SizedBox(height: 10),
+                      OutlinedButton.icon(
+                        onPressed: () => context.push('/admin/estudio-reels'),
+                        icon: const Icon(Icons.videocam_outlined),
+                        label: const Text('Estudio Reels / OBS (admin)'),
+                      ),
                     ],
                   ],
                 ],

@@ -6,12 +6,17 @@ abstract final class SeoDocument {
     required String title,
     required String description,
     required String canonical,
+    bool noIndex = false,
   }) {
     try {
       web.document.title = title;
       _setMeta('description', description);
       _setMeta('og:description', description, property: true);
       _setMeta('og:title', title, property: true);
+      _setMeta(
+        'robots',
+        noIndex ? 'noindex, nofollow' : 'index, follow, max-image-preview:large',
+      );
       _setCanonical(canonical);
     } catch (_) {}
   }

@@ -4,5 +4,6 @@ abstract final class SeoDocument {
     required String title,
     required String description,
     required String canonical,
+    bool noIndex = false,
   }) {}
 }

@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'app_button_styles.dart';
 import 'app_colors.dart';
 import 'app_typography.dart';
+import 'reel_type.dart';
 
 /// Tema global claro/oscuro de la aplicación.
 abstract final class AppTheme {
@@ -87,18 +88,25 @@ abstract final class AppTheme {
         backgroundColor: AppColors.mist,
         selectedColor: AppColors.ink,
         disabledColor: AppColors.stroke,
-        labelStyle: textTheme.labelMedium?.copyWith(color: AppColors.textPrimary),
-        secondaryLabelStyle:
-            textTheme.labelMedium?.copyWith(color: AppColors.white),
+        labelStyle: textTheme.labelMedium?.copyWith(
+          color: AppColors.textPrimary,
+        ),
+        secondaryLabelStyle: textTheme.labelMedium?.copyWith(
+          color: AppColors.white,
+        ),
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         side: const BorderSide(color: AppColors.stroke),
       ),
-      dividerTheme: const DividerThemeData(color: AppColors.stroke, thickness: 1),
+      dividerTheme: const DividerThemeData(
+        color: AppColors.stroke,
+        thickness: 1,
+      ),
       progressIndicatorTheme: const ProgressIndicatorThemeData(
         color: AppColors.canopy,
         linearTrackColor: AppColors.mist,
       ),
+      extensions: [ReelType.studio()],
     );
   }
 
@@ -180,18 +188,42 @@ abstract final class AppTheme {
         selectedColor: AppColors.seafoam,
         disabledColor: AppColors.darkStroke,
         labelStyle: textTheme.labelMedium?.copyWith(color: AppColors.darkText),
-        secondaryLabelStyle:
-            textTheme.labelMedium?.copyWith(color: AppColors.ink),
+        secondaryLabelStyle: textTheme.labelMedium?.copyWith(
+          color: AppColors.ink,
+        ),
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         side: const BorderSide(color: AppColors.darkStroke),
       ),
-      dividerTheme:
-          const DividerThemeData(color: AppColors.darkStroke, thickness: 1),
+      dividerTheme: const DividerThemeData(
+        color: AppColors.darkStroke,
+        thickness: 1,
+      ),
       progressIndicatorTheme: const ProgressIndicatorThemeData(
         color: AppColors.seafoam,
         linearTrackColor: AppColors.darkElevated,
       ),
+      listTileTheme: ListTileThemeData(
+        iconColor: AppColors.darkText,
+        textColor: AppColors.darkText,
+        titleTextStyle: textTheme.titleMedium,
+        subtitleTextStyle: textTheme.bodySmall,
+      ),
+      switchTheme: SwitchThemeData(
+        thumbColor: WidgetStateProperty.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) return AppColors.ink;
+          return AppColors.darkText;
+        }),
+        trackColor: WidgetStateProperty.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) return AppColors.gold;
+          return AppColors.darkElevated;
+        }),
+        trackOutlineColor: WidgetStateProperty.resolveWith((states) {
+          if (states.contains(WidgetState.selected)) return AppColors.gold;
+          return AppColors.darkStroke;
+        }),
+      ),
+      extensions: [ReelType.studio()],
     );
   }
 }

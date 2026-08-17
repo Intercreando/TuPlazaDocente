@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../screens/admin_news_screen.dart';
 import '../screens/admin_promo_screen.dart';
+import '../screens/admin_reel_studio_screen.dart';
 import '../screens/app_shell.dart';
 import '../screens/auth_screen.dart';
 import '../screens/cases_screen.dart';
@@ -81,7 +82,8 @@ GoRouter createAppRouter(AppState appState) {
         };
         if (!diagnosticAllowed.contains(loc) &&
             !loc.startsWith('/legal') &&
-            !loc.startsWith('/premium')) {
+            !loc.startsWith('/premium') &&
+            !loc.startsWith('/admin')) {
           return '/diagnostico';
         }
       }
@@ -156,6 +158,10 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/admin/noticias',
         builder: (context, state) => const AdminNewsScreen(),
+      ),
+      GoRoute(
+        path: '/admin/estudio-reels',
+        builder: (context, state) => const AdminReelStudioScreen(),
       ),
       GoRoute(
         path: '/noticias/:id',
