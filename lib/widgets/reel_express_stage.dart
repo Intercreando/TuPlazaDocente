@@ -56,127 +56,152 @@ class ReelExpressStage extends StatelessWidget {
             safeRight,
             safeBottom,
           ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.stretch,
-            children: [
-              const _ReelWatermark(),
-              const SizedBox(height: 16),
-              AnimatedSwitcher(
-                duration: const Duration(milliseconds: 400),
-                child: beat == ReelBeat.hook
-                    ? Column(
-                        key: const ValueKey('hook-full'),
-                        children: [
-                          Text(
-                            'CONCURSO DOCENTE 2026',
-                            style: type.kicker,
-                            textAlign: TextAlign.center,
-                          ),
-                          const SizedBox(height: 18),
-                          Text(
-                            ReelStudioPack.hook,
-                            style: type.hook,
-                            textAlign: TextAlign.center,
-                          ),
-                        ],
-                      )
-                    : beat == ReelBeat.close
-                    ? const SizedBox.shrink(key: ValueKey('hook-off'))
-                    : Text(
-                        key: const ValueKey('hook-compact'),
-                        ReelStudioPack.hook,
-                        style: type.hookCompact,
-                        textAlign: TextAlign.center,
-                      ),
-              ),
-              if (showQuestion) ...[
-                const SizedBox(height: 18),
-                if (!showClose) ...[
-                  Text(clip.situation, style: type.situation),
-                  const SizedBox(height: 12),
-                  Text(clip.stem, style: type.kicker),
-                  const SizedBox(height: 16),
-                ],
-                for (var i = 0; i < clip.options.length; i++) ...[
-                  if (i > 0) const SizedBox(height: 10),
-                  _OptionRow(
-                    letter: i < letters.length ? letters[i] : '${i + 1}',
-                    text: clip.options[i],
-                    marked: highlight && i == clip.correctIndex,
-                    dimmed: highlight && i != clip.correctIndex,
-                  ),
-                ],
-              ],
-              if (showTimer) ...[
-                const SizedBox(height: 56),
-                ClipRRect(
-                  borderRadius: BorderRadius.circular(99),
-                  child: SizedBox(
-                    height: 8,
-                    child: LinearProgressIndicator(
-                      value: countdownProgress.clamp(0.0, 1.0),
-                      backgroundColor: AppColors.mist,
-                      color: AppColors.gold,
-                    ),
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Transform.scale(
-                  scale: timerPulse,
-                  child: Text(
-                    '$countdownLeft',
-                    style: type.timer,
-                    textAlign: TextAlign.center,
-                  ),
-                ),
-              ],
-              if (showClose) ...[
-                const SizedBox(height: 20),
-                Text(
-                  revealMode
-                      ? 'Respuesta: ${clip.correctLetter}\n${clip.revealWhy}'
-                      : ReelStudioPack.closeComenta,
-                  style: type.cta,
-                  textAlign: TextAlign.center,
-                ),
-                const SizedBox(height: 16),
-                DecoratedBox(
-                  decoration: BoxDecoration(
-                    color: AppColors.gold,
-                    borderRadius: BorderRadius.circular(18),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.symmetric(
-                      horizontal: 22,
-                      vertical: 16,
-                    ),
-                    child: Column(
-                      children: [
+          child: AnimatedSwitcher(
+            duration: const Duration(milliseconds: 400),
+            child: beat == ReelBeat.hook
+                ? const _ReelHookHero(key: ValueKey('hook-hero'))
+                : Column(
+                    key: const ValueKey('hook-off-case'),
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      const _ReelWatermark(),
+                      if (!showClose) ...[
+                        const SizedBox(height: 16),
                         Text(
-                          ReelStudioPack.site,
-                          style: type.ctaBar,
-                          textAlign: TextAlign.center,
-                        ),
-                        const SizedBox(height: 4),
-                        Text(
-                          ReelStudioPack.closeAction,
-                          style: type.brand,
+                          ReelStudioPack.hook,
+                          style: type.hookCompact,
                           textAlign: TextAlign.center,
                         ),
                       ],
-                    ),
+                      if (showQuestion) ...[
+                        const SizedBox(height: 18),
+                        if (!showClose) ...[
+                          Text(clip.situation, style: type.situation),
+                          const SizedBox(height: 12),
+                          Text(clip.stem, style: type.kicker),
+                          const SizedBox(height: 16),
+                        ],
+                        for (var i = 0; i < clip.options.length; i++) ...[
+                          if (i > 0) const SizedBox(height: 10),
+                          _OptionRow(
+                            letter: i < letters.length
+                                ? letters[i]
+                                : '${i + 1}',
+                            text: clip.options[i],
+                            marked: highlight && i == clip.correctIndex,
+                            dimmed: highlight && i != clip.correctIndex,
+                          ),
+                        ],
+                      ],
+                      if (showTimer) ...[
+                        const SizedBox(height: 56),
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(99),
+                          child: SizedBox(
+                            height: 8,
+                            child: LinearProgressIndicator(
+                              value: countdownProgress.clamp(0.0, 1.0),
+                              backgroundColor: AppColors.mist,
+                              color: AppColors.gold,
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Transform.scale(
+                          scale: timerPulse,
+                          child: Text(
+                            '$countdownLeft',
+                            style: type.timer,
+                            textAlign: TextAlign.center,
+                          ),
+                        ),
+                      ],
+                      if (showClose) ...[
+                        const SizedBox(height: 20),
+                        Text(
+                          revealMode
+                              ? 'Respuesta: ${clip.correctLetter}\n${clip.revealWhy}'
+                              : ReelStudioPack.closeComenta,
+                          style: type.cta,
+                          textAlign: TextAlign.center,
+                        ),
+                        const SizedBox(height: 16),
+                        DecoratedBox(
+                          decoration: BoxDecoration(
+                            color: AppColors.gold,
+                            borderRadius: BorderRadius.circular(18),
+                          ),
+                          child: Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 22,
+                              vertical: 16,
+                            ),
+                            child: Column(
+                              children: [
+                                Text(
+                                  ReelStudioPack.site,
+                                  style: type.ctaBar,
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(height: 4),
+                                Text(
+                                  ReelStudioPack.closeAction,
+                                  style: type.brand,
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
+                            ),
+                          ),
+                        ),
+                        const SizedBox(height: 12),
+                      ],
+                      const SizedBox(height: 12),
+                      Text(
+                        ReelStudioPack.disclaimer,
+                        style: type.fineprint,
+                        textAlign: TextAlign.center,
+                      ),
+                    ],
                   ),
-                ),
-                const SizedBox(height: 12),
-              ],
-              const SizedBox(height: 12),
-              Text(
-                ReelStudioPack.disclaimer,
-                style: type.fineprint,
-                textAlign: TextAlign.center,
-              ),
-            ],
           ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Primera pantalla: marca + H1 centrados y un poco más grandes.
+class _ReelHookHero extends StatelessWidget {
+  const _ReelHookHero({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final type = ReelType.of(context);
+    return SizedBox.expand(
+      child: Center(
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            const _ReelWatermark(large: true),
+            const SizedBox(height: 28),
+            Text(
+              'CONCURSO DOCENTE 2026',
+              style: type.kicker,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 24),
+            Text(
+              ReelStudioPack.hook,
+              style: type.hook,
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 28),
+            Text(
+              ReelStudioPack.disclaimer,
+              style: type.fineprint,
+              textAlign: TextAlign.center,
+            ),
+          ],
         ),
       ),
     );
@@ -185,17 +210,20 @@ class ReelExpressStage extends StatelessWidget {
 
 /// Logo mínimo durante el caso: sin pedir registro.
 class _ReelWatermark extends StatelessWidget {
-  const _ReelWatermark();
+  const _ReelWatermark({this.large = false});
+
+  final bool large;
 
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
+    final markSize = large ? 48.0 : 32.0;
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        const BrandLogo(size: 32),
-        const SizedBox(width: 10),
-        Text(ReelStudioPack.brand, style: type.watermark),
+        BrandLogo(size: markSize),
+        SizedBox(width: large ? 14 : 10),
+        Text(ReelStudioPack.brand, style: large ? type.brand : type.watermark),
       ],
     );
   }

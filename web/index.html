@@ -93,18 +93,15 @@
   'https://connect.facebook.net/en_US/fbevents.js');
   var TPD_META_PIXEL = '1565041928197797';
   (function () {
-    var bootUd = {};
+    // País siempre: si no va en el Pixel, Events Manager marca ~50% (CAPI sí lo envía).
+    var bootUd = { country: 'co' };
     try {
       var bootEm = localStorage.getItem('tpd_meta_em_h') || '';
       var bootEid = localStorage.getItem('tpd_meta_eid_h') || '';
       if (/^[a-f0-9]{64}$/.test(bootEm)) bootUd.em = bootEm;
       if (/^[a-f0-9]{64}$/.test(bootEid)) bootUd.external_id = bootEid;
     } catch (e) {}
-    if (bootUd.em || bootUd.external_id) {
-      fbq('init', TPD_META_PIXEL, bootUd);
-    } else {
-      fbq('init', TPD_META_PIXEL);
-    }
+    fbq('init', TPD_META_PIXEL, bootUd);
   })();
   function tpdSha256Hex(value) {
     if (!value || !window.crypto || !crypto.subtle) return Promise.resolve('');
@@ -119,8 +116,8 @@
     var em = String(email || '').trim().toLowerCase();
     var eid = String(uid || '').trim();
     try {
-      if (window.fbq && (em.indexOf('@') !== -1 || eid.length >= 8)) {
-        var ud = {};
+      if (window.fbq) {
+        var ud = { country: 'co' };
         if (em.indexOf('@') !== -1) ud.em = em;
         if (eid.length >= 8) ud.external_id = eid;
         fbq('init', TPD_META_PIXEL, ud);
@@ -136,6 +133,34 @@
         if (h) try { localStorage.setItem('tpd_meta_eid_h', h); } catch (e3) {}
       });
     }
+  };
+  // Pixel + CAPI en el mismo turno: el Pixel también lleva em / external_id / country.
+  // Si el Pixel va “vacío” y CAPI “lleno”, Events Manager muestra ~50% aunque el event_id coincida.
+  window.tpdFbqTrack = function (eventName, eventId, customData, userHints) {
+    try {
+      var hints = (userHints && typeof userHints === 'object') ? userHints : {};
+      var em = String(hints.email || '').trim().toLowerCase();
+      var eid = String(hints.external_id || hints.externalId || '').trim();
+      var ud = { country: 'co' };
+      if (em.indexOf('@') !== -1) ud.em = em;
+      if (eid.length >= 8) ud.external_id = eid;
+      try {
+        if (!ud.em) {
+          var emH = localStorage.getItem('tpd_meta_em_h') || '';
+          if (/^[a-f0-9]{64}$/.test(emH)) ud.em = emH;
+        }
+        if (!ud.external_id) {
+          var eidH = localStorage.getItem('tpd_meta_eid_h') || '';
+          if (/^[a-f0-9]{64}$/.test(eidH)) ud.external_id = eidH;
+        }
+      } catch (e0) {}
+      if (window.fbq) {
+        fbq('init', TPD_META_PIXEL, ud);
+        fbq('track', eventName, customData || {}, {eventID: eventId});
+      }
+      window.tpdRememberMetaUser(em, eid);
+      window.tpdTrackMetaCapi(eventName, eventId, customData, hints);
+    } catch (e) {}
   };
   window.tpdTrackMetaCapi = function (eventName, eventId, customData, userHints) {
     try {

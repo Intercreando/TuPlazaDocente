@@ -40,9 +40,9 @@ class ReelType extends ThemeExtension<ReelType> {
       hook: GoogleFonts.fraunces(
         color: AppColors.ink,
         fontWeight: FontWeight.w700,
-        fontSize: 54,
+        fontSize: 68,
         height: 1.08,
-        letterSpacing: -1.2,
+        letterSpacing: -1.4,
       ),
       hookCompact: GoogleFonts.fraunces(
         color: AppColors.ink,
@@ -54,9 +54,9 @@ class ReelType extends ThemeExtension<ReelType> {
       kicker: GoogleFonts.plusJakartaSans(
         color: AppColors.goldDeep,
         fontWeight: FontWeight.w700,
-        fontSize: 22,
+        fontSize: 26,
         height: 1.2,
-        letterSpacing: 1.4,
+        letterSpacing: 1.6,
       ),
       situation: GoogleFonts.plusJakartaSans(
         color: AppColors.textPrimary,
@@ -103,13 +103,13 @@ class ReelType extends ThemeExtension<ReelType> {
       watermark: GoogleFonts.plusJakartaSans(
         color: AppColors.ink,
         fontWeight: FontWeight.w700,
-        fontSize: 18,
+        fontSize: 22,
         height: 1.2,
       ),
       fineprint: GoogleFonts.plusJakartaSans(
         color: AppColors.textMuted,
         fontWeight: FontWeight.w500,
-        fontSize: 16,
+        fontSize: 18,
         height: 1.3,
       ),
     );

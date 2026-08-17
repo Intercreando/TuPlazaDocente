@@ -2,9 +2,12 @@ import 'dart:js_interop';
 
 import 'package:uuid/uuid.dart';
 
-/// Meta Pixel (fbq) + CAPI: el mismo event_id en navegador y servidor.
+/// Meta Pixel (fbq) + CAPI: el mismo event_id y el mismo matching en ambas rutas.
 @JS('fbq')
 external JSFunction? get _fbq;
+
+@JS('tpdFbqTrack')
+external JSFunction? get _fbqTrack;
 
 @JS('tpdTrackMetaCapi')
 external JSFunction? get _capi;
@@ -65,12 +68,7 @@ abstract final class MetaPixel {
     if (contentName != null && contentName.isNotEmpty) {
       params['content_name'] = contentName;
     }
-    _track(
-      'InitiateCheckout',
-      params,
-      email: email,
-      externalId: externalId,
-    );
+    _track('InitiateCheckout', params, email: email, externalId: externalId);
   }
 
   static void purchase({
@@ -80,19 +78,15 @@ abstract final class MetaPixel {
     String? email,
     String? externalId,
   }) {
-    final params = <String, Object?>{
-      'value': value,
-      'currency': currency,
-    };
+    final params = <String, Object?>{'value': value, 'currency': currency};
     if (contentName != null && contentName.isNotEmpty) {
       params['content_name'] = contentName;
     }
-    _track(
-      'Purchase',
-      params,
-      email: email,
-      externalId: externalId,
-    );
+    _track('Purchase', params, email: email, externalId: externalId);
+  }
+
+  static Map<String, Object?> _userHints(String? email, String? externalId) {
+    return {'email': email ?? '', 'external_id': externalId ?? ''};
   }
 
   static void _track(
@@ -104,6 +98,25 @@ abstract final class MetaPixel {
     identify(email: email, externalId: externalId);
     final eventId = _uuid.v4();
     final payload = params ?? <String, Object?>{};
+    final hints = _userHints(email, externalId);
+
+    // Un solo puente JS: init (em/uid/país) + track Pixel + CAPI.
+    try {
+      final bridge = _fbqTrack;
+      if (bridge != null) {
+        bridge.callAsFunction(
+          null,
+          event.toJS,
+          eventId.toJS,
+          payload.jsify(),
+          hints.jsify(),
+        );
+        return;
+      }
+    } catch (_) {
+      // Sin puente: se intenta Pixel y CAPI por separado.
+    }
+
     final options = <String, Object?>{'eventID': eventId};
     try {
       final fbq = _fbq;
@@ -120,16 +133,12 @@ abstract final class MetaPixel {
       // Píxel bloqueado o no disponible.
     }
     try {
-      final capi = _capi;
-      capi?.callAsFunction(
+      _capi?.callAsFunction(
         null,
         event.toJS,
         eventId.toJS,
         payload.jsify(),
-        {
-          'email': email ?? '',
-          'external_id': externalId ?? '',
-        }.jsify(),
+        hints.jsify(),
       );
     } catch (_) {
       // CAPI no disponible (local / bloqueo).
