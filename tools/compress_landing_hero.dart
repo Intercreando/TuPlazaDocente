@@ -2,12 +2,12 @@ import 'dart:io';
 
 import 'package:image/image.dart' as img;
 
-/// Comprime la foto del hero a JPEG web (ancho máx. 1280, calidad 72).
+/// Comprime la foto del hero a JPEG web (ancho máx. 900, calidad 60).
 void main() {
   const srcPath = 'assets/landing/landing-hero-triunfo-lagrimas.png';
   const outPath = 'assets/landing/landing-hero-triunfo-lagrimas.jpg';
-  const maxWidth = 1280;
-  const quality = 72;
+  const maxWidth = 900;
+  const quality = 60;
 
   final src = File(srcPath);
   if (!src.existsSync()) {

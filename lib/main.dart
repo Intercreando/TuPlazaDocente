@@ -34,12 +34,16 @@ Future<void> main() async {
   runApp(const TuPlazaDocenteApp());
 }
 
+/// Tope de espera por intento: si Firebase no responde, la app arranca igual
+/// en modo local en vez de quedarse en la pantalla de carga.
+const _firebaseInitTimeout = Duration(seconds: 4);
+
 Future<void> _initFirebase() async {
   try {
     if (Firebase.apps.isNotEmpty) return;
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
-    );
+    ).timeout(_firebaseInitTimeout);
     debugPrint('Firebase listo (${Firebase.apps.length} app(s)).');
     return;
   } catch (e) {
@@ -54,7 +58,7 @@ Future<void> _initFirebase() async {
     }
     await Firebase.initializeApp(
       options: DefaultFirebaseOptions.currentPlatform,
-    );
+    ).timeout(_firebaseInitTimeout);
     debugPrint('Firebase listo tras reintento.');
   } catch (e) {
     debugPrint('Firebase init (reintento): $e');

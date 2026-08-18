@@ -57,7 +57,8 @@ class _HeroPhotoFrame extends StatelessWidget {
                 LandingHeroVisual.assetPath,
                 fit: BoxFit.cover,
                 alignment: const Alignment(0, -0.12),
-                filterQuality: FilterQuality.high,
+                filterQuality: FilterQuality.medium,
+                cacheWidth: 900,
                 gaplessPlayback: true,
                 semanticLabel:
                     'Docente celebrando el nombramiento en propiedad '

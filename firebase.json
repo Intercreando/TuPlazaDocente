@@ -23,7 +23,8 @@
     "public": "build/web",
     "predeploy": [
       "node tools/validate_bank_sync.js --dart",
-      "node tools/generate_seo_landings.js"
+      "node tools/generate_seo_landings.js",
+      "node tools/stamp_service_worker.js"
     ],
     "ignore": [
       "firebase.json",
@@ -59,6 +60,33 @@
           {
             "key": "Cache-Control",
             "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "**/*.wasm",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          }
+        ]
+      },
+      {
+        "source": "/assets/google_fonts/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=2592000, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/sw.js",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache, max-age=0, must-revalidate"
           }
         ]
       },

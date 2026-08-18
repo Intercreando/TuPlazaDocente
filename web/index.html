@@ -70,7 +70,10 @@
   <meta name="twitter:title" content="TuPlazaDocente | Concurso Docente CNSC 2026">
   <meta name="twitter:description" content="Practica para el Concurso Docente CNSC/ICFES con casos reales y explicaciones del criterio del ítem.">
   <meta name="twitter:image" content="https://www.tuplazadocente.com/icons/Icon-512.png?v=2">
-  <link rel="preload" href="icons/logo-boot.png" as="image">
+  <link rel="preload" href="icons/Icon-512.png" as="image">
+  <!-- El motor solo se descubre cuando corre flutter_bootstrap.js: precargarlo
+       adelanta ~1 s en móvil (la cadena de peticiones deja de ser en serie). -->
+  <link rel="preload" href="main.dart.js" as="script">
   <title>TuPlazaDocente | Entrenador del Concurso Docente CNSC 2026</title>
   <link rel="manifest" href="manifest.json">
   <!-- Google tag (gtag.js) — Google Ads -->
@@ -300,17 +303,51 @@
       opacity: 0;
       pointer-events: none;
     }
-    #boot .lockup {
-      width: min(240px, 68vw);
+    /* Mismo arte y mismo tamaño que el splash que pinta el sistema al abrir
+       la PWA: cuando ese splash desaparece, el ícono se queda en su sitio y
+       no se percibe un segundo logo. */
+    #boot .mark {
+      width: min(128px, 32vw);
       height: auto;
       display: block;
-      animation: bootIn 0.35s ease-out;
+    }
+    /* El texto y la barra van anclados debajo del ícono (no lo desplazan del
+       centro) y entran con retardo: se suman al splash en vez de sustituirlo. */
+    #boot .hint {
+      position: absolute;
+      left: 50%;
+      top: calc(50% + min(88px, 22vw));
+      width: min(280px, 78vw);
+      transform: translateX(-50%);
+      animation: bootIn 0.4s ease-out 0.45s both;
     }
     @keyframes bootIn {
-      from { opacity: 0; transform: translateY(8px); }
-      to { opacity: 1; transform: none; }
+      from { opacity: 0; transform: translate(-50%, 8px); }
+      to { opacity: 1; transform: translate(-50%, 0); }
     }
-    #boot .sub { margin: 16px 0 0; opacity: 0.7; min-height: 1.2em; }
+    #boot .sub { margin: 0; opacity: 0.7; min-height: 1.2em; }
+    /* Barra de progreso indeterminada: evita la sensación de pantalla vacía
+       mientras el navegador descarga y compila el motor. */
+    #boot .bar {
+      width: min(200px, 56vw);
+      height: 3px;
+      margin: 16px auto 0;
+      border-radius: 999px;
+      background: rgba(12, 47, 43, 0.12);
+      overflow: hidden;
+    }
+    #boot .bar span {
+      display: block;
+      width: 40%;
+      height: 100%;
+      border-radius: 999px;
+      background: #0C2F2B;
+      animation: bootBar 1.15s ease-in-out infinite;
+    }
+    @keyframes bootBar {
+      from { transform: translateX(-100%); }
+      to { transform: translateX(250%); }
+    }
     /* HTML real para Google: el Canvas de Flutter no indexa texto. */
     #seo {
       max-width: 720px;
@@ -367,9 +404,10 @@
     </p>
   </main>
   <div id="boot">
-    <div>
-      <img class="lockup" src="icons/logo-boot.png" width="240" height="251" alt="TuPlazaDocente">
-      <p class="sub" id="bootSub"></p>
+    <img class="mark" src="icons/Icon-512.png" width="512" height="512" alt="TuPlazaDocente">
+    <div class="hint">
+      <p class="sub" id="bootSub">Preparando tu entrenamiento…</p>
+      <div class="bar" aria-hidden="true"><span></span></div>
     </div>
   </div>
   <script>
@@ -440,10 +478,28 @@
       });
 
       // Limpia SW/caché cuando hay un build nuevo (actualizaciones).
-      fetch('/version.json?t=' + Date.now(), { cache: 'no-store' })
-        .then(function (r) { return r.json(); })
-        .then(function (info) {
-          var id = String(info.build_number || '') + '-' + String(info.version || '');
+      // build-id.json lo genera tools/stamp_service_worker.js con el hash del
+      // motor: cambia en cada publicación real. version.json es el respaldo.
+      function fetchBuildId() {
+        return fetch('/build-id.json?t=' + Date.now(), { cache: 'no-store' })
+          .then(function (r) { return r.json(); })
+          .then(function (info) {
+            var id = String(info.id || '').trim();
+            if (!id) throw new Error('build-id vacío');
+            return id;
+          })
+          .catch(function () {
+            return fetch('/version.json?t=' + Date.now(), { cache: 'no-store' })
+              .then(function (r) { return r.json(); })
+              .then(function (info) {
+                return String(info.build_number || '') + '-' +
+                  String(info.version || '');
+              });
+          });
+      }
+
+      fetchBuildId()
+        .then(function (id) {
           var prev = localStorage.getItem(BUILD_KEY);
           if (prev && prev !== id) {
             return clearCachesAndWorkers().then(function () {

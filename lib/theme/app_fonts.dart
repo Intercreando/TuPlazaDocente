@@ -18,7 +18,17 @@ Future<void> prepareAppFonts() async {
       yield LicenseEntryWithLineBreaks(const ['google_fonts'], jakarta);
     });
     AppTypography.lightTextTheme();
-    await GoogleFonts.pendingFonts();
+    // Tope de espera: en web las fuentes viajan por HTTP y con red lenta
+    // retrasaban el primer cuadro (pantalla en blanco tras el splash).
+    // Si no llegan a tiempo, se pinta con la fuente de respaldo y Flutter
+    // repinta al terminar la descarga.
+    await GoogleFonts.pendingFonts().timeout(
+      const Duration(milliseconds: 1200),
+      onTimeout: () {
+        debugPrint('prepareAppFonts: espera agotada, se pinta sin bloquear.');
+        return const <void>[];
+      },
+    );
   } catch (e) {
     debugPrint('prepareAppFonts: $e');
     GoogleFonts.config.allowRuntimeFetching = true;
