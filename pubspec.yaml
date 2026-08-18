@@ -44,4 +44,5 @@ flutter:
     - assets/seo/landings.json
     - assets/icons/
     - assets/brand/
+    - assets/landing/landing-hero-triunfo-lagrimas.jpg
     - google_fonts/
