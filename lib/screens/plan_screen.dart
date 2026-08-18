@@ -123,8 +123,8 @@ class PlanScreen extends StatelessWidget {
                     child: _PlanTaskTile(
                       task: task,
                       access: _planTaskAccess(state, task),
-                      limitedLabel: task.mode == SessionMode.practice &&
-                              !task.isCaseStudy
+                      limitedLabel:
+                          task.mode == SessionMode.practice && !task.isCaseStudy
                           ? '1 / día'
                           : 'Premium',
                       onStart: () {
@@ -181,6 +181,7 @@ class _PlanTaskTile extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final locked = access == FeatureAccessLevel.locked && !task.completed;
+    final visual = _planTaskVisual(task);
 
     return Opacity(
       opacity: locked ? 0.78 : 1,
@@ -205,21 +206,12 @@ class _PlanTaskTile extends StatelessWidget {
             ),
             child: Row(
               children: [
-                Icon(
-                  task.completed
-                      ? Icons.check_circle
-                      : locked
-                      ? Icons.lock_outline_rounded
-                      : task.mode == SessionMode.exam
-                      ? Icons.whatshot_outlined
-                      : task.isCaseStudy
-                      ? Icons.apartment_outlined
-                      : Icons.play_circle_outline,
-                  color: task.completed
-                      ? AppColors.success
-                      : locked
-                      ? AppColors.goldDeep
-                      : AppColors.canopy,
+                _PlanTaskIcon(
+                  icon: task.completed
+                      ? Icons.check_circle_rounded
+                      : visual.icon,
+                  color: task.completed ? AppColors.success : visual.color,
+                  dimmed: locked,
                 ),
                 const SizedBox(width: 12),
                 Expanded(
@@ -245,21 +237,59 @@ class _PlanTaskTile extends StatelessWidget {
                   )
                 else ...[
                   FeatureAccessBadge(level: access, limitedLabel: limitedLabel),
-                  if (!locked) ...[
-                    const SizedBox(width: 8),
-                    Text(
-                      'Empezar',
-                      style: theme.textTheme.labelLarge?.copyWith(
-                        color: AppColors.canopy,
-                      ),
-                    ),
-                  ],
+                  const SizedBox(width: 4),
+                  Icon(
+                    Icons.chevron_right,
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
                 ],
               ],
             ),
           ),
         ),
       ),
+    );
+  }
+}
+
+/// Mismos iconos y colores que «Más entrenamientos» en Inicio.
+({IconData icon, Color color}) _planTaskVisual(StudyTask task) {
+  if (task.mode == SessionMode.dailyStreak) {
+    return (icon: Icons.bolt_outlined, color: AppColors.goldDeep);
+  }
+  if (task.id == 'rector-block') {
+    return (icon: Icons.school_outlined, color: AppColors.inkSoft);
+  }
+  if (task.isCaseStudy) {
+    return (icon: Icons.groups_2_outlined, color: AppColors.skyLine);
+  }
+  if (task.mode == SessionMode.exam) {
+    return (icon: Icons.local_fire_department_outlined, color: AppColors.coral);
+  }
+  return (icon: Icons.menu_book_rounded, color: AppColors.canopy);
+}
+
+class _PlanTaskIcon extends StatelessWidget {
+  const _PlanTaskIcon({
+    required this.icon,
+    required this.color,
+    required this.dimmed,
+  });
+
+  final IconData icon;
+  final Color color;
+  final bool dimmed;
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 46,
+      height: 46,
+      decoration: BoxDecoration(
+        color: color.withValues(alpha: dimmed ? 0.08 : 0.14),
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: Icon(icon, color: dimmed ? color.withValues(alpha: 0.55) : color),
     );
   }
 }

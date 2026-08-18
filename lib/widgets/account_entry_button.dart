@@ -27,8 +27,9 @@ class AccountEntryButton extends StatelessWidget {
         anonymous ? Icons.person_add_alt_1_outlined : Icons.person_outline,
       ),
       label: Text(
-        anonymous ? 'Guardar cuenta' : 'Mi cuenta',
+        compact ? 'Cuenta' : (anonymous ? 'Guardar cuenta' : 'Mi cuenta'),
         overflow: TextOverflow.ellipsis,
+        maxLines: 1,
       ),
     );
   }

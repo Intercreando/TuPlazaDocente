@@ -47,9 +47,15 @@ class HomeScreen extends StatelessWidget {
                   Row(
                     children: [
                       const Expanded(child: BrandMark(compact: true)),
-                      const Flexible(child: AccountEntryButton(compact: true)),
+                      const AccountEntryButton(compact: true),
                       IconButton(
                         tooltip: 'Modo oscuro',
+                        visualDensity: VisualDensity.compact,
+                        padding: const EdgeInsets.all(8),
+                        constraints: const BoxConstraints(
+                          minWidth: 40,
+                          minHeight: 40,
+                        ),
                         onPressed: () => state.toggleDarkMode(),
                         icon: Icon(
                           isDark
