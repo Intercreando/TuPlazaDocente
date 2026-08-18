@@ -30,7 +30,6 @@ class _NewsScreenState extends State<NewsScreen> {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final isDark = theme.brightness == Brightness.dark;
-    final desktop = LayoutBreakpoints.isDesktop(context);
 
     return AtmosphericBackground(
       dark: isDark,
@@ -42,15 +41,6 @@ class _NewsScreenState extends State<NewsScreen> {
             ),
             child: Column(
               children: [
-                if (!desktop)
-                  AppBar(
-                    backgroundColor: Colors.transparent,
-                    title: const Text('Noticias'),
-                    leading: IconButton(
-                      icon: const Icon(Icons.arrow_back),
-                      onPressed: () => context.go('/app'),
-                    ),
-                  ),
                 Expanded(
                   child: FutureBuilder<List<NewsItem>>(
                     future: _future,
@@ -60,20 +50,28 @@ class _NewsScreenState extends State<NewsScreen> {
                       }
                       final items = snap.data ?? const <NewsItem>[];
                       if (items.isEmpty) {
-                        return Center(
-                          child: Text(
-                            'No hay avisos nuevos por ahora.',
-                            style: theme.textTheme.bodyLarge,
-                          ),
+                        return ListView(
+                          padding: LayoutBreakpoints.pagePadding(context),
+                          children: [
+                            Text(
+                              'Noticias',
+                              style: theme.textTheme.headlineSmall,
+                            ),
+                            const SizedBox(height: 12),
+                            Text(
+                              'No hay avisos nuevos por ahora.',
+                              style: theme.textTheme.bodyLarge,
+                            ),
+                          ],
                         );
                       }
                       return ListView.separated(
                         padding: LayoutBreakpoints.pagePadding(context),
-                        itemCount: items.length + (desktop ? 1 : 0),
+                        itemCount: items.length + 1,
                         separatorBuilder: (context, index) =>
                             const SizedBox(height: 12),
                         itemBuilder: (context, index) {
-                          if (desktop && index == 0) {
+                          if (index == 0) {
                             return Padding(
                               padding: const EdgeInsets.only(bottom: 8),
                               child: Text(
@@ -82,8 +80,7 @@ class _NewsScreenState extends State<NewsScreen> {
                               ),
                             );
                           }
-                          final item = items[desktop ? index - 1 : index];
-                          return _NewsListCard(item: item);
+                          return _NewsListCard(item: items[index - 1]);
                         },
                       );
                     },

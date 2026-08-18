@@ -11,10 +11,13 @@ class AppShell extends StatelessWidget {
 
   final StatefulNavigationShell navigationShell;
 
-  void _onTap(int index) {
+  /// Orden visual en móvil: Premium al final. Los índices son ramas del router.
+  static const _mobileBranchOrder = [0, 1, 2, 4, 3];
+
+  void _onTap(int branchIndex) {
     navigationShell.goBranch(
-      index,
-      initialLocation: index == navigationShell.currentIndex,
+      branchIndex,
+      initialLocation: branchIndex == navigationShell.currentIndex,
     );
   }
 
@@ -23,37 +26,42 @@ class AppShell extends StatelessWidget {
     final desktop = LayoutBreakpoints.isDesktop(context);
 
     if (!desktop) {
-      final onNews = navigationShell.currentIndex == 4;
+      final visualIndex = _mobileBranchOrder.indexOf(
+        navigationShell.currentIndex,
+      );
       return Scaffold(
         body: navigationShell,
-        bottomNavigationBar: onNews
-            ? null
-            : NavigationBar(
-                selectedIndex: navigationShell.currentIndex.clamp(0, 3),
-                onDestinationSelected: _onTap,
-                destinations: const [
-                  NavigationDestination(
-                    icon: Icon(Icons.home_outlined),
-                    selectedIcon: Icon(Icons.home_rounded),
-                    label: 'Inicio',
-                  ),
-                  NavigationDestination(
-                    icon: Icon(Icons.route_outlined),
-                    selectedIcon: Icon(Icons.route),
-                    label: 'Plan',
-                  ),
-                  NavigationDestination(
-                    icon: Icon(Icons.radar_outlined),
-                    selectedIcon: Icon(Icons.radar),
-                    label: 'Radar',
-                  ),
-                  NavigationDestination(
-                    icon: Icon(Icons.workspace_premium_outlined),
-                    selectedIcon: Icon(Icons.workspace_premium),
-                    label: 'Premium',
-                  ),
-                ],
-              ),
+        bottomNavigationBar: NavigationBar(
+          selectedIndex: visualIndex < 0 ? 0 : visualIndex,
+          onDestinationSelected: (index) => _onTap(_mobileBranchOrder[index]),
+          destinations: const [
+            NavigationDestination(
+              icon: Icon(Icons.home_outlined),
+              selectedIcon: Icon(Icons.home_rounded),
+              label: 'Inicio',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.route_outlined),
+              selectedIcon: Icon(Icons.route),
+              label: 'Plan',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.insights_outlined),
+              selectedIcon: Icon(Icons.insights),
+              label: 'Progreso',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.campaign_outlined),
+              selectedIcon: Icon(Icons.campaign_rounded),
+              label: 'Noticias',
+            ),
+            NavigationDestination(
+              icon: Icon(Icons.workspace_premium_outlined),
+              selectedIcon: Icon(Icons.workspace_premium),
+              label: 'Premium',
+            ),
+          ],
+        ),
       );
     }
 

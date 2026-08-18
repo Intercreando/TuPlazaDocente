@@ -104,7 +104,9 @@ class AnswerRecord {
   });
 
   final String questionId;
-  final int selectedIndex;
+
+  /// Índice marcado; `null` si se acabó el tiempo sin responder.
+  final int? selectedIndex;
   final bool correct;
   final int secondsSpent;
   final CompetencyPillar pillar;
@@ -127,6 +129,8 @@ class SessionResult {
 
   int get total => answers.length;
   int get correctCount => answers.where((a) => a.correct).length;
+  int get unansweredCount =>
+      answers.where((a) => a.selectedIndex == null).length;
   double get accuracy => total == 0 ? 0 : correctCount / total;
   int get totalSeconds => answers.fold(0, (sum, a) => sum + a.secondsSpent);
 }

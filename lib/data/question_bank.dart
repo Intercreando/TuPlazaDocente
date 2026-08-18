@@ -1,4 +1,5 @@
 import '../models/enums.dart';
+import '../models/knowledge_taxonomy.dart';
 import '../models/question.dart';
 import 'calibrated_bank.dart';
 import 'ciencias_brain_bank.dart';
@@ -14,23 +15,24 @@ abstract final class QuestionBank {
   static List<Question> _remote = const [];
 
   static List<Question> get _localBundle => [
-        ...GoldBrainBank.items,
-        ...RectorBrainBank.items,
-        ...DirectivoAptitudesBank.items,
-        ...CienciasBrainBank.items,
-        ...SocialesBrainBank.items,
-        ..._items,
-        ...ExtraQuestions.items,
-        ...SpecialtyQuestions.items,
-        ...CalibratedBank.items,
-      ];
+    ...GoldBrainBank.items,
+    ...RectorBrainBank.items,
+    ...DirectivoAptitudesBank.items,
+    ...CienciasBrainBank.items,
+    ...SocialesBrainBank.items,
+    ..._items,
+    ...ExtraQuestions.items,
+    ...SpecialtyQuestions.items,
+    ...CalibratedBank.items,
+  ];
 
   /// Preferencia: remoto/asset si existe; si no, bundle local.
   static List<Question> get all {
     if (_remote.isNotEmpty) {
       final localIds = _remote.map((q) => q.id).toSet();
-      final extras =
-          _localBundle.where((q) => !localIds.contains(q.id)).toList();
+      final extras = _localBundle
+          .where((q) => !localIds.contains(q.id))
+          .toList();
       return List.unmodifiable([..._remote, ...extras]);
     }
     return List.unmodifiable(_localBundle);
@@ -88,7 +90,9 @@ abstract final class QuestionBank {
   }
 
   static List<Question> bySpecialty(Especialidad specialty) {
-    final tagged = all.where((q) => q.specialtyTags.contains(specialty)).toList();
+    final tagged = all
+        .where((q) => q.specialtyTags.contains(specialty))
+        .toList();
     if (tagged.isNotEmpty) return tagged;
     return byPillar(CompetencyPillar.pedagogico);
   }
@@ -104,6 +108,7 @@ abstract final class QuestionBank {
     bool casesOnly = false,
     int? difficultyLevel,
     int? minDifficultyLevel,
+    KnowledgeCode? knowledgeCode,
   }) {
     if (mode == SessionMode.dailyStreak) return dailySet();
     if (mode == SessionMode.diagnostic) {
@@ -121,10 +126,10 @@ abstract final class QuestionBank {
     var source = casesOnly
         ? caseStudies()
         : specialty != null
-            ? bySpecialty(specialty)
-            : pillar == null
-                ? all
-                : byPillar(pillar);
+        ? bySpecialty(specialty)
+        : pillar == null
+        ? all
+        : byPillar(pillar);
 
     // Casos de aula con perfil de gestión: prioriza escenarios directivos/rectoría.
     if (casesOnly && specialty != null) {
@@ -134,16 +139,65 @@ abstract final class QuestionBank {
       if (focused.isNotEmpty) source = focused;
     }
 
-    if (difficultyLevel != null) {
-      source = source.where((q) => q.dificultad == difficultyLevel).toList();
-    } else if (minDifficultyLevel != null) {
-      source =
-          source.where((q) => q.dificultad >= minDifficultyLevel).toList();
+    if (knowledgeCode != null) {
+      final tagged = source
+          .where((q) => q.knowledgeTags.any((tag) => tag.code == knowledgeCode))
+          .toList();
+      if (tagged.isNotEmpty) {
+        source = tagged;
+      } else {
+        final fromAll = all
+            .where(
+              (q) => q.knowledgeTags.any((tag) => tag.code == knowledgeCode),
+            )
+            .toList();
+        if (fromAll.isNotEmpty) source = fromAll;
+      }
     }
 
-    if (source.isEmpty) source = all;
+    if (difficultyLevel != null) {
+      final exact = source
+          .where((q) => q.dificultad == difficultyLevel)
+          .toList();
+      if (exact.isNotEmpty) {
+        source = exact;
+      } else {
+        source = _preferHardest(source, minLevel: difficultyLevel);
+      }
+    } else if (minDifficultyLevel != null) {
+      source = _preferHardest(source, minLevel: minDifficultyLevel);
+    }
+
+    if (source.isEmpty) {
+      source = minDifficultyLevel != null || difficultyLevel != null
+          ? _preferHardest(
+              all,
+              minLevel: minDifficultyLevel ?? difficultyLevel ?? 3,
+            )
+          : all;
+    }
     final shuffled = [...source]..shuffle();
     return shuffled.take(count.clamp(1, shuffled.length)).toList();
+  }
+
+  /// Prioriza nivel 3; si no alcanza, llena con nivel 2. Nunca con rápidas (1).
+  static List<Question> _preferHardest(
+    List<Question> pool, {
+    required int minLevel,
+  }) {
+    if (pool.isEmpty) return pool;
+    final hard = pool.where((q) => q.dificultad >= minLevel).toList();
+    if (hard.isNotEmpty) return hard;
+
+    final floor = minLevel > 2 ? 2 : minLevel;
+    final mid = pool.where((q) => q.dificultad >= floor).toList();
+    if (mid.isNotEmpty) return mid;
+
+    var maxLevel = 0;
+    for (final q in pool) {
+      if (q.dificultad > maxLevel) maxLevel = q.dificultad;
+    }
+    return pool.where((q) => q.dificultad == maxLevel).toList();
   }
 
   static final List<Question> _items = [
@@ -212,7 +266,8 @@ abstract final class QuestionBank {
           'Si hay 36 docentes, ¿cuántos estudiantes hay?',
       options: ['864', '980', '1008', '1120'],
       correctIndex: 2,
-      explanation: '28 × 36 = 1008. Multiplica el término de la razón por la cantidad dada.',
+      explanation:
+          '28 × 36 = 1008. Multiplica el término de la razón por la cantidad dada.',
       difficulty: QuestionDifficulty.basico,
     ),
 
@@ -337,8 +392,7 @@ abstract final class QuestionBank {
       id: 'ped-02',
       pillar: CompetencyPillar.pedagogico,
       topic: 'PEI',
-      stem:
-          'Según la Ley 115, el Proyecto Educativo Institucional debe:',
+      stem: 'Según la Ley 115, el Proyecto Educativo Institucional debe:',
       options: [
         'Ser un documento exclusivo de la secretaría de educación',
         'Orientar la identidad, objetivos y organización de la institución con participación de la comunidad',
@@ -396,8 +450,7 @@ abstract final class QuestionBank {
       id: 'ped-05',
       pillar: CompetencyPillar.pedagogico,
       topic: 'Currículo',
-      stem:
-          'La coherencia vertical del currículo se evidencia cuando:',
+      stem: 'La coherencia vertical del currículo se evidencia cuando:',
       options: [
         'Cada grado ignora los aprendizajes previos',
         'Los aprendizajes se articulan progresivamente entre grados y ciclos',

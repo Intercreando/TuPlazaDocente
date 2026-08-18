@@ -1,13 +1,13 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../config/app_config.dart';
 import '../config/paid_funnel.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../utils/premium_nav.dart';
 
 /// Banner no bloqueante: oferta 24 h real para cuentas de pauta.
 class WelcomeOfferBanner extends StatefulWidget {
@@ -57,7 +57,7 @@ class _WelcomeOfferBannerState extends State<WelcomeOfferBanner> {
       color: AppColors.gold.withValues(alpha: 0.14),
       borderRadius: BorderRadius.circular(14),
       child: InkWell(
-        onTap: () => context.push('/premium'),
+        onTap: () => openPremium(context),
         borderRadius: BorderRadius.circular(14),
         child: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 12),

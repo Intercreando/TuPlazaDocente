@@ -7,9 +7,14 @@ import '../theme/app_colors.dart';
 
 /// Radar visual de los 4 pilares de competencia.
 class CompetencyRadar extends StatelessWidget {
-  const CompetencyRadar({super.key, required this.profile});
+  const CompetencyRadar({
+    super.key,
+    required this.profile,
+    this.onPracticeWeakest,
+  });
 
   final UserProfile profile;
+  final VoidCallback? onPracticeWeakest;
 
   @override
   Widget build(BuildContext context) {
@@ -19,22 +24,20 @@ class CompetencyRadar extends StatelessWidget {
         .toList();
 
     // Si no hay datos, muestra silueta base para no dejar vacío.
-    final hasData = CompetencyPillar.values
-        .any((p) => (profile.pillarTotal[p.name] ?? 0) > 0);
+    final hasData = CompetencyPillar.values.any(
+      (p) => (profile.pillarTotal[p.name] ?? 0) > 0,
+    );
     final chartValues = hasData ? values : [35.0, 40.0, 28.0, 32.0];
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('Radar de Competencias', style: theme.textTheme.titleLarge),
+        Text('Cómo vas en cada pilar', style: theme.textTheme.titleLarge),
         const SizedBox(height: 6),
-        Text(
-          hasData
-              ? profile.weakestPillarLabel.isNotEmpty
-                  ? 'Enfócate hoy en: ${profile.weakestPillarLabel}'
-                  : 'Tu mapa de fortalezas y talones de Aquiles'
-              : 'Vista previa: completa el reto diario para calibrar tu radar',
-          style: theme.textTheme.bodyMedium,
+        _RadarHint(
+          hasData: hasData,
+          weakestLabel: profile.weakestPillarLabel,
+          onPracticeWeakest: onPracticeWeakest,
         ),
         const SizedBox(height: 16),
         SizedBox(
@@ -60,7 +63,12 @@ class CompetencyRadar extends StatelessWidget {
               titlePositionPercentageOffset: 0.18,
               titleTextStyle: theme.textTheme.labelMedium,
               getTitle: (index, _) {
-                final labels = ['Numérica', 'Lectura', 'Pedagógico', 'Comport.'];
+                final labels = [
+                  'Numérica',
+                  'Lectura',
+                  'Pedagógico',
+                  'Comport.',
+                ];
                 return RadarChartTitle(text: labels[index]);
               },
               tickCount: 4,
@@ -75,6 +83,56 @@ class CompetencyRadar extends StatelessWidget {
           ),
         ),
       ],
+    );
+  }
+}
+
+class _RadarHint extends StatelessWidget {
+  const _RadarHint({
+    required this.hasData,
+    required this.weakestLabel,
+    this.onPracticeWeakest,
+  });
+
+  final bool hasData;
+  final String weakestLabel;
+  final VoidCallback? onPracticeWeakest;
+
+  @override
+  Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    if (!hasData) {
+      return Text(
+        'Completa las 5 del día para ver cómo vas',
+        style: theme.textTheme.bodyMedium,
+      );
+    }
+    if (weakestLabel.isEmpty || onPracticeWeakest == null) {
+      return Text(
+        'Así se ven tus fortalezas y lo que falta',
+        style: theme.textTheme.bodyMedium,
+      );
+    }
+    return InkWell(
+      onTap: onPracticeWeakest,
+      borderRadius: BorderRadius.circular(8),
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 4),
+        child: Row(
+          children: [
+            Expanded(
+              child: Text(
+                'Hoy conviene reforzar: $weakestLabel. Toca para practicar.',
+                style: theme.textTheme.bodyMedium,
+              ),
+            ),
+            Icon(
+              Icons.chevron_right,
+              color: theme.colorScheme.onSurfaceVariant,
+            ),
+          ],
+        ),
+      ),
     );
   }
 }

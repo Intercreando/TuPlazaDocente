@@ -34,13 +34,6 @@ class AppDesktopSidebar extends StatelessWidget {
         branch: 0,
       ),
       const _SidebarItemData(
-        icon: Icons.campaign_outlined,
-        selectedIcon: Icons.campaign_rounded,
-        label: 'Noticias',
-        caption: 'Convocatoria',
-        branch: 4,
-      ),
-      const _SidebarItemData(
         icon: Icons.route_outlined,
         selectedIcon: Icons.route_rounded,
         label: 'Plan',
@@ -48,11 +41,18 @@ class AppDesktopSidebar extends StatelessWidget {
         branch: 1,
       ),
       const _SidebarItemData(
-        icon: Icons.radar_outlined,
-        selectedIcon: Icons.radar_rounded,
-        label: 'Radar',
-        caption: 'Tu progreso',
+        icon: Icons.insights_outlined,
+        selectedIcon: Icons.insights_rounded,
+        label: 'Progreso',
+        caption: 'Cómo vas',
         branch: 2,
+      ),
+      const _SidebarItemData(
+        icon: Icons.campaign_outlined,
+        selectedIcon: Icons.campaign_rounded,
+        label: 'Noticias',
+        caption: 'Convocatoria',
+        branch: 4,
       ),
       _SidebarItemData(
         icon: Icons.workspace_premium_outlined,
@@ -234,18 +234,20 @@ class _SidebarNavButton extends StatelessWidget {
     final accent = data.accent;
     final bg = selected
         ? (accent
-            ? AppColors.gold.withValues(alpha: 0.22)
-            : AppColors.seafoam.withValues(alpha: 0.2))
+              ? AppColors.gold.withValues(alpha: 0.22)
+              : AppColors.seafoam.withValues(alpha: 0.2))
         : AppColors.white.withValues(alpha: 0.04);
     final border = selected
         ? (accent
-            ? AppColors.gold.withValues(alpha: 0.7)
-            : AppColors.seafoam.withValues(alpha: 0.55))
+              ? AppColors.gold.withValues(alpha: 0.7)
+              : AppColors.seafoam.withValues(alpha: 0.55))
         : AppColors.white.withValues(alpha: 0.08);
     final iconColor = selected
         ? (accent ? AppColors.gold : AppColors.seafoam)
         : AppColors.white.withValues(alpha: 0.72);
-    final titleColor = selected ? AppColors.white : AppColors.white.withValues(alpha: 0.88);
+    final titleColor = selected
+        ? AppColors.white
+        : AppColors.white.withValues(alpha: 0.88);
 
     return Material(
       color: Colors.transparent,

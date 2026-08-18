@@ -44,7 +44,8 @@ class DiagnosticGateScreen extends StatelessWidget {
     final theme = Theme.of(context);
     final state = context.watch<AppState>();
     final isDark = theme.brightness == Brightness.dark;
-    final resume = state.currentMode == SessionMode.diagnostic &&
+    final resume =
+        state.currentMode == SessionMode.diagnostic &&
         state.currentQuestion != null;
 
     return Scaffold(
@@ -66,8 +67,8 @@ class DiagnosticGateScreen extends StatelessWidget {
                     const SizedBox(height: 10),
                     Text(
                       'Es un diagnóstico de 20 preguntas (gratis). '
-                      'Al terminar verás tu mapa de maestría real: no inventamos fallas. '
-                      'El Examen Real cronometrado queda en Premium.',
+                      'Al terminar verás cómo vas en cada tema, según lo que respondiste: '
+                      'no inventamos fallas. El simulacro con tiempo queda en Premium.',
                       style: theme.textTheme.bodyLarge,
                     ),
                     const SizedBox(height: 28),
@@ -81,7 +82,7 @@ class DiagnosticGateScreen extends StatelessWidget {
                     ),
                     const SizedBox(height: 10),
                     Text(
-                      'Luego puedes usar el reto diario y el reto rápido sin pagar.',
+                      'Luego puedes usar las 5 del día y las preguntas cortas sin pagar.',
                       style: theme.textTheme.bodySmall?.copyWith(
                         color: isDark
                             ? AppColors.darkTextSecondary

@@ -181,7 +181,7 @@ abstract final class TagMasteryService {
   static String recommendationMessage(UserProfile profile) {
     final row = recommendedToday(profile);
     if (row == null) {
-      return 'Completa tu reto diario para activar el Mapa de Maestría.';
+      return 'Completa las 5 del día para ver en qué temas vas.';
     }
     if (row.level == MasteryLevel.sinDatos) {
       return '${row.headline}: aún sin evidencias — te recomendamos practicar este dominio hoy.';
@@ -194,7 +194,7 @@ abstract final class TagMasteryService {
       return '${row.headline}: ${row.level.label} '
           '(${row.accuracyPercent}% aciertos) — un bloque enfocado hoy te acerca a Profesional.';
     }
-    return 'Vas sólido en normas y teorías. Mantén el ritmo con un bloque mixto del cerebro pedagógico.';
+    return 'Vas bien en los temas medidos. Sigue con un bloque mixto para no perder el ritmo.';
   }
 
   /// Texto del paywall post-diagnóstico: solo etiquetas con evidencia real.
@@ -209,11 +209,11 @@ abstract final class TagMasteryService {
         .take(3)
         .toList();
     if (weak.isEmpty) {
-      return 'Tu diagnóstico salió sólido en los dominios que alcanzamos a medir. '
-          'Premium te deja simular sin tope y seguir subiendo el mapa.';
+      return 'Tu diagnóstico salió sólido en los temas que alcanzamos a medir. '
+          'Premium te deja practicar sin tope y seguir subiendo.';
     }
     final names = weak.map((row) => row.headline).join(', ');
-    return 'En tu diagnóstico el mapa muestra huecos reales en: $names. '
-        'Premium abre práctica ilimitada y el simulacro cronometrado para corregirlos.';
+    return 'En tu diagnóstico hay huecos reales en: $names. '
+        'Premium abre práctica ilimitada y el simulacro con tiempo para corregirlos.';
   }
 }

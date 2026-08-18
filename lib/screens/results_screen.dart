@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
+import '../models/question.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 
@@ -52,17 +53,20 @@ class ResultsScreen extends StatelessWidget {
                   children: [
                     Text(
                       'Precisión',
-                      style: theme.textTheme.labelLarge?.copyWith(color: AppColors.gold),
+                      style: theme.textTheme.labelLarge?.copyWith(
+                        color: AppColors.gold,
+                      ),
                     ),
                     const SizedBox(height: 6),
                     Text(
                       '$accuracy%',
-                      style: theme.textTheme.displaySmall?.copyWith(color: AppColors.white),
+                      style: theme.textTheme.displaySmall?.copyWith(
+                        color: AppColors.white,
+                      ),
                     ),
                     const SizedBox(height: 4),
                     Text(
-                      '${result.correctCount} de ${result.total} correctas · '
-                      '${result.totalSeconds ~/ 60}m ${result.totalSeconds % 60}s',
+                      _resultsSummary(result),
                       style: theme.textTheme.bodyMedium?.copyWith(
                         color: AppColors.white.withValues(alpha: 0.85),
                       ),
@@ -74,7 +78,10 @@ class ResultsScreen extends StatelessWidget {
               Text(state.studyFocusMessage(), style: theme.textTheme.bodyLarge),
               if (isExam) ...[
                 const SizedBox(height: 22),
-                Text('Mapa de calor de tiempo', style: theme.textTheme.titleLarge),
+                Text(
+                  'Mapa de calor de tiempo',
+                  style: theme.textTheme.titleLarge,
+                ),
                 const SizedBox(height: 6),
                 Text(
                   'Rojo = perdiste demasiado tiempo (≥90s). Verde = ritmo saludable.',
@@ -90,6 +97,7 @@ class ResultsScreen extends StatelessWidget {
                         index: i + 1,
                         seconds: result.answers[i].secondsSpent,
                         correct: result.answers[i].correct,
+                        unanswered: result.answers[i].selectedIndex == null,
                       ),
                   ],
                 ),
@@ -100,11 +108,20 @@ class ResultsScreen extends StatelessWidget {
                   return ListTile(
                     contentPadding: EdgeInsets.zero,
                     leading: CircleAvatar(
-                      backgroundColor: _heatColor(a.secondsSpent).withValues(alpha: 0.2),
-                      child: Text('${i + 1}', style: theme.textTheme.labelLarge),
+                      backgroundColor: _heatColor(
+                        a.secondsSpent,
+                      ).withValues(alpha: 0.2),
+                      child: Text(
+                        '${i + 1}',
+                        style: theme.textTheme.labelLarge,
+                      ),
                     ),
                     title: Text(
-                      a.correct ? 'Correcta · ${a.pillar.label}' : 'Incorrecta · ${a.pillar.label}',
+                      a.selectedIndex == null
+                          ? 'Sin respuesta · ${a.pillar.label}'
+                          : a.correct
+                          ? 'Correcta · ${a.pillar.label}'
+                          : 'Incorrecta · ${a.pillar.label}',
                       style: theme.textTheme.titleSmall,
                     ),
                     subtitle: Text(
@@ -130,7 +147,7 @@ class ResultsScreen extends StatelessWidget {
                   result.mode == SessionMode.diagnostic &&
                           state.isPaidCohort &&
                           !state.profile.isPremium
-                      ? 'Ver tu mapa de maestría'
+                      ? 'Ver cómo vas'
                       : 'Volver al inicio',
                 ),
               ),
@@ -140,13 +157,23 @@ class ResultsScreen extends StatelessWidget {
                   state.clearSession();
                   context.go('/app/radar');
                 },
-                child: const Text('Ver radar de competencias'),
+                child: const Text('Ver tu progreso'),
               ),
             ],
           ),
         ),
       ),
     );
+  }
+
+  static String _resultsSummary(SessionResult result) {
+    final time = '${result.totalSeconds ~/ 60}m ${result.totalSeconds % 60}s';
+    final unanswered = result.unansweredCount;
+    if (unanswered <= 0) {
+      return '${result.correctCount} de ${result.total} correctas · $time';
+    }
+    return '${result.correctCount} de ${result.total} correctas · '
+        '$unanswered sin respuesta · $time';
   }
 
   static Color _heatColor(int seconds) {
@@ -161,11 +188,13 @@ class _HeatCell extends StatelessWidget {
     required this.index,
     required this.seconds,
     required this.correct,
+    required this.unanswered,
   });
 
   final int index;
   final int seconds;
   final bool correct;
+  final bool unanswered;
 
   @override
   Widget build(BuildContext context) {
@@ -184,7 +213,7 @@ class _HeatCell extends StatelessWidget {
           Text('Q$index', style: Theme.of(context).textTheme.labelMedium),
           Text('${seconds}s', style: Theme.of(context).textTheme.labelLarge),
           Icon(
-            correct ? Icons.check : Icons.close,
+            unanswered ? Icons.remove : (correct ? Icons.check : Icons.close),
             size: 14,
             color: color,
           ),

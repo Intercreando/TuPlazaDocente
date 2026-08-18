@@ -7,6 +7,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
 import '../utils/paid_traffic.dart';
+import 'account_entry_button.dart';
 import 'brand_mark.dart';
 
 /// Header de marketing para la landing (escritorio).
@@ -21,8 +22,9 @@ class LandingHeader extends StatelessWidget {
 
     return DecoratedBox(
       decoration: BoxDecoration(
-        color: (isDark ? AppColors.darkBg : AppColors.parchment)
-            .withValues(alpha: 0.92),
+        color: (isDark ? AppColors.darkBg : AppColors.parchment).withValues(
+          alpha: 0.92,
+        ),
         border: Border(
           bottom: BorderSide(
             color: isDark ? AppColors.darkStroke : AppColors.stroke,
@@ -106,20 +108,9 @@ class AppDesktopTopBar extends StatelessWidget {
             if (!state.isAnonymousUser && state.authEmail != null)
               Padding(
                 padding: const EdgeInsets.only(right: 8),
-                child: Text(
-                  state.authEmail!,
-                  style: theme.textTheme.bodySmall,
-                ),
+                child: Text(state.authEmail!, style: theme.textTheme.bodySmall),
               ),
-            IconButton(
-              tooltip: state.isAnonymousUser ? 'Guardar cuenta' : 'Cuenta',
-              onPressed: () => context.push('/auth'),
-              icon: Icon(
-                state.isAnonymousUser
-                    ? Icons.person_add_alt_1_outlined
-                    : Icons.person_outline,
-              ),
-            ),
+            const AccountEntryButton(),
             IconButton(
               tooltip: 'Modo oscuro',
               onPressed: () => state.toggleDarkMode(),

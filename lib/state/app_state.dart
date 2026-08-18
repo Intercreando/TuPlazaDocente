@@ -10,6 +10,7 @@ import '../models/enums.dart';
 import '../models/question.dart';
 import '../models/study_plan.dart';
 import '../models/user_profile.dart';
+import '../models/knowledge_taxonomy.dart';
 import '../services/device_session_service.dart';
 import '../services/firebase_sync_service.dart';
 import '../services/payment_service.dart';
@@ -33,18 +34,19 @@ class AppState extends ChangeNotifier {
     QuestionRepository? questionRepository,
     DeviceSessionService? deviceSessionService,
     PaidAcquisitionService? paidAcquisitionService,
-  })  : _sync = syncService ?? FirebaseSyncService(),
-        _payments = paymentService ?? PaymentService(),
-        _notifications = notificationService ?? StreakNotificationService(),
-        _questions = questionRepository ?? QuestionRepository(),
-        _devices = deviceSessionService ?? DeviceSessionService(),
-        _paidAcquisition = paidAcquisitionService ?? PaidAcquisitionService();
+  }) : _sync = syncService ?? FirebaseSyncService(),
+       _payments = paymentService ?? PaymentService(),
+       _notifications = notificationService ?? StreakNotificationService(),
+       _questions = questionRepository ?? QuestionRepository(),
+       _devices = deviceSessionService ?? DeviceSessionService(),
+       _paidAcquisition = paidAcquisitionService ?? PaidAcquisitionService();
 
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const _checkoutAmountKey = 'pending_checkout_amount_cop';
   static const _checkoutTxKey = 'pending_checkout_transaction_id';
   static const freeDailyLimit = 5;
   static const freeMonthlyShortExams = 1;
+
   /// Sesiones de práctica libre (además del reto diario) permitidas por día en Gratis.
   static const freePracticeSessionsPerDay = 1;
 
@@ -85,10 +87,10 @@ class AppState extends ChangeNotifier {
       currentQuestions.isEmpty ? null : currentQuestions[currentIndex];
 
   bool get canStartShortExam => PaidFunnel.canStartShortExam(
-        profile: profile,
-        monthlyShortExamsUsed: monthlyShortExamsUsed,
-        freeMonthlyShortExams: freeMonthlyShortExams,
-      );
+    profile: profile,
+    monthlyShortExamsUsed: monthlyShortExamsUsed,
+    freeMonthlyShortExams: freeMonthlyShortExams,
+  );
 
   bool get isPaidCohort => PaidFunnel.isCohort(profile);
 
@@ -96,10 +98,8 @@ class AppState extends ChangeNotifier {
 
   bool get welcomeOfferActive => PaidFunnel.welcomeOfferActive(profile);
 
-  int get displayedPremiumPriceCop => PaidFunnel.priceCop(
-        profile,
-        promoPercent: pendingDiscountPercent,
-      );
+  int get displayedPremiumPriceCop =>
+      PaidFunnel.priceCop(profile, promoPercent: pendingDiscountPercent);
 
   bool get canStartFreePractice =>
       profile.isPremium ||
@@ -117,7 +117,8 @@ class AppState extends ChangeNotifier {
   DailyStudyPlan get todayPlan {
     final base = StudyPlanService.buildFor(profile);
     final today = DateTime.now();
-    final sameDay = profile.planTaskDate != null &&
+    final sameDay =
+        profile.planTaskDate != null &&
         profile.planTaskDate!.year == today.year &&
         profile.planTaskDate!.month == today.month &&
         profile.planTaskDate!.day == today.day;
@@ -141,9 +142,7 @@ class AppState extends ChangeNotifier {
       );
       final raw = prefs.getString(_storageKey);
       if (raw != null) {
-        profile = UserProfile.fromJson(
-          jsonDecode(raw) as Map<String, dynamic>,
-        );
+        profile = UserProfile.fromJson(jsonDecode(raw) as Map<String, dynamic>);
         _refreshDailyFlags();
       }
       monthlyShortExamsUsed = prefs.getInt('monthly_short_exams') ?? 0;
@@ -159,9 +158,9 @@ class AppState extends ChangeNotifier {
       try {
         await _sync.ensureSignedIn().timeout(const Duration(seconds: 8));
         if (_sync.available) {
-          final remote = await _sync
-              .loadRemoteProfile()
-              .timeout(const Duration(seconds: 8));
+          final remote = await _sync.loadRemoteProfile().timeout(
+            const Duration(seconds: 8),
+          );
           if (remote != null && remote.totalAnswers >= profile.totalAnswers) {
             profile = remote;
             _refreshDailyFlags();
@@ -178,7 +177,8 @@ class AppState extends ChangeNotifier {
               ? 'Sesión invitado (nube). Guarda tu cuenta para no perder progreso.'
               : 'Cuenta conectada · progreso en la nube';
         } else {
-          syncStatus = _sync.lastError ??
+          syncStatus =
+              _sync.lastError ??
               'Modo local: activa Auth anónimo en Firebase para sincronizar.';
         }
       } catch (e) {
@@ -243,7 +243,8 @@ class AppState extends ChangeNotifier {
   Future<void> _evictForDeviceLimit(String? message) async {
     _deviceHeartbeat?.cancel();
     _deviceHeartbeat = null;
-    final detail = message ??
+    final detail =
+        message ??
         'Esta cuenta Premium ya está activa en '
             '${AppConfig.maxPremiumDevices} dispositivos. '
             'Cerramos la sesión aquí.';
@@ -292,7 +293,8 @@ class AppState extends ChangeNotifier {
     final today = DateTime.now();
     final last = profile.lastStreakDate;
     if (last != null) {
-      final sameDay = last.year == today.year &&
+      final sameDay =
+          last.year == today.year &&
           last.month == today.month &&
           last.day == today.day;
       if (!sameDay) {
@@ -302,7 +304,8 @@ class AppState extends ChangeNotifier {
 
     final planDate = profile.planTaskDate;
     if (planDate != null) {
-      final samePlanDay = planDate.year == today.year &&
+      final samePlanDay =
+          planDate.year == today.year &&
           planDate.month == today.month &&
           planDate.day == today.day;
       if (!samePlanDay) {
@@ -413,15 +416,13 @@ class AppState extends ChangeNotifier {
   }
 
   /// Descuento promocional pendiente (Wompi).
-  int? get pendingDiscountPercent =>
-      lastPromoRedeem?.isDiscount == true
-          ? lastPromoRedeem!.discountPercent
-          : _sync.pendingDiscountPercent;
+  int? get pendingDiscountPercent => lastPromoRedeem?.isDiscount == true
+      ? lastPromoRedeem!.discountPercent
+      : _sync.pendingDiscountPercent;
 
-  String? get pendingDiscountCode =>
-      lastPromoRedeem?.isDiscount == true
-          ? lastPromoRedeem!.code
-          : _sync.pendingDiscountCode;
+  String? get pendingDiscountCode => lastPromoRedeem?.isDiscount == true
+      ? lastPromoRedeem!.code
+      : _sync.pendingDiscountCode;
 
   /// Último canje de código (para mostrar descuento en Premium).
   PromoRedeemResult? lastPromoRedeem;
@@ -464,7 +465,8 @@ class AppState extends ChangeNotifier {
   }
 
   /// Lee y limpia el monto pendiente de checkout; fallback al precio de lista.
-  Future<({double value, String? transactionId})> takeCheckoutPurchaseValue() async {
+  Future<({double value, String? transactionId})>
+  takeCheckoutPurchaseValue() async {
     try {
       final prefs = await SharedPreferences.getInstance();
       final stored = prefs.getDouble(_checkoutAmountKey);
@@ -722,12 +724,13 @@ class AppState extends ChangeNotifier {
     String? planTaskId,
     int? difficultyLevel,
     int? minDifficultyLevel,
+    KnowledgeCode? knowledgeCode,
   }) {
     _refreshQuotaFlags();
 
     if (mode == SessionMode.exam && !canStartShortExam) {
       lastError = profile.acquiredViaPaid
-          ? 'El simulacro cronometrado (Examen Real) es Premium en cuentas de campaña. El diagnóstico y el reto diario siguen disponibles.'
+          ? 'El simulacro con tiempo es Premium en cuentas de campaña. El diagnóstico y las 5 del día siguen disponibles.'
           : 'Ya usaste tu simulacro gratis del mes. Activa Premium para continuar.';
       notifyListeners();
       return false;
@@ -736,7 +739,7 @@ class AppState extends ChangeNotifier {
     if (!profile.isPremium) {
       if (casesOnly) {
         lastError =
-            'Casos de Aula es Premium. En Gratis tienes el reto diario y 1 práctica al día.';
+            'Los casos del colegio son Premium. En Gratis: las 5 del día y 1 práctica.';
         notifyListeners();
         return false;
       }
@@ -746,9 +749,8 @@ class AppState extends ChangeNotifier {
         notifyListeners();
         return false;
       }
-      final countsAsFreePractice = mode == SessionMode.practice &&
-          !casesOnly &&
-          specialty == null;
+      final countsAsFreePractice =
+          mode == SessionMode.practice && !casesOnly && specialty == null;
       if (countsAsFreePractice && !canStartFreePractice) {
         lastError =
             'Ya usaste tu práctica gratis de hoy. Mañana se reinicia, o activa Premium para practicar sin límite.';
@@ -757,12 +759,14 @@ class AppState extends ChangeNotifier {
       }
     }
 
-    final resolvedSpecialty = specialty ??
+    final resolvedSpecialty =
+        specialty ??
         _specialtyForSession(mode, pillar: pillar, casesOnly: casesOnly);
 
     // En Gratis, la especialidad automática del cargo no debe saltarse el paywall.
-    final effectiveSpecialty =
-        profile.isPremium ? resolvedSpecialty : specialty;
+    final effectiveSpecialty = profile.isPremium
+        ? resolvedSpecialty
+        : specialty;
 
     currentQuestions = QuestionBank.forSession(
       mode: mode,
@@ -771,11 +775,12 @@ class AppState extends ChangeNotifier {
       count: mode == SessionMode.dailyStreak
           ? freeDailyLimit
           : mode == SessionMode.speedBattle
-              ? 30
-              : count,
+          ? 30
+          : count,
       casesOnly: casesOnly,
       difficultyLevel: difficultyLevel,
       minDifficultyLevel: minDifficultyLevel,
+      knowledgeCode: knowledgeCode,
     );
     currentMode = mode;
     currentIndex = 0;
@@ -850,12 +855,21 @@ class AppState extends ChangeNotifier {
   }
 
   bool startPlanTask(StudyTask task) {
+    if (!profile.isPremium &&
+        task.mode == SessionMode.exam &&
+        (task.minDifficultyLevel ?? 0) >= 3) {
+      lastError =
+          'Alta exigencia es Premium. En Gratis: las 5 del día y 1 práctica.';
+      notifyListeners();
+      return false;
+    }
     return startSession(
       mode: task.mode,
-      pillar: task.isCaseStudy ? null : task.pillar,
+      pillar: task.isCaseStudy || task.mixPillars ? null : task.pillar,
       count: task.questionCount,
       casesOnly: task.isCaseStudy,
       planTaskId: task.id,
+      minDifficultyLevel: task.minDifficultyLevel,
     );
   }
 
@@ -871,14 +885,15 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<bool> submitAndAdvance({bool forceExamReveal = false}) async {
+  Future<bool> submitAndAdvance({bool allowUnanswered = false}) async {
     final question = currentQuestion;
     final selected = selectedOption;
-    if (question == null || selected == null) return false;
+    if (question == null) return false;
+    if (selected == null && !allowUnanswered) return false;
 
     final started = questionStartedAt ?? DateTime.now();
     final seconds = DateTime.now().difference(started).inSeconds.clamp(1, 600);
-    final correct = question.isCorrect(selected);
+    final correct = selected != null && question.isCorrect(selected);
 
     currentAnswers.add(
       AnswerRecord(
@@ -918,8 +933,10 @@ class AppState extends ChangeNotifier {
 
     final mastery = Map<String, double>.from(profile.topicMastery);
     final prev = mastery[question.topic] ?? 0.45;
-    mastery[question.topic] =
-        (prev + (correct ? 0.08 : -0.06)).clamp(0.05, 0.98);
+    mastery[question.topic] = (prev + (correct ? 0.08 : -0.06)).clamp(
+      0.05,
+      0.98,
+    );
 
     // Mapa de Maestría por etiquetas del cerebro (norma / teoría / referente).
     final tagCorrect = Map<String, int>.from(profile.tagCorrect);
@@ -971,20 +988,16 @@ class AppState extends ChangeNotifier {
 
   void _markPlanTaskDone(String taskId) {
     final today = DateTime.now();
-    final sameDay = profile.planTaskDate != null &&
+    final sameDay =
+        profile.planTaskDate != null &&
         profile.planTaskDate!.year == today.year &&
         profile.planTaskDate!.month == today.month &&
         profile.planTaskDate!.day == today.day;
-    final ids = sameDay
-        ? [...profile.completedPlanTaskIds]
-        : <String>[];
+    final ids = sameDay ? [...profile.completedPlanTaskIds] : <String>[];
     if (!ids.contains(taskId)) {
       ids.add(taskId);
     }
-    profile = profile.copyWith(
-      completedPlanTaskIds: ids,
-      planTaskDate: today,
-    );
+    profile = profile.copyWith(completedPlanTaskIds: ids, planTaskDate: today);
   }
 
   Future<void> _registerStreak() async {
@@ -995,9 +1008,11 @@ class AppState extends ChangeNotifier {
     if (last == null) {
       streak = 1;
     } else {
-      final diff = DateTime(today.year, today.month, today.day)
-          .difference(DateTime(last.year, last.month, last.day))
-          .inDays;
+      final diff = DateTime(
+        today.year,
+        today.month,
+        today.day,
+      ).difference(DateTime(last.year, last.month, last.day)).inDays;
       if (diff == 0) {
         // Ya contó hoy.
       } else if (diff == 1) {
@@ -1038,16 +1053,16 @@ class AppState extends ChangeNotifier {
     }
     final weak = profile.weakestPillarLabel;
     final numerica =
-        (profile.pillarAccuracy(CompetencyPillar.aptitudNumerica) * 100).round();
+        (profile.pillarAccuracy(CompetencyPillar.aptitudNumerica) * 100)
+            .round();
     final pedagogico =
         (profile.pillarAccuracy(CompetencyPillar.pedagogico) * 100).round();
     if ((profile.pillarTotal[CompetencyPillar.pedagogico.name] ?? 0) == 0 &&
         (profile.pillarTotal[CompetencyPillar.aptitudNumerica.name] ?? 0) ==
             0) {
-      return 'Completa tu reto diario para activar el Mapa de Maestría por normas y teorías.';
+      return 'Completa las 5 del día para ver en qué temas vas.';
     }
     return 'Tu Aptitud Numérica está al $numerica%, pero tu $weak '
         'necesita foco hoy (Pedagógico en ~$pedagogico%).';
   }
 }
-

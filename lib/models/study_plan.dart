@@ -12,6 +12,8 @@ class StudyTask {
     required this.minutes,
     this.isCaseStudy = false,
     this.completed = false,
+    this.minDifficultyLevel,
+    this.mixPillars = false,
   });
 
   final String id;
@@ -24,6 +26,12 @@ class StudyTask {
   final bool isCaseStudy;
   final bool completed;
 
+  /// 3 = alta exigencia: solo ítems difíciles (o lo más duro disponible).
+  final int? minDifficultyLevel;
+
+  /// Mezcla pilares (simulacro duro), no un solo foco.
+  final bool mixPillars;
+
   StudyTask copyWith({bool? completed}) {
     return StudyTask(
       id: id,
@@ -35,6 +43,8 @@ class StudyTask {
       minutes: minutes,
       isCaseStudy: isCaseStudy,
       completed: completed ?? this.completed,
+      minDifficultyLevel: minDifficultyLevel,
+      mixPillars: mixPillars,
     );
   }
 }

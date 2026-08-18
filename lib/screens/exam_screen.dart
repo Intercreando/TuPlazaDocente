@@ -21,6 +21,7 @@ class _ExamScreenState extends State<ExamScreen> {
   int _remaining = 90;
   int _budget = 90;
   int _trackedIndex = -1;
+  bool _busy = false;
 
   @override
   void didChangeDependencies() {
@@ -28,6 +29,7 @@ class _ExamScreenState extends State<ExamScreen> {
     final state = context.watch<AppState>();
     if (state.currentIndex != _trackedIndex) {
       _trackedIndex = state.currentIndex;
+      _busy = false;
       _restartTimer(state.currentQuestion?.tiempoRecomendadoSeg ?? 90);
     }
   }
@@ -37,20 +39,30 @@ class _ExamScreenState extends State<ExamScreen> {
     _budget = seconds.clamp(20, 180);
     _remaining = _budget;
     _timer = Timer.periodic(const Duration(seconds: 1), (timer) async {
-      if (!mounted) return;
+      if (!mounted || _busy) return;
       if (_remaining <= 1) {
         timer.cancel();
-        final state = context.read<AppState>();
-        state.selectedOption ??= 0;
-        final finished = await state.submitAndAdvance();
-        if (!mounted) return;
-        if (finished) {
-          context.go('/results');
-        }
+        // Sin marca: cuenta como no respondida, no como la opción A.
+        await _submit(allowUnanswered: true);
         return;
       }
       setState(() => _remaining -= 1);
     });
+  }
+
+  Future<void> _submit({required bool allowUnanswered}) async {
+    if (_busy) return;
+    setState(() => _busy = true);
+    _timer?.cancel();
+    final finished = await context.read<AppState>().submitAndAdvance(
+      allowUnanswered: allowUnanswered,
+    );
+    if (!mounted) return;
+    if (finished) {
+      context.go('/results');
+      return;
+    }
+    setState(() => _busy = false);
   }
 
   @override
@@ -67,7 +79,7 @@ class _ExamScreenState extends State<ExamScreen> {
 
     if (question == null) {
       return Scaffold(
-        appBar: AppBar(title: const Text('Examen')),
+        appBar: AppBar(title: const Text('Simulacro')),
         body: Center(
           child: FilledButton(
             onPressed: () => context.go('/app'),
@@ -83,18 +95,24 @@ class _ExamScreenState extends State<ExamScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Examen real'),
+        title: const Text('Simulacro con tiempo'),
         leading: IconButton(
           icon: const Icon(Icons.close),
           onPressed: () async {
             final leave = await showDialog<bool>(
               context: context,
               builder: (ctx) => AlertDialog(
-                title: const Text('¿Salir del examen?'),
+                title: const Text('¿Salir del simulacro?'),
                 content: const Text('Se perderá el progreso de esta sesión.'),
                 actions: [
-                  TextButton(onPressed: () => Navigator.pop(ctx, false), child: const Text('Cancelar')),
-                  FilledButton(onPressed: () => Navigator.pop(ctx, true), child: const Text('Salir')),
+                  TextButton(
+                    onPressed: () => Navigator.pop(ctx, false),
+                    child: const Text('Cancelar'),
+                  ),
+                  FilledButton(
+                    onPressed: () => Navigator.pop(ctx, true),
+                    child: const Text('Salir'),
+                  ),
                 ],
               ),
             );
@@ -155,13 +173,9 @@ class _ExamScreenState extends State<ExamScreen> {
               }),
               const SizedBox(height: 16),
               FilledButton(
-                onPressed: state.selectedOption == null
+                onPressed: state.selectedOption == null || _busy
                     ? null
-                    : () async {
-                        final finished = await state.submitAndAdvance();
-                        if (!context.mounted) return;
-                        if (finished) context.go('/results');
-                      },
+                    : () => _submit(allowUnanswered: false),
                 child: const Text('Confirmar y continuar'),
               ),
             ],

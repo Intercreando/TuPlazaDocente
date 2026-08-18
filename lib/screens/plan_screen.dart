@@ -78,7 +78,9 @@ class PlanScreen extends StatelessWidget {
                           value: plan.progress == 0 ? 0.04 : plan.progress,
                           minHeight: 8,
                           color: AppColors.gold,
-                          backgroundColor: AppColors.white.withValues(alpha: 0.18),
+                          backgroundColor: AppColors.white.withValues(
+                            alpha: 0.18,
+                          ),
                         ),
                       ),
                       const SizedBox(height: 8),
@@ -120,8 +122,11 @@ class PlanScreen extends StatelessWidget {
                     padding: const EdgeInsets.only(bottom: 10),
                     child: _PlanTaskTile(
                       task: task,
-                      premiumLocked: !state.profile.isPremium &&
-                          task.isCaseStudy,
+                      access: _planTaskAccess(state, task),
+                      limitedLabel: task.mode == SessionMode.practice &&
+                              !task.isCaseStudy
+                          ? '1 / día'
+                          : 'Premium',
                       onStart: () {
                         final ok = state.startPlanTask(task);
                         launchSessionOrPaywall(
@@ -145,22 +150,40 @@ class PlanScreen extends StatelessWidget {
   }
 }
 
+/// Cupo visible: práctica = 1/día; casos y alta exigencia = Premium.
+FeatureAccessLevel _planTaskAccess(AppState state, StudyTask task) {
+  if (state.profile.isPremium) return FeatureAccessLevel.open;
+  if (task.isCaseStudy || task.mode == SessionMode.exam) {
+    return FeatureAccessLevel.locked;
+  }
+  if (task.mode == SessionMode.practice) {
+    return state.canStartFreePractice
+        ? FeatureAccessLevel.limited
+        : FeatureAccessLevel.locked;
+  }
+  return FeatureAccessLevel.open;
+}
+
 class _PlanTaskTile extends StatelessWidget {
   const _PlanTaskTile({
     required this.task,
     required this.onStart,
-    this.premiumLocked = false,
+    required this.access,
+    this.limitedLabel = '1 / día',
   });
 
   final StudyTask task;
   final VoidCallback onStart;
-  final bool premiumLocked;
+  final FeatureAccessLevel access;
+  final String limitedLabel;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
+    final locked = access == FeatureAccessLevel.locked && !task.completed;
+
     return Opacity(
-      opacity: premiumLocked && !task.completed ? 0.78 : 1,
+      opacity: locked ? 0.78 : 1,
       child: Material(
         color: theme.cardTheme.color,
         borderRadius: BorderRadius.circular(18),
@@ -174,29 +197,29 @@ class _PlanTaskTile extends StatelessWidget {
               border: Border.all(
                 color: task.completed
                     ? AppColors.success
-                    : premiumLocked
-                        ? AppColors.gold.withValues(alpha: 0.55)
-                        : theme.colorScheme.outline,
+                    : locked
+                    ? AppColors.gold.withValues(alpha: 0.55)
+                    : theme.colorScheme.outline,
               ),
-              color: premiumLocked && !task.completed
-                  ? AppColors.gold.withValues(alpha: 0.06)
-                  : null,
+              color: locked ? AppColors.gold.withValues(alpha: 0.06) : null,
             ),
             child: Row(
               children: [
                 Icon(
                   task.completed
                       ? Icons.check_circle
-                      : premiumLocked
-                          ? Icons.lock_outline_rounded
-                          : task.isCaseStudy
-                              ? Icons.apartment_outlined
-                              : Icons.play_circle_outline,
+                      : locked
+                      ? Icons.lock_outline_rounded
+                      : task.mode == SessionMode.exam
+                      ? Icons.whatshot_outlined
+                      : task.isCaseStudy
+                      ? Icons.apartment_outlined
+                      : Icons.play_circle_outline,
                   color: task.completed
                       ? AppColors.success
-                      : premiumLocked
-                          ? AppColors.goldDeep
-                          : AppColors.canopy,
+                      : locked
+                      ? AppColors.goldDeep
+                      : AppColors.canopy,
                 ),
                 const SizedBox(width: 12),
                 Expanded(
@@ -212,6 +235,7 @@ class _PlanTaskTile extends StatelessWidget {
                     ],
                   ),
                 ),
+                const SizedBox(width: 8),
                 if (task.completed)
                   Text(
                     'Hecho',
@@ -219,17 +243,18 @@ class _PlanTaskTile extends StatelessWidget {
                       color: AppColors.success,
                     ),
                   )
-                else if (premiumLocked)
-                  const FeatureAccessBadge(
-                    level: FeatureAccessLevel.locked,
-                  )
-                else
-                  Text(
-                    'Empezar',
-                    style: theme.textTheme.labelLarge?.copyWith(
-                      color: AppColors.canopy,
+                else ...[
+                  FeatureAccessBadge(level: access, limitedLabel: limitedLabel),
+                  if (!locked) ...[
+                    const SizedBox(width: 8),
+                    Text(
+                      'Empezar',
+                      style: theme.textTheme.labelLarge?.copyWith(
+                        color: AppColors.canopy,
+                      ),
                     ),
-                  ),
+                  ],
+                ],
               ],
             ),
           ),

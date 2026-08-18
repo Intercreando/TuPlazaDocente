@@ -17,10 +17,9 @@ class DiagnosticPaywallScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final state = context.watch<AppState>();
-    final rows = TagMasteryService.buildMap(state.profile)
-        .where((row) => row.total > 0)
-        .take(6)
-        .toList();
+    final rows = TagMasteryService.buildMap(
+      state.profile,
+    ).where((row) => row.total > 0).take(6).toList();
     final message = TagMasteryService.diagnosticPaywallMessage(state.profile);
     final price = AppConfig.formatCop(state.displayedPremiumPriceCop);
 
@@ -40,7 +39,7 @@ class DiagnosticPaywallScreen extends StatelessWidget {
               padding: const EdgeInsets.fromLTRB(22, 12, 22, 28),
               children: [
                 Text(
-                  'Mapa de maestría según tus respuestas',
+                  'Cómo vas según tus respuestas',
                   style: theme.textTheme.headlineMedium,
                 ),
                 const SizedBox(height: 8),
@@ -48,7 +47,7 @@ class DiagnosticPaywallScreen extends StatelessWidget {
                 const SizedBox(height: 18),
                 if (rows.isEmpty)
                   Text(
-                    'Aún hay pocos datos en el mapa. El reto diario sigue abierto.',
+                    'Aún hay pocos datos. Las 5 del día siguen abiertas.',
                     style: theme.textTheme.bodyMedium,
                   )
                 else

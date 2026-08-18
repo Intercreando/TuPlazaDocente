@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
+
+import 'premium_nav.dart';
 
 /// Avisos temporales de la app (auto-cierran; no tapan la UI en PC/móvil).
 abstract final class AppSnackbars {
@@ -80,7 +81,7 @@ abstract final class AppSnackbars {
       context,
       message: message,
       actionLabel: 'Premium',
-      onAction: () => context.push('/premium'),
+      onAction: () => openPremium(context),
     );
   }
 }

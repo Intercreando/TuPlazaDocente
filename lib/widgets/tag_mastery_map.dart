@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 import '../services/tag_mastery_service.dart';
 import '../theme/app_colors.dart';
+import '../utils/progress_practice_launch.dart';
 
-/// Mapa de Maestría por etiquetas (norma/teoría), no conteo de ítems.
+/// Mapa de temas del concurso. Tocar una fila abre la práctica de ese tema.
 class TagMasteryMap extends StatelessWidget {
   const TagMasteryMap({
     super.key,
@@ -38,7 +39,7 @@ class TagMasteryMap extends StatelessWidget {
         ],
         if (maxItems != null && rows.length > maxItems!)
           Text(
-            '+ ${rows.length - maxItems!} dominios más en tu currículo de maestría',
+            '+ ${rows.length - maxItems!} temas más en tu progreso',
             style: theme.textTheme.bodySmall,
           ),
       ],
@@ -79,54 +80,75 @@ class _MasteryTile extends StatelessWidget {
     final theme = Theme.of(context);
     final color = _levelColor();
     final progress = row.total == 0 ? 0.06 : row.accuracy.clamp(0.08, 1.0);
+    final caseTopic = isCaseKnowledgeTopic(row.code);
+    final hint = caseTopic
+        ? 'Toca para ir a Casos del colegio'
+        : row.level.needsPractice
+        ? 'Toca para practicar este tema'
+        : 'Toca para seguir practicando';
 
-    return Container(
-      padding: EdgeInsets.all(compact ? 12 : 14),
-      decoration: BoxDecoration(
-        color: highlighted
-            ? AppColors.coral.withValues(alpha: isDark ? 0.14 : 0.08)
-            : (isDark ? AppColors.darkSurface : AppColors.white),
+    return Material(
+      color: Colors.transparent,
+      child: InkWell(
+        onTap: () => launchProgressTopic(context, row.code),
         borderRadius: BorderRadius.circular(16),
-        border: Border.all(
-          color: highlighted
-              ? AppColors.coral.withValues(alpha: 0.45)
-              : theme.colorScheme.outline,
-        ),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
+        child: Ink(
+          padding: EdgeInsets.all(compact ? 12 : 14),
+          decoration: BoxDecoration(
+            color: highlighted
+                ? AppColors.coral.withValues(alpha: isDark ? 0.14 : 0.08)
+                : (isDark ? AppColors.darkSurface : AppColors.white),
+            borderRadius: BorderRadius.circular(16),
+            border: Border.all(
+              color: highlighted
+                  ? AppColors.coral.withValues(alpha: 0.45)
+                  : theme.colorScheme.outline,
+            ),
+          ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Expanded(
-                child: Text(row.headline, style: theme.textTheme.titleSmall),
+              Row(
+                children: [
+                  Expanded(
+                    child: Text(
+                      row.headline,
+                      style: theme.textTheme.titleSmall,
+                    ),
+                  ),
+                  Text(
+                    row.level.label,
+                    style: theme.textTheme.labelMedium?.copyWith(color: color),
+                  ),
+                  const SizedBox(width: 4),
+                  Icon(
+                    Icons.chevron_right,
+                    color: theme.colorScheme.onSurfaceVariant,
+                  ),
+                ],
               ),
+              const SizedBox(height: 6),
+              Text(row.subtitle, style: theme.textTheme.bodySmall),
+              const SizedBox(height: 8),
+              ClipRRect(
+                borderRadius: BorderRadius.circular(99),
+                child: LinearProgressIndicator(
+                  value: progress,
+                  minHeight: compact ? 6 : 8,
+                  color: color,
+                  backgroundColor: color.withValues(alpha: 0.15),
+                ),
+              ),
+              const SizedBox(height: 8),
               Text(
-                row.level.label,
-                style: theme.textTheme.labelMedium?.copyWith(color: color),
+                hint,
+                style: theme.textTheme.labelSmall?.copyWith(
+                  color: highlighted ? AppColors.coral : color,
+                ),
               ),
             ],
           ),
-          const SizedBox(height: 6),
-          Text(row.subtitle, style: theme.textTheme.bodySmall),
-          const SizedBox(height: 8),
-          ClipRRect(
-            borderRadius: BorderRadius.circular(99),
-            child: LinearProgressIndicator(
-              value: progress,
-              minHeight: compact ? 6 : 8,
-              color: color,
-              backgroundColor: color.withValues(alpha: 0.15),
-            ),
-          ),
-          if (highlighted && row.level.needsPractice) ...[
-            const SizedBox(height: 8),
-            Text(
-              'Te recomendamos practicar este tema hoy',
-              style: theme.textTheme.labelSmall?.copyWith(color: AppColors.coral),
-            ),
-          ],
-        ],
+        ),
       ),
     );
   }

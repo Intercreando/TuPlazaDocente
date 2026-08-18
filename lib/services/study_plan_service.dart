@@ -10,7 +10,11 @@ abstract final class StudyPlanService {
     final exam = profile.examDate;
     final daysRemaining = exam == null
         ? 60
-        : DateTime(exam.year, exam.month, exam.day).difference(day).inDays.clamp(0, 800);
+        : DateTime(
+            exam.year,
+            exam.month,
+            exam.day,
+          ).difference(day).inDays.clamp(0, 800);
 
     final focus = _weakestPillar(profile);
     final intensity = _intensity(daysRemaining);
@@ -25,7 +29,7 @@ abstract final class StudyPlanService {
     final summary = daysRemaining == 0
         ? 'Hoy es el día. Mantén calma: 1 bloque corto de repaso y descanso mental.'
         : 'Quedan $daysRemaining días. Intensidad $intensity · foco en ${focus.label} '
-            'para $specialty.';
+              'para $specialty.';
 
     return DailyStudyPlan(
       date: day,
@@ -71,10 +75,10 @@ abstract final class StudyPlanService {
     final focusCount = intensity == 'Sprint final'
         ? 8
         : intensity == 'Alta'
-            ? 6
-            : 5;
+        ? 6
+        : 5;
 
-    final tasks = <StudyTask>[
+    final freeTasks = <StudyTask>[
       StudyTask(
         id: 'focus-block',
         title: 'Bloque foco: ${focus.label}',
@@ -84,20 +88,10 @@ abstract final class StudyPlanService {
         mode: SessionMode.practice,
         minutes: (focusCount * 1.6).round().clamp(8, 18),
       ),
-      StudyTask(
-        id: 'case-block',
-        title: 'Caso de aula',
-        subtitle: 'Decide con criterio normativo y comportamental',
-        pillar: CompetencyPillar.pedagogico,
-        questionCount: intensity == 'Base' ? 2 : 3,
-        mode: SessionMode.practice,
-        minutes: 8,
-        isCaseStudy: true,
-      ),
     ];
 
     if (!profile.dailyCompletedToday) {
-      tasks.insert(
+      freeTasks.insert(
         0,
         const StudyTask(
           id: 'streak',
@@ -111,28 +105,16 @@ abstract final class StudyPlanService {
       );
     }
 
-    if (daysRemaining > 0 && daysRemaining <= 30 && profile.isPremium) {
-      tasks.add(
-        const StudyTask(
-          id: 'timed-drill',
-          title: 'Drill cronometrado',
-          subtitle: '2 minutos por ítem · mapa de calor al final',
-          pillar: CompetencyPillar.aptitudNumerica,
-          questionCount: 6,
-          mode: SessionMode.exam,
-          minutes: 14,
-        ),
-      );
-    } else if (daysRemaining > 30) {
+    if (daysRemaining > 30) {
       final support = CompetencyPillar.values.firstWhere(
         (p) => p != focus,
         orElse: () => CompetencyPillar.lecturaCritica,
       );
-      tasks.add(
+      freeTasks.add(
         StudyTask(
           id: 'support-block',
           title: 'Bloque de soporte: ${support.label}',
-          subtitle: 'Equilibra tu radar sin abandonar el foco',
+          subtitle: 'Equilibra tu progreso sin abandonar el foco',
           pillar: support,
           questionCount: 4,
           mode: SessionMode.practice,
@@ -141,9 +123,34 @@ abstract final class StudyPlanService {
       );
     }
 
+    final premiumTasks = <StudyTask>[
+      StudyTask(
+        id: 'case-block',
+        title: 'Caso de aula',
+        subtitle: 'Casos difíciles: criterio normativo y comportamental',
+        pillar: CompetencyPillar.pedagogico,
+        questionCount: intensity == 'Base' ? 2 : 3,
+        mode: SessionMode.practice,
+        minutes: 10,
+        isCaseStudy: true,
+        minDifficultyLevel: 3,
+      ),
+      StudyTask(
+        id: 'alta-exigencia',
+        title: 'Alta exigencia',
+        subtitle: 'Simulacro nivel 3: 2 minutos por ítem, sin atajos',
+        pillar: focus,
+        questionCount: 6,
+        mode: SessionMode.exam,
+        minutes: 14,
+        minDifficultyLevel: 3,
+        mixPillars: true,
+      ),
+    ];
+
     if (profile.cargo?.esGestionInstitucional == true ||
         profile.especialidad == Especialidad.directivos) {
-      tasks.add(
+      premiumTasks.add(
         StudyTask(
           id: 'rector-block',
           title: 'Gestión directiva',
@@ -153,10 +160,11 @@ abstract final class StudyPlanService {
           mode: SessionMode.practice,
           minutes: 12,
           isCaseStudy: true,
+          minDifficultyLevel: 3,
         ),
       );
     }
 
-    return tasks;
+    return [...freeTasks, ...premiumTasks];
   }
 }

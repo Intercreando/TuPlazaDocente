@@ -136,14 +136,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
       }
     } catch (e) {
       if (!mounted) return;
-      final detail = state.lastError ??
-          e.toString().replaceFirst('Exception: ', '');
+      final detail =
+          state.lastError ?? e.toString().replaceFirst('Exception: ', '');
       messenger.showSnackBar(
         SnackBar(
           content: Text(
-            detail.isNotEmpty
-                ? detail
-                : 'No pudimos iniciar el checkout.',
+            detail.isNotEmpty ? detail : 'No pudimos iniciar el checkout.',
           ),
         ),
       );
@@ -162,9 +160,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
     setState(() => _busy = false);
     if (!ok) {
       messenger.showSnackBar(
-        SnackBar(
-          content: Text(state.lastError ?? 'Código inválido.'),
-        ),
+        SnackBar(content: Text(state.lastError ?? 'Código inválido.')),
       );
       return;
     }
@@ -264,13 +260,13 @@ class _PremiumScreenState extends State<PremiumScreen> {
                             'Reto diario de 5 preguntas (todos los días)',
                             '1 sesión de práctica al día',
                             'Diagnóstico inicial gratis',
-                            'Reto rápido y radar básico',
+                            'Preguntas cortas y tu progreso',
                           ]
                         : const [
                             'Reto diario de 5 preguntas (todos los días)',
                             '1 sesión de práctica al día',
                             '1 simulacro corto al mes',
-                            'Reto rápido y radar básico',
+                            'Preguntas cortas y tu progreso',
                           ],
                     highlighted: false,
                   ),
@@ -296,7 +292,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   if (state.profile.isPremium)
                     FilledButton(
                       onPressed: () => context.go('/app'),
-                      child: const Text('Ya eres Premium · Continuar entrenando'),
+                      child: const Text(
+                        'Ya eres Premium · Continuar entrenando',
+                      ),
                     )
                   else ...[
                     if (state.welcomeOfferActive) ...[
@@ -397,7 +395,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                     Text(
                       'Pago único. No se renueva solo cada mes. '
                       'Premium en tu cuenta: hasta ${AppConfig.maxPremiumDevices} dispositivos. '
-                      'No compartas el acceso: el radar, la racha y el plan se arman con tu forma de aprender.',
+                      'No compartas el acceso: el progreso, la racha y el plan se arman con tu forma de aprender.',
                       style: footerStyle,
                     ),
                     const SizedBox(height: 10),
@@ -445,7 +443,9 @@ class _CheckoutTrustRow extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final color = isDark ? AppColors.darkTextSecondary : AppColors.textSecondary;
+    final color = isDark
+        ? AppColors.darkTextSecondary
+        : AppColors.textSecondary;
     final style = theme.textTheme.labelMedium?.copyWith(color: color);
 
     return Row(
@@ -518,9 +518,7 @@ class _PlanCard extends StatelessWidget {
             Text(
               billingNote!,
               style: theme.textTheme.labelMedium?.copyWith(
-                color: highlighted
-                    ? AppColors.seafoam
-                    : AppColors.textMuted,
+                color: highlighted ? AppColors.seafoam : AppColors.textMuted,
               ),
             ),
           ],
