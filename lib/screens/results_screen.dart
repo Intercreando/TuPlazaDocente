@@ -4,8 +4,10 @@ import 'package:provider/provider.dart';
 
 import '../models/enums.dart';
 import '../models/question.dart';
+import '../services/session_feedback_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../widgets/session_feedback_card.dart';
 
 /// Resultados + mapa de calor de tiempo (modo examen).
 class ResultsScreen extends StatelessWidget {
@@ -74,8 +76,14 @@ class ResultsScreen extends StatelessWidget {
                   ],
                 ),
               ),
-              const SizedBox(height: 18),
-              Text(state.studyFocusMessage(), style: theme.textTheme.bodyLarge),
+              const SizedBox(height: 16),
+              SessionFeedbackCard(
+                feedback: SessionFeedbackService.build(result, state.profile),
+                followDiagnosticPaywall:
+                    result.mode == SessionMode.diagnostic &&
+                    state.isPaidCohort &&
+                    !state.profile.isPremium,
+              ),
               if (isExam) ...[
                 const SizedBox(height: 22),
                 Text(

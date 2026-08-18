@@ -101,6 +101,7 @@ class AnswerRecord {
     required this.secondsSpent,
     required this.pillar,
     required this.topic,
+    this.knowledgeCodes = const [],
   });
 
   final String questionId;
@@ -111,6 +112,9 @@ class AnswerRecord {
   final int secondsSpent;
   final CompetencyPillar pillar;
   final String topic;
+
+  /// Etiquetas de la pregunta (Decreto 1290, Vygotsky, etc.).
+  final List<KnowledgeCode> knowledgeCodes;
 }
 
 /// Resultado agregado de una sesión.

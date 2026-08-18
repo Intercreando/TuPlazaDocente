@@ -903,6 +903,9 @@ class AppState extends ChangeNotifier {
         secondsSpent: seconds,
         pillar: question.pillar,
         topic: question.topic,
+        knowledgeCodes: {
+          for (final tag in question.knowledgeTags) tag.code,
+        }.toList(),
       ),
     );
 
