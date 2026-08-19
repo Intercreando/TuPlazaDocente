@@ -70,7 +70,8 @@
   <meta name="twitter:title" content="TuPlazaDocente | Concurso Docente CNSC 2026">
   <meta name="twitter:description" content="Practica para el Concurso Docente CNSC/ICFES con casos reales y explicaciones del criterio del ítem.">
   <meta name="twitter:image" content="https://www.tuplazadocente.com/icons/Icon-512.png?v=2">
-  <link rel="preload" href="icons/Icon-maskable-512.png?v=2" as="image">
+  <link rel="preload" href="icons/logo-boot.png" as="image">
+  <link rel="preload" href="icons/Icon-512.png?v=2" as="image" media="(display-mode: standalone)">
   <!-- El motor solo se descubre cuando corre flutter_bootstrap.js: precargarlo
        adelanta ~1 s en móvil (la cadena de peticiones deja de ser en serie). -->
   <link rel="preload" href="main.dart.js" as="script">
@@ -303,29 +304,50 @@
       opacity: 0;
       pointer-events: none;
     }
-    /* Réplica del splash que pinta Android: el mismo icono `maskable`,
-       recortado en círculo y con el diámetro de 240 dp que usa el sistema.
-       Al desaparecer el splash nativo el icono queda en su sitio y no se
-       percibe un segundo logo. */
-    #boot .mark {
-      width: min(240px, 60vw);
+    /* Un solo bloque centrado: en el navegador es el lockup de marca
+       (logo + TuPlazaDocente); en la PWA es el icono de la app. */
+    #boot .boot-stack {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    #boot .mark { display: none; }
+    #boot .lockup {
+      width: min(240px, 68vw);
       height: auto;
       display: block;
-      border-radius: 50%;
+      margin: 0 0 16px;
     }
-    /* El texto y la barra van anclados debajo del ícono (no lo desplazan del
-       centro) y entran con retardo: se suman al splash en vez de sustituirlo. */
     #boot .hint {
-      position: absolute;
-      left: 50%;
-      top: calc(50% + min(150px, 38vw));
       width: min(280px, 78vw);
-      transform: translateX(-50%);
-      animation: bootIn 0.4s ease-out 0.45s both;
+      animation: bootIn 0.3s ease-out both;
     }
     @keyframes bootIn {
-      from { opacity: 0; transform: translate(-50%, 8px); }
-      to { opacity: 1; transform: translate(-50%, 0); }
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: none; }
+    }
+    /* App instalada: el sistema ya pintó el icono, así que se usa el mismo
+       recorte cuadrado (Icon-512) y el lockup se oculta para no duplicar. */
+    @media (display-mode: standalone), (display-mode: fullscreen) {
+      #boot .lockup { display: none; }
+      #boot .mark {
+        width: min(220px, 56vw);
+        height: auto;
+        display: block;
+      }
+      /* Anclado debajo del icono para no desplazarlo del centro, y con
+         retardo: se suma al splash nativo en vez de sustituirlo. */
+      #boot .hint {
+        position: absolute;
+        left: 50%;
+        top: calc(50% + min(140px, 36vw));
+        transform: translateX(-50%);
+        animation: bootInCentered 0.4s ease-out 0.45s both;
+      }
+      @keyframes bootInCentered {
+        from { opacity: 0; transform: translate(-50%, 8px); }
+        to { opacity: 1; transform: translate(-50%, 0); }
+      }
     }
     #boot .sub { margin: 0; opacity: 0.7; min-height: 1.2em; }
     /* Barra de progreso indeterminada: evita la sensación de pantalla vacía
@@ -406,10 +428,13 @@
     </p>
   </main>
   <div id="boot">
-    <img class="mark" src="icons/Icon-maskable-512.png?v=2" width="512" height="512" alt="TuPlazaDocente">
-    <div class="hint">
-      <p class="sub" id="bootSub">Preparando tu entrenamiento…</p>
-      <div class="bar" aria-hidden="true"><span></span></div>
+    <div class="boot-stack">
+      <img class="mark" src="icons/Icon-512.png?v=2" width="512" height="512" alt="">
+      <img class="lockup" src="icons/logo-boot.png" width="240" height="251" alt="TuPlazaDocente">
+      <div class="hint">
+        <p class="sub" id="bootSub">Preparando tu entrenamiento…</p>
+        <div class="bar" aria-hidden="true"><span></span></div>
+      </div>
     </div>
   </div>
   <script>

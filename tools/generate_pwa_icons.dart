@@ -10,15 +10,17 @@ import 'package:image/image.dart' as img;
 /// recuadro interior), ese borde queda dentro del círculo y se ve como un
 /// contorno que no es el logo.
 ///
-/// Solución: fondo liso de borde a borde y el arte centrado ocupando el 66 %
-/// del lienzo, que es el área visible que define Android (160 dp de 240 dp).
+/// Solución: fondo liso de borde a borde y el arte centrado ocupando el 74 %
+/// del lienzo. Android deja visible un 66 % (160 dp de 240 dp) y garantiza
+/// hasta un 80 %: en ese margen el emblema se ve tan grande como en la marca
+/// original sin que la máscara del sistema le recorte nada.
 ///
 /// Uso: dart run tools/generate_pwa_icons.dart
 void main() {
   const srcPath = 'assets/brand/logo-mark.png';
   const outDir = 'web/icons';
   const sizes = <int>[512, 192];
-  const artRatio = 0.66;
+  const artRatio = 0.74;
 
   final src = File(srcPath);
   if (!src.existsSync()) {
