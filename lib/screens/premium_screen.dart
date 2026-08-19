@@ -45,8 +45,8 @@ class _PremiumScreenState extends State<PremiumScreen> {
       final wasPremium = state.profile.isPremium;
       var purchaseTracked = false;
 
-      Future<void> tryTrackPurchase() async {
-        if (purchaseTracked || wasPremium || !state.profile.isPremium) {
+      Future<void> tryTrackPurchase({required bool paidConfirmed}) async {
+        if (purchaseTracked || wasPremium || !paidConfirmed) {
           return;
         }
         final purchase = await state.takeCheckoutPurchaseValue();
@@ -67,14 +67,17 @@ class _PremiumScreenState extends State<PremiumScreen> {
 
       await state.refreshPremiumFromCloud();
       if (!mounted) return;
-      await tryTrackPurchase();
+      // Wompi ya confirmó el pago en la URL; no esperar el webhook de Premium.
+      await tryTrackPurchase(
+        paidConfirmed: status == 'success' || state.profile.isPremium,
+      );
 
       // Webhook puede tardar unos segundos tras el redirect de Wompi.
       if (status == 'success' && !state.profile.isPremium) {
         await Future<void>.delayed(const Duration(seconds: 3));
         if (!mounted) return;
         await state.refreshPremiumFromCloud();
-        await tryTrackPurchase();
+        await tryTrackPurchase(paidConfirmed: true);
       }
 
       if (!mounted) return;
@@ -176,6 +179,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
       );
       return;
     }
+    final code = _codeController.text.trim();
+    GoogleAdsTag.purchase(
+      value: 1.0,
+      currency: 'COP',
+      transactionId: code.isEmpty ? null : 'promo-$code',
+    );
     messenger.showSnackBar(
       const SnackBar(content: Text('Premium activado con código.')),
     );

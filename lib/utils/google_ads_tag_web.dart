@@ -1,6 +1,9 @@
 import 'dart:js_interop';
 
 /// Conversiones Google Ads (gtag) en Flutter Web.
+@JS('tpdGtagConversion')
+external JSFunction? get _tpdGtagConversion;
+
 @JS('gtag')
 external JSFunction? get _gtag;
 
@@ -17,7 +20,7 @@ abstract final class GoogleAdsTag {
     );
   }
 
-  /// Compra Premium confirmada (Wompi).
+  /// Compra Premium confirmada (Wompi o cupón que otorga acceso).
   static void purchase({
     required double value,
     String currency = 'COP',
@@ -37,6 +40,22 @@ abstract final class GoogleAdsTag {
     required String currency,
     String? transactionId,
   }) {
+    final tx = transactionId?.trim() ?? '';
+    try {
+      final bridge = _tpdGtagConversion;
+      if (bridge != null) {
+        bridge.callAsFunction(
+          null,
+          sendTo.toJS,
+          value.toJS,
+          currency.toJS,
+          tx.toJS,
+        );
+        return;
+      }
+    } catch (_) {
+      // Sin puente: se intenta gtag directo.
+    }
     try {
       final gtag = _gtag;
       if (gtag == null) return;
@@ -45,9 +64,7 @@ abstract final class GoogleAdsTag {
         'value': value,
         'currency': currency,
       };
-      if (transactionId != null && transactionId.isNotEmpty) {
-        params['transaction_id'] = transactionId;
-      }
+      if (tx.isNotEmpty) params['transaction_id'] = tx;
       gtag.callAsFunction(
         null,
         'event'.toJS,

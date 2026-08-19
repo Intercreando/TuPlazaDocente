@@ -84,6 +84,17 @@
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'AW-17037005824');
+    // Puente SPA: Flutter llama esto al confirmar Wompi o cupón (sin recargar).
+    window.tpdGtagConversion = function (sendTo, value, currency, transactionId) {
+      if (typeof gtag !== 'function') return;
+      var params = {
+        send_to: sendTo,
+        value: typeof value === 'number' && value > 0 ? value : 1.0,
+        currency: currency || 'COP'
+      };
+      if (transactionId) params.transaction_id = String(transactionId);
+      gtag('event', 'conversion', params);
+    };
   </script>
   <!-- Meta Pixel Code -->
   <script>
