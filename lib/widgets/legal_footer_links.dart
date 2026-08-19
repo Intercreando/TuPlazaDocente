@@ -3,25 +3,29 @@ import 'package:go_router/go_router.dart';
 
 import '../config/legal_documents.dart';
 import '../theme/app_colors.dart';
+import '../utils/open_site_page.dart';
 
-/// Enlaces compactos a Términos y Privacidad.
+/// Enlaces compactos a Términos, Privacidad y el hub público de noticias.
 class LegalFooterLinks extends StatelessWidget {
   const LegalFooterLinks({
     super.key,
     this.compact = false,
     this.prefix,
+    this.showNews = false,
   });
 
   final bool compact;
   final String? prefix;
 
+  /// En la landing: enlace al índice que indexa Google.
+  final bool showNews;
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final lead = prefix ??
-        (compact
-            ? 'Al continuar aceptas'
-            : 'Al pagar o crear cuenta aceptas');
+    final lead =
+        prefix ??
+        (compact ? 'Al continuar aceptas' : 'Al pagar o crear cuenta aceptas');
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -51,6 +55,19 @@ class LegalFooterLinks extends StatelessWidget {
               onPressed: () => context.push('/legal/privacy'),
               child: const Text('Privacidad'),
             ),
+            if (showNews) ...[
+              Text(' y ', style: theme.textTheme.bodySmall),
+              TextButton(
+                style: TextButton.styleFrom(
+                  padding: const EdgeInsets.symmetric(horizontal: 4),
+                  minimumSize: Size.zero,
+                  tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                  foregroundColor: AppColors.canopy,
+                ),
+                onPressed: () => openNewsHub(),
+                child: const Text('Noticias'),
+              ),
+            ],
             Text('.', style: theme.textTheme.bodySmall),
           ],
         ),

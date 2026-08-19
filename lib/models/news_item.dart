@@ -26,6 +26,7 @@ class NewsLink {
 class NewsItem {
   const NewsItem({
     required this.id,
+    required this.slug,
     required this.title,
     required this.summary,
     required this.body,
@@ -39,6 +40,9 @@ class NewsItem {
   });
 
   final String id;
+
+  /// Parte legible de la URL pública (/noticias/&lt;slug&gt;/).
+  final String slug;
   final String title;
   final String summary;
   final String body;
@@ -49,6 +53,12 @@ class NewsItem {
   final List<NewsLink> links;
   final int? publishedAtMs;
   final int? updatedAtMs;
+
+  /// Lo que se usa al navegar: el slug si existe, el id para los avisos viejos.
+  String get routeKey => slug.isEmpty ? id : slug;
+
+  /// URL pública de la noticia, la misma que indexa Google.
+  String get publicUrl => 'https://www.tuplazadocente.com/noticias/$routeKey/';
 
   String get tagLabel {
     switch (tag) {
@@ -66,6 +76,7 @@ class NewsItem {
   factory NewsItem.fromMap(String id, Map<String, dynamic> raw) {
     return NewsItem(
       id: id,
+      slug: '${raw['slug'] ?? ''}'.trim(),
       title: '${raw['title'] ?? ''}',
       summary: '${raw['summary'] ?? ''}',
       body: '${raw['body'] ?? ''}',
@@ -74,9 +85,11 @@ class NewsItem {
       pinned: raw['pinned'] == true,
       imageUrl: raw['imageUrl'] as String?,
       links: NewsLink.listFrom(raw['links']),
-      publishedAtMs: (raw['publishedAtMs'] as num?)?.toInt() ??
+      publishedAtMs:
+          (raw['publishedAtMs'] as num?)?.toInt() ??
           _timestampMs(raw['publishedAt']),
-      updatedAtMs: (raw['updatedAtMs'] as num?)?.toInt() ??
+      updatedAtMs:
+          (raw['updatedAtMs'] as num?)?.toInt() ??
           _timestampMs(raw['updatedAt']),
     );
   }

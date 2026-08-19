@@ -99,6 +99,7 @@ class LandingScreen extends StatelessWidget {
                               const LegalFooterLinks(
                                 compact: true,
                                 prefix: 'Consulta nuestros',
+                                showNews: true,
                               ),
                               const SizedBox(height: 12),
                             ],

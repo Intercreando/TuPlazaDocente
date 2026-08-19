@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 import '../config/seo_landing_routes.dart';
+import '../utils/open_site_page.dart';
 
 /// Atajos desde la home hacia las tres guías públicas.
 class SeoGuidesStrip extends StatelessWidget {
@@ -25,11 +26,13 @@ class SeoGuidesStrip extends StatelessWidget {
           style: theme.textTheme.bodyMedium,
         ),
         const SizedBox(height: 14),
+        OutlinedButton(
+          onPressed: () => openNewsHub(),
+          child: const Text('Noticias del concurso'),
+        ),
+        const SizedBox(height: 8),
         for (final g in guides) ...[
-          OutlinedButton(
-            onPressed: () => context.go(g.$1),
-            child: Text(g.$2),
-          ),
+          OutlinedButton(onPressed: () => context.go(g.$1), child: Text(g.$2)),
           const SizedBox(height: 8),
         ],
       ],

@@ -38,7 +38,7 @@ void main() {
   final srcKb = (src.lengthSync() / 1024).round();
   final outKb = (jpg.length / 1024).round();
   stdout.writeln(
-    'Hero: ${decoded.width}x${decoded.height} ${srcKb} KB PNG → '
-    '${out.width}x${out.height} ${outKb} KB JPG',
+    'Hero: ${decoded.width}x${decoded.height} $srcKb KB PNG → '
+    '${out.width}x${out.height} $outKb KB JPG',
   );
 }

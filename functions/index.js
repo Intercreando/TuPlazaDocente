@@ -6,6 +6,7 @@
  * - submitTestimonial: opiniones de comunidad (moderación)
  * - trackMetaCapi: Pixel + Conversions API (event_id compartido)
  * - claimPaidAcquisition: cohorte de pauta + oferta 24 h
+ * - serveNewsPage: HTML de /noticias y /noticias/<slug>/ al publicar
  */
 const crypto = require("crypto");
 const {onCall, onRequest, HttpsError} = require("firebase-functions/v2/https");
@@ -756,6 +757,7 @@ exports.adminDeletePromoCode = promoAdmin.adminDeletePromoCode;
 exports.adminUpsertNews = newsAdmin.adminUpsertNews;
 exports.adminListNews = newsAdmin.adminListNews;
 exports.adminDeleteNews = newsAdmin.adminDeleteNews;
+exports.serveNewsPage = require("./news_serve").serveNewsPage;
 
 exports.trackMetaCapi = metaCapi.trackMetaCapi;
 exports.claimPaidAcquisition = paidFunnel.claimPaidAcquisition;

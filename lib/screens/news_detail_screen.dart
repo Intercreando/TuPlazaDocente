@@ -5,6 +5,7 @@ import '../models/news_item.dart';
 import '../services/news_service.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/seo_document.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/news_highlight_strip.dart';
 import '../widgets/news_official_links.dart';
@@ -26,7 +27,7 @@ class _NewsDetailScreenState extends State<NewsDetailScreen> {
   @override
   void initState() {
     super.initState();
-    _future = _service.getById(widget.id);
+    _future = _service.getBySlugOrId(widget.id);
   }
 
   @override
@@ -65,6 +66,13 @@ class _NewsDetailScreenState extends State<NewsDetailScreen> {
                 ),
               );
             }
+            SeoDocument.apply(
+              title: item.title,
+              description: item.summary.trim().isEmpty
+                  ? item.title
+                  : item.summary,
+              canonical: item.publicUrl,
+            );
             final date = formatNewsDate(item.publishedAtMs ?? item.updatedAtMs);
             return Center(
               child: ConstrainedBox(

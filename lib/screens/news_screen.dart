@@ -111,7 +111,7 @@ class _NewsListCard extends StatelessWidget {
       borderRadius: BorderRadius.circular(20),
       child: InkWell(
         borderRadius: BorderRadius.circular(20),
-        onTap: () => context.push('/noticias/${item.id}'),
+        onTap: () => context.push('/noticias/${item.routeKey}'),
         child: Container(
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(20),

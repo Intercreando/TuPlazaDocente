@@ -6,6 +6,7 @@ import '../services/pwa_install_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/open_site_page.dart';
 import '../utils/paid_traffic.dart';
 import 'account_entry_button.dart';
 import 'brand_mark.dart';
@@ -41,6 +42,10 @@ class LandingHeader extends StatelessWidget {
           child: Row(
             children: [
               const Expanded(child: BrandMark(compact: true)),
+              TextButton(
+                onPressed: () => openNewsHub(),
+                child: const Text('Noticias'),
+              ),
               TextButton(
                 onPressed: () => context.go('/auth'),
                 child: const Text('Iniciar sesión'),

@@ -13,9 +13,9 @@ class NewsService {
     FirebaseFirestore? firestore,
     FirebaseFunctions? functions,
     FirebaseStorage? storage,
-  })  : _firestoreOverride = firestore,
-        _functionsOverride = functions,
-        _storageOverride = storage;
+  }) : _firestoreOverride = firestore,
+       _functionsOverride = functions,
+       _storageOverride = storage;
 
   final FirebaseFirestore? _firestoreOverride;
   final FirebaseFunctions? _functionsOverride;
@@ -56,8 +56,9 @@ class NewsService {
           .toList();
       items.sort((a, b) {
         if (a.pinned != b.pinned) return a.pinned ? -1 : 1;
-        return (b.publishedAtMs ?? b.updatedAtMs ?? 0)
-            .compareTo(a.publishedAtMs ?? a.updatedAtMs ?? 0);
+        return (b.publishedAtMs ?? b.updatedAtMs ?? 0).compareTo(
+          a.publishedAtMs ?? a.updatedAtMs ?? 0,
+        );
       });
       return items.take(limit).toList();
     } catch (e) {
@@ -80,6 +81,28 @@ class NewsService {
     }
   }
 
+  /// Busca por slug (la URL pública) y, si no existe, por id: los enlaces
+  /// antiguos apuntaban al identificador del documento.
+  Future<NewsItem?> getBySlugOrId(String key) async {
+    final db = _db;
+    if (db == null || key.isEmpty) return null;
+    try {
+      final snap = await db
+          .collection('news')
+          .where('slug', isEqualTo: key)
+          .where('published', isEqualTo: true)
+          .limit(1)
+          .get();
+      if (snap.docs.isNotEmpty) {
+        final doc = snap.docs.first;
+        return NewsItem.fromMap(doc.id, doc.data());
+      }
+    } catch (e) {
+      debugPrint('NewsService getBySlugOrId: $e');
+    }
+    return getById(key);
+  }
+
   Future<List<NewsItem>> adminList() async {
     try {
       final callable = _functions.httpsCallable('adminListNews');
@@ -88,13 +111,10 @@ class NewsService {
       if (raw is! Map) return const [];
       final items = Map<String, dynamic>.from(raw)['items'];
       if (items is! List) return const [];
-      return items
-          .whereType<Map>()
-          .map((e) {
-            final data = Map<String, dynamic>.from(e);
-            return NewsItem.fromMap('${data['id'] ?? ''}', data);
-          })
-          .toList();
+      return items.whereType<Map>().map((e) {
+        final data = Map<String, dynamic>.from(e);
+        return NewsItem.fromMap('${data['id'] ?? ''}', data);
+      }).toList();
     } on FirebaseFunctionsException catch (e) {
       throw Exception(_friendly(e));
     }
@@ -106,6 +126,7 @@ class NewsService {
     required String summary,
     required String body,
     required String tag,
+    String slug = '',
     String? imageUrl,
     List<NewsLink> links = const [],
     bool published = true,
@@ -115,6 +136,7 @@ class NewsService {
       final callable = _functions.httpsCallable('adminUpsertNews');
       final result = await callable.call(<String, dynamic>{
         'id': id,
+        'slug': slug.trim(),
         'title': title.trim(),
         'summary': summary.trim(),
         'body': body.trim(),
@@ -153,10 +175,7 @@ class NewsService {
     }
     final compressed = compressNewsCoverBytes(bytes);
     final ref = storage.ref('news/$newsId/cover.jpg');
-    await ref.putData(
-      compressed,
-      SettableMetadata(contentType: 'image/jpeg'),
-    );
+    await ref.putData(compressed, SettableMetadata(contentType: 'image/jpeg'));
     return ref.getDownloadURL();
   }
 

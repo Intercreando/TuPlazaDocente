@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
@@ -8,7 +9,9 @@ import '../services/news_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../utils/app_snackbars.dart';
+import '../utils/open_site_page.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/news_seo_note.dart';
 import 'admin_news_edit_dialog.dart';
 
 /// Panel admin: crear, editar y borrar avisos de convocatoria.
@@ -105,6 +108,20 @@ class _AdminNewsScreenState extends State<AdminNewsScreen> {
     }
   }
 
+  Future<void> _copyPublic(NewsItem item) async {
+    try {
+      await Clipboard.setData(ClipboardData(text: item.publicUrl));
+      if (!mounted) return;
+      AppSnackbars.show(
+        context,
+        message: 'Enlace público copiado. Úsalo en redes y Search Console.',
+      );
+    } catch (_) {
+      if (!mounted) return;
+      AppSnackbars.show(context, message: 'No se pudo copiar el enlace.');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -144,6 +161,8 @@ class _AdminNewsScreenState extends State<AdminNewsScreen> {
                         'Lo que publiques aquí sale en la landing y en Noticias.',
                         style: theme.textTheme.bodyLarge,
                       ),
+                      const SizedBox(height: 12),
+                      const NewsSeoNote(),
                       const SizedBox(height: 16),
                       if (_items.isEmpty)
                         Text(
@@ -156,6 +175,9 @@ class _AdminNewsScreenState extends State<AdminNewsScreen> {
                             item: item,
                             onEdit: () => _edit(item),
                             onDelete: () => _delete(item),
+                            onCopy: () => _copyPublic(item),
+                            onOpen: () =>
+                                openSitePage(item.publicUrl, newTab: true),
                           ),
                           const SizedBox(height: 10),
                         ],
@@ -173,11 +195,15 @@ class _AdminNewsTile extends StatelessWidget {
     required this.item,
     required this.onEdit,
     required this.onDelete,
+    required this.onCopy,
+    required this.onOpen,
   });
 
   final NewsItem item;
   final VoidCallback onEdit;
   final VoidCallback onDelete;
+  final VoidCallback onCopy;
+  final VoidCallback onOpen;
 
   @override
   Widget build(BuildContext context) {
@@ -198,12 +224,23 @@ class _AdminNewsTile extends StatelessWidget {
         subtitle: Text(
           '${item.tagLabel}'
           '${item.pinned ? ' · Fijado' : ''}'
-          '${item.published ? '' : ' · Oculto'}',
+          '${item.published ? '' : ' · Oculto'}'
+          '\n/noticias/${item.routeKey}/',
           style: theme.textTheme.bodySmall,
         ),
         trailing: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
+            IconButton(
+              tooltip: 'Copiar enlace público',
+              onPressed: item.published ? onCopy : null,
+              icon: const Icon(Icons.link),
+            ),
+            IconButton(
+              tooltip: 'Abrir página SEO',
+              onPressed: item.published ? onOpen : null,
+              icon: const Icon(Icons.open_in_new),
+            ),
             IconButton(
               tooltip: 'Editar',
               onPressed: onEdit,

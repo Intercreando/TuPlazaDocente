@@ -16,6 +16,9 @@
         "firebase-debug.log",
         "firebase-debug.*.log",
         "*.local"
+      ],
+      "predeploy": [
+        "node tools/sync_news_html.js"
       ]
     }
   ],
@@ -24,6 +27,8 @@
     "predeploy": [
       "node tools/validate_bank_sync.js --dart",
       "node tools/generate_seo_landings.js",
+      "node tools/generate_news_pages.js",
+      "node tools/generate_sitemap.js",
       "node tools/stamp_service_worker.js"
     ],
     "ignore": [
@@ -40,6 +45,20 @@
         }
       },
       {
+        "source": "/noticias",
+        "function": {
+          "functionId": "serveNewsPage",
+          "region": "southamerica-east1"
+        }
+      },
+      {
+        "source": "/noticias/**",
+        "function": {
+          "functionId": "serveNewsPage",
+          "region": "southamerica-east1"
+        }
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
@@ -51,6 +70,24 @@
           {
             "key": "Cache-Control",
             "value": "no-cache, max-age=0, must-revalidate"
+          }
+        ]
+      },
+      {
+        "source": "/noticias",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=60, s-maxage=300, stale-while-revalidate=600"
+          }
+        ]
+      },
+      {
+        "source": "/noticias/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=60, s-maxage=300, stale-while-revalidate=600"
           }
         ]
       },

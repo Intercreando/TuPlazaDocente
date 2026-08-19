@@ -5,6 +5,7 @@ import '../services/news_service.dart';
 import '../utils/app_snackbars.dart';
 import '../utils/pick_news_image.dart';
 import '../widgets/news_link_editor.dart';
+import '../widgets/news_slug_field.dart';
 
 /// Formulario admin para crear o editar un aviso.
 class NewsEditDialog extends StatefulWidget {
@@ -21,6 +22,7 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
   late final TextEditingController _title;
   late final TextEditingController _summary;
   late final TextEditingController _body;
+  late final TextEditingController _slug;
   late String _tag;
   late bool _published;
   late bool _pinned;
@@ -35,6 +37,7 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
     _title = TextEditingController(text: item?.title ?? '');
     _summary = TextEditingController(text: item?.summary ?? '');
     _body = TextEditingController(text: item?.body ?? '');
+    _slug = TextEditingController(text: item?.slug ?? '');
     _tag = item?.tag ?? 'aviso';
     _published = item?.published ?? true;
     _pinned = item?.pinned ?? false;
@@ -54,6 +57,7 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
     _title.dispose();
     _summary.dispose();
     _body.dispose();
+    _slug.dispose();
     for (final draft in _linkDrafts) {
       draft.dispose();
     }
@@ -61,10 +65,7 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
   }
 
   List<NewsLink> _collectedLinks() {
-    return _linkDrafts
-        .map((d) => d.toLink())
-        .whereType<NewsLink>()
-        .toList();
+    return _linkDrafts.map((d) => d.toLink()).whereType<NewsLink>().toList();
   }
 
   Future<void> _pickImage(String newsId) async {
@@ -95,6 +96,7 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
         summary: _summary.text,
         body: _body.text,
         tag: _tag,
+        slug: _slug.text,
         imageUrl: _imageUrl,
         links: _collectedLinks(),
         published: _published,
@@ -129,23 +131,37 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
             children: [
               TextField(
                 controller: _title,
-                decoration: const InputDecoration(labelText: 'Título'),
+                decoration: const InputDecoration(
+                  labelText: 'Título',
+                  helperText:
+                      'Como lo buscarían, sin emoji. Ej.: OPEC preliminar del Concurso Docente 2026',
+                ),
               ),
               const SizedBox(height: 12),
-              TextField(
-                controller: _summary,
-                maxLines: 2,
-                decoration: const InputDecoration(
-                  labelText: 'Resumen (landing e inicio)',
-                ),
+              NewsSlugField(slug: _slug, title: _title),
+              const SizedBox(height: 12),
+              AnimatedBuilder(
+                animation: _summary,
+                builder: (context, _) {
+                  final n = _summary.text.trim().length;
+                  final ok = n >= 80 && n <= 155;
+                  return TextField(
+                    controller: _summary,
+                    maxLines: 3,
+                    decoration: InputDecoration(
+                      labelText: 'Resumen (landing, redes y Google)',
+                      helperText: ok
+                          ? '$n caracteres. Google muestra unos 155.'
+                          : '$n caracteres. Apunta a 80–155, una idea por frase.',
+                    ),
+                  );
+                },
               ),
               const SizedBox(height: 12),
               TextField(
                 controller: _body,
                 maxLines: 6,
-                decoration: const InputDecoration(
-                  labelText: 'Texto completo',
-                ),
+                decoration: const InputDecoration(labelText: 'Texto completo'),
               ),
               const SizedBox(height: 16),
               NewsLinkEditor(
@@ -197,7 +213,11 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
                 const SizedBox(height: 8),
                 ClipRRect(
                   borderRadius: BorderRadius.circular(12),
-                  child: Image.network(_imageUrl!, height: 120, fit: BoxFit.cover),
+                  child: Image.network(
+                    _imageUrl!,
+                    height: 120,
+                    fit: BoxFit.cover,
+                  ),
                 ),
               ],
               TextButton.icon(
@@ -212,6 +232,7 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
                               : _summary.text,
                           body: _body.text,
                           tag: _tag,
+                          slug: _slug.text,
                           imageUrl: _imageUrl,
                           links: _collectedLinks(),
                           published: false,
@@ -220,7 +241,9 @@ class _NewsEditDialogState extends State<NewsEditDialog> {
                         await _pickImage(id);
                       },
                 icon: const Icon(Icons.image_outlined),
-                label: Text(_imageUrl == null ? 'Agregar imagen' : 'Cambiar imagen'),
+                label: Text(
+                  _imageUrl == null ? 'Agregar imagen' : 'Cambiar imagen',
+                ),
               ),
               Text(
                 'Se comprime a JPEG (máx. 1600 px) y se guarda en Firebase Storage.',

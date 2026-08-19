@@ -42,6 +42,7 @@ const NETWORK_ONLY = [
   /^\/version\.json$/,
   /^\/sw\.js$/,
   /^\/api\//,
+  /^\/noticias(\/|$)/,
 ];
 
 function matchesAny(patterns, path) {

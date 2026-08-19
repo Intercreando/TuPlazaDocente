@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:go_router/go_router.dart';
 
 import '../models/news_item.dart';
 import '../services/news_service.dart';
 import '../theme/app_colors.dart';
+import '../utils/open_site_page.dart';
 
 String formatNewsDate(int? ms) {
   if (ms == null || ms <= 0) return '';
@@ -67,11 +67,10 @@ class _NewsHighlightStripState extends State<NewsHighlightStrip> {
                         : theme.textTheme.titleLarge,
                   ),
                 ),
-                if (widget.onSeeAll != null)
-                  TextButton(
-                    onPressed: widget.onSeeAll,
-                    child: const Text('Ver todas'),
-                  ),
+                TextButton(
+                  onPressed: widget.onSeeAll ?? () => openNewsHub(),
+                  child: const Text('Ver todas'),
+                ),
               ],
             ),
             const SizedBox(height: 10),
@@ -99,9 +98,21 @@ class _NewsEmptyPlaceholder extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text(
-          'Avisos de la convocatoria',
-          style: compact ? theme.textTheme.titleMedium : theme.textTheme.titleLarge,
+        Row(
+          children: [
+            Expanded(
+              child: Text(
+                'Avisos de la convocatoria',
+                style: compact
+                    ? theme.textTheme.titleMedium
+                    : theme.textTheme.titleLarge,
+              ),
+            ),
+            TextButton(
+              onPressed: () => openNewsHub(),
+              child: const Text('Ver todas'),
+            ),
+          ],
         ),
         const SizedBox(height: 10),
         Container(
@@ -109,17 +120,12 @@ class _NewsEmptyPlaceholder extends StatelessWidget {
           decoration: BoxDecoration(
             color: isDark ? AppColors.darkSurface : AppColors.white,
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(
-              color: AppColors.gold.withValues(alpha: 0.35),
-            ),
+            border: Border.all(color: AppColors.gold.withValues(alpha: 0.35)),
           ),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Icon(
-                Icons.campaign_outlined,
-                color: AppColors.goldDeep,
-              ),
+              Icon(Icons.campaign_outlined, color: AppColors.goldDeep),
               const SizedBox(width: 12),
               Expanded(
                 child: Column(
@@ -161,7 +167,7 @@ class _NewsTeaserCard extends StatelessWidget {
       borderRadius: BorderRadius.circular(16),
       child: InkWell(
         borderRadius: BorderRadius.circular(16),
-        onTap: () => context.push('/noticias/${item.id}'),
+        onTap: () => openSitePage('/noticias/${item.routeKey}/'),
         child: Container(
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(

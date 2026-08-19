@@ -22,6 +22,40 @@ function clip(raw, max) {
   return String(raw || "").trim().slice(0, max);
 }
 
+/**
+ * Slug para la URL pública (/noticias/<slug>/). Sin tildes, sin signos y de
+ * pocas palabras: es lo que Google muestra y lo que la gente comparte.
+ */
+function slugify(raw) {
+  const base = String(raw || "")
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-+|-+$/g, "")
+      .split("-")
+      .filter(Boolean)
+      .slice(0, 9)
+      .join("-");
+  return base.slice(0, 70) || "aviso";
+}
+
+/** Evita que dos noticias compitan por la misma URL. */
+async function uniqueSlug(db, wanted, ownId) {
+  let candidate = wanted;
+  for (let attempt = 2; attempt < 12; attempt += 1) {
+    const clash = await db
+        .collection("news")
+        .where("slug", "==", candidate)
+        .limit(2)
+        .get();
+    const taken = clash.docs.some((doc) => doc.id !== ownId);
+    if (!taken) return candidate;
+    candidate = `${wanted.slice(0, 66)}-${attempt}`;
+  }
+  return `${wanted.slice(0, 60)}-${Date.now().toString(36)}`;
+}
+
 /** Solo http(s); máximo 8 fuentes oficiales. */
 function sanitizeLinks(raw) {
   if (!Array.isArray(raw)) return [];
@@ -50,6 +84,7 @@ function mapDoc(doc) {
   const d = doc.data() || {};
   return {
     id: doc.id,
+    slug: d.slug || "",
     title: d.title || "",
     summary: d.summary || "",
     body: d.body || "",
@@ -78,7 +113,7 @@ exports.adminUpsertNews = onCall(
     },
     async (request) => {
       const adminEmail = assertAdmin(request);
-      const title = clip(request.data?.title, 120);
+      const title = clip(request.data?.title, 160);
       const summary = clip(request.data?.summary, 280);
       const body = clip(request.data?.body, 8000);
       if (title.length < 4) {
@@ -108,8 +143,26 @@ exports.adminUpsertNews = onCall(
       const links = sanitizeLinks(request.data?.links);
 
       const snap = await ref.get();
+      const previous = snap.exists ? snap.data() || {} : {};
+      const slug = await uniqueSlug(
+          db,
+          slugify(request.data?.slug || previous.slug || title),
+          id,
+      );
+      // Si la URL cambia, se recuerda la anterior para redirigirla y no perder
+      // lo que Google ya indexó ni los enlaces compartidos.
+      const history = Array.isArray(previous.slugHistory) ?
+        previous.slugHistory.filter((s) => typeof s === "string") :
+        [];
+      const before = String(previous.slug || "");
+      if (before && before !== slug && !history.includes(before)) {
+        history.push(before);
+      }
+
       const payload = {
         title,
+        slug,
+        slugHistory: history.filter((s) => s !== slug).slice(-10),
         summary,
         body,
         tag,
@@ -127,7 +180,7 @@ exports.adminUpsertNews = onCall(
         payload.createdAt = FieldValue.serverTimestamp();
       }
       await ref.set(payload, {merge: true});
-      return {ok: true, id, created: isNew};
+      return {ok: true, id, slug, created: isNew};
     },
 );
 
