@@ -7,6 +7,7 @@ import 'package:provider/provider.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/option_tile.dart';
+import '../widgets/question_case_context.dart';
 
 /// Modo examen real: temporizador por ítem según `tiempo_recomendado_seg`.
 class ExamScreen extends StatefulWidget {
@@ -158,6 +159,7 @@ class _ExamScreenState extends State<ExamScreen> {
                 style: theme.textTheme.labelMedium,
               ),
               const SizedBox(height: 16),
+              QuestionCaseContext(question: question),
               Text(question.stem, style: theme.textTheme.titleLarge),
               const SizedBox(height: 18),
               ...List.generate(question.options.length, (i) {

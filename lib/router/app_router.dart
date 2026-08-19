@@ -50,6 +50,7 @@ GoRouter createAppRouter(AppState appState) {
         '/diagnostico',
         '/diagnostic-paywall',
         '/admin/promos',
+        '/admin/estudio-reels',
         '/legal/terms',
         '/legal/privacy',
         ...SeoLandingRoutes.all,

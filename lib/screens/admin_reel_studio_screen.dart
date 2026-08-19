@@ -7,12 +7,16 @@ import 'package:provider/provider.dart';
 
 import '../config/admin_config.dart';
 import '../data/reel_studio_pack.dart';
+import '../services/reel_clip_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../theme/app_theme.dart';
 import '../utils/app_snackbars.dart';
 import '../utils/reel_tick.dart';
 import '../utils/seo_document.dart';
+import '../widgets/reel_capture_note.dart';
+import '../widgets/reel_clip_composer.dart';
+import '../widgets/reel_clip_picker.dart';
 import '../widgets/reel_express_stage.dart';
 import '../widgets/reel_publish_kit.dart';
 
@@ -34,9 +38,11 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   static const _fadeMs = 180;
 
   final _focus = FocusNode();
+  final _clipService = ReelClipService();
   Timer? _tick;
   DateTime? _startedAt;
   ReelClip _clip = ReelStudioPack.clips.first;
+  List<ReelClip> _customClips = const [];
   bool _revealMode = false;
   bool _playing = false;
   bool _ended = false;
@@ -44,6 +50,10 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   int? _lastTickSecond;
 
   String? _appliedQuery;
+  bool _catalogReady = false;
+
+  /// Casos del código más los creados a mano en el estudio.
+  List<ReelClip> get _catalog => [...ReelStudioPack.clips, ..._customClips];
 
   bool get _obs {
     return GoRouterState.of(context).uri.queryParameters['obs'] == '1';
@@ -51,15 +61,25 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
 
   String get _obsQuery {
     final revela = _revealMode ? '&revela=1' : '';
-    return 'obs=1&caso=${_clip.id}$revela';
+    return 'obs=1&caso=${Uri.encodeQueryComponent(_clip.id)}$revela';
+  }
+
+  /// Misma forma que la barra de Chrome. Flutter Web guarda la ruta después
+  /// de `#/`; si se copia sin ese numeral, OBS carga la landing.
+  String get _obsShareUrl {
+    return '${Uri.base.origin}/#/admin/estudio-reels?$_obsQuery';
   }
 
   @override
   void initState() {
     super.initState();
-    WidgetsBinding.instance.addPostFrameCallback((_) {
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      final obs =
+          GoRouterState.of(context).uri.queryParameters['obs'] == '1';
       final state = context.read<AppState>();
-      if (!AdminConfig.isAdminEmail(state.authEmail)) {
+      // OBS abre un navegador sin sesión: el lienzo debe pintarse igual.
+      // El panel de edición sí exige admin.
+      if (!obs && !AdminConfig.isAdminEmail(state.authEmail)) {
         if (mounted) context.go('/app');
         return;
       }
@@ -70,8 +90,18 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
         noIndex: true,
       );
       _focus.requestFocus();
+      await _loadCustomClips();
+      if (!mounted) return;
+      _catalogReady = true;
+      _appliedQuery = null;
       _syncQuery();
     });
+  }
+
+  Future<void> _loadCustomClips() async {
+    final clips = await _clipService.list();
+    if (!mounted) return;
+    setState(() => _customClips = clips);
   }
 
   @override
@@ -85,9 +115,10 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     final uri = GoRouterState.of(context).uri;
     if (uri.query == _appliedQuery) return;
     _appliedQuery = uri.query;
-    final clip = ReelStudioPack.byId(uri.queryParameters['caso']);
+    final clip = ReelStudioPack.byIdIn(_catalog, uri.queryParameters['caso']);
     final reveal = uri.queryParameters['revela'] == '1';
-    final startObs = uri.queryParameters['obs'] == '1' && !_playing;
+    final startObs =
+        uri.queryParameters['obs'] == '1' && !_playing && _catalogReady;
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
       setState(() {
@@ -209,8 +240,75 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     });
   }
 
+  /// Guarda un caso escrito a mano y lo deja cargado para grabar.
+  Future<bool> _saveCustomClip(ReelClip clip) async {
+    try {
+      await _clipService.save(clip);
+      await _loadCustomClips();
+      if (!mounted) return true;
+      _reset();
+      setState(() => _clip = clip);
+      AppSnackbars.show(context, message: 'Caso guardado y listo para grabar.');
+      return true;
+    } catch (e) {
+      if (!mounted) return false;
+      AppSnackbars.show(
+        context,
+        message: e.toString().replaceFirst('Exception: ', ''),
+      );
+      return false;
+    }
+  }
+
+  Future<void> _deleteCustomClip(ReelClip clip) async {
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (context) => AlertDialog(
+        title: const Text('¿Borrar este caso?'),
+        content: Text('Se eliminará “${clip.label}” del estudio.'),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.of(context).pop(false),
+            child: const Text('Cancelar'),
+          ),
+          FilledButton(
+            onPressed: () => Navigator.of(context).pop(true),
+            child: const Text('Borrar'),
+          ),
+        ],
+      ),
+    );
+    if (ok != true || !mounted) return;
+    try {
+      await _clipService.delete(clip.id);
+      await _loadCustomClips();
+      if (!mounted) return;
+      if (_clip.id == clip.id) {
+        _reset();
+        setState(() => _clip = ReelStudioPack.clips.first);
+      }
+      AppSnackbars.show(context, message: 'Caso borrado.');
+    } catch (e) {
+      if (!mounted) return;
+      AppSnackbars.show(
+        context,
+        message: e.toString().replaceFirst('Exception: ', ''),
+      );
+    }
+  }
+
+  /// Los atajos no deben dispararse mientras se escribe: un espacio en el
+  /// buscador o en el compositor arrancaría la grabación.
+  bool get _typingInField {
+    final context = FocusManager.instance.primaryFocus?.context;
+    if (context == null) return false;
+    if (context.widget is EditableText) return true;
+    return context.findAncestorWidgetOfExactType<EditableText>() != null;
+  }
+
   void _onKey(KeyEvent event) {
     if (event is! KeyDownEvent) return;
+    if (_typingInField) return;
     unlockReelAudio();
     final key = event.logicalKey;
     if (key == LogicalKeyboardKey.space) {
@@ -245,12 +343,9 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   @override
   Widget build(BuildContext context) {
     final state = context.watch<AppState>();
-    if (!AdminConfig.isAdminEmail(state.authEmail)) {
-      return const Scaffold(body: SizedBox.shrink());
-    }
-
     final canvas = _canvas();
 
+    // Fuente de OBS: lienzo a pantalla completa, sin exigir sesión.
     if (_obs) {
       return KeyboardListener(
         focusNode: _focus,
@@ -264,6 +359,10 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
           ),
         ),
       );
+    }
+
+    if (!AdminConfig.isAdminEmail(state.authEmail)) {
+      return const Scaffold(body: SizedBox.shrink());
     }
 
     // Fondo oscuro de sala: usa el tema dark, no el claro de la app.
@@ -292,29 +391,21 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                     child: ListView(
                       padding: const EdgeInsets.all(16),
                       children: [
-                        Text(
-                          'Elige el caso de este video',
-                          style: theme.textTheme.titleSmall,
+                        ReelClipPicker(
+                          catalog: _catalog,
+                          selected: _clip,
+                          onSelected: (clip) {
+                            _reset();
+                            setState(() => _clip = clip);
+                          },
+                          onDeleteCustom: _deleteCustomClip,
                         ),
-                        const SizedBox(height: 4),
-                        Text(
-                          'Un reel = un caso. Toca el que quieras grabar. '
-                          'El piloto recomendado es PIAR. Ciclo exacto: 15,00 s.',
-                          style: theme.textTheme.bodySmall,
+                        const SizedBox(height: 12),
+                        ReelClipComposer(
+                          customClips: _customClips,
+                          onSave: _saveCustomClip,
+                          onDelete: _deleteCustomClip,
                         ),
-                        const SizedBox(height: 8),
-                        for (final clip in ReelStudioPack.clips)
-                          Padding(
-                            padding: const EdgeInsets.only(bottom: 6),
-                            child: ChoiceChip(
-                              selected: _clip.id == clip.id,
-                              label: Text(clip.label),
-                              onSelected: (_) {
-                                _reset();
-                                setState(() => _clip = clip);
-                              },
-                            ),
-                          ),
                         const SizedBox(height: 12),
                         SwitchListTile(
                           contentPadding: EdgeInsets.zero,
@@ -345,35 +436,49 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                             _playing ? 'Parar (espacio)' : 'Grabar (espacio)',
                           ),
                         ),
+                        const SizedBox(height: 12),
+                        Text(
+                          'Cómo grabar',
+                          style: theme.textTheme.titleSmall,
+                        ),
+                        const SizedBox(height: 4),
+                        Text(
+                          'El estudio se abre en Chrome, con tu cuenta. '
+                          'OBS es otro programa: o captura esta ventana, '
+                          'o abre el enlace en su propio navegador interno.',
+                          style: theme.textTheme.bodySmall,
+                        ),
+                        const SizedBox(height: 8),
+                        OutlinedButton(
+                          onPressed: () =>
+                              context.go('/admin/estudio-reels?$_obsQuery'),
+                          child: const Text('Ver solo el lienzo en esta pestaña'),
+                        ),
                         const SizedBox(height: 8),
                         OutlinedButton(
                           onPressed: () async {
-                          final url =
-                              'https://www.tuplazadocente.com/admin/estudio-reels?$_obsQuery';
+                            final url = _obsShareUrl;
                             await Clipboard.setData(ClipboardData(text: url));
                             if (!context.mounted) return;
                             AppSnackbars.show(
                               context,
                               message:
-                                  'URL OBS copiada. Fuente de navegador 1080×1920.',
+                                  'Enlace copiado. Pégalo dentro de OBS, '
+                                  'no en la barra de Chrome.',
                             );
                           },
-                          child: const Text('Copiar URL para OBS'),
-                        ),
-                        const SizedBox(height: 8),
-                        OutlinedButton(
-                          onPressed: () => context.go(
-                            '/admin/estudio-reels?$_obsQuery',
+                          child: const Text(
+                            'Copiar enlace para pegarlo dentro de OBS',
                           ),
-                          child: const Text('Pantalla completa OBS'),
                         ),
+                        const SizedBox(height: 16),
+                        const ReelCaptureNote(),
                         const SizedBox(height: 16),
                         ReelPublishKit(clip: _clip, revealMode: _revealMode),
                         const SizedBox(height: 16),
                         Text(
-                          'OBS: captura la ventana de Chrome en 1080×1920. '
-                          'Espacio = play/parar. R = reset. C = revela. '
-                          'Al terminar se queda en el registro. '
+                          'Atajos: espacio = play/parar. R = reset. C = revela. '
+                          'Al terminar se congela el cierre con el llamado a comentar. '
                           'Haz clic una vez en Chrome si quieres el tick en el video.',
                           style: theme.textTheme.bodySmall,
                         ),

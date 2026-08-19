@@ -5,6 +5,7 @@ import '../theme/app_colors.dart';
 import '../theme/reel_type.dart';
 import 'atmospheric_background.dart';
 import 'brand_logo.dart';
+import 'reel_close_cta.dart';
 
 enum ReelBeat { ready, hook, question, countdown, close }
 
@@ -36,16 +37,13 @@ class ReelExpressStage extends StatelessWidget {
   static const safeRight = 120.0;
   static const safeLeft = 48.0;
 
+  /// Ancho real de trabajo dentro del área segura (1080 menos los márgenes).
+  static const contentWidth = 1080.0 - safeLeft - safeRight;
+
   @override
   Widget build(BuildContext context) {
-    final type = ReelType.of(context);
-    final showQuestion =
-        beat == ReelBeat.question ||
-        beat == ReelBeat.countdown ||
-        beat == ReelBeat.close;
     final showTimer = beat == ReelBeat.countdown;
     final showClose = beat == ReelBeat.close;
-    final highlight = revealMode && beat == ReelBeat.close;
 
     return ClipRect(
       child: AtmosphericBackground(
@@ -58,114 +56,149 @@ class ReelExpressStage extends StatelessWidget {
           ),
           child: AnimatedSwitcher(
             duration: const Duration(milliseconds: 400),
-            child: beat == ReelBeat.hook
-                ? const _ReelHookHero(key: ValueKey('hook-hero'))
-                : Column(
-                    key: const ValueKey('hook-off-case'),
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                    children: [
-                      const _ReelWatermark(),
-                      if (!showClose) ...[
-                        const SizedBox(height: 16),
-                        Text(
-                          ReelStudioPack.hook,
-                          style: type.hookCompact,
-                          textAlign: TextAlign.center,
-                        ),
-                      ],
-                      if (showQuestion) ...[
-                        const SizedBox(height: 18),
-                        if (!showClose) ...[
-                          Text(clip.situation, style: type.situation),
-                          const SizedBox(height: 12),
-                          Text(clip.stem, style: type.kicker),
-                          const SizedBox(height: 16),
-                        ],
-                        for (var i = 0; i < clip.options.length; i++) ...[
-                          if (i > 0) const SizedBox(height: 10),
-                          _OptionRow(
-                            letter: i < letters.length
-                                ? letters[i]
-                                : '${i + 1}',
-                            text: clip.options[i],
-                            marked: highlight && i == clip.correctIndex,
-                            dimmed: highlight && i != clip.correctIndex,
-                          ),
-                        ],
-                      ],
-                      if (showTimer) ...[
-                        const SizedBox(height: 56),
-                        ClipRRect(
-                          borderRadius: BorderRadius.circular(99),
-                          child: SizedBox(
-                            height: 8,
-                            child: LinearProgressIndicator(
-                              value: countdownProgress.clamp(0.0, 1.0),
-                              backgroundColor: AppColors.mist,
-                              color: AppColors.gold,
-                            ),
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        Transform.scale(
-                          scale: timerPulse,
-                          child: Text(
-                            '$countdownLeft',
-                            style: type.timer,
-                            textAlign: TextAlign.center,
-                          ),
-                        ),
-                      ],
-                      if (showClose) ...[
-                        const SizedBox(height: 20),
-                        Text(
-                          revealMode
-                              ? 'Respuesta: ${clip.correctLetter}\n${clip.revealWhy}'
-                              : ReelStudioPack.closeComenta,
-                          style: type.cta,
-                          textAlign: TextAlign.center,
-                        ),
-                        const SizedBox(height: 16),
-                        DecoratedBox(
-                          decoration: BoxDecoration(
-                            color: AppColors.gold,
-                            borderRadius: BorderRadius.circular(18),
-                          ),
-                          child: Padding(
-                            padding: const EdgeInsets.symmetric(
-                              horizontal: 22,
-                              vertical: 16,
-                            ),
-                            child: Column(
-                              children: [
-                                Text(
-                                  ReelStudioPack.site,
-                                  style: type.ctaBar,
-                                  textAlign: TextAlign.center,
-                                ),
-                                const SizedBox(height: 4),
-                                Text(
-                                  ReelStudioPack.closeAction,
-                                  style: type.brand,
-                                  textAlign: TextAlign.center,
-                                ),
-                              ],
-                            ),
-                          ),
-                        ),
-                        const SizedBox(height: 12),
-                      ],
-                      const SizedBox(height: 12),
-                      Text(
-                        ReelStudioPack.disclaimer,
-                        style: type.fineprint,
-                        textAlign: TextAlign.center,
-                      ),
-                    ],
+            child: switch (beat) {
+              ReelBeat.hook => const _ReelHookHero(key: ValueKey('hook-hero')),
+              _ => Column(
+                key: ValueKey(showClose ? 'close' : 'case'),
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  const _ReelWatermark(),
+                  const SizedBox(height: 18),
+                  Expanded(
+                    child: showClose ? _close(context) : _caseBlock(context),
                   ),
+                  if (showTimer) _timer(context),
+                  if (showClose) ...[
+                    const SizedBox(height: 20),
+                    const ReelCloseBrandBar(),
+                  ],
+                  const SizedBox(height: 14),
+                  const _Disclaimer(),
+                ],
+              ),
+            },
           ),
         ),
       ),
+    );
+  }
+
+  /// Caso + enunciado + opciones. El `FittedBox` evita desbordes si un clip
+  /// futuro trae textos más largos: reduce en bloque en vez de romper el layout.
+  Widget _caseBlock(BuildContext context) {
+    final type = ReelType.of(context);
+    return _ScaleDownBox(
+      alignment: Alignment.topCenter,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Text(clip.situation, style: type.situation),
+          const SizedBox(height: 16),
+          Text(clip.stem, style: type.stem),
+          const SizedBox(height: 22),
+          for (var i = 0; i < clip.options.length; i++) ...[
+            if (i > 0) const SizedBox(height: 12),
+            _OptionRow(
+              letter: i < letters.length ? letters[i] : '${i + 1}',
+              text: clip.options[i],
+            ),
+          ],
+        ],
+      ),
+    );
+  }
+
+  /// Cierre: en el piloto se pide la letra; en el capítulo 2 se revela.
+  Widget _close(BuildContext context) {
+    if (!revealMode) {
+      return const _ScaleDownBox(
+        alignment: Alignment.center,
+        child: ReelCommentCta(),
+      );
+    }
+    return _ScaleDownBox(
+      alignment: Alignment.center,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          for (var i = 0; i < clip.options.length; i++) ...[
+            if (i > 0) const SizedBox(height: 12),
+            _OptionRow(
+              letter: i < letters.length ? letters[i] : '${i + 1}',
+              text: clip.options[i],
+              marked: i == clip.correctIndex,
+              dimmed: i != clip.correctIndex,
+            ),
+          ],
+          const SizedBox(height: 28),
+          ReelRevealClose(
+            correctLetter: clip.correctLetter,
+            why: clip.revealWhy,
+          ),
+        ],
+      ),
+    );
+  }
+
+  Widget _timer(BuildContext context) {
+    final type = ReelType.of(context);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        const SizedBox(height: 28),
+        ClipRRect(
+          borderRadius: BorderRadius.circular(99),
+          child: SizedBox(
+            height: 10,
+            child: LinearProgressIndicator(
+              value: countdownProgress.clamp(0.0, 1.0),
+              backgroundColor: AppColors.mist,
+              color: AppColors.gold,
+            ),
+          ),
+        ),
+        const SizedBox(height: 8),
+        Transform.scale(
+          scale: timerPulse,
+          child: Text(
+            '$countdownLeft',
+            style: type.timer,
+            textAlign: TextAlign.center,
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+/// Reduce el bloque completo si no cabe, manteniendo la proporción del diseño.
+class _ScaleDownBox extends StatelessWidget {
+  const _ScaleDownBox({required this.child, required this.alignment});
+
+  final Widget child;
+  final Alignment alignment;
+
+  @override
+  Widget build(BuildContext context) {
+    return FittedBox(
+      fit: BoxFit.scaleDown,
+      alignment: alignment,
+      child: SizedBox(width: ReelExpressStage.contentWidth, child: child),
+    );
+  }
+}
+
+/// Aviso legal fijo del lienzo.
+class _Disclaimer extends StatelessWidget {
+  const _Disclaimer();
+
+  @override
+  Widget build(BuildContext context) {
+    final type = ReelType.of(context);
+    return Text(
+      ReelStudioPack.disclaimer,
+      style: type.fineprint,
+      textAlign: TextAlign.center,
     );
   }
 }
@@ -208,7 +241,8 @@ class _ReelHookHero extends StatelessWidget {
   }
 }
 
-/// Logo mínimo durante el caso: sin pedir registro.
+/// Firma de marca: grande en la portada y mínima durante el caso, para que el
+/// contenido respire sin regalar el vídeo a quien lo reposte.
 class _ReelWatermark extends StatelessWidget {
   const _ReelWatermark({this.large = false});
 
@@ -217,12 +251,13 @@ class _ReelWatermark extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
-    final markSize = large ? 72.0 : 56.0;
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: large
+          ? MainAxisAlignment.center
+          : MainAxisAlignment.start,
       children: [
-        BrandLogo(size: markSize),
-        SizedBox(width: large ? 16 : 14),
+        BrandLogo(size: large ? 80 : 44),
+        SizedBox(width: large ? 16 : 12),
         Text(ReelStudioPack.brand, style: type.watermark),
       ],
     );
@@ -233,8 +268,8 @@ class _OptionRow extends StatelessWidget {
   const _OptionRow({
     required this.letter,
     required this.text,
-    required this.marked,
-    required this.dimmed,
+    this.marked = false,
+    this.dimmed = false,
   });
 
   final String letter;
@@ -252,28 +287,33 @@ class _OptionRow extends StatelessWidget {
       child: DecoratedBox(
         decoration: BoxDecoration(
           color: bg,
-          borderRadius: BorderRadius.circular(18),
-          border: Border.all(color: border, width: 2),
+          borderRadius: BorderRadius.circular(20),
+          border: Border.all(color: border, width: 3),
         ),
         child: Padding(
-          padding: const EdgeInsets.fromLTRB(14, 12, 16, 12),
+          padding: const EdgeInsets.fromLTRB(16, 16, 18, 16),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               DecoratedBox(
                 decoration: BoxDecoration(
                   color: marked ? AppColors.ink : AppColors.gold,
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(12),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.symmetric(
-                    horizontal: 12,
-                    vertical: 6,
+                    horizontal: 16,
+                    vertical: 8,
                   ),
-                  child: Text(letter, style: type.letter),
+                  child: Text(
+                    letter,
+                    style: type.letter.copyWith(
+                      color: marked ? AppColors.white : AppColors.ink,
+                    ),
+                  ),
                 ),
               ),
-              const SizedBox(width: 14),
+              const SizedBox(width: 16),
               Expanded(
                 child: Text(
                   text,

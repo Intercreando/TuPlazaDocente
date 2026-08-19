@@ -5,6 +5,13 @@ service cloud.firestore {
       return request.auth != null && request.auth.uid == userId;
     }
 
+    // Misma allowlist que AdminConfig y las Cloud Functions.
+    function isAdmin() {
+      return request.auth != null
+        && request.auth.token.email_verified == true
+        && request.auth.token.email in ['elkinoswa@gmail.com'];
+    }
+
     function premiumUnchanged() {
       return !request.resource.data.diff(resource.data)
         .affectedKeys()
@@ -83,6 +90,13 @@ service cloud.firestore {
     match /news/{id} {
       allow read: if resource.data.published == true;
       allow write: if false;
+    }
+
+    // Casos de reels: lectura pública para que la fuente de OBS (sin sesión)
+    // pueda pintar un caso creado a mano. Escritura solo el admin.
+    match /reelClips/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
     }
   }
 }

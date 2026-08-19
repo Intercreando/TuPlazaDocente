@@ -8,6 +8,7 @@ import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/option_tile.dart';
+import '../widgets/question_case_context.dart';
 
 /// Reto rápido: ítems nivel 1 con temporizador por pregunta (~45s).
 class SpeedBattleScreen extends StatefulWidget {
@@ -238,6 +239,7 @@ class _SpeedBattleScreenState extends State<SpeedBattleScreen> {
                 ),
               ),
               const SizedBox(height: 18),
+              QuestionCaseContext(question: question),
               Text(question.stem, style: theme.textTheme.titleLarge),
               const SizedBox(height: 16),
               ...List.generate(question.options.length, (i) {

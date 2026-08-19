@@ -8,6 +8,7 @@ import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../widgets/normative_link_chips.dart';
 import '../widgets/option_tile.dart';
+import '../widgets/question_case_context.dart';
 
 /// Modo práctica / racha / diagnóstico con explicación inmediata.
 class PracticeScreen extends StatelessWidget {
@@ -97,24 +98,7 @@ class PracticeScreen extends StatelessWidget {
                 ],
               ),
               const SizedBox(height: 14),
-              if (question.caseContext != null) ...[
-                Container(
-                  width: double.infinity,
-                  padding: const EdgeInsets.all(16),
-                  decoration: BoxDecoration(
-                    color: AppColors.skyLine.withValues(alpha: 0.10),
-                    borderRadius: BorderRadius.circular(16),
-                    border: Border.all(
-                      color: AppColors.skyLine.withValues(alpha: 0.35),
-                    ),
-                  ),
-                  child: Text(
-                    question.caseContext!,
-                    style: theme.textTheme.bodyMedium,
-                  ),
-                ),
-                const SizedBox(height: 14),
-              ],
+              QuestionCaseContext(question: question),
               Text(question.stem, style: theme.textTheme.titleLarge)
                   .animate(key: ValueKey(question.id))
                   .fadeIn(duration: 300.ms)
