@@ -7,6 +7,7 @@ const reelClipsEvaluacion = <ReelClip>[
     id: 'siee',
     group: ReelGroup.evaluacion,
     label: 'SIEE · cada uno con su peso',
+    hook: '¿Cada docente pondera como quiera?',
     situation:
         'En el área, dos docentes pelean el peso de un taller. Uno alega libertad de cátedra; el otro, el SIEE. Tú moderas.',
     stem: '¿Qué haces?',
@@ -24,6 +25,7 @@ const reelClipsEvaluacion = <ReelClip>[
     id: 'nota-castigo',
     group: ReelGroup.evaluacion,
     label: 'Nota · “les bajo por indisciplina”',
+    hook: '¿Les bajas la nota por indisciplina?',
     situation:
         'Un grupo de 10° saboteó la clase. Un colega propone bajar dos puntos de la nota del periodo a los que participaron, “para que aprendan”.',
     stem: '¿Qué sustentas en la reunión de área?',
@@ -41,6 +43,7 @@ const reelClipsEvaluacion = <ReelClip>[
     id: 'incapacidad',
     group: ReelGroup.evaluacion,
     label: 'Incapacidad · el cero del viernes',
+    hook: '¿Le dejas el cero porque la fecha ya pasó?',
     situation:
         'Una estudiante no presentó la prueba final por una incapacidad médica de tres días. La plataforma ya cerró y el promedio la deja perdiendo el área.',
     stem: '¿Qué corresponde?',
@@ -58,6 +61,7 @@ const reelClipsEvaluacion = <ReelClip>[
     id: 'promocion',
     group: ReelGroup.evaluacion,
     label: 'Comisión · promoción anticipada',
+    hook: '¿Niegan la promoción por la edad?',
     situation:
         'Un estudiante de 6° demuestra dominio muy por encima del grado. La familia pide promoción anticipada. Dos docentes se oponen por su edad y madurez.',
     stem: 'En la comisión, ¿qué sustentas?',
@@ -75,6 +79,7 @@ const reelClipsEvaluacion = <ReelClip>[
     id: 'retroalimentacion',
     group: ReelGroup.evaluacion,
     label: 'Entrega · solo el número en rojo',
+    hook: '¿Con la nota en rojo ya evaluaste?',
     situation:
         'Entregas la prueba con la nota en rojo. Los estudiantes miran el número y guardan la hoja. Los mismos errores reaparecen en la siguiente prueba.',
     stem: '¿Qué cambias en la entrega?',

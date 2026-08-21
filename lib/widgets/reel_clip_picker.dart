@@ -2,24 +2,28 @@ import 'package:flutter/material.dart';
 
 import '../data/reel_studio_pack.dart';
 
-/// Catálogo de casos del estudio: búsqueda y agrupación por tema.
-///
-/// Con dos docenas de casos una lista plana de chips deja de ser navegable, así
-/// que se filtra por texto y se separa por tema.
+/// Catálogo de casos del estudio: búsqueda, usados y borrar (pack o propios).
 class ReelClipPicker extends StatefulWidget {
   const ReelClipPicker({
     super.key,
     required this.catalog,
     required this.selected,
+    required this.usedIds,
+    required this.hiddenClips,
     required this.onSelected,
-    this.onDeleteCustom,
+    required this.onToggleUsed,
+    required this.onRemove,
+    this.onRestore,
   });
 
-  /// Casos del código más los creados a mano.
   final List<ReelClip> catalog;
   final ReelClip selected;
+  final Set<String> usedIds;
+  final List<ReelClip> hiddenClips;
   final ValueChanged<ReelClip> onSelected;
-  final ValueChanged<ReelClip>? onDeleteCustom;
+  final ValueChanged<ReelClip> onToggleUsed;
+  final ValueChanged<ReelClip> onRemove;
+  final ValueChanged<ReelClip>? onRestore;
 
   @override
   State<ReelClipPicker> createState() => _ReelClipPickerState();
@@ -28,6 +32,7 @@ class ReelClipPicker extends StatefulWidget {
 class _ReelClipPickerState extends State<ReelClipPicker> {
   final _controller = TextEditingController();
   String _query = '';
+  bool _hideUsed = true;
 
   @override
   void dispose() {
@@ -38,10 +43,12 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final catalog = widget.catalog;
-    final results = ReelStudioPack.searchIn(catalog, _query);
-    final total = catalog.length;
-    final propios = catalog.where((clip) => clip.isCustom).length;
+    final used = widget.usedIds;
+    var results = ReelStudioPack.searchIn(widget.catalog, _query);
+    if (_hideUsed) {
+      results = results.where((clip) => !used.contains(clip.id)).toList();
+    }
+    final pending = widget.catalog.where((c) => !used.contains(c.id)).length;
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -49,9 +56,8 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
         Text('Elige el caso de este video', style: theme.textTheme.titleSmall),
         const SizedBox(height: 4),
         Text(
-          'Un reel = un caso. Ciclo exacto: 15,00 s. '
-          'Hay $total casos${propios > 0 ? ' ($propios creados por ti)' : ''}: '
-          'alterna temas para no repetir.',
+          'Marca “usado” cuando lo grabes para no repetirlo. '
+          'Pendientes: $pending de ${widget.catalog.length}.',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 10),
@@ -65,26 +71,29 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
           ),
           onChanged: (value) => setState(() => _query = value),
         ),
-        const SizedBox(height: 6),
+        SwitchListTile(
+          contentPadding: EdgeInsets.zero,
+          title: Text('Ocultar ya usados', style: theme.textTheme.bodyMedium),
+          value: _hideUsed,
+          onChanged: (v) => setState(() => _hideUsed = v),
+        ),
         Text(
-          _query.trim().isEmpty
-              ? 'Grabando: ${widget.selected.label} '
-                    '(respuesta ${widget.selected.correctLetter})'
-              : '${results.length} de $total casos',
+          'Grabando: ${widget.selected.label}'
+          '${used.contains(widget.selected.id) ? ' · usado' : ''}',
           style: theme.textTheme.bodySmall,
         ),
-        if (widget.selected.isCustom && widget.onDeleteCustom != null) ...[
-          const SizedBox(height: 8),
-          OutlinedButton.icon(
-            onPressed: () => widget.onDeleteCustom!(widget.selected),
-            icon: const Icon(Icons.delete_outline, size: 18),
-            label: const Text('Borrar este caso'),
-          ),
-        ],
+        const SizedBox(height: 2),
+        Text(
+          'Abre con: ${widget.selected.hook}',
+          style: theme.textTheme.bodySmall,
+        ),
         if (results.isEmpty) ...[
           const SizedBox(height: 10),
           Text(
-            'Ningún caso coincide con esa búsqueda.',
+            _hideUsed
+                ? 'No quedan casos pendientes. Quita “Ocultar ya usados” '
+                    'o restaura alguno oculto.'
+                : 'Ningún caso coincide con esa búsqueda.',
             style: theme.textTheme.bodySmall,
           ),
         ],
@@ -93,31 +102,84 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
           Text(group.label, style: theme.textTheme.labelLarge),
           const SizedBox(height: 6),
           for (final clip in results.where((c) => c.group == group))
-            Padding(
-              padding: const EdgeInsets.only(bottom: 6),
-              child: Row(
-                children: [
-                  Expanded(
-                    child: ChoiceChip(
-                      selected: widget.selected.id == clip.id,
-                      avatar: clip.isCustom
-                          ? const Icon(Icons.edit_note, size: 18)
-                          : null,
-                      label: Text(clip.label),
-                      onSelected: (_) => widget.onSelected(clip),
-                    ),
-                  ),
-                  if (clip.isCustom && widget.onDeleteCustom != null)
-                    IconButton(
-                      tooltip: 'Borrar caso',
-                      icon: const Icon(Icons.delete_outline, size: 20),
-                      onPressed: () => widget.onDeleteCustom!(clip),
-                    ),
-                ],
+            _ClipRow(
+              clip: clip,
+              selected: widget.selected.id == clip.id,
+              used: used.contains(clip.id),
+              onSelected: () => widget.onSelected(clip),
+              onToggleUsed: () => widget.onToggleUsed(clip),
+              onRemove: () => widget.onRemove(clip),
+            ),
+        ],
+        if (widget.hiddenClips.isNotEmpty && widget.onRestore != null) ...[
+          const SizedBox(height: 12),
+          Text('Ocultos del catálogo', style: theme.textTheme.labelLarge),
+          const SizedBox(height: 6),
+          for (final clip in widget.hiddenClips)
+            ListTile(
+              dense: true,
+              contentPadding: EdgeInsets.zero,
+              title: Text(clip.label, style: theme.textTheme.bodyMedium),
+              trailing: TextButton(
+                onPressed: () => widget.onRestore!(clip),
+                child: const Text('Restaurar'),
               ),
             ),
         ],
       ],
+    );
+  }
+}
+
+class _ClipRow extends StatelessWidget {
+  const _ClipRow({
+    required this.clip,
+    required this.selected,
+    required this.used,
+    required this.onSelected,
+    required this.onToggleUsed,
+    required this.onRemove,
+  });
+
+  final ReelClip clip;
+  final bool selected;
+  final bool used;
+  final VoidCallback onSelected;
+  final VoidCallback onToggleUsed;
+  final VoidCallback onRemove;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 6),
+      child: Row(
+        children: [
+          Expanded(
+            child: ChoiceChip(
+              selected: selected,
+              avatar: Icon(
+                clip.isCustom ? Icons.edit_note : Icons.quiz_outlined,
+                size: 18,
+              ),
+              label: Text(used ? '${clip.label} · usado' : clip.label),
+              onSelected: (_) => onSelected(),
+            ),
+          ),
+          IconButton(
+            tooltip: used ? 'Quitar de usados' : 'Marcar como usado',
+            icon: Icon(
+              used ? Icons.check_circle : Icons.circle_outlined,
+              size: 22,
+            ),
+            onPressed: onToggleUsed,
+          ),
+          IconButton(
+            tooltip: clip.isCustom ? 'Borrar caso' : 'Ocultar del catálogo',
+            icon: const Icon(Icons.delete_outline, size: 20),
+            onPressed: onRemove,
+          ),
+        ],
+      ),
     );
   }
 }

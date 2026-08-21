@@ -31,14 +31,17 @@ class ReelExpressStage extends StatelessWidget {
   static const designSize = Size(1080, 1920);
   static const letters = ['A', 'B', 'C', 'D'];
 
-  /// TikTok: barra “Buscar contenido relacionado” + likes a la derecha.
+  /// TikTok: caption y “Buscar contenido relacionado” (texto blanco).
+  /// El margen queda en tinta oscura para que ese blanco sí contraste.
   static const safeTop = 280.0;
-  static const safeBottom = 280.0;
-  static const safeRight = 120.0;
+  static const safeBottom = 300.0;
+  static const safeRight = 132.0;
   static const safeLeft = 48.0;
 
-  /// Ancho real de trabajo dentro del área segura (1080 menos los márgenes).
-  static const contentWidth = 1080.0 - safeLeft - safeRight;
+  /// Ancho real de trabajo dentro de la tarjeta (márgenes TikTok + padding).
+  static const _innerPad = 28.0;
+  static const contentWidth =
+      1080.0 - safeLeft - safeRight - (_innerPad * 2);
 
   @override
   Widget build(BuildContext context) {
@@ -46,39 +49,63 @@ class ReelExpressStage extends StatelessWidget {
     final showClose = beat == ReelBeat.close;
 
     return ClipRect(
-      child: AtmosphericBackground(
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(
-            safeLeft,
-            safeTop,
-            safeRight,
-            safeBottom,
-          ),
-          child: AnimatedSwitcher(
-            duration: const Duration(milliseconds: 400),
-            child: switch (beat) {
-              ReelBeat.hook => const _ReelHookHero(key: ValueKey('hook-hero')),
-              _ => Column(
-                key: ValueKey(showClose ? 'close' : 'case'),
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  const _ReelWatermark(),
-                  const SizedBox(height: 18),
-                  Expanded(
-                    child: showClose ? _close(context) : _caseBlock(context),
-                  ),
-                  if (showTimer) _timer(context),
-                  if (showClose) ...[
-                    const SizedBox(height: 20),
-                    const ReelCloseBrandBar(),
-                  ],
-                  const SizedBox(height: 14),
-                  const _Disclaimer(),
-                ],
+      child: Stack(
+        fit: StackFit.expand,
+        children: [
+          const ColoredBox(color: AppColors.ink),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(
+              safeLeft,
+              safeTop,
+              safeRight,
+              safeBottom,
+            ),
+            child: DecoratedBox(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(28),
+                border: Border.all(color: AppColors.gold, width: 3),
               ),
-            },
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(25),
+                child: AtmosphericBackground(
+                  child: Padding(
+                    padding: const EdgeInsets.fromLTRB(28, 28, 28, 24),
+                    child: AnimatedSwitcher(
+                      duration: const Duration(milliseconds: 400),
+                      child: switch (beat) {
+                        ReelBeat.hook => _ReelHookHero(
+                          key: ValueKey('hook-${clip.id}-$revealMode'),
+                          clip: clip,
+                          revealMode: revealMode,
+                        ),
+                        _ => Column(
+                          key: ValueKey(showClose ? 'close' : 'case'),
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            const _ReelWatermark(),
+                            const SizedBox(height: 18),
+                            Expanded(
+                              child: showClose
+                                  ? _close(context)
+                                  : _caseBlock(context),
+                            ),
+                            if (showTimer) _timer(context),
+                            if (showClose) ...[
+                              const SizedBox(height: 20),
+                              const ReelCloseBrandBar(),
+                            ],
+                            const SizedBox(height: 14),
+                            const _Disclaimer(),
+                          ],
+                        ),
+                      },
+                    ),
+                  ),
+                ),
+              ),
+            ),
           ),
-        ),
+        ],
       ),
     );
   }
@@ -203,38 +230,59 @@ class _Disclaimer extends StatelessWidget {
   }
 }
 
-/// Primera pantalla: marca + H1 centrados y un poco más grandes.
+/// Primera pantalla: la trampa del caso. En el capítulo 2 avisa que hoy
+/// se revela, sin adelantar la letra.
 class _ReelHookHero extends StatelessWidget {
-  const _ReelHookHero({super.key});
+  const _ReelHookHero({
+    super.key,
+    required this.clip,
+    required this.revealMode,
+  });
+
+  final ReelClip clip;
+  final bool revealMode;
 
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
     return SizedBox.expand(
       child: Center(
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          children: [
-            const _ReelWatermark(large: true),
-            const SizedBox(height: 28),
-            Text(
-              'CONCURSO DOCENTE 2026',
-              style: type.kicker,
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 24),
-            Text(
-              ReelStudioPack.hook,
-              style: type.hook,
-              textAlign: TextAlign.center,
-            ),
-            const SizedBox(height: 28),
-            Text(
-              ReelStudioPack.disclaimer,
-              style: type.fineprint,
-              textAlign: TextAlign.center,
-            ),
-          ],
+        child: _ScaleDownBox(
+          alignment: Alignment.center,
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const _ReelWatermark(large: true),
+              const SizedBox(height: 28),
+              Text(
+                revealMode
+                    ? ReelStudioPack.revealKicker
+                    : ReelStudioPack.seriesKicker,
+                style: type.kicker,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 24),
+              Text(
+                clip.hook,
+                style: type.hook,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 28),
+              Text(
+                revealMode
+                    ? ReelStudioPack.revealPromise
+                    : ReelStudioPack.closeAsk,
+                style: type.cta,
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 28),
+              Text(
+                ReelStudioPack.disclaimer,
+                style: type.fineprint,
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
         ),
       ),
     );

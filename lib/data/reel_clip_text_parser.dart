@@ -28,6 +28,7 @@ class ReelClipDraft {
 abstract final class ReelClipTextParser {
   /// Límites del lienzo 1080×1920 con la tipografía grande.
   static const maxLabel = 44;
+  static const maxHook = 56;
   static const maxSituation = 260;
   static const maxStem = 90;
   static const maxOption = 95;
@@ -36,6 +37,7 @@ abstract final class ReelClipTextParser {
   static const plantilla = '''
 Tema: convivencia
 Título: WhatsApp · el grupo del curso
+Hook: ¿Respetas el silencio y no avisas a la casa?
 Caso: En el grupo de WhatsApp que creaste para tareas, tres estudiantes se burlan de una compañera. Ella pide que no pase nada y que no llames a su casa.
 Pregunta: ¿Qué haces?
 A) Guardar evidencia, activar la ruta y acompañarla.
@@ -43,7 +45,7 @@ B) Respetar su silencio: si ella no denuncia, no hay caso.
 C) Sacar del grupo a los tres y borrar los mensajes.
 D) Escribir un llamado general al respeto y observar una semana.
 Correcta: A
-Porque: Ante el acoso a un menor no hay silencio pactado: se protege y se registra.
+Porque: Si hay daño a un estudiante no hay silencio pactado: se protege y se registra.
 ''';
 
   static const _labels = <String, String>{
@@ -52,6 +54,9 @@ Porque: Ante el acoso a un menor no hay silencio pactado: se protege y se regist
     'titulo': 'label',
     'título': 'label',
     'nombre': 'label',
+    'hook': 'hook',
+    'gancho': 'hook',
+    'apertura': 'hook',
     'caso': 'situation',
     'situacion': 'situation',
     'situación': 'situation',
@@ -139,6 +144,8 @@ Porque: Ante el acoso a un menor no hay silencio pactado: se protege y se regist
     }
 
     _warnLength(warnings, 'El título', label, maxLabel);
+    final hook = fields['hook'] ?? '';
+    _warnLength(warnings, 'El gancho', hook, maxHook);
     _warnLength(warnings, 'El caso', situation, maxSituation);
     _warnLength(warnings, 'La pregunta', stem, maxStem);
     _warnLength(warnings, 'El porqué', why, maxWhy);
@@ -155,6 +162,7 @@ Porque: Ante el acoso a un menor no hay silencio pactado: se protege y se regist
         id: existingId ?? _slug(label),
         group: group!,
         label: label,
+        hook: hook.isEmpty ? ReelClip.fallbackHook : hook,
         situation: situation,
         stem: stem,
         options: options,

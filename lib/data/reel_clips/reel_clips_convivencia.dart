@@ -1,15 +1,17 @@
 import '../reel_clip.dart';
 
 /// Casos de convivencia escolar (Ley 1620): protección, ruta y debido proceso.
-/// La trampa habitual es cerrar el caso con un diálogo exprés o pedir pruebas
-/// antes de proteger.
+///
+/// En reels no se describen delitos, lesiones ni acoso sexual: TikTok baja o
+/// bloquea ese texto aunque el caso sea pedagógico.
 const reelClipsConvivencia = <ReelClip>[
   ReelClip(
     id: 'convivencia',
     group: ReelGroup.convivencia,
-    label: 'Acoso · “hacer las paces hoy”',
+    label: 'Convivencia · “hacer las paces hoy”',
+    hook: '¿Haces las paces hoy y cierras el caso?',
     situation:
-        'Un estudiante de 8° denuncia acoso reiterado (patio y WhatsApp). Hay testigos. El señalado niega.',
+        'Un estudiante de 8° reporta burlas repetidas en el patio y en el chat. Hay testigos. Quien señala niega.',
     stem: '¿Primera actuación?',
     options: [
       'Diálogo hoy, disculpas, y se cierra si “hacen las paces”.',
@@ -24,9 +26,10 @@ const reelClipsConvivencia = <ReelClip>[
   ReelClip(
     id: 'video',
     group: ReelGroup.convivencia,
-    label: 'Video · “úsalo en ética”',
+    label: 'Celular · “úsalo en ética”',
+    hook: '¿Usas el caso mañana en ética?',
     situation:
-        'Un estudiante llora: circula un video suyo. Compañeros ríen con el celular. Una colega propone usarlo mañana en ética.',
+        'En clase circula un contenido de un compañero y varios se ríen. Una colega propone usarlo mañana como ejemplo en ética.',
     stem: '¿Qué va primero?',
     options: [
       'Parar la circulación, proteger, informar y registrar.',
@@ -36,12 +39,13 @@ const reelClipsConvivencia = <ReelClip>[
     ],
     correctIndex: 0,
     revealWhy:
-        'Primero se corta el daño. Didactizar el caso de un menor en caliente revictimiza.',
+        'Primero se corta el daño. Usar el caso de un estudiante en caliente lo expone otra vez.',
   ),
   ReelClip(
     id: 'acudiente',
     group: ReelGroup.convivencia,
     label: 'Acudiente · “expúlsalo hoy”',
+    hook: '¿Lo expulsas hoy porque el acudiente lo exige?',
     situation:
         'Un acudiente exige apartar hoy a un compañero por una pelea. No hay acta. Amenaza con publicarlo en el grupo de familias.',
     stem: 'Como director de grupo, ¿qué haces?',
@@ -59,8 +63,9 @@ const reelClipsConvivencia = <ReelClip>[
     id: 'chat',
     group: ReelGroup.convivencia,
     label: 'WhatsApp · “no le digas a mi mamá”',
+    hook: '¿Respetas el silencio y no avisas a la casa?',
     situation:
-        'En el grupo de WhatsApp que creaste para tareas, tres estudiantes se burlan de una compañera con memes. Ella te pide que no pase nada y que no llames a su casa.',
+        'En el grupo de WhatsApp que creaste para tareas, tres estudiantes se burlan de una compañera. Ella te pide que no pase nada y que no llames a su casa.',
     stem: '¿Qué haces?',
     options: [
       'Guardar evidencia, activar la ruta y acompañarla, aunque pida silencio.',
@@ -70,40 +75,42 @@ const reelClipsConvivencia = <ReelClip>[
     ],
     correctIndex: 0,
     revealWhy:
-        'Ante el acoso a un menor no hay silencio pactado: se protege, se registra y se activa la ruta.',
+        'Si hay daño a un estudiante no hay silencio pactado: se protege, se registra y se activa la ruta.',
   ),
   ReelClip(
     id: 'revelacion',
     group: ReelGroup.convivencia,
-    label: 'Revelación · presunto delito',
+    label: 'Secreto · “no se lo digas a nadie”',
+    hook: '¿Guardas el secreto porque te lo pidió?',
     situation:
-        'Al terminar la clase, una estudiante de 6° te cuenta que un adulto de su casa la toca. Te pide que no le digas a nadie. Están solos en el salón.',
+        'Al terminar la clase, una estudiante de 6° te dice que en casa no se siente segura y te pide secreto. Están solos en el salón.',
     stem: '¿Qué haces primero?',
     options: [
       'Entrevistarla con detalle para confirmar antes de mover el caso.',
       'Reportar de inmediato a rectoría y a la autoridad competente.',
-      'Llamar a la casa para escuchar la versión del adulto señalado.',
+      'Llamar a la casa para escuchar la versión de los adultos.',
       'Esperar a que lo repita ante orientación para no exponerla.',
     ],
     correctIndex: 1,
     revealWhy:
-        'El docente no investiga: reporta hoy. Buscar la versión del hogar pone en riesgo a la niña.',
+        'El docente no investiga a solas: reporta hoy. Llamar a la casa puede ponerla en más riesgo.',
   ),
   ReelClip(
     id: 'autolesion',
     group: ReelGroup.convivencia,
-    label: 'Alerta · señales de autolesión',
+    label: 'Acompañar · “no avises a nadie”',
+    hook: '¿Prometes no avisar a nadie?',
     situation:
-        'Ves cortes recientes en el brazo de un estudiante de 9°. Él minimiza y pide que no digas nada. Un compañero comenta que “lleva meses así”.',
+        'Un estudiante de 9° se aísla, rinde menos y un compañero te dice que está pasando un mal momento. Él pide que no avises.',
     stem: '¿Cuál es la actuación correcta?',
     options: [
-      'Hablar con el grupo sobre salud mental y esperar que él se acerque.',
-      'Dejarlo en el observador y revisarlo al cierre del periodo.',
-      'Pedirle que firme un compromiso de no volver a hacerlo.',
-      'Activar hoy la ruta de salud con orientación y la familia.',
+      'Hablar con el grupo sobre bienestar y esperar que él se acerque.',
+      'Dejar una nota en el observador y revisarlo al cierre del periodo.',
+      'Pedirle que prometa mejorar y no comentarlo con nadie.',
+      'Activar hoy la ruta de acompañamiento con orientación y la familia.',
     ],
     correctIndex: 3,
     revealWhy:
-        'Una señal de riesgo vital no se aplaza ni se arregla con compromisos: se remite y se acompaña.',
+        'Un malestar persistente no se guarda en secreto ni se aplaza: se remite y se acompaña.',
   ),
 ];

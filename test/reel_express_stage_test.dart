@@ -86,15 +86,53 @@ void main() {
     }
   });
 
-  testWidgets('la pregunta no repite el gancho de la portada', (tester) async {
+  testWidgets('la portada usa el gancho del caso, no el genérico', (
+    tester,
+  ) async {
+    final clip = ReelStudioPack.clips.first;
     await pumpStage(
       tester,
-      clip: ReelStudioPack.clips.first,
+      clip: clip,
+      beat: ReelBeat.hook,
+      revealMode: false,
+    );
+
+    expect(find.text(clip.hook), findsOneWidget);
+    expect(find.text(ReelStudioPack.closeAsk), findsOneWidget);
+    expect(find.text(ReelStudioPack.seriesKicker), findsOneWidget);
+    expect(find.text(ReelClip.fallbackHook), findsNothing);
+  });
+
+  testWidgets('la portada del capítulo 2 avisa que hoy se revela', (
+    tester,
+  ) async {
+    final clip = ReelStudioPack.clips.first;
+    await pumpStage(
+      tester,
+      clip: clip,
+      beat: ReelBeat.hook,
+      revealMode: true,
+    );
+
+    expect(find.text(ReelStudioPack.revealKicker), findsOneWidget);
+    expect(find.text(ReelStudioPack.revealPromise), findsOneWidget);
+    expect(find.text(clip.hook), findsOneWidget);
+    expect(find.text(clip.correctLetter), findsNothing);
+    expect(find.text(ReelStudioPack.closeAsk), findsNothing);
+    expect(find.text(ReelStudioPack.seriesKicker), findsNothing);
+  });
+
+  testWidgets('la pregunta no repite el gancho de la portada', (tester) async {
+    final clip = ReelStudioPack.clips.first;
+    await pumpStage(
+      tester,
+      clip: clip,
       beat: ReelBeat.question,
       revealMode: false,
     );
 
-    expect(find.text(ReelStudioPack.hook), findsNothing);
-    expect(find.text(ReelStudioPack.clips.first.stem), findsOneWidget);
+    expect(find.text(clip.hook), findsNothing);
+    expect(find.text(ReelClip.fallbackHook), findsNothing);
+    expect(find.text(clip.stem), findsOneWidget);
   });
 }

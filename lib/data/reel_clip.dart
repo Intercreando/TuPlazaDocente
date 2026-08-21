@@ -54,6 +54,9 @@ enum ReelGroup {
 /// Regla editorial: las cuatro opciones deben sonar razonables. Si la correcta
 /// se adivina de un vistazo, el reel no genera debate en comentarios.
 class ReelClip {
+  /// Apertura genérica si un caso pegado no trae gancho propio.
+  static const fallbackHook = '¿Pasarías esta pregunta del Concurso Docente?';
+
   const ReelClip({
     required this.id,
     required this.group,
@@ -63,12 +66,16 @@ class ReelClip {
     required this.options,
     required this.correctIndex,
     required this.revealWhy,
+    this.hook = fallbackHook,
     this.isCustom = false,
   });
 
   final String id;
   final ReelGroup group;
   final String label;
+
+  /// Primera pregunta del vídeo: la trampa, no el examen.
+  final String hook;
   final String situation;
   final String stem;
   final List<String> options;
@@ -86,12 +93,13 @@ class ReelClip {
 
   /// Texto plano para buscar en el catálogo del estudio.
   String get searchText =>
-      '$label $situation $stem ${group.label}'.toLowerCase();
+      '$label $hook $situation $stem ${group.label}'.toLowerCase();
 
   Map<String, dynamic> toMap() {
     return {
       'group': group.name,
       'label': label,
+      'hook': hook,
       'situation': situation,
       'stem': stem,
       'options': options,
@@ -120,10 +128,12 @@ class ReelClip {
     final situation = '${data['situation'] ?? ''}'.trim();
     final stem = '${data['stem'] ?? ''}'.trim();
     if (label.isEmpty || situation.isEmpty || stem.isEmpty) return null;
+    final hook = '${data['hook'] ?? ''}'.trim();
     return ReelClip(
       id: id,
       group: group,
       label: label,
+      hook: hook.isEmpty ? fallbackHook : hook,
       situation: situation,
       stem: stem,
       options: options,

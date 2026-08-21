@@ -98,5 +98,11 @@ service cloud.firestore {
       allow read: if true;
       allow write: if isAdmin();
     }
+
+    // Usados y ocultos del estudio de reels. Escritura solo admin.
+    match /reelStudio/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
   }
 }

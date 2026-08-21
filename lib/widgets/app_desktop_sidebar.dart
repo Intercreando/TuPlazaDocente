@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../config/admin_config.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import 'brand_logo.dart';
@@ -62,6 +63,29 @@ class AppDesktopSidebar extends StatelessWidget {
         accent: true,
         branch: 3,
       ),
+      if (AdminConfig.isAdminEmail(state.authEmail)) ...[
+        const _SidebarItemData(
+          icon: Icons.confirmation_number_outlined,
+          selectedIcon: Icons.confirmation_number_rounded,
+          label: 'Códigos',
+          caption: 'Promos admin',
+          path: '/admin/promos',
+        ),
+        const _SidebarItemData(
+          icon: Icons.edit_note_outlined,
+          selectedIcon: Icons.edit_note_rounded,
+          label: 'Avisos',
+          caption: 'Noticias admin',
+          path: '/admin/noticias',
+        ),
+        const _SidebarItemData(
+          icon: Icons.videocam_outlined,
+          selectedIcon: Icons.videocam_rounded,
+          label: 'Estudio Reels',
+          caption: 'OBS y captura',
+          path: '/admin/estudio-reels',
+        ),
+      ],
     ];
 
     return Material(
@@ -135,15 +159,26 @@ class AppDesktopSidebar extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 10),
-                for (var i = 0; i < items.length; i++) ...[
-                  _SidebarNavButton(
-                    data: items[i],
-                    selected: selectedIndex == items[i].branch,
-                    onTap: () => onDestinationSelected(items[i].branch),
+                Expanded(
+                  child: ListView(
+                    padding: EdgeInsets.zero,
+                    children: [
+                      for (var i = 0; i < items.length; i++) ...[
+                        _SidebarNavButton(
+                          data: items[i],
+                          selected: _isSelected(
+                            context,
+                            items[i],
+                            selectedIndex,
+                          ),
+                          onTap: () => _openItem(context, items[i]),
+                        ),
+                        if (i < items.length - 1) const SizedBox(height: 8),
+                      ],
+                    ],
                   ),
-                  if (i < items.length - 1) const SizedBox(height: 8),
-                ],
-                const Spacer(),
+                ),
+                const SizedBox(height: 12),
                 Container(
                   padding: const EdgeInsets.all(14),
                   decoration: BoxDecoration(
@@ -197,6 +232,28 @@ class AppDesktopSidebar extends StatelessWidget {
       ),
     );
   }
+
+  bool _isSelected(
+    BuildContext context,
+    _SidebarItemData data,
+    int selectedIndex,
+  ) {
+    final path = data.path;
+    if (path != null) {
+      return GoRouterState.of(context).uri.path.startsWith(path);
+    }
+    return data.branch != null && selectedIndex == data.branch;
+  }
+
+  void _openItem(BuildContext context, _SidebarItemData data) {
+    final path = data.path;
+    if (path != null) {
+      context.go(path);
+      return;
+    }
+    final branch = data.branch;
+    if (branch != null) onDestinationSelected(branch);
+  }
 }
 
 class _SidebarItemData {
@@ -205,7 +262,8 @@ class _SidebarItemData {
     required this.selectedIcon,
     required this.label,
     required this.caption,
-    required this.branch,
+    this.branch,
+    this.path,
     this.accent = false,
   });
 
@@ -213,7 +271,8 @@ class _SidebarItemData {
   final IconData selectedIcon;
   final String label;
   final String caption;
-  final int branch;
+  final int? branch;
+  final String? path;
   final bool accent;
 }
 

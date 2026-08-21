@@ -7,6 +7,7 @@ const reelClipsDirectivo = <ReelClip>[
     id: 'patio',
     group: ReelGroup.directivo,
     label: 'Patio · conflicto entre docentes',
+    hook: '¿No te metes porque no eres coordinador?',
     situation:
         'Dos docentes discuten fuerte en el patio. Estudiantes miran. Estás de descanso. No eres coordinador.',
     stem: '¿Qué haces ahora?',
@@ -24,6 +25,7 @@ const reelClipsDirectivo = <ReelClip>[
     id: 'llegadas-tarde',
     group: ReelGroup.directivo,
     label: 'Rector · el docente que llega tarde',
+    hook: '¿Lo aludes en la reunión sin nombrarlo?',
     situation:
         'Un docente llega tarde tres veces por semana y su grupo espera en el pasillo. En la sala de profesores ya se comenta el caso.',
     stem: 'Como rector, ¿qué haces?',
@@ -40,9 +42,10 @@ const reelClipsDirectivo = <ReelClip>[
   ReelClip(
     id: 'acoso-laboral',
     group: ReelGroup.directivo,
-    label: 'Coordinación · humillación entre colegas',
+    label: 'Coordinación · maltrato entre colegas',
+    hook: '¿Si no lo pone por escrito no haces nada?',
     situation:
-        'Una docente te cuenta en privado que un colega la humilla frente a estudiantes. Te pide que no la nombres. Varios estudiantes ya lo comentan.',
+        'Una docente te cuenta en privado que un colega la trata mal frente al grupo. Te pide que no la nombres. Varios estudiantes ya lo comentan.',
     stem: '¿Cómo actúas?',
     options: [
       'Hablarle a él en general sobre trato respetuoso, sin mencionar el caso.',
@@ -58,6 +61,7 @@ const reelClipsDirectivo = <ReelClip>[
     id: 'gratuidad',
     group: ReelGroup.directivo,
     label: 'Rector · “que cada familia aporte”',
+    hook: '¿Apruebas la cuota que pidió el consejo de padres?',
     situation:
         'Falta material para el laboratorio. El consejo de padres propone una cuota obligatoria de veinte mil pesos por estudiante para el próximo periodo.',
     stem: '¿Qué decides?',
@@ -75,17 +79,18 @@ const reelClipsDirectivo = <ReelClip>[
     id: 'prensa',
     group: ReelGroup.directivo,
     label: 'Directivo · la prensa en la puerta',
+    hook: '¿Das una declaración corta para calmar el rumor?',
     situation:
         'Un noticiero llega por el caso de un estudiante de 7°. Piden declaración y el grado exacto. Hay padres grabando en la reja. Rectoría no está.',
     stem: 'Como coordinador, ¿qué haces?',
     options: [
       'Dar una declaración corta, sin nombres, para calmar el rumor.',
       'Dejar que el consejo de padres hable en nombre del colegio.',
-      'No entregar datos del menor y remitir a la instancia oficial.',
+      'No entregar datos del estudiante y remitir a la instancia oficial.',
       'Mostrar el acta del comité para probar que sí actuaron.',
     ],
     correctIndex: 2,
     revealWhy:
-        'Ningún dato de un menor se entrega a medios: la vocería tiene canal y la reserva es obligatoria.',
+        'Ningún dato de un estudiante se entrega a medios: la vocería tiene canal y la reserva es obligatoria.',
   ),
 ];

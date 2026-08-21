@@ -16,6 +16,7 @@ class ReelClipService {
   final FirebaseFirestore? _firestoreOverride;
 
   static const collection = 'reelClips';
+  static const _metaPath = 'reelStudio/state';
 
   FirebaseFirestore? get _db {
     if (_firestoreOverride != null) return _firestoreOverride;
@@ -78,6 +79,58 @@ class ReelClipService {
       debugPrint('ReelClipService delete: $e');
       throw Exception(_friendly(e));
     }
+  }
+
+  /// Casos ya grabados y casos del pack que se ocultaron del catálogo.
+  Future<({Set<String> usedIds, Set<String> hiddenIds})> loadStudioState() async {
+    final empty = (usedIds: <String>{}, hiddenIds: <String>{});
+    final db = _db;
+    if (db == null) return empty;
+    try {
+      final snap = await db.doc(_metaPath).get();
+      final data = snap.data() ?? const <String, dynamic>{};
+      return (
+        usedIds: _stringSet(data['usedIds']),
+        hiddenIds: _stringSet(data['hiddenIds']),
+      );
+    } catch (e) {
+      debugPrint('ReelClipService loadStudioState: $e');
+      return empty;
+    }
+  }
+
+  Future<void> setUsed(String id, {required bool used}) {
+    return _toggleMetaArray('usedIds', id, add: used);
+  }
+
+  /// Oculta un caso del pack (el código no se borra; se puede restaurar).
+  Future<void> setHidden(String id, {required bool hidden}) {
+    return _toggleMetaArray('hiddenIds', id, add: hidden);
+  }
+
+  Future<void> _toggleMetaArray(
+    String field,
+    String id, {
+    required bool add,
+  }) async {
+    final db = _db;
+    if (db == null) {
+      throw Exception('Firebase no está disponible en esta sesión.');
+    }
+    try {
+      await db.doc(_metaPath).set({
+        field: add ? FieldValue.arrayUnion([id]) : FieldValue.arrayRemove([id]),
+        'updatedAt': FieldValue.serverTimestamp(),
+      }, SetOptions(merge: true));
+    } catch (e) {
+      debugPrint('ReelClipService $field: $e');
+      throw Exception(_friendly(e));
+    }
+  }
+
+  Set<String> _stringSet(Object? raw) {
+    if (raw is! List) return {};
+    return raw.map((e) => '$e'.trim()).where((e) => e.isNotEmpty).toSet();
   }
 
   String _friendly(Object error) {

@@ -11,7 +11,11 @@ export 'reel_clip.dart';
 /// Los casos viven en `reel_clips/` agrupados por tema; aquí solo se componen
 /// el catálogo y los textos fijos del lienzo.
 abstract final class ReelStudioPack {
-  static const hook = '¿Pasarías esta pregunta del Concurso Docente?';
+  /// Reserva si un caso no trae gancho. En el pack cada clip tiene el suyo.
+  static const hook = ReelClip.fallbackHook;
+  static const seriesKicker = 'CONCURSO DOCENTE 2026';
+  static const revealKicker = 'LA RESPUESTA';
+  static const revealPromise = 'Hoy te digo cuál era.';
 
   /// Cierre sin revelar: se pide la letra para provocar comentarios.
   static const closeAsk = '¿A, B, C o D?';
@@ -76,25 +80,28 @@ abstract final class ReelStudioPack {
   }
 
   /// Caption de TikTok/Reels (sin revelar la letra en el capítulo 1).
+  ///
+  /// No se pega el caso completo: el clasificador de TikTok lee el caption
+  /// primero. El enunciado ya va en el vídeo.
   static String captionFor(ReelClip clip, {required bool reveal}) {
-    final lines = <String>[hook, '', clip.label];
-    if (!reveal) {
-      lines.addAll([
-        clip.situation,
-        clip.stem,
-        '',
-        '$closeAsk $closeComenta.',
-        closeFollow,
-        '',
-        closeRegister,
-      ]);
-    } else {
-      lines.addAll([
-        'Respuesta: ${clip.correctLetter}. ${clip.revealWhy}',
-        '',
-        closeRegister,
-      ]);
-    }
+    final lines = reveal
+        ? <String>[
+            revealKicker,
+            clip.hook,
+            '',
+            'Respuesta: ${clip.correctLetter}. ${clip.revealWhy}',
+            '',
+            closeRegister,
+          ]
+        : <String>[
+            clip.hook,
+            '',
+            closeAsk,
+            closeComenta,
+            closeFollow,
+            '',
+            closeRegister,
+          ];
     lines.addAll(['', hashtags]);
     return lines.join('\n');
   }

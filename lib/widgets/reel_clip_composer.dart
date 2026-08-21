@@ -40,11 +40,6 @@ class _ReelClipComposerState extends State<ReelClipComposer> {
     setState(() => _draft = ReelClipTextParser.parse(value));
   }
 
-  void _fillTemplate() {
-    _controller.text = ReelClipTextParser.plantilla.trim();
-    _onChanged(_controller.text);
-  }
-
   Future<void> _save() async {
     final clip = _draft.clip;
     if (clip == null || _saving) return;
@@ -81,9 +76,7 @@ class _ReelClipComposerState extends State<ReelClipComposer> {
         childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
         children: [
           Text(
-            'Pega el caso con estas etiquetas: Tema, Título, Caso, Pregunta, '
-            'las cuatro opciones (A) B) C) D)), Correcta y Porque. '
-            'Temas válidos: ${ReelGroup.help}.',
+            'Pega el texto del Gem y pulsa Guardar.',
             style: theme.textTheme.bodySmall,
           ),
           const SizedBox(height: 8),
@@ -94,29 +87,15 @@ class _ReelClipComposerState extends State<ReelClipComposer> {
             style: theme.textTheme.bodySmall,
             decoration: const InputDecoration(
               border: OutlineInputBorder(),
-              hintText: 'Tema: convivencia\nTítulo: …\nCaso: …',
+              hintText: 'Pega aquí el caso',
             ),
             onChanged: _onChanged,
           ),
           const SizedBox(height: 8),
-          Row(
-            children: [
-              Expanded(
-                child: OutlinedButton.icon(
-                  onPressed: _fillTemplate,
-                  icon: const Icon(Icons.content_paste_go, size: 18),
-                  label: const Text('Plantilla'),
-                ),
-              ),
-              const SizedBox(width: 8),
-              Expanded(
-                child: FilledButton.icon(
-                  onPressed: _draft.isValid && !_saving ? _save : null,
-                  icon: const Icon(Icons.save, size: 18),
-                  label: Text(_saving ? 'Guardando…' : 'Guardar'),
-                ),
-              ),
-            ],
+          FilledButton.icon(
+            onPressed: _draft.isValid && !_saving ? _save : null,
+            icon: const Icon(Icons.save, size: 18),
+            label: Text(_saving ? 'Guardando…' : 'Guardar'),
           ),
           if (_controller.text.trim().isNotEmpty) ...[
             const SizedBox(height: 10),
@@ -174,6 +153,8 @@ class _DraftPreview extends StatelessWidget {
               '${clip.group.label} · ${clip.label}',
               style: theme.textTheme.labelLarge,
             ),
+            const SizedBox(height: 4),
+            Text(clip.hook, style: theme.textTheme.bodySmall),
             const SizedBox(height: 4),
             Text(clip.stem, style: theme.textTheme.bodySmall),
             const SizedBox(height: 4),

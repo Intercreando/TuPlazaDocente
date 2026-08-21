@@ -7,6 +7,7 @@ const reelClipsInclusion = <ReelClip>[
     id: 'piar',
     group: ReelGroup.inclusion,
     label: 'PIAR · inclusión (piloto)',
+    hook: '¿Esperas el dictamen para no improvisar?',
     situation:
         'Entra a 4° una niña con discapacidad visual. El grado usa guías impresas densas y pruebas cronometradas iguales para todos.',
     stem: '¿Qué hace el colegio?',
@@ -24,6 +25,7 @@ const reelClipsInclusion = <ReelClip>[
     id: 'igualdad',
     group: ReelGroup.inclusion,
     label: 'Inclusión · “el mismo examen”',
+    hook: '¿El mismo examen para todos es inclusión?',
     situation:
         'Un texto dice: cupo y rampa no agotan la inclusión si evaluación y convivencia siguen diseñadas para un estudiante promedio.',
     stem: '¿Cuál es la idea principal?',
@@ -41,6 +43,7 @@ const reelClipsInclusion = <ReelClip>[
     id: 'tdah',
     group: ReelGroup.inclusion,
     label: 'Sin diagnóstico · “que traiga el papel”',
+    hook: '¿Esperas el papel de neurología?',
     situation:
         'Un estudiante de 5° no termina nada, se levanta y pierde el hilo. La familia no tiene cita de neurología hasta dentro de tres meses.',
     stem: '¿Qué haces mientras llega el diagnóstico?',
@@ -58,6 +61,7 @@ const reelClipsInclusion = <ReelClip>[
     id: 'interprete',
     group: ReelGroup.inclusion,
     label: 'Estudiante sordo · el intérprete',
+    hook: '¿Le hablas al intérprete y no al estudiante?',
     situation:
         'En 7° hay un estudiante sordo con intérprete de lengua de señas. Notas que le hablas al intérprete y que tus pruebas dependen de textos largos.',
     stem: '¿Qué corriges?',
@@ -75,6 +79,7 @@ const reelClipsInclusion = <ReelClip>[
     id: 'migrante',
     group: ReelGroup.inclusion,
     label: 'Migrante · “sin papeles no hay cupo”',
+    hook: '¿Sin papeles no hay cupo?',
     situation:
         'Llega una familia a matricular a dos niños. No traen certificados de estudio ni documento colombiano. La secretaría del colegio duda.',
     stem: '¿Qué procede?',

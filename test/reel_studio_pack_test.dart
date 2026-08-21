@@ -26,6 +26,8 @@ void main() {
   test('los textos caben en el lienzo con la tipografía grande', () {
     for (final clip in clips) {
       expect(clip.label.length, lessThanOrEqualTo(44), reason: clip.id);
+      expect(clip.hook.length, lessThanOrEqualTo(56), reason: clip.id);
+      expect(clip.hook, isNot(equals(ReelClip.fallbackHook)), reason: clip.id);
       expect(clip.situation.length, lessThanOrEqualTo(260), reason: clip.id);
       expect(clip.stem.length, lessThanOrEqualTo(90), reason: clip.id);
       expect(clip.revealWhy.length, lessThanOrEqualTo(150), reason: clip.id);
@@ -79,13 +81,21 @@ void main() {
     expect(ReelStudioPack.byId(null).id, clips.first.id);
   });
 
+  test('cada caso abre con un gancho distinto', () {
+    final hooks = clips.map((c) => c.hook).toList();
+    expect(hooks.toSet().length, hooks.length);
+  });
+
   test('el caption sin revelar pide la letra y no delata la respuesta', () {
     final clip = ReelStudioPack.byId('chat');
     final caption = ReelStudioPack.captionFor(clip, reveal: false);
+    expect(caption, contains(clip.hook));
     expect(caption, contains(ReelStudioPack.closeAsk));
     expect(caption, isNot(contains('Respuesta:')));
 
     final reveal = ReelStudioPack.captionFor(clip, reveal: true);
     expect(reveal, contains('Respuesta: ${clip.correctLetter}'));
+    expect(reveal, contains(ReelStudioPack.revealKicker));
+    expect(reveal, isNot(contains(ReelStudioPack.closeAsk)));
   });
 }

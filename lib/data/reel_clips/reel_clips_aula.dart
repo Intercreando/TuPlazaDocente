@@ -7,6 +7,7 @@ const reelClipsAula = <ReelClip>[
     id: 'zdp',
     group: ReelGroup.aula,
     label: 'ZDP · el compañero “que enseña”',
+    hook: '¿Lo dejas fijo con el compañero que le enseña?',
     situation:
         'En 3° no logra la suma con llevadas solo. En pareja con un compañero más avanzado, sí la explica y la aplica.',
     stem: '¿Qué planeas la próxima semana?',
@@ -24,6 +25,7 @@ const reelClipsAula = <ReelClip>[
     id: 'fuera-de-clase',
     group: ReelGroup.aula,
     label: 'Aula · “fuera de mi clase”',
+    hook: '¿Otra vez lo sacas al pasillo?',
     situation:
         'Un estudiante de 8° interrumpe todo el tiempo. Llevas tres clases sacándolo al pasillo y su rendimiento cayó. Coordinación te pide otra estrategia.',
     stem: '¿Qué haces la próxima clase?',
@@ -41,6 +43,7 @@ const reelClipsAula = <ReelClip>[
     id: 'nadie-participa',
     group: ReelGroup.aula,
     label: 'Aula · “¿entendieron?” y nadie responde',
+    hook: '¿Con un “entendieron” ya puedes seguir?',
     situation:
         'En 9° preguntas “¿entendieron?” y todos asienten. En la prueba, la mitad falla lo básico. Tienes el tema atrasado y 45 minutos por clase.',
     stem: '¿Qué cambias?',

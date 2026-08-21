@@ -81,7 +81,8 @@ class ReelCaptureNote extends StatelessWidget {
             'Esta ventana ahora mismo daría ≈ $capturedWidth×$capturedHeight px '
             '(${(scale * 100).round()}% del lienzo). '
             '${native ? 'Si capturas Chrome, la nitidez alcanza.' : 'Si capturas Chrome, el texto se verá un poco suave: usa la fuente Navegador de OBS para 1080×1920 nativos.'} '
-            'Zoom de Chrome en 100%.',
+            'Zoom de Chrome en 100%. El marco oscuro es a propósito: el '
+            'caption y los botones de TikTok van en blanco y se leen encima.',
             style: theme.textTheme.bodySmall,
           ),
         ],

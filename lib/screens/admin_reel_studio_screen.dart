@@ -43,6 +43,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   DateTime? _startedAt;
   ReelClip _clip = ReelStudioPack.clips.first;
   List<ReelClip> _customClips = const [];
+  Set<String> _usedIds = {};
+  Set<String> _hiddenIds = {};
   bool _revealMode = false;
   bool _playing = false;
   bool _ended = false;
@@ -52,8 +54,23 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   String? _appliedQuery;
   bool _catalogReady = false;
 
-  /// Casos del código más los creados a mano en el estudio.
-  List<ReelClip> get _catalog => [...ReelStudioPack.clips, ..._customClips];
+  /// Casos visibles en el picker (pack no oculto + creados a mano).
+  List<ReelClip> get _catalog {
+    final pack = ReelStudioPack.clips
+        .where((clip) => !_hiddenIds.contains(clip.id))
+        .toList();
+    return [...pack, ..._customClips];
+  }
+
+  /// Incluye ocultos: OBS puede seguir abriendo un caso que ya se escondió.
+  List<ReelClip> get _lookupCatalog => [
+    ...ReelStudioPack.clips,
+    ..._customClips,
+  ];
+
+  List<ReelClip> get _hiddenClips => ReelStudioPack.clips
+      .where((clip) => _hiddenIds.contains(clip.id))
+      .toList();
 
   bool get _obs {
     return GoRouterState.of(context).uri.queryParameters['obs'] == '1';
@@ -90,7 +107,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
         noIndex: true,
       );
       _focus.requestFocus();
-      await _loadCustomClips();
+      await _loadStudioData();
       if (!mounted) return;
       _catalogReady = true;
       _appliedQuery = null;
@@ -98,10 +115,15 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     });
   }
 
-  Future<void> _loadCustomClips() async {
+  Future<void> _loadStudioData() async {
     final clips = await _clipService.list();
+    final meta = await _clipService.loadStudioState();
     if (!mounted) return;
-    setState(() => _customClips = clips);
+    setState(() {
+      _customClips = clips;
+      _usedIds = meta.usedIds;
+      _hiddenIds = meta.hiddenIds;
+    });
   }
 
   @override
@@ -115,7 +137,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     final uri = GoRouterState.of(context).uri;
     if (uri.query == _appliedQuery) return;
     _appliedQuery = uri.query;
-    final clip = ReelStudioPack.byIdIn(_catalog, uri.queryParameters['caso']);
+    final clip = ReelStudioPack.byIdIn(_lookupCatalog, uri.queryParameters['caso']);
     final reveal = uri.queryParameters['revela'] == '1';
     final startObs =
         uri.queryParameters['obs'] == '1' && !_playing && _catalogReady;
@@ -244,7 +266,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   Future<bool> _saveCustomClip(ReelClip clip) async {
     try {
       await _clipService.save(clip);
-      await _loadCustomClips();
+      await _loadStudioData();
       if (!mounted) return true;
       _reset();
       setState(() => _clip = clip);
@@ -260,12 +282,39 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     }
   }
 
-  Future<void> _deleteCustomClip(ReelClip clip) async {
+  Future<void> _toggleUsed(ReelClip clip) async {
+    final used = !_usedIds.contains(clip.id);
+    try {
+      await _clipService.setUsed(clip.id, used: used);
+      if (!mounted) return;
+      setState(() {
+        if (used) {
+          _usedIds = {..._usedIds, clip.id};
+        } else {
+          _usedIds = {..._usedIds}..remove(clip.id);
+        }
+      });
+    } catch (e) {
+      if (!mounted) return;
+      AppSnackbars.show(
+        context,
+        message: e.toString().replaceFirst('Exception: ', ''),
+      );
+    }
+  }
+
+  Future<void> _removeClip(ReelClip clip) async {
+    final pack = !clip.isCustom;
     final ok = await showDialog<bool>(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('¿Borrar este caso?'),
-        content: Text('Se eliminará “${clip.label}” del estudio.'),
+        title: Text(pack ? '¿Ocultar este caso?' : '¿Borrar este caso?'),
+        content: Text(
+          pack
+              ? '“${clip.label}” dejará de salir en el catálogo. '
+                    'Puedes restaurarlo más abajo.'
+              : 'Se eliminará “${clip.label}” del estudio.',
+        ),
         actions: [
           TextButton(
             onPressed: () => Navigator.of(context).pop(false),
@@ -273,19 +322,38 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
           ),
           FilledButton(
             onPressed: () => Navigator.of(context).pop(true),
-            child: const Text('Borrar'),
+            child: Text(pack ? 'Ocultar' : 'Borrar'),
           ),
         ],
       ),
     );
     if (ok != true || !mounted) return;
     try {
+      if (pack) {
+        await _clipService.setHidden(clip.id, hidden: true);
+        if (!mounted) return;
+        setState(() {
+          _hiddenIds = {..._hiddenIds, clip.id};
+          if (_clip.id == clip.id) {
+            _reset();
+            _clip = _catalog.isEmpty
+                ? ReelStudioPack.clips.first
+                : _catalog.first;
+          }
+        });
+        AppSnackbars.show(context, message: 'Caso oculto del catálogo.');
+        return;
+      }
       await _clipService.delete(clip.id);
-      await _loadCustomClips();
+      await _loadStudioData();
       if (!mounted) return;
       if (_clip.id == clip.id) {
         _reset();
-        setState(() => _clip = ReelStudioPack.clips.first);
+        setState(() {
+          _clip = _catalog.isEmpty
+              ? ReelStudioPack.clips.first
+              : _catalog.first;
+        });
       }
       AppSnackbars.show(context, message: 'Caso borrado.');
     } catch (e) {
@@ -296,6 +364,25 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
       );
     }
   }
+
+  Future<void> _restoreClip(ReelClip clip) async {
+    try {
+      await _clipService.setHidden(clip.id, hidden: false);
+      if (!mounted) return;
+      setState(() {
+        _hiddenIds = {..._hiddenIds}..remove(clip.id);
+      });
+      AppSnackbars.show(context, message: 'Caso restaurado.');
+    } catch (e) {
+      if (!mounted) return;
+      AppSnackbars.show(
+        context,
+        message: e.toString().replaceFirst('Exception: ', ''),
+      );
+    }
+  }
+
+  Future<void> _deleteCustomClip(ReelClip clip) => _removeClip(clip);
 
   /// Los atajos no deben dispararse mientras se escribe: un espacio en el
   /// buscador o en el compositor arrancaría la grabación.
@@ -394,11 +481,15 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         ReelClipPicker(
                           catalog: _catalog,
                           selected: _clip,
+                          usedIds: _usedIds,
+                          hiddenClips: _hiddenClips,
                           onSelected: (clip) {
                             _reset();
                             setState(() => _clip = clip);
                           },
-                          onDeleteCustom: _deleteCustomClip,
+                          onToggleUsed: _toggleUsed,
+                          onRemove: _removeClip,
+                          onRestore: _restoreClip,
                         ),
                         const SizedBox(height: 12),
                         ReelClipComposer(
@@ -412,8 +503,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                           title: const Text('Modo Revela'),
                           subtitle: Text(
                             _revealMode
-                                ? 'Marca la correcta al cierre (capítulo 2).'
-                                : 'Comenta la letra. No revela (piloto).',
+                                ? 'Abre con “LA RESPUESTA”. La letra sale al cierre.'
+                                : 'Comenta la letra. No revela (capítulo 1).',
                             style: theme.textTheme.bodySmall,
                           ),
                           value: _revealMode,

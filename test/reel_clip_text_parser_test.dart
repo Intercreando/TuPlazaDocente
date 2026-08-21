@@ -18,6 +18,7 @@ void main() {
     expect(clip.isCustom, isTrue);
     expect(clip.id, startsWith('whatsapp-el-grupo-del-curso'));
     expect(clip.revealWhy, isNotEmpty);
+    expect(clip.hook, '¿Respetas el silencio y no avisas a la casa?');
   });
 
   test('acepta etiquetas sin tildes y otros separadores de opción', () {
@@ -38,6 +39,7 @@ razon: El ajuste no depende del diagnostico.
 
     expect(draft.errors, isEmpty);
     expect(draft.clip!.group, ReelGroup.inclusion);
+    expect(draft.clip!.hook, ReelClip.fallbackHook);
     expect(draft.clip!.options.first, 'Ajustar ya y documentarlo');
     expect(draft.clip!.correctIndex, 0);
   });
@@ -138,6 +140,7 @@ Porque: Una razón.
     expect(vuelta.options, original.options);
     expect(vuelta.correctIndex, original.correctIndex);
     expect(vuelta.revealWhy, original.revealWhy);
+    expect(vuelta.hook, original.hook);
     expect(vuelta.isCustom, isTrue);
   });
 
