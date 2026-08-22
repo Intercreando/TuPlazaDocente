@@ -18,6 +18,8 @@ class UserProfile {
     this.pillarTotal = const {},
     this.tagCorrect = const {},
     this.tagTotal = const {},
+    this.pillarTimeSpent = const {},
+    this.tagTimeSpent = const {},
     this.completedPlanTaskIds = const [],
     this.planTaskDate,
     this.streakRemindersEnabled = false,
@@ -45,6 +47,12 @@ class UserProfile {
 
   /// Intentos por [KnowledgeCode.name] (Mapa de Maestría).
   final Map<String, int> tagTotal;
+
+  /// Segundos acumulados por [CompetencyPillar.name] (TMO histórico).
+  final Map<String, int> pillarTimeSpent;
+
+  /// Segundos acumulados por [KnowledgeCode.name] (TMO histórico).
+  final Map<String, int> tagTimeSpent;
 
   final List<String> completedPlanTaskIds;
   final DateTime? planTaskDate;
@@ -78,6 +86,8 @@ class UserProfile {
     Map<String, int>? pillarTotal,
     Map<String, int>? tagCorrect,
     Map<String, int>? tagTotal,
+    Map<String, int>? pillarTimeSpent,
+    Map<String, int>? tagTimeSpent,
     List<String>? completedPlanTaskIds,
     DateTime? planTaskDate,
     bool? streakRemindersEnabled,
@@ -101,6 +111,8 @@ class UserProfile {
       pillarTotal: pillarTotal ?? this.pillarTotal,
       tagCorrect: tagCorrect ?? this.tagCorrect,
       tagTotal: tagTotal ?? this.tagTotal,
+      pillarTimeSpent: pillarTimeSpent ?? this.pillarTimeSpent,
+      tagTimeSpent: tagTimeSpent ?? this.tagTimeSpent,
       completedPlanTaskIds: completedPlanTaskIds ?? this.completedPlanTaskIds,
       planTaskDate: planTaskDate ?? this.planTaskDate,
       streakRemindersEnabled:
@@ -157,6 +169,8 @@ class UserProfile {
         'pillarTotal': pillarTotal,
         'tagCorrect': tagCorrect,
         'tagTotal': tagTotal,
+        'pillarTimeSpent': pillarTimeSpent,
+        'tagTimeSpent': tagTimeSpent,
         'completedPlanTaskIds': completedPlanTaskIds,
         'planTaskDate': planTaskDate?.toIso8601String(),
         'streakRemindersEnabled': streakRemindersEnabled,
@@ -213,6 +227,8 @@ class UserProfile {
       pillarTotal: readIntMap('pillarTotal'),
       tagCorrect: readIntMap('tagCorrect'),
       tagTotal: readIntMap('tagTotal'),
+      pillarTimeSpent: readIntMap('pillarTimeSpent'),
+      tagTimeSpent: readIntMap('tagTimeSpent'),
       completedPlanTaskIds: tasks,
       planTaskDate: parseDate(json['planTaskDate']),
       streakRemindersEnabled: json['streakRemindersEnabled'] as bool? ?? false,

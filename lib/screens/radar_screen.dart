@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../models/enums.dart';
 import '../services/tag_mastery_service.dart';
 import '../state/app_state.dart';
-import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
-import '../utils/progress_practice_launch.dart';
+import '../utils/progress_today_action.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/cnsc_score_predictor.dart';
 import '../widgets/competency_radar.dart';
 import '../widgets/tag_mastery_map.dart';
+import '../widgets/tmo_dashboard.dart';
 
-/// Panel de estadísticas: pilares + temas (ruta /app/radar).
+/// Progreso: corte CNSC + una acción. El detalle queda en acordeones.
 class RadarScreen extends StatelessWidget {
   const RadarScreen({super.key});
 
@@ -23,6 +23,7 @@ class RadarScreen extends StatelessWidget {
     final isDark = theme.brightness == Brightness.dark;
     final masteryRows = TagMasteryService.buildMap(profile);
     final recommended = TagMasteryService.recommendedToday(profile);
+    final expandDetail = LayoutBreakpoints.isTabletUp(context);
 
     return AtmosphericBackground(
       dark: isDark,
@@ -38,86 +39,38 @@ class RadarScreen extends StatelessWidget {
                 Text('Tu progreso', style: theme.textTheme.headlineMedium),
                 const SizedBox(height: 6),
                 Text(
-                  'Toca un tema o un pilar para practicar justo ahí.',
+                  'Una cifra, una acción. El detalle está más abajo si lo necesitas.',
                   style: theme.textTheme.bodyLarge,
                 ),
                 const SizedBox(height: 18),
-                Container(
-                  padding: const EdgeInsets.all(18),
-                  decoration: BoxDecoration(
-                    color: isDark ? AppColors.darkSurface : AppColors.white,
-                    borderRadius: BorderRadius.circular(22),
-                    border: Border.all(color: theme.colorScheme.outline),
-                  ),
+                const CnscScorePredictor(),
+                const SizedBox(height: 16),
+                const ProgressTodayAction(),
+                const SizedBox(height: 22),
+                _ProgressFold(
+                  title: 'Pilares',
+                  subtitle: 'Fortalezas y el punto más flojo',
+                  initiallyExpanded: expandDetail,
                   child: CompetencyRadar(
                     profile: profile,
-                    onPracticeWeakest: () =>
-                        launchProgressPillar(context, weakestPillarOf(profile)),
+                    compact: true,
                   ),
                 ),
-                const SizedBox(height: 22),
-                Text('Temas del concurso', style: theme.textTheme.titleLarge),
-                const SizedBox(height: 6),
-                Text(
-                  'El porcentaje es de aciertos. Toca el tema que debas reforzar.',
-                  style: theme.textTheme.bodyMedium,
-                ),
-                const SizedBox(height: 12),
-                TagMasteryMap(
-                  rows: masteryRows,
-                  recommendedCode: recommended?.code.name,
-                ),
-                const SizedBox(height: 10),
-                Material(
-                  color: AppColors.gold.withValues(alpha: 0.12),
-                  borderRadius: BorderRadius.circular(16),
-                  child: InkWell(
-                    onTap: () => launchProgressRecommendation(context),
-                    borderRadius: BorderRadius.circular(16),
-                    child: Container(
-                      width: double.infinity,
-                      padding: const EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(16),
-                        border: Border.all(
-                          color: AppColors.gold.withValues(alpha: 0.35),
-                        ),
-                      ),
-                      child: Row(
-                        children: [
-                          Expanded(
-                            child: Text(
-                              'Recomendación de hoy: ${state.studyFocusMessage()} '
-                              'Toca para ir a practicarlo.',
-                              style: theme.textTheme.bodyMedium,
-                            ),
-                          ),
-                          Icon(
-                            Icons.chevron_right,
-                            color: theme.colorScheme.onSurfaceVariant,
-                          ),
-                        ],
-                      ),
-                    ),
+                _ProgressFold(
+                  title: 'Temas a reforzar',
+                  subtitle: 'Aciertos por norma y teoría',
+                  child: TagMasteryMap(
+                    rows: masteryRows,
+                    compact: true,
+                    maxItems: 6,
+                    recommendedCode: recommended?.code.name,
                   ),
                 ),
-                const SizedBox(height: 22),
-                Text('Detalle por pilar', style: theme.textTheme.titleLarge),
-                const SizedBox(height: 10),
-                ...CompetencyPillar.values.map((pillar) {
-                  final total = profile.pillarTotal[pillar.name] ?? 0;
-                  final accuracy = profile.pillarAccuracy(pillar);
-                  return Padding(
-                    padding: const EdgeInsets.only(bottom: 10),
-                    child: _PillarDetailCard(
-                      pillar: pillar,
-                      total: total,
-                      accuracy: accuracy,
-                      isDark: isDark,
-                      onTap: () => launchProgressPillar(context, pillar),
-                    ),
-                  );
-                }),
+                _ProgressFold(
+                  title: 'Velocidad (TMO)',
+                  subtitle: 'Tiempo medio por pregunta',
+                  child: const TmoDashboardPanel(compact: true),
+                ),
               ],
             ),
           ),
@@ -127,78 +80,31 @@ class RadarScreen extends StatelessWidget {
   }
 }
 
-class _PillarDetailCard extends StatelessWidget {
-  const _PillarDetailCard({
-    required this.pillar,
-    required this.total,
-    required this.accuracy,
-    required this.isDark,
-    required this.onTap,
+class _ProgressFold extends StatelessWidget {
+  const _ProgressFold({
+    required this.title,
+    required this.subtitle,
+    required this.child,
+    this.initiallyExpanded = false,
   });
 
-  final CompetencyPillar pillar;
-  final int total;
-  final double accuracy;
-  final bool isDark;
-  final VoidCallback onTap;
+  final String title;
+  final String subtitle;
+  final Widget child;
+  final bool initiallyExpanded;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final weak = total > 0 && accuracy < 0.5;
-
-    return Material(
-      color: Colors.transparent,
-      child: InkWell(
-        onTap: onTap,
-        borderRadius: BorderRadius.circular(16),
-        child: Ink(
-          padding: const EdgeInsets.all(14),
-          decoration: BoxDecoration(
-            color: isDark ? AppColors.darkSurface : AppColors.white,
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: theme.colorScheme.outline),
-          ),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Expanded(
-                    child: Text(
-                      pillar.label,
-                      style: theme.textTheme.titleSmall,
-                    ),
-                  ),
-                  Text(
-                    total == 0 ? 'Sin datos' : '${(accuracy * 100).round()}%',
-                    style: theme.textTheme.labelLarge,
-                  ),
-                  Icon(
-                    Icons.chevron_right,
-                    color: theme.colorScheme.onSurfaceVariant,
-                  ),
-                ],
-              ),
-              const SizedBox(height: 8),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(99),
-                child: LinearProgressIndicator(
-                  value: total == 0 ? 0.08 : accuracy.clamp(0.05, 1),
-                  minHeight: 8,
-                  color: weak ? AppColors.coral : AppColors.canopy,
-                ),
-              ),
-              const SizedBox(height: 6),
-              Text(
-                total == 0
-                    ? 'Toca para practicar este pilar'
-                    : '$total evidencias · Toca para practicar',
-                style: theme.textTheme.bodySmall,
-              ),
-            ],
-          ),
-        ),
+    return Theme(
+      data: theme.copyWith(dividerColor: Colors.transparent),
+      child: ExpansionTile(
+        initiallyExpanded: initiallyExpanded,
+        tilePadding: EdgeInsets.zero,
+        childrenPadding: const EdgeInsets.only(bottom: 16),
+        title: Text(title, style: theme.textTheme.titleMedium),
+        subtitle: Text(subtitle, style: theme.textTheme.bodySmall),
+        children: [child],
       ),
     );
   }

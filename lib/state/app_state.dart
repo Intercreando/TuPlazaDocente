@@ -924,7 +924,7 @@ class AppState extends ChangeNotifier {
       ),
     );
 
-    _applyMastery(question, correct);
+    _applyMastery(question, correct, seconds);
 
     final isLast = currentIndex >= currentQuestions.length - 1;
     if (isLast) {
@@ -940,11 +940,14 @@ class AppState extends ChangeNotifier {
     return false;
   }
 
-  void _applyMastery(Question question, bool correct) {
+  void _applyMastery(Question question, bool correct, int secondsSpent) {
     final pillarKey = question.pillar.name;
     final pillarCorrect = Map<String, int>.from(profile.pillarCorrect);
     final pillarTotal = Map<String, int>.from(profile.pillarTotal);
+    final pillarTimeSpent = Map<String, int>.from(profile.pillarTimeSpent);
     pillarTotal[pillarKey] = (pillarTotal[pillarKey] ?? 0) + 1;
+    pillarTimeSpent[pillarKey] =
+        (pillarTimeSpent[pillarKey] ?? 0) + secondsSpent;
     if (correct) {
       pillarCorrect[pillarKey] = (pillarCorrect[pillarKey] ?? 0) + 1;
     }
@@ -959,11 +962,13 @@ class AppState extends ChangeNotifier {
     // Mapa de Maestría por etiquetas del cerebro (norma / teoría / referente).
     final tagCorrect = Map<String, int>.from(profile.tagCorrect);
     final tagTotal = Map<String, int>.from(profile.tagTotal);
+    final tagTimeSpent = Map<String, int>.from(profile.tagTimeSpent);
     final seen = <String>{};
     for (final tag in question.knowledgeTags) {
       final key = tag.code.name;
       if (!seen.add(key)) continue;
       tagTotal[key] = (tagTotal[key] ?? 0) + 1;
+      tagTimeSpent[key] = (tagTimeSpent[key] ?? 0) + secondsSpent;
       if (correct) {
         tagCorrect[key] = (tagCorrect[key] ?? 0) + 1;
       }
@@ -972,9 +977,11 @@ class AppState extends ChangeNotifier {
     profile = profile.copyWith(
       pillarCorrect: pillarCorrect,
       pillarTotal: pillarTotal,
+      pillarTimeSpent: pillarTimeSpent,
       topicMastery: mastery,
       tagCorrect: tagCorrect,
       tagTotal: tagTotal,
+      tagTimeSpent: tagTimeSpent,
     );
   }
 

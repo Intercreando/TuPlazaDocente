@@ -11,10 +11,14 @@ class CompetencyRadar extends StatelessWidget {
     super.key,
     required this.profile,
     this.onPracticeWeakest,
+    this.compact = false,
   });
 
   final UserProfile profile;
   final VoidCallback? onPracticeWeakest;
+
+  /// Sin título propio: va dentro de un acordeón de Progreso.
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
@@ -32,14 +36,17 @@ class CompetencyRadar extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text('Cómo vas en cada pilar', style: theme.textTheme.titleLarge),
-        const SizedBox(height: 6),
+        if (!compact) ...[
+          Text('Cómo vas en cada pilar', style: theme.textTheme.titleLarge),
+          const SizedBox(height: 6),
+        ],
         _RadarHint(
           hasData: hasData,
           weakestLabel: profile.weakestPillarLabel,
-          onPracticeWeakest: onPracticeWeakest,
+          onPracticeWeakest: compact ? null : onPracticeWeakest,
+          compact: compact,
         ),
-        const SizedBox(height: 16),
+        if (!compact || hasData) const SizedBox(height: 16),
         SizedBox(
           height: 260,
           child: RadarChart(
@@ -92,16 +99,19 @@ class _RadarHint extends StatelessWidget {
     required this.hasData,
     required this.weakestLabel,
     this.onPracticeWeakest,
+    this.compact = false,
   });
 
   final bool hasData;
   final String weakestLabel;
   final VoidCallback? onPracticeWeakest;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     if (!hasData) {
+      if (compact) return const SizedBox.shrink();
       return Text(
         'Completa las 5 del día para ver cómo vas',
         style: theme.textTheme.bodyMedium,
@@ -109,7 +119,9 @@ class _RadarHint extends StatelessWidget {
     }
     if (weakestLabel.isEmpty || onPracticeWeakest == null) {
       return Text(
-        'Así se ven tus fortalezas y lo que falta',
+        compact
+            ? 'Así se ven tus fortalezas y el punto más flojo.'
+            : 'Así se ven tus fortalezas y lo que falta',
         style: theme.textTheme.bodyMedium,
       );
     }
