@@ -86,16 +86,11 @@ void main() {
     expect(hooks.toSet().length, hooks.length);
   });
 
-  test('el caption sin revelar pide la letra y no delata la respuesta', () {
+  test('el caption pide comentario y no delata la respuesta', () {
     final clip = ReelStudioPack.byId('chat');
-    final caption = ReelStudioPack.captionFor(clip, reveal: false);
+    final caption = ReelStudioPack.captionFor(clip);
     expect(caption, contains(clip.hook));
-    expect(caption, contains(ReelStudioPack.closeAsk));
+    expect(caption, contains(ReelStudioPack.commentNow));
     expect(caption, isNot(contains('Respuesta:')));
-
-    final reveal = ReelStudioPack.captionFor(clip, reveal: true);
-    expect(reveal, contains('Respuesta: ${clip.correctLetter}'));
-    expect(reveal, contains(ReelStudioPack.revealKicker));
-    expect(reveal, isNot(contains(ReelStudioPack.closeAsk)));
   });
 }

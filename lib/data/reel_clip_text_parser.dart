@@ -140,7 +140,7 @@ Porque: Si hay daño a un estudiante no hay silencio pactado: se protege y se re
 
     final why = fields['why'] ?? '';
     if (why.isEmpty) {
-      warnings.add('Sin “Porque:” el capítulo de revelación queda sin cierre.');
+      warnings.add('Sin “Porque:” el cierre del vídeo queda sin justificación.');
     }
 
     _warnLength(warnings, 'El título', label, maxLabel);

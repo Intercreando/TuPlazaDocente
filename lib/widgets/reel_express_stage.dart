@@ -6,42 +6,72 @@ import '../theme/reel_type.dart';
 import 'atmospheric_background.dart';
 import 'brand_logo.dart';
 import 'reel_close_cta.dart';
+import 'reel_option_row.dart';
 
 enum ReelBeat { ready, hook, question, countdown, close }
 
 /// Lienzo 9:16 listo para captura de ventana (1080×1920).
+///
+/// Ciclo cerrado de 15 s: gancho → caso → cuenta → revelación y web.
 class ReelExpressStage extends StatelessWidget {
   const ReelExpressStage({
     super.key,
     required this.clip,
     required this.beat,
     required this.countdownLeft,
-    required this.revealMode,
     this.countdownProgress = 0,
     this.timerPulse = 1,
+    this.visibleOptionCount = 4,
+    this.cuePulse = 1,
   });
 
   final ReelClip clip;
   final ReelBeat beat;
   final int countdownLeft;
-  final bool revealMode;
   final double countdownProgress;
   final double timerPulse;
+  final int visibleOptionCount;
+  final double cuePulse;
 
   static const designSize = Size(1080, 1920);
   static const letters = ['A', 'B', 'C', 'D'];
 
+  static const cycleMs = 15000;
+  static const hookMs = 2000;
+  static const questionMs = 6000;
+  static const countdownMs = 3000;
+  static const closeMs = 4000;
+  static const fadeMs = 80;
+  static const optionDelayMs = 1400;
+  static const optionGapMs = 1100;
+
   /// TikTok: caption y “Buscar contenido relacionado” (texto blanco).
-  /// El margen queda en tinta oscura para que ese blanco sí contraste.
   static const safeTop = 280.0;
   static const safeBottom = 300.0;
   static const safeRight = 132.0;
   static const safeLeft = 48.0;
-
-  /// Ancho real de trabajo dentro de la tarjeta (márgenes TikTok + padding).
   static const _innerPad = 28.0;
   static const contentWidth =
       1080.0 - safeLeft - safeRight - (_innerPad * 2);
+
+  /// Cuántas opciones se ven según el tiempo del ciclo.
+  static int optionCountAt({
+    required ReelBeat beat,
+    required int elapsedMs,
+  }) {
+    switch (beat) {
+      case ReelBeat.hook:
+      case ReelBeat.ready:
+        return 0;
+      case ReelBeat.countdown:
+      case ReelBeat.close:
+        return 4;
+      case ReelBeat.question:
+        final into = elapsedMs - hookMs;
+        if (into < optionDelayMs) return 0;
+        return ((into - optionDelayMs) ~/ optionGapMs + 1).clamp(0, 4);
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -71,12 +101,11 @@ class ReelExpressStage extends StatelessWidget {
                   child: Padding(
                     padding: const EdgeInsets.fromLTRB(28, 28, 28, 24),
                     child: AnimatedSwitcher(
-                      duration: const Duration(milliseconds: 400),
+                      duration: const Duration(milliseconds: 180),
                       child: switch (beat) {
                         ReelBeat.hook => _ReelHookHero(
-                          key: ValueKey('hook-${clip.id}-$revealMode'),
+                          key: ValueKey('hook-${clip.id}'),
                           clip: clip,
-                          revealMode: revealMode,
                         ),
                         _ => Column(
                           key: ValueKey(showClose ? 'close' : 'case'),
@@ -86,10 +115,19 @@ class ReelExpressStage extends StatelessWidget {
                             const SizedBox(height: 18),
                             Expanded(
                               child: showClose
-                                  ? _close(context)
+                                  ? _reveal(context)
+                                  : showTimer
+                                  ? Column(
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.stretch,
+                                      children: [
+                                        _caseBlock(context),
+                                        _timer(context),
+                                        const Spacer(),
+                                      ],
+                                    )
                                   : _caseBlock(context),
                             ),
-                            if (showTimer) _timer(context),
                             if (showClose) ...[
                               const SizedBox(height: 20),
                               const ReelCloseBrandBar(),
@@ -110,39 +148,44 @@ class ReelExpressStage extends StatelessWidget {
     );
   }
 
-  /// Caso + enunciado + opciones. El `FittedBox` evita desbordes si un clip
-  /// futuro trae textos más largos: reduce en bloque en vez de romper el layout.
   Widget _caseBlock(BuildContext context) {
     final type = ReelType.of(context);
+    final counting = beat == ReelBeat.countdown;
+    final shown = visibleOptionCount.clamp(0, clip.options.length);
     return _ScaleDownBox(
       alignment: Alignment.topCenter,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Text(clip.situation, style: type.situation),
-          const SizedBox(height: 16),
-          Text(clip.stem, style: type.stem),
-          const SizedBox(height: 22),
-          for (var i = 0; i < clip.options.length; i++) ...[
+          if (!counting) ...[
+            Text(clip.situation, style: type.situation),
+            const SizedBox(height: 16),
+            Text(clip.stem, style: type.stem),
+            const SizedBox(height: 22),
+          ],
+          for (var i = 0; i < shown; i++) ...[
             if (i > 0) const SizedBox(height: 12),
-            _OptionRow(
+            ReelOptionRow(
               letter: i < letters.length ? letters[i] : '${i + 1}',
               text: clip.options[i],
             ),
           ],
+          const SizedBox(height: 22),
+          _ReelCue(
+            text: counting
+                ? ReelStudioPack.commentNow
+                : ReelStudioPack.holdCue,
+            pulse: counting ? 1 : cuePulse,
+            icon: counting
+                ? Icons.keyboard_double_arrow_down_rounded
+                : Icons.touch_app_rounded,
+          ),
         ],
       ),
     );
   }
 
-  /// Cierre: en el piloto se pide la letra; en el capítulo 2 se revela.
-  Widget _close(BuildContext context) {
-    if (!revealMode) {
-      return const _ScaleDownBox(
-        alignment: Alignment.center,
-        child: ReelCommentCta(),
-      );
-    }
+  Widget _reveal(BuildContext context) {
     return _ScaleDownBox(
       alignment: Alignment.center,
       child: Column(
@@ -150,7 +193,7 @@ class ReelExpressStage extends StatelessWidget {
         children: [
           for (var i = 0; i < clip.options.length; i++) ...[
             if (i > 0) const SizedBox(height: 12),
-            _OptionRow(
+            ReelOptionRow(
               letter: i < letters.length ? letters[i] : '${i + 1}',
               text: clip.options[i],
               marked: i == clip.correctIndex,
@@ -158,10 +201,7 @@ class ReelExpressStage extends StatelessWidget {
             ),
           ],
           const SizedBox(height: 28),
-          ReelRevealClose(
-            correctLetter: clip.correctLetter,
-            why: clip.revealWhy,
-          ),
+          ReelRevealClose(why: clip.revealWhy),
         ],
       ),
     );
@@ -172,7 +212,16 @@ class ReelExpressStage extends StatelessWidget {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        const SizedBox(height: 28),
+        const SizedBox(height: 44),
+        Transform.scale(
+          scale: timerPulse,
+          child: Text(
+            '$countdownLeft',
+            style: type.timer,
+            textAlign: TextAlign.center,
+          ),
+        ),
+        const SizedBox(height: 8),
         ClipRRect(
           borderRadius: BorderRadius.circular(99),
           child: SizedBox(
@@ -184,21 +233,46 @@ class ReelExpressStage extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(height: 8),
-        Transform.scale(
-          scale: timerPulse,
-          child: Text(
-            '$countdownLeft',
-            style: type.timer,
-            textAlign: TextAlign.center,
-          ),
-        ),
       ],
     );
   }
 }
 
-/// Reduce el bloque completo si no cabe, manteniendo la proporción del diseño.
+class _ReelCue extends StatelessWidget {
+  const _ReelCue({
+    required this.text,
+    required this.pulse,
+    required this.icon,
+  });
+
+  final String text;
+  final double pulse;
+  final IconData icon;
+
+  @override
+  Widget build(BuildContext context) {
+    final type = ReelType.of(context);
+    final size = type.kicker.fontSize ?? 30;
+    return Opacity(
+      opacity: pulse.clamp(0.42, 1),
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Icon(icon, color: AppColors.goldDeep, size: size),
+          const SizedBox(width: 10),
+          Flexible(
+            child: Text(
+              text,
+              style: type.kicker,
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
 class _ScaleDownBox extends StatelessWidget {
   const _ScaleDownBox({required this.child, required this.alignment});
 
@@ -215,7 +289,6 @@ class _ScaleDownBox extends StatelessWidget {
   }
 }
 
-/// Aviso legal fijo del lienzo.
 class _Disclaimer extends StatelessWidget {
   const _Disclaimer();
 
@@ -230,58 +303,53 @@ class _Disclaimer extends StatelessWidget {
   }
 }
 
-/// Primera pantalla: la trampa del caso. En el capítulo 2 avisa que hoy
-/// se revela, sin adelantar la letra.
+/// Gancho a golpe: la trampa del caso, sin pedir aún la letra.
 class _ReelHookHero extends StatelessWidget {
-  const _ReelHookHero({
-    super.key,
-    required this.clip,
-    required this.revealMode,
-  });
+  const _ReelHookHero({super.key, required this.clip});
 
   final ReelClip clip;
-  final bool revealMode;
 
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
     return SizedBox.expand(
-      child: Center(
-        child: _ScaleDownBox(
-          alignment: Alignment.center,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              const _ReelWatermark(large: true),
-              const SizedBox(height: 28),
-              Text(
-                revealMode
-                    ? ReelStudioPack.revealKicker
-                    : ReelStudioPack.seriesKicker,
-                style: type.kicker,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 24),
-              Text(
-                clip.hook,
-                style: type.hook,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 28),
-              Text(
-                revealMode
-                    ? ReelStudioPack.revealPromise
-                    : ReelStudioPack.closeAsk,
-                style: type.cta,
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 28),
-              Text(
-                ReelStudioPack.disclaimer,
-                style: type.fineprint,
-                textAlign: TextAlign.center,
-              ),
-            ],
+      child: TweenAnimationBuilder<double>(
+        tween: Tween(begin: 0.86, end: 1),
+        duration: const Duration(milliseconds: 180),
+        curve: Curves.easeOutBack,
+        builder: (context, scale, child) {
+          return Opacity(
+            opacity: ((scale - 0.86) / 0.14).clamp(0.0, 1.0),
+            child: Transform.scale(scale: scale, child: child),
+          );
+        },
+        child: Center(
+          child: _ScaleDownBox(
+            alignment: Alignment.center,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                const _ReelWatermark(large: true),
+                const SizedBox(height: 28),
+                Text(
+                  ReelStudioPack.seriesKicker,
+                  style: type.kicker,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 24),
+                Text(
+                  clip.hook,
+                  style: type.hook,
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 28),
+                Text(
+                  ReelStudioPack.disclaimer,
+                  style: type.fineprint,
+                  textAlign: TextAlign.center,
+                ),
+              ],
+            ),
           ),
         ),
       ),
@@ -289,8 +357,6 @@ class _ReelHookHero extends StatelessWidget {
   }
 }
 
-/// Firma de marca: grande en la portada y mínima durante el caso, para que el
-/// contenido respire sin regalar el vídeo a quien lo reposte.
 class _ReelWatermark extends StatelessWidget {
   const _ReelWatermark({this.large = false});
 
@@ -308,72 +374,6 @@ class _ReelWatermark extends StatelessWidget {
         SizedBox(width: large ? 16 : 12),
         Text(ReelStudioPack.brand, style: type.watermark),
       ],
-    );
-  }
-}
-
-class _OptionRow extends StatelessWidget {
-  const _OptionRow({
-    required this.letter,
-    required this.text,
-    this.marked = false,
-    this.dimmed = false,
-  });
-
-  final String letter;
-  final String text;
-  final bool marked;
-  final bool dimmed;
-
-  @override
-  Widget build(BuildContext context) {
-    final type = ReelType.of(context);
-    final bg = marked ? AppColors.gold : AppColors.white;
-    final border = marked ? AppColors.goldDeep : AppColors.stroke;
-    return Opacity(
-      opacity: dimmed ? 0.38 : 1,
-      child: DecoratedBox(
-        decoration: BoxDecoration(
-          color: bg,
-          borderRadius: BorderRadius.circular(20),
-          border: Border.all(color: border, width: 3),
-        ),
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(16, 16, 18, 16),
-          child: Row(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              DecoratedBox(
-                decoration: BoxDecoration(
-                  color: marked ? AppColors.ink : AppColors.gold,
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 8,
-                  ),
-                  child: Text(
-                    letter,
-                    style: type.letter.copyWith(
-                      color: marked ? AppColors.white : AppColors.ink,
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(width: 16),
-              Expanded(
-                child: Text(
-                  text,
-                  style: type.option.copyWith(
-                    color: marked ? AppColors.ink : AppColors.textPrimary,
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
     );
   }
 }

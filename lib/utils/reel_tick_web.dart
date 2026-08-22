@@ -1,6 +1,6 @@
 import 'dart:js_interop';
 
-/// Contexto Web Audio reutilizado entre ticks (Chrome / OBS).
+/// Contexto Web Audio reutilizado entre efectos (Chrome / OBS).
 _JsAudioContext? _ctx;
 
 /// Desbloquea el audio tras un gesto (clic o Espacio). OBS autoplay no basta.
@@ -19,21 +19,55 @@ void unlockReelAudio() {
 
 /// Click corto (onda cuadrada) para la cuenta atrás.
 void playReelTick({double frequency = 920}) {
+  _tone(frequency: frequency, seconds: 0.08, gain: 0.07, type: 'square');
+}
+
+/// El gancho (0–2 s) va en silencio a propósito.
+void playReelSwoosh() {}
+
+/// Pop al aparecer cada letra.
+void playReelPop() {
+  _tone(frequency: 640, seconds: 0.055, gain: 0.11, type: 'triangle');
+}
+
+/// Campana de acierto al revelar.
+void playReelDing() {
+  _tone(frequency: 1046, seconds: 0.32, gain: 0.08, type: 'sine');
+  _tone(
+    frequency: 1568,
+    seconds: 0.38,
+    gain: 0.05,
+    type: 'sine',
+    delay: 0.04,
+  );
+}
+
+void _tone({
+  required double frequency,
+  required double seconds,
+  required double gain,
+  required String type,
+  double toFrequency = 0,
+  double delay = 0,
+}) {
   try {
     unlockReelAudio();
     final ctx = _ctx;
     if (ctx == null) return;
     final osc = ctx.createOscillator();
-    final gain = ctx.createGain();
-    osc.type = 'square';
-    final now = ctx.currentTime;
+    final amp = ctx.createGain();
+    osc.type = type;
+    final now = ctx.currentTime + delay;
     osc.frequency.setValueAtTime(frequency, now);
-    gain.gain.setValueAtTime(0.07, now);
-    gain.gain.exponentialRampToValueAtTime(0.001, now + 0.07);
-    osc.connect(gain);
-    gain.connect(ctx.destination);
+    if (toFrequency > 0) {
+      osc.frequency.exponentialRampToValueAtTime(toFrequency, now + seconds);
+    }
+    amp.gain.setValueAtTime(gain, now);
+    amp.gain.exponentialRampToValueAtTime(0.001, now + seconds);
+    osc.connect(amp);
+    amp.connect(ctx.destination);
     osc.start(now);
-    osc.stop(now + 0.08);
+    osc.stop(now + seconds + 0.02);
   } catch (_) {
     // Sin audio: el video sigue; OBS a veces no captura el tab.
   }

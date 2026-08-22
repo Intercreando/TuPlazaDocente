@@ -14,17 +14,14 @@ abstract final class ReelStudioPack {
   /// Reserva si un caso no trae gancho. En el pack cada clip tiene el suyo.
   static const hook = ReelClip.fallbackHook;
   static const seriesKicker = 'CONCURSO DOCENTE 2026';
-  static const revealKicker = 'LA RESPUESTA';
-  static const revealPromise = 'Hoy te digo cuál era.';
 
-  /// Cierre sin revelar: se pide la letra para provocar comentarios.
-  static const closeAsk = '¿A, B, C o D?';
-  static const closeComenta = 'Comenta tu letra y por qué la elegiste';
-  static const closeDebate = 'El que la sustenta, la aprende.';
-  static const closeFollow = 'Mañana subo la respuesta. Sígueme para verla.';
+  /// Ciclo cerrado: el vídeo pide la letra y revela en los mismos 15 s.
+  static const holdCue = 'Mantén presionado para leer';
+  static const commentNow =
+      'Deja tu letra en los comentarios antes del reloj';
 
   static const site = 'tuplazadocente.com';
-  static const closeAction = 'Crea tu cuenta gratis';
+  static const closeAction = 'Simulacros completos, gratis';
   static const closeRegister = '$site — $closeAction';
   static const brand = 'TuPlazaDocente';
   static const disclaimer = 'Entrenamiento. No es un ítem oficial de la CNSC.';
@@ -32,7 +29,7 @@ abstract final class ReelStudioPack {
       '#ConcursoDocente #ConcursoDocente2026 #CNSC #DocentesColombia '
       '#MagisterioColombia #TuPlazaDocente';
   static const pinnedComment =
-      'La explicación y el simulador están en tuplazadocente.com — crea tu cuenta gratis.';
+      'Simulacros completos y gratis en tuplazadocente.com — crea tu cuenta.';
 
   /// Catálogo completo. Las letras correctas están repartidas por igual entre
   /// A, B, C y D para que la audiencia no aprenda a adivinar.
@@ -79,30 +76,16 @@ abstract final class ReelStudioPack {
     return catalog.where((clip) => clip.searchText.contains(needle)).toList();
   }
 
-  /// Caption de TikTok/Reels (sin revelar la letra en el capítulo 1).
-  ///
-  /// No se pega el caso completo: el clasificador de TikTok lee el caption
-  /// primero. El enunciado ya va en el vídeo.
-  static String captionFor(ReelClip clip, {required bool reveal}) {
-    final lines = reveal
-        ? <String>[
-            revealKicker,
-            clip.hook,
-            '',
-            'Respuesta: ${clip.correctLetter}. ${clip.revealWhy}',
-            '',
-            closeRegister,
-          ]
-        : <String>[
-            clip.hook,
-            '',
-            closeAsk,
-            closeComenta,
-            closeFollow,
-            '',
-            closeRegister,
-          ];
-    lines.addAll(['', hashtags]);
-    return lines.join('\n');
+  /// Caption de TikTok/Reels. La letra no va aquí: si se delata en el pie,
+  /// nadie comenta. El vídeo sí revela al cierre.
+  static String captionFor(ReelClip clip) {
+    return [
+      clip.hook,
+      '',
+      commentNow,
+      closeRegister,
+      '',
+      hashtags,
+    ].join('\n');
   }
 }

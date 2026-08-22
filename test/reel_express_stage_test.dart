@@ -10,7 +10,6 @@ import 'package:tu_plaza_docente/widgets/reel_express_stage.dart';
 /// layout debe seguir cabiendo en 1080×1920 sin desbordar.
 void main() {
   setUpAll(() {
-    // En pruebas no hay red: se usan las métricas de la fuente de respaldo.
     GoogleFonts.config.allowRuntimeFetching = false;
   });
 
@@ -18,9 +17,8 @@ void main() {
     WidgetTester tester, {
     required ReelClip clip,
     required ReelBeat beat,
-    required bool revealMode,
+    int visibleOptionCount = 4,
   }) async {
-    // El lienzo se diseña a 1080×1920: la superficie de prueba debe medir igual.
     await tester.binding.setSurfaceSize(ReelExpressStage.designSize);
     addTearDown(() => tester.binding.setSurfaceSize(null));
 
@@ -32,12 +30,38 @@ void main() {
           beat: beat,
           countdownLeft: 3,
           countdownProgress: 0.5,
-          revealMode: revealMode,
+          visibleOptionCount: visibleOptionCount,
         ),
       ),
     );
     await tester.pump(const Duration(milliseconds: 500));
   }
+
+  test('el ciclo suma 15 s y las letras entran en el bloque del caso', () {
+    expect(
+      ReelExpressStage.hookMs +
+          ReelExpressStage.questionMs +
+          ReelExpressStage.countdownMs +
+          ReelExpressStage.closeMs,
+      ReelExpressStage.cycleMs,
+    );
+    expect(
+      ReelExpressStage.optionCountAt(
+        beat: ReelBeat.question,
+        elapsedMs: ReelExpressStage.hookMs,
+      ),
+      0,
+    );
+    expect(
+      ReelExpressStage.optionCountAt(
+        beat: ReelBeat.question,
+        elapsedMs: ReelExpressStage.hookMs +
+            ReelExpressStage.optionDelayMs +
+            ReelExpressStage.optionGapMs * 3,
+      ),
+      4,
+    );
+  });
 
   testWidgets('ningún caso desborda el lienzo en ningún momento', (
     tester,
@@ -51,88 +75,63 @@ void main() {
 
     for (final clip in ReelStudioPack.clips) {
       for (final beat in beats) {
-        for (final revealMode in [false, true]) {
-          await pumpStage(
-            tester,
-            clip: clip,
-            beat: beat,
-            revealMode: revealMode,
-          );
-          expect(
-            tester.takeException(),
-            isNull,
-            reason: 'Desborde en ${clip.id} · $beat · revela=$revealMode',
-          );
-        }
+        await pumpStage(tester, clip: clip, beat: beat);
+        expect(
+          tester.takeException(),
+          isNull,
+          reason: 'Desborde en ${clip.id} · $beat',
+        );
       }
     }
   });
 
-  testWidgets('el cierre sin revelar pide la letra y no repite las opciones', (
+  testWidgets('el cierre revela la correcta y pide ir a la web', (
     tester,
   ) async {
     final clip = ReelStudioPack.clips.first;
-    await pumpStage(
-      tester,
-      clip: clip,
-      beat: ReelBeat.close,
-      revealMode: false,
-    );
+    await pumpStage(tester, clip: clip, beat: ReelBeat.close);
 
-    expect(find.text(ReelStudioPack.closeAsk), findsOneWidget);
-    expect(find.text(ReelStudioPack.closeComenta), findsOneWidget);
-    for (final option in clip.options) {
-      expect(find.text(option), findsNothing);
-    }
+    expect(find.text(clip.revealWhy), findsOneWidget);
+    expect(find.text(clip.options[clip.correctIndex]), findsOneWidget);
+    expect(find.text(ReelStudioPack.site), findsOneWidget);
+    expect(find.text(ReelStudioPack.holdCue), findsNothing);
   });
 
   testWidgets('la portada usa el gancho del caso, no el genérico', (
     tester,
   ) async {
     final clip = ReelStudioPack.clips.first;
-    await pumpStage(
-      tester,
-      clip: clip,
-      beat: ReelBeat.hook,
-      revealMode: false,
-    );
+    await pumpStage(tester, clip: clip, beat: ReelBeat.hook);
 
     expect(find.text(clip.hook), findsOneWidget);
-    expect(find.text(ReelStudioPack.closeAsk), findsOneWidget);
     expect(find.text(ReelStudioPack.seriesKicker), findsOneWidget);
     expect(find.text(ReelClip.fallbackHook), findsNothing);
+    expect(find.text(clip.stem), findsNothing);
   });
 
-  testWidgets('la portada del capítulo 2 avisa que hoy se revela', (
+  testWidgets('el caso pide mantener presionado y no repite el gancho', (
     tester,
   ) async {
     final clip = ReelStudioPack.clips.first;
-    await pumpStage(
-      tester,
-      clip: clip,
-      beat: ReelBeat.hook,
-      revealMode: true,
-    );
+    await pumpStage(tester, clip: clip, beat: ReelBeat.question);
 
-    expect(find.text(ReelStudioPack.revealKicker), findsOneWidget);
-    expect(find.text(ReelStudioPack.revealPromise), findsOneWidget);
-    expect(find.text(clip.hook), findsOneWidget);
-    expect(find.text(clip.correctLetter), findsNothing);
-    expect(find.text(ReelStudioPack.closeAsk), findsNothing);
-    expect(find.text(ReelStudioPack.seriesKicker), findsNothing);
+    expect(find.text(clip.hook), findsNothing);
+    expect(find.text(clip.stem), findsOneWidget);
+    expect(find.text(ReelStudioPack.holdCue), findsOneWidget);
   });
 
-  testWidgets('la pregunta no repite el gancho de la portada', (tester) async {
+  testWidgets('las opciones aparecen de a una', (tester) async {
     final clip = ReelStudioPack.clips.first;
     await pumpStage(
       tester,
       clip: clip,
       beat: ReelBeat.question,
-      revealMode: false,
+      visibleOptionCount: 2,
     );
 
-    expect(find.text(clip.hook), findsNothing);
-    expect(find.text(ReelClip.fallbackHook), findsNothing);
-    expect(find.text(clip.stem), findsOneWidget);
+    expect(find.text(clip.options[0]), findsOneWidget);
+    expect(find.text(clip.options[1]), findsOneWidget);
+    expect(find.text(clip.options[2]), findsNothing);
+    expect(find.text(clip.options[3]), findsNothing);
   });
 }

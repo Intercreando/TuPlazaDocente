@@ -6,14 +6,9 @@ import '../utils/app_snackbars.dart';
 
 /// Kit de publicación: caption, hashtags y comentario fijado del clip.
 class ReelPublishKit extends StatelessWidget {
-  const ReelPublishKit({
-    super.key,
-    required this.clip,
-    required this.revealMode,
-  });
+  const ReelPublishKit({super.key, required this.clip});
 
   final ReelClip clip;
-  final bool revealMode;
 
   Future<void> _copy(BuildContext context, String text, String ok) async {
     try {
@@ -38,15 +33,15 @@ class ReelPublishKit extends StatelessWidget {
         Text('Copiar para publicar', style: theme.textTheme.titleSmall),
         const SizedBox(height: 4),
         Text(
-          'Pega el caption en TikTok/Reels y fija el comentario. '
-          'El capítulo 1 no revela la letra.',
+          'Pega el caption en TikTok. La letra no va en el pie: '
+          'el vídeo la revela al cierre para que comenten antes.',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 8),
         OutlinedButton(
           onPressed: () => _copy(
             context,
-            ReelStudioPack.captionFor(clip, reveal: revealMode),
+            ReelStudioPack.captionFor(clip),
             'Caption copiado.',
           ),
           child: const Text('Copiar caption'),

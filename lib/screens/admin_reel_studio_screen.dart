@@ -29,13 +29,12 @@ class AdminReelStudioScreen extends StatefulWidget {
 }
 
 class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
-  /// Ciclo exacto de 15,00 s. El H1 se lee (~2,5 s) y luego entra el caso.
-  static const _cycleMs = 15000;
-  static const _hookMs = 2500;
-  static const _countdownMs = 3000;
-  static const _closeMs = 3000;
-  static const _questionMs = _cycleMs - _hookMs - _countdownMs - _closeMs;
-  static const _fadeMs = 180;
+  /// Ciclo cerrado de 15 s: gancho, caso, cuenta y revelación.
+  static const _cycleMs = ReelExpressStage.cycleMs;
+  static const _hookMs = ReelExpressStage.hookMs;
+  static const _countdownMs = ReelExpressStage.countdownMs;
+  static const _questionMs = ReelExpressStage.questionMs;
+  static const _fadeMs = ReelExpressStage.fadeMs;
 
   final _focus = FocusNode();
   final _clipService = ReelClipService();
@@ -45,11 +44,12 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   List<ReelClip> _customClips = const [];
   Set<String> _usedIds = {};
   Set<String> _hiddenIds = {};
-  bool _revealMode = false;
   bool _playing = false;
   bool _ended = false;
   bool _tickSound = true;
   int? _lastTickSecond;
+  ReelBeat? _lastSfxBeat;
+  int _lastOptionSfx = 0;
 
   String? _appliedQuery;
   bool _catalogReady = false;
@@ -77,8 +77,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   }
 
   String get _obsQuery {
-    final revela = _revealMode ? '&revela=1' : '';
-    return 'obs=1&caso=${Uri.encodeQueryComponent(_clip.id)}$revela';
+    return 'obs=1&caso=${Uri.encodeQueryComponent(_clip.id)}';
   }
 
   /// Misma forma que la barra de Chrome. Flutter Web guarda la ruta después
@@ -138,18 +137,11 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     if (uri.query == _appliedQuery) return;
     _appliedQuery = uri.query;
     final clip = ReelStudioPack.byIdIn(_lookupCatalog, uri.queryParameters['caso']);
-    final reveal = uri.queryParameters['revela'] == '1';
     final startObs =
         uri.queryParameters['obs'] == '1' && !_playing && _catalogReady;
     WidgetsBinding.instance.addPostFrameCallback((_) {
       if (!mounted) return;
-      setState(() {
-        _clip = clip;
-        if (uri.queryParameters.containsKey('revela') ||
-            uri.queryParameters['obs'] == '1') {
-          _revealMode = reveal;
-        }
-      });
+      setState(() => _clip = clip);
       if (startObs) _play();
     });
   }
@@ -196,6 +188,21 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     return 1.0 + (1.0 - frac) * 0.16;
   }
 
+  double get _cuePulse {
+    if (_beat != ReelBeat.question) return 1;
+    final phase = (_elapsedMs % 700) / 700;
+    final tri = phase < 0.5 ? phase * 2 : (1 - phase) * 2;
+    return 0.42 + 0.58 * tri;
+  }
+
+  int get _visibleOptions {
+    if (!_playing && !_ended) return 4;
+    return ReelExpressStage.optionCountAt(
+      beat: _beat,
+      elapsedMs: _elapsedMs,
+    );
+  }
+
   double get _stageOpacity {
     if (!_playing) return 1;
     final t = _elapsedMs;
@@ -203,28 +210,35 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
     return 1;
   }
 
-  void _maybeTick() {
+  void _maybeSfx() {
     if (!_tickSound || !_playing) return;
-    if (_beat == ReelBeat.countdown) {
+    final beat = _beat;
+    if (beat == ReelBeat.close && _lastSfxBeat != ReelBeat.close) {
+      playReelDing();
+    }
+    if (beat == ReelBeat.countdown) {
       final n = _countdownLeft;
       if (_lastTickSecond != n) {
         _lastTickSecond = n;
-        playReelTick(frequency: 880);
+        playReelTick(frequency: 720 + (3 - n) * 90);
       }
-    } else if (_beat == ReelBeat.close) {
-      if (_lastTickSecond != 0) {
-        _lastTickSecond = 0;
-        playReelTick(frequency: 1180);
-      }
-    } else {
+    } else if (beat != ReelBeat.close) {
       _lastTickSecond = null;
     }
+    final shown = _visibleOptions;
+    if (beat == ReelBeat.question && shown > _lastOptionSfx) {
+      playReelPop();
+    }
+    _lastOptionSfx = shown;
+    _lastSfxBeat = beat;
   }
 
   void _play() {
     _tick?.cancel();
     unlockReelAudio();
     _lastTickSecond = null;
+    _lastSfxBeat = null;
+    _lastOptionSfx = 0;
     setState(() {
       _playing = true;
       _ended = false;
@@ -236,7 +250,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
         _holdClose();
         return;
       }
-      _maybeTick();
+      _maybeSfx();
       setState(() {});
     });
   }
@@ -245,6 +259,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   void _holdClose() {
     _tick?.cancel();
     _lastTickSecond = null;
+    _lastSfxBeat = ReelBeat.close;
     setState(() {
       _playing = false;
       _ended = true;
@@ -255,6 +270,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   void _reset() {
     _tick?.cancel();
     _lastTickSecond = null;
+    _lastSfxBeat = null;
+    _lastOptionSfx = 0;
     setState(() {
       _playing = false;
       _ended = false;
@@ -402,8 +419,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
       _playing ? _reset() : _play();
     } else if (key == LogicalKeyboardKey.keyR) {
       _reset();
-    } else if (key == LogicalKeyboardKey.keyC) {
-      setState(() => _revealMode = !_revealMode);
     }
   }
 
@@ -420,7 +435,8 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
             countdownLeft: _countdownLeft,
             countdownProgress: _countdownProgress,
             timerPulse: _timerPulse,
-            revealMode: _revealMode,
+            visibleOptionCount: _visibleOptions,
+            cuePulse: _cuePulse,
           ),
         ),
       ),
@@ -500,21 +516,10 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         const SizedBox(height: 12),
                         SwitchListTile(
                           contentPadding: EdgeInsets.zero,
-                          title: const Text('Modo Revela'),
+                          title: const Text('Sonidos del ciclo'),
                           subtitle: Text(
-                            _revealMode
-                                ? 'Abre con “LA RESPUESTA”. La letra sale al cierre.'
-                                : 'Comenta la letra. No revela (capítulo 1).',
-                            style: theme.textTheme.bodySmall,
-                          ),
-                          value: _revealMode,
-                          onChanged: (v) => setState(() => _revealMode = v),
-                        ),
-                        SwitchListTile(
-                          contentPadding: EdgeInsets.zero,
-                          title: const Text('Tick de cuenta'),
-                          subtitle: Text(
-                            'Click en 3-2-1. En OBS captura audio de Chrome.',
+                            'Swoosh, pop de letras, tic-tac y campana. '
+                            'En OBS captura el audio de Chrome.',
                             style: theme.textTheme.bodySmall,
                           ),
                           value: _tickSound,
@@ -565,12 +570,12 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         const SizedBox(height: 16),
                         const ReelCaptureNote(),
                         const SizedBox(height: 16),
-                        ReelPublishKit(clip: _clip, revealMode: _revealMode),
+                        ReelPublishKit(clip: _clip),
                         const SizedBox(height: 16),
                         Text(
-                          'Atajos: espacio = play/parar. R = reset. C = revela. '
-                          'Al terminar se congela el cierre con el llamado a comentar. '
-                          'Haz clic una vez en Chrome si quieres el tick en el video.',
+                          'Atajos: espacio = play/parar. R = reset. '
+                          'El vídeo pregunta, pide comentario y revela en 15 s. '
+                          'Haz clic una vez en Chrome si quieres el audio en el video.',
                           style: theme.textTheme.bodySmall,
                         ),
                       ],
