@@ -72,6 +72,8 @@ GoRouter createAppRouter(AppState appState) {
       if (onboarded && loc == '/onboarding' && !editingProfile) {
         return '/app';
       }
+      // /premium queda permitido a propósito: pagar es el objetivo.
+      // /practice es la pantalla del diagnóstico en curso.
       if (onboarded && appState.needsPaidDiagnostic) {
         const diagnosticAllowed = {
           '/diagnostico',

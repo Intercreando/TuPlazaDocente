@@ -7,6 +7,10 @@ abstract final class PaidTraffic {
 
   static void captureFromUri(Uri uri) {}
 
+  static void treatAsOrganic() {}
+
+  static void clearOrganicOverride() {}
+
   static void clearPendingClaim() {}
 
   static void markClaimSettled(String uid) {}

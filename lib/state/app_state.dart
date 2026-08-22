@@ -675,29 +675,43 @@ class AppState extends ChangeNotifier {
   }
 
   /// Si el clic fue de pauta y la cuenta es nueva, el servidor sella oferta 24 h.
-  /// Una sola invocación por uid (no hay reintento en bucle).
+  /// Red: hasta 3 intentos. Cuenta vieja: se trata como orgánico, sin reintentar.
   Future<void> _claimPaidAcquisitionIfNeeded() async {
     if (_sync.isAnonymous || !_sync.available) return;
     final uid = _sync.uid;
     if (uid == null || uid.isEmpty) return;
     if (_paidClaimInFlight) return;
-    if (PaidTraffic.isClaimSettledFor(uid) || _paidClaimSettledUid == uid) {
-      return;
-    }
     if (profile.acquiredViaPaid) {
       PaidTraffic.markClaimSettled(uid);
       _paidClaimSettledUid = uid;
+      return;
+    }
+    if (PaidTraffic.isClaimSettledFor(uid) || _paidClaimSettledUid == uid) {
+      // Rechazo previo (cuenta vieja): no reintentar ni mostrar copy de pauta.
+      PaidTraffic.treatAsOrganic();
       return;
     }
     if (!PaidTraffic.isPaid || profile.isPremium) return;
 
     _paidClaimInFlight = true;
     try {
-      final claim = await _paidAcquisition.claim();
-      if (claim == null) return;
+      PaidAcquisitionClaim? claim;
+      for (var attempt = 0; attempt < 3; attempt++) {
+        claim = await _paidAcquisition.claim();
+        if (claim != null) break;
+        if (attempt < 2) {
+          await Future<void>.delayed(Duration(milliseconds: 400 * (attempt + 1)));
+        }
+      }
+      if (claim == null) {
+        // Red/timeout: no sellar. El próximo bootstrap o login reintenta.
+        return;
+      }
       if (claim.rejected) {
+        PaidTraffic.treatAsOrganic();
         PaidTraffic.markClaimSettled(uid);
         _paidClaimSettledUid = uid;
+        notifyListeners();
         return;
       }
       if (!claim.acquiredViaPaid) return;
@@ -708,6 +722,7 @@ class AppState extends ChangeNotifier {
       );
       PaidTraffic.markClaimSettled(uid);
       _paidClaimSettledUid = uid;
+      notifyListeners();
     } catch (e) {
       debugPrint('claimPaidAcquisitionIfNeeded: $e');
     } finally {

@@ -46,6 +46,13 @@
     (function () {
       try {
         var q = new URLSearchParams(location.search);
+        var h = location.hash || '';
+        var qi = h.indexOf('?');
+        if (qi >= 0) {
+          new URLSearchParams(h.slice(qi + 1)).forEach(function (v, k) {
+            if (!q.has(k)) q.set(k, v);
+          });
+        }
         var src = (q.get('utm_source') || '').toLowerCase();
         var med = (q.get('utm_medium') || '').toLowerCase();
         var paid = q.has('fbclid') || q.has('gclid') || q.has('gbraid') ||
@@ -58,6 +65,7 @@
           med === 'paid_search';
         if (paid) {
           sessionStorage.setItem('tpd_paid_traffic', '1');
+          try { sessionStorage.removeItem('tpd_paid_as_organic'); } catch (e3) {}
           try { localStorage.setItem('tpd_paid_claim_at', String(Date.now())); } catch (e2) {}
         }
       } catch (e) {}

@@ -28,7 +28,8 @@ class DiagnosticPaywallScreen extends StatelessWidget {
         title: const Text('Tu diagnóstico'),
         leading: IconButton(
           icon: const Icon(Icons.close),
-          onPressed: () => context.go('/app'),
+          tooltip: 'Ir a Premium',
+          onPressed: () => context.go('/premium'),
         ),
       ),
       body: SafeArea(
@@ -62,10 +63,12 @@ class DiagnosticPaywallScreen extends StatelessWidget {
                   onPressed: () => context.go('/premium'),
                   child: Text('Desbloquear Premium · $price'),
                 ),
-                const SizedBox(height: 10),
-                OutlinedButton(
+                const SizedBox(height: 14),
+                TextButton(
                   onPressed: () => context.go('/app'),
-                  child: const Text('Seguir con el reto diario'),
+                  child: const Text(
+                    'Ahora no · el simulacro con reloj sigue siendo Premium',
+                  ),
                 ),
               ],
             ),

@@ -10,10 +10,21 @@
   <link rel="preconnect" href="https://www.googletagmanager.com">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <script>
-    // Marca la pestaña si el clic vino de pauta (fbclid / utm). Flutter lo lee después.
+    // Marca la pestaña si el clic vino de pauta (query o hash: fbclid / utm).
     (function () {
       try {
-        var q = new URLSearchParams(location.search);
+        window.tpdAdsParams = function () {
+          var q = new URLSearchParams(location.search);
+          var h = location.hash || '';
+          var qi = h.indexOf('?');
+          if (qi >= 0) {
+            new URLSearchParams(h.slice(qi + 1)).forEach(function (v, k) {
+              if (!q.has(k)) q.set(k, v);
+            });
+          }
+          return q;
+        };
+        var q = window.tpdAdsParams();
         var src = (q.get('utm_source') || '').toLowerCase();
         var med = (q.get('utm_medium') || '').toLowerCase();
         var paid = q.has('fbclid') || q.has('gclid') || q.has('gbraid') ||
@@ -26,9 +37,11 @@
           med === 'paid_search';
         if (paid) {
           sessionStorage.setItem('tpd_paid_traffic', '1');
+          try { sessionStorage.removeItem('tpd_paid_as_organic'); } catch (e3) {}
           try { localStorage.setItem('tpd_paid_claim_at', String(Date.now())); } catch (e2) {}
         }
-        if (sessionStorage.getItem('tpd_paid_traffic') === '1') {
+        if (sessionStorage.getItem('tpd_paid_traffic') === '1' &&
+            sessionStorage.getItem('tpd_paid_as_organic') !== '1') {
           document.documentElement.classList.add('tpd-paid');
         }
       } catch (e) {}
@@ -186,7 +199,9 @@
       };
       var fbp = readCookie('_fbp');
       var fbc = readCookie('_fbc');
-      var fbclid = new URLSearchParams(location.search).get('fbclid');
+      var fbclid = (window.tpdAdsParams
+        ? window.tpdAdsParams()
+        : new URLSearchParams(location.search)).get('fbclid');
       if (!fbc && fbclid) {
         fbc = 'fb.1.' + Date.now() + '.' + fbclid;
       }

@@ -1,42 +1,20 @@
 import 'package:web/web.dart' as web;
 
+import 'paid_traffic_signals.dart';
+
 /// Detecta tráfico de pauta (Meta/Google) y lo recuerda 48 h.
 /// Así el claim de bienvenida no se pierde si se cierra la pestaña.
 abstract final class PaidTraffic {
   static const _storageKey = 'tpd_paid_traffic';
   static const _pendingKey = 'tpd_paid_claim_at';
   static const _settledUidKey = 'tpd_paid_claim_settled_uid';
+  static const _organicKey = 'tpd_paid_as_organic';
   static const _pendingTtlMs = 48 * 60 * 60 * 1000;
 
-  static const _paidSources = {
-    'facebook',
-    'instagram',
-    'fb',
-    'ig',
-    'meta',
-    'anuncios',
-    'google',
-    'googleads',
-    'adwords',
-    'adsense',
-  };
-
-  static const _paidMedia = {
-    'cpc',
-    'ppc',
-    'paid',
-    'paid_social',
-    'paidsocial',
-    'paid-social',
-    'display',
-    'cpm',
-    'banner',
-    'paid_search',
-    'paidsearch',
-  };
-
   /// True si esta visita (o las últimas 48 h) vino de anuncio.
+  /// Una cuenta vieja rechazada deja de verse como pauta en esta pestaña.
   static bool get isPaid {
+    if (_treatAsOrganic) return false;
     try {
       if (web.window.sessionStorage.getItem(_storageKey) == '1') {
         return true;
@@ -44,7 +22,7 @@ abstract final class PaidTraffic {
     } catch (_) {}
     if (_pendingFresh) return true;
     try {
-      return looksPaid(Uri.parse(web.window.location.href));
+      return PaidTrafficSignals.looksPaid(Uri.parse(web.window.location.href));
     } catch (_) {
       return false;
     }
@@ -52,6 +30,14 @@ abstract final class PaidTraffic {
 
   /// Pauta: registro. Orgánico: onboarding de invitado.
   static String get startPath => isPaid ? '/auth' : '/onboarding';
+
+  static bool get _treatAsOrganic {
+    try {
+      return web.window.sessionStorage.getItem(_organicKey) == '1';
+    } catch (_) {
+      return false;
+    }
+  }
 
   static bool get _pendingFresh {
     try {
@@ -67,7 +53,8 @@ abstract final class PaidTraffic {
 
   /// Persiste la marca si el URI actual trae parámetros de pauta.
   static void captureFromUri(Uri uri) {
-    if (!looksPaid(uri)) return;
+    if (!PaidTrafficSignals.looksPaid(uri)) return;
+    clearOrganicOverride();
     try {
       web.window.sessionStorage.setItem(_storageKey, '1');
     } catch (_) {}
@@ -76,6 +63,23 @@ abstract final class PaidTraffic {
         _pendingKey,
         DateTime.now().millisecondsSinceEpoch.toString(),
       );
+    } catch (_) {}
+  }
+
+  /// Cuenta que no califica a la oferta: copy y CTA de pauta se apagan.
+  static void treatAsOrganic() {
+    try {
+      web.window.sessionStorage.setItem(_organicKey, '1');
+    } catch (_) {}
+    try {
+      web.window.sessionStorage.removeItem(_storageKey);
+    } catch (_) {}
+    clearPendingClaim();
+  }
+
+  static void clearOrganicOverride() {
+    try {
+      web.window.sessionStorage.removeItem(_organicKey);
     } catch (_) {}
   }
 
@@ -101,6 +105,7 @@ abstract final class PaidTraffic {
     try {
       web.window.localStorage.removeItem(_settledUidKey);
     } catch (_) {}
+    clearOrganicOverride();
   }
 
   /// Tras sellar la cuenta en servidor, ya no hace falta el pendiente local.
@@ -108,20 +113,5 @@ abstract final class PaidTraffic {
     try {
       web.window.localStorage.removeItem(_pendingKey);
     } catch (_) {}
-  }
-
-  static bool looksPaid(Uri uri) {
-    final q = uri.queryParameters;
-    if (q.containsKey('fbclid') ||
-        q.containsKey('gclid') ||
-        q.containsKey('gbraid') ||
-        q.containsKey('wbraid') ||
-        q.containsKey('ttclid')) {
-      return true;
-    }
-    final source = (q['utm_source'] ?? '').trim().toLowerCase();
-    if (_paidSources.contains(source)) return true;
-    final medium = (q['utm_medium'] ?? '').trim().toLowerCase();
-    return _paidMedia.contains(medium);
   }
 }

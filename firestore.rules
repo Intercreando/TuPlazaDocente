@@ -25,6 +25,13 @@ service cloud.firestore {
           'acquiredViaPaid',
           'welcomeOfferExpiresAt',
           'paidAcquisitionAt',
+          'rescueEmailSent',
+          'reminderOfferSentAt',
+          'reminderOfferLastError',
+          'organicWelcomeSent',
+          'organicWelcomeSentAt',
+          'upsellEmailSent',
+          'upsellEmailSentAt',
         ]);
     }
 
@@ -35,7 +42,11 @@ service cloud.firestore {
           !('acquiredViaPaid' in request.resource.data)
           || request.resource.data.acquiredViaPaid == false
         )
-        && !('welcomeOfferExpiresAt' in request.resource.data);
+        && !('welcomeOfferExpiresAt' in request.resource.data)
+        && !('rescueEmailSent' in request.resource.data)
+        && !('reminderOfferSentAt' in request.resource.data)
+        && !('organicWelcomeSent' in request.resource.data)
+        && !('upsellEmailSent' in request.resource.data);
     }
 
     match /users/{userId} {

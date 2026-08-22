@@ -6,6 +6,9 @@
  * - submitTestimonial: opiniones de comunidad (moderación)
  * - trackMetaCapi: Pixel + Conversions API (event_id compartido)
  * - claimPaidAcquisition: cohorte de pauta + oferta 24 h
+ * - sendUrgentOfferReminder: correo Resend 3–4 h antes de caducar la oferta
+ * - sendOrganicWelcomeEmail: bienvenida Resend solo tráfico orgánico
+ * - sendOrganicUpsellEmail: invitacion Premium a orgánicos (~3 días)
  * - serveNewsPage: HTML de /noticias y /noticias/<slug>/ al publicar
  */
 const crypto = require("crypto");
@@ -19,6 +22,9 @@ const promoAdmin = require("./promo_admin");
 const newsAdmin = require("./news_admin");
 const metaCapi = require("./meta_capi");
 const paidFunnel = require("./paid_funnel");
+const offerReminder = require("./offer_reminder");
+const organicWelcome = require("./organic_welcome");
+const organicUpsell = require("./organic_upsell");
 
 initializeApp();
 
@@ -761,3 +767,6 @@ exports.serveNewsPage = require("./news_serve").serveNewsPage;
 
 exports.trackMetaCapi = metaCapi.trackMetaCapi;
 exports.claimPaidAcquisition = paidFunnel.claimPaidAcquisition;
+exports.sendUrgentOfferReminder = offerReminder.sendUrgentOfferReminder;
+exports.sendOrganicWelcomeEmail = organicWelcome.sendOrganicWelcomeEmail;
+exports.sendOrganicUpsellEmail = organicUpsell.sendOrganicUpsellEmail;

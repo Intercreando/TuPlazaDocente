@@ -15,6 +15,14 @@
         { "fieldPath": "uid", "order": "ASCENDING" },
         { "fieldPath": "createdAt", "order": "ASCENDING" }
       ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "acquiredViaPaid", "order": "ASCENDING" },
+        { "fieldPath": "welcomeOfferExpiresAt", "order": "ASCENDING" }
+      ]
     }
   ],
   "fieldOverrides": []
