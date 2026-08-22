@@ -3,11 +3,13 @@ import 'package:provider/provider.dart';
 
 import '../services/tag_mastery_service.dart';
 import '../state/app_state.dart';
+import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
 import '../utils/progress_today_action.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/cnsc_score_predictor.dart';
 import '../widgets/competency_radar.dart';
+import '../widgets/progress_fold_card.dart';
 import '../widgets/tag_mastery_map.dart';
 import '../widgets/tmo_dashboard.dart';
 
@@ -47,18 +49,22 @@ class RadarScreen extends StatelessWidget {
                 const SizedBox(height: 16),
                 const ProgressTodayAction(),
                 const SizedBox(height: 22),
-                _ProgressFold(
+                ProgressFoldCard(
                   title: 'Pilares',
                   subtitle: 'Fortalezas y el punto más flojo',
+                  icon: Icons.hub_outlined,
+                  accent: AppColors.canopy,
                   initiallyExpanded: expandDetail,
                   child: CompetencyRadar(
                     profile: profile,
                     compact: true,
                   ),
                 ),
-                _ProgressFold(
+                ProgressFoldCard(
                   title: 'Temas a reforzar',
                   subtitle: 'Aciertos por norma y teoría',
+                  icon: Icons.menu_book_outlined,
+                  accent: AppColors.skyLine,
                   child: TagMasteryMap(
                     rows: masteryRows,
                     compact: true,
@@ -66,45 +72,17 @@ class RadarScreen extends StatelessWidget {
                     recommendedCode: recommended?.code.name,
                   ),
                 ),
-                _ProgressFold(
+                const ProgressFoldCard(
                   title: 'Velocidad (TMO)',
                   subtitle: 'Tiempo medio por pregunta',
-                  child: const TmoDashboardPanel(compact: true),
+                  icon: Icons.speed_outlined,
+                  accent: AppColors.goldDeep,
+                  child: TmoDashboardPanel(compact: true),
                 ),
               ],
             ),
           ),
         ),
-      ),
-    );
-  }
-}
-
-class _ProgressFold extends StatelessWidget {
-  const _ProgressFold({
-    required this.title,
-    required this.subtitle,
-    required this.child,
-    this.initiallyExpanded = false,
-  });
-
-  final String title;
-  final String subtitle;
-  final Widget child;
-  final bool initiallyExpanded;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    return Theme(
-      data: theme.copyWith(dividerColor: Colors.transparent),
-      child: ExpansionTile(
-        initiallyExpanded: initiallyExpanded,
-        tilePadding: EdgeInsets.zero,
-        childrenPadding: const EdgeInsets.only(bottom: 16),
-        title: Text(title, style: theme.textTheme.titleMedium),
-        subtitle: Text(subtitle, style: theme.textTheme.bodySmall),
-        children: [child],
       ),
     );
   }
