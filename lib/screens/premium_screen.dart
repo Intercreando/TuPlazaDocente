@@ -431,6 +431,12 @@ class _PremiumScreenState extends State<PremiumScreen> {
                         icon: const Icon(Icons.videocam_outlined),
                         label: const Text('Estudio Reels / OBS (admin)'),
                       ),
+                      const SizedBox(height: 10),
+                      OutlinedButton.icon(
+                        onPressed: () => context.push('/admin/estudio-directo'),
+                        icon: const Icon(Icons.live_tv_outlined),
+                        label: const Text('Estudio Directo YouTube (admin)'),
+                      ),
                     ],
                   ],
                 ],

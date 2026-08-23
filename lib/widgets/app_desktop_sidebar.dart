@@ -85,6 +85,13 @@ class AppDesktopSidebar extends StatelessWidget {
           caption: 'OBS y captura',
           path: '/admin/estudio-reels',
         ),
+        const _SidebarItemData(
+          icon: Icons.live_tv_outlined,
+          selectedIcon: Icons.live_tv_rounded,
+          label: 'Estudio Directo',
+          caption: 'YouTube 16:9',
+          path: '/admin/estudio-directo',
+        ),
       ],
     ];
 

@@ -14,6 +14,9 @@ class ReelClipPicker extends StatefulWidget {
     required this.onToggleUsed,
     required this.onRemove,
     this.onRestore,
+    this.title = 'Elige el caso de este video',
+    this.subtitle,
+    this.manageCatalog = true,
   });
 
   final List<ReelClip> catalog;
@@ -24,6 +27,11 @@ class ReelClipPicker extends StatefulWidget {
   final ValueChanged<ReelClip> onToggleUsed;
   final ValueChanged<ReelClip> onRemove;
   final ValueChanged<ReelClip>? onRestore;
+  final String title;
+  final String? subtitle;
+
+  /// En el estudio de directos solo se elige el caso; no se oculta el pack.
+  final bool manageCatalog;
 
   @override
   State<ReelClipPicker> createState() => _ReelClipPickerState();
@@ -32,7 +40,7 @@ class ReelClipPicker extends StatefulWidget {
 class _ReelClipPickerState extends State<ReelClipPicker> {
   final _controller = TextEditingController();
   String _query = '';
-  bool _hideUsed = true;
+  late bool _hideUsed = widget.manageCatalog;
 
   @override
   void dispose() {
@@ -53,11 +61,12 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
-        Text('Elige el caso de este video', style: theme.textTheme.titleSmall),
+        Text(widget.title, style: theme.textTheme.titleSmall),
         const SizedBox(height: 4),
         Text(
-          'Marca “usado” cuando lo grabes para no repetirlo. '
-          'Pendientes: $pending de ${widget.catalog.length}.',
+          widget.subtitle ??
+              'Marca “usado” cuando lo grabes para no repetirlo. '
+                  'Pendientes: $pending de ${widget.catalog.length}.',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 10),
@@ -71,12 +80,13 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
           ),
           onChanged: (value) => setState(() => _query = value),
         ),
-        SwitchListTile(
-          contentPadding: EdgeInsets.zero,
-          title: Text('Ocultar ya usados', style: theme.textTheme.bodyMedium),
-          value: _hideUsed,
-          onChanged: (v) => setState(() => _hideUsed = v),
-        ),
+        if (widget.manageCatalog)
+          SwitchListTile(
+            contentPadding: EdgeInsets.zero,
+            title: Text('Ocultar ya usados', style: theme.textTheme.bodyMedium),
+            value: _hideUsed,
+            onChanged: (v) => setState(() => _hideUsed = v),
+          ),
         Text(
           'Grabando: ${widget.selected.label}'
           '${used.contains(widget.selected.id) ? ' · usado' : ''}',
@@ -107,8 +117,12 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
               selected: widget.selected.id == clip.id,
               used: used.contains(clip.id),
               onSelected: () => widget.onSelected(clip),
-              onToggleUsed: () => widget.onToggleUsed(clip),
-              onRemove: () => widget.onRemove(clip),
+              onToggleUsed: widget.manageCatalog
+                  ? () => widget.onToggleUsed(clip)
+                  : null,
+              onRemove: widget.manageCatalog
+                  ? () => widget.onRemove(clip)
+                  : null,
             ),
         ],
         if (widget.hiddenClips.isNotEmpty && widget.onRestore != null) ...[
@@ -137,16 +151,16 @@ class _ClipRow extends StatelessWidget {
     required this.selected,
     required this.used,
     required this.onSelected,
-    required this.onToggleUsed,
-    required this.onRemove,
+    this.onToggleUsed,
+    this.onRemove,
   });
 
   final ReelClip clip;
   final bool selected;
   final bool used;
   final VoidCallback onSelected;
-  final VoidCallback onToggleUsed;
-  final VoidCallback onRemove;
+  final VoidCallback? onToggleUsed;
+  final VoidCallback? onRemove;
 
   @override
   Widget build(BuildContext context) {
@@ -165,19 +179,21 @@ class _ClipRow extends StatelessWidget {
               onSelected: (_) => onSelected(),
             ),
           ),
-          IconButton(
-            tooltip: used ? 'Quitar de usados' : 'Marcar como usado',
-            icon: Icon(
-              used ? Icons.check_circle : Icons.circle_outlined,
-              size: 22,
+          if (onToggleUsed != null)
+            IconButton(
+              tooltip: used ? 'Quitar de usados' : 'Marcar como usado',
+              icon: Icon(
+                used ? Icons.check_circle : Icons.circle_outlined,
+                size: 22,
+              ),
+              onPressed: onToggleUsed,
             ),
-            onPressed: onToggleUsed,
-          ),
-          IconButton(
-            tooltip: clip.isCustom ? 'Borrar caso' : 'Ocultar del catálogo',
-            icon: const Icon(Icons.delete_outline, size: 20),
-            onPressed: onRemove,
-          ),
+          if (onRemove != null)
+            IconButton(
+              tooltip: clip.isCustom ? 'Borrar caso' : 'Ocultar del catálogo',
+              icon: const Icon(Icons.delete_outline, size: 20),
+              onPressed: onRemove,
+            ),
         ],
       ),
     );

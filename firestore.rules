@@ -115,5 +115,11 @@ service cloud.firestore {
       allow read: if true;
       allow write: if isAdmin();
     }
+
+    // Estado del directo YouTube. OBS lee sin sesión; solo el admin escribe.
+    match /liveStudio/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
   }
 }
