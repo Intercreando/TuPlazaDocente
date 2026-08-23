@@ -177,13 +177,31 @@ class HomeTrainingModes extends StatelessWidget {
               );
             }
             const gap = 12.0;
-            final width = (constraints.maxWidth - gap) / cols;
-            return Wrap(
-              spacing: gap,
-              runSpacing: gap,
-              children: [
-                for (final card in cards) SizedBox(width: width, child: card),
-              ],
+            final rows = <Widget>[];
+            for (var i = 0; i < cards.length; i += cols) {
+              final slice = cards.sublist(
+                i,
+                i + cols > cards.length ? cards.length : i + cols,
+              );
+              final n = slice.length;
+              final width = (constraints.maxWidth - gap * (n - 1)) / n;
+              rows.add(
+                Row(
+                  children: [
+                    for (var j = 0; j < n; j++) ...[
+                      if (j > 0) const SizedBox(width: gap),
+                      SizedBox(width: width, child: slice[j]),
+                    ],
+                  ],
+                ),
+              );
+              if (i + cols < cards.length) {
+                rows.add(const SizedBox(height: gap));
+              }
+            }
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: rows,
             );
           },
         ),

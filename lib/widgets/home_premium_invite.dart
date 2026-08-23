@@ -20,113 +20,171 @@ class HomePremiumInvite extends StatelessWidget {
         ? AppConfig.formatCop(state.displayedPremiumPriceCop)
         : AppConfig.premiumPriceLabel;
 
+    final shell = BoxDecoration(
+      borderRadius: BorderRadius.circular(24),
+      gradient: const LinearGradient(
+        colors: [AppColors.ink, AppColors.inkSoft],
+        begin: Alignment.topLeft,
+        end: Alignment.bottomRight,
+      ),
+      border: Border.all(color: AppColors.gold, width: 1.6),
+      boxShadow: [
+        BoxShadow(
+          color: AppColors.gold.withValues(alpha: 0.28),
+          blurRadius: 22,
+          offset: const Offset(0, 8),
+        ),
+      ],
+    );
+    final kicker = Text(
+      'Premium',
+      style: theme.textTheme.labelLarge?.copyWith(color: AppColors.gold),
+    );
+    final title = Text(
+      'Desbloquea todo el entrenamiento',
+      style: theme.textTheme.headlineSmall?.copyWith(color: AppColors.white),
+    );
+    final blurb = Text(
+      offer
+          ? 'Hoy puedes entrar con precio de bienvenida. '
+                'Pago único por convocatoria, sin cuotas.'
+          : 'Práctica y simulacros sin tope, casos del colegio y tu área. '
+                'Un solo pago por convocatoria.',
+      style: theme.textTheme.bodyMedium?.copyWith(
+        color: AppColors.white.withValues(alpha: 0.88),
+      ),
+    );
+    final priceLabel = Text(
+      price,
+      style: theme.textTheme.titleLarge?.copyWith(color: AppColors.gold),
+    );
+    final billing = Text(
+      offer
+          ? 'Bienvenida · lista ${AppConfig.premiumPriceLabel}'
+          : AppConfig.premiumBillingLabel,
+      style: theme.textTheme.bodySmall?.copyWith(
+        color: AppColors.white.withValues(alpha: 0.78),
+      ),
+    );
+    final cta = FilledButton.icon(
+      style: AppButtonStyles.filledOnBrand(completed: false),
+      onPressed: () => openPremium(context),
+      icon: const Icon(Icons.lock_open_rounded),
+      label: const Text('Desbloquear Premium'),
+    );
+    const iconBadge = _PremiumIconBadge();
+
     return Material(
       color: Colors.transparent,
       child: InkWell(
         onTap: () => openPremium(context),
         borderRadius: BorderRadius.circular(24),
-        child: Ink(
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(24),
-            gradient: const LinearGradient(
-              colors: [AppColors.ink, AppColors.inkSoft],
-              begin: Alignment.topLeft,
-              end: Alignment.bottomRight,
-            ),
-            border: Border.all(color: AppColors.gold, width: 1.6),
-            boxShadow: [
-              BoxShadow(
-                color: AppColors.gold.withValues(alpha: 0.28),
-                blurRadius: 22,
-                offset: const Offset(0, 8),
+        child: LayoutBuilder(
+          builder: (context, constraints) {
+            final banner = constraints.maxWidth >= 720;
+            return Ink(
+              decoration: shell,
+              child: Padding(
+                padding: EdgeInsets.fromLTRB(
+                  22,
+                  banner ? 18 : 20,
+                  22,
+                  banner ? 18 : 20,
+                ),
+                child: banner
+                    ? Row(
+                        children: [
+                          iconBadge,
+                          const SizedBox(width: 16),
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                kicker,
+                                const SizedBox(height: 6),
+                                title,
+                                const SizedBox(height: 4),
+                                blurb,
+                              ],
+                            ),
+                          ),
+                          const SizedBox(width: 24),
+                          IntrinsicWidth(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                              children: [
+                                Align(
+                                  alignment: Alignment.centerRight,
+                                  child: priceLabel,
+                                ),
+                                const SizedBox(height: 2),
+                                Align(
+                                  alignment: Alignment.centerRight,
+                                  child: billing,
+                                ),
+                                const SizedBox(height: 12),
+                                cta,
+                              ],
+                            ),
+                          ),
+                        ],
+                      )
+                    : Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              iconBadge,
+                              const SizedBox(width: 12),
+                              Expanded(child: kicker),
+                            ],
+                          ),
+                          const SizedBox(height: 14),
+                          title,
+                          const SizedBox(height: 8),
+                          blurb,
+                          const SizedBox(height: 14),
+                          const _PremiumPerk(
+                            text: 'Practicar sin reloj, las veces que quieras',
+                          ),
+                          const _PremiumPerk(
+                            text: 'Simulacro con tiempo, sin cupo mensual',
+                          ),
+                          const _PremiumPerk(
+                            text: 'Casos del colegio y preguntas de tu área',
+                          ),
+                          const SizedBox(height: 16),
+                          priceLabel,
+                          const SizedBox(height: 2),
+                          billing,
+                          const SizedBox(height: 16),
+                          cta,
+                        ],
+                      ),
               ),
-            ],
-          ),
-          child: Padding(
-            padding: const EdgeInsets.fromLTRB(22, 20, 22, 20),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    Container(
-                      width: 44,
-                      height: 44,
-                      decoration: BoxDecoration(
-                        color: AppColors.gold.withValues(alpha: 0.18),
-                        borderRadius: BorderRadius.circular(14),
-                      ),
-                      child: const Icon(
-                        Icons.workspace_premium_rounded,
-                        color: AppColors.gold,
-                      ),
-                    ),
-                    const SizedBox(width: 12),
-                    Expanded(
-                      child: Text(
-                        'Premium',
-                        style: theme.textTheme.labelLarge?.copyWith(
-                          color: AppColors.gold,
-                        ),
-                      ),
-                    ),
-                  ],
-                ),
-                const SizedBox(height: 14),
-                Text(
-                  'Desbloquea todo el entrenamiento',
-                  style: theme.textTheme.headlineSmall?.copyWith(
-                    color: AppColors.white,
-                  ),
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  offer
-                      ? 'Hoy puedes entrar con precio de bienvenida. '
-                            'Pago único por convocatoria, sin cuotas.'
-                      : 'Práctica y simulacros sin tope, casos del colegio y tu área. '
-                            'Un solo pago por convocatoria.',
-                  style: theme.textTheme.bodyMedium?.copyWith(
-                    color: AppColors.white.withValues(alpha: 0.88),
-                  ),
-                ),
-                const SizedBox(height: 14),
-                const _PremiumPerk(
-                  text: 'Practicar sin reloj, las veces que quieras',
-                ),
-                const _PremiumPerk(
-                  text: 'Simulacro con tiempo, sin cupo mensual',
-                ),
-                const _PremiumPerk(
-                  text: 'Casos del colegio y preguntas de tu área',
-                ),
-                const SizedBox(height: 16),
-                Text(
-                  price,
-                  style: theme.textTheme.titleLarge?.copyWith(
-                    color: AppColors.gold,
-                  ),
-                ),
-                const SizedBox(height: 2),
-                Text(
-                  offer
-                      ? 'Bienvenida · lista ${AppConfig.premiumPriceLabel}'
-                      : AppConfig.premiumBillingLabel,
-                  style: theme.textTheme.bodySmall?.copyWith(
-                    color: AppColors.white.withValues(alpha: 0.78),
-                  ),
-                ),
-                const SizedBox(height: 16),
-                FilledButton.icon(
-                  style: AppButtonStyles.filledOnBrand(completed: false),
-                  onPressed: () => openPremium(context),
-                  icon: const Icon(Icons.lock_open_rounded),
-                  label: const Text('Desbloquear Premium'),
-                ),
-              ],
-            ),
-          ),
+            );
+          },
         ),
+      ),
+    );
+  }
+}
+
+class _PremiumIconBadge extends StatelessWidget {
+  const _PremiumIconBadge();
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 44,
+      height: 44,
+      decoration: BoxDecoration(
+        color: AppColors.gold.withValues(alpha: 0.18),
+        borderRadius: BorderRadius.circular(14),
+      ),
+      child: const Icon(
+        Icons.workspace_premium_rounded,
+        color: AppColors.gold,
       ),
     );
   }

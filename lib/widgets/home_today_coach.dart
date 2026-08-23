@@ -37,6 +37,66 @@ class HomeTodayCoach extends StatelessWidget {
     final done = profile.dailyCompletedToday;
     final streak = profile.streakDays;
 
+    final kicker = Text(
+      'Hoy',
+      style: theme.textTheme.labelLarge?.copyWith(color: AppColors.gold),
+    );
+    final title = Text(
+      done
+          ? 'Ya hiciste las 5 preguntas del día'
+          : 'Te tocan 5 preguntas del día',
+      style: theme.textTheme.headlineSmall?.copyWith(color: AppColors.white),
+    );
+    final body = Text(
+      done
+          ? (streak <= 0
+                ? 'Sigue con el plan cuando quieras.'
+                : 'Llevas $streak ${streak == 1 ? 'día' : 'días'} seguidos. '
+                      'Abre el plan para el siguiente bloque.')
+          : 'Sin reloj. Al responder ves la explicación. Unos 10 minutos.',
+      style: theme.textTheme.bodyMedium?.copyWith(
+        color: AppColors.white.withValues(alpha: 0.88),
+      ),
+    );
+    final cta = FilledButton.icon(
+      style: AppButtonStyles.filledOnBrand(completed: done),
+      onPressed: () => _continueToday(context, state),
+      icon: Icon(done ? Icons.route_outlined : Icons.play_arrow_rounded),
+      label: Text(done ? 'Ver el plan de hoy' : 'Continuar hoy'),
+    );
+
+    final inner = desktop
+        ? Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    kicker,
+                    const SizedBox(height: 6),
+                    title,
+                    const SizedBox(height: 6),
+                    body,
+                  ],
+                ),
+              ),
+              const SizedBox(width: 28),
+              cta,
+            ],
+          )
+        : Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              kicker,
+              const SizedBox(height: 6),
+              title,
+              const SizedBox(height: 6),
+              body,
+              const SizedBox(height: 16),
+              cta,
+            ],
+          );
+
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(24),
@@ -47,48 +107,8 @@ class HomeTodayCoach extends StatelessWidget {
         ),
       ),
       child: Padding(
-        padding: EdgeInsets.all(desktop ? 24 : 20),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            Text(
-              'Hoy',
-              style: theme.textTheme.labelLarge?.copyWith(
-                color: AppColors.gold,
-              ),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              done
-                  ? 'Ya hiciste las 5 preguntas del día'
-                  : 'Te tocan 5 preguntas del día',
-              style: theme.textTheme.headlineSmall?.copyWith(
-                color: AppColors.white,
-              ),
-            ),
-            const SizedBox(height: 6),
-            Text(
-              done
-                  ? (streak <= 0
-                        ? 'Sigue con el plan cuando quieras.'
-                        : 'Llevas $streak ${streak == 1 ? 'día' : 'días'} seguidos. '
-                              'Abre el plan para el siguiente bloque.')
-                  : 'Sin reloj. Al responder ves la explicación. Unos 10 minutos.',
-              style: theme.textTheme.bodyMedium?.copyWith(
-                color: AppColors.white.withValues(alpha: 0.88),
-              ),
-            ),
-            const SizedBox(height: 16),
-            FilledButton.icon(
-              style: AppButtonStyles.filledOnBrand(completed: done),
-              onPressed: () => _continueToday(context, state),
-              icon: Icon(
-                done ? Icons.route_outlined : Icons.play_arrow_rounded,
-              ),
-              label: Text(done ? 'Ver el plan de hoy' : 'Continuar hoy'),
-            ),
-          ],
-        ),
+        padding: EdgeInsets.all(desktop ? 28 : 20),
+        child: inner,
       ),
     );
   }

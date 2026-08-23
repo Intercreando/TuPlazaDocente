@@ -153,60 +153,39 @@ class _DesktopHome extends StatelessWidget {
         _GreetingBlock(name: name, state: state, desktop: true),
         const SizedBox(height: 12),
         const WelcomeOfferBanner(),
+        const SizedBox(height: 20),
+        const HomeTodayCoach(desktop: true),
+        if (state.syncStatus != null) ...[
+          const SizedBox(height: 10),
+          Text(state.syncStatus!, style: theme.textTheme.bodySmall),
+        ],
         const SizedBox(height: 28),
-        // Sin IntrinsicHeight: el home vive en un ListView (altura infinita)
-        // y la grilla de modos usa LayoutBuilder; esa combinación rompe el layout.
         Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.baseline,
+          textBaseline: TextBaseline.alphabetic,
           children: [
-            Expanded(
-              flex: 5,
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                children: [
-                  const HomeTodayCoach(desktop: true),
-                  if (state.syncStatus != null) ...[
-                    const SizedBox(height: 10),
-                    Align(
-                      alignment: Alignment.centerLeft,
-                      child: Text(
-                        state.syncStatus!,
-                        style: theme.textTheme.bodySmall,
-                      ),
-                    ),
-                  ],
-                ],
-              ),
+            Text(
+              'Más entrenamientos',
+              style: theme.textTheme.headlineSmall,
             ),
-            const SizedBox(width: 24),
+            const SizedBox(width: 16),
             Expanded(
-              flex: 7,
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    'Más entrenamientos',
-                    style: theme.textTheme.headlineSmall,
-                  ),
-                  const SizedBox(height: 6),
-                  Text(
-                    profile.isPremium
-                        ? 'Cuando quieras otro tipo de práctica.'
-                        : 'Los candados se abren con Premium.',
-                    style: theme.textTheme.bodyMedium,
-                  ),
-                  const SizedBox(height: 16),
-                  const HomeTrainingModes(columns: 2),
-                  if (!profile.isPremium) ...[
-                    const SizedBox(height: 18),
-                    const HomePremiumInvite(),
-                  ],
-                ],
+              child: Text(
+                profile.isPremium
+                    ? 'Cuando quieras otro tipo de práctica.'
+                    : 'Los candados se abren con Premium.',
+                style: theme.textTheme.bodyMedium,
+                textAlign: TextAlign.end,
               ),
             ),
           ],
         ),
+        const SizedBox(height: 16),
+        const HomeTrainingModes(columns: 3),
+        if (!profile.isPremium) ...[
+          const SizedBox(height: 20),
+          const HomePremiumInvite(),
+        ],
         const SizedBox(height: 16),
         HomeReminderTile(state: state),
         const SizedBox(height: 28),
