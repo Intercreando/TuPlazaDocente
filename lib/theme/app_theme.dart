@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'app_button_styles.dart';
 import 'app_colors.dart';
 import 'app_typography.dart';
+import 'live_type.dart';
 import 'reel_type.dart';
 
 /// Tema global claro/oscuro de la aplicación.
@@ -106,7 +107,7 @@ abstract final class AppTheme {
         color: AppColors.canopy,
         linearTrackColor: AppColors.mist,
       ),
-      extensions: [ReelType.studio()],
+      extensions: [ReelType.studio(), LiveType.studio()],
     );
   }
 
@@ -223,7 +224,7 @@ abstract final class AppTheme {
           return AppColors.darkStroke;
         }),
       ),
-      extensions: [ReelType.studio()],
+      extensions: [ReelType.studio(), LiveType.studio()],
     );
   }
 }

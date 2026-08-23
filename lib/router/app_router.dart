@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 
 import '../screens/admin_news_screen.dart';
 import '../screens/admin_promo_screen.dart';
+import '../screens/admin_live_studio_screen.dart';
 import '../screens/admin_reel_studio_screen.dart';
 import '../screens/app_shell.dart';
 import '../screens/auth_screen.dart';
@@ -51,6 +52,7 @@ GoRouter createAppRouter(AppState appState) {
         '/diagnostic-paywall',
         '/admin/promos',
         '/admin/estudio-reels',
+        '/admin/estudio-directo',
         '/legal/terms',
         '/legal/privacy',
         ...SeoLandingRoutes.all,
@@ -165,6 +167,10 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/admin/estudio-reels',
         builder: (context, state) => const AdminReelStudioScreen(),
+      ),
+      GoRoute(
+        path: '/admin/estudio-directo',
+        builder: (context, state) => const AdminLiveStudioScreen(),
       ),
       GoRoute(
         path: '/noticias/:id',
