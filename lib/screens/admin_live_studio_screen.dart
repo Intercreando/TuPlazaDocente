@@ -16,10 +16,8 @@ import '../theme/app_colors.dart';
 import '../theme/app_theme.dart';
 import '../utils/app_snackbars.dart';
 import '../utils/seo_document.dart';
-import '../widgets/live_capture_note.dart';
-import '../widgets/live_control_deck.dart';
 import '../widgets/live_express_stage.dart';
-import '../widgets/reel_clip_picker.dart';
+import '../widgets/live_studio_side_panel.dart';
 
 /// Sala de directos YouTube (solo admin). Lienzo 16:9 para OBS.
 class AdminLiveStudioScreen extends StatefulWidget {
@@ -329,122 +327,60 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
 
     return Theme(
       data: AppTheme.dark(),
-      child: Builder(
-        builder: (context) {
-          final theme = Theme.of(context);
-          return KeyboardListener(
-            focusNode: _focus,
-            autofocus: true,
-            onKeyEvent: _onKey,
-            child: Scaffold(
-              backgroundColor: AppColors.darkBg,
-              appBar: AppBar(
-                title: const Text('Estudio Directo'),
-                leading: IconButton(
-                  icon: const Icon(Icons.arrow_back),
-                  onPressed: () => context.go('/app/premium'),
+      child: KeyboardListener(
+        focusNode: _focus,
+        autofocus: true,
+        onKeyEvent: _onKey,
+        child: Scaffold(
+          backgroundColor: AppColors.darkBg,
+          appBar: AppBar(
+            title: const Text('Estudio Directo'),
+            leading: IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () => context.go('/app/premium'),
+            ),
+          ),
+          body: Row(
+            children: [
+              SizedBox(
+                width: 360,
+                child: LiveStudioSidePanel(
+                  session: _session,
+                  clip: _clip,
+                  catalog: _catalog,
+                  rundown: _rundown,
+                  usedIds: _usedIds,
+                  obsShareUrl: _obsShareUrl,
+                  onBeat: _setBeat,
+                  onStartVote: _startVote,
+                  onHighlight: (index) => _publish(
+                    _session.copyWith(highlightedIndex: index),
+                  ),
+                  onPrevCase: () => _shiftRundown(-1),
+                  onNextCase: () => _shiftRundown(1),
+                  onRemoveFromRundown: (clip) {
+                    setState(() {
+                      _rundown = [
+                        ..._rundown.where((item) => item.id != clip.id),
+                      ];
+                    });
+                    _publish(_session);
+                  },
+                  onSelectRundown: _loadClip,
+                  onAddToRundown: () => _addToRundown(_clip),
+                  onLoadClip: _loadClip,
                 ),
               ),
-              body: Row(
-                children: [
-                  SizedBox(
-                    width: 360,
-                    child: ListView(
-                      padding: const EdgeInsets.all(16),
-                      children: [
-                        LiveControlDeck(
-                          beat: _session.beat,
-                          rundown: _rundown,
-                          current: _clip,
-                          onBeat: _setBeat,
-                          onStartVote: _startVote,
-                          onHighlight: (index) => _publish(
-                            _session.copyWith(highlightedIndex: index),
-                          ),
-                          onPrevCase: () => _shiftRundown(-1),
-                          onNextCase: () => _shiftRundown(1),
-                          onRemoveFromRundown: (clip) {
-                            setState(() {
-                              _rundown = [
-                                ..._rundown.where((item) => item.id != clip.id),
-                              ];
-                            });
-                            _publish(_session);
-                          },
-                          onSelectRundown: _loadClip,
-                        ),
-                        const SizedBox(height: 16),
-                        FilledButton.tonal(
-                          onPressed: () => _addToRundown(_clip),
-                          child: const Text('Sumar caso actual a la escaleta'),
-                        ),
-                        const SizedBox(height: 12),
-                        ReelClipPicker(
-                          catalog: _catalog,
-                          selected: _clip,
-                          usedIds: _usedIds,
-                          hiddenClips: const [],
-                          manageCatalog: false,
-                          title: 'Elige el caso de este directo',
-                          subtitle:
-                              'Súmalo a la escaleta para tener el orden listo '
-                              'antes de ir a YouTube. '
-                              'Pendientes visibles: ${_catalog.length}.',
-                          onSelected: _loadClip,
-                          onToggleUsed: (_) {},
-                          onRemove: (_) {},
-                        ),
-                        const SizedBox(height: 12),
-                        OutlinedButton(
-                          onPressed: () =>
-                              context.go('/admin/estudio-directo?obs=1'),
-                          child: const Text(
-                            'Ver solo el lienzo en esta pestaña',
-                          ),
-                        ),
-                        const SizedBox(height: 8),
-                        OutlinedButton(
-                          onPressed: () async {
-                            await Clipboard.setData(
-                              ClipboardData(text: _obsShareUrl),
-                            );
-                            if (!context.mounted) return;
-                            AppSnackbars.show(
-                              context,
-                              message:
-                                  'Enlace copiado. Pégalo en OBS → Navegador '
-                                  '(1920×1080). Este panel manda el directo.',
-                            );
-                          },
-                          child: const Text(
-                            'Copiar enlace para pegarlo dentro de OBS',
-                          ),
-                        ),
-                        const SizedBox(height: 16),
-                        const LiveCaptureNote(),
-                        const SizedBox(height: 16),
-                        Text(
-                          'Atajos: espacio = siguiente momento. '
-                          'Retroceso = anterior. V = votar. '
-                          'N/P = caso. 1-4 o A-D = señalar. '
-                          'Enter = revelar. S = espera. R = gancho.',
-                          style: theme.textTheme.bodySmall,
-                        ),
-                      ],
-                    ),
-                  ),
-                  const VerticalDivider(width: 1),
-                  Expanded(
-                    child: ColoredBox(
-                      color: Colors.black,
-                      child: Center(child: canvas),
-                    ),
-                  ),
-                ],
+              const VerticalDivider(width: 1),
+              Expanded(
+                child: ColoredBox(
+                  color: Colors.black,
+                  child: Center(child: canvas),
+                ),
               ),
-            ),
-          );
-        },
+            ],
+          ),
+        ),
       ),
     );
   }
