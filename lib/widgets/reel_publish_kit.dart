@@ -33,8 +33,8 @@ class ReelPublishKit extends StatelessWidget {
         Text('Copiar para publicar', style: theme.textTheme.titleSmall),
         const SizedBox(height: 4),
         Text(
-          'Pega el caption en TikTok. La letra no va en el pie: '
-          'el vídeo la revela al cierre para que comenten antes.',
+          'Pega el caption en TikTok. Trae palabra clave del tema y hashtags '
+          'de búsqueda. La letra no va en el pie: el vídeo la revela al cierre.',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 8),
@@ -48,8 +48,11 @@ class ReelPublishKit extends StatelessWidget {
         ),
         const SizedBox(height: 6),
         OutlinedButton(
-          onPressed: () =>
-              _copy(context, ReelStudioPack.hashtags, 'Hashtags copiados.'),
+          onPressed: () => _copy(
+            context,
+            ReelStudioPack.hashtagsFor(clip),
+            'Hashtags copiados.',
+          ),
           child: const Text('Copiar hashtags'),
         ),
         const SizedBox(height: 6),

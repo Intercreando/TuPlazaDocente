@@ -1,15 +1,45 @@
 /// Tema del caso. Sirve para agrupar el catálogo en el estudio y para no
 /// grabar dos reels seguidos del mismo asunto.
 enum ReelGroup {
-  convivencia('Convivencia y Ley 1620'),
-  inclusion('Inclusión y PIAR'),
-  evaluacion('Evaluación y SIEE'),
-  aula('Gestión de aula'),
-  directivo('Directivo docente');
+  convivencia(
+    'Convivencia y Ley 1620',
+    captionKeyword: 'Caso de convivencia para el Concurso Docente.',
+    extraHashtag: '#ConvivenciaEscolar',
+  ),
+  inclusion(
+    'Inclusión y PIAR',
+    captionKeyword: 'Caso de inclusión y PIAR para el Concurso Docente.',
+    extraHashtag: '#PIAR',
+  ),
+  evaluacion(
+    'Evaluación y SIEE',
+    captionKeyword: 'Caso de evaluación y SIEE para el Concurso Docente.',
+    extraHashtag: '#SIEE',
+  ),
+  aula(
+    'Gestión de aula',
+    captionKeyword: 'Caso de gestión de aula para el Concurso Docente.',
+    extraHashtag: '#GestionDeAula',
+  ),
+  directivo(
+    'Directivo docente',
+    captionKeyword: 'Caso de gestión directiva para el Concurso Docente.',
+    extraHashtag: '#DirectivosDocentes',
+  );
 
-  const ReelGroup(this.label);
+  const ReelGroup(
+    this.label, {
+    required this.captionKeyword,
+    required this.extraHashtag,
+  });
 
   final String label;
+
+  /// Palabra clave para el pie de TikTok: el algoritmo categoriza el vídeo.
+  final String captionKeyword;
+
+  /// Hashtag de búsqueda del tema, además de los del pack.
+  final String extraHashtag;
 
   /// Reconoce el tema escrito a mano (“convivencia”, “piar”, “rector”…).
   static ReelGroup? tryParse(String? raw) {

@@ -93,4 +93,17 @@ void main() {
     expect(caption, contains(ReelStudioPack.commentNow));
     expect(caption, isNot(contains('Respuesta:')));
   });
+
+  test('el caption lleva SEO del tema, emojis de CTA y hashtags de búsqueda',
+      () {
+    final clip = ReelStudioPack.byId('convivencia');
+    final caption = ReelStudioPack.captionFor(clip);
+    expect(caption, contains(clip.group.captionKeyword));
+    expect(caption, contains('👇'));
+    expect(caption, contains('🎁'));
+    expect(caption, contains('#CasosDeAula'));
+    expect(caption, contains('#Pedagogia'));
+    expect(caption, contains('#ConvivenciaEscolar'));
+    expect(caption, isNot(contains('Respuesta:')));
+  });
 }

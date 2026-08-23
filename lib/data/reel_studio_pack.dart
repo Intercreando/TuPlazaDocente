@@ -27,7 +27,7 @@ abstract final class ReelStudioPack {
   static const disclaimer = 'Entrenamiento. No es un ítem oficial de la CNSC.';
   static const hashtags =
       '#ConcursoDocente #ConcursoDocente2026 #CNSC #DocentesColombia '
-      '#MagisterioColombia #TuPlazaDocente';
+      '#MagisterioColombia #TuPlazaDocente #CasosDeAula #Pedagogia';
   static const pinnedComment =
       'Simulacros completos y gratis en tuplazadocente.com — crea tu cuenta.';
 
@@ -76,16 +76,24 @@ abstract final class ReelStudioPack {
     return catalog.where((clip) => clip.searchText.contains(needle)).toList();
   }
 
+  /// Hashtags del pack más el del tema, para la barra de búsqueda de TikTok.
+  static String hashtagsFor(ReelClip clip) =>
+      '$hashtags ${clip.group.extraHashtag}';
+
   /// Caption de TikTok/Reels. La letra no va aquí: si se delata en el pie,
   /// nadie comenta. El vídeo sí revela al cierre.
+  ///
+  /// Primera línea: gancho + palabra clave del tema (SEO). Luego CTA con
+  /// flecha al comentario y el enlace marcado como recurso gratis.
   static String captionFor(ReelClip clip) {
     return [
-      clip.hook,
+      '${clip.hook} ${clip.group.captionKeyword}',
       '',
-      commentNow,
-      closeRegister,
+      '👇 $commentNow',
       '',
-      hashtags,
+      '🎁 $closeRegister',
+      '',
+      hashtagsFor(clip),
     ].join('\n');
   }
 }
