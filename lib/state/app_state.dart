@@ -24,6 +24,7 @@ import '../services/paid_acquisition_service.dart';
 import '../utils/google_ads_tag.dart';
 import '../utils/meta_pixel.dart';
 import '../utils/paid_traffic.dart';
+import '../utils/tmo_stats.dart';
 
 /// Estado global de progreso, perfil y sesiones.
 class AppState extends ChangeNotifier {
@@ -907,7 +908,7 @@ class AppState extends ChangeNotifier {
     if (selected == null && !allowUnanswered) return false;
 
     final started = questionStartedAt ?? DateTime.now();
-    final seconds = DateTime.now().difference(started).inSeconds.clamp(1, 600);
+    final seconds = TmoStats.elapsedSeconds(started);
     final correct = selected != null && question.isCorrect(selected);
 
     currentAnswers.add(
@@ -945,9 +946,14 @@ class AppState extends ChangeNotifier {
     final pillarCorrect = Map<String, int>.from(profile.pillarCorrect);
     final pillarTotal = Map<String, int>.from(profile.pillarTotal);
     final pillarTimeSpent = Map<String, int>.from(profile.pillarTimeSpent);
+    final pillarTimedCount = Map<String, int>.from(profile.pillarTimedCount);
     pillarTotal[pillarKey] = (pillarTotal[pillarKey] ?? 0) + 1;
-    pillarTimeSpent[pillarKey] =
-        (pillarTimeSpent[pillarKey] ?? 0) + secondsSpent;
+    final countsForTmo = currentMode != SessionMode.speedBattle;
+    if (countsForTmo) {
+      pillarTimeSpent[pillarKey] =
+          (pillarTimeSpent[pillarKey] ?? 0) + secondsSpent;
+      pillarTimedCount[pillarKey] = (pillarTimedCount[pillarKey] ?? 0) + 1;
+    }
     if (correct) {
       pillarCorrect[pillarKey] = (pillarCorrect[pillarKey] ?? 0) + 1;
     }
@@ -963,12 +969,16 @@ class AppState extends ChangeNotifier {
     final tagCorrect = Map<String, int>.from(profile.tagCorrect);
     final tagTotal = Map<String, int>.from(profile.tagTotal);
     final tagTimeSpent = Map<String, int>.from(profile.tagTimeSpent);
+    final tagTimedCount = Map<String, int>.from(profile.tagTimedCount);
     final seen = <String>{};
     for (final tag in question.knowledgeTags) {
       final key = tag.code.name;
       if (!seen.add(key)) continue;
       tagTotal[key] = (tagTotal[key] ?? 0) + 1;
-      tagTimeSpent[key] = (tagTimeSpent[key] ?? 0) + secondsSpent;
+      if (countsForTmo) {
+        tagTimeSpent[key] = (tagTimeSpent[key] ?? 0) + secondsSpent;
+        tagTimedCount[key] = (tagTimedCount[key] ?? 0) + 1;
+      }
       if (correct) {
         tagCorrect[key] = (tagCorrect[key] ?? 0) + 1;
       }
@@ -978,10 +988,12 @@ class AppState extends ChangeNotifier {
       pillarCorrect: pillarCorrect,
       pillarTotal: pillarTotal,
       pillarTimeSpent: pillarTimeSpent,
+      pillarTimedCount: pillarTimedCount,
       topicMastery: mastery,
       tagCorrect: tagCorrect,
       tagTotal: tagTotal,
       tagTimeSpent: tagTimeSpent,
+      tagTimedCount: tagTimedCount,
     );
   }
 

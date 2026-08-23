@@ -91,10 +91,8 @@ class ProgressTodayAction extends StatelessWidget {
     CompetencyPillar? slowest;
     var maxTmo = 0.0;
     for (final pillar in CompetencyPillar.values) {
-      final answers = profile.pillarTotal[pillar.name] ?? 0;
-      final time = profile.pillarTimeSpent[pillar.name] ?? 0;
-      if (answers == 0 || time == 0) continue;
-      final tmo = time / answers;
+      final tmo = profile.pillarTmo(pillar);
+      if (tmo == null) continue;
       if (tmo > maxTmo) {
         maxTmo = tmo;
         slowest = pillar;

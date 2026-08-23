@@ -5,7 +5,7 @@ import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 
-/// Semáforo de TMO histórico por pilar (segundos acumulados / evidencias).
+/// Semáforo de TMO histórico por pilar (solo preguntas con cronómetro).
 class TmoDashboardPanel extends StatelessWidget {
   const TmoDashboardPanel({super.key, this.compact = false});
 
@@ -33,16 +33,11 @@ class TmoDashboardPanel extends StatelessWidget {
           const SizedBox(height: 12),
         ],
         ...CompetencyPillar.values.map((pilar) {
-          final totalTime = profile.pillarTimeSpent[pilar.name] ?? 0;
-          final totalAnswers = profile.pillarTotal[pilar.name] ?? 0;
-          final divisor = totalAnswers < 1 ? 1 : totalAnswers;
-          final tmoPromedio = totalTime / divisor;
           return Padding(
             padding: const EdgeInsets.only(bottom: 10),
             child: _TmoPilarCard(
               pillarLabel: pilar.label,
-              totalAnswers: totalAnswers,
-              tmoPromedio: tmoPromedio,
+              tmoPromedio: profile.pillarTmo(pilar),
               compact: compact,
             ),
           );
@@ -55,25 +50,24 @@ class TmoDashboardPanel extends StatelessWidget {
 class _TmoPilarCard extends StatelessWidget {
   const _TmoPilarCard({
     required this.pillarLabel,
-    required this.totalAnswers,
     required this.tmoPromedio,
     this.compact = false,
   });
 
   final String pillarLabel;
-  final int totalAnswers;
-  final double tmoPromedio;
+  final double? tmoPromedio;
   final bool compact;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final empty = totalAnswers == 0 || tmoPromedio == 0;
+    final empty = tmoPromedio == null;
+    final tmo = tmoPromedio ?? 0;
     final tone = empty
         ? _TmoTone.empty
-        : tmoPromedio > 90
+        : tmo > 90
             ? _TmoTone.danger
-            : tmoPromedio > 60
+            : tmo > 60
                 ? _TmoTone.warning
                 : _TmoTone.success;
 
@@ -99,11 +93,7 @@ class _TmoPilarCard extends StatelessWidget {
                   Text(pillarLabel, style: theme.textTheme.titleSmall),
                   const SizedBox(height: 4),
                   Text(
-                    empty
-                        ? 'Sin datos suficientes.'
-                        : compact
-                            ? _formatTmo(tmoPromedio)
-                            : 'TMO promedio: ${_formatTmo(tmoPromedio)}',
+                    empty ? 'Sin datos suficientes.' : _formatTmo(tmo),
                     style: theme.textTheme.labelLarge,
                   ),
                   if (!compact) ...[

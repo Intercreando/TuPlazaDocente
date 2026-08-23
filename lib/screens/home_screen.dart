@@ -68,9 +68,9 @@ class HomeScreen extends StatelessWidget {
                   const SizedBox(height: 18),
                 ],
                 if (desktop)
-                  _DesktopHome(name: name, state: state, isDark: isDark)
+                  _DesktopHome(name: name, state: state)
                 else
-                  _MobileHome(name: name, state: state, isDark: isDark),
+                  _MobileHome(name: name, state: state),
               ],
             ),
           ),
@@ -84,12 +84,10 @@ class _MobileHome extends StatelessWidget {
   const _MobileHome({
     required this.name,
     required this.state,
-    required this.isDark,
   });
 
   final String name;
   final AppState state;
-  final bool isDark;
 
   @override
   Widget build(BuildContext context) {
@@ -108,13 +106,11 @@ class _MobileHome extends StatelessWidget {
             .animate()
             .fadeIn(duration: 450.ms)
             .slideY(begin: 0.05, end: 0),
-        const SizedBox(height: 14),
-        HomeProgressPanel(state: state, isDark: isDark),
         if (state.syncStatus != null) ...[
           const SizedBox(height: 10),
           Text(state.syncStatus!, style: theme.textTheme.bodySmall),
         ],
-        const SizedBox(height: 12),
+        const SizedBox(height: 18),
         Text('Más entrenamientos', style: theme.textTheme.titleLarge),
         const SizedBox(height: 8),
         const HomeTrainingModes(),
@@ -140,12 +136,10 @@ class _DesktopHome extends StatelessWidget {
   const _DesktopHome({
     required this.name,
     required this.state,
-    required this.isDark,
   });
 
   final String name;
   final AppState state;
-  final bool isDark;
 
   @override
   Widget build(BuildContext context) {
@@ -171,8 +165,6 @@ class _DesktopHome extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: [
                   const HomeTodayCoach(desktop: true),
-                  const SizedBox(height: 16),
-                  HomeProgressPanel(state: state, isDark: isDark),
                   if (state.syncStatus != null) ...[
                     const SizedBox(height: 10),
                     Align(

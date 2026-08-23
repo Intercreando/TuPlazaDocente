@@ -9,6 +9,7 @@ import '../services/tag_mastery_service.dart';
 import '../services/session_feedback_service.dart';
 import '../state/app_state.dart';
 import 'app_snackbars.dart';
+import 'progress_gaps.dart';
 import 'session_launch.dart';
 
 /// Temas que se entrenan en Casos del colegio (Premium).
@@ -24,22 +25,8 @@ bool isCaseKnowledgeTopic(KnowledgeCode code) {
   }
 }
 
-CompetencyPillar weakestPillarOf(UserProfile profile) {
-  CompetencyPillar weakest = CompetencyPillar.pedagogico;
-  var lowest = 2.0;
-  var found = false;
-  for (final pillar in CompetencyPillar.values) {
-    final total = profile.pillarTotal[pillar.name] ?? 0;
-    if (total == 0) continue;
-    found = true;
-    final acc = profile.pillarAccuracy(pillar);
-    if (acc < lowest) {
-      lowest = acc;
-      weakest = pillar;
-    }
-  }
-  return found ? weakest : CompetencyPillar.pedagogico;
-}
+CompetencyPillar weakestPillarOf(UserProfile profile) =>
+    ProgressGaps.weakestPillar(profile);
 
 /// Abre práctica del pilar o avisa si el cupo de hoy ya se usó (Premium).
 void launchProgressPillar(BuildContext context, CompetencyPillar pillar) {
@@ -89,6 +76,11 @@ void launchProgressTopic(BuildContext context, KnowledgeCode code) {
 /// Recomendación de hoy: tema débil o pilar más flojo.
 void launchProgressRecommendation(BuildContext context) {
   final state = context.read<AppState>();
+  final gaps = ProgressGaps.unmeasuredCognitive(state.profile);
+  if (gaps.isNotEmpty) {
+    launchProgressPillar(context, gaps.first);
+    return;
+  }
   final row = TagMasteryService.recommendedToday(state.profile);
   if (row != null) {
     launchProgressTopic(context, row.code);

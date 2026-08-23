@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import '../models/enums.dart';
 import '../models/user_profile.dart';
 import '../theme/app_colors.dart';
+import '../utils/progress_gaps.dart';
 
 /// Radar visual de los 4 pilares de competencia.
 class CompetencyRadar extends StatelessWidget {
@@ -23,15 +24,17 @@ class CompetencyRadar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    final values = CompetencyPillar.values
-        .map((p) => (profile.pillarAccuracy(p) * 100).clamp(8, 100).toDouble())
-        .toList();
+    final values = CompetencyPillar.values.map((p) {
+      final total = profile.pillarTotal[p.name] ?? 0;
+      if (total == 0) return 0.0;
+      return (profile.pillarAccuracy(p) * 100).clamp(8, 100).toDouble();
+    }).toList();
 
-    // Si no hay datos, muestra silueta base para no dejar vacío.
     final hasData = CompetencyPillar.values.any(
       (p) => (profile.pillarTotal[p.name] ?? 0) > 0,
     );
-    final chartValues = hasData ? values : [35.0, 40.0, 28.0, 32.0];
+    // Silueta neutra: todos iguales, para no fingir que un eje es más débil.
+    final chartValues = hasData ? values : const [36.0, 36.0, 36.0, 36.0];
 
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
@@ -43,6 +46,9 @@ class CompetencyRadar extends StatelessWidget {
         _RadarHint(
           hasData: hasData,
           weakestLabel: profile.weakestPillarLabel,
+          gapLabels: ProgressGaps.unmeasuredCognitive(profile)
+              .map(ProgressGaps.shortLabel)
+              .toList(),
           onPracticeWeakest: compact ? null : onPracticeWeakest,
           compact: compact,
         ),
@@ -79,6 +85,7 @@ class CompetencyRadar extends StatelessWidget {
                 return RadarChartTitle(text: labels[index]);
               },
               tickCount: 4,
+              isMinValueAtCenter: true,
               ticksTextStyle: theme.textTheme.labelSmall,
               tickBorderData: BorderSide(
                 color: theme.colorScheme.outline.withValues(alpha: 0.35),
@@ -98,12 +105,14 @@ class _RadarHint extends StatelessWidget {
   const _RadarHint({
     required this.hasData,
     required this.weakestLabel,
+    required this.gapLabels,
     this.onPracticeWeakest,
     this.compact = false,
   });
 
   final bool hasData;
   final String weakestLabel;
+  final List<String> gapLabels;
   final VoidCallback? onPracticeWeakest;
   final bool compact;
 
@@ -114,6 +123,13 @@ class _RadarHint extends StatelessWidget {
       if (compact) return const SizedBox.shrink();
       return Text(
         'Completa las 5 del día para ver cómo vas',
+        style: theme.textTheme.bodyMedium,
+      );
+    }
+    if (gapLabels.isNotEmpty) {
+      final listed = gapLabels.join(', ');
+      return Text(
+        'Al centro: aún no practicas $listed. Ábrelo en Temas a reforzar.',
         style: theme.textTheme.bodyMedium,
       );
     }

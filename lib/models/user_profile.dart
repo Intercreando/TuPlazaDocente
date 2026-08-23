@@ -1,3 +1,4 @@
+import '../utils/tmo_stats.dart';
 import 'enums.dart';
 
 /// Perfil del aspirante y progreso persistente.
@@ -20,6 +21,8 @@ class UserProfile {
     this.tagTotal = const {},
     this.pillarTimeSpent = const {},
     this.tagTimeSpent = const {},
+    this.pillarTimedCount = const {},
+    this.tagTimedCount = const {},
     this.completedPlanTaskIds = const [],
     this.planTaskDate,
     this.streakRemindersEnabled = false,
@@ -53,6 +56,13 @@ class UserProfile {
 
   /// Segundos acumulados por [KnowledgeCode.name] (TMO histórico).
   final Map<String, int> tagTimeSpent;
+
+  /// Preguntas con cronómetro por pilar. No es [pillarTotal]: ese incluye
+  /// respuestas anteriores a medir el tiempo.
+  final Map<String, int> pillarTimedCount;
+
+  /// Preguntas con cronómetro por etiqueta.
+  final Map<String, int> tagTimedCount;
 
   final List<String> completedPlanTaskIds;
   final DateTime? planTaskDate;
@@ -88,6 +98,8 @@ class UserProfile {
     Map<String, int>? tagTotal,
     Map<String, int>? pillarTimeSpent,
     Map<String, int>? tagTimeSpent,
+    Map<String, int>? pillarTimedCount,
+    Map<String, int>? tagTimedCount,
     List<String>? completedPlanTaskIds,
     DateTime? planTaskDate,
     bool? streakRemindersEnabled,
@@ -113,6 +125,8 @@ class UserProfile {
       tagTotal: tagTotal ?? this.tagTotal,
       pillarTimeSpent: pillarTimeSpent ?? this.pillarTimeSpent,
       tagTimeSpent: tagTimeSpent ?? this.tagTimeSpent,
+      pillarTimedCount: pillarTimedCount ?? this.pillarTimedCount,
+      tagTimedCount: tagTimedCount ?? this.tagTimedCount,
       completedPlanTaskIds: completedPlanTaskIds ?? this.completedPlanTaskIds,
       planTaskDate: planTaskDate ?? this.planTaskDate,
       streakRemindersEnabled:
@@ -136,6 +150,14 @@ class UserProfile {
     if (total == 0) return 0;
     final correct = tagCorrect[knowledgeCodeName] ?? 0;
     return correct / total;
+  }
+
+  /// Segundos medios por pregunta con cronómetro. `null` si aún no hay ritmo.
+  double? pillarTmo(CompetencyPillar pillar) {
+    return TmoStats.averageSeconds(
+      timeSpent: pillarTimeSpent[pillar.name] ?? 0,
+      timedCount: pillarTimedCount[pillar.name] ?? 0,
+    );
   }
 
   String get weakestPillarLabel {
@@ -171,6 +193,8 @@ class UserProfile {
         'tagTotal': tagTotal,
         'pillarTimeSpent': pillarTimeSpent,
         'tagTimeSpent': tagTimeSpent,
+        'pillarTimedCount': pillarTimedCount,
+        'tagTimedCount': tagTimedCount,
         'completedPlanTaskIds': completedPlanTaskIds,
         'planTaskDate': planTaskDate?.toIso8601String(),
         'streakRemindersEnabled': streakRemindersEnabled,
@@ -210,6 +234,9 @@ class UserProfile {
         ? rawTasks.map((e) => e.toString()).toList()
         : <String>[];
 
+    final timedCount = readIntMap('pillarTimedCount');
+    final tagTimed = readIntMap('tagTimedCount');
+
     return UserProfile(
       displayName: (json['displayName'] as String?) ?? '',
       cargo: _parseCargo(json['cargo'] as String?),
@@ -227,8 +254,16 @@ class UserProfile {
       pillarTotal: readIntMap('pillarTotal'),
       tagCorrect: readIntMap('tagCorrect'),
       tagTotal: readIntMap('tagTotal'),
-      pillarTimeSpent: readIntMap('pillarTimeSpent'),
-      tagTimeSpent: readIntMap('tagTimeSpent'),
+      pillarTimeSpent: TmoStats.timeIfSampled(
+        timeSpent: readIntMap('pillarTimeSpent'),
+        timedCount: timedCount,
+      ),
+      tagTimeSpent: TmoStats.timeIfSampled(
+        timeSpent: readIntMap('tagTimeSpent'),
+        timedCount: tagTimed,
+      ),
+      pillarTimedCount: timedCount,
+      tagTimedCount: tagTimed,
       completedPlanTaskIds: tasks,
       planTaskDate: parseDate(json['planTaskDate']),
       streakRemindersEnabled: json['streakRemindersEnabled'] as bool? ?? false,

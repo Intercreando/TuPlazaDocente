@@ -5,11 +5,13 @@ import '../services/tag_mastery_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
 import '../theme/layout_breakpoints.dart';
+import '../utils/progress_gaps.dart';
 import '../utils/progress_today_action.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/cnsc_score_predictor.dart';
 import '../widgets/competency_radar.dart';
 import '../widgets/progress_fold_card.dart';
+import '../widgets/progress_gap_tile.dart';
 import '../widgets/tag_mastery_map.dart';
 import '../widgets/tmo_dashboard.dart';
 
@@ -62,14 +64,21 @@ class RadarScreen extends StatelessWidget {
                 ),
                 ProgressFoldCard(
                   title: 'Temas a reforzar',
-                  subtitle: 'Aciertos por norma y teoría',
+                  subtitle: 'Huecos del examen y aciertos por norma',
                   icon: Icons.menu_book_outlined,
                   accent: AppColors.skyLine,
-                  child: TagMasteryMap(
-                    rows: masteryRows,
-                    compact: true,
-                    maxItems: 6,
-                    recommendedCode: recommended?.code.name,
+                  child: Column(
+                    children: [
+                      for (final pillar
+                          in ProgressGaps.unmeasuredCognitive(profile))
+                        ProgressGapTile(pillar: pillar, compact: true),
+                      TagMasteryMap(
+                        rows: masteryRows,
+                        compact: true,
+                        maxItems: 6,
+                        recommendedCode: recommended?.code.name,
+                      ),
+                    ],
                   ),
                 ),
                 const ProgressFoldCard(
