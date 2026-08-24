@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -23,6 +25,9 @@ class FirebaseSyncService {
   /// True solo cuando el último auth exitoso creó/vinculó cuenta nueva (no login).
   bool lastAuthWasRegistration = false;
 
+  /// El correo del invitado ya pertenece a otra cuenta: hay que entrar, no vincular.
+  bool lastClaimNeedsLogin = false;
+
   /// Descuento pendiente leído de Firestore (solo servidor lo escribe).
   int? pendingDiscountPercent;
   String? pendingDiscountCode;
@@ -45,6 +50,8 @@ class FirebaseSyncService {
   bool get isAnonymous => currentUser?.isAnonymous ?? true;
   String? get email => currentUser?.email;
   String? get displayName => currentUser?.displayName;
+
+  static final _passwordRandom = Random.secure();
 
   Future<void> ensureSignedIn() async {
     final auth = _auth;
@@ -330,6 +337,92 @@ class FirebaseSyncService {
       lastError = 'No se pudo guardar en la nube. El progreso local sí quedó.';
       debugPrint('FirebaseSync saveRemoteProfile: $e');
     }
+  }
+
+  /// Convierte el invitado anónimo en cuenta con correo (misma UID, progreso intacto).
+  /// Genera una clave temporal y envía el enlace de Firebase para que elija la suya.
+  Future<bool> claimAnonymousEmail(String email) async {
+    final auth = _auth;
+    if (auth == null) {
+      lastError = 'Firebase no está disponible. Recarga e intenta de nuevo.';
+      return false;
+    }
+    final trimmed = email.trim().toLowerCase();
+    lastClaimNeedsLogin = false;
+    if (!trimmed.contains('@') || trimmed.length > 160) {
+      lastError = 'Escribe un correo válido.';
+      return false;
+    }
+    final current = auth.currentUser;
+    if (current == null || !current.isAnonymous) {
+      lastError = 'Ya tienes una sesión. Recarga e intenta de nuevo.';
+      return false;
+    }
+    try {
+      final password = _temporaryPassword();
+      final credential = EmailAuthProvider.credential(
+        email: trimmed,
+        password: password,
+      );
+      final linked = await current.linkWithCredential(credential);
+      await linked.user?.reload();
+      uid = auth.currentUser?.uid ?? linked.user?.uid;
+      available = uid != null;
+      lastAuthWasRegistration = true;
+      lastError = null;
+      final db = _db;
+      if (db != null && uid != null) {
+        try {
+          await db.collection('users').doc(uid).set(
+            {
+              'email': trimmed,
+              'authProvider': 'registered',
+              'updatedAt': FieldValue.serverTimestamp(),
+            },
+            SetOptions(merge: true),
+          );
+        } catch (e) {
+          debugPrint('claimAnonymousEmail firestore: $e');
+        }
+      }
+      try {
+        await auth.sendPasswordResetEmail(
+          email: trimmed,
+          actionCodeSettings: ActionCodeSettings(
+            url: 'https://www.tuplazadocente.com/auth',
+            handleCodeInApp: false,
+          ),
+        );
+      } catch (e) {
+        debugPrint('claimAnonymousEmail reset: $e');
+      }
+      return true;
+    } on FirebaseAuthException catch (e) {
+      if (e.code == 'email-already-in-use' ||
+          e.code == 'credential-already-in-use' ||
+          e.code == 'provider-already-linked') {
+        lastClaimNeedsLogin = true;
+        lastError =
+            'Ese correo ya tiene cuenta. Entra con Google o con tu contraseña.';
+        return false;
+      }
+      lastError = _mapAuthError(e);
+      return false;
+    } catch (e) {
+      lastError = 'No se pudo guardar el correo. Intenta de nuevo.';
+      debugPrint('claimAnonymousEmail: $e');
+      return false;
+    }
+  }
+
+  String _temporaryPassword() {
+    const chars =
+        'abcdefghijkmnopqrstuvwxyzABCDEFGHJKLMNPQRSTUVWXYZ23456789!@#';
+    final buffer = StringBuffer();
+    for (var i = 0; i < 20; i++) {
+      buffer.write(chars[_passwordRandom.nextInt(chars.length)]);
+    }
+    return buffer.toString();
   }
 
   String _mapAuthError(FirebaseAuthException e) {

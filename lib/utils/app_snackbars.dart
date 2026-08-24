@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
+import '../state/app_state.dart';
+import 'guest_capture.dart';
 import 'premium_nav.dart';
 
 /// Avisos temporales de la app (auto-cierran; no tapan la UI en PC/móvil).
@@ -75,8 +78,17 @@ abstract final class AppSnackbars {
     });
   }
 
-  /// Aviso de función bloqueada + acceso rápido a Premium.
+  /// Aviso de función bloqueada. El invitado deja el correo; quien ya tiene
+  /// cuenta ve el acceso rápido a Premium.
   static void premiumLocked(BuildContext context, String message) {
+    try {
+      if (context.read<AppState>().isAnonymousUser) {
+        captureGuestThenOpenPremium(context, lockMessage: message);
+        return;
+      }
+    } catch (_) {
+      // Sin Provider: cae al aviso clásico.
+    }
     show(
       context,
       message: message,

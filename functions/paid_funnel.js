@@ -39,12 +39,10 @@ function resolvePremiumPrice(userData) {
   let priceCop = LIST_PRICE_COP;
   let source = "list";
   const exp = toDate(data.welcomeOfferExpiresAt);
-  const welcomeActive = data.acquiredViaPaid === true &&
-    !!exp &&
-    exp.getTime() > Date.now();
+  const welcomeActive = !!exp && exp.getTime() > Date.now();
   if (welcomeActive) {
     priceCop = WELCOME_PRICE_COP;
-    source = "welcome_24h";
+    source = data.acquiredViaPaid === true ? "welcome_24h" : "founder_48h";
   }
 
   const pending = data.pendingPromoDiscount || null;

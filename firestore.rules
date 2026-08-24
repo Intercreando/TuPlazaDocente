@@ -32,6 +32,8 @@ service cloud.firestore {
           'organicWelcomeSentAt',
           'upsellEmailSent',
           'upsellEmailSentAt',
+          'founderOfferSent',
+          'founderOfferSentAt',
         ]);
     }
 
@@ -46,7 +48,8 @@ service cloud.firestore {
         && !('rescueEmailSent' in request.resource.data)
         && !('reminderOfferSentAt' in request.resource.data)
         && !('organicWelcomeSent' in request.resource.data)
-        && !('upsellEmailSent' in request.resource.data);
+        && !('upsellEmailSent' in request.resource.data)
+        && !('founderOfferSent' in request.resource.data);
     }
 
     match /users/{userId} {

@@ -11,3 +11,10 @@ void openPremium(BuildContext context) {
   }
   context.push('/premium');
 }
+
+/// Login de una cuenta que ya existe, conservando el destino de pago.
+void openExistingAccountLogin(BuildContext context) {
+  final path = GoRouterState.of(context).uri.path;
+  final next = path.startsWith('/app') ? '/app/premium' : '/premium';
+  context.push('/auth?next=$next');
+}

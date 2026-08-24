@@ -25,6 +25,7 @@ const paidFunnel = require("./paid_funnel");
 const offerReminder = require("./offer_reminder");
 const organicWelcome = require("./organic_welcome");
 const organicUpsell = require("./organic_upsell");
+const founderOffer = require("./founder_offer");
 
 initializeApp();
 
@@ -770,3 +771,5 @@ exports.claimPaidAcquisition = paidFunnel.claimPaidAcquisition;
 exports.sendUrgentOfferReminder = offerReminder.sendUrgentOfferReminder;
 exports.sendOrganicWelcomeEmail = organicWelcome.sendOrganicWelcomeEmail;
 exports.sendOrganicUpsellEmail = organicUpsell.sendOrganicUpsellEmail;
+exports.sendFounderOfferEmails = founderOffer.sendFounderOfferEmails;
+exports.runFounderOfferJob = founderOffer.runFounderOfferJob;

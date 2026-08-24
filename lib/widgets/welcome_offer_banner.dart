@@ -70,7 +70,9 @@ class _WelcomeOfferBannerState extends State<WelcomeOfferBanner> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Bienvenida de campaña: Premium a $price',
+                      state.profile.acquiredViaPaid
+                          ? 'Bienvenida de campaña: Premium a $price'
+                          : 'Precio de fundadores: Premium a $price',
                       style: theme.textTheme.titleSmall,
                     ),
                     const SizedBox(height: 2),

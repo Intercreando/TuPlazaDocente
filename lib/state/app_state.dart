@@ -111,6 +111,10 @@ class AppState extends ChangeNotifier {
 
   bool get cloudSyncEnabled => _sync.available;
   bool get isAnonymousUser => _sync.isAnonymous;
+
+  /// El correo del invitado ya existe: hay que entrar, no crear otra cuenta.
+  bool get lastAuthNeedsLogin => _sync.lastClaimNeedsLogin;
+
   String? get authEmail => _sync.email;
   String? get authDisplayName => _sync.displayName;
   String? get authUid => _sync.isAnonymous ? null : _sync.uid;
@@ -554,6 +558,31 @@ class AppState extends ChangeNotifier {
     return true;
   }
 
+  /// Invitado → cuenta con correo (dispara bienvenida Resend al escribir en Firestore).
+  Future<bool> claimGuestEmail(String email) async {
+    final ok = await _sync.claimAnonymousEmail(email);
+    if (!ok) {
+      lastError = _sync.lastError;
+      notifyListeners();
+      return false;
+    }
+    await _reloadAfterAuth();
+    try {
+      await _sync.saveRemoteProfile(profile);
+    } catch (_) {
+      // El progreso local ya quedó; Resend necesita el email en Firestore.
+    }
+    if (_sync.lastAuthWasRegistration) {
+      MetaPixel.completeRegistration(
+        method: 'email',
+        email: _sync.email,
+        externalId: _sync.uid,
+      );
+      GoogleAdsTag.completeRegistration();
+    }
+    return true;
+  }
+
   Future<bool> signInWithGoogle() async {
     final ok = await _sync.signInWithGoogle();
     if (!ok) {
@@ -562,6 +591,11 @@ class AppState extends ChangeNotifier {
       return false;
     }
     await _reloadAfterAuth();
+    try {
+      await _sync.saveRemoteProfile(profile);
+    } catch (_) {
+      // El correo en Auth basta; Firestore dispara la bienvenida al escribirlo.
+    }
     if (_sync.lastAuthWasRegistration) {
       MetaPixel.completeRegistration(
         method: 'google',

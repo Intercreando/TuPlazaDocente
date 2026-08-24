@@ -13,7 +13,7 @@ abstract final class PaidFunnel {
   }
 
   static bool welcomeOfferActive(UserProfile profile, {DateTime? now}) {
-    if (profile.isPremium || !profile.acquiredViaPaid) return false;
+    if (profile.isPremium) return false;
     final exp = profile.welcomeOfferExpiresAt;
     if (exp == null) return false;
     return (now ?? DateTime.now()).isBefore(exp);
