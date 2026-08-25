@@ -1,7 +1,8 @@
 /**
- * Upsell orgánico: invitacion Premium ~3 días después del registro con correo.
- * Reloj: organicWelcomeSentAt (queda al crear cuenta registrada, no como invitado).
- * No corre para pauta ni Premium. Un solo envío por uid.
+ * Upsell orgánico: Premium ~3 días después del registro con correo.
+ * Reloj: organicWelcomeSentAt. No corre para pauta, Premium ni invitados.
+ * Solo envía si ya entrenó (reto, práctica o diagnóstico).
+ * Al enviar, sella welcomeOfferExpiresAt +48 h ($69.900).
  */
 const {onSchedule} = require("firebase-functions/v2/scheduler");
 const {defineSecret} = require("firebase-functions/params");
@@ -12,11 +13,12 @@ const {Resend} = require("resend");
 const resendApiKey = defineSecret("RESEND_API_KEY");
 
 const APP_URL = "https://www.tuplazadocente.com";
-const PREMIUM_CTA_URL = `${APP_URL}/#/premium`;
+/** Sin #/: Resend pierde el fragmento en el clic. /premium lo reescribe la PWA. */
+const PREMIUM_CTA_URL = `${APP_URL}/premium`;
 const FROM_EMAIL = "Equipo TuPlazaDocente <soporte@tuplazadocente.com>";
-/** Hace 4 días (límite viejo). */
+const SUBJECT = "Tienes 48 horas: Premium a $69.900 COP";
+const OFFER_HOURS = 48;
 const WINDOW_MAX_AGE_MS = 96 * 60 * 60 * 1000;
-/** Hace 3 días (límite reciente). */
 const WINDOW_MIN_AGE_MS = 72 * 60 * 60 * 1000;
 const MAX_DOCS_PER_RUN = 120;
 
@@ -80,7 +82,25 @@ function alreadyUpsold(data) {
 }
 
 /**
- * Reloj de “3 días usando la app”: createdAt si existe; si no, el sello de bienvenida.
+ * Entrenó al menos una prueba gratis (reto, ítems o diagnóstico).
+ * @param {FirebaseFirestore.DocumentData} data
+ * @return {boolean}
+ */
+function hasFreeActivity(data) {
+  if (data.diagnosticCompleted === true) return true;
+  if (toDate(data.lastStreakDate)) return true;
+  const totals = data.pillarTotal;
+  if (!totals || typeof totals !== "object" || Array.isArray(totals)) {
+    return false;
+  }
+  for (const value of Object.values(totals)) {
+    const n = Number(value);
+    if (Number.isFinite(n) && n > 0) return true;
+  }
+  return false;
+}
+
+/**
  * @param {FirebaseFirestore.DocumentData} data
  * @return {Date|null}
  */
@@ -99,7 +119,7 @@ function buildHtml(displayName) {
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sube el nivel de tu preparación</title>
+  <title>${SUBJECT}</title>
 </head>
 <body style="margin:0;padding:0;background-color:#F5F8F6;font-family:Georgia,'Times New Roman',serif;">
   <table role="presentation" width="100%" cellspacing="0" cellpadding="0" style="background-color:#F5F8F6;padding:24px 12px;">
@@ -109,10 +129,10 @@ function buildHtml(displayName) {
           <tr>
             <td style="background-color:#0C2F2B;padding:28px 32px;">
               <p style="margin:0;color:#E3A008;font-family:Arial,Helvetica,sans-serif;font-size:12px;letter-spacing:0.08em;text-transform:uppercase;">
-                TuPlazaDocente
+                Oferta 48 horas
               </p>
               <h1 style="margin:10px 0 0;color:#ffffff;font-size:26px;line-height:1.25;">
-                Sube el nivel de tu preparación docente
+                Premium a $69.900 COP, solo por 48 horas
               </h1>
             </td>
           </tr>
@@ -120,22 +140,23 @@ function buildHtml(displayName) {
             <td style="padding:28px 32px 8px;color:#12201E;font-size:16px;line-height:1.55;">
               <p style="margin:0 0 14px;">Hola ${name},</p>
               <p style="margin:0 0 14px;">
-                Esperamos que estés aprovechando al máximo el Reto Diario y tu
-                práctica libre. Muchos docentes inician así, pero para asegurar
-                tu plaza, necesitas entrenar bajo presión.
+                Ya diste el primer paso con el Reto Diario o tu práctica libre.
+                Para seguir subiendo, te otorgamos un descuento especial:
+                <strong>Premium a $69.900 COP</strong> (precio de lista $89.900 COP),
+                válido únicamente durante las próximas <strong>48 horas</strong>.
               </p>
               <p style="margin:0 0 22px;">
-                Al actualizar a Premium desbloqueas
-                <strong>simulacros cronometrados</strong> (el ritmo real del
-                examen) y <strong>casos de aula por especialidad</strong>, para
-                practicar como vas a responder el día de la prueba.
+                Con Premium desbloqueas las
+                <strong>explicaciones normativas y teóricas</strong>,
+                <strong>simulacros cronometrados</strong> y
+                <strong>casos de aula por especialidad</strong>.
               </p>
               <table role="presentation" cellspacing="0" cellpadding="0" style="margin:0 0 22px;">
                 <tr>
                   <td style="background-color:#1F6B5C;border-radius:10px;">
                     <a href="${PREMIUM_CTA_URL}"
                        style="display:inline-block;padding:14px 22px;color:#ffffff;text-decoration:none;font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;">
-                      Desbloquear Premium ahora
+                      Activar Premium a $69.900
                     </a>
                   </td>
                 </tr>
@@ -148,8 +169,8 @@ function buildHtml(displayName) {
           </tr>
           <tr>
             <td style="padding:8px 32px 28px;color:#6E807C;font-family:Arial,Helvetica,sans-serif;font-size:12px;line-height:1.5;">
-              Sigue disponible el reto diario y una práctica libre al día.
-              Este mensaje es una invitación; puedes seguir entrenando a tu ritmo.
+              Pasadas las 48 horas, el precio vuelve a $89.900 COP.
+              El reto diario y una práctica libre al día siguen disponibles.
             </td>
           </tr>
         </table>
@@ -158,6 +179,24 @@ function buildHtml(displayName) {
   </table>
 </body>
 </html>`;
+}
+
+/**
+ * @return {string}
+ */
+function buildText() {
+  return [
+    "Hola,",
+    "",
+    "Ya diste el primer paso con el Reto Diario o tu práctica libre.",
+    "Te otorgamos Premium a $69.900 COP (precio de lista $89.900 COP)",
+    "válido únicamente durante las próximas 48 horas.",
+    "",
+    "Activa tu oferta aquí:",
+    PREMIUM_CTA_URL,
+    "",
+    "Pasadas las 48 horas, el precio vuelve a $89.900 COP.",
+  ].join("\n");
 }
 
 /**
@@ -178,12 +217,14 @@ async function resolveEmail(uid, data) {
 }
 
 /**
- * Reserva el envío para no duplicar si el cron se solapa.
+ * Reserva el envío y sella la oferta $69.900 por 48 h.
  * @param {FirebaseFirestore.DocumentReference} userRef
+ * @param {number} nowMs
  * @return {Promise<{ok: boolean, data?: object}>}
  */
-async function claimSendSlot(userRef) {
+async function claimSendSlot(userRef, nowMs) {
   const db = getFirestore();
+  const expiresAt = Timestamp.fromMillis(nowMs + OFFER_HOURS * 60 * 60 * 1000);
   return db.runTransaction(async (tx) => {
     const snap = await tx.get(userRef);
     if (!snap.exists) return {ok: false};
@@ -192,23 +233,29 @@ async function claimSendSlot(userRef) {
     if (data.isPremium === true) return {ok: false};
     if (alreadyUpsold(data)) return {ok: false};
     if (data.authProvider === "anonymous") return {ok: false};
+    if (!hasFreeActivity(data)) return {ok: false};
+    const existing = toDate(data.welcomeOfferExpiresAt);
+    const keepLonger = existing && existing.getTime() > expiresAt.toMillis();
     tx.set(userRef, {
       upsellEmailSent: true,
       upsellEmailSentAt: FieldValue.serverTimestamp(),
+      welcomeOfferExpiresAt: keepLonger
+        ? Timestamp.fromDate(existing)
+        : expiresAt,
     }, {merge: true});
     return {ok: true, data};
   });
 }
 
 /**
- * Cron 10:00 Colombia: orgánicos con ~3 días desde que quedó el correo en la cuenta.
+ * Cron 10:00 Colombia: orgánicos activos con ~3 días desde el correo en la cuenta.
  */
 exports.sendOrganicUpsellEmail = onSchedule(
     {
       schedule: "every day 10:00",
       timeZone: "America/Bogota",
-      region: "southamerica-east1",
       secrets: [resendApiKey],
+      region: "southamerica-east1",
       timeoutSeconds: 120,
       memory: "256MiB",
       minInstances: 0,
@@ -230,7 +277,6 @@ exports.sendOrganicUpsellEmail = onSchedule(
 
       let snap;
       try {
-        // Reloj real de registro-con-correo. Un campo de rango: no pide índice compuesto.
         snap = await db.collection("users")
             .where("organicWelcomeSentAt", ">=", windowStart)
             .where("organicWelcomeSentAt", "<", windowEnd)
@@ -249,6 +295,7 @@ exports.sendOrganicUpsellEmail = onSchedule(
       const resend = new Resend(apiKey);
       let sent = 0;
       let skipped = 0;
+      let skippedInactive = 0;
       let failed = 0;
 
       for (const doc of snap.docs) {
@@ -261,8 +308,11 @@ exports.sendOrganicUpsellEmail = onSchedule(
           skipped += 1;
           continue;
         }
-        const clock = registrationClock(data);
-        if (!clock) {
+        if (!hasFreeActivity(data)) {
+          skippedInactive += 1;
+          continue;
+        }
+        if (!registrationClock(data)) {
           skipped += 1;
           continue;
         }
@@ -276,7 +326,7 @@ exports.sendOrganicUpsellEmail = onSchedule(
 
         let claimed;
         try {
-          claimed = await claimSendSlot(doc.ref);
+          claimed = await claimSendSlot(doc.ref, now);
         } catch (e) {
           failed += 1;
           console.error("organic_upsell claim", doc.id, e);
@@ -294,13 +344,9 @@ exports.sendOrganicUpsellEmail = onSchedule(
           const result = await resend.emails.send({
             from: FROM_EMAIL,
             to: email,
-            subject: "📈 Sube el nivel de tu preparación docente",
+            subject: SUBJECT,
             html: buildHtml(displayName),
-            text:
-              `Hola,\n\nEsperamos que estés aprovechando el Reto Diario y tu ` +
-              `práctica libre. Para entrenar bajo presión, Premium incluye ` +
-              `simulacros cronometrados y casos de aula por especialidad.\n` +
-              `${PREMIUM_CTA_URL}\n`,
+            text: buildText(),
           });
           if (result.error) {
             failed += 1;
@@ -318,7 +364,11 @@ exports.sendOrganicUpsellEmail = onSchedule(
         candidates: snap.size,
         sent,
         skipped,
+        skippedInactive,
         failed,
       });
     },
 );
+
+exports.hasFreeActivity = hasFreeActivity;
+exports.PREMIUM_CTA_URL = PREMIUM_CTA_URL;

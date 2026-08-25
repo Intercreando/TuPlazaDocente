@@ -44,6 +44,15 @@
             sessionStorage.getItem('tpd_paid_as_organic') !== '1') {
           document.documentElement.classList.add('tpd-paid');
         }
+        // Resend no rastrea el fragmento #/premium. /premium o ?go=premium
+        // sí cuentan el clic; aquí lo pasamos a la ruta de la PWA.
+        var path = (location.pathname || '/').replace(/\/+$/, '') || '/';
+        var goPremium = path === '/premium' ||
+          (q.get('go') || '').toLowerCase() === 'premium';
+        if (goPremium && (location.hash || '').indexOf('#/premium') !== 0) {
+          location.replace('/#/premium');
+          return;
+        }
       } catch (e) {}
     })();
   </script>

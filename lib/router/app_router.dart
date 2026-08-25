@@ -38,6 +38,10 @@ GoRouter createAppRouter(AppState appState) {
       PaidTraffic.captureFromUri(state.uri);
       if (!appState.ready) return null;
       final loc = state.matchedLocation;
+      final go = state.uri.queryParameters['go'];
+      if (go == 'premium' && loc != '/premium' && loc != '/app/premium') {
+        return '/premium';
+      }
       if (SeoLandingRoutes.all.contains(loc)) return null;
       final onboarded = appState.profile.onboardingComplete;
 

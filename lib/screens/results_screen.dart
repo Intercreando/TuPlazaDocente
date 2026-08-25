@@ -7,6 +7,7 @@ import '../models/question.dart';
 import '../services/session_feedback_service.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../widgets/locked_explanation_panel.dart';
 import '../widgets/session_feedback_card.dart';
 
 /// Resultados + mapa de calor de tiempo (modo examen).
@@ -33,6 +34,9 @@ class ResultsScreen extends StatelessWidget {
 
     final accuracy = (result.accuracy * 100).round();
     final isExam = result.mode == SessionMode.exam;
+    final lockExplanations = !state.profile.isPremium &&
+        (result.mode == SessionMode.dailyStreak ||
+            result.mode == SessionMode.practice);
 
     return Scaffold(
       appBar: AppBar(title: const Text('Resultados')),
@@ -76,6 +80,10 @@ class ResultsScreen extends StatelessWidget {
                   ],
                 ),
               ),
+              if (lockExplanations) ...[
+                const SizedBox(height: 16),
+                const LockedExplanationPanel(compact: true),
+              ],
               const SizedBox(height: 16),
               SessionFeedbackCard(
                 feedback: SessionFeedbackService.build(result, state.profile),

@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../widgets/locked_explanation_panel.dart';
 import '../widgets/normative_link_chips.dart';
 import '../widgets/option_tile.dart';
 import '../widgets/question_case_context.dart';
@@ -53,6 +54,9 @@ class PracticeScreen extends StatelessWidget {
       SessionMode.diagnostic => 'Diagnóstico inicial',
       _ => 'Modo práctica',
     };
+    final lockFeedback = !state.profile.isPremium &&
+        (state.currentMode == SessionMode.dailyStreak ||
+            state.currentMode == SessionMode.practice);
 
     return Scaffold(
       appBar: AppBar(
@@ -111,13 +115,17 @@ class PracticeScreen extends StatelessWidget {
                     letter: letters[i],
                     label: question.options[i],
                     selected: state.selectedOption == i,
-                    showResult: state.revealed,
+                    showResult: state.revealed && !lockFeedback,
                     isCorrect: i == question.correctIndex,
                     onTap: () => state.selectOption(i),
                   ),
                 );
               }),
-              if (state.revealed) ...[
+              if (state.revealed && lockFeedback) ...[
+                const SizedBox(height: 8),
+                const LockedExplanationPanel(),
+              ],
+              if (state.revealed && !lockFeedback) ...[
                 const SizedBox(height: 8),
                 Container(
                   width: double.infinity,

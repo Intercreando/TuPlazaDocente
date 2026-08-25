@@ -8,9 +8,8 @@ import '../state/app_state.dart';
 import '../theme/app_button_styles.dart';
 import '../theme/app_colors.dart';
 import '../utils/google_ads_tag.dart';
-import '../utils/guest_capture.dart';
 import '../utils/meta_pixel.dart';
-import '../utils/open_external_url.dart';
+import '../utils/wompi_checkout.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/legal_footer_links.dart';
 
@@ -107,63 +106,9 @@ class _PremiumScreenState extends State<PremiumScreen> {
   }
 
   Future<void> _openWompiCheckout() async {
-    final state = context.read<AppState>();
-    final messenger = ScaffoldMessenger.of(context);
-    if (state.isAnonymousUser) {
-      final captured = await showGuestEmailCapture(
-        context,
-        lockMessage:
-            'Para habilitar Premium y guardar tu progreso en la nube de forma '
-            'segura, ingresa tu correo electrónico.',
-      );
-      if (!mounted) return;
-      if (captured != GuestCaptureOutcome.registered) {
-        if (captured == GuestCaptureOutcome.needsLogin ||
-            captured == GuestCaptureOutcome.goToLogin) {
-          if (captured == GuestCaptureOutcome.needsLogin) {
-            final again = context.read<AppState>();
-            messenger.showSnackBar(
-              SnackBar(
-                content: Text(
-                  again.lastError ??
-                      'Ese correo ya tiene cuenta. Entra con Google o con tu contraseña.',
-                ),
-              ),
-            );
-          }
-          context.push('/auth?next=/premium');
-        }
-        return;
-      }
-    }
-
     setState(() => _busy = true);
     try {
-      final session = await state.startPremiumCheckout();
-      MetaPixel.initiateCheckout(
-        value: session.amountCop,
-        currency: 'COP',
-        contentName: 'Premium convocatoria',
-        email: state.authEmail,
-        externalId: state.authUid,
-      );
-      final ok = await openExternalUrl(session.initPoint);
-      if (!ok && mounted) {
-        messenger.showSnackBar(
-          const SnackBar(content: Text('No pudimos abrir Wompi.')),
-        );
-      }
-    } catch (e) {
-      if (!mounted) return;
-      final detail =
-          state.lastError ?? e.toString().replaceFirst('Exception: ', '');
-      messenger.showSnackBar(
-        SnackBar(
-          content: Text(
-            detail.isNotEmpty ? detail : 'No pudimos iniciar el checkout.',
-          ),
-        ),
-      );
+      await openWompiCheckout(context);
     } finally {
       if (mounted) setState(() => _busy = false);
     }
