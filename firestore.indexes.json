@@ -23,6 +23,15 @@
         { "fieldPath": "acquiredViaPaid", "order": "ASCENDING" },
         { "fieldPath": "welcomeOfferExpiresAt", "order": "ASCENDING" }
       ]
+    },
+    {
+      "collectionGroup": "users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        { "fieldPath": "acquiredViaPaid", "order": "ASCENDING" },
+        { "fieldPath": "reminderOfferSent", "order": "ASCENDING" },
+        { "fieldPath": "welcomeOfferExpiresAt", "order": "ASCENDING" }
+      ]
     }
   ],
   "fieldOverrides": []

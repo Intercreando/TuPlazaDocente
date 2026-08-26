@@ -708,7 +708,8 @@ exports.sendStreakReminders = onSchedule(
       timeZone: "America/Bogota",
       region: "southamerica-east1",
       minInstances: 0,
-      maxInstances: 5,
+      maxInstances: 1,
+      retryCount: 0,
     },
     async () => {
       const db = getFirestore();

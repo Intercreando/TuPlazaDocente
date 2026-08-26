@@ -322,7 +322,10 @@ class FirebaseSyncService {
         ..remove('isPremium')
         // Solo el servidor escribe cohorte de pauta y caducidad de oferta.
         ..remove('acquiredViaPaid')
-        ..remove('welcomeOfferExpiresAt');
+        ..remove('welcomeOfferExpiresAt')
+        ..remove('reminderOfferSent')
+        ..remove('reminderOfferSentAt')
+        ..remove('rescueEmailSent');
       await db.collection('users').doc(uid).set(
         {
           ...data,

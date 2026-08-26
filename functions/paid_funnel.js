@@ -153,6 +153,7 @@ exports.claimPaidAcquisition = onCall(
           acquiredViaPaid: true,
           welcomeOfferExpiresAt: expires,
           paidAcquisitionAt: FieldValue.serverTimestamp(),
+          reminderOfferSent: false,
         }, {merge: true});
 
         return {

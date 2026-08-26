@@ -1,6 +1,7 @@
 /**
  * Recordatorio de rescate: oferta 24 h de pauta a punto de caducar.
- * Solo el cron escribe rescueEmailSent / reminderOfferSentAt.
+ * Solo corre si la caducidad está entre 3 h y 4 h en el futuro y el
+ * candado reminderOfferSent sigue en false. Resend confirma y luego se sella.
  */
 const {onSchedule} = require("firebase-functions/v2/scheduler");
 const {defineSecret} = require("firebase-functions/params");
@@ -62,11 +63,27 @@ function normalizeEmail(value) {
 }
 
 /**
+ * Caducidad estricta: entre 3 h y 4 h desde `nowMs`, nunca fechas pasadas.
+ * @param {Date|null} exp
+ * @param {number} nowMs
+ * @return {boolean}
+ */
+function isExpirationInReminderWindow(exp, nowMs) {
+  if (!exp || !(exp instanceof Date) || Number.isNaN(exp.getTime())) {
+    return false;
+  }
+  const t = exp.getTime();
+  return t >= nowMs + WINDOW_MIN_MS && t <= nowMs + WINDOW_MAX_MS;
+}
+
+/**
  * @param {FirebaseFirestore.DocumentData} data
  * @return {boolean}
  */
 function alreadyReminded(data) {
-  return data.rescueEmailSent === true || data.reminderOfferSentAt != null;
+  return data.reminderOfferSent === true ||
+      data.rescueEmailSent === true ||
+      data.reminderOfferSentAt != null;
 }
 
 /**
@@ -161,37 +178,48 @@ async function resolveEmail(uid, data) {
 }
 
 /**
- * Reserva el envío en transacción para no duplicar si el cron se solapa.
+ * Sella el candado solo después de un envío exitoso de Resend.
  * @param {FirebaseFirestore.DocumentReference} userRef
- * @return {Promise<{ok: boolean, reason?: string, data?: object}>}
+ * @return {Promise<void>}
  */
-async function claimSendSlot(userRef) {
-  const db = getFirestore();
-  return db.runTransaction(async (tx) => {
-    const snap = await tx.get(userRef);
-    if (!snap.exists) {
-      return {ok: false, reason: "missing"};
-    }
-    const data = snap.data() || {};
-    if (data.isPremium === true) {
-      return {ok: false, reason: "premium"};
-    }
-    if (data.acquiredViaPaid !== true) {
-      return {ok: false, reason: "not_cohort"};
-    }
-    if (alreadyReminded(data)) {
-      return {ok: false, reason: "already"};
-    }
-    const exp = toDate(data.welcomeOfferExpiresAt);
-    if (!exp || exp.getTime() <= Date.now()) {
-      return {ok: false, reason: "expired"};
-    }
-    tx.set(userRef, {
-      rescueEmailSent: true,
-      reminderOfferSentAt: FieldValue.serverTimestamp(),
-    }, {merge: true});
-    return {ok: true, data};
-  });
+async function markReminderSent(userRef) {
+  await userRef.set({
+    reminderOfferSent: true,
+    reminderOfferSentAt: FieldValue.serverTimestamp(),
+    rescueEmailSent: true,
+  }, {merge: true});
+}
+
+/**
+ * @param {FirebaseFirestore.Firestore} db
+ * @param {number} nowMs
+ * @return {Promise<FirebaseFirestore.QueryDocumentSnapshot[]>}
+ */
+async function loadReminderCandidates(db, nowMs) {
+  const startMs = nowMs + WINDOW_MIN_MS;
+  const endMs = nowMs + WINDOW_MAX_MS;
+  const startTs = Timestamp.fromMillis(startMs);
+  const endTs = Timestamp.fromMillis(endMs);
+  const startIso = new Date(startMs).toISOString();
+  const endIso = new Date(endMs).toISOString();
+  const base = db.collection("users")
+      .where("acquiredViaPaid", "==", true)
+      .where("reminderOfferSent", "==", false);
+  const [tsSnap, isoSnap] = await Promise.all([
+    base.where("welcomeOfferExpiresAt", ">=", startTs)
+        .where("welcomeOfferExpiresAt", "<=", endTs)
+        .limit(MAX_DOCS_PER_RUN)
+        .get(),
+    base.where("welcomeOfferExpiresAt", ">=", startIso)
+        .where("welcomeOfferExpiresAt", "<=", endIso)
+        .limit(MAX_DOCS_PER_RUN)
+        .get(),
+  ]);
+  const byId = new Map();
+  for (const doc of [...tsSnap.docs, ...isoSnap.docs]) {
+    byId.set(doc.id, doc);
+  }
+  return [...byId.values()];
 }
 
 /**
@@ -219,24 +247,17 @@ exports.sendUrgentOfferReminder = onSchedule(
       }
 
       const now = Date.now();
-      const windowStart = Timestamp.fromMillis(now + WINDOW_MIN_MS);
-      const windowEnd = Timestamp.fromMillis(now + WINDOW_MAX_MS);
       const db = getFirestore();
 
-      let snap;
+      let candidates;
       try {
-        snap = await db.collection("users")
-            .where("acquiredViaPaid", "==", true)
-            .where("welcomeOfferExpiresAt", ">=", windowStart)
-            .where("welcomeOfferExpiresAt", "<", windowEnd)
-            .limit(MAX_DOCS_PER_RUN)
-            .get();
+        candidates = await loadReminderCandidates(db, now);
       } catch (e) {
         console.error("offer_reminder query", e);
         return;
       }
 
-      if (snap.empty) {
+      if (!candidates.length) {
         console.log("offer_reminder: nadie en ventana 3–4 h.");
         return;
       }
@@ -246,9 +267,18 @@ exports.sendUrgentOfferReminder = onSchedule(
       let skipped = 0;
       let failed = 0;
 
-      for (const doc of snap.docs) {
+      for (const doc of candidates) {
         const data = doc.data() || {};
         if (data.isPremium === true || alreadyReminded(data)) {
+          skipped += 1;
+          continue;
+        }
+        if (data.acquiredViaPaid !== true) {
+          skipped += 1;
+          continue;
+        }
+        const exp = toDate(data.welcomeOfferExpiresAt);
+        if (!isExpirationInReminderWindow(exp, now)) {
           skipped += 1;
           continue;
         }
@@ -260,22 +290,7 @@ exports.sendUrgentOfferReminder = onSchedule(
           continue;
         }
 
-        let claimed;
-        try {
-          claimed = await claimSendSlot(doc.ref);
-        } catch (e) {
-          failed += 1;
-          console.error("offer_reminder claim", doc.id, e);
-          continue;
-        }
-        if (!claimed.ok) {
-          skipped += 1;
-          continue;
-        }
-
-        const displayName = String(
-            (claimed.data && claimed.data.displayName) || data.displayName || "",
-        );
+        const displayName = String(data.displayName || "");
         try {
           const result = await resend.emails.send({
             from: FROM_EMAIL,
@@ -297,6 +312,11 @@ exports.sendUrgentOfferReminder = onSchedule(
             }, {merge: true}).catch(() => {});
             continue;
           }
+          try {
+            await markReminderSent(doc.ref);
+          } catch (e) {
+            console.error("offer_reminder flag", doc.id, e);
+          }
           sent += 1;
         } catch (e) {
           failed += 1;
@@ -308,7 +328,7 @@ exports.sendUrgentOfferReminder = onSchedule(
       }
 
       console.log("offer_reminder done", {
-        candidates: snap.size,
+        candidates: candidates.length,
         sent,
         skipped,
         failed,

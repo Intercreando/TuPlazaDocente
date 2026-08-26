@@ -90,10 +90,17 @@ abstract final class QuestionBank {
   }
 
   static List<Question> bySpecialty(Especialidad specialty) {
-    final tagged = all
+    final exactas = all
         .where((q) => q.specialtyTags.contains(specialty))
         .toList();
-    if (tagged.isNotEmpty) return tagged;
+    if (exactas.isNotEmpty) return exactas;
+    final familia = specialty.especialidadDeBanco;
+    if (familia != null && familia != specialty) {
+      final relacionadas = all
+          .where((q) => q.specialtyTags.contains(familia))
+          .toList();
+      if (relacionadas.isNotEmpty) return relacionadas;
+    }
     return byPillar(CompetencyPillar.pedagogico);
   }
 
@@ -136,7 +143,17 @@ abstract final class QuestionBank {
       final focused = source
           .where((q) => q.specialtyTags.contains(specialty))
           .toList();
-      if (focused.isNotEmpty) source = focused;
+      if (focused.isNotEmpty) {
+        source = focused;
+      } else {
+        final familia = specialty.especialidadDeBanco;
+        if (familia != null) {
+          final relacionadas = source
+              .where((q) => q.specialtyTags.contains(familia))
+              .toList();
+          if (relacionadas.isNotEmpty) source = relacionadas;
+        }
+      }
     }
 
     if (knowledgeCode != null) {

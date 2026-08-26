@@ -206,7 +206,9 @@ class _SpecializationSection extends StatelessWidget {
           spacing: 10,
           runSpacing: 10,
           children: [
-            for (final esp in Especialidad.values)
+            for (final esp in Especialidad.values.where(
+              (e) => e.atajo || e == Especialidad.directivos,
+            ))
               _ChoiceChipButton(
                 label: esp.label,
                 onTap: () => context.go(PaidTraffic.startPath),

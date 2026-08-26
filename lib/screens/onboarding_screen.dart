@@ -9,6 +9,7 @@ import '../utils/paid_traffic.dart';
 import '../theme/app_colors.dart';
 import '../widgets/atmospheric_background.dart';
 import '../widgets/brand_mark.dart';
+import '../widgets/especialidad_picker.dart';
 
 /// Onboarding inteligente: cargo, especialidad y fecha de examen.
 /// Con [editing] = true permite cambiar el perfil tras el primer ingreso.
@@ -164,7 +165,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 }),
                               )
                             : _step == 1
-                                ? _StepEspecialidad(
+                                ? EspecialidadPicker(
                                     key: const ValueKey('esp'),
                                     cargo: _cargo,
                                     especialidad: _especialidad,
@@ -331,71 +332,6 @@ class _StepCargo extends StatelessWidget {
               onTap: () => onCargo(c),
             ),
           ),
-        ),
-      ],
-    );
-  }
-}
-
-class _StepEspecialidad extends StatelessWidget {
-  const _StepEspecialidad({
-    super.key,
-    this.cargo,
-    required this.especialidad,
-    required this.onSelect,
-  });
-
-  final CargoAspiracion? cargo;
-  final Especialidad? especialidad;
-  final ValueChanged<Especialidad> onSelect;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final opciones = cargo != null && cargo!.esGestionInstitucional
-        ? const [Especialidad.directivos]
-        : Especialidad.values;
-    final hint = cargo == CargoAspiracion.directivo
-        ? 'Para Directivo (coordinación o rectoría) calibramos Gestión directiva: PEI, gobierno escolar, SIEE y convivencia.'
-        : null;
-
-    return ListView(
-      children: [
-        Text('¿Cuál es tu especialidad o nivel?', style: theme.textTheme.titleMedium),
-        if (hint != null) ...[
-          const SizedBox(height: 8),
-          Text(hint, style: theme.textTheme.bodyMedium),
-        ],
-        const SizedBox(height: 10),
-        Wrap(
-          spacing: 10,
-          runSpacing: 10,
-          children: opciones.map((e) {
-            final selected = especialidad == e;
-            return ChoiceChip(
-              label: Text(e.label),
-              selected: selected,
-              onSelected: (_) => onSelect(e),
-              selectedColor: AppColors.ink,
-              backgroundColor: theme.brightness == Brightness.dark
-                  ? AppColors.darkElevated
-                  : AppColors.mist,
-              side: BorderSide(
-                color: selected
-                    ? AppColors.ink
-                    : (theme.brightness == Brightness.dark
-                        ? AppColors.darkStroke
-                        : AppColors.stroke),
-              ),
-              labelStyle: theme.textTheme.labelLarge?.copyWith(
-                color: selected
-                    ? AppColors.white
-                    : (theme.brightness == Brightness.dark
-                        ? AppColors.darkText
-                        : AppColors.textPrimary),
-              ),
-            );
-          }).toList(),
         ),
       ],
     );
