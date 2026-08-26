@@ -9,7 +9,6 @@ import '../config/admin_config.dart';
 import '../data/live_gem_prompt.dart';
 import '../data/live_session.dart';
 import '../data/live_studio_pack.dart';
-import '../data/reel_clip.dart';
 import '../data/reel_clip_text_parser.dart';
 import '../services/live_studio_service.dart';
 import '../services/reel_clip_service.dart';
@@ -378,7 +377,7 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
                   clip: _clip,
                   catalog: _catalog,
                   rundown: _rundown,
-                  usedIds: const {},
+                  usedIds: {for (final clip in _rundown) clip.id},
                   obsShareUrl: _obsShareUrl,
                   onBeat: _setBeat,
                   onStartVote: _startVote,
@@ -394,6 +393,10 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
                       ];
                     });
                     _publish(_session);
+                    AppSnackbars.show(
+                      context,
+                      message: 'Quitado de la escaleta.',
+                    );
                   },
                   onSelectRundown: _loadClip,
                   onAddToRundown: () => _addToRundown(_clip),

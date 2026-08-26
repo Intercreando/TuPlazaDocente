@@ -2,7 +2,26 @@ import 'package:flutter/material.dart';
 
 import '../data/reel_clip.dart';
 
-/// Clave del anfitrión: la letra y el porqué, solo en este panel (no en OBS).
+/// Párrafo para leer en voz alta si el chat pregunta por qué.
+///
+/// Usa la letra y el “porque” de este caso, en tono de conversación, para
+/// que no se note que estás leyendo un apunte genérico.
+String liveHostSpokenWhy(ReelClip clip) {
+  final letter = clip.correctLetter;
+  var why = clip.revealWhy.trim();
+  if (why.isNotEmpty && !why.endsWith('.')) why = '$why.';
+  final nucleo = why.isEmpty
+      ? 'Gana la que no se salta el proceso ni deja a alguien desprotegido.'
+      : why;
+
+  return 'Bueno, fíjense: la correcta es la $letter. $nucleo '
+      'Si muchos se fueron por otra, es normal: casi siempre es la que suena '
+      'más humana o más estricta, y por eso enreda. No estoy citando un '
+      'artículo de memoria; es el criterio de este caso. Y recuerden: esto '
+      'es entrenamiento, no un ítem oficial de la CNSC.';
+}
+
+/// Clave del anfitrión: la letra y el texto para leer (no sale en OBS).
 class LiveHostNotes extends StatelessWidget {
   const LiveHostNotes({super.key, required this.clip});
 
@@ -32,18 +51,15 @@ class LiveHostNotes extends StatelessWidget {
             'Correcta: ${clip.correctLetter}',
             style: theme.textTheme.titleMedium,
           ),
-          if (clip.revealWhy.isNotEmpty) ...[
-            const SizedBox(height: 6),
-            Text(clip.revealWhy, style: theme.textTheme.bodySmall),
-          ],
-          const SizedBox(height: 8),
+          const SizedBox(height: 10),
           Text(
-            'Si preguntan “¿por qué?”: di el principio (protección, debido '
-            'proceso, inclusión sin bajar la meta, SIEE), luego por qué esta '
-            'letra y por qué la trampa más votada. Si no estás seguro: '
-            '“Es entrenamiento, no clave oficial; el criterio es este”. '
-            'Nunca inventes un artículo.',
-            style: theme.textTheme.bodySmall,
+            'Léelo si preguntan por qué',
+            style: theme.textTheme.labelLarge,
+          ),
+          const SizedBox(height: 6),
+          Text(
+            liveHostSpokenWhy(clip),
+            style: theme.textTheme.bodyMedium,
           ),
         ],
       ),

@@ -105,24 +105,35 @@ class LiveControlDeck extends StatelessWidget {
           rundown.isEmpty
               ? 'Elige un caso abajo y pulsa “Sumar a la escaleta”. '
                     'Así el directo ya tiene el orden listo.'
-              : 'Toca un caso para cargarlo. N y P recorren esta lista.',
+              : 'Toca un caso para cargarlo. La papelera lo saca de la '
+                    'escaleta. N y P recorren esta lista.',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 8),
-        for (final clip in rundown)
+        for (final clip in rundown) ...[
           ListTile(
             dense: true,
-            contentPadding: EdgeInsets.zero,
+            contentPadding: const EdgeInsets.symmetric(horizontal: 8),
             selected: clip.id == current.id,
+            tileColor: theme.colorScheme.tertiaryContainer.withValues(
+              alpha: 0.55,
+            ),
+            selectedTileColor: theme.colorScheme.tertiaryContainer,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(10),
+              side: BorderSide(color: theme.colorScheme.tertiary),
+            ),
             title: Text(clip.label, style: theme.textTheme.bodyMedium),
             subtitle: Text(clip.group.label, style: theme.textTheme.bodySmall),
             onTap: () => onSelectRundown(clip),
             trailing: IconButton(
               tooltip: 'Quitar de la escaleta',
               onPressed: () => onRemoveFromRundown(clip),
-              icon: const Icon(Icons.close_rounded),
+              icon: const Icon(Icons.delete_outline),
             ),
           ),
+          const SizedBox(height: 6),
+        ],
       ],
     );
   }

@@ -88,8 +88,8 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
             onChanged: (v) => setState(() => _hideUsed = v),
           ),
         Text(
-          'Grabando: ${widget.selected.label}'
-          '${used.contains(widget.selected.id) ? ' · usado' : ''}',
+          'Caso: ${widget.selected.label}'
+          '${used.contains(widget.selected.id) ? (widget.manageCatalog ? ' · usado' : ' · en escaleta') : ''}',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 2),
@@ -116,13 +116,17 @@ class _ReelClipPickerState extends State<ReelClipPicker> {
               clip: clip,
               selected: widget.selected.id == clip.id,
               used: used.contains(clip.id),
+              usedCaption: widget.manageCatalog ? 'usado' : 'en escaleta',
               onSelected: () => widget.onSelected(clip),
               onToggleUsed: widget.manageCatalog
                   ? () => widget.onToggleUsed(clip)
                   : null,
-              onRemove: widget.manageCatalog
+              onRemove: widget.manageCatalog || used.contains(clip.id)
                   ? () => widget.onRemove(clip)
                   : null,
+              removeTooltip: widget.manageCatalog
+                  ? null
+                  : 'Quitar de la escaleta',
             ),
         ],
         if (widget.hiddenClips.isNotEmpty && widget.onRestore != null) ...[
@@ -150,20 +154,26 @@ class _ClipRow extends StatelessWidget {
     required this.clip,
     required this.selected,
     required this.used,
+    required this.usedCaption,
     required this.onSelected,
     this.onToggleUsed,
     this.onRemove,
+    this.removeTooltip,
   });
 
   final ReelClip clip;
   final bool selected;
   final bool used;
+  final String usedCaption;
   final VoidCallback onSelected;
   final VoidCallback? onToggleUsed;
   final VoidCallback? onRemove;
+  final String? removeTooltip;
 
   @override
   Widget build(BuildContext context) {
+    final theme = Theme.of(context);
+    final scheme = theme.colorScheme;
     return Padding(
       padding: const EdgeInsets.only(bottom: 6),
       child: Row(
@@ -171,11 +181,18 @@ class _ClipRow extends StatelessWidget {
           Expanded(
             child: ChoiceChip(
               selected: selected,
+              backgroundColor: used ? scheme.tertiaryContainer : null,
+              selectedColor: used
+                  ? scheme.tertiaryContainer
+                  : scheme.secondaryContainer,
+              side: used
+                  ? BorderSide(color: scheme.tertiary)
+                  : BorderSide(color: scheme.outline),
               avatar: Icon(
                 clip.isCustom ? Icons.edit_note : Icons.quiz_outlined,
                 size: 18,
               ),
-              label: Text(used ? '${clip.label} · usado' : clip.label),
+              label: Text(used ? '${clip.label} · $usedCaption' : clip.label),
               onSelected: (_) => onSelected(),
             ),
           ),
@@ -190,7 +207,10 @@ class _ClipRow extends StatelessWidget {
             ),
           if (onRemove != null)
             IconButton(
-              tooltip: clip.isCustom ? 'Borrar caso' : 'Ocultar del catálogo',
+              tooltip: removeTooltip ??
+                  (clip.isCustom
+                      ? 'Borrar caso'
+                      : 'Ocultar del catálogo'),
               icon: const Icon(Icons.delete_outline, size: 20),
               onPressed: onRemove,
             ),

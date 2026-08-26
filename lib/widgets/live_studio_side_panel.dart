@@ -85,12 +85,13 @@ class LiveStudioSidePanel extends StatelessWidget {
           manageCatalog: false,
           title: 'Elige el caso de este directo',
           subtitle:
-              'Enunciados largos para 16:9 y casos de alta exigencia '
-              'del banco. No son los de Reels. '
-              'Pendientes: ${catalog.length}.',
+              'Al sumarlo a la escaleta se marca de otro color. '
+              'La papelera lo quita si te arrepientes. '
+              'Pendientes: ${catalog.where((c) => !rundown.any((r) => r.id == c.id)).length} '
+              'de ${catalog.length}.',
           onSelected: onLoadClip,
           onToggleUsed: (_) {},
-          onRemove: (_) {},
+          onRemove: onRemoveFromRundown,
         ),
         if (composer != null) ...[
           const SizedBox(height: 12),

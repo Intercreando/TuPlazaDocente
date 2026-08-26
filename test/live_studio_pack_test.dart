@@ -4,6 +4,7 @@ import 'package:tu_plaza_docente/data/live_gem_prompt.dart';
 import 'package:tu_plaza_docente/data/live_studio_pack.dart';
 import 'package:tu_plaza_docente/data/reel_clip_text_parser.dart';
 import 'package:tu_plaza_docente/data/reel_studio_pack.dart';
+import 'package:tu_plaza_docente/widgets/live_host_notes.dart';
 
 void main() {
   test('el directo no reutiliza los ids del pack de Reels', () {
@@ -44,5 +45,13 @@ void main() {
     expect(draft.clip!.correctIndex, 2);
     expect(draft.clip!.situation, contains('Decreto 1421'));
     expect(draft.warnings, isEmpty);
+  });
+
+  test('el párrafo para leer usa la letra y el porque del caso', () {
+    final clip = LiveStudioPack.enunciadoClips.first;
+    final spoken = liveHostSpokenWhy(clip);
+    expect(spoken, contains('la ${clip.correctLetter}'));
+    expect(spoken, contains(clip.revealWhy.trim()));
+    expect(spoken, contains('entrenamiento'));
   });
 }

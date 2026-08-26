@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import '../data/live_clip_mapper.dart';
 import '../data/live_session.dart';
 import '../data/live_studio_pack.dart';
-import '../data/reel_clip.dart';
 import '../theme/app_colors.dart';
 import '../theme/live_type.dart';
 import 'atmospheric_background.dart';
