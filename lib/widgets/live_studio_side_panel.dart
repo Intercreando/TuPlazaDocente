@@ -7,6 +7,7 @@ import '../data/reel_clip.dart';
 import '../utils/app_snackbars.dart';
 import 'live_capture_note.dart';
 import 'live_control_deck.dart';
+import 'live_host_notes.dart';
 import 'reel_clip_picker.dart';
 
 /// Mesa izquierda del estudio: escaleta, catálogo y enlace de OBS.
@@ -28,6 +29,7 @@ class LiveStudioSidePanel extends StatelessWidget {
     required this.onSelectRundown,
     required this.onAddToRundown,
     required this.onLoadClip,
+    this.composer,
   });
 
   final LiveSession session;
@@ -45,6 +47,9 @@ class LiveStudioSidePanel extends StatelessWidget {
   final ValueChanged<ReelClip> onSelectRundown;
   final VoidCallback onAddToRundown;
   final ValueChanged<ReelClip> onLoadClip;
+
+  /// Pegar texto (mismo flujo que Reels), opcional en OBS.
+  final Widget? composer;
 
   @override
   Widget build(BuildContext context) {
@@ -64,7 +69,9 @@ class LiveStudioSidePanel extends StatelessWidget {
           onRemoveFromRundown: onRemoveFromRundown,
           onSelectRundown: onSelectRundown,
         ),
-        const SizedBox(height: 16),
+        const SizedBox(height: 12),
+        LiveHostNotes(clip: clip),
+        const SizedBox(height: 12),
         FilledButton.tonal(
           onPressed: onAddToRundown,
           child: const Text('Sumar caso actual a la escaleta'),
@@ -78,13 +85,17 @@ class LiveStudioSidePanel extends StatelessWidget {
           manageCatalog: false,
           title: 'Elige el caso de este directo',
           subtitle:
-              'Súmalo a la escaleta para tener el orden listo '
-              'antes de ir a YouTube. '
-              'Pendientes visibles: ${catalog.length}.',
+              'Enunciados largos para 16:9 y casos de alta exigencia '
+              'del banco. No son los de Reels. '
+              'Pendientes: ${catalog.length}.',
           onSelected: onLoadClip,
           onToggleUsed: (_) {},
           onRemove: (_) {},
         ),
+        if (composer != null) ...[
+          const SizedBox(height: 12),
+          composer!,
+        ],
         const SizedBox(height: 12),
         OutlinedButton(
           onPressed: () => context.go('/admin/estudio-directo?obs=1'),

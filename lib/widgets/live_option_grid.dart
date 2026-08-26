@@ -130,6 +130,8 @@ class _LiveOptionTile extends StatelessWidget {
                   style: type.option.copyWith(
                     color: marked ? AppColors.white : ink,
                   ),
+                  maxLines: 6,
+                  overflow: TextOverflow.ellipsis,
                 ),
               ),
             ],

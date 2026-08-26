@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../data/live_clip_mapper.dart';
 import '../data/live_session.dart';
 import '../data/live_studio_pack.dart';
 import '../data/reel_clip.dart';
@@ -223,6 +224,10 @@ class LiveCasePane extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
+              if (clip.id.startsWith(liveAltaIdPrefix)) ...[
+                Text('ALTA EXIGENCIA', style: type.kicker),
+                const SizedBox(height: 8),
+              ],
               Text(clip.situation, style: type.situation),
               const SizedBox(height: 10),
               Text(clip.stem, style: type.stem),

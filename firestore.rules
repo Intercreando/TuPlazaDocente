@@ -124,5 +124,11 @@ service cloud.firestore {
       allow read: if true;
       allow write: if isAdmin();
     }
+
+    // Casos pegados del estudio de directo. OBS los lee sin sesión.
+    match /liveClips/{id} {
+      allow read: if true;
+      allow write: if isAdmin();
+    }
   }
 }

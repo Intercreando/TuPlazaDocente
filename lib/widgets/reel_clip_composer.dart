@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 
 import '../data/reel_clip_text_parser.dart';
 import '../data/reel_studio_pack.dart';
+import '../utils/app_snackbars.dart';
 
 /// Crea casos nuevos pegando texto, sin tocar el código.
 ///
@@ -13,6 +15,13 @@ class ReelClipComposer extends StatefulWidget {
     required this.customClips,
     required this.onSave,
     required this.onDelete,
+    this.parse,
+    this.helperText,
+    this.gemPrompt,
+    this.emptyTemplate,
+    this.minLines = 8,
+    this.maxLines = 16,
+    this.startExpanded = false,
   });
 
   final List<ReelClip> customClips;
@@ -20,6 +29,17 @@ class ReelClipComposer extends StatefulWidget {
   /// Devuelve `true` si el caso quedó guardado.
   final Future<bool> Function(ReelClip clip) onSave;
   final Future<void> Function(ReelClip clip) onDelete;
+
+  /// Por defecto usa el parser de Reels (avisos de texto corto).
+  final ReelClipDraft Function(String text)? parse;
+  final String? helperText;
+  final String? gemPrompt;
+  final String? emptyTemplate;
+  final int minLines;
+  final int maxLines;
+
+  /// Si es `true`, el recuadro de pegar sale abierto (útil en directo).
+  final bool startExpanded;
 
   @override
   State<ReelClipComposer> createState() => _ReelClipComposerState();
@@ -37,7 +57,14 @@ class _ReelClipComposerState extends State<ReelClipComposer> {
   }
 
   void _onChanged(String value) {
-    setState(() => _draft = ReelClipTextParser.parse(value));
+    final parse = widget.parse ?? ReelClipTextParser.parse;
+    setState(() => _draft = parse(value));
+  }
+
+  Future<void> _copy(String text, String message) async {
+    await Clipboard.setData(ClipboardData(text: text));
+    if (!mounted) return;
+    AppSnackbars.show(context, message: message);
   }
 
   Future<void> _save() async {
@@ -61,7 +88,8 @@ class _ReelClipComposerState extends State<ReelClipComposer> {
     return Card(
       margin: EdgeInsets.zero,
       child: ExpansionTile(
-        initiallyExpanded: widget.customClips.isNotEmpty,
+        initiallyExpanded:
+            widget.startExpanded || widget.customClips.isNotEmpty,
         leading: const Icon(Icons.playlist_add),
         title: Text(
           'Agregar caso pegando texto',
@@ -76,14 +104,39 @@ class _ReelClipComposerState extends State<ReelClipComposer> {
         childrenPadding: const EdgeInsets.fromLTRB(12, 0, 12, 12),
         children: [
           Text(
-            'Pega el texto del Gem y pulsa Guardar.',
+            widget.helperText ?? 'Pega el texto del Gem y pulsa Guardar.',
             style: theme.textTheme.bodySmall,
           ),
+          if (widget.gemPrompt != null || widget.emptyTemplate != null) ...[
+            const SizedBox(height: 8),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                if (widget.gemPrompt != null)
+                  OutlinedButton(
+                    onPressed: () => _copy(
+                      widget.gemPrompt!,
+                      'Instrucciones del Gem copiadas. Pégalas en Gemini.',
+                    ),
+                    child: const Text('Copiar prompt del Gem'),
+                  ),
+                if (widget.emptyTemplate != null)
+                  OutlinedButton(
+                    onPressed: () => _copy(
+                      widget.emptyTemplate!,
+                      'Plantilla copiada. Pégala en el recuadro o en el Gem.',
+                    ),
+                    child: const Text('Copiar plantilla'),
+                  ),
+              ],
+            ),
+          ],
           const SizedBox(height: 8),
           TextField(
             controller: _controller,
-            minLines: 8,
-            maxLines: 16,
+            minLines: widget.minLines,
+            maxLines: widget.maxLines,
             style: theme.textTheme.bodySmall,
             decoration: const InputDecoration(
               border: OutlineInputBorder(),

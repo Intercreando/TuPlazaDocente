@@ -56,7 +56,13 @@ class LiveControlDeck extends StatelessWidget {
           child: const Text('Abrir votación 20 s (V)'),
         ),
         const SizedBox(height: 10),
-        Text('Señalar una letra', style: theme.textTheme.titleSmall),
+        Text('Señalar la más votada', style: theme.textTheme.titleSmall),
+        const SizedBox(height: 4),
+        Text(
+          'No cuenta el chat solo: tú miras YouTube y marcas la letra '
+          'que más salió. No revela la correcta.',
+          style: theme.textTheme.bodySmall,
+        ),
         const SizedBox(height: 6),
         Row(
           children: [

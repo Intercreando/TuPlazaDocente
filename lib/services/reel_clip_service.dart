@@ -4,18 +4,24 @@ import 'package:flutter/foundation.dart';
 
 import '../data/reel_clip.dart';
 
-/// Casos de reels creados desde el estudio. Solo el admin lee y escribe esta
-/// colección (ver `firestore.rules`).
+/// Casos creados desde el estudio (Reels o Directo). Solo el admin escribe
+/// (ver `firestore.rules`).
 ///
 /// Se guardan en la nube, no en el navegador, porque la fuente de OBS abre la
 /// URL en su propio navegador y también tiene que verlos.
 class ReelClipService {
-  ReelClipService({FirebaseFirestore? firestore})
-    : _firestoreOverride = firestore;
+  ReelClipService({
+    FirebaseFirestore? firestore,
+    this.collection = defaultCollection,
+  }) : _firestoreOverride = firestore;
 
   final FirebaseFirestore? _firestoreOverride;
 
-  static const collection = 'reelClips';
+  /// Colección de Reels. El directo usa `liveClips`.
+  static const defaultCollection = 'reelClips';
+  static const liveCollection = 'liveClips';
+
+  final String collection;
   static const _metaPath = 'reelStudio/state';
 
   FirebaseFirestore? get _db {

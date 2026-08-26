@@ -3,7 +3,6 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:tu_plaza_docente/data/live_session.dart';
 import 'package:tu_plaza_docente/data/live_studio_pack.dart';
-import 'package:tu_plaza_docente/data/reel_studio_pack.dart';
 import 'package:tu_plaza_docente/theme/app_theme.dart';
 import 'package:tu_plaza_docente/widgets/live_express_stage.dart';
 
@@ -38,9 +37,14 @@ void main() {
     await tester.pump(const Duration(milliseconds: 400));
   }
 
-  testWidgets('ningún caso desborda el lienzo 16:9', (tester) async {
+  testWidgets('ningún caso de directo desborda el lienzo 16:9', (tester) async {
     const beats = LiveBeat.values;
-    for (final clip in ReelStudioPack.clips) {
+    final sample = [
+      ...LiveStudioPack.enunciadoClips,
+      if (LiveStudioPack.altaExigenciaClips().isNotEmpty)
+        LiveStudioPack.altaExigenciaClips().first,
+    ];
+    for (final clip in sample) {
       for (final beat in beats) {
         await pumpStage(tester, clip: clip, beat: beat);
         expect(
@@ -53,7 +57,7 @@ void main() {
   });
 
   testWidgets('la espera no adelanta el caso ni la respuesta', (tester) async {
-    final clip = ReelStudioPack.clips.first;
+    final clip = LiveStudioPack.enunciadoClips.first;
     await pumpStage(tester, clip: clip, beat: LiveBeat.standby);
 
     expect(find.text(LiveStudioPack.standbyTitle), findsOneWidget);
@@ -63,7 +67,7 @@ void main() {
   });
 
   testWidgets('el gancho usa el hook del caso', (tester) async {
-    final clip = ReelStudioPack.clips.first;
+    final clip = LiveStudioPack.enunciadoClips.first;
     await pumpStage(tester, clip: clip, beat: LiveBeat.hook);
 
     expect(find.text(clip.hook), findsOneWidget);
@@ -72,7 +76,7 @@ void main() {
   });
 
   testWidgets('el caso pide voto en el chat y no revela', (tester) async {
-    final clip = ReelStudioPack.clips.first;
+    final clip = LiveStudioPack.enunciadoClips.first;
     await pumpStage(tester, clip: clip, beat: LiveBeat.question);
 
     expect(find.text(clip.stem), findsOneWidget);
@@ -84,7 +88,7 @@ void main() {
   testWidgets('la votación muestra el reloj y la consigna del chat', (
     tester,
   ) async {
-    final clip = ReelStudioPack.clips.first;
+    final clip = LiveStudioPack.enunciadoClips.first;
     await pumpStage(tester, clip: clip, beat: LiveBeat.vote);
 
     expect(find.text('12'), findsOneWidget);
@@ -95,7 +99,7 @@ void main() {
   testWidgets('la revelación marca la correcta y deja la web a la vista', (
     tester,
   ) async {
-    final clip = ReelStudioPack.clips.first;
+    final clip = LiveStudioPack.enunciadoClips.first;
     await pumpStage(tester, clip: clip, beat: LiveBeat.reveal);
 
     expect(find.text(clip.revealWhy), findsOneWidget);
@@ -104,7 +108,7 @@ void main() {
   });
 
   testWidgets('el cierre empuja el registro', (tester) async {
-    final clip = ReelStudioPack.clips.first;
+    final clip = LiveStudioPack.enunciadoClips.first;
     await pumpStage(tester, clip: clip, beat: LiveBeat.cta);
 
     expect(find.text(LiveStudioPack.site), findsWidgets);

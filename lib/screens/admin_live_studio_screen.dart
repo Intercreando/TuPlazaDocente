@@ -6,9 +6,11 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
 import '../config/admin_config.dart';
+import '../data/live_gem_prompt.dart';
 import '../data/live_session.dart';
 import '../data/live_studio_pack.dart';
-import '../data/reel_studio_pack.dart';
+import '../data/reel_clip.dart';
+import '../data/reel_clip_text_parser.dart';
 import '../services/live_studio_service.dart';
 import '../services/reel_clip_service.dart';
 import '../state/app_state.dart';
@@ -18,6 +20,7 @@ import '../utils/app_snackbars.dart';
 import '../utils/seo_document.dart';
 import '../widgets/live_express_stage.dart';
 import '../widgets/live_studio_side_panel.dart';
+import '../widgets/reel_clip_composer.dart';
 
 /// Sala de directos YouTube (solo admin). Lienzo 16:9 para OBS.
 class AdminLiveStudioScreen extends StatefulWidget {
@@ -29,34 +32,24 @@ class AdminLiveStudioScreen extends StatefulWidget {
 
 class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
   final _focus = FocusNode();
-  final _clipService = ReelClipService();
   final _liveService = LiveStudioService();
+  final _clipService = ReelClipService(
+    collection: ReelClipService.liveCollection,
+  );
+  final List<ReelClip> _pack = LiveStudioPack.catalog();
+  List<ReelClip> _customClips = const [];
 
   LiveSession _session = LiveSession(
-    clipId: ReelStudioPack.clips.first.id,
+    clipId: LiveStudioPack.enunciadoClips.first.id,
     beat: LiveBeat.standby,
   );
-  List<ReelClip> _customClips = const [];
   List<ReelClip> _rundown = const [];
-  Set<String> _usedIds = {};
-  Set<String> _hiddenIds = {};
   Timer? _tick;
   StreamSubscription<LiveSession?>? _remote;
 
-  List<ReelClip> get _catalog {
-    final pack = ReelStudioPack.clips
-        .where((clip) => !_hiddenIds.contains(clip.id))
-        .toList();
-    return [...pack, ..._customClips];
-  }
+  List<ReelClip> get _catalog => [..._pack, ..._customClips];
 
-  List<ReelClip> get _lookupCatalog => [
-    ...ReelStudioPack.clips,
-    ..._customClips,
-  ];
-
-  ReelClip get _clip =>
-      ReelStudioPack.byIdIn(_lookupCatalog, _session.clipId);
+  ReelClip get _clip => LiveStudioPack.byIdIn(_catalog, _session.clipId);
 
   bool get _obs =>
       GoRouterState.of(context).uri.queryParameters['obs'] == '1';
@@ -67,7 +60,7 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
   String? get _nextLabel {
     final nextId = _session.nextClipId;
     if (nextId == null) return null;
-    return ReelStudioPack.byIdIn(_lookupCatalog, nextId).label;
+    return LiveStudioPack.byIdIn(_catalog, nextId).label;
   }
 
   @override
@@ -88,7 +81,7 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
         noIndex: true,
       );
       _focus.requestFocus();
-      await _loadCatalog();
+      await _loadCustomClips();
       if (!mounted) return;
       if (obs) {
         _listenRemote();
@@ -96,21 +89,58 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
     });
   }
 
-  Future<void> _loadCatalog() async {
+  Future<void> _loadCustomClips() async {
     final clips = await _clipService.list();
-    final meta = await _clipService.loadStudioState();
     if (!mounted) return;
-    setState(() {
-      _customClips = clips;
-      _usedIds = meta.usedIds;
-      _hiddenIds = meta.hiddenIds;
-    });
+    setState(() => _customClips = clips);
+  }
+
+  Future<bool> _saveCustomClip(ReelClip clip) async {
+    try {
+      await _clipService.save(clip);
+      await _loadCustomClips();
+      if (!mounted) return true;
+      await _loadClip(clip);
+      AppSnackbars.show(
+        context,
+        message: 'Caso guardado y cargado en el lienzo.',
+      );
+      return true;
+    } catch (e) {
+      if (!mounted) return false;
+      AppSnackbars.show(
+        context,
+        message: e.toString().replaceFirst('Exception: ', ''),
+      );
+      return false;
+    }
+  }
+
+  Future<void> _deleteCustomClip(ReelClip clip) async {
+    try {
+      await _clipService.delete(clip.id);
+      await _loadCustomClips();
+      if (!mounted) return;
+      setState(() {
+        _rundown = [..._rundown.where((item) => item.id != clip.id)];
+      });
+      if (_session.clipId == clip.id) {
+        await _loadClip(_catalog.first);
+      }
+      AppSnackbars.show(context, message: 'Caso borrado.');
+    } catch (e) {
+      if (!mounted) return;
+      AppSnackbars.show(
+        context,
+        message: e.toString().replaceFirst('Exception: ', ''),
+      );
+    }
   }
 
   void _listenRemote() {
     _remote?.cancel();
     _remote = _liveService
-        .watch(fallbackId: ReelStudioPack.clips.first.id)
+        .watch(fallbackId: _catalog.first.id)
         .listen(
           (session) {
             if (!mounted || session == null) return;
@@ -131,13 +161,12 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
     super.dispose();
   }
 
-  int? get _countdownLeft =>
-      _session.countdownLeftAt(DateTime.now());
+  int? get _countdownLeft => _session.countdownLeftAt(DateTime.now());
 
   double get _countdownProgress => _session.countdownProgressAt(
-    DateTime.now(),
-    voteMs: LiveStudioPack.voteMs,
-  );
+        DateTime.now(),
+        voteMs: LiveStudioPack.voteMs,
+      );
 
   double get _timerPulse {
     if (_session.beat != LiveBeat.vote) return 1;
@@ -150,8 +179,8 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
   }
 
   void _ensureTick() {
-    final needsTick = _session.beat == LiveBeat.vote &&
-        _session.voteEndsAtMs != null;
+    final needsTick =
+        _session.beat == LiveBeat.vote && _session.voteEndsAtMs != null;
     if (!needsTick) {
       _tick?.cancel();
       _tick = null;
@@ -349,7 +378,7 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
                   clip: _clip,
                   catalog: _catalog,
                   rundown: _rundown,
-                  usedIds: _usedIds,
+                  usedIds: const {},
                   obsShareUrl: _obsShareUrl,
                   onBeat: _setBeat,
                   onStartVote: _startVote,
@@ -369,6 +398,23 @@ class _AdminLiveStudioScreenState extends State<AdminLiveStudioScreen> {
                   onSelectRundown: _loadClip,
                   onAddToRundown: () => _addToRundown(_clip),
                   onLoadClip: _loadClip,
+                  composer: ReelClipComposer(
+                    customClips: _customClips,
+                    onSave: _saveCustomClip,
+                    onDelete: _deleteCustomClip,
+                    parse: (text) => ReelClipTextParser.parse(
+                      text,
+                      limits: ClipParseLimits.live,
+                    ),
+                    helperText:
+                        'Pide el caso al Gem, pega el bloque aquí y guarda. '
+                        'El lienzo 16:9 admite enunciados largos.',
+                    gemPrompt: LiveGemPrompt.instrucciones,
+                    emptyTemplate: LiveGemPrompt.plantillaVacia,
+                    minLines: 10,
+                    maxLines: 22,
+                    startExpanded: true,
+                  ),
                 ),
               ),
               const VerticalDivider(width: 1),

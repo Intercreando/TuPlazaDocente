@@ -20,13 +20,52 @@ class ReelClipDraft {
   bool get isValid => clip != null && errors.isEmpty;
 }
 
+/// Umbrales de aviso: no bloquean el guardado; el lienzo encoge el texto.
+class ClipParseLimits {
+  const ClipParseLimits({
+    required this.maxLabel,
+    required this.maxHook,
+    required this.maxSituation,
+    required this.maxStem,
+    required this.maxOption,
+    required this.maxWhy,
+  });
+
+  final int maxLabel;
+  final int maxHook;
+  final int maxSituation;
+  final int maxStem;
+  final int maxOption;
+  final int maxWhy;
+
+  /// Lienzo vertical de Reels (1080×1920).
+  static const reel = ClipParseLimits(
+    maxLabel: 44,
+    maxHook: 56,
+    maxSituation: 260,
+    maxStem: 90,
+    maxOption: 95,
+    maxWhy: 150,
+  );
+
+  /// Lienzo 16:9 de YouTube: cabe más enunciado.
+  static const live = ClipParseLimits(
+    maxLabel: 72,
+    maxHook: 110,
+    maxSituation: 1400,
+    maxStem: 520,
+    maxOption: 240,
+    maxWhy: 420,
+  );
+}
+
 /// Lee un caso escrito a mano en texto plano y lo convierte en `ReelClip`.
 ///
 /// El formato es deliberadamente flexible: etiquetas en español con o sin
 /// tildes, opciones marcadas con `A)`, `A.`, `A-` o `A:`, y la correcta indicada
 /// con `Correcta: B` o con un asterisco al final de la opción.
 abstract final class ReelClipTextParser {
-  /// Límites del lienzo 1080×1920 con la tipografía grande.
+  /// Compatibilidad con tests y el compositor de Reels.
   static const maxLabel = 44;
   static const maxHook = 56;
   static const maxSituation = 260;
@@ -74,7 +113,11 @@ Porque: Si hay daño a un estudiante no hay silencio pactado: se protege y se re
     'razón': 'why',
   };
 
-  static ReelClipDraft parse(String raw, {String? existingId}) {
+  static ReelClipDraft parse(
+    String raw, {
+    String? existingId,
+    ClipParseLimits limits = ClipParseLimits.reel,
+  }) {
     final fields = <String, String>{};
     final options = <String>[];
     var markedOption = -1;
@@ -143,14 +186,19 @@ Porque: Si hay daño a un estudiante no hay silencio pactado: se protege y se re
       warnings.add('Sin “Porque:” el cierre del vídeo queda sin justificación.');
     }
 
-    _warnLength(warnings, 'El título', label, maxLabel);
+    _warnLength(warnings, 'El título', label, limits.maxLabel);
     final hook = fields['hook'] ?? '';
-    _warnLength(warnings, 'El gancho', hook, maxHook);
-    _warnLength(warnings, 'El caso', situation, maxSituation);
-    _warnLength(warnings, 'La pregunta', stem, maxStem);
-    _warnLength(warnings, 'El porqué', why, maxWhy);
+    _warnLength(warnings, 'El gancho', hook, limits.maxHook);
+    _warnLength(warnings, 'El caso', situation, limits.maxSituation);
+    _warnLength(warnings, 'La pregunta', stem, limits.maxStem);
+    _warnLength(warnings, 'El porqué', why, limits.maxWhy);
     for (final option in options) {
-      _warnLength(warnings, 'La opción “${_short(option)}”', option, maxOption);
+      _warnLength(
+        warnings,
+        'La opción “${_short(option)}”',
+        option,
+        limits.maxOption,
+      );
     }
 
     if (errors.isNotEmpty) {
