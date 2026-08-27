@@ -14,6 +14,7 @@ class TrainingModeCard extends StatelessWidget {
     required this.onTap,
     this.access = FeatureAccessLevel.open,
     this.limitedLabel = 'Cupo gratis',
+    this.featured = false,
   });
 
   final String title;
@@ -23,12 +24,15 @@ class TrainingModeCard extends StatelessWidget {
   final VoidCallback onTap;
   final FeatureAccessLevel access;
   final String limitedLabel;
+  final bool featured;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final locked = access == FeatureAccessLevel.locked;
-    final dim = locked ? 0.72 : 1.0;
+    final dim = locked && !featured ? 0.72 : 1.0;
+    final isDark = theme.brightness == Brightness.dark;
+    final goldTint = AppColors.gold.withValues(alpha: isDark ? 0.14 : 0.10);
 
     return Opacity(
       opacity: dim,
@@ -44,14 +48,16 @@ class TrainingModeCard extends StatelessWidget {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               border: Border.all(
-                color: locked
-                    ? AppColors.gold.withValues(alpha: 0.55)
+                color: featured || locked
+                    ? AppColors.gold
                     : theme.colorScheme.outline,
-                width: locked ? 1.4 : 1,
+                width: featured ? 1.8 : (locked ? 1.4 : 1),
               ),
-              color: locked
-                  ? AppColors.gold.withValues(alpha: 0.06)
-                  : null,
+              color: featured
+                  ? goldTint
+                  : locked
+                      ? AppColors.gold.withValues(alpha: 0.06)
+                      : null,
             ),
             child: Row(
               children: [
@@ -64,7 +70,9 @@ class TrainingModeCard extends StatelessWidget {
                   ),
                   child: Icon(
                     icon,
-                    color: locked ? color.withValues(alpha: 0.55) : color,
+                    color: locked && !featured
+                        ? color.withValues(alpha: 0.55)
+                        : color,
                   ),
                 ),
                 const SizedBox(width: 12),

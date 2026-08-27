@@ -6,6 +6,7 @@ import 'package:provider/provider.dart';
 import '../models/enums.dart';
 import '../state/app_state.dart';
 import '../theme/app_colors.dart';
+import '../widgets/ai_explain_panel.dart';
 import '../widgets/locked_explanation_panel.dart';
 import '../widgets/normative_link_chips.dart';
 import '../widgets/option_tile.dart';
@@ -54,7 +55,8 @@ class PracticeScreen extends StatelessWidget {
       SessionMode.diagnostic => 'Diagnóstico inicial',
       _ => 'Modo práctica',
     };
-    final lockFeedback = !state.profile.isPremium &&
+    final lockFeedback =
+        !state.profile.isPremium &&
         (state.currentMode == SessionMode.dailyStreak ||
             state.currentMode == SessionMode.practice);
 
@@ -215,6 +217,17 @@ class PracticeScreen extends StatelessWidget {
                       ],
                       const SizedBox(height: 12),
                       NormativeLinkChips(question: question),
+                      if (state.profile.isPremium &&
+                          !state.isAnonymousUser &&
+                          state.selectedOption != null &&
+                          state.selectedOption != question.correctIndex)
+                        AiExplainPanel(
+                          key: ValueKey(
+                            '${question.id}-${state.selectedOption}',
+                          ),
+                          question: question,
+                          chosenIndex: state.selectedOption!,
+                        ),
                     ],
                   ),
                 ).animate().fadeIn(duration: 280.ms),

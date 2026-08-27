@@ -36,6 +36,29 @@ class HomeTrainingModes extends StatelessWidget {
           : FeatureAccessLevel.locked;
     }
 
+    final tutorCard = TrainingModeCard(
+      title: 'Tutor Inteligente',
+      subtitle: premium
+          ? 'Un caso de lo que más se te traba'
+          : 'Incluido en Premium',
+      icon: Icons.school_rounded,
+      color: AppColors.goldDeep,
+      featured: true,
+      access: premium
+          ? FeatureAccessLevel.open
+          : FeatureAccessLevel.locked,
+      onTap: () {
+        if (!premium) {
+          AppSnackbars.premiumLocked(
+            context,
+            'El Tutor Inteligente es Premium.',
+          );
+          return;
+        }
+        context.push('/tutor');
+      },
+    );
+
     final cards = [
       TrainingModeCard(
         title: 'Preguntas cortas',
@@ -169,6 +192,8 @@ class HomeTrainingModes extends StatelessWidget {
             if (cols == 1) {
               return Column(
                 children: [
+                  tutorCard,
+                  const SizedBox(height: 10),
                   for (final card in cards) ...[
                     card,
                     const SizedBox(height: 10),
@@ -201,7 +226,11 @@ class HomeTrainingModes extends StatelessWidget {
             }
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: rows,
+              children: [
+                tutorCard,
+                const SizedBox(height: gap),
+                ...rows,
+              ],
             );
           },
         ),

@@ -12,6 +12,7 @@ import '../screens/cases_screen.dart';
 import '../screens/diagnostic_gate_screen.dart';
 import '../screens/diagnostic_paywall_screen.dart';
 import '../screens/exam_screen.dart';
+import '../screens/intelligent_tutor_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/landing_screen.dart';
 import '../screens/legal_document_screen.dart';
@@ -197,6 +198,10 @@ GoRouter createAppRouter(AppState appState) {
       GoRoute(
         path: '/cases',
         builder: (context, state) => const CasesScreen(),
+      ),
+      GoRoute(
+        path: '/tutor',
+        builder: (context, state) => const IntelligentTutorScreen(),
       ),
       StatefulShellRoute.indexedStack(
         builder: (context, state, navigationShell) {

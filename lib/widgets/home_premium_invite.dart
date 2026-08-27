@@ -153,6 +153,7 @@ class HomePremiumInvite extends StatelessWidget {
                           const _PremiumPerk(
                             text: 'Casos del colegio y preguntas de tu área',
                           ),
+                          const _PremiumPerk(text: 'Tutor Inteligente en el inicio'),
                           const SizedBox(height: 16),
                           priceLabel,
                           const SizedBox(height: 2),
@@ -182,10 +183,7 @@ class _PremiumIconBadge extends StatelessWidget {
         color: AppColors.gold.withValues(alpha: 0.18),
         borderRadius: BorderRadius.circular(14),
       ),
-      child: const Icon(
-        Icons.workspace_premium_rounded,
-        color: AppColors.gold,
-      ),
+      child: const Icon(Icons.workspace_premium_rounded, color: AppColors.gold),
     );
   }
 }

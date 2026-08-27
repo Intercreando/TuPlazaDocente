@@ -8,6 +8,7 @@ import '../config/app_config.dart';
 import '../data/question_bank.dart';
 import '../models/enums.dart';
 import '../models/question.dart';
+import '../models/recent_session_snapshot.dart';
 import '../models/study_plan.dart';
 import '../models/user_profile.dart';
 import '../models/knowledge_taxonomy.dart';
@@ -882,6 +883,31 @@ class AppState extends ChangeNotifier {
     return null;
   }
 
+  /// Suma la postura del Tutor Inteligente al mapa de maestría, sin abrir sesión.
+  Future<void> recordTutorStance({
+    required Question question,
+    required int selectedIndex,
+  }) async {
+    try {
+      final correct = question.isCorrect(selectedIndex);
+      _applyMastery(question, correct, 0, countTmo: false);
+      profile = profile.copyWith(
+        recentSessions: RecentSessionSnapshot.prepend(
+          profile.recentSessions,
+          RecentSessionSnapshot.fromTutorStance(
+            question: question,
+            selectedIndex: selectedIndex,
+            at: DateTime.now(),
+          ),
+        ),
+      );
+      await _persist();
+      notifyListeners();
+    } catch (e) {
+      debugPrint('AppState.recordTutorStance: $e');
+    }
+  }
+
   bool startSingleQuestion(Question question) {
     if (!profile.isPremium) {
       lastError =
@@ -975,14 +1001,20 @@ class AppState extends ChangeNotifier {
     return false;
   }
 
-  void _applyMastery(Question question, bool correct, int secondsSpent) {
+  void _applyMastery(
+    Question question,
+    bool correct,
+    int secondsSpent, {
+    bool countTmo = true,
+  }) {
     final pillarKey = question.pillar.name;
     final pillarCorrect = Map<String, int>.from(profile.pillarCorrect);
     final pillarTotal = Map<String, int>.from(profile.pillarTotal);
     final pillarTimeSpent = Map<String, int>.from(profile.pillarTimeSpent);
     final pillarTimedCount = Map<String, int>.from(profile.pillarTimedCount);
     pillarTotal[pillarKey] = (pillarTotal[pillarKey] ?? 0) + 1;
-    final countsForTmo = currentMode != SessionMode.speedBattle;
+    final countsForTmo =
+        countTmo && currentMode != SessionMode.speedBattle;
     if (countsForTmo) {
       pillarTimeSpent[pillarKey] =
           (pillarTimeSpent[pillarKey] ?? 0) + secondsSpent;
@@ -1039,6 +1071,15 @@ class AppState extends ChangeNotifier {
       startedAt: started,
       finishedAt: DateTime.now(),
     );
+    final snapshot = RecentSessionSnapshot.fromResult(lastResult!);
+    if (snapshot != null) {
+      profile = profile.copyWith(
+        recentSessions: RecentSessionSnapshot.prepend(
+          profile.recentSessions,
+          snapshot,
+        ),
+      );
+    }
 
     if (currentMode == SessionMode.dailyStreak) {
       await _registerStreak();

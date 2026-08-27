@@ -10,6 +10,8 @@
  * - sendOrganicWelcomeEmail: bienvenida Resend solo tráfico orgánico
  * - sendOrganicUpsellEmail: invitacion Premium a orgánicos (~3 días)
  * - serveNewsPage: HTML de /noticias y /noticias/<slug>/ al publicar
+ * - explainPracticeItem: tutor de texto Vertex/Gemini (Premium, 8/día)
+ * - tutorConvoRemate: remate Vertex del Tutor Inteligente (2/día)
  */
 const crypto = require("crypto");
 const {onCall, onRequest, HttpsError} = require("firebase-functions/v2/https");
@@ -774,3 +776,5 @@ exports.sendOrganicWelcomeEmail = organicWelcome.sendOrganicWelcomeEmail;
 exports.sendOrganicUpsellEmail = organicUpsell.sendOrganicUpsellEmail;
 exports.sendFounderOfferEmails = founderOffer.sendFounderOfferEmails;
 exports.runFounderOfferJob = founderOffer.runFounderOfferJob;
+exports.explainPracticeItem = require("./ai_explain").explainPracticeItem;
+exports.tutorConvoRemate = require("./tutor_remate").tutorConvoRemate;

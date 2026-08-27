@@ -1,5 +1,6 @@
 import '../utils/tmo_stats.dart';
 import 'enums.dart';
+import 'recent_session_snapshot.dart';
 
 /// Perfil del aspirante y progreso persistente.
 class UserProfile {
@@ -29,6 +30,7 @@ class UserProfile {
     this.acquiredViaPaid = false,
     this.welcomeOfferExpiresAt,
     this.diagnosticCompleted = false,
+    this.recentSessions = const [],
   });
 
   final String displayName;
@@ -77,6 +79,9 @@ class UserProfile {
   /// Completó el diagnóstico inicial (pauta: obligatorio).
   final bool diagnosticCompleted;
 
+  /// Últimas prácticas/simulacros (tope 5). Sirve al Tutor Inteligente.
+  final List<RecentSessionSnapshot> recentSessions;
+
   int get totalAnswers =>
       pillarTotal.values.fold<int>(0, (sum, value) => sum + value);
 
@@ -106,6 +111,7 @@ class UserProfile {
     bool? acquiredViaPaid,
     DateTime? welcomeOfferExpiresAt,
     bool? diagnosticCompleted,
+    List<RecentSessionSnapshot>? recentSessions,
   }) {
     return UserProfile(
       displayName: displayName ?? this.displayName,
@@ -135,6 +141,7 @@ class UserProfile {
       welcomeOfferExpiresAt:
           welcomeOfferExpiresAt ?? this.welcomeOfferExpiresAt,
       diagnosticCompleted: diagnosticCompleted ?? this.diagnosticCompleted,
+      recentSessions: recentSessions ?? this.recentSessions,
     );
   }
 
@@ -201,6 +208,9 @@ class UserProfile {
         'acquiredViaPaid': acquiredViaPaid,
         'welcomeOfferExpiresAt': welcomeOfferExpiresAt?.toIso8601String(),
         'diagnosticCompleted': diagnosticCompleted,
+        'recentSessions': [
+          for (final session in recentSessions) session.toJson(),
+        ],
       };
 
   factory UserProfile.fromJson(Map<String, dynamic> json) {
@@ -237,6 +247,18 @@ class UserProfile {
     final timedCount = readIntMap('pillarTimedCount');
     final tagTimed = readIntMap('tagTimedCount');
 
+    final rawSessions = json['recentSessions'];
+    final sessions = <RecentSessionSnapshot>[];
+    if (rawSessions is List) {
+      for (final item in rawSessions.take(RecentSessionSnapshot.maxStored)) {
+        if (item is Map) {
+          sessions.add(
+            RecentSessionSnapshot.fromJson(Map<String, dynamic>.from(item)),
+          );
+        }
+      }
+    }
+
     return UserProfile(
       displayName: (json['displayName'] as String?) ?? '',
       cargo: _parseCargo(json['cargo'] as String?),
@@ -270,6 +292,7 @@ class UserProfile {
       acquiredViaPaid: json['acquiredViaPaid'] == true,
       welcomeOfferExpiresAt: parseDate(json['welcomeOfferExpiresAt']),
       diagnosticCompleted: json['diagnosticCompleted'] == true,
+      recentSessions: sessions,
     );
   }
 }

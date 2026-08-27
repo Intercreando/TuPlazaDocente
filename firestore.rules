@@ -66,6 +66,23 @@ service cloud.firestore {
         allow read: if isOwner(userId);
         allow write: if false;
       }
+
+      // Cupo diario de tutores (ampliar / remate): lectura del dueño; escritura Admin SDK.
+      match /usage/{docId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
+    }
+
+    // Cache y tope global del explicador: solo Cloud Functions.
+    match /aiExplainCache/{id} {
+      allow read, write: if false;
+    }
+    match /aiExplainMeta/{id} {
+      allow read, write: if false;
+    }
+    match /tutorRemateMeta/{id} {
+      allow read, write: if false;
     }
 
     match /payments/{paymentId} {

@@ -17,7 +17,7 @@ import '../widgets/home_training_modes.dart';
 import '../widgets/testimonials_section.dart';
 import '../widgets/welcome_offer_banner.dart';
 
-/// Home: un Continuar hoy + cuatro entrenamientos con nombres de colegio.
+/// Home: un Continuar hoy + entrenamientos (Tutor Inteligente primero).
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
