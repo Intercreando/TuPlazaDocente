@@ -14,10 +14,11 @@ import '../widgets/home_premium_invite.dart';
 import '../widgets/home_progress_panel.dart';
 import '../widgets/home_today_coach.dart';
 import '../widgets/home_training_modes.dart';
+import '../widgets/home_tutor_spotlight.dart';
 import '../widgets/testimonials_section.dart';
 import '../widgets/welcome_offer_banner.dart';
 
-/// Home: un Continuar hoy + entrenamientos (Tutor Inteligente primero).
+/// Home: Continuar hoy, Tutor destacado, luego el resto de entrenamientos.
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
 
@@ -81,10 +82,7 @@ class HomeScreen extends StatelessWidget {
 }
 
 class _MobileHome extends StatelessWidget {
-  const _MobileHome({
-    required this.name,
-    required this.state,
-  });
+  const _MobileHome({required this.name, required this.state});
 
   final String name;
   final AppState state;
@@ -106,11 +104,16 @@ class _MobileHome extends StatelessWidget {
             .animate()
             .fadeIn(duration: 450.ms)
             .slideY(begin: 0.05, end: 0),
+        const SizedBox(height: 16),
+        const HomeTutorSpotlight()
+            .animate()
+            .fadeIn(duration: 500.ms)
+            .slideY(begin: 0.04, end: 0),
         if (state.syncStatus != null) ...[
           const SizedBox(height: 10),
           Text(state.syncStatus!, style: theme.textTheme.bodySmall),
         ],
-        const SizedBox(height: 18),
+        const SizedBox(height: 22),
         Text('Más entrenamientos', style: theme.textTheme.titleLarge),
         const SizedBox(height: 8),
         const HomeTrainingModes(),
@@ -133,10 +136,7 @@ class _MobileHome extends StatelessWidget {
 }
 
 class _DesktopHome extends StatelessWidget {
-  const _DesktopHome({
-    required this.name,
-    required this.state,
-  });
+  const _DesktopHome({required this.name, required this.state});
 
   final String name;
   final AppState state;
@@ -155,6 +155,8 @@ class _DesktopHome extends StatelessWidget {
         const WelcomeOfferBanner(),
         const SizedBox(height: 20),
         const HomeTodayCoach(desktop: true),
+        const SizedBox(height: 20),
+        const HomeTutorSpotlight(desktop: true),
         if (state.syncStatus != null) ...[
           const SizedBox(height: 10),
           Text(state.syncStatus!, style: theme.textTheme.bodySmall),
@@ -164,15 +166,12 @@ class _DesktopHome extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.baseline,
           textBaseline: TextBaseline.alphabetic,
           children: [
-            Text(
-              'Más entrenamientos',
-              style: theme.textTheme.headlineSmall,
-            ),
+            Text('Más entrenamientos', style: theme.textTheme.headlineSmall),
             const SizedBox(width: 16),
             Expanded(
               child: Text(
                 profile.isPremium
-                    ? 'Cuando quieras otro tipo de práctica.'
+                    ? 'Cortas, simulacro, casos y tu área.'
                     : 'Los candados se abren con Premium.',
                 style: theme.textTheme.bodyMedium,
                 textAlign: TextAlign.end,

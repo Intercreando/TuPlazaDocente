@@ -31,11 +31,16 @@ class TutorHintCard extends StatelessWidget {
             Text(attemptLabel, style: theme.textTheme.labelLarge),
             const SizedBox(height: 6),
             Text(
-              'Esa vía no es la exigida. Te dejo una pista; vuelve a elegir.',
+              'Por qué lo que marcaste no encaja',
               style: theme.textTheme.titleSmall,
             ),
             const SizedBox(height: 8),
             Text(text, style: theme.textTheme.bodyMedium),
+            const SizedBox(height: 10),
+            Text(
+              'Con esa explicación, elige otra.',
+              style: theme.textTheme.bodyMedium,
+            ),
           ],
         ),
       ),

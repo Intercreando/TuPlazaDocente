@@ -8,7 +8,8 @@
   "scripts": {
     "serve": "firebase emulators:start --only functions",
     "deploy": "firebase deploy --only functions",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "test": "node --test lib/mentor_convo_core.test.js lib/mentor_pass_core.test.js"
   },
   "dependencies": {
     "firebase-admin": "^13.0.2",

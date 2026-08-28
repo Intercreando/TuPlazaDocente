@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 
+import '../models/mentor_launch_args.dart';
 import '../screens/admin_news_screen.dart';
 import '../screens/admin_promo_screen.dart';
 import '../screens/admin_live_studio_screen.dart';
@@ -13,6 +14,7 @@ import '../screens/diagnostic_gate_screen.dart';
 import '../screens/diagnostic_paywall_screen.dart';
 import '../screens/exam_screen.dart';
 import '../screens/intelligent_tutor_screen.dart';
+import '../screens/mentor_convo_screen.dart';
 import '../screens/home_screen.dart';
 import '../screens/landing_screen.dart';
 import '../screens/legal_document_screen.dart';
@@ -73,8 +75,8 @@ GoRouter createAppRouter(AppState appState) {
         return '/';
       }
 
-      final editingProfile = loc == '/onboarding' &&
-          state.uri.queryParameters['edit'] == '1';
+      final editingProfile =
+          loc == '/onboarding' && state.uri.queryParameters['edit'] == '1';
       if (onboarded && loc == '/') return '/app';
       if (onboarded && loc == '/onboarding' && !editingProfile) {
         return '/app';
@@ -100,32 +102,23 @@ GoRouter createAppRouter(AppState appState) {
       return null;
     },
     routes: [
-      GoRoute(
-        path: '/',
-        builder: (context, state) => const LandingScreen(),
-      ),
+      GoRoute(path: '/', builder: (context, state) => const LandingScreen()),
       GoRoute(
         path: SeoLandingRoutes.casos,
-        builder: (context, state) => const SeoLandingScreen(
-          pageId: SeoLandingRoutes.casosId,
-        ),
+        builder: (context, state) =>
+            const SeoLandingScreen(pageId: SeoLandingRoutes.casosId),
       ),
       GoRoute(
         path: SeoLandingRoutes.psicotecnica,
-        builder: (context, state) => const SeoLandingScreen(
-          pageId: SeoLandingRoutes.psicotecnicaId,
-        ),
+        builder: (context, state) =>
+            const SeoLandingScreen(pageId: SeoLandingRoutes.psicotecnicaId),
       ),
       GoRoute(
         path: SeoLandingRoutes.simulacro,
-        builder: (context, state) => const SeoLandingScreen(
-          pageId: SeoLandingRoutes.simulacroId,
-        ),
+        builder: (context, state) =>
+            const SeoLandingScreen(pageId: SeoLandingRoutes.simulacroId),
       ),
-      GoRoute(
-        path: '/auth',
-        builder: (context, state) => const AuthScreen(),
-      ),
+      GoRoute(path: '/auth', builder: (context, state) => const AuthScreen()),
       GoRoute(
         path: '/onboarding',
         builder: (context, state) {
@@ -137,10 +130,7 @@ GoRouter createAppRouter(AppState appState) {
         path: '/practice',
         builder: (context, state) => const PracticeScreen(),
       ),
-      GoRoute(
-        path: '/exam',
-        builder: (context, state) => const ExamScreen(),
-      ),
+      GoRoute(path: '/exam', builder: (context, state) => const ExamScreen()),
       GoRoute(
         path: '/speed',
         builder: (context, state) => const SpeedBattleScreen(),
@@ -179,25 +169,28 @@ GoRouter createAppRouter(AppState appState) {
       ),
       GoRoute(
         path: '/noticias/:id',
-        builder: (context, state) => NewsDetailScreen(
-          id: state.pathParameters['id'] ?? '',
-        ),
+        builder: (context, state) =>
+            NewsDetailScreen(id: state.pathParameters['id'] ?? ''),
       ),
       GoRoute(
         path: '/legal/terms',
-        builder: (context, state) => const LegalDocumentScreen(
-          kind: LegalDocumentKind.terms,
-        ),
+        builder: (context, state) =>
+            const LegalDocumentScreen(kind: LegalDocumentKind.terms),
       ),
       GoRoute(
         path: '/legal/privacy',
-        builder: (context, state) => const LegalDocumentScreen(
-          kind: LegalDocumentKind.privacy,
-        ),
+        builder: (context, state) =>
+            const LegalDocumentScreen(kind: LegalDocumentKind.privacy),
       ),
+      GoRoute(path: '/cases', builder: (context, state) => const CasesScreen()),
       GoRoute(
-        path: '/cases',
-        builder: (context, state) => const CasesScreen(),
+        path: '/tutor/mentor',
+        builder: (context, state) {
+          final extra = state.extra;
+          return MentorConvoScreen(
+            args: extra is MentorLaunchArgs ? extra : null,
+          );
+        },
       ),
       GoRoute(
         path: '/tutor',
@@ -212,9 +205,8 @@ GoRouter createAppRouter(AppState appState) {
             routes: [
               GoRoute(
                 path: '/app',
-                pageBuilder: (context, state) => const NoTransitionPage(
-                  child: HomeScreen(),
-                ),
+                pageBuilder: (context, state) =>
+                    const NoTransitionPage(child: HomeScreen()),
               ),
             ],
           ),
@@ -222,9 +214,8 @@ GoRouter createAppRouter(AppState appState) {
             routes: [
               GoRoute(
                 path: '/app/plan',
-                pageBuilder: (context, state) => const NoTransitionPage(
-                  child: PlanScreen(),
-                ),
+                pageBuilder: (context, state) =>
+                    const NoTransitionPage(child: PlanScreen()),
               ),
             ],
           ),
@@ -232,9 +223,8 @@ GoRouter createAppRouter(AppState appState) {
             routes: [
               GoRoute(
                 path: '/app/radar',
-                pageBuilder: (context, state) => const NoTransitionPage(
-                  child: RadarScreen(),
-                ),
+                pageBuilder: (context, state) =>
+                    const NoTransitionPage(child: RadarScreen()),
               ),
             ],
           ),
@@ -242,9 +232,8 @@ GoRouter createAppRouter(AppState appState) {
             routes: [
               GoRoute(
                 path: '/app/premium',
-                pageBuilder: (context, state) => const NoTransitionPage(
-                  child: PremiumScreen(),
-                ),
+                pageBuilder: (context, state) =>
+                    const NoTransitionPage(child: PremiumScreen()),
               ),
             ],
           ),
@@ -252,9 +241,8 @@ GoRouter createAppRouter(AppState appState) {
             routes: [
               GoRoute(
                 path: '/app/noticias',
-                pageBuilder: (context, state) => const NoTransitionPage(
-                  child: NewsScreen(),
-                ),
+                pageBuilder: (context, state) =>
+                    const NoTransitionPage(child: NewsScreen()),
               ),
             ],
           ),

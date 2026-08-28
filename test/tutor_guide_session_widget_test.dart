@@ -76,7 +76,7 @@ void main() {
     expect(host.guide.awaitingRetry, isTrue);
     expect(host.guide.hint, contains('debido proceso'));
     expect(
-      find.textContaining('vuelve a elegir', skipOffstage: false),
+      find.textContaining('Con esa explicación, elige otra.', skipOffstage: false),
       findsOneWidget,
     );
     expect(

@@ -31,6 +31,8 @@ class UserProfile {
     this.welcomeOfferExpiresAt,
     this.diagnosticCompleted = false,
     this.recentSessions = const [],
+    this.mentorTrialUsed = false,
+    this.mentorPassExpiresAt,
   });
 
   final String displayName;
@@ -82,6 +84,19 @@ class UserProfile {
   /// Últimas prácticas/simulacros (tope 5). Sirve al Tutor Inteligente.
   final List<RecentSessionSnapshot> recentSessions;
 
+  /// La prueba de Mentor IA ya se reservó (la escribe el servidor).
+  final bool mentorTrialUsed;
+
+  /// Vencimiento del pase de 30 días (servidor). Null si nunca lo activó.
+  final DateTime? mentorPassExpiresAt;
+
+  /// Pase Mentor vigente (no es el Premium de convocatoria).
+  bool get hasMentorPass {
+    final expires = mentorPassExpiresAt;
+    if (expires == null) return false;
+    return expires.isAfter(DateTime.now());
+  }
+
   int get totalAnswers =>
       pillarTotal.values.fold<int>(0, (sum, value) => sum + value);
 
@@ -112,6 +127,8 @@ class UserProfile {
     DateTime? welcomeOfferExpiresAt,
     bool? diagnosticCompleted,
     List<RecentSessionSnapshot>? recentSessions,
+    bool? mentorTrialUsed,
+    DateTime? mentorPassExpiresAt,
   }) {
     return UserProfile(
       displayName: displayName ?? this.displayName,
@@ -142,6 +159,8 @@ class UserProfile {
           welcomeOfferExpiresAt ?? this.welcomeOfferExpiresAt,
       diagnosticCompleted: diagnosticCompleted ?? this.diagnosticCompleted,
       recentSessions: recentSessions ?? this.recentSessions,
+      mentorTrialUsed: mentorTrialUsed ?? this.mentorTrialUsed,
+      mentorPassExpiresAt: mentorPassExpiresAt ?? this.mentorPassExpiresAt,
     );
   }
 
@@ -183,35 +202,35 @@ class UserProfile {
   }
 
   Map<String, dynamic> toJson() => {
-        'displayName': displayName,
-        'cargo': cargo?.name,
-        'especialidad': especialidad?.name,
-        'onboardingComplete': onboardingComplete,
-        'isPremium': isPremium,
-        'darkMode': darkMode,
-        'streakDays': streakDays,
-        'lastStreakDate': lastStreakDate?.toIso8601String(),
-        'dailyCompletedToday': dailyCompletedToday,
-        'examDate': examDate?.toIso8601String(),
-        'topicMastery': topicMastery,
-        'pillarCorrect': pillarCorrect,
-        'pillarTotal': pillarTotal,
-        'tagCorrect': tagCorrect,
-        'tagTotal': tagTotal,
-        'pillarTimeSpent': pillarTimeSpent,
-        'tagTimeSpent': tagTimeSpent,
-        'pillarTimedCount': pillarTimedCount,
-        'tagTimedCount': tagTimedCount,
-        'completedPlanTaskIds': completedPlanTaskIds,
-        'planTaskDate': planTaskDate?.toIso8601String(),
-        'streakRemindersEnabled': streakRemindersEnabled,
-        'acquiredViaPaid': acquiredViaPaid,
-        'welcomeOfferExpiresAt': welcomeOfferExpiresAt?.toIso8601String(),
-        'diagnosticCompleted': diagnosticCompleted,
-        'recentSessions': [
-          for (final session in recentSessions) session.toJson(),
-        ],
-      };
+    'displayName': displayName,
+    'cargo': cargo?.name,
+    'especialidad': especialidad?.name,
+    'onboardingComplete': onboardingComplete,
+    'isPremium': isPremium,
+    'darkMode': darkMode,
+    'streakDays': streakDays,
+    'lastStreakDate': lastStreakDate?.toIso8601String(),
+    'dailyCompletedToday': dailyCompletedToday,
+    'examDate': examDate?.toIso8601String(),
+    'topicMastery': topicMastery,
+    'pillarCorrect': pillarCorrect,
+    'pillarTotal': pillarTotal,
+    'tagCorrect': tagCorrect,
+    'tagTotal': tagTotal,
+    'pillarTimeSpent': pillarTimeSpent,
+    'tagTimeSpent': tagTimeSpent,
+    'pillarTimedCount': pillarTimedCount,
+    'tagTimedCount': tagTimedCount,
+    'completedPlanTaskIds': completedPlanTaskIds,
+    'planTaskDate': planTaskDate?.toIso8601String(),
+    'streakRemindersEnabled': streakRemindersEnabled,
+    'acquiredViaPaid': acquiredViaPaid,
+    'welcomeOfferExpiresAt': welcomeOfferExpiresAt?.toIso8601String(),
+    'diagnosticCompleted': diagnosticCompleted,
+    'recentSessions': [for (final session in recentSessions) session.toJson()],
+    'mentorTrialUsed': mentorTrialUsed,
+    'mentorPassExpiresAt': mentorPassExpiresAt?.toIso8601String(),
+  };
 
   factory UserProfile.fromJson(Map<String, dynamic> json) {
     DateTime? parseDate(dynamic value) {
@@ -262,8 +281,10 @@ class UserProfile {
     return UserProfile(
       displayName: (json['displayName'] as String?) ?? '',
       cargo: _parseCargo(json['cargo'] as String?),
-      especialidad:
-          _enumByName(Especialidad.values, json['especialidad'] as String?),
+      especialidad: _enumByName(
+        Especialidad.values,
+        json['especialidad'] as String?,
+      ),
       onboardingComplete: json['onboardingComplete'] as bool? ?? false,
       isPremium: json['isPremium'] as bool? ?? false,
       darkMode: json['darkMode'] as bool? ?? false,
@@ -293,6 +314,8 @@ class UserProfile {
       welcomeOfferExpiresAt: parseDate(json['welcomeOfferExpiresAt']),
       diagnosticCompleted: json['diagnosticCompleted'] == true,
       recentSessions: sessions,
+      mentorTrialUsed: json['mentorTrialUsed'] == true,
+      mentorPassExpiresAt: parseDate(json['mentorPassExpiresAt']),
     );
   }
 }

@@ -40,6 +40,7 @@ void main() {
     expect(guide.primaryClosed, isFalse);
     expect(guide.eliminated, {0});
     expect(guide.hint, contains('debido proceso'));
+    expect(guide.hint, contains('Sancionar ya'));
     expect(guide.primary.isCorrect(guide.primaryChoice!), isFalse);
   });
 
@@ -98,6 +99,22 @@ void main() {
     final hint = TutorScaffoldCopy.hintFor(q, 0);
     expect(hint.toLowerCase(), isNot(contains('exigida')));
     expect(hint, contains('enunciado'));
+    expect(hint, contains('Sancionar ya'));
+  });
+
+  test('el distractor genérico del banco no se muestra', () {
+    final q = _q(
+      id: 'g',
+      distractors: const {
+        0:
+            'Opción cercana o habitual que no articula el referente, '
+            'la evidencia o la instancia del caso.',
+      },
+    );
+    final hint = TutorScaffoldCopy.whyMarkedWrong(q, 0);
+    expect(hint.toLowerCase(), isNot(contains('opción cercana')));
+    expect(hint, contains('Sancionar ya'));
+    expect(hint.toLowerCase(), contains('debido proceso'));
   });
 
   test('la clave de 1290 habla de debido proceso', () {

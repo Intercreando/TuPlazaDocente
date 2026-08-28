@@ -2,14 +2,22 @@ import '../models/enums.dart';
 import '../models/knowledge_taxonomy.dart';
 import '../models/question.dart';
 
-/// Textos del andamiaje (sin IA): pista al fallar y clave al cerrar el caso.
+/// Textos del andamiaje (sin IA): por qué falló lo marcado, y la clave al cerrar.
 abstract final class TutorScaffoldCopy {
-  /// Pista del distractor o, si falta, del pilar. Nunca revela la correcta.
+  /// Explica la opción marcada. No revela la correcta.
   static String hintFor(Question question, int chosenIndex) {
+    return whyMarkedWrong(question, chosenIndex);
+  }
+
+  /// Nombre lo que eligió + por qué no aplica en este caso.
+  static String whyMarkedWrong(Question question, int chosenIndex) {
     if (question.isCorrect(chosenIndex)) return '';
-    final raw = question.distractorAnalysis[chosenIndex]?.trim() ?? '';
-    if (raw.isNotEmpty) return raw;
-    return _hintByPillar(question.pillar);
+    if (chosenIndex < 0 || chosenIndex >= question.options.length) {
+      return '';
+    }
+    final marked = _clipOption(question.options[chosenIndex]);
+    final why = _whyBody(question, chosenIndex);
+    return 'Marcaste «$marked». $why';
   }
 
   /// Regla reutilizable para el siguiente simulacro.
@@ -20,22 +28,97 @@ abstract final class TutorScaffoldCopy {
     return _claveByPillar(question.pillar);
   }
 
-  static String _hintByPillar(CompetencyPillar pillar) {
+  static String _whyBody(Question question, int chosenIndex) {
+    final raw = question.distractorAnalysis[chosenIndex]?.trim() ?? '';
+    if (raw.isNotEmpty && !_isGenericDistractor(raw)) {
+      return raw;
+    }
+    if (question.knowledgeTags.isNotEmpty) {
+      return _whyByCode(question.knowledgeTags.first.code);
+    }
+    return _whyByPillar(question.pillar);
+  }
+
+  static bool _isGenericDistractor(String raw) {
+    final text = raw.toLowerCase().replaceAll(RegExp(r'\s+'), ' ');
+    return text.contains('opción cercana o habitual') ||
+        text.contains('no articula el referente') ||
+        text.contains('la evidencia o la instancia');
+  }
+
+  static String _clipOption(String raw) {
+    final text = raw.replaceAll(RegExp(r'\s+'), ' ').trim();
+    if (text.length <= 110) return text;
+    return '${text.substring(0, 107).trim()}…';
+  }
+
+  static String _whyByCode(KnowledgeCode code) {
+    switch (code) {
+      case KnowledgeCode.decreto1290:
+        return 'Esa actuación se adelanta a la medida. En evaluación primero '
+            'van los criterios, la evidencia y el debido proceso.';
+      case KnowledgeCode.decreto1421:
+        return 'Esa vía no diseña el apoyo. Ante una barrera, el PIAR y los '
+            'ajustes razonables van antes que excluir o bajar la exigencia.';
+      case KnowledgeCode.ley1620:
+        return 'Esa respuesta improvisa o minimiza. La convivencia pide '
+            'activar la ruta según el tipo de situación.';
+      case KnowledgeCode.guiaMen49:
+        return 'Esa vía usa el criterio del momento. El manual se aplica con '
+            'el protocolo, no con lo que «parezca» justo hoy.';
+      case KnowledgeCode.guiaMen51:
+        return 'Esa actuación trata todas las situaciones igual. Hay que '
+            'clasificar (I, II o III) y seguir esa ruta.';
+      case KnowledgeCode.decreto1278:
+        return 'Esa medida se salta el conducto. El estatuto distingue el tipo '
+            'de falta antes de una sanción extrema.';
+      case KnowledgeCode.ley115:
+        return 'Esa opción privilegia el gusto particular. Mandan el PEI y '
+            'los fines de la ley.';
+      case KnowledgeCode.decreto1860:
+        return 'Esa decisión se toma por fuera de las instancias. El gobierno '
+            'escolar no se resuelve en un pasillo.';
+      case KnowledgeCode.guiaMen50:
+        return 'Esa vía escolariza de más. En inicial pesan el cuidado y el '
+            'juego pedagógico, no la rigidez de primaria.';
+      case KnowledgeCode.vygotsky:
+        return 'Esa opción o lo deja solo o le hace la tarea. El andamiaje '
+            'es una ayuda ajustada para que el estudiante haga.';
+      case KnowledgeCode.ausubel:
+        return 'Esa vía ignora lo que el estudiante ya sabe. El contenido '
+            'nuevo tiene que anclarse en saberes previos.';
+      case KnowledgeCode.piaget:
+        return 'Esa tarea no calza con el estadio. No se pide operación '
+            'formal a quien aún no la construye.';
+      case KnowledgeCode.bruner:
+        return 'Esa opción entrega el resultado o abandona. El descubrimiento '
+            'guiado estructura el problema, no lo resuelve por el otro.';
+      case KnowledgeCode.ebc:
+        return 'Esa vía trata los estándares como lista de temas. Describen '
+            'el desempeño esperado, no el índice del libro.';
+      case KnowledgeCode.dba:
+        return 'Esa actuación no apunta a la evidencia de aprendizaje. El '
+            'DBA es lo que el estudiante debe poder mostrar.';
+      case KnowledgeCode.lineamientos:
+        return 'Esa opción se queda en contenidos sueltos. El área tiene un '
+            'enfoque; la secuencia debe respetarlo.';
+    }
+  }
+
+  static String _whyByPillar(CompetencyPillar pillar) {
     switch (pillar) {
       case CompetencyPillar.aptitudNumerica:
-        return 'Esa vía suele operar el número que más se ve. Antes de '
-            'recalcular, nombra qué pide el enunciado: ¿total, diferencia, '
-            'porcentaje o proporción?';
+        return 'Esa cuenta suele usar el número que más se ve, no el que pide '
+            'el enunciado: ¿total, diferencia, porcentaje o proporción?';
       case CompetencyPillar.lecturaCritica:
-        return 'Esa lectura se adelanta al texto. Vuelve a la pregunta: '
-            '¿qué pide exactamente? Distingue lo dicho de lo que inferirías.';
+        return 'Esa lectura se adelanta al texto. Responde a lo que pregunta '
+            'el ítem, no a lo que tú inferirías.';
       case CompetencyPillar.pedagogico:
-        return 'Esa actuación puede servir en otro momento, pero aquí no es '
-            'la exigida. Piensa qué harías primero según la norma o el '
-            'enfoque, no lo más rápido ni lo más duro.';
+        return 'Esa actuación puede servir en otro momento, pero aquí se '
+            'adelanta o se va al extremo. Gana lo formativo y normativo.';
       case CompetencyPillar.comportamental:
-        return 'Esa vía se va a un extremo (dejar pasar o escalar). En el '
-            'concurso gana la actuación proporcional, con diálogo y fundamento.';
+        return 'Esa vía se va a un extremo (dejar pasar o escalar). Gana la '
+            'actuación proporcional, con diálogo y fundamento.';
     }
   }
 

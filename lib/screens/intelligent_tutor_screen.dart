@@ -4,15 +4,19 @@ import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../data/question_bank.dart';
+import '../models/mentor_launch_args.dart';
 import '../services/intelligent_tutor_guide.dart';
 import '../services/intelligent_tutor_planner.dart';
 import '../services/tutor_day_balance.dart';
 import '../state/app_state.dart';
 import '../theme/layout_breakpoints.dart';
 import '../utils/app_snackbars.dart';
+import '../utils/mentor_pass_return.dart';
 import '../utils/premium_nav.dart';
 import '../utils/progress_practice_launch.dart';
 import '../widgets/atmospheric_background.dart';
+import '../widgets/mentor_cta_card.dart';
+import '../widgets/mentor_trial_paywall.dart';
 import '../widgets/tutor_guide_session.dart';
 
 const _kLastCaseKey = 'tutor_inteligente_last_question_id';
@@ -32,11 +36,25 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
   var _recordedPrimary = false;
   var _recordedFollowUp = false;
   var _showMixNudge = false;
+  var _handledMentorReturn = false;
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addPostFrameCallback((_) => _load());
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    if (_handledMentorReturn) return;
+    final uri = GoRouterState.of(context).uri;
+    if (uri.queryParameters['mentorPass'] != 'pending') return;
+    _handledMentorReturn = true;
+    final status = uri.queryParameters['status'];
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      handleMentorPassReturn(context, status: status);
+    });
   }
 
   Future<void> _load() async {
@@ -164,6 +182,23 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
     launchProgressPillar(context, question.pillar);
   }
 
+  Future<void> _openMentor() async {
+    final guide = _guide;
+    final choice = guide?.primaryChoice;
+    if (guide == null || choice == null) return;
+    final state = context.read<AppState>();
+    if (state.isAnonymousUser) return;
+    if (state.profile.mentorTrialUsed && !state.profile.hasMentorPass) {
+      await showMentorTrialPaywall(context);
+      return;
+    }
+    if (!context.mounted) return;
+    context.push(
+      '/tutor/mentor',
+      extra: MentorLaunchArgs(question: guide.primary, chosenIndex: choice),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
@@ -199,6 +234,19 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
                               'El caso y la clave ya están arriba.'
                         : null,
                     showMixNudge: _showMixNudge,
+                    mentorCta:
+                        guide.primaryClosed && guide.primaryChoice != null
+                        ? MentorCtaCard(
+                            enabled: !state.isAnonymousUser,
+                            blockedReason: state.isAnonymousUser
+                                ? 'Crea una cuenta (Google o correo) para '
+                                      'hablar con el mentor.'
+                                : null,
+                            hasPass: state.profile.hasMentorPass,
+                            trialUsed: state.profile.mentorTrialUsed,
+                            onOpen: _openMentor,
+                          )
+                        : null,
                   ),
           ),
         ),

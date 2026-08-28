@@ -186,7 +186,7 @@ async function enableVertexApi(token, project) {
  * Una llamada de pago (404 no cobra). System prompt inyectado por el caller.
  * @param {string} systemPrompt
  * @param {string} userPrompt
- * @param {{maxOutputTokens?: number, maxWords?: number}=} options
+ * @param {{maxOutputTokens?: number, maxWords?: number, contents?: object[]}=} options
  * @return {Promise<string>}
  */
 async function generateText(systemPrompt, userPrompt, options = {}) {
@@ -194,9 +194,13 @@ async function generateText(systemPrompt, userPrompt, options = {}) {
   const maxWords = Number(options.maxWords) || MAX_WORDS;
   const project = projectId();
   const token = await accessToken();
+  const contents = Array.isArray(options.contents) &&
+      options.contents.length > 0
+      ? options.contents
+      : [{role: "user", parts: [{text: userPrompt}]}];
   const body = {
     systemInstruction: {parts: [{text: systemPrompt}]},
-    contents: [{role: "user", parts: [{text: userPrompt}]}],
+    contents,
     generationConfig: {
       temperature: 0.35,
       maxOutputTokens: maxOutputTokens,

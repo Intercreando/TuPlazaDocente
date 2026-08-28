@@ -34,6 +34,13 @@ service cloud.firestore {
           'upsellEmailSentAt',
           'founderOfferSent',
           'founderOfferSentAt',
+          'mentorPassExpiresAt',
+          'mentorPassActivatedAt',
+          'mentorPassSource',
+          'mentorPassPaymentId',
+          'mentorPassReference',
+          'mentorTrialUsed',
+          'mentorTrialUsedAt',
         ]);
     }
 
@@ -49,7 +56,16 @@ service cloud.firestore {
         && !('reminderOfferSentAt' in request.resource.data)
         && !('organicWelcomeSent' in request.resource.data)
         && !('upsellEmailSent' in request.resource.data)
-        && !('founderOfferSent' in request.resource.data);
+        && !('founderOfferSent' in request.resource.data)
+        && !('mentorPassExpiresAt' in request.resource.data)
+        && !('mentorPassSource' in request.resource.data)
+        && !('mentorPassPaymentId' in request.resource.data)
+        && !('mentorPassReference' in request.resource.data)
+        && !('mentorPassActivatedAt' in request.resource.data)
+        && (
+          !('mentorTrialUsed' in request.resource.data)
+          || request.resource.data.mentorTrialUsed == false
+        );
     }
 
     match /users/{userId} {
@@ -72,6 +88,12 @@ service cloud.firestore {
         allow read: if isOwner(userId);
         allow write: if false;
       }
+
+      // Mentor IA: lectura del dueño; escritura solo Cloud Functions.
+      match /tutorSessions/{sessionId} {
+        allow read: if isOwner(userId);
+        allow write: if false;
+      }
     }
 
     // Cache y tope global del explicador: solo Cloud Functions.
@@ -82,6 +104,9 @@ service cloud.firestore {
       allow read, write: if false;
     }
     match /tutorRemateMeta/{id} {
+      allow read, write: if false;
+    }
+    match /mentorConvoMeta/{id} {
       allow read, write: if false;
     }
 

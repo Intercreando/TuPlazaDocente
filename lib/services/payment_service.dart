@@ -23,7 +23,8 @@ class PremiumCheckoutSession {
 
 /// Cliente de checkout Premium vía Cloud Function + Wompi (Colombia).
 class PaymentService {
-  PaymentService({FirebaseFunctions? functions}) : _functionsOverride = functions;
+  PaymentService({FirebaseFunctions? functions})
+    : _functionsOverride = functions;
 
   final FirebaseFunctions? _functionsOverride;
 
@@ -56,7 +57,8 @@ class PaymentService {
         throw Exception('No recibimos la URL de Wompi.');
       }
 
-      final amountCop = _asDouble(data['amountCop']) ??
+      final amountCop =
+          _asDouble(data['amountCop']) ??
           (_asDouble(data['amountInCents']) != null
               ? _asDouble(data['amountInCents'])! / 100
               : null);
@@ -81,6 +83,52 @@ class PaymentService {
       if (e is Exception) rethrow;
       throw Exception(
         'No pudimos iniciar el pago. Verifica tu conexión e intenta de nuevo.',
+      );
+    }
+  }
+
+  /// Checkout del pase Mentor IA ($19.900 / 30 días). No usa Premium.
+  Future<PremiumCheckoutSession> createMentorPassCheckout() async {
+    try {
+      final callable = _functions.httpsCallable(
+        'createMentorPassCheckout',
+        options: HttpsCallableOptions(timeout: const Duration(seconds: 45)),
+      );
+      final result = await callable.call();
+      final raw = result.data;
+      if (raw is! Map) {
+        throw Exception('Respuesta inválida del servidor de pagos.');
+      }
+      final data = Map<String, dynamic>.from(raw);
+      final initPoint = data['initPoint'] as String?;
+      if (initPoint == null || initPoint.isEmpty) {
+        throw Exception('No recibimos la URL de Wompi.');
+      }
+
+      final amountCop =
+          _asDouble(data['amountCop']) ??
+          (_asDouble(data['amountInCents']) != null
+              ? _asDouble(data['amountInCents'])! / 100
+              : null);
+      if (amountCop == null || amountCop <= 0) {
+        throw Exception('No recibimos el monto del checkout.');
+      }
+
+      return PremiumCheckoutSession(
+        initPoint: initPoint,
+        amountCop: amountCop,
+        reference: data['reference']?.toString(),
+      );
+    } on FirebaseFunctionsException catch (e) {
+      debugPrint(
+        'PaymentService createMentorPassCheckout: ${e.code} ${e.message}',
+      );
+      throw Exception(_friendlyFunctionsError(e));
+    } catch (e) {
+      debugPrint('PaymentService createMentorPassCheckout error: $e');
+      if (e is Exception) rethrow;
+      throw Exception(
+        'No pudimos iniciar el pase. Verifica tu conexión e intenta de nuevo.',
       );
     }
   }

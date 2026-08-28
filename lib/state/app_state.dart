@@ -47,6 +47,8 @@ class AppState extends ChangeNotifier {
   static const _storageKey = 'tu_plaza_docente_profile_v1';
   static const _checkoutAmountKey = 'pending_checkout_amount_cop';
   static const _checkoutTxKey = 'pending_checkout_transaction_id';
+  static const _mentorCheckoutAmountKey = 'pending_mentor_checkout_amount_cop';
+  static const _mentorCheckoutTxKey = 'pending_mentor_checkout_transaction_id';
   static const freeDailyLimit = 5;
   static const freeMonthlyShortExams = 1;
 
@@ -174,7 +176,10 @@ class AppState extends ChangeNotifier {
             await prefs.setString(_storageKey, jsonEncode(profile.toJson()));
           } else if (profile.onboardingComplete) {
             await _sync.saveRemoteProfile(profile);
-            if (remote != null) _mergePaidFunnelFromRemote(remote);
+            if (remote != null) {
+              _mergePaidFunnelFromRemote(remote);
+              _mergeMentorFromRemote(remote);
+            }
           }
           if (!_sync.isAnonymous) {
             await _claimPaidAcquisitionIfNeeded();
@@ -450,6 +455,22 @@ class AppState extends ChangeNotifier {
     }
   }
 
+  Future<PremiumCheckoutSession> startMentorPassCheckout() async {
+    try {
+      final session = await _payments.createMentorPassCheckout();
+      await rememberMentorCheckoutAmount(
+        session.amountCop,
+        transactionId: session.reference,
+      );
+      lastError = null;
+      return session;
+    } catch (e) {
+      lastError = e.toString().replaceFirst('Exception: ', '');
+      notifyListeners();
+      rethrow;
+    }
+  }
+
   /// Alias legado (antes Mercado Pago).
   Future<PremiumCheckoutSession> startMercadoPagoCheckout() =>
       startPremiumCheckout();
@@ -489,6 +510,49 @@ class AppState extends ChangeNotifier {
     return (value: AppConfig.premiumPriceCop, transactionId: null);
   }
 
+  /// Guarda el monto del pase Mentor (Purchase al volver de Wompi).
+  Future<void> rememberMentorCheckoutAmount(
+    double amountCop, {
+    String? transactionId,
+  }) async {
+    if (amountCop <= 0) return;
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      await prefs.setDouble(_mentorCheckoutAmountKey, amountCop);
+      if (transactionId != null && transactionId.isNotEmpty) {
+        await prefs.setString(_mentorCheckoutTxKey, transactionId);
+      }
+    } catch (e) {
+      debugPrint('rememberMentorCheckoutAmount: $e');
+    }
+  }
+
+  /// Lee y limpia el monto pendiente del pase Mentor.
+  Future<({double value, String? transactionId})>
+  takeMentorCheckoutPurchaseValue() async {
+    try {
+      final prefs = await SharedPreferences.getInstance();
+      final stored = prefs.getDouble(_mentorCheckoutAmountKey);
+      final tx = prefs.getString(_mentorCheckoutTxKey);
+      if (stored != null && stored > 0) {
+        await prefs.remove(_mentorCheckoutAmountKey);
+        await prefs.remove(_mentorCheckoutTxKey);
+        return (value: stored, transactionId: tx);
+      }
+    } catch (e) {
+      debugPrint('takeMentorCheckoutPurchaseValue: $e');
+    }
+    return (value: AppConfig.mentorPassPriceCop, transactionId: null);
+  }
+
+  /// Recuerda en local que la prueba del mentor ya se usó (el servidor manda).
+  Future<void> markMentorTrialUsed() async {
+    if (profile.mentorTrialUsed) return;
+    profile = profile.copyWith(mentorTrialUsed: true);
+    await _persist();
+    notifyListeners();
+  }
+
   Future<bool> enableStreakReminders() async {
     final granted = await _notifications.requestPermission();
     if (!granted) {
@@ -516,6 +580,7 @@ class AppState extends ChangeNotifier {
     if (remote == null) return;
     profile = profile.copyWith(isPremium: remote.isPremium);
     _mergePaidFunnelFromRemote(remote);
+    _mergeMentorFromRemote(remote);
     await _persist();
     notifyListeners();
     if (profile.isPremium) {
@@ -679,7 +744,10 @@ class AppState extends ChangeNotifier {
       _refreshDailyFlags();
     } else {
       await _sync.saveRemoteProfile(profile);
-      if (remote != null) _mergePaidFunnelFromRemote(remote);
+      if (remote != null) {
+        _mergePaidFunnelFromRemote(remote);
+        _mergeMentorFromRemote(remote);
+      }
     }
     if (_sync.email != null &&
         (profile.displayName.isEmpty || profile.displayName == 'Aspirante')) {
@@ -708,6 +776,15 @@ class AppState extends ChangeNotifier {
           remote.welcomeOfferExpiresAt ?? profile.welcomeOfferExpiresAt,
       diagnosticCompleted:
           remote.diagnosticCompleted || profile.diagnosticCompleted,
+    );
+  }
+
+  /// Pase y prueba del Mentor IA los escribe el servidor.
+  void _mergeMentorFromRemote(UserProfile remote) {
+    profile = profile.copyWith(
+      mentorTrialUsed: remote.mentorTrialUsed || profile.mentorTrialUsed,
+      mentorPassExpiresAt:
+          remote.mentorPassExpiresAt ?? profile.mentorPassExpiresAt,
     );
   }
 

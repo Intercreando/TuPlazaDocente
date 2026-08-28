@@ -325,7 +325,15 @@ class FirebaseSyncService {
         ..remove('welcomeOfferExpiresAt')
         ..remove('reminderOfferSent')
         ..remove('reminderOfferSentAt')
-        ..remove('rescueEmailSent');
+        ..remove('rescueEmailSent')
+        // Pase y prueba del Mentor IA: solo Cloud Functions / webhook.
+        ..remove('mentorTrialUsed')
+        ..remove('mentorTrialUsedAt')
+        ..remove('mentorPassExpiresAt')
+        ..remove('mentorPassActivatedAt')
+        ..remove('mentorPassSource')
+        ..remove('mentorPassPaymentId')
+        ..remove('mentorPassReference');
       await db.collection('users').doc(uid).set(
         {
           ...data,

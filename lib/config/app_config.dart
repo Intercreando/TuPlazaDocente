@@ -3,6 +3,18 @@ abstract final class AppConfig {
   /// Precio mostrado (informativo). El cobro real lo define Wompi.
   static const String premiumPriceLabel = r'$89.900 COP';
 
+  /// Add-on Mentor IA: pase de 30 días, renovación manual (no débito).
+  static const double mentorPassPriceCop = 19900;
+
+  static const String mentorPassPriceLabel = r'$19.900 COP';
+
+  static const String mentorPassBillingLabel =
+      'Pase de 30 días · renovación manual';
+
+  static const String mentorPassBillingDetail =
+      'No es un débito automático. Cuando venza, puedes renovar a mano por '
+      'otros 30 días. El Premium de la convocatoria no cambia.';
+
   /// Valor numérico Premium en COP (Meta Pixel / analítica).
   static const double premiumPriceCop = 89900;
 

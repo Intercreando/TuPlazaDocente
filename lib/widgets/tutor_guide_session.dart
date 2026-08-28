@@ -27,6 +27,7 @@ class TutorGuideSession extends StatelessWidget {
     required this.remateEnabled,
     this.remateBlockedReason,
     this.showMixNudge = false,
+    this.mentorCta,
   });
 
   final IntelligentTutorPlan plan;
@@ -38,6 +39,7 @@ class TutorGuideSession extends StatelessWidget {
   final bool remateEnabled;
   final String? remateBlockedReason;
   final bool showMixNudge;
+  final Widget? mentorCta;
 
   @override
   Widget build(BuildContext context) {
@@ -107,6 +109,7 @@ class TutorGuideSession extends StatelessWidget {
               disabledReason: remateBlockedReason,
             ),
           ],
+          if (mentorCta != null) ...[const SizedBox(height: 16), mentorCta!],
         ],
         if (guide.canOfferFollowUp) ...[
           const SizedBox(height: 16),

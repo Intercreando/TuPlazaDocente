@@ -1,6 +1,6 @@
 /**
  * Cloud Functions TuPlazaDocente:
- * - createPremiumCheckout / wompiWebhook: pagos Wompi
+ * - createPremiumCheckout / createMentorPassCheckout / wompiWebhook: pagos Wompi
  * - activatePremiumCode: códigos Premium
  * - registerPremiumDevice / checkPremiumDevice: cupo de dispositivos
  * - submitTestimonial: opiniones de comunidad (moderación)
@@ -11,7 +11,8 @@
  * - sendOrganicUpsellEmail: invitacion Premium a orgánicos (~3 días)
  * - serveNewsPage: HTML de /noticias y /noticias/<slug>/ al publicar
  * - explainPracticeItem: tutor de texto Vertex/Gemini (Premium, 8/día)
- * - tutorConvoRemate: remate Vertex del Tutor Inteligente (2/día)
+ * - tutorConvoRemate: remate Vertex del Tutor personalizado (2/día)
+ * - startMentorSession / mentorConvoTurn: Mentor IA (prueba 1 sesión / pase 4 al día)
  */
 const crypto = require("crypto");
 const {onCall, onRequest, HttpsError} = require("firebase-functions/v2/https");
@@ -28,6 +29,7 @@ const offerReminder = require("./offer_reminder");
 const organicWelcome = require("./organic_welcome");
 const organicUpsell = require("./organic_upsell");
 const founderOffer = require("./founder_offer");
+const mentorPass = require("./mentor_pass");
 
 initializeApp();
 
@@ -223,8 +225,8 @@ exports.createPremiumCheckout = onCall(
 );
 
 /**
- * Webhook Wompi: activa isPremium si status APPROVED.
- * Resuelve uid desde payments/{reference} o desde referencia TPD_{uid}_{timestamp}.
+ * Webhook Wompi: Premium (TPD_) o pase Mentor (MENTOR_ / sku mentor_pass).
+ * El pase no toca isPremium. Resuelve uid desde payments/{reference} o la ref.
  */
 exports.wompiWebhook = onRequest(
     {
@@ -280,6 +282,8 @@ exports.wompiWebhook = onRequest(
 
         let uid = null;
         let expectedAmountCents = PREMIUM_AMOUNT_CENTS;
+        let amountFromPayment = false;
+        let paymentSku = "";
         if (reference) {
           const payRef = getFirestore().collection("payments").doc(reference);
           try {
@@ -287,23 +291,33 @@ exports.wompiWebhook = onRequest(
             if (paySnap.exists) {
               const payData = paySnap.data() || {};
               uid = payData.uid || null;
+              paymentSku = String(payData.sku || "");
               if (payData.amountInCents != null) {
                 expectedAmountCents = Number(payData.amountInCents);
+                amountFromPayment = true;
               }
             }
           } catch (e) {
             console.error("wompiWebhook read payment", e);
           }
 
-          // Fallback: TPD_{uid}_{timestamp}
+          // Fallback: TPD_{uid}_{timestamp} (no usar con MENTOR_).
           if (!uid && reference.startsWith("TPD_")) {
             const parts = reference.split("_");
             if (parts.length >= 3) {
               uid = parts.slice(1, -1).join("_");
             }
           }
+          if (!uid && mentorPass.isMentorReference(reference)) {
+            const parts = reference.split("_");
+            if (parts.length >= 3) {
+              uid = parts.slice(1, -1).join("_");
+            }
+          }
 
-          await payRef.set({
+          const isMentorPass = paymentSku === "mentor_pass" ||
+              mentorPass.isMentorReference(reference);
+          const persistPayload = {
             uid: uid || null,
             reference,
             provider: "wompi",
@@ -314,7 +328,10 @@ exports.wompiWebhook = onRequest(
             paymentMethodType: tx.payment_method_type || null,
             customerEmail: tx.customer_email || null,
             updatedAt: FieldValue.serverTimestamp(),
-          }, {merge: true}).catch((e) => {
+          };
+          if (isMentorPass) persistPayload.sku = "mentor_pass";
+
+          await payRef.set(persistPayload, {merge: true}).catch((e) => {
             console.error("wompiWebhook persist payment", e);
           });
         }
@@ -332,21 +349,42 @@ exports.wompiWebhook = onRequest(
           }
         }
 
+        const isMentorPass = paymentSku === "mentor_pass" ||
+            mentorPass.isMentorReference(reference);
+        if (isMentorPass && !amountFromPayment) {
+          expectedAmountCents = mentorPass.MENTOR_AMOUNT_CENTS;
+        }
+
         const amountOk = amountInCents == null ||
           Number(amountInCents) === Number(expectedAmountCents);
 
         if (status === "APPROVED" && uid && amountOk) {
-          await getFirestore().collection("users").doc(String(uid)).set({
-            isPremium: true,
-            premiumActivatedAt: FieldValue.serverTimestamp(),
-            premiumSource: "wompi",
-            premiumPaymentId: String(tx.id),
-            premiumReference: reference || null,
-            pendingPromoDiscount: FieldValue.delete(),
-          }, {merge: true});
-          console.log("wompiWebhook premium activated", {uid, reference, amountInCents});
+          if (isMentorPass) {
+            await mentorPass.applyMentorPass({
+              uid: String(uid),
+              transactionId: String(tx.id),
+              reference,
+            });
+            console.log("wompiWebhook mentor pass activated", {
+              uid, reference, amountInCents,
+            });
+          } else {
+            await getFirestore().collection("users").doc(String(uid)).set({
+              isPremium: true,
+              premiumActivatedAt: FieldValue.serverTimestamp(),
+              premiumSource: "wompi",
+              premiumPaymentId: String(tx.id),
+              premiumReference: reference || null,
+              pendingPromoDiscount: FieldValue.delete(),
+            }, {merge: true});
+            console.log("wompiWebhook premium activated", {
+              uid, reference, amountInCents,
+            });
+          }
         } else {
-          console.log("wompiWebhook skip activate", {status, uid, amountOk, reference});
+          console.log("wompiWebhook skip activate", {
+            status, uid, amountOk, reference, isMentorPass,
+          });
         }
 
         res.status(200).send("OK");
@@ -778,3 +816,6 @@ exports.sendFounderOfferEmails = founderOffer.sendFounderOfferEmails;
 exports.runFounderOfferJob = founderOffer.runFounderOfferJob;
 exports.explainPracticeItem = require("./ai_explain").explainPracticeItem;
 exports.tutorConvoRemate = require("./tutor_remate").tutorConvoRemate;
+exports.startMentorSession = require("./mentor_convo").startMentorSession;
+exports.mentorConvoTurn = require("./mentor_convo").mentorConvoTurn;
+exports.createMentorPassCheckout = mentorPass.createMentorPassCheckout;
