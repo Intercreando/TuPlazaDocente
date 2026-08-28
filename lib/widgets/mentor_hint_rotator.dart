@@ -11,7 +11,7 @@ const kMentorComposerHintsMiss = [
   'Ej: En este caso yo aplicaría el SIEE porque…',
 ];
 
-/// Sugerencias si acertó: anclan el criterio, no piden “corregir”.
+/// Sugerencias si acertó: profundizan el criterio, no piden “corregir”.
 const kMentorComposerHintsHit = [
   'Ej: Esa es la exigida porque…',
   'Ej: Si el rector insiste, yo…',

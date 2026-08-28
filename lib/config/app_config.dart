@@ -24,7 +24,7 @@ abstract final class AppConfig {
 
   /// Beneficios para quien paga el pase (copy de producto, no de tecnología).
   static const List<String> mentorPassBenefits = [
-    'Anclas el criterio del concurso: por qué esa actuación es la exigida, no solo la letra.',
+    'Dominas el criterio del concurso: por qué esa actuación es la exigida, no solo la letra.',
     '4 tutorías al día durante 30 días, 8 turnos cada una, sobre el caso que te está costando.',
     'Un mentor que te pregunta y te reenfoca hasta que lo sepas explicar. No es un chat libre.',
   ];

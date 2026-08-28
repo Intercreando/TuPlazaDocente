@@ -13,7 +13,7 @@ void main() {
       ),
     );
     expect(
-      find.text('¿Quieres anclar por qué esa es la exigida?'),
+      find.text('¿Quieres dominar el porqué de esta respuesta?'),
       findsOneWidget,
     );
     expect(
@@ -50,8 +50,12 @@ void main() {
           ),
         ),
       );
-      expect(find.textContaining('anclar el criterio'), findsOneWidget);
+      expect(
+        find.textContaining('debatir a fondo el criterio pedagógico'),
+        findsOneWidget,
+      );
       expect(find.textContaining(r'$19.900'), findsOneWidget);
+      expect(find.textContaining('sin cobros automáticos'), findsOneWidget);
     },
   );
 }

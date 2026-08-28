@@ -218,7 +218,7 @@ class _MentorConvoScreenState extends State<MentorConvoScreen> {
   Widget _thread(ThemeData theme) {
     final hit = widget.args?.choseCorrect == true;
     final waitLabel = hit
-        ? 'El mentor está anclando tu acierto…'
+        ? 'El mentor está profundizando en tu acierto…'
         : 'El mentor está analizando tu postura…';
     if (_starting) {
       return Center(

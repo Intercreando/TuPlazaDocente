@@ -45,7 +45,7 @@ class MentorCtaCard extends StatelessWidget {
             ),
             Text(
               choseCorrect
-                  ? '¿Quieres anclar por qué esa es la exigida?'
+                  ? '¿Quieres dominar el porqué de esta respuesta?'
                   : '¿Quieres entender por qué esa no era la exigida?',
               style: theme.textTheme.titleSmall,
             ),
@@ -76,9 +76,10 @@ class MentorCtaCard extends StatelessWidget {
           '4 sesiones al día. No es un chat libre.';
     }
     if (trialUsed) {
-      return 'Ya usaste la prueba. El pase te deja anclar el criterio de cada '
-          'caso: 4 tutorías al día, 30 días, renovación a mano. '
-          '${AppConfig.mentorPassPriceLabel}.';
+      return 'Ya usaste tu prueba gratuita. Activa tu pase de 30 días '
+          'para debatir a fondo el criterio pedagógico de cada caso. '
+          'Incluye 4 tutorías diarias por 30 días. '
+          '${AppConfig.mentorPassPriceLabel} (sin cobros automáticos).';
     }
     return 'Tienes 1 sesión de prueba de por vida. 8 turnos sobre ESTE caso. '
         'No es un chat libre.';
