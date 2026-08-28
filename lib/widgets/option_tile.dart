@@ -9,17 +9,21 @@ class OptionTile extends StatelessWidget {
     required this.label,
     required this.letter,
     required this.selected,
-    required this.onTap,
+    this.onTap,
     this.showResult = false,
     this.isCorrect = false,
+    this.eliminated = false,
   });
 
   final String label;
   final String letter;
   final bool selected;
-  final VoidCallback onTap;
+  final VoidCallback? onTap;
   final bool showResult;
   final bool isCorrect;
+
+  /// Ya descartada en tutoría (sin revelar la correcta).
+  final bool eliminated;
 
   @override
   Widget build(BuildContext context) {
@@ -39,6 +43,11 @@ class OptionTile extends StatelessWidget {
       border = AppColors.danger;
       background = AppColors.danger.withValues(alpha: isDark ? 0.18 : 0.10);
       letterBg = AppColors.danger;
+    } else if (eliminated) {
+      border = isDark ? AppColors.darkStroke : AppColors.stroke;
+      background = isDark ? AppColors.darkSurface : AppColors.mist;
+      letterBg = isDark ? AppColors.darkElevated : AppColors.stroke;
+      letterFg = isDark ? AppColors.darkTextSecondary : AppColors.textMuted;
     } else if (selected) {
       border = AppColors.canopy;
       background = AppColors.canopy.withValues(alpha: isDark ? 0.22 : 0.10);
@@ -54,14 +63,17 @@ class OptionTile extends StatelessWidget {
       color: background,
       borderRadius: BorderRadius.circular(16),
       child: InkWell(
-        onTap: onTap,
+        onTap: eliminated && !showResult ? null : onTap,
         borderRadius: BorderRadius.circular(16),
         child: Container(
           width: double.infinity,
           padding: const EdgeInsets.all(14),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(16),
-            border: Border.all(color: border, width: selected || showResult ? 1.6 : 1),
+            border: Border.all(
+              color: border,
+              width: selected || showResult ? 1.6 : 1,
+            ),
           ),
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.start,
@@ -81,7 +93,19 @@ class OptionTile extends StatelessWidget {
               ),
               const SizedBox(width: 12),
               Expanded(
-                child: Text(label, style: theme.textTheme.bodyLarge),
+                child: Text(
+                  label,
+                  style: theme.textTheme.bodyLarge?.copyWith(
+                    color: eliminated && !showResult
+                        ? (isDark
+                              ? AppColors.darkTextSecondary
+                              : AppColors.textMuted)
+                        : null,
+                    decoration: eliminated && !showResult
+                        ? TextDecoration.lineThrough
+                        : null,
+                  ),
+                ),
               ),
             ],
           ),

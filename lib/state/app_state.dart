@@ -20,6 +20,7 @@ import '../services/question_repository.dart';
 import '../services/streak_notification_service.dart';
 import '../services/study_plan_service.dart';
 import '../services/tag_mastery_service.dart';
+import '../services/tutor_day_balance.dart';
 import '../config/paid_funnel.dart';
 import '../services/paid_acquisition_service.dart';
 import '../utils/google_ads_tag.dart';
@@ -853,6 +854,7 @@ class AppState extends ChangeNotifier {
     }
 
     notifyListeners();
+    unawaited(TutorDayBalance.recordOtherTraining());
     return true;
   }
 

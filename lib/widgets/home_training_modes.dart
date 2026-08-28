@@ -37,21 +37,19 @@ class HomeTrainingModes extends StatelessWidget {
     }
 
     final tutorCard = TrainingModeCard(
-      title: 'Tutor Inteligente',
+      title: 'Tutor personalizado',
       subtitle: premium
-          ? 'Un caso de lo que más se te traba'
+          ? 'Te lleva de la mano hasta la clave del tema'
           : 'Incluido en Premium',
       icon: Icons.school_rounded,
       color: AppColors.goldDeep,
       featured: true,
-      access: premium
-          ? FeatureAccessLevel.open
-          : FeatureAccessLevel.locked,
+      access: premium ? FeatureAccessLevel.open : FeatureAccessLevel.locked,
       onTap: () {
         if (!premium) {
           AppSnackbars.premiumLocked(
             context,
-            'El Tutor Inteligente es Premium.',
+            'El Tutor personalizado es Premium.',
           );
           return;
         }

@@ -25,9 +25,7 @@ Question _q({
     difficulty: QuestionDifficulty.intermedio,
     isCaseStudy: isCase,
     caseContext: caseContext,
-    knowledgeTags: [
-      if (code != null) KnowledgeTag(code: code),
-    ],
+    knowledgeTags: [if (code != null) KnowledgeTag(code: code)],
     distractorAnalysis: const {0: 'Esa vía salta el conducto regular.'},
   );
 }
@@ -126,5 +124,35 @@ void main() {
       now: DateTime(2026, 8, 27),
     );
     expect(picked.id, isNot('1290-caso'));
+  });
+
+  test('pickFollowUp no repite el caso y sube de exigencia si hay', () {
+    final followBank = [
+      _q(
+        id: '1290-caso',
+        code: KnowledgeCode.decreto1290,
+        isCase: true,
+        caseContext: 'Un grado 5 con promoción anticipada.',
+      ),
+      Question(
+        id: '1290-duro',
+        pillar: CompetencyPillar.pedagogico,
+        topic: 'Evaluación',
+        stem: 'Segundo caso de evaluación para comprobar la clave del tema.',
+        options: const ['A', 'B', 'C', 'D'],
+        correctIndex: 0,
+        explanation: 'Exigida por evidencia.',
+        difficulty: QuestionDifficulty.avanzado,
+        knowledgeTags: const [KnowledgeTag(code: KnowledgeCode.decreto1290)],
+      ),
+    ];
+    final next = IntelligentTutorPlanner.pickFollowUp(
+      pool: followBank,
+      primary: followBank.first,
+      preferHarder: true,
+      now: DateTime(2026, 8, 28),
+    );
+    expect(next, isNotNull);
+    expect(next!.id, '1290-duro');
   });
 }

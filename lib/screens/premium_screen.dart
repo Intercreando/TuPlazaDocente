@@ -194,7 +194,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                   Text(
                     'En Gratis entrenas todos los días con límites claros. '
                     'Premium quita los topes y abre casos, especialidad, '
-                    'simulacros libres y el Tutor Inteligente.',
+                    'simulacros libres y el Tutor personalizado.',
                     style: theme.textTheme.bodyLarge,
                   ),
                   const SizedBox(height: 12),
@@ -253,7 +253,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                         : AppConfig.premiumBillingLabel,
                     items: const [
                       'Práctica ilimitada con explicaciones',
-                      'Tutor Inteligente (caso de tu debilidad)',
+                      'Tutor personalizado: te lleva de la mano hasta la clave',
                       'Simulacros ilimitados + mapa de calor',
                       'Casos de aula y práctica por especialidad',
                       'Drill cronometrado en el plan (cerca del examen)',

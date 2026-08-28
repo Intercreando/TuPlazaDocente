@@ -3,23 +3,21 @@ import 'package:go_router/go_router.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '../models/question.dart';
+import '../data/question_bank.dart';
+import '../services/intelligent_tutor_guide.dart';
 import '../services/intelligent_tutor_planner.dart';
+import '../services/tutor_day_balance.dart';
 import '../state/app_state.dart';
 import '../theme/layout_breakpoints.dart';
 import '../utils/app_snackbars.dart';
 import '../utils/premium_nav.dart';
 import '../utils/progress_practice_launch.dart';
 import '../widgets/atmospheric_background.dart';
-import '../widgets/option_tile.dart';
-import '../widgets/question_case_context.dart';
-import '../widgets/tutor_bank_contrast.dart';
-import '../widgets/tutor_remate_panel.dart';
+import '../widgets/tutor_guide_session.dart';
 
 const _kLastCaseKey = 'tutor_inteligente_last_question_id';
-const _kLetters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
-/// Sesión guiada: diagnóstico + caso del banco + contraste; Vertex solo en remate.
+/// Tutoría guiada: pistas y clave del banco; Vertex solo en el remate.
 class IntelligentTutorScreen extends StatefulWidget {
   const IntelligentTutorScreen({super.key});
 
@@ -29,9 +27,11 @@ class IntelligentTutorScreen extends StatefulWidget {
 
 class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
   IntelligentTutorPlan? _plan;
+  IntelligentTutorGuide? _guide;
   String? _loadError;
-  int? _chosenIndex;
-  var _recorded = false;
+  var _recordedPrimary = false;
+  var _recordedFollowUp = false;
+  var _showMixNudge = false;
 
   @override
   void initState() {
@@ -43,12 +43,9 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
     final state = context.read<AppState>();
     if (!state.profile.isPremium) {
       if (!mounted) return;
-      AppSnackbars.premiumLocked(
-        context,
-        'El Tutor Inteligente es Premium.',
-      );
+      AppSnackbars.premiumLocked(context, 'El Tutor personalizado es Premium.');
       setState(() {
-        _loadError = 'El Tutor Inteligente está incluido en Premium.';
+        _loadError = 'El Tutor personalizado está incluido en Premium.';
       });
       openPremium(context);
       return;
@@ -62,9 +59,13 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
       );
       await prefs.setString(_kLastCaseKey, plan.question.id);
       if (!mounted) return;
+      final showNudge = await TutorDayBalance.shouldShowNudge();
+      if (!mounted) return;
       setState(() {
         _plan = plan;
+        _guide = IntelligentTutorGuide(primary: plan.question);
         _loadError = null;
+        _showMixNudge = showNudge;
       });
     } catch (e) {
       if (!mounted) return;
@@ -77,18 +78,90 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
   }
 
   Future<void> _choose(int index) async {
-    if (_chosenIndex != null || _plan == null) return;
-    setState(() => _chosenIndex = index);
-    if (_recorded) return;
-    _recorded = true;
+    final guide = _guide;
+    if (guide == null) return;
+    final wasPrimaryClosed = guide.primaryClosed;
+    final outcome = guide.choose(index);
+    if (outcome == TutorChoiceOutcome.ignored) return;
+    setState(() {});
+    if (!wasPrimaryClosed && guide.primaryClosed) {
+      await _onPrimaryClosed();
+    }
+    if (guide.followUpClosed) {
+      await _recordFollowUp();
+    }
+  }
+
+  Future<void> _onPrimaryClosed() async {
+    final guide = _guide;
+    final plan = _plan;
+    if (guide == null || plan == null) return;
+    final next = IntelligentTutorPlanner.pickFollowUp(
+      pool: QuestionBank.all,
+      primary: guide.primary,
+      preferHarder: guide.firstTryCorrect,
+    );
+    guide.attachFollowUp(next);
+    try {
+      await TutorDayBalance.recordTutorVisit();
+    } catch (e) {
+      debugPrint('IntelligentTutorScreen tutor visit: $e');
+    }
+    final showNudge = await TutorDayBalance.shouldShowNudge();
+    if (!mounted) return;
+    setState(() => _showMixNudge = showNudge);
+    await _recordPrimary();
+  }
+
+  Future<void> _recordPrimary() async {
+    if (_recordedPrimary) return;
+    final guide = _guide;
+    final choice = guide?.primaryChoice;
+    if (guide == null || choice == null) return;
+    _recordedPrimary = true;
     try {
       await context.read<AppState>().recordTutorStance(
-        question: _plan!.question,
-        selectedIndex: index,
+        question: guide.primary,
+        selectedIndex: choice,
       );
     } catch (e) {
-      debugPrint('IntelligentTutorScreen record: $e');
+      debugPrint('IntelligentTutorScreen record primary: $e');
     }
+  }
+
+  Future<void> _recordFollowUp() async {
+    if (_recordedFollowUp) return;
+    final guide = _guide;
+    final choice = guide?.followUpChoice;
+    final item = guide?.followUp;
+    if (guide == null || choice == null || item == null) return;
+    _recordedFollowUp = true;
+    try {
+      await context.read<AppState>().recordTutorStance(
+        question: item,
+        selectedIndex: choice,
+      );
+    } catch (e) {
+      debugPrint('IntelligentTutorScreen record follow-up: $e');
+    }
+  }
+
+  void _startFollowUp() {
+    _guide?.startFollowUp();
+    setState(() {});
+  }
+
+  void _practiceFocus() {
+    final question = _guide?.primary ?? _plan?.question;
+    if (question == null) return;
+    final code = question.knowledgeTags.isEmpty
+        ? null
+        : question.knowledgeTags.first.code;
+    if (code != null) {
+      launchProgressTopic(context, code);
+      return;
+    }
+    launchProgressPillar(context, question.pillar);
   }
 
   @override
@@ -97,9 +170,10 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
     final dark = theme.brightness == Brightness.dark;
     final state = context.watch<AppState>();
     final plan = _plan;
+    final guide = _guide;
 
     return Scaffold(
-      appBar: AppBar(title: const Text('Tutor Inteligente')),
+      appBar: AppBar(title: const Text('Tutor personalizado')),
       body: AtmosphericBackground(
         dark: dark,
         child: Center(
@@ -109,19 +183,23 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
             ),
             child: _loadError != null
                 ? _MessageBody(text: _loadError!)
-                : plan == null
-                    ? const Center(child: CircularProgressIndicator())
-                    : _SessionBody(
-                        plan: plan,
-                        chosenIndex: _chosenIndex,
-                        onChoose: _choose,
-                        remateEnabled:
-                            state.profile.isPremium && !state.isAnonymousUser,
-                        remateBlockedReason: state.isAnonymousUser
-                            ? 'Crea una cuenta (Google o correo) para el remate. '
-                                'El caso y el contraste ya están arriba.'
-                            : null,
-                      ),
+                : plan == null || guide == null
+                ? const Center(child: CircularProgressIndicator())
+                : TutorGuideSession(
+                    plan: plan,
+                    guide: guide,
+                    onChoose: _choose,
+                    onStartFollowUp: _startFollowUp,
+                    onPracticeMore: _practiceFocus,
+                    onBackHome: () => context.go('/app'),
+                    remateEnabled:
+                        state.profile.isPremium && !state.isAnonymousUser,
+                    remateBlockedReason: state.isAnonymousUser
+                        ? 'Crea una cuenta (Google o correo) para el remate. '
+                              'El caso y la clave ya están arriba.'
+                        : null,
+                    showMixNudge: _showMixNudge,
+                  ),
           ),
         ),
       ),
@@ -150,118 +228,5 @@ class _MessageBody extends StatelessWidget {
         ],
       ),
     );
-  }
-}
-
-class _SessionBody extends StatelessWidget {
-  const _SessionBody({
-    required this.plan,
-    required this.chosenIndex,
-    required this.onChoose,
-    required this.remateEnabled,
-    this.remateBlockedReason,
-  });
-
-  final IntelligentTutorPlan plan;
-  final int? chosenIndex;
-  final ValueChanged<int> onChoose;
-  final bool remateEnabled;
-  final String? remateBlockedReason;
-
-  @override
-  Widget build(BuildContext context) {
-    final theme = Theme.of(context);
-    final question = plan.question;
-    final revealed = chosenIndex != null;
-
-    return ListView(
-      padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
-      children: [
-        Text(
-          'Hola, ${plan.displayName}.',
-          style: theme.textTheme.headlineSmall,
-        ),
-        const SizedBox(height: 8),
-        Text(plan.headline, style: theme.textTheme.titleMedium),
-        const SizedBox(height: 6),
-        Text(plan.body, style: theme.textTheme.bodyMedium),
-        if (plan.weakLabels.isNotEmpty) ...[
-          const SizedBox(height: 10),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              for (final label in plan.weakLabels) Chip(label: Text(label)),
-            ],
-          ),
-        ],
-        const SizedBox(height: 18),
-        Text('Tu caso de hoy', style: theme.textTheme.titleLarge),
-        const SizedBox(height: 8),
-        Wrap(
-          spacing: 8,
-          runSpacing: 8,
-          children: [
-            Chip(label: Text(question.pillar.label)),
-            Chip(label: Text(question.topic)),
-            if (question.isCaseStudy)
-              const Chip(label: Text('Caso de aula')),
-          ],
-        ),
-        const SizedBox(height: 12),
-        QuestionCaseContext(question: question),
-        Text(question.stem, style: theme.textTheme.titleLarge),
-        const SizedBox(height: 16),
-        Text('¿Cómo actuarías?', style: theme.textTheme.titleSmall),
-        const SizedBox(height: 8),
-        ...List.generate(question.options.length, (i) {
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 10),
-            child: OptionTile(
-              letter: _kLetters[i],
-              label: question.options[i],
-              selected: chosenIndex == i,
-              showResult: revealed,
-              isCorrect: i == question.correctIndex,
-              onTap: revealed ? () {} : () => onChoose(i),
-            ),
-          );
-        }),
-        if (chosenIndex != null) ...[
-          TutorBankContrast(
-            question: question,
-            chosenIndex: chosenIndex!,
-          ),
-          const SizedBox(height: 16),
-          TutorRematePanel(
-            question: question,
-            chosenIndex: chosenIndex!,
-            enabled: remateEnabled,
-            disabledReason: remateBlockedReason,
-          ),
-          const SizedBox(height: 20),
-          FilledButton(
-            onPressed: () => _practiceFocus(context, question),
-            child: const Text('Practicar más de este tema'),
-          ),
-          const SizedBox(height: 8),
-          TextButton(
-            onPressed: () => context.go('/app'),
-            child: const Text('Volver al inicio'),
-          ),
-        ],
-      ],
-    );
-  }
-
-  void _practiceFocus(BuildContext context, Question question) {
-    final code = question.knowledgeTags.isEmpty
-        ? null
-        : question.knowledgeTags.first.code;
-    if (code != null) {
-      launchProgressTopic(context, code);
-      return;
-    }
-    launchProgressPillar(context, question.pillar);
   }
 }

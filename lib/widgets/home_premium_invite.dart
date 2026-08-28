@@ -153,7 +153,7 @@ class HomePremiumInvite extends StatelessWidget {
                           const _PremiumPerk(
                             text: 'Casos del colegio y preguntas de tu área',
                           ),
-                          const _PremiumPerk(text: 'Tutor Inteligente en el inicio'),
+                          const _PremiumPerk(text: 'Tutor personalizado en el inicio'),
                           const SizedBox(height: 16),
                           priceLabel,
                           const SizedBox(height: 2),

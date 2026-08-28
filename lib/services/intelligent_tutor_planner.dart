@@ -45,10 +45,12 @@ abstract final class IntelligentTutorPlanner {
   }) {
     final pool = bank ?? QuestionBank.all;
     final rec = TagMasteryService.recommendedToday(profile);
-    final recentTag =
-        RecentSessionSnapshot.dominantWeakTag(profile.recentSessions);
-    final recentPillar =
-        RecentSessionSnapshot.dominantWeakPillar(profile.recentSessions);
+    final recentTag = RecentSessionSnapshot.dominantWeakTag(
+      profile.recentSessions,
+    );
+    final recentPillar = RecentSessionSnapshot.dominantWeakPillar(
+      profile.recentSessions,
+    );
     final pillar = recentPillar ?? ProgressGaps.weakestPillar(profile);
     final focusCode = recentTag ?? rec?.code;
     final fromRecent = recentTag != null;
@@ -116,18 +118,14 @@ abstract final class IntelligentTutorPlanner {
       if (focusCode != null)
         withCode(focusCode).where((q) => q.isCaseStudy).toList(),
       if (focusCode != null)
-        withCode(focusCode)
-            .where((q) => (q.caseContext ?? '').trim().isNotEmpty)
-            .toList(),
+        withCode(
+          focusCode,
+        ).where((q) => (q.caseContext ?? '').trim().isNotEmpty).toList(),
       if (focusCode != null) withCode(focusCode),
-      source
-          .where((q) => q.isCaseStudy && q.pillar == focusPillar)
-          .toList(),
+      source.where((q) => q.isCaseStudy && q.pillar == focusPillar).toList(),
       source.where((q) => q.pillar == focusPillar).toList(),
       source.where((q) => q.isCaseStudy).toList(),
-      source
-          .where((q) => (q.caseContext ?? '').trim().isNotEmpty)
-          .toList(),
+      source.where((q) => (q.caseContext ?? '').trim().isNotEmpty).toList(),
       source,
     ];
 
@@ -136,6 +134,52 @@ abstract final class IntelligentTutorPlanner {
       return _pickStable(group, now);
     }
     return _pickStable(source, now);
+  }
+
+  /// Segundo ítem del mismo hueco. Si [preferHarder], sube de exigencia.
+  static Question? pickFollowUp({
+    required List<Question> pool,
+    required Question primary,
+    required bool preferHarder,
+    DateTime? now,
+  }) {
+    final moment = now ?? DateTime.now();
+    final exclude = {primary.id};
+    final code = primary.knowledgeTags.isEmpty
+        ? null
+        : primary.knowledgeTags.first.code;
+
+    List<Question> sameCode() {
+      if (code == null) return const [];
+      return pool
+          .where(
+            (q) =>
+                !exclude.contains(q.id) &&
+                q.knowledgeTags.any((tag) => tag.code == code),
+          )
+          .toList();
+    }
+
+    final coded = sameCode();
+    final harder = coded
+        .where((q) => q.difficulty.level > primary.difficulty.level)
+        .toList();
+    final samePillar = pool
+        .where((q) => !exclude.contains(q.id) && q.pillar == primary.pillar)
+        .toList();
+
+    final ranked = <List<Question>>[
+      if (preferHarder && harder.isNotEmpty) harder,
+      if (coded.isNotEmpty) coded,
+      samePillar.where((q) => q.isCaseStudy).toList(),
+      samePillar,
+    ];
+
+    for (final group in ranked) {
+      if (group.isEmpty) continue;
+      return _pickStable(group, moment);
+    }
+    return null;
   }
 
   static Question _pickStable(List<Question> group, DateTime now) {
@@ -183,7 +227,8 @@ abstract final class IntelligentTutorPlanner {
     }
     if (fromRecent && recentTag != null) {
       return 'No es un tema al azar: sale de lo que más fallaste en tus '
-          'últimas sesiones. Elige cómo actuarías; el contraste ya está escrito.';
+          'últimas sesiones. Elige cómo actuarías; si no es la exigida, '
+          'te guío con una pista para que llegues tú.';
     }
     if (rec != null && rec.total > 0 && rec.level == MasteryLevel.critico) {
       return 'Según tu mapa de práctica (no el último simulacro), en '
@@ -194,7 +239,9 @@ abstract final class IntelligentTutorPlanner {
       return 'Según tu mapa de práctica, ${rec.headline} aún no tiene evidencias. '
           'Un caso corto hoy deja de ser un punto ciego.';
     }
-    if (rec != null && rec.total > 0 && rec.level == MasteryLevel.enDesarrollo) {
+    if (rec != null &&
+        rec.total > 0 &&
+        rec.level == MasteryLevel.enDesarrollo) {
       return 'Según tu mapa de práctica, en ${rec.headline} vas en desarrollo '
           '(${rec.accuracyPercent}%). Un caso de este dominio te acerca a Profesional.';
     }
