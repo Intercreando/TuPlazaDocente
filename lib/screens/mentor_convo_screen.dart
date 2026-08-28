@@ -87,6 +87,7 @@ class _MentorConvoScreenState extends State<MentorConvoScreen> {
       final result = await _service.start(
         question: args.question,
         chosenIndex: args.chosenIndex,
+        displayName: context.read<AppState>().profile.displayName,
       );
       if (!mounted) return;
       if (result.kind == 'trial') {

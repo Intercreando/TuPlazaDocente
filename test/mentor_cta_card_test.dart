@@ -17,7 +17,12 @@ void main() {
       findsOneWidget,
     );
     expect(
-      find.text('¿Quieres entender por qué esa no era la exigida?'),
+      find.textContaining('desglosar el criterio de la CNSC'),
+      findsOneWidget,
+    );
+    expect(find.text('Hablar con el Mentor'), findsOneWidget);
+    expect(
+      find.text('¿Quieres analizar por qué esta opción es incorrecta?'),
       findsNothing,
     );
   });
@@ -35,9 +40,14 @@ void main() {
       ),
     );
     expect(
-      find.text('¿Quieres entender por qué esa no era la exigida?'),
+      find.text('¿Quieres analizar por qué esta opción es incorrecta?'),
       findsOneWidget,
     );
+    expect(
+      find.textContaining('Disfruta de 1 sesión de prueba gratuita'),
+      findsOneWidget,
+    );
+    expect(find.text('Hablar con el Mentor'), findsOneWidget);
   });
 
   testWidgets(
@@ -51,11 +61,18 @@ void main() {
         ),
       );
       expect(
+        find.text('¿Quieres entender por qué esta opción es incorrecta?'),
+        findsOneWidget,
+      );
+      expect(
         find.textContaining('debatir a fondo el criterio pedagógico'),
         findsOneWidget,
       );
-      expect(find.textContaining(r'$19.900'), findsOneWidget);
-      expect(find.textContaining('sin cobros automáticos'), findsOneWidget);
+      expect(
+        find.textContaining('4 tutorías diarias por 30 días (sin cobros automáticos)'),
+        findsOneWidget,
+      );
+      expect(find.text('Activar pase por \$19.900 COP'), findsOneWidget);
     },
   );
 }

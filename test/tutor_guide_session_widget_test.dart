@@ -36,7 +36,9 @@ IntelligentTutorPlan _plan(Question q) {
 }
 
 class _Host extends StatefulWidget {
-  const _Host();
+  const _Host({this.showMixNudge = false});
+
+  final bool showMixNudge;
 
   @override
   State<_Host> createState() => _HostState();
@@ -52,12 +54,14 @@ class _HostState extends State<_Host> {
         body: TutorGuideSession(
           plan: _plan(guide.primary),
           guide: guide,
+          showMixNudge: widget.showMixNudge,
           onChoose: (index) {
             setState(() => guide.choose(index));
           },
           onStartFollowUp: () {},
           onPracticeMore: () {},
           onBackHome: () {},
+          onNextCase: () {},
         ),
       ),
     );
@@ -77,8 +81,12 @@ void main() {
     expect(host.guide.awaitingRetry, isTrue);
     expect(host.guide.hint, contains('debido proceso'));
     expect(
+      find.textContaining('Pista del tutor', skipOffstage: false),
+      findsOneWidget,
+    );
+    expect(
       find.textContaining(
-        'Con esa explicación, elige otra.',
+        'Con este análisis en mente, inténtalo de nuevo.',
         skipOffstage: false,
       ),
       findsOneWidget,
@@ -94,5 +102,46 @@ void main() {
       find.text('Practicar más de este tema', skipOffstage: false),
       findsNothing,
     );
+    expect(find.text('Otro caso del tutor', skipOffstage: false), findsNothing);
   });
+
+  testWidgets('al cerrar el caso ofrece otro caso del tutor', (tester) async {
+    await tester.pumpWidget(const _Host());
+
+    await tester.tap(find.text('Indagar con evidencia'));
+    await tester.pump();
+
+    final host = tester.state<_HostState>(find.byType(_Host));
+    expect(host.guide.primaryClosed, isTrue);
+
+    expect(
+      find.text('Otro caso del tutor', skipOffstage: false),
+      findsOneWidget,
+    );
+    expect(
+      find.text('Practicar más de este tema', skipOffstage: false),
+      findsOneWidget,
+    );
+    expect(find.text('Volver al inicio', skipOffstage: false), findsOneWidget);
+  });
+
+  testWidgets(
+    'la mezcla de entrenamientos no sale al abrir el caso, solo al cerrarlo',
+    (tester) async {
+      await tester.pumpWidget(const _Host(showMixNudge: true));
+
+      expect(
+        find.text('Diversifica tu preparación hoy', skipOffstage: false),
+        findsNothing,
+      );
+
+      await tester.tap(find.text('Indagar con evidencia'));
+      await tester.pump();
+
+      expect(
+        find.text('Diversifica tu preparación hoy', skipOffstage: false),
+        findsOneWidget,
+      );
+    },
+  );
 }

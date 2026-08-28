@@ -162,3 +162,36 @@ test("turno posterior de acierto recuerda no corregir", () => {
   const contents = core.slidingContents("antes", "mentor", "ahora", 3, true);
   assert.match(contents[2].parts[0].text, /no lo corrijas/);
 });
+
+test("sin nombre propio el trato es Profe", () => {
+  assert.equal(core.resolveAddressName(""), "Profe");
+  assert.equal(core.resolveAddressName("Aspirante"), "Profe");
+  assert.equal(core.resolveAddressName("Elkin Osorio"), "Elkin");
+});
+
+test("pulido corrige mattrato y el vocativo hijo", () => {
+  const dirty =
+      "El mattrato exige ruta. **Te entiendo, hijo.** Sigue el caso.";
+  const clean = core.polishMentorText(dirty, "");
+  assert.match(clean, /maltrato/);
+  assert.doesNotMatch(clean, /mattrato/i);
+  assert.match(clean, /Te entiendo, Profe/);
+  assert.doesNotMatch(clean, /hijo/);
+});
+
+test("pulido usa el primer nombre si es propio", () => {
+  const clean = core.polishMentorText("Te entiendo, hija.", "María Pérez");
+  assert.equal(clean, "Te entiendo, María.");
+});
+
+test("el prompt pide trato de colega, no de padre", () => {
+  const prompt = core.buildSystemPrompt({
+    stemClip: "¿Qué haces primero con un estudiante que llega tarde?",
+    correctClip: "Indagar",
+    chosenClip: "Indagar",
+    choseCorrect: true,
+    addressName: "Elkin",
+  });
+  assert.match(prompt, /Te entiendo, Elkin/);
+  assert.doesNotMatch(prompt, /padre paciente/);
+});

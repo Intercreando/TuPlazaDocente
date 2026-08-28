@@ -126,6 +126,16 @@ void main() {
     expect(picked.id, isNot('1290-caso'));
   });
 
+  test('excludeQuestionIds evita el caso actual y el peldaño', () {
+    final picked = IntelligentTutorPlanner.pickCase(
+      pool: bank,
+      focusPillar: CompetencyPillar.pedagogico,
+      excludeQuestionIds: {'1290-caso', 'piaget'},
+      now: DateTime(2026, 8, 27),
+    );
+    expect(picked.id, 'num');
+  });
+
   test('pickFollowUp no repite el caso y sube de exigencia si hay', () {
     final followBank = [
       _q(

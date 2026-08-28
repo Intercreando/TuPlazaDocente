@@ -10,50 +10,46 @@ void main() {
     SharedPreferences.setMockInitialValues({});
   });
 
-  test('con 2 tutorías no recuerda los otros modos', () async {
-    final prefs = await SharedPreferences.getInstance();
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
+  test('con 2 casos seguidos no recuerda los otros modos', () {
     expect(
-      await TutorDayBalance.shouldShowNudge(now: now, prefs: prefs),
+      TutorDayBalance.nudgeForStreak(
+        consecutiveClosed: 2,
+        mixedOtherToday: false,
+      ),
       isFalse,
     );
   });
 
-  test(
-    'a la tercera tutoría del día, si no practicó otra cosa, sí recuerda',
-    () async {
-      final prefs = await SharedPreferences.getInstance();
-      await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-      await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-      await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-      expect(
-        await TutorDayBalance.shouldShowNudge(now: now, prefs: prefs),
-        isTrue,
-      );
-    },
-  );
+  test('a la tercera tutoría seguida, si no practicó otra cosa, sí recuerda', () {
+    expect(
+      TutorDayBalance.nudgeForStreak(
+        consecutiveClosed: 3,
+        mixedOtherToday: false,
+      ),
+      isTrue,
+    );
+  });
 
-  test('si ya hizo simulacro o práctica, no insiste', () async {
+  test('si ya hizo simulacro o práctica, no insiste', () {
+    expect(
+      TutorDayBalance.nudgeForStreak(
+        consecutiveClosed: 3,
+        mixedOtherToday: true,
+      ),
+      isFalse,
+    );
+  });
+
+  test('al día siguiente el conteo de otros modos arranca de cero', () async {
     final prefs = await SharedPreferences.getInstance();
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
     await TutorDayBalance.recordOtherTraining(now: now, prefs: prefs);
     expect(
-      await TutorDayBalance.shouldShowNudge(now: now, prefs: prefs),
-      isFalse,
+      await TutorDayBalance.hasOtherTrainingToday(now: now, prefs: prefs),
+      isTrue,
     );
-  });
-
-  test('al día siguiente el conteo arranca de cero', () async {
-    final prefs = await SharedPreferences.getInstance();
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
-    await TutorDayBalance.recordTutorVisit(now: now, prefs: prefs);
     final nextDay = now.add(const Duration(days: 1));
     expect(
-      await TutorDayBalance.shouldShowNudge(now: nextDay, prefs: prefs),
+      await TutorDayBalance.hasOtherTrainingToday(now: nextDay, prefs: prefs),
       isFalse,
     );
   });

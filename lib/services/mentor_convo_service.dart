@@ -68,6 +68,7 @@ class MentorConvoService {
   Future<MentorTurnResult> start({
     required Question question,
     required int chosenIndex,
+    String displayName = '',
   }) async {
     if (chosenIndex < 0 || chosenIndex >= question.options.length) {
       throw Exception('La postura marcada no es válida.');
@@ -80,6 +81,7 @@ class MentorConvoService {
       'chosenOption': question.options[chosenIndex],
       'chosenIndex': chosenIndex,
       'correctIndex': question.correctIndex,
+      'displayName': displayName,
     });
   }
 

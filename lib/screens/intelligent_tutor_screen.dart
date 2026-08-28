@@ -36,6 +36,7 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
   var _recordedPrimary = false;
   var _recordedFollowUp = false;
   var _showMixNudge = false;
+  var _consecutiveClosed = 0;
   var _handledMentorReturn = false;
 
   @override
@@ -57,7 +58,7 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
     });
   }
 
-  Future<void> _load() async {
+  Future<void> _load({Set<String>? extraExcludeIds}) async {
     final state = context.read<AppState>();
     if (!state.profile.isPremium) {
       if (!mounted) return;
@@ -70,20 +71,21 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
     }
     try {
       final prefs = await SharedPreferences.getInstance();
-      final exclude = prefs.getString(_kLastCaseKey);
+      final lastId = prefs.getString(_kLastCaseKey);
       final plan = IntelligentTutorPlanner.build(
         state.profile,
-        excludeQuestionId: exclude,
+        excludeQuestionId: lastId,
+        excludeQuestionIds: extraExcludeIds,
       );
       await prefs.setString(_kLastCaseKey, plan.question.id);
-      if (!mounted) return;
-      final showNudge = await TutorDayBalance.shouldShowNudge();
       if (!mounted) return;
       setState(() {
         _plan = plan;
         _guide = IntelligentTutorGuide(primary: plan.question);
         _loadError = null;
-        _showMixNudge = showNudge;
+        _showMixNudge = false;
+        _recordedPrimary = false;
+        _recordedFollowUp = false;
       });
     } catch (e) {
       if (!mounted) return;
@@ -93,6 +95,21 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
       });
       debugPrint('IntelligentTutorScreen: $e');
     }
+  }
+
+  Future<void> _nextCase() async {
+    final extra = <String>{
+      if (_guide != null) _guide!.primary.id,
+      if (_guide?.followUp != null) _guide!.followUp!.id,
+    };
+    if (mounted) {
+      setState(() {
+        _plan = null;
+        _guide = null;
+        _loadError = null;
+      });
+    }
+    await _load(extraExcludeIds: extra);
   }
 
   Future<void> _choose(int index) async {
@@ -120,14 +137,21 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
       preferHarder: guide.firstTryCorrect,
     );
     guide.attachFollowUp(next);
+    _consecutiveClosed += 1;
+    var mixedOther = false;
     try {
       await TutorDayBalance.recordTutorVisit();
+      mixedOther = await TutorDayBalance.hasOtherTrainingToday();
     } catch (e) {
       debugPrint('IntelligentTutorScreen tutor visit: $e');
     }
-    final showNudge = await TutorDayBalance.shouldShowNudge();
     if (!mounted) return;
-    setState(() => _showMixNudge = showNudge);
+    setState(() {
+      _showMixNudge = TutorDayBalance.nudgeForStreak(
+        consecutiveClosed: _consecutiveClosed,
+        mixedOtherToday: mixedOther,
+      );
+    });
     await _recordPrimary();
   }
 
@@ -221,12 +245,14 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
                 : plan == null || guide == null
                 ? const Center(child: CircularProgressIndicator())
                 : TutorGuideSession(
+                    key: ValueKey(guide.primary.id),
                     plan: plan,
                     guide: guide,
                     onChoose: _choose,
                     onStartFollowUp: _startFollowUp,
                     onPracticeMore: _practiceFocus,
                     onBackHome: () => context.go('/app'),
+                    onNextCase: _nextCase,
                     showMixNudge: _showMixNudge,
                     mentorCta:
                         guide.primaryClosed && guide.primaryChoice != null

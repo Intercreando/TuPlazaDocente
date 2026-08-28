@@ -24,34 +24,34 @@ class TutorMixNudge extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              'Hoy ya llevas varias tutorías',
+              'Diversifica tu preparación hoy',
               style: theme.textTheme.titleSmall,
             ),
             const SizedBox(height: 8),
             Text(
-              'El tutor te lleva a la clave de un tema. Para el concurso '
-              'también importa practicar de otras formas el mismo día:',
+              'Has aprovechado al máximo el tutor por hoy. Maximiza tu tiempo '
+              'alternando con otros métodos de estudio:',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 10),
             Text(
-              'Simulacro con tiempo — como el día de la prueba.',
+              'Simulacros: Entrénate contra el reloj.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 4),
             Text(
-              'Mi área — las preguntas de tu especialidad.',
+              'Tu especialidad: Domina los temas de tu área.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 4),
             Text(
-              'Preguntas cortas o las 8 sin reloj — para coger volumen.',
+              'Práctica libre: Resuelve preguntas para ganar agilidad.',
               style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 14),
             FilledButton(
               onPressed: onSeeOtherTrainings,
-              child: const Text('Ver los otros entrenamientos'),
+              child: const Text('Ver otros entrenamientos'),
             ),
           ],
         ),

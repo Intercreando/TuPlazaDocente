@@ -2,16 +2,11 @@ import 'package:flutter/material.dart';
 
 import '../theme/app_colors.dart';
 
-/// Pista del papá: valida el error y no suelta la respuesta.
+/// Pista tras el primer fallo: valida el error y no suelta la respuesta.
 class TutorHintCard extends StatelessWidget {
-  const TutorHintCard({
-    super.key,
-    required this.text,
-    required this.attemptLabel,
-  });
+  const TutorHintCard({super.key, required this.text});
 
   final String text;
-  final String attemptLabel;
 
   @override
   Widget build(BuildContext context) {
@@ -28,7 +23,7 @@ class TutorHintCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(attemptLabel, style: theme.textTheme.labelLarge),
+            Text('💡 Pista del tutor', style: theme.textTheme.labelLarge),
             const SizedBox(height: 6),
             Text(
               'Por qué lo que marcaste no encaja',
@@ -38,7 +33,7 @@ class TutorHintCard extends StatelessWidget {
             Text(text, style: theme.textTheme.bodyMedium),
             const SizedBox(height: 10),
             Text(
-              'Con esa explicación, elige otra.',
+              'Con este análisis en mente, inténtalo de nuevo.',
               style: theme.textTheme.bodyMedium,
             ),
           ],

@@ -30,7 +30,7 @@ class HomeTutorSpotlight extends StatelessWidget {
     final goldFill = AppColors.gold.withValues(alpha: dark ? 0.16 : 0.14);
 
     final kicker = Text(
-      'Te lleva de la mano',
+      'Guía paso a paso',
       style: theme.textTheme.labelLarge?.copyWith(color: AppColors.goldDeep),
     );
     final title = Text(
@@ -40,11 +40,9 @@ class HomeTutorSpotlight extends StatelessWidget {
           : theme.textTheme.titleLarge,
     );
     final body = Text(
-      premium
-          ? 'Diagnóstico de tu hueco, un caso y la clave del tema. '
-                'Sin chat libre: te guía hasta que sepas por qué marcar.'
-          : 'Incluido en Premium. Te guía hasta la clave del tema '
-                'con el caso que más te cuesta.',
+      'Identifica tus áreas de mejora resolviendo un caso práctico. '
+      'Recibe retroalimentación estructurada y pistas pedagógicas '
+      'para que aprendas a deducir la respuesta correcta sin perder el enfoque.',
       style: theme.textTheme.bodyMedium,
     );
     final cta = FilledButton.icon(

@@ -251,6 +251,9 @@ exports.startMentorSession = onCall(CALL_OPTS, async (request) => {
     chosenClip,
     correctClip,
   });
+  const addressName = core.resolveAddressName(
+      data.displayName || userSnap.data()?.displayName,
+  );
 
   const day = bogotaDay();
   await reserveStart(db, uid, access.kind);
@@ -267,13 +270,17 @@ exports.startMentorSession = onCall(CALL_OPTS, async (request) => {
     correctClip,
     chosenClip,
     choseCorrect,
+    addressName,
     stanceSummary: core.stanceSummaryFrom(chosenClip, "", choseCorrect),
   };
   const systemPrompt = core.buildSystemPrompt(sessionSeed);
 
   try {
-    const text = await callMentor(
-        systemPrompt, core.buildOpeningPrompt(choseCorrect),
+    const text = core.polishMentorText(
+        await callMentor(
+            systemPrompt, core.buildOpeningPrompt(choseCorrect),
+        ),
+        addressName,
     );
     const sessionRef = db.collection(`users/${uid}/tutorSessions`).doc();
     const closed = core.nextTurnState(1, access.kind);
@@ -289,6 +296,7 @@ exports.startMentorSession = onCall(CALL_OPTS, async (request) => {
       correctClip,
       chosenClip,
       choseCorrect,
+      addressName,
       stanceSummary: sessionSeed.stanceSummary,
       lastUserClip: "",
       lastMentorClip: core.clipText(text, 700),
@@ -395,7 +403,10 @@ exports.mentorConvoTurn = onCall(CALL_OPTS, async (request) => {
         nextTurn,
         hit,
     );
-    const text = await callMentor(systemPrompt, userText, contents);
+    const text = core.polishMentorText(
+        await callMentor(systemPrompt, userText, contents),
+        locked.addressName,
+    );
     const closed = core.nextTurnState(nextTurn, locked.kind);
     const summary = core.stanceSummaryFrom(locked.chosenClip, userText, hit);
     await sessionRef.set({

@@ -23,6 +23,7 @@ class TutorGuideSession extends StatelessWidget {
     required this.onStartFollowUp,
     required this.onPracticeMore,
     required this.onBackHome,
+    this.onNextCase,
     this.showMixNudge = false,
     this.mentorCta,
   });
@@ -33,127 +34,134 @@ class TutorGuideSession extends StatelessWidget {
   final VoidCallback onStartFollowUp;
   final VoidCallback onPracticeMore;
   final VoidCallback onBackHome;
+  final VoidCallback? onNextCase;
   final bool showMixNudge;
   final Widget? mentorCta;
 
   @override
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
-    return ListView(
+    return SingleChildScrollView(
       padding: const EdgeInsets.fromLTRB(20, 12, 20, 28),
-      children: [
-        Text(
-          'Hola, ${plan.displayName}.',
-          style: theme.textTheme.headlineSmall,
-        ),
-        const SizedBox(height: 8),
-        Text(plan.headline, style: theme.textTheme.titleMedium),
-        const SizedBox(height: 6),
-        Text(plan.body, style: theme.textTheme.bodyMedium),
-        if (plan.weakLabels.isNotEmpty) ...[
-          const SizedBox(height: 10),
-          Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              for (final label in plan.weakLabels) Chip(label: Text(label)),
-            ],
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          Text(
+            'Hola, ${plan.displayName}.',
+            style: theme.textTheme.headlineSmall,
           ),
-        ],
-        if (showMixNudge && !guide.primaryClosed) ...[
-          const SizedBox(height: 16),
-          TutorMixNudge(onSeeOtherTrainings: onBackHome),
-        ],
-        const SizedBox(height: 18),
-        Text('Tu caso de hoy', style: theme.textTheme.titleLarge),
-        const SizedBox(height: 8),
-        _CaseBlock(
-          question: guide.primary,
-          selectedIndex: guide.primaryChoice,
-          revealed: guide.primaryClosed,
-          eliminated: guide.showingFollowUp ? const {} : guide.eliminated,
-          onChoose: guide.primaryClosed ? null : onChoose,
-          banner: guide.awaitingRetry
-              ? TutorHintCard(
-                  attemptLabel:
-                      'Intento ${guide.primaryAttempts} de '
-                      '${IntelligentTutorGuide.maxPrimaryAttempts}',
-                  text: guide.hint,
-                )
-              : null,
-        ),
-        if (guide.primaryClosed) ...[
-          const SizedBox(height: 14),
-          if (_failedToArrive) ...[
-            TutorBankContrast(
-              question: guide.primary,
-              chosenIndex: guide.primaryChoice ?? 0,
+          const SizedBox(height: 8),
+          Text(plan.headline, style: theme.textTheme.titleMedium),
+          const SizedBox(height: 6),
+          Text(plan.body, style: theme.textTheme.bodyMedium),
+          if (plan.weakLabels.isNotEmpty) ...[
+            const SizedBox(height: 10),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: [
+                for (final label in plan.weakLabels) Chip(label: Text(label)),
+              ],
+            ),
+          ],
+          const SizedBox(height: 18),
+          Text('Tu caso de hoy', style: theme.textTheme.titleLarge),
+          const SizedBox(height: 8),
+          _CaseBlock(
+            question: guide.primary,
+            selectedIndex: guide.primaryChoice,
+            revealed: guide.primaryClosed,
+            eliminated: guide.showingFollowUp ? const {} : guide.eliminated,
+            onChoose: guide.primaryClosed ? null : onChoose,
+            banner: guide.awaitingRetry
+                ? TutorHintCard(text: guide.hint)
+                : null,
+          ),
+          if (guide.primaryClosed) ...[
+            const SizedBox(height: 14),
+            if (_failedToArrive) ...[
+              TutorBankContrast(
+                question: guide.primary,
+                chosenIndex: guide.primaryChoice ?? 0,
+              ),
+              const SizedBox(height: 12),
+            ],
+            TutorClaveCard(
+              title: _claveTitle(),
+              clave: TutorScaffoldCopy.claveFor(guide.primary),
+            ),
+            if (mentorCta != null) ...[const SizedBox(height: 16), mentorCta!],
+          ],
+          if (guide.canOfferFollowUp) ...[
+            const SizedBox(height: 16),
+            FilledButton(
+              onPressed: onStartFollowUp,
+              child: Text(
+                guide.firstTryCorrect
+                    ? 'Un peldaño más del mismo tema'
+                    : 'Apliquemos la clave en otro caso',
+              ),
+            ),
+          ],
+          if (guide.showingFollowUp && guide.followUp != null) ...[
+            const SizedBox(height: 22),
+            Text(
+              guide.firstTryCorrect
+                  ? 'Mismo hueco, un poco más exigente'
+                  : 'Comprobemos la clave',
+              style: theme.textTheme.titleLarge,
+            ),
+            const SizedBox(height: 8),
+            Text(
+              'Una sola postura. Ya viste la regla; aplícala aquí.',
+              style: theme.textTheme.bodyMedium,
             ),
             const SizedBox(height: 12),
-          ],
-          TutorClaveCard(
-            title: _claveTitle(),
-            clave: TutorScaffoldCopy.claveFor(guide.primary),
-          ),
-          if (mentorCta != null) ...[const SizedBox(height: 16), mentorCta!],
-        ],
-        if (guide.canOfferFollowUp) ...[
-          const SizedBox(height: 16),
-          FilledButton(
-            onPressed: onStartFollowUp,
-            child: Text(
-              guide.firstTryCorrect
-                  ? 'Un peldaño más del mismo tema'
-                  : 'Apliquemos la clave en otro caso',
-            ),
-          ),
-        ],
-        if (guide.showingFollowUp && guide.followUp != null) ...[
-          const SizedBox(height: 22),
-          Text(
-            guide.firstTryCorrect
-                ? 'Mismo hueco, un poco más exigente'
-                : 'Comprobemos la clave',
-            style: theme.textTheme.titleLarge,
-          ),
-          const SizedBox(height: 8),
-          Text(
-            'Una sola postura. Ya viste la regla; aplícala aquí.',
-            style: theme.textTheme.bodyMedium,
-          ),
-          const SizedBox(height: 12),
-          _CaseBlock(
-            question: guide.followUp!,
-            selectedIndex: guide.followUpChoice,
-            revealed: guide.followUpClosed,
-            eliminated: const {},
-            onChoose: guide.followUpClosed ? null : onChoose,
-          ),
-          if (guide.followUpClosed && guide.followUpChoice != null) ...[
-            const SizedBox(height: 14),
-            TutorBankContrast(
+            _CaseBlock(
               question: guide.followUp!,
-              chosenIndex: guide.followUpChoice!,
+              selectedIndex: guide.followUpChoice,
+              revealed: guide.followUpClosed,
+              eliminated: const {},
+              onChoose: guide.followUpClosed ? null : onChoose,
+            ),
+            if (guide.followUpClosed && guide.followUpChoice != null) ...[
+              const SizedBox(height: 14),
+              TutorBankContrast(
+                question: guide.followUp!,
+                chosenIndex: guide.followUpChoice!,
+              ),
+            ],
+          ],
+          if (guide.primaryClosed) ...[
+            const SizedBox(height: 20),
+            if (showMixNudge) ...[
+              TutorMixNudge(onSeeOtherTrainings: onBackHome),
+              const SizedBox(height: 16),
+            ],
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                if (onNextCase != null) ...[
+                  FilledButton(
+                    onPressed: onNextCase,
+                    child: const Text('Otro caso del tutor'),
+                  ),
+                  const SizedBox(height: 8),
+                ],
+                OutlinedButton(
+                  onPressed: onPracticeMore,
+                  child: const Text('Practicar más de este tema'),
+                ),
+                const SizedBox(height: 8),
+                TextButton(
+                  onPressed: onBackHome,
+                  child: const Text('Volver al inicio'),
+                ),
+              ],
             ),
           ],
         ],
-        if (guide.primaryClosed) ...[
-          const SizedBox(height: 20),
-          if (showMixNudge) ...[
-            TutorMixNudge(onSeeOtherTrainings: onBackHome),
-            const SizedBox(height: 16),
-          ],
-          FilledButton(
-            onPressed: onPracticeMore,
-            child: const Text('Practicar más de este tema'),
-          ),
-          const SizedBox(height: 8),
-          TextButton(
-            onPressed: onBackHome,
-            child: const Text('Volver al inicio'),
-          ),
-        ],
-      ],
+      ),
     );
   }
 

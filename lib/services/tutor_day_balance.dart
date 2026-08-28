@@ -38,13 +38,21 @@ abstract final class TutorDayBalance {
     await store.prefs.setInt(_otherKey, store.otherCount + 1);
   }
 
-  /// Varias tutorías hoy y ningún otro modo.
-  static Future<bool> shouldShowNudge({
+  /// Casos cerrados seguidos en esta visita al tutor, sin mezclar otro modo.
+  static bool nudgeForStreak({
+    required int consecutiveClosed,
+    required bool mixedOtherToday,
+  }) {
+    return consecutiveClosed >= nudgeAfterVisits && !mixedOtherToday;
+  }
+
+  /// Ya practicó simulacro, área, cortas u otro modo hoy.
+  static Future<bool> hasOtherTrainingToday({
     DateTime? now,
     SharedPreferences? prefs,
   }) async {
     final store = await _ready(prefs, now);
-    return store.tutorCount >= nudgeAfterVisits && store.otherCount <= 0;
+    return store.otherCount > 0;
   }
 
   static Future<_BalanceStore> _ready(

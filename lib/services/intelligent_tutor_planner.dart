@@ -41,6 +41,7 @@ abstract final class IntelligentTutorPlanner {
     UserProfile profile, {
     List<Question>? bank,
     String? excludeQuestionId,
+    Iterable<String>? excludeQuestionIds,
     DateTime? now,
   }) {
     final pool = bank ?? QuestionBank.all;
@@ -59,6 +60,7 @@ abstract final class IntelligentTutorPlanner {
       focusCode: focusCode,
       focusPillar: pillar,
       excludeQuestionId: excludeQuestionId,
+      excludeQuestionIds: excludeQuestionIds,
       now: now ?? DateTime.now(),
     );
 
@@ -100,14 +102,20 @@ abstract final class IntelligentTutorPlanner {
     KnowledgeCode? focusCode,
     required CompetencyPillar focusPillar,
     String? excludeQuestionId,
+    Iterable<String>? excludeQuestionIds,
     required DateTime now,
   }) {
     if (pool.isEmpty) {
       throw StateError('El banco de preguntas está vacío.');
     }
-    final filtered = excludeQuestionId == null || pool.length == 1
+    final banned = <String>{
+      if (excludeQuestionId != null && excludeQuestionId.isNotEmpty)
+        excludeQuestionId,
+      ...?excludeQuestionIds,
+    };
+    final filtered = banned.isEmpty || pool.length <= 1
         ? pool
-        : pool.where((q) => q.id != excludeQuestionId).toList();
+        : pool.where((q) => !banned.contains(q.id)).toList();
     final source = filtered.isEmpty ? pool : filtered;
 
     List<Question> withCode(KnowledgeCode code) => source

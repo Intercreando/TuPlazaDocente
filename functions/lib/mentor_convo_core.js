@@ -108,6 +108,44 @@ function sessionChoseCorrect(session) {
   return resolveChoseCorrect(session);
 }
 
+const ADDRESS_BLOCKED = new Set([
+  "aspirante", "usuario", "user", "docente", "profe", "profesor",
+  "profesora", "anonimo", "anónimo", "invitado", "guest",
+]);
+
+/**
+ * Nombre de trato: primer nombre propio, o «Profe».
+ * @param {unknown} raw
+ * @return {string}
+ */
+function resolveAddressName(raw) {
+  const first = clipText(raw, 40).split(/\s+/)[0] || "";
+  const lower = first.toLowerCase();
+  if (!first || ADDRESS_BLOCKED.has(lower)) return "Profe";
+  if (!/^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ]{2,20}$/.test(first)) return "Profe";
+  if (first === first.toUpperCase()) {
+    return first.charAt(0) + first.slice(1).toLowerCase();
+  }
+  return first;
+}
+
+/**
+ * Corrige typos frecuentes y el vocativo infantil del modelo.
+ * @param {unknown} raw
+ * @param {unknown} addressName
+ * @return {string}
+ */
+function polishMentorText(raw, addressName) {
+  const name = resolveAddressName(addressName);
+  let text = String(raw || "");
+  text = text.replace(/\bmattrato\b/gi, "maltrato");
+  text = text.replace(
+      /\b(Te entiendo|Entiendo),?\s*(hijo|hija|mijo|mija)\b/gi,
+      `$1, ${name}`,
+  );
+  return text;
+}
+
 /**
  * @param {boolean} hit
  * @return {string}
@@ -137,6 +175,7 @@ function outcomeRules(hit) {
  */
 function buildSystemPrompt(session) {
   const hit = sessionChoseCorrect(session);
+  const name = resolveAddressName(session && session.addressName);
   const caso = session.caseClip
       ? `${session.caseClip}\n\n${session.stemClip}`
       : session.stemClip;
@@ -144,9 +183,14 @@ function buildSystemPrompt(session) {
       ? session.stanceSummary
       : (hit ? "Acertó de entrada." : "Aún no reformuló su postura.");
   return "Eres un mentor pedagógico experto del concurso docente CNSC/ICFES. " +
-      "Enseñas como un padre paciente. Máximo 100 palabras. Cero saludos. " +
+      "Enseñas como un colega experto, cercano y profesional. " +
+      "Máximo 100 palabras. No saludes con hola ni buenos días. " +
       "Hasta 2 negritas **concepto**. No inventes artículos ni decretos. " +
       "Si dudas, apóyate en la opción correcta del caso.\n\n" +
+      "Trato: dirige al docente como «" + name + "». Si empatizas, " +
+      "«Te entiendo, " + name + ".» Nunca hijo, hija, mijo ni mija. " +
+      "Español de Colombia, ortografía correcta: maltrato " +
+      "(nunca mattrato).\n\n" +
       outcomeRules(hit) + "\n\n" +
       "El docente ya vio la clave del banco. No recites la letra (A/B/C) " +
       "como spoiler; habla del criterio.\n\n" +
@@ -275,6 +319,8 @@ module.exports = {
   resolveAccess,
   resolveChoseCorrect,
   sessionChoseCorrect,
+  resolveAddressName,
+  polishMentorText,
   outcomeRules,
   buildSystemPrompt,
   buildOpeningPrompt,

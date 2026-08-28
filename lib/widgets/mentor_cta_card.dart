@@ -43,12 +43,7 @@ class MentorCtaCard extends StatelessWidget {
                 color: AppColors.canopy,
               ),
             ),
-            Text(
-              choseCorrect
-                  ? '¿Quieres dominar el porqué de esta respuesta?'
-                  : '¿Quieres entender por qué esa no era la exigida?',
-              style: theme.textTheme.titleSmall,
-            ),
+            Text(_title(), style: theme.textTheme.titleSmall),
             const SizedBox(height: 6),
             Text(_body(), style: theme.textTheme.bodySmall),
             if (!enabled && blockedReason != null) ...[
@@ -58,16 +53,22 @@ class MentorCtaCard extends StatelessWidget {
             const SizedBox(height: 10),
             FilledButton(
               onPressed: enabled ? onOpen : null,
-              child: Text(
-                trialUsed && !hasPass
-                    ? 'Activar pase de 30 días'
-                    : 'Hablar con el Mentor IA',
-              ),
+              child: Text(_buttonLabel()),
             ),
           ],
         ),
       ),
     );
+  }
+
+  String _title() {
+    if (choseCorrect) {
+      return '¿Quieres dominar el porqué de esta respuesta?';
+    }
+    if (trialUsed && !hasPass) {
+      return '¿Quieres entender por qué esta opción es incorrecta?';
+    }
+    return '¿Quieres analizar por qué esta opción es incorrecta?';
   }
 
   String _body() {
@@ -78,10 +79,22 @@ class MentorCtaCard extends StatelessWidget {
     if (trialUsed) {
       return 'Ya usaste tu prueba gratuita. Activa tu pase de 30 días '
           'para debatir a fondo el criterio pedagógico de cada caso. '
-          'Incluye 4 tutorías diarias por 30 días. '
-          '${AppConfig.mentorPassPriceLabel} (sin cobros automáticos).';
+          'Incluye 4 tutorías diarias por 30 días (sin cobros automáticos).';
     }
-    return 'Tienes 1 sesión de prueba de por vida. 8 turnos sobre ESTE caso. '
-        'No es un chat libre.';
+    if (choseCorrect) {
+      return 'Inicia tu sesión de prueba gratuita. Aprovecha 8 turnos de '
+          'debate exclusivo sobre este caso para desglosar el criterio '
+          'de la CNSC y no dudar en el examen real.';
+    }
+    return 'Disfruta de 1 sesión de prueba gratuita. Tendrás hasta 8 turnos '
+        'de debate enfocado exclusivamente en este caso para deducir '
+        'la respuesta correcta.';
+  }
+
+  String _buttonLabel() {
+    if (trialUsed && !hasPass) {
+      return 'Activar pase por ${AppConfig.mentorPassPriceLabel}';
+    }
+    return 'Hablar con el Mentor';
   }
 }

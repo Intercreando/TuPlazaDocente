@@ -253,7 +253,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
                         : AppConfig.premiumBillingLabel,
                     items: const [
                       'Práctica ilimitada con explicaciones',
-                      'Tutor personalizado: te lleva de la mano hasta la clave',
+                      'Tutor personalizado: retroalimentación estratégica para asegurar tu puntaje',
                       'Simulacros ilimitados + mapa de calor',
                       'Casos de aula y práctica por especialidad',
                       'Drill cronometrado en el plan (cerca del examen)',
