@@ -15,6 +15,20 @@ abstract final class AppConfig {
       'No es un débito automático. Cuando venza, puedes renovar a mano por '
       'otros 30 días. El Premium de la convocatoria no cambia.';
 
+  static const String mentorPassPaywallTitle = 'Tu mentor, todos los días';
+
+  static const String mentorPassPaywallLead =
+      'La prueba te mostró cómo se siente que te lleven de la mano en un caso. '
+      'El pase es para que eso no se quede en una sola vez: llegas al simulacro '
+      'sabiendo por qué marcar.';
+
+  /// Beneficios para quien paga el pase (copy de producto, no de tecnología).
+  static const List<String> mentorPassBenefits = [
+    'Anclas el criterio del concurso: por qué esa actuación es la exigida, no solo la letra.',
+    '4 tutorías al día durante 30 días, 8 turnos cada una, sobre el caso que te está costando.',
+    'Un mentor que te pregunta y te reenfoca hasta que lo sepas explicar. No es un chat libre.',
+  ];
+
   /// Valor numérico Premium en COP (Meta Pixel / analítica).
   static const double premiumPriceCop = 89900;
 

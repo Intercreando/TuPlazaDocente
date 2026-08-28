@@ -21,7 +21,7 @@ import '../widgets/tutor_guide_session.dart';
 
 const _kLastCaseKey = 'tutor_inteligente_last_question_id';
 
-/// Tutoría guiada: pistas y clave del banco; Vertex solo en el remate.
+/// Tutoría guiada: pistas y clave del banco. La charla Vertex es el Mentor IA.
 class IntelligentTutorScreen extends StatefulWidget {
   const IntelligentTutorScreen({super.key});
 
@@ -227,12 +227,6 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
                     onStartFollowUp: _startFollowUp,
                     onPracticeMore: _practiceFocus,
                     onBackHome: () => context.go('/app'),
-                    remateEnabled:
-                        state.profile.isPremium && !state.isAnonymousUser,
-                    remateBlockedReason: state.isAnonymousUser
-                        ? 'Crea una cuenta (Google o correo) para el remate. '
-                              'El caso y la clave ya están arriba.'
-                        : null,
                     showMixNudge: _showMixNudge,
                     mentorCta:
                         guide.primaryClosed && guide.primaryChoice != null
@@ -244,6 +238,9 @@ class _IntelligentTutorScreenState extends State<IntelligentTutorScreen> {
                                 : null,
                             hasPass: state.profile.hasMentorPass,
                             trialUsed: state.profile.mentorTrialUsed,
+                            choseCorrect: guide.primary.isCorrect(
+                              guide.primaryChoice!,
+                            ),
                             onOpen: _openMentor,
                           )
                         : null,

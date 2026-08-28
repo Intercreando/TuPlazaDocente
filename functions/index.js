@@ -11,7 +11,6 @@
  * - sendOrganicUpsellEmail: invitacion Premium a orgánicos (~3 días)
  * - serveNewsPage: HTML de /noticias y /noticias/<slug>/ al publicar
  * - explainPracticeItem: tutor de texto Vertex/Gemini (Premium, 8/día)
- * - tutorConvoRemate: remate Vertex del Tutor personalizado (2/día)
  * - startMentorSession / mentorConvoTurn: Mentor IA (prueba 1 sesión / pase 4 al día)
  */
 const crypto = require("crypto");
@@ -815,7 +814,6 @@ exports.sendOrganicUpsellEmail = organicUpsell.sendOrganicUpsellEmail;
 exports.sendFounderOfferEmails = founderOffer.sendFounderOfferEmails;
 exports.runFounderOfferJob = founderOffer.runFounderOfferJob;
 exports.explainPracticeItem = require("./ai_explain").explainPracticeItem;
-exports.tutorConvoRemate = require("./tutor_remate").tutorConvoRemate;
 exports.startMentorSession = require("./mentor_convo").startMentorSession;
 exports.mentorConvoTurn = require("./mentor_convo").mentorConvoTurn;
 exports.createMentorPassCheckout = mentorPass.createMentorPassCheckout;

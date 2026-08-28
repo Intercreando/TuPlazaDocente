@@ -79,6 +79,7 @@ class MentorConvoService {
       'correctOption': question.options[question.correctIndex],
       'chosenOption': question.options[chosenIndex],
       'chosenIndex': chosenIndex,
+      'correctIndex': question.correctIndex,
     });
   }
 

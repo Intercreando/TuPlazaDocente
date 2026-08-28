@@ -10,7 +10,6 @@ import 'tutor_bank_contrast.dart';
 import 'tutor_clave_card.dart';
 import 'tutor_hint_card.dart';
 import 'tutor_mix_nudge.dart';
-import 'tutor_remate_panel.dart';
 
 const _kLetters = ['A', 'B', 'C', 'D', 'E', 'F'];
 
@@ -24,8 +23,6 @@ class TutorGuideSession extends StatelessWidget {
     required this.onStartFollowUp,
     required this.onPracticeMore,
     required this.onBackHome,
-    required this.remateEnabled,
-    this.remateBlockedReason,
     this.showMixNudge = false,
     this.mentorCta,
   });
@@ -36,8 +33,6 @@ class TutorGuideSession extends StatelessWidget {
   final VoidCallback onStartFollowUp;
   final VoidCallback onPracticeMore;
   final VoidCallback onBackHome;
-  final bool remateEnabled;
-  final String? remateBlockedReason;
   final bool showMixNudge;
   final Widget? mentorCta;
 
@@ -100,15 +95,6 @@ class TutorGuideSession extends StatelessWidget {
             title: _claveTitle(),
             clave: TutorScaffoldCopy.claveFor(guide.primary),
           ),
-          if (guide.primaryChoice != null) ...[
-            const SizedBox(height: 16),
-            TutorRematePanel(
-              question: guide.primary,
-              chosenIndex: guide.primaryChoice!,
-              enabled: remateEnabled,
-              disabledReason: remateBlockedReason,
-            ),
-          ],
           if (mentorCta != null) ...[const SizedBox(height: 16), mentorCta!],
         ],
         if (guide.canOfferFollowUp) ...[

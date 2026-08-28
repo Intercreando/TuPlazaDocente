@@ -61,7 +61,12 @@ class MentorCaseAccordion extends StatelessWidget {
               Text(question.stem, style: theme.textTheme.bodyMedium),
               if (chosen.isNotEmpty) ...[
                 const SizedBox(height: 12),
-                Text('Tu postura', style: theme.textTheme.titleSmall),
+                Text(
+                  question.isCorrect(chosenIndex)
+                      ? 'Tu postura (la exigida)'
+                      : 'Tu postura',
+                  style: theme.textTheme.titleSmall,
+                ),
                 const SizedBox(height: 4),
                 Text('$letter. $chosen', style: theme.textTheme.bodyMedium),
               ],

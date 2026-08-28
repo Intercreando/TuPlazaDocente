@@ -90,3 +90,75 @@ test("thinking fresco no es huérfano; sin fecha o viejo sí", () => {
     thinkingAt: new Date(now.getTime() - 91 * 1000),
   }, now), true);
 });
+
+test("acierto por índice, no por texto distinto", () => {
+  assert.equal(core.resolveChoseCorrect({
+    chosenIndex: 1,
+    correctIndex: 1,
+    chosenClip: "Indagar",
+    correctClip: "Indagar",
+  }), true);
+  assert.equal(core.resolveChoseCorrect({
+    chosenIndex: 0,
+    correctIndex: 1,
+    chosenClip: "Sancionar",
+    correctClip: "Indagar",
+  }), false);
+});
+
+test("acierto por texto si el índice no llega", () => {
+  assert.equal(core.resolveChoseCorrect({
+    chosenClip: "Indagar con evidencia",
+    correctClip: "Indagar con evidencia",
+  }), true);
+});
+
+test("sesión vieja sin flag infiere por el texto", () => {
+  assert.equal(core.sessionChoseCorrect({
+    chosenClip: "Indagar",
+    correctClip: "Indagar",
+  }), true);
+  assert.equal(core.sessionChoseCorrect({
+    choseCorrect: false,
+    chosenClip: "Indagar",
+    correctClip: "Indagar",
+  }), false);
+});
+
+test("apertura de acierto no trata el caso como error", () => {
+  const hit = core.buildOpeningPrompt(true);
+  assert.match(hit, /postura exigida/);
+  assert.match(hit, /Confirma el acierto/);
+  assert.doesNotMatch(hit, /reformule/);
+  const miss = core.buildOpeningPrompt(false);
+  assert.match(miss, /NO es la exigida/);
+  assert.match(miss, /reformule/);
+});
+
+test("system prompt de acierto prohíbe corregir", () => {
+  const hit = core.buildSystemPrompt({
+    stemClip: "¿Qué haces primero con un estudiante que llega tarde?",
+    correctClip: "Indagar con evidencia",
+    chosenClip: "Indagar con evidencia",
+    choseCorrect: true,
+  });
+  assert.match(hit, /MARCÓ LA POSTURA EXIGIDA/);
+  assert.match(hit, /Acertó de entrada/);
+  assert.doesNotMatch(hit, /validas el error/);
+});
+
+test("system prompt de fallo pide reformular y luego reconocer", () => {
+  const miss = core.buildSystemPrompt({
+    stemClip: "¿Qué haces primero con un estudiante que llega tarde?",
+    correctClip: "Indagar con evidencia",
+    chosenClip: "Sancionar ya",
+    choseCorrect: false,
+  });
+  assert.match(miss, /NO es la exigida/);
+  assert.match(miss, /reformule/);
+});
+
+test("turno posterior de acierto recuerda no corregir", () => {
+  const contents = core.slidingContents("antes", "mentor", "ahora", 3, true);
+  assert.match(contents[2].parts[0].text, /no lo corrijas/);
+});

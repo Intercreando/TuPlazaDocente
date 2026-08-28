@@ -244,6 +244,13 @@ exports.startMentorSession = onCall(CALL_OPTS, async (request) => {
   const caseClip = core.clipText(data.caseContext, 4000);
   const correctClip = requireClip(data.correctOption, 4);
   const chosenClip = requireClip(data.chosenOption, 4);
+  const correctIndex = Number(data.correctIndex);
+  const choseCorrect = core.resolveChoseCorrect({
+    chosenIndex,
+    correctIndex,
+    chosenClip,
+    correctClip,
+  });
 
   const day = bogotaDay();
   await reserveStart(db, uid, access.kind);
@@ -259,12 +266,15 @@ exports.startMentorSession = onCall(CALL_OPTS, async (request) => {
     caseClip,
     correctClip,
     chosenClip,
-    stanceSummary: core.stanceSummaryFrom(chosenClip, ""),
+    choseCorrect,
+    stanceSummary: core.stanceSummaryFrom(chosenClip, "", choseCorrect),
   };
   const systemPrompt = core.buildSystemPrompt(sessionSeed);
 
   try {
-    const text = await callMentor(systemPrompt, core.buildOpeningPrompt());
+    const text = await callMentor(
+        systemPrompt, core.buildOpeningPrompt(choseCorrect),
+    );
     const sessionRef = db.collection(`users/${uid}/tutorSessions`).doc();
     const closed = core.nextTurnState(1, access.kind);
     await sessionRef.set({
@@ -278,6 +288,7 @@ exports.startMentorSession = onCall(CALL_OPTS, async (request) => {
       caseClip,
       correctClip,
       chosenClip,
+      choseCorrect,
       stanceSummary: sessionSeed.stanceSummary,
       lastUserClip: "",
       lastMentorClip: core.clipText(text, 700),
@@ -375,16 +386,18 @@ exports.mentorConvoTurn = onCall(CALL_OPTS, async (request) => {
   try {
     await reserveGlobal(db, day, false);
     vertexInvoked = true;
+    const hit = core.sessionChoseCorrect(locked);
     const systemPrompt = core.buildSystemPrompt(locked);
     const contents = core.slidingContents(
         locked.lastUserClip || "",
         locked.lastMentorClip || "",
         userText,
         nextTurn,
+        hit,
     );
     const text = await callMentor(systemPrompt, userText, contents);
     const closed = core.nextTurnState(nextTurn, locked.kind);
-    const summary = core.stanceSummaryFrom(locked.chosenClip, userText);
+    const summary = core.stanceSummaryFrom(locked.chosenClip, userText, hit);
     await sessionRef.set({
       status: closed.status,
       turnCount: nextTurn,

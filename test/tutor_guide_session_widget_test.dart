@@ -58,7 +58,6 @@ class _HostState extends State<_Host> {
           onStartFollowUp: () {},
           onPracticeMore: () {},
           onBackHome: () {},
-          remateEnabled: false,
         ),
       ),
     );
@@ -66,7 +65,9 @@ class _HostState extends State<_Host> {
 }
 
 void main() {
-  testWidgets('el primer fallo muestra pista y no suelta la clave', (tester) async {
+  testWidgets('el primer fallo muestra pista y no suelta la clave', (
+    tester,
+  ) async {
     await tester.pumpWidget(const _Host());
 
     await tester.tap(find.text('Sancionar ya'));
@@ -76,13 +77,22 @@ void main() {
     expect(host.guide.awaitingRetry, isTrue);
     expect(host.guide.hint, contains('debido proceso'));
     expect(
-      find.textContaining('Con esa explicación, elige otra.', skipOffstage: false),
+      find.textContaining(
+        'Con esa explicación, elige otra.',
+        skipOffstage: false,
+      ),
       findsOneWidget,
     );
     expect(
-      find.textContaining('La clave para superar este tema', skipOffstage: false),
+      find.textContaining(
+        'La clave para superar este tema',
+        skipOffstage: false,
+      ),
       findsNothing,
     );
-    expect(find.text('Practicar más de este tema', skipOffstage: false), findsNothing);
+    expect(
+      find.text('Practicar más de este tema', skipOffstage: false),
+      findsNothing,
+    );
   });
 }

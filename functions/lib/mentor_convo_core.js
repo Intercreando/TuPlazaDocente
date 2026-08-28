@@ -81,43 +81,101 @@ function resolveAccess(userData, now = new Date()) {
 }
 
 /**
+ * Acierto si coincide el índice o el texto de las dos opciones.
+ * @param {{chosenIndex?: unknown, correctIndex?: unknown,
+ *   chosenClip?: unknown, correctClip?: unknown}} input
+ * @return {boolean}
+ */
+function resolveChoseCorrect(input = {}) {
+  const chosen = Number(input.chosenIndex);
+  const correct = Number(input.correctIndex);
+  if (Number.isInteger(chosen) && Number.isInteger(correct) &&
+      chosen === correct) {
+    return true;
+  }
+  const marked = clipText(input.chosenClip, 4000);
+  const expected = clipText(input.correctClip, 4000);
+  return Boolean(marked && expected && marked === expected);
+}
+
+/**
+ * @param {object|null|undefined} session
+ * @return {boolean}
+ */
+function sessionChoseCorrect(session) {
+  if (!session) return false;
+  if (typeof session.choseCorrect === "boolean") return session.choseCorrect;
+  return resolveChoseCorrect(session);
+}
+
+/**
+ * @param {boolean} hit
+ * @return {string}
+ */
+function outcomeRules(hit) {
+  if (hit) {
+    return "DESENLACE: el docente MARCÓ LA POSTURA EXIGIDA. " +
+        "Trátalo como acierto. Nunca digas que se equivocó, que su " +
+        "actuación no es la mejor, ni le pidas reformular como si " +
+        "estuviera mal. Profundiza: por qué el concurso premia ESA " +
+        "actuación en ESTE caso, qué distractor evitó, y un giro " +
+        "(rector, familia, SIEE/PIAR). Si más adelante duda o se desvía, " +
+        "reenfoca sin invalidar el acierto.";
+  }
+  return "DESENLACE: el docente marcó una postura que NO es la exigida. " +
+      "Ya vio la clave del banco: no finjas que no existe. Valida por " +
+      "qué su opción pudo parecer razonable y contrasta con el criterio " +
+      "de ESTE caso. Guía a que reformule CON SUS PALABRAS. Si en un " +
+      "turno posterior formula la postura exigida, reconócelo y pasa a " +
+      "profundizar: deja de decir que está mal.";
+}
+
+/**
  * @param {{stemClip: string, caseClip?: string, correctClip: string,
- *   chosenClip: string, stanceSummary?: string}} session
+ *   chosenClip: string, stanceSummary?: string, choseCorrect?: boolean}} session
  * @return {string}
  */
 function buildSystemPrompt(session) {
+  const hit = sessionChoseCorrect(session);
   const caso = session.caseClip
       ? `${session.caseClip}\n\n${session.stemClip}`
       : session.stemClip;
   const stance = session.stanceSummary
       ? session.stanceSummary
-      : "Aún no reformuló su postura.";
+      : (hit ? "Acertó de entrada." : "Aún no reformuló su postura.");
   return "Eres un mentor pedagógico experto del concurso docente CNSC/ICFES. " +
-      "Enseñas como un padre paciente: validas el error, explicas por qué " +
-      "esa actuación no es la mejor EN ESTE caso, y guias con una pregunta. " +
-      "Máximo 100 palabras. Cero saludos. Hasta 2 negritas **concepto**. " +
-      "No inventes artículos ni decretos. Si dudas, apóyate en la opción " +
-      "correcta del caso sin recitarla al inicio.\n\n" +
-      "No reveles la letra ni el texto de la opción correcta en los " +
-      "primeros 6 turnos. En los últimos puedes contrastar con más " +
-      "claridad, sin dictar la respuesta.\n\n" +
-      "Si el docente intenta cambiar de tema, hablar de cosas personales " +
-      "o fuera del concurso docente, responde amablemente reenfocando la " +
-      "discusión en el caso de aula actual.\n\n" +
+      "Enseñas como un padre paciente. Máximo 100 palabras. Cero saludos. " +
+      "Hasta 2 negritas **concepto**. No inventes artículos ni decretos. " +
+      "Si dudas, apóyate en la opción correcta del caso.\n\n" +
+      outcomeRules(hit) + "\n\n" +
+      "El docente ya vio la clave del banco. No recites la letra (A/B/C) " +
+      "como spoiler; habla del criterio.\n\n" +
+      "Si cambia de tema o habla de cosas personales, reenfoca con " +
+      "amabilidad al caso de aula actual.\n\n" +
       `[El Caso]\n${caso}\n\n` +
-      `[La Opción Correcta — no la sueltes de entrada]\n${session.correctClip}\n\n` +
-      `[La Postura que eligió]\n${session.chosenClip}\n\n` +
+      `[La opción exigida]\n${session.correctClip}\n\n` +
+      `[La postura que eligió]\n${session.chosenClip}\n\n` +
+      `[Desenlace]\n${hit ? "Acertó de entrada." : "No acertó de entrada."}\n\n` +
       `[Recorte de la sesión]\n${stance}`;
 }
 
 /**
+ * @param {boolean=} choseCorrect
  * @return {string}
  */
-function buildOpeningPrompt() {
-  return "El docente acaba de marcar su postura. Es el turno 1 de 8. " +
-      "Abre la tutoría: reconoce por qué esa opción pudo parecer razonable, " +
-      "explica por qué en ESTE caso no es la mejor, y termina con UNA " +
-      "pregunta para que reformule. No saludes. No reveles la correcta.";
+function buildOpeningPrompt(choseCorrect = false) {
+  if (choseCorrect) {
+    return "El docente marcó la postura exigida. Es el turno 1 de 8. " +
+        "Confirma el acierto sin fanfarria. En una o dos frases, por qué " +
+        "ESA es la exigida en ESTE caso. Termina con UNA pregunta de " +
+        "anclaje (qué haría si un directivo insiste en otra vía). No " +
+        "saludes. No digas que se equivocó ni que su opción no es la mejor.";
+  }
+  return "El docente marcó una postura que NO es la exigida; ya vio la " +
+      "clave del banco. Es el turno 1 de 8. Reconoce por qué su opción " +
+      "pudo parecer razonable, explica por qué en ESTE caso no es la " +
+      "mejor, y termina con UNA pregunta para que reformule con sus " +
+      "palabras. No saludes. No recites la letra de la correcta.";
 }
 
 /**
@@ -126,9 +184,12 @@ function buildOpeningPrompt() {
  * @param {string} lastMentor
  * @param {string} userText
  * @param {number} turnNumber
+ * @param {boolean=} choseCorrect
  * @return {object[]}
  */
-function slidingContents(lastUser, lastMentor, userText, turnNumber) {
+function slidingContents(
+    lastUser, lastMentor, userText, turnNumber, choseCorrect = false,
+) {
   const contents = [];
   if (lastUser) {
     contents.push({role: "user", parts: [{text: lastUser}]});
@@ -136,7 +197,10 @@ function slidingContents(lastUser, lastMentor, userText, turnNumber) {
   if (lastMentor) {
     contents.push({role: "model", parts: [{text: lastMentor}]});
   }
-  const label = `Turno ${turnNumber} de ${MAX_TURNS}.`;
+  const hint = choseCorrect
+      ? " El docente acertó de entrada; no lo corrijas."
+      : " Si ya reformuló hacia la exigida, reconócelo y profundiza.";
+  const label = `Turno ${turnNumber} de ${MAX_TURNS}.${hint}`;
   contents.push({
     role: "user",
     parts: [{text: `${label} ${userText}`}],
@@ -166,11 +230,12 @@ function nextTurnState(turnCountAfter, kind) {
  * @param {string} userClip
  * @return {string}
  */
-function stanceSummaryFrom(chosenClip, userClip) {
+function stanceSummaryFrom(chosenClip, userClip, choseCorrect = false) {
   const marked = clipText(chosenClip, 120);
   const said = clipText(userClip, 180);
-  if (!said) return clipText(`Marcó: ${marked}`, 220);
-  return clipText(`Marcó: ${marked}. Dijo: ${said}`, 220);
+  const prefix = choseCorrect ? "Acertó." : "No acertó de entrada.";
+  if (!said) return clipText(`${prefix} Marcó: ${marked}`, 220);
+  return clipText(`${prefix} Marcó: ${marked}. Dijo: ${said}`, 220);
 }
 
 /**
@@ -208,6 +273,9 @@ module.exports = {
   toDate,
   isPassActive,
   resolveAccess,
+  resolveChoseCorrect,
+  sessionChoseCorrect,
+  outcomeRules,
   buildSystemPrompt,
   buildOpeningPrompt,
   slidingContents,

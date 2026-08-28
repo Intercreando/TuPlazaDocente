@@ -6,4 +6,6 @@ class MentorLaunchArgs {
 
   final Question question;
   final int chosenIndex;
+
+  bool get choseCorrect => question.isCorrect(chosenIndex);
 }

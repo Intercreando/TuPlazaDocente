@@ -48,8 +48,10 @@ class _MentorConvoScreenState extends State<MentorConvoScreen> {
   @override
   void initState() {
     super.initState();
+    final args = widget.args;
     _hints = MentorHintRotator(
       controller: _input,
+      choseCorrect: args != null && args.choseCorrect,
       onTick: () {
         if (mounted) setState(() {});
       },
@@ -214,16 +216,20 @@ class _MentorConvoScreenState extends State<MentorConvoScreen> {
   }
 
   Widget _thread(ThemeData theme) {
+    final hit = widget.args?.choseCorrect == true;
+    final waitLabel = hit
+        ? 'El mentor está anclando tu acierto…'
+        : 'El mentor está analizando tu postura…';
     if (_starting) {
-      return const Center(
+      return Center(
         child: Padding(
-          padding: EdgeInsets.all(24),
+          padding: const EdgeInsets.all(24),
           child: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              CircularProgressIndicator(),
-              SizedBox(height: 16),
-              Text('El mentor está analizando tu postura…'),
+              const CircularProgressIndicator(),
+              const SizedBox(height: 16),
+              Text(waitLabel),
             ],
           ),
         ),
@@ -246,12 +252,7 @@ class _MentorConvoScreenState extends State<MentorConvoScreen> {
           MentorChatBubble(fromMentor: line.fromMentor, text: line.text),
           const SizedBox(height: 10),
         ],
-        if (_busy) ...[
-          Text(
-            'El mentor está analizando tu postura…',
-            style: theme.textTheme.bodySmall,
-          ),
-        ],
+        if (_busy) ...[Text(waitLabel, style: theme.textTheme.bodySmall)],
         if (_closed && !_busy)
           Text(
             'Esta tutoría se cerró. El caso del Tutor personalizado sigue disponible.',

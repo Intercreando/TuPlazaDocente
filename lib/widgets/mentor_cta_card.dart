@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../config/app_config.dart';
 import '../theme/app_colors.dart';
 
 /// Entrada al Mentor IA desde el Tutor personalizado (tras elegir postura).
@@ -11,6 +12,7 @@ class MentorCtaCard extends StatelessWidget {
     this.blockedReason,
     this.hasPass = false,
     this.trialUsed = false,
+    this.choseCorrect = false,
   });
 
   final VoidCallback onOpen;
@@ -18,6 +20,7 @@ class MentorCtaCard extends StatelessWidget {
   final String? blockedReason;
   final bool hasPass;
   final bool trialUsed;
+  final bool choseCorrect;
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +44,9 @@ class MentorCtaCard extends StatelessWidget {
               ),
             ),
             Text(
-              '¿Quieres defender tu postura con un mentor?',
+              choseCorrect
+                  ? '¿Quieres anclar por qué esa es la exigida?'
+                  : '¿Quieres entender por qué esa no era la exigida?',
               style: theme.textTheme.titleSmall,
             ),
             const SizedBox(height: 6),
@@ -71,8 +76,9 @@ class MentorCtaCard extends StatelessWidget {
           '4 sesiones al día. No es un chat libre.';
     }
     if (trialUsed) {
-      return 'Ya usaste la prueba. Con el pase tienes 4 sesiones guiadas '
-          'al día, 8 turnos cada una, ancladas a este caso.';
+      return 'Ya usaste la prueba. El pase te deja anclar el criterio de cada '
+          'caso: 4 tutorías al día, 30 días, renovación a mano. '
+          '${AppConfig.mentorPassPriceLabel}.';
     }
     return 'Tienes 1 sesión de prueba de por vida. 8 turnos sobre ESTE caso. '
         'No es un chat libre.';
