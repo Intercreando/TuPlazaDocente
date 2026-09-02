@@ -85,14 +85,15 @@ void main() {
     }
   });
 
-  testWidgets('el cierre revela la correcta y pide ir a la web', (
+  testWidgets('el cierre pide comentar y no revela la correcta', (
     tester,
   ) async {
     final clip = ReelStudioPack.clips.first;
     await pumpStage(tester, clip: clip, beat: ReelBeat.close);
 
-    expect(find.text(clip.revealWhy), findsOneWidget);
-    expect(find.text(clip.options[clip.correctIndex]), findsOneWidget);
+    expect(find.text(ReelStudioPack.closeAsk), findsOneWidget);
+    expect(find.text(ReelStudioPack.closePrompt), findsOneWidget);
+    expect(find.text(clip.revealWhy), findsNothing);
     expect(find.text(ReelStudioPack.site), findsOneWidget);
     expect(find.text(ReelStudioPack.holdCue), findsNothing);
   });
@@ -118,6 +119,17 @@ void main() {
     expect(find.text(clip.hook), findsNothing);
     expect(find.text(clip.stem), findsOneWidget);
     expect(find.text(ReelStudioPack.holdCue), findsOneWidget);
+  });
+
+  testWidgets('la cuenta atrás sale antes del cierre, con el reloj', (
+    tester,
+  ) async {
+    final clip = ReelStudioPack.clips.first;
+    await pumpStage(tester, clip: clip, beat: ReelBeat.countdown);
+
+    expect(find.text('3'), findsOneWidget);
+    expect(find.text(ReelStudioPack.closeAsk), findsNothing);
+    expect(find.text(clip.revealWhy), findsNothing);
   });
 
   testWidgets('las opciones aparecen de a una', (tester) async {

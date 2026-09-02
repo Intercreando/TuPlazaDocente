@@ -12,7 +12,7 @@ enum ReelBeat { ready, hook, question, countdown, close }
 
 /// Lienzo 9:16 listo para captura de ventana (1080×1920).
 ///
-/// Ciclo cerrado de 15 s: gancho → caso → cuenta → revelación y web.
+/// Ciclo de 15 s: gancho → caso → cuenta atrás → invitación al comentario.
 class ReelExpressStage extends StatelessWidget {
   const ReelExpressStage({
     super.key,
@@ -115,7 +115,7 @@ class ReelExpressStage extends StatelessWidget {
                             const SizedBox(height: 18),
                             Expanded(
                               child: showClose
-                                  ? _reveal(context)
+                                  ? const Center(child: ReelCommentClose())
                                   : showTimer
                                   ? Column(
                                       crossAxisAlignment:
@@ -180,28 +180,6 @@ class ReelExpressStage extends StatelessWidget {
                 ? Icons.keyboard_double_arrow_down_rounded
                 : Icons.touch_app_rounded,
           ),
-        ],
-      ),
-    );
-  }
-
-  Widget _reveal(BuildContext context) {
-    return _ScaleDownBox(
-      alignment: Alignment.center,
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.stretch,
-        children: [
-          for (var i = 0; i < clip.options.length; i++) ...[
-            if (i > 0) const SizedBox(height: 12),
-            ReelOptionRow(
-              letter: i < letters.length ? letters[i] : '${i + 1}',
-              text: clip.options[i],
-              marked: i == clip.correctIndex,
-              dimmed: i != clip.correctIndex,
-            ),
-          ],
-          const SizedBox(height: 28),
-          ReelRevealClose(why: clip.revealWhy),
         ],
       ),
     );

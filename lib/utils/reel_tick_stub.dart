@@ -2,7 +2,7 @@
 void unlockReelAudio() {}
 
 /// Click corto al cambiar el segundo de la cuenta (3, 2, 1).
-void playReelTick({double frequency = 920}) {}
+void playReelTick({double frequency = 920, double gain = 0.34}) {}
 
 /// El gancho (0–2 s) va en silencio a propósito.
 void playReelSwoosh() {}

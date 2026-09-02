@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../theme/app_colors.dart';
 import '../theme/reel_type.dart';
 
-/// Una opción A–D del lienzo. En el cierre, la correcta se ilumina en verde.
+/// Una opción A–D del lienzo.
 class ReelOptionRow extends StatelessWidget {
   const ReelOptionRow({
     super.key,

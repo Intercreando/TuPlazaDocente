@@ -75,4 +75,59 @@ void main() {
       expect(find.text('Activar pase por \$19.900 COP'), findsOneWidget);
     },
   );
+
+  testWidgets('con pase activo invita a usar las sesiones del día', (
+    tester,
+  ) async {
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: MentorCtaCard(
+            enabled: true,
+            hasPass: true,
+            choseCorrect: true,
+            onOpen: () {},
+          ),
+        ),
+      ),
+    );
+    expect(
+      find.text('¿Quieres dominar el porqué de esta respuesta?'),
+      findsOneWidget,
+    );
+    expect(
+      find.textContaining('Aprovecha tus 4 sesiones diarias (hasta 8 turnos)'),
+      findsOneWidget,
+    );
+    expect(find.text('Hablar con el Mentor'), findsOneWidget);
+  });
+
+  testWidgets(
+    'con pase activo y fallo invita a analizar la opción incorrecta',
+    (tester) async {
+      await tester.pumpWidget(
+        MaterialApp(
+          home: Scaffold(
+            body: MentorCtaCard(
+              enabled: true,
+              hasPass: true,
+              choseCorrect: false,
+              onOpen: () {},
+            ),
+          ),
+        ),
+      );
+      expect(
+        find.text('¿Quieres analizar por qué esta opción es incorrecta?'),
+        findsOneWidget,
+      );
+      expect(
+        find.textContaining(
+          'Aprovecha tus 4 sesiones diarias (hasta 8 turnos)',
+        ),
+        findsOneWidget,
+      );
+      expect(find.text('Hablar con el Mentor'), findsOneWidget);
+    },
+  );
 }

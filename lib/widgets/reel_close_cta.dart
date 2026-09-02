@@ -4,16 +4,30 @@ import '../data/reel_studio_pack.dart';
 import '../theme/app_colors.dart';
 import '../theme/reel_type.dart';
 
-/// Justificación corta al revelar la letra.
-class ReelRevealClose extends StatelessWidget {
-  const ReelRevealClose({super.key, required this.why});
-
-  final String why;
+/// Cierre sin letra: pide pausar y bajar al primer comentario.
+class ReelCommentClose extends StatelessWidget {
+  const ReelCommentClose({super.key});
 
   @override
   Widget build(BuildContext context) {
     final type = ReelType.of(context);
-    return Text(why, style: type.cta, textAlign: TextAlign.center);
+    return Column(
+      mainAxisSize: MainAxisSize.min,
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Text(
+          ReelStudioPack.closeAsk,
+          style: type.closeTitle,
+          textAlign: TextAlign.center,
+        ),
+        const SizedBox(height: 28),
+        Text(
+          ReelStudioPack.closePrompt,
+          style: type.cta,
+          textAlign: TextAlign.center,
+        ),
+      ],
+    );
   }
 }
 

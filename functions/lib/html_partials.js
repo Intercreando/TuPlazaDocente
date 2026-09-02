@@ -70,7 +70,10 @@ function trackingScripts() {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'AW-17037005824');
+    gtag('config', 'AW-17037005824', {
+      allow_enhanced_conversions: true,
+      conversion_linker: true
+    });
   </script>
   <script>
   !function(f,b,e,v,n,t,s)

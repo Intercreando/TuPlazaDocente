@@ -18,15 +18,19 @@ abstract final class AppConfig {
   static const String mentorPassPaywallTitle = 'Tu mentor, todos los días';
 
   static const String mentorPassPaywallLead =
-      'La prueba te mostró cómo se siente que te lleven de la mano en un caso. '
-      'El pase es para que eso no se quede en una sola vez: llegas al simulacro '
-      'sabiendo por qué marcar.';
+      'La prueba te mostró el valor de analizar un caso paso a paso. '
+      'Activa el pase para que esta experiencia no se quede en una sola vez '
+      'y llegues al simulacro sabiendo exactamente cómo deducir '
+      'la respuesta correcta.';
 
   /// Beneficios para quien paga el pase (copy de producto, no de tecnología).
   static const List<String> mentorPassBenefits = [
-    'Dominas el criterio del concurso: por qué esa actuación es la exigida, no solo la letra.',
-    '4 tutorías al día durante 30 días, 8 turnos cada una, sobre el caso que te está costando.',
-    'Un mentor que te pregunta y te reenfoca hasta que lo sepas explicar. No es un chat libre.',
+    'Domina el criterio del concurso: Entiende por qué una actuación es la '
+        'correcta según la norma, y no solo de memoria.',
+    'Práctica constante: 4 tutorías al día durante 30 días (hasta 8 turnos '
+        'por sesión), enfocadas en los casos que más te cuestan.',
+    'Análisis enfocado: Un mentor que te cuestiona y te guía hasta que '
+        'domines el tema. Un debate estructurado y sin distracciones.',
   ];
 
   /// Valor numérico Premium en COP (Meta Pixel / analítica).

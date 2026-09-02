@@ -90,7 +90,8 @@ void main() {
     final clip = ReelStudioPack.byId('chat');
     final caption = ReelStudioPack.captionFor(clip);
     expect(caption, contains(clip.hook));
-    expect(caption, contains(ReelStudioPack.commentNow));
+    expect(caption, contains(ReelStudioPack.closeAsk));
+    expect(caption, contains(ReelStudioPack.closePrompt));
     expect(caption, isNot(contains('Respuesta:')));
   });
 
@@ -105,5 +106,20 @@ void main() {
     expect(caption, contains('#Pedagogia'));
     expect(caption, contains('#ConvivenciaEscolar'));
     expect(caption, isNot(contains('Respuesta:')));
+  });
+
+  test('el comentario fijado trae la letra, el porqué y el CTA al perfil', () {
+    final clip = ReelStudioPack.byId('chat');
+    final pinned = ReelStudioPack.pinnedCommentFor(clip);
+    expect(pinned, contains('La respuesta correcta es la A.'));
+    expect(pinned, contains('¿Por qué? Según los lineamientos,'));
+    expect(
+      pinned,
+      contains('Las otras opciones son la típica trampa en la que muchos caen.'),
+    );
+    expect(pinned, contains('enlace de mi perfil'));
+    expect(pinned, contains('#ConcursoDocenteColombia'));
+    expect(pinned, contains('#MagisterioColombiano'));
+    expect(pinned, contains('#PruebasSaber'));
   });
 }

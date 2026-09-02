@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../state/app_state.dart';
 import 'app_snackbars.dart';
+import 'google_ads_tag.dart';
 import 'meta_pixel.dart';
 
 /// Tras Wompi (`/tutor?mentorPass=pending`): sincroniza el pase y registra Purchase.
@@ -43,6 +44,12 @@ Future<void> handleMentorPassReturn(
       contentName: 'Mentor IA 30 días',
       email: state.authEmail,
       externalId: state.authUid,
+    );
+    GoogleAdsTag.purchase(
+      value: purchase.value,
+      currency: 'COP',
+      transactionId: purchase.transactionId,
+      email: state.authEmail,
     );
   }
 

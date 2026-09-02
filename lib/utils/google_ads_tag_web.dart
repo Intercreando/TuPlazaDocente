@@ -12,25 +12,28 @@ abstract final class GoogleAdsTag {
   static const _registrationSendTo = 'AW-17037005824/zvnBCKHW1uAcEICo8Ls_';
 
   /// Registro de cuenta (Google o correo). Valor simbólico: el ingreso va en Purchase.
-  static void completeRegistration() {
+  static void completeRegistration({String? email}) {
     _conversion(
       sendTo: _registrationSendTo,
       value: 1.0,
       currency: 'COP',
+      email: email,
     );
   }
 
-  /// Compra Premium confirmada (Wompi o cupón que otorga acceso).
+  /// Compra Premium o pase Mentor confirmada (Wompi o cupón que otorga acceso).
   static void purchase({
     required double value,
     String currency = 'COP',
     String? transactionId,
+    String? email,
   }) {
     _conversion(
       sendTo: _purchaseSendTo,
       value: value > 0 ? value : 1.0,
       currency: currency,
       transactionId: transactionId,
+      email: email,
     );
   }
 
@@ -39,17 +42,22 @@ abstract final class GoogleAdsTag {
     required double value,
     required String currency,
     String? transactionId,
+    String? email,
   }) {
     final tx = transactionId?.trim() ?? '';
+    final em = email?.trim() ?? '';
     try {
       final bridge = _tpdGtagConversion;
       if (bridge != null) {
         bridge.callAsFunction(
           null,
-          sendTo.toJS,
-          value.toJS,
-          currency.toJS,
-          tx.toJS,
+          {
+            'sendTo': sendTo,
+            'value': value,
+            'currency': currency,
+            'transactionId': tx,
+            'email': em,
+          }.jsify(),
         );
         return;
       }
@@ -59,6 +67,14 @@ abstract final class GoogleAdsTag {
     try {
       final gtag = _gtag;
       if (gtag == null) return;
+      if (em.contains('@')) {
+        gtag.callAsFunction(
+          null,
+          'set'.toJS,
+          'user_data'.toJS,
+          {'email': em}.jsify(),
+        );
+      }
       final params = <String, Object?>{
         'send_to': sendTo,
         'value': value,

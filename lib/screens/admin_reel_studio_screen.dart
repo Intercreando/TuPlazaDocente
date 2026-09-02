@@ -29,7 +29,7 @@ class AdminReelStudioScreen extends StatefulWidget {
 }
 
 class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
-  /// Ciclo cerrado de 15 s: gancho, caso, cuenta y revelación.
+  /// Ciclo de 15 s: gancho, caso, cuenta atrás e invitación al comentario.
   static const _cycleMs = ReelExpressStage.cycleMs;
   static const _hookMs = ReelExpressStage.hookMs;
   static const _countdownMs = ReelExpressStage.countdownMs;
@@ -48,7 +48,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   bool _ended = false;
   bool _tickSound = true;
   int? _lastTickSecond;
-  ReelBeat? _lastSfxBeat;
   int _lastOptionSfx = 0;
 
   String? _appliedQuery;
@@ -213,16 +212,16 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   void _maybeSfx() {
     if (!_tickSound || !_playing) return;
     final beat = _beat;
-    if (beat == ReelBeat.close && _lastSfxBeat != ReelBeat.close) {
-      playReelDing();
-    }
     if (beat == ReelBeat.countdown) {
       final n = _countdownLeft;
       if (_lastTickSecond != n) {
         _lastTickSecond = n;
-        playReelTick(frequency: 720 + (3 - n) * 90);
+        playReelTick(
+          frequency: 720 + (3 - n) * 90,
+          gain: n == 1 ? 0.46 : 0.34,
+        );
       }
-    } else if (beat != ReelBeat.close) {
+    } else {
       _lastTickSecond = null;
     }
     final shown = _visibleOptions;
@@ -230,14 +229,12 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
       playReelPop();
     }
     _lastOptionSfx = shown;
-    _lastSfxBeat = beat;
   }
 
   void _play() {
     _tick?.cancel();
     unlockReelAudio();
     _lastTickSecond = null;
-    _lastSfxBeat = null;
     _lastOptionSfx = 0;
     setState(() {
       _playing = true;
@@ -259,7 +256,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   void _holdClose() {
     _tick?.cancel();
     _lastTickSecond = null;
-    _lastSfxBeat = ReelBeat.close;
     setState(() {
       _playing = false;
       _ended = true;
@@ -270,7 +266,6 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
   void _reset() {
     _tick?.cancel();
     _lastTickSecond = null;
-    _lastSfxBeat = null;
     _lastOptionSfx = 0;
     setState(() {
       _playing = false;
@@ -518,7 +513,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                           contentPadding: EdgeInsets.zero,
                           title: const Text('Sonidos del ciclo'),
                           subtitle: Text(
-                            'Swoosh, pop de letras, tic-tac y campana. '
+                            'Pop de letras y tic-tac de la cuenta (más fuerte). '
                             'En OBS captura el audio de Chrome.',
                             style: theme.textTheme.bodySmall,
                           ),
@@ -574,7 +569,7 @@ class _AdminReelStudioScreenState extends State<AdminReelStudioScreen> {
                         const SizedBox(height: 16),
                         Text(
                           'Atajos: espacio = play/parar. R = reset. '
-                          'El vídeo pregunta, pide comentario y revela en 15 s. '
+                          'El vídeo pregunta, cuenta 3-2-1 y manda al comentario. '
                           'Haz clic una vez en Chrome si quieres el audio en el video.',
                           style: theme.textTheme.bodySmall,
                         ),

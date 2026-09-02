@@ -1,4 +1,6 @@
 node_modules/
 *.log
 serviceAccount.json
+serviceAccountKey.json
 *-firebase-adminsdk-*.json
+audiencia_google_ads.csv

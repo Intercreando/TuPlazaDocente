@@ -105,16 +105,27 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', 'AW-17037005824');
-    // Puente SPA: Flutter llama esto al confirmar Wompi o cupón (sin recargar).
-    window.tpdGtagConversion = function (sendTo, value, currency, transactionId) {
-      if (typeof gtag !== 'function') return;
+    gtag('config', 'AW-17037005824', {
+      allow_enhanced_conversions: true,
+      conversion_linker: true
+    });
+    // Puente SPA: Flutter llama esto al confirmar Wompi, cupón o registro.
+    window.tpdGtagConversion = function (payload) {
+      if (typeof gtag !== 'function' || !payload) return;
+      var em = String(payload.email || '').trim().toLowerCase();
+      if (em.indexOf('@') !== -1) {
+        gtag('set', 'user_data', { email: em });
+      }
       var params = {
-        send_to: sendTo,
-        value: typeof value === 'number' && value > 0 ? value : 1.0,
-        currency: currency || 'COP'
+        send_to: payload.sendTo,
+        value: typeof payload.value === 'number' && payload.value > 0
+          ? payload.value
+          : 1.0,
+        currency: payload.currency || 'COP'
       };
-      if (transactionId) params.transaction_id = String(transactionId);
+      if (payload.transactionId) {
+        params.transaction_id = String(payload.transactionId);
+      }
       gtag('event', 'conversion', params);
     };
   </script>

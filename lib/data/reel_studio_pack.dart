@@ -15,10 +15,17 @@ abstract final class ReelStudioPack {
   static const hook = ReelClip.fallbackHook;
   static const seriesKicker = 'CONCURSO DOCENTE 2026';
 
-  /// Ciclo cerrado: el vídeo pide la letra y revela en los mismos 15 s.
+  /// Ciclo: el vídeo pide la letra; la respuesta oficial va en el comentario.
   static const holdCue = 'Mantén presionado para leer';
   static const commentNow =
       'Deja tu letra en los comentarios antes del reloj';
+
+  /// Cierre sin revelar: debate en comentarios, no en el lienzo.
+  static const closeAsk = '¿A, B, C o D?';
+  static const closePrompt =
+      'Pausa el video, escribe tu opción y corre al primer comentario. '
+      'Ya te dejé la respuesta oficial explicada para que no caigas '
+      'en la trampa. 👇';
 
   static const site = 'tuplazadocente.com';
   static const closeAction = 'Simulacros completos, gratis';
@@ -28,8 +35,14 @@ abstract final class ReelStudioPack {
   static const hashtags =
       '#ConcursoDocente #ConcursoDocente2026 #CNSC #DocentesColombia '
       '#MagisterioColombia #TuPlazaDocente #CasosDeAula #Pedagogia';
-  static const pinnedComment =
-      'Simulacros completos y gratis en tuplazadocente.com — crea tu cuenta.';
+
+  static const pinnedCommentCta =
+      '💡 Si quieres practicar con simulacros completos y asegurar tu '
+      'resultado, ve al enlace de mi perfil y entrena en TuPlazaDocente.';
+
+  static const pinnedCommentHashtags =
+      '#ConcursoDocente2026 #ConcursoDocenteColombia #DocentesColombia '
+      '#CNSC #MagisterioColombiano #PruebasSaber #TuPlazaDocente';
 
   /// Catálogo completo. Las letras correctas están repartidas por igual entre
   /// A, B, C y D para que la audiencia no aprenda a adivinar.
@@ -80,8 +93,8 @@ abstract final class ReelStudioPack {
   static String hashtagsFor(ReelClip clip) =>
       '$hashtags ${clip.group.extraHashtag}';
 
-  /// Caption de TikTok/Reels. La letra no va aquí: si se delata en el pie,
-  /// nadie comenta. El vídeo sí revela al cierre.
+  /// Caption de TikTok/Reels. La letra no va aquí ni en el vídeo: si se
+  /// delata, nadie comenta. La explicación va en el primer comentario.
   ///
   /// Primera línea: gancho + palabra clave del tema (SEO). Luego CTA con
   /// flecha al comentario y el enlace marcado como recurso gratis.
@@ -89,11 +102,32 @@ abstract final class ReelStudioPack {
     return [
       '${clip.hook} ${clip.group.captionKeyword}',
       '',
-      '👇 $commentNow',
+      '👇 $closeAsk $closePrompt',
       '',
       '🎁 $closeRegister',
       '',
       hashtagsFor(clip),
+    ].join('\n');
+  }
+
+  /// Primer comentario: letra, criterio y CTA al perfil. El vídeo no revela.
+  static String pinnedCommentFor(ReelClip clip) {
+    const letters = ['A', 'B', 'C', 'D'];
+    final i = clip.correctIndex.clamp(0, letters.length - 1);
+    var why = clip.revealWhy.trim();
+    if (why.isNotEmpty) {
+      why = '${why[0].toLowerCase()}${why.substring(1)}';
+    }
+    if (why.isNotEmpty && !why.endsWith('.')) why = '$why.';
+    return [
+      'La respuesta correcta es la ${letters[i]}.',
+      '',
+      '¿Por qué? Según los lineamientos, $why Las otras opciones son la '
+          'típica trampa en la que muchos caen.',
+      '',
+      pinnedCommentCta,
+      '',
+      pinnedCommentHashtags,
     ].join('\n');
   }
 }

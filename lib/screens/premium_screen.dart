@@ -61,6 +61,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
           value: purchase.value,
           currency: 'COP',
           transactionId: purchase.transactionId,
+          email: state.authEmail,
         );
         purchaseTracked = true;
       }
@@ -145,6 +146,7 @@ class _PremiumScreenState extends State<PremiumScreen> {
       value: 1.0,
       currency: 'COP',
       transactionId: code.isEmpty ? null : 'promo-$code',
+      email: state.authEmail,
     );
     messenger.showSnackBar(
       const SnackBar(content: Text('Premium activado con código.')),

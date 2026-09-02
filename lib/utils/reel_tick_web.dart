@@ -18,8 +18,9 @@ void unlockReelAudio() {
 }
 
 /// Click corto (onda cuadrada) para la cuenta atrás.
-void playReelTick({double frequency = 920}) {
-  _tone(frequency: frequency, seconds: 0.08, gain: 0.07, type: 'square');
+/// Gain alto: OBS mezcla el tab con el resto y a 0.07 se oía casi nada.
+void playReelTick({double frequency = 920, double gain = 0.34}) {
+  _tone(frequency: frequency, seconds: 0.11, gain: gain, type: 'square');
 }
 
 /// El gancho (0–2 s) va en silencio a propósito.
@@ -27,16 +28,16 @@ void playReelSwoosh() {}
 
 /// Pop al aparecer cada letra.
 void playReelPop() {
-  _tone(frequency: 640, seconds: 0.055, gain: 0.11, type: 'triangle');
+  _tone(frequency: 640, seconds: 0.06, gain: 0.24, type: 'triangle');
 }
 
-/// Campana de acierto al revelar.
+/// Campana de acierto (reserva; el cierre ya no revela la letra).
 void playReelDing() {
-  _tone(frequency: 1046, seconds: 0.32, gain: 0.08, type: 'sine');
+  _tone(frequency: 1046, seconds: 0.32, gain: 0.22, type: 'sine');
   _tone(
     frequency: 1568,
     seconds: 0.38,
-    gain: 0.05,
+    gain: 0.16,
     type: 'sine',
     delay: 0.04,
   );

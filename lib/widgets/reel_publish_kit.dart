@@ -34,7 +34,8 @@ class ReelPublishKit extends StatelessWidget {
         const SizedBox(height: 4),
         Text(
           'Pega el caption en TikTok. Trae palabra clave del tema y hashtags '
-          'de búsqueda. La letra no va en el pie: el vídeo la revela al cierre.',
+          'de búsqueda. La letra no va en el pie ni en el vídeo: el primer '
+          'comentario trae la respuesta oficial explicada.',
           style: theme.textTheme.bodySmall,
         ),
         const SizedBox(height: 8),
@@ -59,7 +60,7 @@ class ReelPublishKit extends StatelessWidget {
         OutlinedButton(
           onPressed: () => _copy(
             context,
-            ReelStudioPack.pinnedComment,
+            ReelStudioPack.pinnedCommentFor(clip),
             'Comentario fijado copiado.',
           ),
           child: const Text('Copiar comentario fijado'),

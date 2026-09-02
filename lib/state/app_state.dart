@@ -620,7 +620,7 @@ class AppState extends ChangeNotifier {
         email: _sync.email,
         externalId: _sync.uid,
       );
-      GoogleAdsTag.completeRegistration();
+      GoogleAdsTag.completeRegistration(email: _sync.email);
     }
     return true;
   }
@@ -645,7 +645,7 @@ class AppState extends ChangeNotifier {
         email: _sync.email,
         externalId: _sync.uid,
       );
-      GoogleAdsTag.completeRegistration();
+      GoogleAdsTag.completeRegistration(email: _sync.email);
     }
     return true;
   }
@@ -669,7 +669,7 @@ class AppState extends ChangeNotifier {
         email: _sync.email,
         externalId: _sync.uid,
       );
-      GoogleAdsTag.completeRegistration();
+      GoogleAdsTag.completeRegistration(email: _sync.email);
     }
     return true;
   }

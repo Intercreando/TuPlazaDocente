@@ -73,8 +73,8 @@ class MentorCtaCard extends StatelessWidget {
 
   String _body() {
     if (hasPass) {
-      return 'Pase activo. Charla guiada sobre este caso: 8 turnos, '
-          '4 sesiones al día. No es un chat libre.';
+      return 'Pase activo. Aprovecha tus 4 sesiones diarias (hasta 8 turnos) '
+          'para un análisis estructurado y exclusivo sobre este caso.';
     }
     if (trialUsed) {
       return 'Ya usaste tu prueba gratuita. Activa tu pase de 30 días '
