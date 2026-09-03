@@ -1,0 +1,172 @@
+[
+  {
+    "id": "oro-esp-mat-06",
+    "options": [
+      "Expedir una circular de matemáticas que, desde este grado, privilegie el paso directo de las fichas a la notación algebraica como evidencia de rigor, y comunicarla a las familias para mostrar seriedad frente a quien pide una salida visible.",
+      "Aplicar a todo el grupo la misma hoja de símbolos algebraicos, en el mismo tiempo y sin tablas ni dibujos, argumentando que así se iguala la exigencia y se evita que las fichas se interpreten como un privilegio o un retraso.",
+      "Conservar las fichas como calentamiento de clima al inicio y, en la misma sesión, pasar al símbolo algebraico sin tablas ni dibujos intermedios, evaluando el producto simbólico como evidencia comparable del periodo.",
+      "Restablecer el tránsito enactivo–icónico–simbólico —de las fichas a tablas o dibujos y de ahí a la notación algebraica— con conexiones explícitas entre representaciones, y registrar el criterio de cuándo se retira cada apoyo para que la decisión sea trazable."
+    ],
+    "explanation": "La condición de calidad del stem exige la decisión más defendible pedagógica e institucionalmente: mediación representacional con criterio público, no una circular de rigor ni un salto de imagen. Los Lineamientos Curriculares de Matemáticas y la teoría de Bruner sostienen el tránsito enactivo–icónico–simbólico; pasar de las fichas a la notación algebraica sin tablas, dibujos ni lenguaje verbal trunca la comprensión. La opción correcta restablece esas conexiones explícitas y documenta cuándo se retira cada apoyo, de modo que el andamiaje no quede como favor ni como caos. Evita el polo administrativo de institucionalizar el salto, el de homogeneizar la hoja simbólica y el de usar las fichas como calentamiento sin puente. Así se responde a quien pide evidencia sin convertir el álgebra en un decreto de madurez.",
+    "normativeJustification": "Los Lineamientos Curriculares de Matemáticas y los DBA exigen múltiples sistemas de representación y conexiones entre ellos. El SIEE y la gestión de aula requieren criterios públicos de cuándo y para qué se usa un recurso; una circular que consagra el salto fichas–símbolo no sustituye esa justificación pedagógica.",
+    "theoreticalJustification": "Bruner describe los modos enactivo, icónico y simbólico como vías de comprensión que se articulan, no como una jerarquía que se «supera» en un solo paso. Sin el puente icónico y verbal, el símbolo algebraico se memoriza y no se comprende; la mediación retira el apoyo cuando la representación simbólica ya sostiene el concepto.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: la circular y el comunicado a familias son una respuesta institucional visible y «seria» frente a quien pide costumbre o rigor, pero convierten el error del caso —el salto sin representaciones intermedias— en política de imagen y niegan la mediación que el área exige.",
+      "1": "Trampa de la equidad como homogeneización: la misma hoja simbólica iguala tiempos y evita el reclamo de que las fichas son un privilegio o un retraso, que es el lenguaje con el que suele justificarse retirar apoyos. Uniformar el instrumento no es equidad; borra el tránsito representacional que el episodio omitió.",
+      "2": "Trampa de la práctica casi correcta pero insuficiente: conservar las fichas parece respetar lo enactivo, pero si en la misma sesión se salta al símbolo sin tablas ni dibujos y se evalúa el producto algebraico, el calentamiento no opera como conexión; es el salto del caso con un adorno de clima."
+    }
+  },
+  {
+    "id": "oro-esp-mat-07",
+    "options": [
+      "Elevar el corte de aprobación del problema, conservar la rúbrica de bien o mal y publicar el resultado en el boletín, para responder con evidencia comparable al sector de la comunidad que pide rigor inmediato.",
+      "Aplicar a todo el grupo la misma rúbrica binaria y el mismo tiempo de resolución, argumentando que así se reduce el reclamo de inequidad y queda una nota comparable y fácil de defender en el SIEE ante las familias.",
+      "Añadir al margen un comentario de «explica mejor la estrategia» como gesto formativo, pero conservar como nota del problema el juicio de bien o mal, sin niveles de representación ni de comunicación matemática.",
+      "Explicitar y publicar, antes de devolver el problema, criterios de proceso, representación, resultado y comunicación matemática, registrar evidencias de cada dimensión e instancia de devolución, de modo que el juicio deje de reducirse a bien o mal."
+    ],
+    "explanation": "La condición de calidad pide lo más defendible pedagógico e institucionalmente, con criterios, evidencia e instancias, no una ocurrencia ni un bien/mal archivable. El Decreto 1290 exige criterios conocidos de antemano; las EBC de matemáticas valoran procesos, representaciones, resultado y comunicación, no el acierto binario. Explicitar esas dimensiones antes de devolver el problema permite autorregulación y una devolución accionable, y deja rastro en el SIEE. Elevar el corte, uniformar la rúbrica binaria o añadir un comentario al margen parecen profesionalismo, pero dejan intacto el juicio reducido a bien o mal. La decisión correcta articula la norma de evaluación y la didáctica de procesos.",
+    "normativeJustification": "El Decreto 1290 y el SIEE exigen criterios previos, evidencias coherentes con lo enseñado y devolución. Las EBC de matemáticas evalúan procesos —formular, representar, resolver y comunicar—, no un veredicto de bien o mal sobre el número final.",
+    "theoreticalJustification": "Los criterios visibles habilitan la autorregulación y un feedback específico (estrategia, representación, explicación). Una rúbrica binaria informa sobre el producto y oculta el pensamiento matemático; un comentario al margen sin niveles no cambia el criterio de calificación.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: subir el corte, conservar bien/mal y publicar en el boletín es una salida inmediata, visible y comparable frente al pedido de rigor de la comunidad, pero consolida la rúbrica pobre del caso y no pone la evaluación al servicio del aprendizaje.",
+      "1": "Trampa de la equidad como homogeneización: la misma rúbrica binaria y el mismo tiempo suenan a justicia y a prevención de reclamos —la propuesta del colega del episodio—, pero niegan la diversidad de evidencias de proceso y convierten la igualdad de instrumento en calidad aparente.",
+      "2": "Trampa de la práctica casi correcta pero insuficiente: el comentario «explica mejor» parece abrir la comunicación matemática, pero si la nota sigue siendo bien o mal, la estrategia, la representación y la explicación no entran al juicio; es un adorno formativo sin cambio de criterio."
+    }
+  },
+  {
+    "id": "oro-esp-mat-08",
+    "options": [
+      "Conservar los problemas de nieve y de tarifa de metro tal como vienen en el texto adoptado, radicar en coordinación que se cumple el programa editorial y comunicar a las familias que el material oficial garantiza cobertura y rigor.",
+      "Sustituir esos enunciados por actividades del entorno —huerta, tienda veredal, distancias al colegio— atractivas y visibles para la comunidad, sin contrastar que conserven la estructura matemática del DBA del grado.",
+      "Aplicar a todo el grupo los mismos problemas de nieve y de metro, argumentando que así hay evidencia comparable y que los contextos urbanos preparan para pruebas externas, sin adaptar cantidades ni situaciones al entorno rural.",
+      "Reescribir las cantidades y las situaciones con referentes del entorno rural tropical —distancias, cosechas, precios locales— manteniendo la estructura matemática del DBA, y dejar constancia de esa contrastación en la planeación y en las evidencias del periodo."
+    ],
+    "explanation": "La condición de calidad exige lo más defendible pedagógico e institucionalmente: contextualizar sin disolver el referente. La Ley 115 y el PEI mandan anclar el currículo a la realidad del estudiantado; los DBA fijan la estructura matemática que no puede perderse en el recorte local. Ausubel sostiene que la significatividad aumenta cuando las cantidades y las situaciones se anclan en la experiencia —el entorno rural tropical—, no en metros de nieve o tarifas de metro ajenos. La opción correcta reescribe el contexto y conserva el DBA, con constancia en la planeación. Conservar el texto «oficial», sustituirlo por actividades locales sueltas o uniformar el enunciado urbano parecen cobertura, innovación o equidad, pero no cumplen a la vez anclaje y estructura.",
+    "normativeJustification": "La Ley 115 y el PEI exigen pertinencia cultural y contextualización del currículo. Los DBA del grado definen la estructura matemática que debe mantenerse al adaptar enunciados; un problema localmente atractivo que omite esa estructura no cumple el referente.",
+    "theoreticalJustification": "Ausubel: el aprendizaje significativo se ancla en saberes y experiencias previas. Un contexto inverosímil (nieve, metro urbano) impide el anclaje; un contexto local sin la misma demanda matemática convierte la pertinencia en activismo y no transfiere el aprendizaje del DBA.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: radicar el texto adoptado y comunicar cobertura es gestión curricular impecable y visible, pero deja intactos los metros de nieve y las tarifas de metro en una IE rural tropical; fidelidad editorial no es pertinencia ni PEI.",
+      "1": "Trampa de la práctica casi correcta pero insuficiente: las actividades de huerta o tienda veredal suenan a contextualización y calman a la comunidad, pero sin contrastar la estructura del DBA el anclaje local no garantiza el aprendizaje esencial; es el polo que el caso exige no confundir con acierto.",
+      "2": "Trampa de la equidad como homogeneización: el mismo problema urbano para todos ofrece evidencia comparable y se justifica como preparación para pruebas externas, pero niega el entorno real y trata la extrañeza del contexto como una condición igualadora, no como una barrera de significatividad."
+    }
+  },
+  {
+    "id": "oro-esp-len-01",
+    "options": [
+      "Fijar en el SIEE que el periodo de lenguaje se evidencia con dictados datados y listas de palabras archivadas, con firma de coordinación, para responder con trazabilidad visible a quien pide rigor inmediato.",
+      "Incluir un texto completo al cierre como actividad de clima, pero conservar como nota del área el promedio de dictados y listas, sin criterios de lectura, escritura, oralidad ni escucha que queden en el registro del periodo.",
+      "Aplicar a todo el grupo el mismo dictado diario y la misma lista de palabras, en el mismo tiempo, argumentando que así se evitan reclamos y queda evidencia comparable de ortografía para las familias y el SIEE.",
+      "Organizar secuencias de lectura, escritura, oralidad y escucha con textos auténticos, criterios de desempeño públicos y evidencias e instancias de devolución, de modo que el dictado deje de operar como sustituto del área."
+    ],
+    "explanation": "La condición de calidad, desde lineamientos y EBC de lenguaje, pide la opción más defendible con evidencia e instancia: prácticas comunicativas reales, no dictados como archivo. Los Lineamientos de Lengua Castellana y las EBC privilegian leer, escribir, hablar y escuchar con textos auténticos; las listas de palabras no sustituyen esas prácticas. Organizar secuencias con criterios públicos deja rastro evaluativo y sitúa el dictado, si se usa, como un recurso, no como el periodo. El SIEE de dictados, el texto de cierre que no entra a la nota y el dictado homogéneo responden a rigor, clima o igualdad aparente, pero no restauran el objeto del área. La decisión correcta articula el referente de lenguaje y la trazabilidad institucional.",
+    "normativeJustification": "Lineamientos Curriculares de Lengua Castellana y EBC de lenguaje: la enseñanza y la evaluación recogen prácticas sociales —lectura, escritura, oralidad y escucha— con textos completos y auténticos. El Decreto 1290 exige criterios y evidencias coherentes con lo enseñado, no un único formato de dictado archivable.",
+    "theoreticalJustification": "El enfoque comunicativo sostiene que se aprende a leer y a escribir leyendo y escribiendo con propósito. El dictado cotidiano informa sobre convenciones superficiales; sin textos auténticos no hay comprensión, producción ni oralidad como objeto de saber.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: dictados datados, listas y firma de coordinación son trazabilidad impecable y una respuesta visible a quien pide rigor, pero consolidan el error del caso: el periodo sigue reducido a reproducción de palabras y no hay instancia de prácticas comunicativas.",
+      "1": "Trampa de la práctica casi correcta pero insuficiente: un texto completo al cierre parece abrir la lectura, pero si la nota del área sigue siendo el promedio de dictados y listas, la comprensión, la escritura, la oralidad y la escucha no entran al juicio; es un adorno de clima.",
+      "2": "Trampa de la equidad como homogeneización: el mismo dictado y la misma lista igualan condiciones y calman reclamos, y suenan a seriedad ortográfica para las familias, pero uniforman el instrumento pobre del episodio y niegan la diversidad de evidencias que el lenguaje exige."
+    }
+  },
+  {
+    "id": "oro-esp-len-02",
+    "options": [
+      "Pedir más textos «finales» en el periodo, archivarlos con fecha y publicarlos como evidencia comparable de producción, sin borradores, sin rúbrica conocida ni un siguiente paso de revisión que quede en el registro.",
+      "Entregar a todo el grupo el mismo enunciado, el mismo tiempo de una sesión y la misma nota de producto, argumentando que así se igualan las condiciones de entrega, se evitan reclamos de inequidad y queda un archivo comparable en el SIEE.",
+      "Instalar el ciclo planificar–textualizar–revisar con rúbrica conocida de antemano, borradores datados y retroalimentación entre pares y docente, y registrar evidencias e instancia de mejora, de modo que la primera entrega deje de ser el cierre del juicio.",
+      "Fijar en el SIEE que la escritura se califica en la primera entrega con corte de aprobación, y comunicarlo a las familias como garantía de rigor y de rapidez frente a quien pide una salida visible e inmediata."
+    ],
+    "explanation": "La condición de calidad pide la decisión más defendible pedagógica e institucionalmente: proceso de escritura con criterios, evidencia e instancias, no una nota sobre el primer producto. El Decreto 1290 orienta la evaluación formativa; los lineamientos de lenguaje conciben planificar, textualizar y revisar como objeto de enseñanza. Una rúbrica conocida y la retroalimentación entre pares y docente convierten el borrador en evidencia de mejora, no en trámite. Pedir más textos finales, igualar el tiempo de una sesión o fijar en el SIEE la calificación a la primera entrega parecen rigor o equidad, pero confirman el error del caso. La opción correcta evita el polo de la salida visible y el de la homogeneización del producto.",
+    "normativeJustification": "El Decreto 1290 exige criterios conocidos, evidencias de proceso y devolución, no un único producto calificable. Los Lineamientos de Lengua Castellana sitúan la escritura como proceso (planificación, textualización, revisión) y no como entrega única «final».",
+    "theoreticalJustification": "La revisión con criterios desarrolla metacognición y calidad textual: el escritor aprende a ver su texto con los ojos de un lector. Calificar la primera versión sin rúbrica evalúa un rasgo de rapidez, no un aprendizaje enseñado; más productos finales no equivalen a más proceso.",
+    "distractorAnalysis": {
+      "0": "Trampa del rigor como acumulación de productos: más textos fechados y publicados responden con visibilidad al pedido de la comunidad y parecen producción abundante, pero sin borradores ni rúbrica reiteran el patrón del caso: se entrega «final» y se recibe nota, sin mediación de revisión.",
+      "1": "Trampa de la equidad como homogeneización: el mismo enunciado, el mismo tiempo y la misma nota de producto suenan a justicia y a prevención de reclamos —la propuesta del colega—, pero niegan tiempos de planificación y revisión y convierten la igualdad de condiciones en igualdad de empobrecimiento.",
+      "3": "Trampa de dominio cruzado administrativo: el corte en el SIEE y el comunicado a familias son gestión evaluativa impecable, rápida y visible, pero institucionalizan la calificación de la primera entrega y sacan del juicio el proceso de escritura que el episodio omitió."
+    }
+  },
+  {
+    "id": "oro-esp-len-03",
+    "options": [
+      "Formular preguntas de interpretación y de evaluación de argumentos, pedir una respuesta propia con evidencia del texto, y registrar criterios e instancia de devolución, de modo que copiar el párrafo deje de operar como prueba de lectura.",
+      "Radicar en el SIEE que la evidencia de lectura del periodo es el párrafo copiado y fechado en el cuaderno, con visto bueno de coordinación, para mostrar cobertura y trazabilidad documental del texto argumentativo.",
+      "Pedir que subrayen la tesis en el primer párrafo y lo copien como «identificación de la postura», conservando esa copia como nota de comprensión, sin evaluación de argumentos ni producción de una respuesta propia.",
+      "Organizar un debate o un mural sobre el tema del texto como actividad de impacto comunitario, sin volver a los argumentos leídos, sin criterios de evidencia textual ni registro de comprensión crítica en el SIEE."
+    ],
+    "explanation": "La condición de calidad articula fortalecer la comprensión crítica con la opción más defendible, con evidencia e instancia. Las EBC de lenguaje incluyen interpretación, evaluación de argumentos y toma de postura; copiar el primer párrafo informa sobre transcripción, no sobre lectura crítica. Formular preguntas de esos niveles y pedir una respuesta propia con evidencia del texto deja criterios y rastro, y desplaza la copia como prueba. Radicar el párrafo en el SIEE, subrayar la tesis y copiarla, o debatir el tema sin volver al texto, parecen cobertura, identificación de tesis o pensamiento crítico. Ninguna de esas tres completa la comprensión crítica que el stem exige.",
+    "normativeJustification": "Las EBC y los DBA de lenguaje exigen niveles de comprensión —literal, inferencial y crítico— y uso de la información para evaluar y responder. El SIEE debe recoger evidencias de esos desempeños; la copia del primer párrafo no es instancia de lectura crítica.",
+    "theoreticalJustification": "La lectura crítica exige inferencia, valoración de argumentos y producción de una postura con evidencia del texto. Subrayar y copiar la tesis simula localizar información y deja al estudiante en reproducción; un debate desanclado del texto es opinión sin comprensión.",
+    "distractorAnalysis": {
+      "1": "Trampa de dominio cruzado administrativo: el párrafo fechado y el visto bueno de coordinación son trazabilidad documental impecable y responden a quien pide evidencia visible, pero consolidan la copia como prueba de lectura y no hay instancia de interpretación ni de evaluación de argumentos.",
+      "2": "Trampa de la práctica casi correcta pero insuficiente: identificar la tesis parece un paso de lectura crítica, pero si el producto calificable sigue siendo copiar el primer párrafo, no hay evaluación de argumentos ni respuesta propia; es el error del caso con un rótulo de «postura».",
+      "3": "Trampa del activismo sin criterios: el debate o el mural generan impacto y parecen pensamiento crítico, pero sin volver a los argumentos del texto no hay comprensión crítica ni evidencia e instancia del área; hay opinión pública, no lectura."
+    }
+  },
+  {
+    "id": "oro-esp-len-04",
+    "options": [
+      "Pasar de inmediato a producir el género con una consigna de entrega para la cartelera o el boletín, argumentando que el producto visible responde a la comunidad, sin explorar qué saben los estudiantes ni para qué sirve ese género en la vida.",
+      "Activar saberes previos, propósito comunicativo y modelos del género —qué hace, para quién y con qué recursos— antes de producir, y dejar evidencias e instancia de esa preparación, de modo que la escritura no quede como ocurrencia.",
+      "Entregar a todo el grupo el mismo párrafo modelo para parafrasear en el mismo tiempo, argumentando que así se iguala la oportunidad de elaborar el género y se reduce el reclamo de que algunos partieron con ventaja.",
+      "Actualizar el plan de área y el PEI con el nombre del género, recoger firmas del consejo académico y publicar el cronograma de entregas, sin modificar en el aula la ausencia de saberes previos y de propósito comunicativo."
+    ],
+    "explanation": "La condición de calidad pide lo más defendible pedagógico e institucionalmente: mediación previa, propósito y evidencia, no un producto de género improvisado. Los lineamientos de lenguaje articulan género, propósito comunicativo y evaluación; Ausubel exige anclar lo nuevo en la estructura cognitiva previa. Activar qué saben, para qué sirve el género y con qué modelos se produce evita la escritura como ocurrencia y deja instancia trazable. Entregar de inmediato a la cartelera, parafrasear el mismo modelo o rotular el género en el PEI parecen celeridad, igualdad de oportunidad o cumplimiento curricular. La decisión correcta completa el andamiaje que el episodio omitió.",
+    "normativeJustification": "Los Lineamientos de Lengua Castellana orientan la enseñanza de géneros con propósito, destinatario y modelos de práctica social, no con una consigna de producto. El Decreto 1290 y la planeación en el PEI exigen criterios e evidencias de ese proceso, no el nombre del género en un acta.",
+    "theoreticalJustification": "Ausubel: el aprendizaje significativo ancla lo nuevo en saberes previos. Presentar un género sin explorar qué saben ni para qué sirve deja el modelo como molde a copiar. El parafraseo homogéneo del mismo párrafo no activa la estructura cognitiva: la reproduce.",
+    "distractorAnalysis": {
+      "0": "Trampa de la salida visible: la cartelera o el boletín responden de inmediato al sector que pide un producto, y lucen como enseñanza del género, pero omiten saberes previos y propósito; es celeridad de imagen sobre el andamiaje que el caso exige.",
+      "2": "Trampa de la equidad como homogeneización: el mismo párrafo modelo y el mismo tiempo suenan a igualdad de oportunidad y evitan el reclamo de ventaja, pero sustituyen la activación de saberes y el propósito por una reproducción uniforme; el género queda como formato, no como práctica.",
+      "3": "Trampa de dominio cruzado administrativo: actualizar PEI, firmas y cronograma son gestión curricular impecable y trazable en papel, pero no tocan el aula; el lema del género sin saberes previos ni propósito es formalismo documental."
+    }
+  },
+  {
+    "id": "oro-esp-len-05",
+    "options": [
+      "Expedir una circular de convivencia que prohíba las burlas por el acento, leerla en asamblea con las familias y archivar el acta como evidencia de actuación inmediata, sin valorar la variedad regional ni enseñar registros según el contexto comunicativo.",
+      "Adoptar el «español culto» como lengua de la clase y de la evaluación oral, argumentando que así se prepara para entrevistas y pruebas externas, y reservar la variedad regional para espacios informales, sin trabajo de registros ni de valoración en el aula.",
+      "Aplicar a todo el grupo la misma rúbrica de pronunciación «neutra» y el mismo tiempo de exposición, argumentando que así nadie recibe un trato diferenciado y la nota oral queda comparable ante reclamos de las familias.",
+      "Detener la discriminación, valorar la variedad regional como recurso identitario y enseñar registros —cuándo y para qué se adecua el habla al contexto—, con criterios públicos y evidencias de mediación, de modo que «hablar bien» deje de confundirse con ridiculizar el acento."
+    ],
+    "explanation": "La condición de calidad exige la decisión más defendible pedagógica e institucionalmente: protección, valoración lingüística y enseñanza de registros, no una circular ni un estándar bienintencionado. La Guía 49 y la Ley 1620 mandan detener la discriminación; los lineamientos de lenguaje tratan la variación como objeto de saber, no como defecto. Enseñar cuándo y para qué se adecua el registro al contexto forma competencia comunicativa sin estigmatizar el acento. La circular de convivencia, el «español culto» como lengua de la clase y la rúbrica de pronunciación neutra suenan a cuidado, éxito académico o equidad. Ninguna enseña registros ni repara la ridiculización del episodio.",
+    "normativeJustification": "Guía MEN 49 y Ley 1620: prevenir y detener la discriminación en el aula, con mediación y evidencia, no con un acta que sustituye la enseñanza. Los lineamientos de lenguaje reconocen la variación lingüística y orientan la adecuación de registros al propósito y al destinatario, sin estigmatizar la identidad.",
+    "theoreticalJustification": "La sociolingüística escolar distingue variedad (identidad) de registro (adecuación situacional). Enseñar el registro formal no exige sustituir la variedad regional por un «culto» único; reservar el acento a la informalidad reproduce una jerarquía lingüística con buena intención y sin mediación.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: circular, asamblea y acta son una respuesta institucional inmediata y visible a las burlas, impecable como gestión de convivencia, pero no valoran la variedad ni enseñan registros; el episodio queda en norma de conducta, no en objeto de lenguaje.",
+      "1": "Trampa del estándar culto bienintencionado: adoptar el «español culto» para entrevistas y pruebas suena a equidad de oportunidades y a profesionalismo, y evita la ridiculización abierta, pero sustituye la variedad por una norma única y omite el trabajo de registros que el referente exige.",
+      "2": "Trampa de la equidad como homogeneización: la misma rúbrica de pronunciación «neutra» iguala condiciones y reduce reclamos, pero convierte el acento en criterio de nota y niega la diversidad lingüística; uniformar la oralidad no es justicia ni enseñanza de registros."
+    }
+  },
+  {
+    "id": "oro-esp-len-06",
+    "options": [
+      "Fijar en el SIEE que el área se cierra con talleres escritos de fácil archivo y comparación, y comunicarlo a las familias como garantía de notas objetivas, argumentando que la oralidad genera disputas de calificación y conviene dejarla fuera del juicio.",
+      "Incluir al cierre una exposición oral grabada como evidencia del periodo y calificarla por impresión de fluidez, sin enseñanza previa de escucha ni argumentación y sin rúbrica compartida, para cubrir el componente sin diseñarlo como objeto de enseñanza.",
+      "Pedir que todo el grupo lea en voz alta el mismo texto, en el mismo tiempo, y puntuar dicción con una lista de errores, argumentando que así la oralidad se vuelve objetiva, comparable y se evitan reclamos de nota ante las familias.",
+      "Planear, enseñar y evaluar turnos de habla, escucha activa y argumentación en situaciones orales auténticas, con rúbrica conocida de claridad, escucha y argumentación y evidencias datadas en el SIEE, para que la dificultad de calificar no autorice a omitir la práctica."
+    ],
+    "explanation": "La condición de calidad pide lo más defendible pedagógico e institucionalmente: no se descarta una práctica porque sea difícil de calificar; se diseñan criterios, evidencia e instancias. Los lineamientos de lenguaje y el Decreto 1290 incluyen la oralidad como objeto de enseñanza y de evaluación. Situaciones auténticas con rúbricas de claridad, escucha y argumentación vuelven trazable lo que el caso elimina. Cerrar el área con talleres escritos, grabar una exposición de impresión o puntuar la lectura en voz alta del mismo texto parecen objetividad, cumplimiento o igualdad. La opción correcta restituye la oralidad al SIEE sin convertirla en dicción comparable.",
+    "normativeJustification": "Lineamientos de Lengua Castellana y EBC: hablar y escuchar son prácticas de enseñanza y evaluación. El Decreto 1290 permite evidencias diversas con criterios; la dificultad de calificar no autoriza a excluir un componente del área del SIEE.",
+    "theoreticalJustification": "La oralidad se aprende en uso situado, con andamiaje y criterios de desempeño (turnos, adecuación, argumentación, claridad, escucha). Improvisar una exposición de cierre evalúa un rasgo de fluidez; leer el mismo texto en voz alta evalúa dicción, no argumentación ni escucha.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: talleres escritos, archivo fácil y comunicado a familias son rigor visible y auditable, y recogen el argumento del caso —si genera disputas, se saca del juicio—, pero confirman la premisa errónea y eliminan la oralidad del área.",
+      "1": "Trampa de la práctica casi correcta pero insuficiente: una exposición grabada «cumple» el enunciado de oralidad y deja un archivo, pero sin enseñanza ni rúbrica de claridad, escucha y argumentación es impresión de fluidez; parece alineada y es incompleta.",
+      "2": "Trampa de la equidad como homogeneización: leer el mismo texto y puntuar dicción iguala condiciones, vuelve «objetiva» la nota y calma reclamos, pero sustituye las situaciones orales auténticas por un control de pronunciación; hay comparabilidad, no oralidad como práctica social."
+    }
+  },
+  {
+    "id": "oro-esp-len-07",
+    "options": [
+      "Inscribir el podcast en el PEI como proyecto de innovación, publicar fotos y el comunicado a la comunidad, y conservar como nota el criterio de si leyeron bien el guion, para responder con visibilidad institucional sin cambiar el juicio evaluativo.",
+      "Aplicar una rúbrica conocida de antemano que valore, en cada episodio, el propósito comunicativo, la adecuación a la audiencia escolar, la organización discursiva, la claridad de la oralidad y el uso ético de fuentes, y dejar evidencias e instancia de devolución en el SIEE.",
+      "Añadir al formato una casilla de «audiencia» para que la escriban en la carátula del episodio, pero conservar como nota del podcast si leyeron bien el guion, sin valorar propósito, organización discursiva ni uso ético de fuentes.",
+      "Entregar a todo el grupo el mismo guion institucional para leerlo en el mismo tiempo de grabación y puntuar dicción y fidelidad al texto, argumentando que así la nota es comparable, objetiva y se evitan reclamos de inequidad."
+    ],
+    "explanation": "La condición de calidad pide una evaluación más alineada al área, defendible, con evidencia e instancia: una acción evaluativa completa, no una lista de palabras ni la fidelidad al guion. Las EBC y los lineamientos sitúan las producciones multimodales en un propósito, una audiencia y un discurso ético. Valorar esos criterios en el podcast con rúbrica conocida y devolución convierte el producto en práctica comunicativa evaluable. Inscribirlo como innovación, añadir una casilla de audiencia o uniformar el guion institucional parecen gestión, casi-alineación o equidad. En esos tres polos el juicio sigue siendo si leyeron bien el texto, que es el error del caso.",
+    "normativeJustification": "Lineamientos de Lengua Castellana y EBC de lenguaje: las prácticas sociales incluyen producciones orales y multimodales con intención, destinatario y responsabilidad sobre las fuentes. El Decreto 1290 exige criterios previos y evidencias coherentes con esa práctica, no la lectura fiel de un guion.",
+    "theoreticalJustification": "Evaluar propósito y audiencia desarrolla competencia comunicativa real: el podcast es un género con oyente y ética de atribución, no un examen de dicción. Una casilla de audiencia sin peso en la nota no media el desempeño; un guion único homogeneiza la voz y anula la producción.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: PEI, fotos y comunicado son gestión de innovación impecable y una respuesta visible a la comunidad, pero conservan el criterio del caso —si leyeron bien el guion— y no alinean la evaluación al área.",
+      "2": "Trampa de la práctica casi correcta pero insuficiente: la casilla de «audiencia» parece incorporar lo que el stem echa de menos, pero si la nota sigue siendo la lectura del guion, propósito, organización y fuentes no entran al juicio; es rotulado sin acción evaluativa.",
+      "3": "Trampa de la equidad como homogeneización: el mismo guion, el mismo tiempo y la puntuación de dicción igualan condiciones y reducen reclamos, pero confirman que el podcast se evalúa como lectura en voz alta y niegan propósito, audiencia y producción propia."
+    }
+  }
+]

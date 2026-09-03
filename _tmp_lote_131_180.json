@@ -1,0 +1,2319 @@
+[
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-g51-03",
+    "pillar": "pedagogico",
+    "topic": "Guía MEN 51 / confidencialidad",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "Guía MEN 51 / confidencialidad",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras un reporte de acoso, varios adultos comentan detalles del caso en la sala de profesores con nombre completo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Restringir la información a quienes deben actuar en la ruta y proteger identidad",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 2,
+    "explanation": "Las rutas de atención exigen confidencialidad y protección de la intimidad de los involucrados. La difusión innecesaria aumenta estigma y riesgo de revictimización.",
+    "normativeJustification": "Las rutas de atención exigen confidencialidad y protección de la intimidad de los involucrados.",
+    "theoreticalJustification": "La difusión innecesaria aumenta estigma y riesgo de revictimización.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "confidencialidad"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-g51-04",
+    "pillar": "pedagogico",
+    "topic": "Guía MEN 51 / enfoque restaurativo",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "Guía MEN 51 / enfoque restaurativo",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "Tras una falta Tipo I, la única respuesta es suspensión sin espacio de diálogo ni reparación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Aplicar mediación/acuerdos restaurativos con seguimiento, según la gravedad y el manual"
+    ],
+    "correctIndex": 3,
+    "explanation": "Las guías de convivencia orientan respuestas formativas y rutas proporcionales a la tipificación. Lo restaurativo busca reparar daño y restaurar vínculos, no solo castigar.",
+    "normativeJustification": "Las guías de convivencia orientan respuestas formativas y rutas proporcionales a la tipificación.",
+    "theoreticalJustification": "Lo restaurativo busca reparar daño y restaurar vínculos, no solo castigar.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "atención formativa"
+      },
+      {
+        "code": "ley1620",
+        "focus": "proporcionalidad"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-g51-05",
+    "pillar": "pedagogico",
+    "topic": "Guía MEN 51 / roles",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "Guía MEN 51 / roles",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Nadie en la IE conoce quién activa la ruta cuando hay una situación de riesgo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Definir roles, protocolos visibles y formación al equipo sobre la ruta"
+    ],
+    "correctIndex": 3,
+    "explanation": "La efectividad de las rutas depende de protocolos claros y roles institucionales definidos. La claridad organizacional reduce tiempo de respuesta y errores.",
+    "normativeJustification": "La efectividad de las rutas depende de protocolos claros y roles institucionales definidos.",
+    "theoreticalJustification": "La claridad organizacional reduce tiempo de respuesta y errores.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "protocolos y roles"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-01",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / lenguaje",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / lenguaje",
+    "targetCargo": "lenguaje",
+    "specialtyTags": [
+      "lenguaje",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En lenguaje se enseña solo ortografía aislada, sin comprensión ni producción de textos auténticos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Integrar lectura, escritura, oralidad y escucha en prácticas sociales del lenguaje",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Los lineamientos de lenguaje orientan el área hacia prácticas comunicativas reales, no solo fragmentos formales. El lenguaje se aprende usándolo con propósito en contextos significativos.",
+    "normativeJustification": "Los lineamientos de lenguaje orientan el área hacia prácticas comunicativas reales, no solo fragmentos formales.",
+    "theoreticalJustification": "El lenguaje se aprende usándolo con propósito en contextos significativos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-02",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / matemáticas",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / matemáticas",
+    "targetCargo": "matematicas",
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de matemáticas prioriza algoritmos memorizados y evita resolución de problemas y representación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Eliminar la argumentación matemática, aunque parezca un trámite equitativo o suficiente.",
+      "Evaluar solo velocidad de cálculo mental, aunque se presente como solución rápida en la reunión.",
+      "Articular pensamiento matemático, resolución de problemas y múltiples representaciones",
+      "Seguir solo el índice del libro de algoritmos, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos y EBC de matemáticas enfatizan pensamiento matemático y resolución de problemas. Bruner y la didáctica actual recomiendan progresión enactivo–icónico–simbólico.",
+    "normativeJustification": "Lineamientos y EBC de matemáticas enfatizan pensamiento matemático y resolución de problemas.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan progresión enactivo–icónico–simbólico.",
+    "distractorAnalysis": {
+      "0": "Argumentar es competencia matemática.",
+      "1": "La velocidad no define comprensión.",
+      "3": "El libro no sustituye el referente de área."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "bruner"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 90,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-03",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / ciencias naturales",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / ciencias naturales",
+    "targetCargo": "ciencias",
+    "specialtyTags": [
+      "ciencias",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En ciencias se dictan definiciones para memorizar y no hay indagación ni registro de evidencias. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Promover indagación, formulación de preguntas, evidencia y explicación",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los lineamientos de ciencias naturales orientan hacia una ciencia escolar basada en indagación y explicación. Aprender ciencia es aprender a preguntar, modelar y argumentar con evidencia.",
+    "normativeJustification": "Los lineamientos de ciencias naturales orientan hacia una ciencia escolar basada en indagación y explicación.",
+    "theoreticalJustification": "Aprender ciencia es aprender a preguntar, modelar y argumentar con evidencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "ciencias naturales"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-04",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / ciencias sociales",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / ciencias sociales",
+    "targetCargo": "sociales",
+    "specialtyTags": [
+      "sociales",
+      "primaria"
+    ],
+    "caseContext": "En sociales se enseña solo fechas memorísticas, sin análisis de problemas sociales ni pensamiento crítico. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Una práctica alineada a lineamientos/EBC sería. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Desarrollar pensamiento social, análisis de problemas y formación ciudadana",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "Los referentes de sociales orientan a comprensión crítica del entorno y competencias ciudadanas. La ciudadanía se forma al interpretar problemas sociales con evidencia y argumentación.",
+    "normativeJustification": "Los referentes de sociales orientan a comprensión crítica del entorno y competencias ciudadanas.",
+    "theoreticalJustification": "La ciudadanía se forma al interpretar problemas sociales con evidencia y argumentación.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "ciencias sociales"
+      },
+      {
+        "code": "ebc",
+        "focus": "competencias ciudadanas"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-05",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / articulación EBC-DBA",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / articulación EBC-DBA",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de área cita lineamientos de 1998 pero ignora EBC y DBA vigentes en la planeación diaria. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Articular lineamientos (enfoque de área) con EBC/DBA (metas y progresión) en la planeación",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos, EBC y DBA son complementarios: enfoque de área + competencias + aprendizajes por grado. La coherencia curricular evita activismo sin progresión ni criterios de evaluación.",
+    "normativeJustification": "Lineamientos, EBC y DBA son complementarios: enfoque de área + competencias + aprendizajes por grado.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin progresión ni criterios de evaluación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "articulación"
+      },
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-06",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / evaluación del área",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / evaluación del área",
+    "targetCargo": "matematicas",
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evaluación de matemáticas solo pide resultados finales numéricos, sin justificar procedimientos ni representaciones. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+      "Valorar procesos, representaciones, argumentación y uso de conceptos en problemas"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los referentes de matemáticas privilegian comprensión y procesos, no solo el producto numérico. Hacer visible el pensamiento matemático mejora la retroalimentación formativa (1290).",
+    "normativeJustification": "Los referentes de matemáticas privilegian comprensión y procesos, no solo el producto numérico.",
+    "theoreticalJustification": "Hacer visible el pensamiento matemático mejora la retroalimentación formativa (1290).",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "evaluación matemática"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-07",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / interdisciplinariedad",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / interdisciplinariedad",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Cada área trabaja temas aislados; un proyecto de agua potable no conecta ciencias, matemáticas ni lenguaje. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Diseñar articulaciones intencionales entre áreas con metas claras de cada referente",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Los referentes permiten proyectos integradores sin perder la especificidad epistemológica de cada área. La integración con intencionalidad evita el activismo y potencia transferencia de aprendizajes.",
+    "normativeJustification": "Los referentes permiten proyectos integradores sin perder la especificidad epistemológica de cada área.",
+    "theoreticalJustification": "La integración con intencionalidad evita el activismo y potencia transferencia de aprendizajes.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "integración curricular"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-lin-w2-08",
+    "pillar": "pedagogico",
+    "topic": "Lineamientos / contextualización",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "Lineamientos / contextualización",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "Se enseña un contenido de lineamientos con ejemplos urbanos ajenos a una IE rural amazónica, sin adaptación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "La decisión didáctica más pertinente es. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Contextualizar el referente a problemas, culturas y territorios del estudiantado",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los referentes nacionales se contextualizan en el PEI y en la realidad de la comunidad educativa. El aprendizaje significativo (Ausubel) ancla lo nuevo en experiencias y saberes del contexto.",
+    "normativeJustification": "Los referentes nacionales se contextualizan en el PEI y en la realidad de la comunidad educativa.",
+    "theoreticalJustification": "El aprendizaje significativo (Ausubel) ancla lo nuevo en experiencias y saberes del contexto.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "contextualización"
+      },
+      {
+        "code": "ausubel",
+        "focus": "significatividad"
+      },
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ausubel",
+      "ley115"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-1",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 1",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 1",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente pide formación continua y la IE responde que 'eso no es prioridad'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Priorizar desarrollo profesional alineado a necesidades de desempeño y aprendizaje de estudiantes"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1278 articula carrera y profesionalización docente. La formación continua mejora la práctica y el servicio educativo.",
+    "normativeJustification": "El 1278 articula carrera y profesionalización docente.",
+    "theoreticalJustification": "La formación continua mejora la práctica y el servicio educativo.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-2",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 2",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 2",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se evalúa al docente sin socializar criterios previos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Socializar criterios de desempeño y brindar retroalimentación oportuna"
+    ],
+    "correctIndex": 3,
+    "explanation": "La evaluación de desempeño requiere transparencia y criterios. Sin criterios previos, la evaluación se percibe arbitraria.",
+    "normativeJustification": "La evaluación de desempeño requiere transparencia y criterios.",
+    "theoreticalJustification": "Sin criterios previos, la evaluación se percibe arbitraria.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-3",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 3",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 3",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un directivo usa la evaluación solo para ranking interno entre docentes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Usarla para mejoramiento del servicio y planes de desarrollo profesional",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El propósito del estatuto es profesionalizar, no humillar. El ranking tóxico daña la colaboración pedagógica.",
+    "normativeJustification": "El propósito del estatuto es profesionalizar, no humillar.",
+    "theoreticalJustification": "El ranking tóxico daña la colaboración pedagógica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-4",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 4",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 4",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se confunde 'periodo de prueba' con ausencia total de acompañamiento. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Acompañar la inducción y el periodo de prueba con mentoría pedagógica",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El ingreso a carrera implica acompañamiento institucional. La mentoría acelera la apropiación de la cultura escolar.",
+    "normativeJustification": "El ingreso a carrera implica acompañamiento institucional.",
+    "theoreticalJustification": "La mentoría acelera la apropiación de la cultura escolar.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-5",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 5",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 5",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente incumple jornada sin justificación reiterada. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Activar procedimientos institucionales con debido proceso y registro",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hay deberes laborales y profesionales en el estatuto. La omisión reiterada afecta el derecho a la educación.",
+    "normativeJustification": "Hay deberes laborales y profesionales en el estatuto.",
+    "theoreticalJustification": "La omisión reiterada afecta el derecho a la educación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-6",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 6",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 6",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La IE no diferencia entre estímulo al buen desempeño y sanción. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Diseñar reconocimiento del buen desempeño y rutas justas ante incumplimientos"
+    ],
+    "correctIndex": 3,
+    "explanation": "El estatuto contempla derechos, deberes y evaluación. El clima laboral mejora con justicia y reconocimiento.",
+    "normativeJustification": "El estatuto contempla derechos, deberes y evaluación.",
+    "theoreticalJustification": "El clima laboral mejora con justicia y reconocimiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-7",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 7",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 7",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se pide al docente 'inventar evidencias' para una visita de supervisión. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Documentar prácticas reales y honestas con evidencias de aprendizaje"
+    ],
+    "correctIndex": 3,
+    "explanation": "La profesionalización exige integridad. La simulación corrompe la mejora real.",
+    "normativeJustification": "La profesionalización exige integridad.",
+    "theoreticalJustification": "La simulación corrompe la mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-1278-8",
+    "pillar": "pedagogico",
+    "topic": "1278 · aplicación 8",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278 · aplicación 8",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente excelso en aula es ignorado en espacios de liderazgo pedagógico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Abrir roles de mentoría y comunidades de aprendizaje entre pares",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El desarrollo profesional también es horizontal. Vygotsky institucional: la mediación entre pares docentes potencia la ZDP profesional.",
+    "normativeJustification": "El desarrollo profesional también es horizontal.",
+    "theoreticalJustification": "Vygotsky institucional: la mediación entre pares docentes potencia la ZDP profesional.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-9",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 9",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 9",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El glosario del manual no define acoso ni discriminación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Actualizar el manual con definiciones claras alineadas a la Guía 49 y la Ley 1620",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 0,
+    "explanation": "La Guía 49 propone glosario y actualización del manual. Sin definiciones compartidas, la tipificación falla.",
+    "normativeJustification": "La Guía 49 propone glosario y actualización del manual.",
+    "theoreticalJustification": "Sin definiciones compartidas, la tipificación falla.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-10",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 10",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 10",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Solo hay sanciones; no hay proyectos de promoción de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Diseñar acciones de promoción (ciudadanía, cuidado, diálogo) en el calendario escolar",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 0,
+    "explanation": "Promoción es el primer componente de la ruta integral. La cultura de paz se enseña con intencionalidad.",
+    "normativeJustification": "Promoción es el primer componente de la ruta integral.",
+    "theoreticalJustification": "La cultura de paz se enseña con intencionalidad.",
+    "distractorAnalysis": {
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-11",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 11",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 11",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un conflicto Tipo I se maneja como si fuera delito. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Proporcionar respuesta formativa acorde a la tipificación"
+    ],
+    "correctIndex": 3,
+    "explanation": "La tipificación orienta la ruta y la proporcionalidad. Sobre-criminalizar daña el clima y el aprendizaje.",
+    "normativeJustification": "La tipificación orienta la ruta y la proporcionalidad.",
+    "theoreticalJustification": "Sobre-criminalizar daña el clima y el aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-12",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 12",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 12",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No se hace lectura de contexto antes de reescribir el manual. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Diagnosticar clima, riesgos y percepciones de la comunidad educativa",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 0,
+    "explanation": "La Guía 49 exige lectura de lo que ocurre en el EE. Sin diagnóstico, el manual queda genérico.",
+    "normativeJustification": "La Guía 49 exige lectura de lo que ocurre en el EE.",
+    "theoreticalJustification": "Sin diagnóstico, el manual queda genérico.",
+    "distractorAnalysis": {
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-13",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 13",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 13",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Las familias desconocen la ruta de atención. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Socializar rutas, roles y canales de reporte de forma comprensible",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La comunidad debe conocer cómo activar la ruta. La información clara aumenta la protección.",
+    "normativeJustification": "La comunidad debe conocer cómo activar la ruta.",
+    "theoreticalJustification": "La información clara aumenta la protección.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-14",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 14",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 14",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se actualiza el manual sin el comité de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Liderar la actualización con el comité y participación amplia",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "El comité es instancia clave según Guía 49. La legitimidad nace de la participación.",
+    "normativeJustification": "El comité es instancia clave según Guía 49.",
+    "theoreticalJustification": "La legitimidad nace de la participación.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-15",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 15",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 15",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras un acuerdo restaurativo no hay monitoreo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Programar seguimiento de acuerdos y clima del grupo",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos"
+    ],
+    "correctIndex": 2,
+    "explanation": "Seguimiento es componente de la ruta integral. Sin monitoreo, los acuerdos se diluyen.",
+    "normativeJustification": "Seguimiento es componente de la ruta integral.",
+    "theoreticalJustification": "Sin monitoreo, los acuerdos se diluyen.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g49-16",
+    "pillar": "pedagogico",
+    "topic": "G49 · aplicación 16",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G49 · aplicación 16",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente ridiculiza a un estudiante por su acento o procedencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Activar acciones pedagógicas y de protección frente a discriminación",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Guía 49 enfatiza respeto a la diversidad. La escuela debe ser espacio seguro e inclusivo.",
+    "normativeJustification": "La Guía 49 enfatiza respeto a la diversidad.",
+    "theoreticalJustification": "La escuela debe ser espacio seguro e inclusivo.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g50-17",
+    "pillar": "pedagogico",
+    "topic": "G50 · aplicación 17",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "G50 · aplicación 17",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se exige silencio absoluto todo el día en transición. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Diseñar rutinas con juego, lenguaje y movimiento significativos",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 0,
+    "explanation": "La inicial se basa en desarrollo integral y juego. El lenguaje oral se desarrolla en interacción.",
+    "normativeJustification": "La inicial se basa en desarrollo integral y juego.",
+    "theoreticalJustification": "El lenguaje oral se desarrolla en interacción.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g50-18",
+    "pillar": "pedagogico",
+    "topic": "G50 · aplicación 18",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "G50 · aplicación 18",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa 'castigo del rincón' prolongado ante llanto. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Acompañar regulación emocional con cuidado y límites respetuosos",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación"
+    ],
+    "correctIndex": 1,
+    "explanation": "El cuidado es dimensión educativa en inicial. La contención afectiva enseña autorregulación.",
+    "normativeJustification": "El cuidado es dimensión educativa en inicial.",
+    "theoreticalJustification": "La contención afectiva enseña autorregulación.",
+    "distractorAnalysis": {
+      "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g50-19",
+    "pillar": "pedagogico",
+    "topic": "G50 · aplicación 19",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "G50 · aplicación 19",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No hay tiempo de juego exterior por 'perder clase'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Garantizar juego y actividad física como parte del aprendizaje",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 2,
+    "explanation": "Juego no es tiempo perdido: es mediación. El cuerpo y el movimiento son vías de conocimiento.",
+    "normativeJustification": "Juego no es tiempo perdido: es mediación.",
+    "theoreticalJustification": "El cuerpo y el movimiento son vías de conocimiento.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g50-20",
+    "pillar": "pedagogico",
+    "topic": "G50 · aplicación 20",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "G50 · aplicación 20",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se etiquetan niños como 'lentos' sin observación sistemática. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Documentar con evidencias y diseñar mediaciones diferenciadas",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 0,
+    "explanation": "La observación ética orienta la enseñanza. Las etiquetas prematuras limitan oportunidades.",
+    "normativeJustification": "La observación ética orienta la enseñanza.",
+    "theoreticalJustification": "Las etiquetas prematuras limitan oportunidades.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g50-21",
+    "pillar": "pedagogico",
+    "topic": "G50 · aplicación 21",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "G50 · aplicación 21",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Las familias solo reciben un informe anual genérico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Compartir avances del desarrollo con ejemplos concretos y acuerdos de acompañamiento"
+    ],
+    "correctIndex": 3,
+    "explanation": "La corresponsabilidad requiere comunicación significativa. Ausubel familiar: anclar sugerencias en lo que ya hacen en casa.",
+    "normativeJustification": "La corresponsabilidad requiere comunicación significativa.",
+    "theoreticalJustification": "Ausubel familiar: anclar sugerencias en lo que ya hacen en casa.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g50-22",
+    "pillar": "pedagogico",
+    "topic": "G50 · aplicación 22",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "G50 · aplicación 22",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se impone lectura formal de cartillas a los 3 años como única meta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Respetar trayectorias y privilegiar lenguaje oral, juego simbólico y exploración",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación"
+    ],
+    "correctIndex": 1,
+    "explanation": "Forzar primaria temprana contradice la especificidad de inicial. Piaget: no acelerar operaciones sin base sensoriomotriz/preoperacional.",
+    "normativeJustification": "Forzar primaria temprana contradice la especificidad de inicial.",
+    "theoreticalJustification": "Piaget: no acelerar operaciones sin base sensoriomotriz/preoperacional.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g51-23",
+    "pillar": "pedagogico",
+    "topic": "G51 · aplicación 23",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G51 · aplicación 23",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay afiche de la ruta pero nadie lo ha practicado en simulacro. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Formar al equipo y ensayar la activación de protocolos",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Guía 51 requiere operatividad, no solo difusión. La práctica reduce errores en la crisis.",
+    "normativeJustification": "La Guía 51 requiere operatividad, no solo difusión.",
+    "theoreticalJustification": "La práctica reduce errores en la crisis.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g51-24",
+    "pillar": "pedagogico",
+    "topic": "G51 · aplicación 24",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G51 · aplicación 24",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un caso se 'resuelve' cambiando de puesto sin escuchar a la víctima. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Escuchar, proteger, registrar y aplicar la ruta según tipificación",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La atención debe ser integral y centrada en derechos. Mover de puesto sin proceso no repara el daño.",
+    "normativeJustification": "La atención debe ser integral y centrada en derechos.",
+    "theoreticalJustification": "Mover de puesto sin proceso no repara el daño.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g51-25",
+    "pillar": "pedagogico",
+    "topic": "G51 · aplicación 25",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G51 · aplicación 25",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se pide a la víctima confrontar sola al agresor en el patio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Mediar con adultos responsables y condiciones de seguridad",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 1,
+    "explanation": "La ruta evita revictimización. La confrontación forzada aumenta riesgo.",
+    "normativeJustification": "La ruta evita revictimización.",
+    "theoreticalJustification": "La confrontación forzada aumenta riesgo.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g51-26",
+    "pillar": "pedagogico",
+    "topic": "G51 · aplicación 26",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G51 · aplicación 26",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No se informa a orientación escolar ni a coordinación cuando corresponde. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Activar la cadena de roles definida en el protocolo institucional"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los roles claros hacen efectiva la Guía 51. La omisión de roles diluye responsabilidad.",
+    "normativeJustification": "Los roles claros hacen efectiva la Guía 51.",
+    "theoreticalJustification": "La omisión de roles diluye responsabilidad.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g51-27",
+    "pillar": "pedagogico",
+    "topic": "G51 · aplicación 27",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G51 · aplicación 27",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras remisión externa, la IE abandona el acompañamiento pedagógico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Mantener seguimiento escolar de bienestar y aprendizajes",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 1,
+    "explanation": "La remisión no cierra el deber de cuidado escolar. El estudiante sigue siendo de la comunidad educativa.",
+    "normativeJustification": "La remisión no cierra el deber de cuidado escolar.",
+    "theoreticalJustification": "El estudiante sigue siendo de la comunidad educativa.",
+    "distractorAnalysis": {
+      "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-g51-28",
+    "pillar": "pedagogico",
+    "topic": "G51 · aplicación 28",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "G51 · aplicación 28",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa la ruta solo para estudiantes; adultos que agreden quedan impunes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Aplicar también protocolos frente a vulneraciones por adultos según competencia",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 2,
+    "explanation": "La protección es para toda la comunidad educativa. La coherencia ética fortalece la convivencia.",
+    "normativeJustification": "La protección es para toda la comunidad educativa.",
+    "theoreticalJustification": "La coherencia ética fortalece la convivencia.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-29",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 29",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 29",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de área no declara el enfoque epistemológico del área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Releer lineamientos y explicitar el enfoque en el plan de área",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los lineamientos definen el sentido del área. Sin enfoque, la secuencia se vuelve lista de temas.",
+    "normativeJustification": "Los lineamientos definen el sentido del área.",
+    "theoreticalJustification": "Sin enfoque, la secuencia se vuelve lista de temas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-30",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 30",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 30",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se evalúa lenguaje solo con opción múltiple de ortografía. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Incluir producción y comprensión de textos con criterios de desempeño",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 0,
+    "explanation": "Lineamientos de lenguaje privilegian prácticas comunicativas. La evaluación debe ser coherente con lo enseñado.",
+    "normativeJustification": "Lineamientos de lenguaje privilegian prácticas comunicativas.",
+    "theoreticalJustification": "La evaluación debe ser coherente con lo enseñado.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-31",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 31",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 31",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En matemáticas se prohíbe el uso de material concreto en 4°. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Permitir representaciones concretas/icónicas según necesidad de comprensión",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Bruner y lineamientos apoyan múltiples representaciones. Prohibir el concreto puede truncar la comprensión.",
+    "normativeJustification": "Bruner y lineamientos apoyan múltiples representaciones.",
+    "theoreticalJustification": "Prohibir el concreto puede truncar la comprensión.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-32",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 32",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 32",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Ciencias se reduce a copiar el tablero sin hipótesis. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Diseñar ciclos de pregunta–exploración–explicación–comunicación",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 0,
+    "explanation": "La indagación es núcleo de la ciencia escolar. Copiar no desarrolla pensamiento científico.",
+    "normativeJustification": "La indagación es núcleo de la ciencia escolar.",
+    "theoreticalJustification": "Copiar no desarrolla pensamiento científico.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-33",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 33",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 33",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Sociales evita el análisis del conflicto social local. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Trabajar problemas del entorno con respeto, evidencia y pensamiento crítico"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los referentes de sociales forman ciudadanía crítica. El contexto local es laboratorio de análisis.",
+    "normativeJustification": "Los referentes de sociales forman ciudadanía crítica.",
+    "theoreticalJustification": "El contexto local es laboratorio de análisis.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-34",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 34",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 34",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se planea sin revisar DBA del grado correspondiente. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Alinear metas del periodo a DBA y EBC del grado/área",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "DBA orientan aprendizajes esenciales por grado. Saltar grados sin bases genera fragilidad.",
+    "normativeJustification": "DBA orientan aprendizajes esenciales por grado.",
+    "theoreticalJustification": "Saltar grados sin bases genera fragilidad.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-35",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 35",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 35",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El proyecto transversal no tiene criterios de evaluación por área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Definir evidencias y criterios por área articulados al proyecto",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "La integración exige intencionalidad evaluativa. Sin criterios, el proyecto es activismo.",
+    "normativeJustification": "La integración exige intencionalidad evaluativa.",
+    "theoreticalJustification": "Sin criterios, el proyecto es activismo.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-w2-lin-36",
+    "pillar": "pedagogico",
+    "topic": "LIN · aplicación 36",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "LIN · aplicación 36",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se ignora la oralidad en lenguaje porque 'no se califica fácil'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Enseñar y evaluar oralidad con rúbricas y situaciones auténticas"
+    ],
+    "correctIndex": 3,
+    "explanation": "Oralidad es práctica social del lenguaje. Lo difícil de calificar no se elimina: se diseña mejor.",
+    "normativeJustification": "Oralidad es práctica social del lenguaje.",
+    "theoreticalJustification": "Lo difícil de calificar no se elimina: se diseña mejor.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-esp-pre-01",
+    "pillar": "pedagogico",
+    "topic": "Preescolar / juego simbólico",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "Preescolar / juego simbólico",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En transición, una niña organiza un 'consultorio' con muñecos y negociaciones de roles; la docente interrumpe para 'hacer planas'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Prolongar y mediar el juego simbólico como espacio de lenguaje, cuidado y representación",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Guía MEN 50 y las orientaciones de inicial privilegian el juego como mediación del desarrollo integral. En el juego simbólico el niño representa roles y construye significados (Piaget/Vygotsky).",
+    "normativeJustification": "La Guía MEN 50 y las orientaciones de inicial privilegian el juego como mediación del desarrollo integral.",
+    "theoreticalJustification": "En el juego simbólico el niño representa roles y construye significados (Piaget/Vygotsky).",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "juego simbólico"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación en juego"
+      },
+      {
+        "code": "piaget",
+        "focus": "representación"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "vygotsky",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-esp-pre-02",
+    "pillar": "pedagogico",
+    "topic": "Preescolar / rutinas de cuidado",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "Preescolar / rutinas de cuidado",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Durante el lavado de manos, la docente aprovecha para contar, nombrar partes del cuerpo y cantar secuencias. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Intencionalidad pedagógica que integra cuidado, lenguaje y nociones matemáticas informales",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 2,
+    "explanation": "En inicial, cuidado y aprendizaje son inseparables (orientaciones MEN / Guía 50). Las rutinas situadas generan aprendizajes significativos anclados en la experiencia cotidiana (Ausubel).",
+    "normativeJustification": "En inicial, cuidado y aprendizaje son inseparables (orientaciones MEN / Guía 50).",
+    "theoreticalJustification": "Las rutinas situadas generan aprendizajes significativos anclados en la experiencia cotidiana (Ausubel).",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "cuidado e intencionalidad"
+      },
+      {
+        "code": "ausubel",
+        "focus": "experiencia cotidiana"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-esp-pre-03",
+    "pillar": "pedagogico",
+    "topic": "Preescolar / inclusión sensorial",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "Preescolar / inclusión sensorial",
+    "targetCargo": "preescolar",
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "caseContext": "Un niño con hipersensibilidad auditiva se desregula en asambleas ruidosas; la respuesta ha sido sancionarlo por 'indisciplina'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Diseñar ajustes (ubicación, auriculares, tiempos, señales visuales) y documentar en PIAR si aplica",
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1421 orienta ajustes razonables y PIAR para participación y aprendizaje. La autorregulación se apoya con andamiaje ambiental y emocional, no con castigo.",
+    "normativeJustification": "El Decreto 1421 orienta ajustes razonables y PIAR para participación y aprendizaje.",
+    "theoreticalJustification": "La autorregulación se apoya con andamiaje ambiental y emocional, no con castigo.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes en inicial"
+      },
+      {
+        "code": "guiaMen50",
+        "focus": "bienestar"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "guiaMen50"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 115,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  }
+]

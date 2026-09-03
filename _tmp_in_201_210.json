@@ -1,0 +1,387 @@
+[
+  {
+    "id": "oro-esp-len-08",
+    "topic": "Lenguaje / andamiaje lector",
+    "subtopic": "Lenguaje / andamiaje lector",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un texto está por encima del nivel independiente de varios estudiantes; el docente solo dice 'léanlo en silencio' y evalúa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Andamiar con vocabulario clave, lectura compartida y preguntas guía antes de la autonomía",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 1,
+    "explanation": "La enseñanza formativa acompaña trayectorias diversas hacia aprendizajes esenciales (1290 / inclusión). Vygotsky: el texto desafiante se aborda en ZDP con mediación, no en soledad punitiva.",
+    "normativeJustification": "La enseñanza formativa acompaña trayectorias diversas hacia aprendizajes esenciales (1290 / inclusión).",
+    "theoreticalJustification": "Vygotsky: el texto desafiante se aborda en ZDP con mediación, no en soledad punitiva.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "vygotsky",
+        "focus": "lectura mediada"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "trayectorias"
+      }
+    ],
+    "normativeRefs": [
+      "vygotsky",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-01",
+    "topic": "Directivos / liderazgo pedagógico",
+    "subtopic": "Directivos / liderazgo pedagógico",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La coordinación dedica el 90% del tiempo a disciplina de pasillo y casi nada a acompañar planeación ni evidencias de aprendizaje. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Acompañar aula, analizar evidencias de aprendizaje y apoyar planes de mejoramiento docente",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "La gestión directiva debe velar por la calidad del servicio educativo (PEI, 1860, profesionalización 1278). El liderazgo pedagógico mejora resultados cuando se centra en la enseñanza y el aprendizaje.",
+    "normativeJustification": "La gestión directiva debe velar por la calidad del servicio educativo (PEI, 1860, profesionalización 1278).",
+    "theoreticalJustification": "El liderazgo pedagógico mejora resultados cuando se centra en la enseñanza y el aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "calidad del servicio"
+      },
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gestión"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278",
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-02",
+    "topic": "Directivos / SIEE",
+    "subtopic": "Directivos / SIEE",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El SIEE no se socializa; docentes aplican criterios distintos y las familias desconocen la escala. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Actualizar, socializar y monitorear la aplicación coherente del SIEE (Decreto 1290)",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 2,
+    "explanation": "El Decreto 1290 exige sistema institucional de evaluación conocido y aplicado. La transparencia de criterios genera confianza y mejora la autorregulación del aprendizaje.",
+    "normativeJustification": "El Decreto 1290 exige sistema institucional de evaluación conocido y aplicado.",
+    "theoreticalJustification": "La transparencia de criterios genera confianza y mejora la autorregulación del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "SIEE"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-03",
+    "topic": "Directivos / rutas de convivencia",
+    "subtopic": "Directivos / rutas de convivencia",
+    "targetCargo": "directivos",
+    "caseContext": "Hay un caso Tipo II y la rectoría decide 'arreglarlo en secreto' sin comité ni registro. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Activar la ruta (Guías 49/51, Ley 1620), proteger, registrar y hacer seguimiento"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 exigen ruta de atención integral con trazabilidad. La informalidad protege la imagen, no los derechos.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 exigen ruta de atención integral con trazabilidad.",
+    "theoreticalJustification": "La informalidad protege la imagen, no los derechos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "atención"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "protocolo"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-04",
+    "topic": "Directivos / gobierno escolar",
+    "subtopic": "Directivos / gobierno escolar",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El consejo directivo no se reúne; decisiones de impacto se toman solo por WhatsApp del rector. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Reactivar instancias del gobierno escolar con actas, participación y decisiones trazables",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1860 organiza el gobierno escolar; la participación es parte del PEI. La gobernanza escolar legítima requiere instancias, no solo liderazgo carismático.",
+    "normativeJustification": "El Decreto 1860 organiza el gobierno escolar; la participación es parte del PEI.",
+    "theoreticalJustification": "La gobernanza escolar legítima requiere instancias, no solo liderazgo carismático.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1860",
+      "ley115"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-05",
+    "topic": "Directivos / inclusión institucional",
+    "subtopic": "Directivos / inclusión institucional",
+    "targetCargo": "directivos",
+    "caseContext": "Ingresan estudiantes con discapacidad y la IE responde: 'no estamos preparados; mejor otra institución'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Garantizar atención con PIAR, ajustes y trabajo de equipo interdisciplinario",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "El Decreto 1421 obliga a la atención educativa inclusiva con PIAR y ajustes razonables. La preparación se construye en el hacer institucional, no como precondición para excluir.",
+    "normativeJustification": "El Decreto 1421 obliga a la atención educativa inclusiva con PIAR y ajustes razonables.",
+    "theoreticalJustification": "La preparación se construye en el hacer institucional, no como precondición para excluir.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "deber institucional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-06",
+    "topic": "Directivos / acompañamiento docente",
+    "subtopic": "Directivos / acompañamiento docente",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras resultados bajos en evidencias internas, la dirección solo envía memorandos sin observación de aula ni plan de apoyo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Observar práctica, co-planificar, definir metas de aprendizaje y hacer seguimiento formativo (1278/calidad)",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "La evaluación y el mejoramiento del servicio educativo son horizontes del estatuto y de la gestión escolar. El cambio pedagógico ocurre con acompañamiento situado, no con presión documental sola.",
+    "normativeJustification": "La evaluación y el mejoramiento del servicio educativo son horizontes del estatuto y de la gestión escolar.",
+    "theoreticalJustification": "El cambio pedagógico ocurre con acompañamiento situado, no con presión documental sola.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "mejoramiento"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-07",
+    "topic": "Directivos / PEI vivo",
+    "subtopic": "Directivos / PEI vivo",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El PEI está actualizado en el archivo, pero la planeación de área no lo consulta ni lo traduce a metas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Alinear planes de área, SIEE y proyectos al horizonte del PEI con participación docente"
+    ],
+    "correctIndex": 3,
+    "explanation": "La Ley 115 define el PEI como proyecto orientador de la institución. Un PEI vivo se evidencia en decisiones cotidianas de currículo, evaluación y convivencia.",
+    "normativeJustification": "La Ley 115 define el PEI como proyecto orientador de la institución.",
+    "theoreticalJustification": "Un PEI vivo se evidencia en decisiones cotidianas de currículo, evaluación y convivencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "implementación"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-08",
+    "topic": "Directivos / clima y datos",
+    "subtopic": "Directivos / clima y datos",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La IE no analiza indicadores de convivencia ni reincidencia; actúa caso a caso sin lectura institucional. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Hacer lectura de contexto, priorizar riesgos y planear promoción/prevención con el comité",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 2,
+    "explanation": "La Guía 49 pide lectura de lo que ocurre en el EE para orientar el manual y la ruta. La gestión basada en evidencia anticipa riesgos y enfoca recursos.",
+    "normativeJustification": "La Guía 49 pide lectura de lo que ocurre en el EE para orientar el manual y la ruta.",
+    "theoreticalJustification": "La gestión basada en evidencia anticipa riesgos y enfoca recursos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "lectura de contexto"
+      },
+      {
+        "code": "ley1620",
+        "focus": "prevención"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-cie-01",
+    "topic": "Ciencias / indagación",
+    "subtopic": "Ciencias / indagación",
+    "targetCargo": "ciencias",
+    "caseContext": "En 4°, el tema 'estados de la materia' se enseña solo con definición para memorizar, sin observación ni registro. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Desde lineamientos de ciencias, lo más coherente es. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Diseñar indagación con observación, registro de evidencias y explicación",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los lineamientos de ciencias naturales orientan hacia indagación y explicación basada en evidencia. Aprender ciencia es aprender a preguntar, observar y argumentar.",
+    "normativeJustification": "Los lineamientos de ciencias naturales orientan hacia indagación y explicación basada en evidencia.",
+    "theoreticalJustification": "Aprender ciencia es aprender a preguntar, observar y argumentar.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "ciencias"
+      },
+      {
+        "code": "ebc",
+        "focus": "indagación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

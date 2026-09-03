@@ -1,0 +1,322 @@
+[
+  {
+    "id": "oro-w2-g50-20",
+    "topic": "G50 · aplicación 20",
+    "subtopic": "G50 · aplicación 20",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se etiquetan niños como 'lentos' sin observación sistemática. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Documentar con evidencias y diseñar mediaciones diferenciadas",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 0,
+    "explanation": "La observación ética orienta la enseñanza. Las etiquetas prematuras limitan oportunidades.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ]
+  },
+  {
+    "id": "oro-w2-g50-21",
+    "topic": "G50 · aplicación 21",
+    "subtopic": "G50 · aplicación 21",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Las familias solo reciben un informe anual genérico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Compartir avances del desarrollo con ejemplos concretos y acuerdos de acompañamiento"
+    ],
+    "correctIndex": 3,
+    "explanation": "La corresponsabilidad requiere comunicación significativa. Ausubel familiar: anclar sugerencias en lo que ya hacen en casa.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ]
+  },
+  {
+    "id": "oro-w2-g50-22",
+    "topic": "G50 · aplicación 22",
+    "subtopic": "G50 · aplicación 22",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se impone lectura formal de cartillas a los 3 años como única meta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Respetar trayectorias y privilegiar lenguaje oral, juego simbólico y exploración",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación"
+    ],
+    "correctIndex": 1,
+    "explanation": "Forzar primaria temprana contradice la especificidad de inicial. Piaget: no acelerar operaciones sin base sensoriomotriz/preoperacional.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ]
+  },
+  {
+    "id": "oro-w2-g51-23",
+    "topic": "G51 · aplicación 23",
+    "subtopic": "G51 · aplicación 23",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay afiche de la ruta pero nadie lo ha practicado en simulacro. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Formar al equipo y ensayar la activación de protocolos",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Guía 51 requiere operatividad, no solo difusión. La práctica reduce errores en la crisis.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-w2-g51-24",
+    "topic": "G51 · aplicación 24",
+    "subtopic": "G51 · aplicación 24",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un caso se 'resuelve' cambiando de puesto sin escuchar a la víctima. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Escuchar, proteger, registrar y aplicar la ruta según tipificación",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La atención debe ser integral y centrada en derechos. Mover de puesto sin proceso no repara el daño.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-w2-g51-25",
+    "topic": "G51 · aplicación 25",
+    "subtopic": "G51 · aplicación 25",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se pide a la víctima confrontar sola al agresor en el patio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Mediar con adultos responsables y condiciones de seguridad",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 1,
+    "explanation": "La ruta evita revictimización. La confrontación forzada aumenta riesgo.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-w2-g51-26",
+    "topic": "G51 · aplicación 26",
+    "subtopic": "G51 · aplicación 26",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No se informa a orientación escolar ni a coordinación cuando corresponde. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Activar la cadena de roles definida en el protocolo institucional"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los roles claros hacen efectiva la Guía 51. La omisión de roles diluye responsabilidad.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-w2-g51-27",
+    "topic": "G51 · aplicación 27",
+    "subtopic": "G51 · aplicación 27",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras remisión externa, la IE abandona el acompañamiento pedagógico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Mantener seguimiento escolar de bienestar y aprendizajes",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 1,
+    "explanation": "La remisión no cierra el deber de cuidado escolar. El estudiante sigue siendo de la comunidad educativa.",
+    "distractorAnalysis": {
+      "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-w2-g51-28",
+    "topic": "G51 · aplicación 28",
+    "subtopic": "G51 · aplicación 28",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa la ruta solo para estudiantes; adultos que agreden quedan impunes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Aplicar también protocolos frente a vulneraciones por adultos según competencia",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 2,
+    "explanation": "La protección es para toda la comunidad educativa. La coherencia ética fortalece la convivencia.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "rutas"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-w2-lin-29",
+    "topic": "LIN · aplicación 29",
+    "subtopic": "LIN · aplicación 29",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de área no declara el enfoque epistemológico del área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Releer lineamientos y explicitar el enfoque en el plan de área",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los lineamientos definen el sentido del área. Sin enfoque, la secuencia se vuelve lista de temas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ]
+  }
+]

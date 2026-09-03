@@ -1,0 +1,337 @@
+[
+  {
+    "id": "oro-lin-w2-08",
+    "topic": "Lineamientos / contextualización",
+    "subtopic": "Lineamientos / contextualización",
+    "targetCargo": "primaria",
+    "caseContext": "Se enseña un contenido de lineamientos con ejemplos urbanos ajenos a una IE rural amazónica, sin adaptación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "La decisión didáctica más pertinente es. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Contextualizar el referente a problemas, culturas y territorios del estudiantado",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los referentes nacionales se contextualizan en el PEI y en la realidad de la comunidad educativa. El aprendizaje significativo (Ausubel) ancla lo nuevo en experiencias y saberes del contexto.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "contextualización"
+      },
+      {
+        "code": "ausubel",
+        "focus": "significatividad"
+      },
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ausubel",
+      "ley115"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-1",
+    "topic": "1278 · aplicación 1",
+    "subtopic": "1278 · aplicación 1",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente pide formación continua y la IE responde que 'eso no es prioridad'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Priorizar desarrollo profesional alineado a necesidades de desempeño y aprendizaje de estudiantes"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1278 articula carrera y profesionalización docente. La formación continua mejora la práctica y el servicio educativo.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-2",
+    "topic": "1278 · aplicación 2",
+    "subtopic": "1278 · aplicación 2",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se evalúa al docente sin socializar criterios previos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Socializar criterios de desempeño y brindar retroalimentación oportuna"
+    ],
+    "correctIndex": 3,
+    "explanation": "La evaluación de desempeño requiere transparencia y criterios. Sin criterios previos, la evaluación se percibe arbitraria.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-3",
+    "topic": "1278 · aplicación 3",
+    "subtopic": "1278 · aplicación 3",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un directivo usa la evaluación solo para ranking interno entre docentes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Usarla para mejoramiento del servicio y planes de desarrollo profesional",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El propósito del estatuto es profesionalizar, no humillar. El ranking tóxico daña la colaboración pedagógica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-4",
+    "topic": "1278 · aplicación 4",
+    "subtopic": "1278 · aplicación 4",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se confunde 'periodo de prueba' con ausencia total de acompañamiento. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Acompañar la inducción y el periodo de prueba con mentoría pedagógica",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El ingreso a carrera implica acompañamiento institucional. La mentoría acelera la apropiación de la cultura escolar.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-5",
+    "topic": "1278 · aplicación 5",
+    "subtopic": "1278 · aplicación 5",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente incumple jornada sin justificación reiterada. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Activar procedimientos institucionales con debido proceso y registro",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "Hay deberes laborales y profesionales en el estatuto. La omisión reiterada afecta el derecho a la educación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-6",
+    "topic": "1278 · aplicación 6",
+    "subtopic": "1278 · aplicación 6",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La IE no diferencia entre estímulo al buen desempeño y sanción. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Diseñar reconocimiento del buen desempeño y rutas justas ante incumplimientos"
+    ],
+    "correctIndex": 3,
+    "explanation": "El estatuto contempla derechos, deberes y evaluación. El clima laboral mejora con justicia y reconocimiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-7",
+    "topic": "1278 · aplicación 7",
+    "subtopic": "1278 · aplicación 7",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se pide al docente 'inventar evidencias' para una visita de supervisión. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Documentar prácticas reales y honestas con evidencias de aprendizaje"
+    ],
+    "correctIndex": 3,
+    "explanation": "La profesionalización exige integridad. La simulación corrompe la mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-1278-8",
+    "topic": "1278 · aplicación 8",
+    "subtopic": "1278 · aplicación 8",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente excelso en aula es ignorado en espacios de liderazgo pedagógico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Abrir roles de mentoría y comunidades de aprendizaje entre pares",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El desarrollo profesional también es horizontal. Vygotsky institucional: la mediación entre pares docentes potencia la ZDP profesional.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-9",
+    "topic": "G49 · aplicación 9",
+    "subtopic": "G49 · aplicación 9",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El glosario del manual no define acoso ni discriminación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Actualizar el manual con definiciones claras alineadas a la Guía 49 y la Ley 1620",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 0,
+    "explanation": "La Guía 49 propone glosario y actualización del manual. Sin definiciones compartidas, la tipificación falla.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  }
+]

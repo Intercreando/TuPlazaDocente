@@ -1,0 +1,357 @@
+[
+  {
+    "id": "oro-g51-03",
+    "topic": "Guía MEN 51 / confidencialidad",
+    "subtopic": "Guía MEN 51 / confidencialidad",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras un reporte de acoso, varios adultos comentan detalles del caso en la sala de profesores con nombre completo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Restringir la información a quienes deben actuar en la ruta y proteger identidad",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 2,
+    "explanation": "Las rutas de atención exigen confidencialidad y protección de la intimidad de los involucrados. La difusión innecesaria aumenta estigma y riesgo de revictimización.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "confidencialidad"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-g51-04",
+    "topic": "Guía MEN 51 / enfoque restaurativo",
+    "subtopic": "Guía MEN 51 / enfoque restaurativo",
+    "targetCargo": "primaria",
+    "caseContext": "Tras una falta Tipo I, la única respuesta es suspensión sin espacio de diálogo ni reparación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Aplicar mediación/acuerdos restaurativos con seguimiento, según la gravedad y el manual"
+    ],
+    "correctIndex": 3,
+    "explanation": "Las guías de convivencia orientan respuestas formativas y rutas proporcionales a la tipificación. Lo restaurativo busca reparar daño y restaurar vínculos, no solo castigar.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "atención formativa"
+      },
+      {
+        "code": "ley1620",
+        "focus": "proporcionalidad"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-g51-05",
+    "topic": "Guía MEN 51 / roles",
+    "subtopic": "Guía MEN 51 / roles",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Nadie en la IE conoce quién activa la ruta cuando hay una situación de riesgo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Definir roles, protocolos visibles y formación al equipo sobre la ruta"
+    ],
+    "correctIndex": 3,
+    "explanation": "La efectividad de las rutas depende de protocolos claros y roles institucionales definidos. La claridad organizacional reduce tiempo de respuesta y errores.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "protocolos y roles"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-01",
+    "topic": "Lineamientos / lenguaje",
+    "subtopic": "Lineamientos / lenguaje",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En lenguaje se enseña solo ortografía aislada, sin comprensión ni producción de textos auténticos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Integrar lectura, escritura, oralidad y escucha en prácticas sociales del lenguaje",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Los lineamientos de lenguaje orientan el área hacia prácticas comunicativas reales, no solo fragmentos formales. El lenguaje se aprende usándolo con propósito en contextos significativos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-02",
+    "topic": "Lineamientos / matemáticas",
+    "subtopic": "Lineamientos / matemáticas",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de matemáticas prioriza algoritmos memorizados y evita resolución de problemas y representación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Eliminar la argumentación matemática, aunque parezca un trámite equitativo o suficiente.",
+      "Evaluar solo velocidad de cálculo mental, aunque se presente como solución rápida en la reunión.",
+      "Articular pensamiento matemático, resolución de problemas y múltiples representaciones",
+      "Seguir solo el índice del libro de algoritmos, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos y EBC de matemáticas enfatizan pensamiento matemático y resolución de problemas. Bruner y la didáctica actual recomiendan progresión enactivo–icónico–simbólico.",
+    "distractorAnalysis": {
+      "0": "Argumentar es competencia matemática.",
+      "1": "La velocidad no define comprensión.",
+      "3": "El libro no sustituye el referente de área."
+    },
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "bruner"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-03",
+    "topic": "Lineamientos / ciencias naturales",
+    "subtopic": "Lineamientos / ciencias naturales",
+    "targetCargo": "ciencias",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En ciencias se dictan definiciones para memorizar y no hay indagación ni registro de evidencias. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Promover indagación, formulación de preguntas, evidencia y explicación",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los lineamientos de ciencias naturales orientan hacia una ciencia escolar basada en indagación y explicación. Aprender ciencia es aprender a preguntar, modelar y argumentar con evidencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "ciencias naturales"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-04",
+    "topic": "Lineamientos / ciencias sociales",
+    "subtopic": "Lineamientos / ciencias sociales",
+    "targetCargo": "sociales",
+    "caseContext": "En sociales se enseña solo fechas memorísticas, sin análisis de problemas sociales ni pensamiento crítico. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Una práctica alineada a lineamientos/EBC sería. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Desarrollar pensamiento social, análisis de problemas y formación ciudadana",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "Los referentes de sociales orientan a comprensión crítica del entorno y competencias ciudadanas. La ciudadanía se forma al interpretar problemas sociales con evidencia y argumentación.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "ciencias sociales"
+      },
+      {
+        "code": "ebc",
+        "focus": "competencias ciudadanas"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-05",
+    "topic": "Lineamientos / articulación EBC-DBA",
+    "subtopic": "Lineamientos / articulación EBC-DBA",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de área cita lineamientos de 1998 pero ignora EBC y DBA vigentes en la planeación diaria. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Articular lineamientos (enfoque de área) con EBC/DBA (metas y progresión) en la planeación",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos, EBC y DBA son complementarios: enfoque de área + competencias + aprendizajes por grado. La coherencia curricular evita activismo sin progresión ni criterios de evaluación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "articulación"
+      },
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "dba"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-06",
+    "topic": "Lineamientos / evaluación del área",
+    "subtopic": "Lineamientos / evaluación del área",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evaluación de matemáticas solo pide resultados finales numéricos, sin justificar procedimientos ni representaciones. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+      "Valorar procesos, representaciones, argumentación y uso de conceptos en problemas"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los referentes de matemáticas privilegian comprensión y procesos, no solo el producto numérico. Hacer visible el pensamiento matemático mejora la retroalimentación formativa (1290).",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "evaluación matemática"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "decreto1290"
+    ]
+  },
+  {
+    "id": "oro-lin-w2-07",
+    "topic": "Lineamientos / interdisciplinariedad",
+    "subtopic": "Lineamientos / interdisciplinariedad",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Cada área trabaja temas aislados; un proyecto de agua potable no conecta ciencias, matemáticas ni lenguaje. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Diseñar articulaciones intencionales entre áreas con metas claras de cada referente",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Los referentes permiten proyectos integradores sin perder la especificidad epistemológica de cada área. La integración con intencionalidad evita el activismo y potencia transferencia de aprendizajes.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "integración curricular"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos"
+    ]
+  }
+]

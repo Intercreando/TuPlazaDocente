@@ -1,0 +1,92 @@
+[
+  {
+    "id": "oro-esp-pre-04",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La IE exige 'notas numéricas' semanales en transición como en 5°. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Fijar en el SIEE una escala numérica semanal idéntica a la de quinto para transición, publicarla a las familias y archivar las planillas como evidencia comparable, para responder con trazabilidad al pedido de rigor de la comunidad.",
+      "Documentar el desarrollo en transición con observaciones, evidencias de juego y lenguaje, y devolución cualitativa a las familias, con criterios del equipo, de modo que el seguimiento sea formativo y no una nota semanal calcada de quinto.",
+      "Aplicar a transición la misma rúbrica numérica y el mismo calendario de notas que usa quinto, argumentando que así se trata a todos igual, se evitan reclamos de privilegio y la institución muestra seriedad académica uniforme.",
+      "Añadir un comentario cualitativo al boletín de transición y conservar, como nota del periodo, el promedio de calificaciones semanales de 1 a 5, para conciliar la Guía de inicial con la exigencia institucional de cifras comparables."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad del stem exige la decisión más defendible pedagógica e institucionalmente: mediación formativa con criterios, evidencia e instancias, no una cifra semanal de imagen. La Guía MEN 50 y las orientaciones de educación inicial conciben la evaluación en transición como cualitativa y procesual; el Decreto 1290 privilegia el carácter formativo y no obliga a copiar la escala de quinto. Documentar observaciones, evidencias de juego y lenguaje, y devolver de forma cualitativa a las familias deja rastro institucional y hace visible el desarrollo sin escolarizar el nivel. Fijar notas numéricas semanales, igualar la rúbrica de quinto o promediar cifras con un comentario al margen parecen rigor o conciliación, pero convierten el seguimiento en producto comparable. La opción correcta evita el polo administrativo de la planilla y el polo de la equidad homogeneizadora que el colega propone.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: escala, publicación a familias y planillas archivadas son impecables como gestión del SIEE y como respuesta visible al pedido de rigor, pero consolidan el error del caso: transición queda evaluada como quinto y la cifra sustituye la documentación del desarrollo.",
+      "2": "Trampa de la equidad como homogeneización: «tratar a todos igual» con la rúbrica y el calendario de quinto suena a justicia y a prevención de reclamos —la propuesta del colega—, pero niega la especificidad de inicial; uniformar el instrumento no es equidad ni calidad.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: el comentario cualitativo parece honrar la Guía 50, pero si la nota del periodo sigue siendo el promedio semanal de 1 a 5, lo formativo no entra al juicio; es un adorno narrativo sin cambio de criterio."
+    }
+  },
+  {
+    "id": "oro-esp-pre-06",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se enseñan 'sumas formales' en hoja a los 4 años, sin conteo, clasificación ni juego con cantidades. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Trabajar clasificación, serieción, conteo y comparación en el juego y en las rutinas de los cuatro años, observar con criterios de desarrollo y registrar evidencias, de modo que las cantidades se construyan en acción y no en la hoja de suma formal.",
+      "Adoptar un cuadernillo comercial de sumas de primero, inscribirlo en el plan de aula de los cuatro años y enviarlo semanalmente a las familias como evidencia comparable de que los niños van adelantados hacia la primaria.",
+      "Entregar a todo el grupo de cuatro años las mismas hojas de suma formal y el mismo tiempo de mesa, argumentando que así se trata a todos igual, se evitan reclamos de privilegio y la institución muestra preparación uniforme para primero.",
+      "Conservar las sumas en hoja como producto del periodo y añadir un rato de juego con bloques al final, sin registrar clasificación, serieción ni conteo como aprendizajes, para conciliar el pedido de rigor con un espacio lúdico."
+    ],
+    "correctIndex": 0,
+    "explanation": "La condición de calidad exige lo más defendible pedagógica e institucionalmente: nociones matemáticas de inicial con criterios y evidencia, no una hoja «de primero» para calmar a la comunidad. La Guía MEN 50 y los DBA de transición sitúan clasificación, serieción, conteo y comparación en el juego y las rutinas; Piaget ancla las operaciones en la acción y Bruner el modo enactivo antes que el símbolo escrito. Las sumas formales a los cuatro años saltan esa construcción y producen mecanización. La opción correcta trabaja esas nociones en contexto, observa y registra. El cuadernillo adelantado, las hojas uniformes y el juego de cierre con la suma como nota parecen preparación o equilibrio, pero dejan intacta la formalización prematura del episodio.",
+    "distractorAnalysis": {
+      "1": "Trampa de dominio cruzado administrativo: el cuadernillo en el plan, el envío semanal y la evidencia comparable para las familias son gestión curricular visible y «seria», pero convierten la suma formal del caso en política de adelanto y niegan el juego como mediación matemática.",
+      "2": "Trampa de la equidad como homogeneización: las mismas hojas y el mismo tiempo de mesa suenan a justicia y a prevención de reclamos, pero uniforman una práctica escolarizante; tratar a todos igual aquí es negar trayectorias y el objeto de enseñanza de los cuatro años.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: el juego con bloques parece honrar la Guía 50, pero si el producto calificable sigue siendo la suma en hoja y no se registran clasificación ni conteo, el juego es recreo y la formalización prematura queda como criterio."
+    }
+  },
+  {
+    "id": "oro-esp-mat-02",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante obtiene 36 en 6×7 y el docente solo marca 'X' sin analizar el error. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Registrar el 36 como error en el boletín, programar una recuperación de tablas con el mismo formato de producto escrito y comunicar el resultado a la familia, para dejar evidencia comparable de rigor frente a quien pide una salida visible.",
+      "Marcar con «X» todos los productos incorrectos del grupo con la misma pauta y devolver la hoja sin indagar estrategias, argumentando que así se trata a todos igual y se evita el reclamo de una corrección diferenciada.",
+      "Usar el 36 de 6×7 para indagar la estrategia del estudiante —por ejemplo, 6×6+6 u otra descomposición—, reenseñar con una representación y registrar el criterio de mediación, de modo que el error quede al servicio del aprendizaje.",
+      "Indicar de inmediato que el producto correcto es 42, asignar una lista extra de tablas de multiplicar y conservar la «X» como nota, sin preguntar cómo obtuvo 36 ni volver a representar la multiplicación."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad exige la decisión más defendible pedagógica e institucionalmente: mediación del error con criterio y evidencia, no una «X» comparable. El Decreto 1290 sitúa la evaluación al servicio del aprendizaje y la retroalimentación; el error es huella del pensamiento, no un déficit a archivar. Indagar cómo el estudiante obtuvo 36 en 6×7 —por ejemplo, 6×6+6— permite reenseñar con representación y dejar rastro de la mediación. Registrar, recuperar con el mismo formato o devolver el 42 con más tablas calma a quien pide rigor visible, pero no convierte el error en aprendizaje. La opción correcta evita el polo administrativo del boletín y el de tratar a todos igual con la misma marca muda.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: boletín, recuperación del mismo formato y comunicado a la familia son trazabilidad impecable y respuesta visible, pero archivan el 36 como déficit y no indagan la estrategia; el SIEE queda al servicio del rigor, no del aprendizaje.",
+      "1": "Trampa de la equidad como homogeneización: la misma «X» para todos suena a justicia calificadora y evita el reclamo de trato diferenciado, pero niega la mediación que el caso exige; igualar la marca no es equidad ni retroalimentación.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: decir que es 42 y dar más tablas parece corrección inmediata, pero sin indagar el 36 ni representar de nuevo se sustituye el pensamiento del estudiante por la respuesta correcta; la «X» sigue siendo el criterio."
+    }
+  },
+  {
+    "id": "oro-esp-dir-07",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El PEI está actualizado en el archivo, pero la planeación de área no lo consulta ni lo traduce a metas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Enviar un recordatorio por circular para que cada área consulte el PEI, recoja firmas de enterado y las anexe al acta de la jornada, sin contrastar planes, SIEE ni proyectos con el horizonte institucional ni acordar metas comunes.",
+      "Reeditar, empastar y publicar el PEI actualizado en la página institucional y en la biblioteca, con acto de socialización y registro fotográfico, para mostrar a la comunidad que el documento ya está vigente y visible.",
+      "Añadir al encabezado de cada plan de área la leyenda «alineado al PEI», recoger las carpetas en coordinación y radicarlas en consejo académico, sin revisar metas, evaluación ni proyectos a la luz del horizonte.",
+      "Alinear con participación docente los planes de área, el SIEE y los proyectos institucionales al horizonte del PEI, dejar constancia de esa contrastación en consejo académico y hacer seguimiento a su uso en la planeación cotidiana."
+    ],
+    "correctIndex": 3,
+    "explanation": "La condición de calidad pide no confundir un PEI empastado con un PEI vivo: lo más defendible es alinear el quehacer cotidiano al horizonte institucional. La Ley 115 y el Decreto 1860 definen el PEI como proyecto orientador de currículo, evaluación y gestión, construido con participación. Tenerlo actualizado en el archivo no basta si los planes de área no lo consultan ni lo traducen a metas. Reeditarlo, publicarlo o rotular «alineado al PEI» son trampas de formalismo e imagen. La opción correcta contrasta planes, SIEE y proyectos con ese horizonte, con docentes y con rastro en consejo académico.",
+    "distractorAnalysis": {
+      "0": "Trampa de la circular de enterado: recordar que se consulte el PEI y recoger firmas parece socialización y deja rastro. No contrasta planes ni SIEE; el archivo sigue actualizado y la planeación sigue ajena al horizonte.",
+      "1": "Trampa de dominio cruzado de formalismo documental: reeditar, empastar y publicar el PEI con fotos es la vitrina perfecta para inspección y comunidad. El caso ya tenía el documento al día; empastarlo no lo vuelve operativo en el aula.",
+      "2": "Trampa de la práctica casi correcta pero insuficiente: la leyenda «alineado al PEI» y la radicación de carpetas lucen como alineación curricular. Sin revisar metas, evaluación y proyectos, el rotulado sustituye la contrastación que el stem exige."
+    }
+  },
+  {
+    "id": "oro-esp-mat-m9",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se prohíbe explicar el procedimiento; solo importa la respuesta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Expedir una circular de área que fije controles de respuesta numérica como evidencia del periodo y las comunique a las familias como garantía de rigor, sin criterios de estrategia, justificación ni verificación del procedimiento.",
+      "Destinar unos minutos al cierre para que quien desee comente su camino, y conservar como nota del control la coincidencia del resultado con la clave, para conciliar objetividad con un espacio de palabra.",
+      "Valorar y enseñar de inmediato estrategias, justificación y verificación del procedimiento, con criterios públicos y evidencias de proceso en el SIEE, de modo que la respuesta correcta deje de operar como cierre del juicio matemático.",
+      "Aplicar al grado el mismo banco de ítems de respuesta numérica, con idéntico tiempo y formato, y publicar los aciertos como evidencia comparable, argumentando que así se trata a todos con el mismo criterio y se evitan reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad pide la intervención inmediata más defendible en un ítem CNSC/ICFES: enseñar y valorar procesos matemáticos, con criterios y evidencia, no una política de respuestas correctas. Las EBC y los Lineamientos de Matemáticas privilegian formular, representar, justificar y verificar; el DBA del grado evalúa comprensión, no la coincidencia con la clave. Prohibir explicar el procedimiento oculta el error conceptual y vuelve la clase un entrenamiento de producto. La opción correcta restablece de inmediato estrategias, justificación y verificación, y las registra en el SIEE. La circular que consagra el número final es rigor administrativo. Dejar el procedimiento como comentario no calificado es práctica casi correcta. El banco homogéneo de respuestas numéricas trata a todos igual y certifica velocidad. La salida defendible hace visible el pensamiento.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: la circular, los controles y el comunicado a familias son una respuesta inmediata, visible y auditable de rigor, pero institucionalizan la prohibición del caso —el número como único cierre— y sacan la justificación del SIEE.",
+      "1": "Trampa de la práctica casi correcta pero insuficiente: unos minutos para comentar el camino parecen restituir el procedimiento y calman a quien pide «más proceso», pero si la nota sigue atada a la clave el pensamiento no entra al juicio; es el error del episodio con un adorno oral.",
+      "3": "Trampa de la equidad como homogeneización: el mismo banco, tiempo y publicación de aciertos trata a todos con el mismo criterio y reduce reclamos, y suena a objetividad, pero mide velocidad de respuesta y confirma que explicar el procedimiento no cuenta."
+    }
+  }
+]

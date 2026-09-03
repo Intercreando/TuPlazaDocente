@@ -1,0 +1,357 @@
+[
+  {
+    "id": "oro-w2-g49-10",
+    "topic": "G49 · aplicación 10",
+    "subtopic": "G49 · aplicación 10",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Solo hay sanciones; no hay proyectos de promoción de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Diseñar acciones de promoción (ciudadanía, cuidado, diálogo) en el calendario escolar",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 0,
+    "explanation": "Promoción es el primer componente de la ruta integral. La cultura de paz se enseña con intencionalidad.",
+    "distractorAnalysis": {
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-11",
+    "topic": "G49 · aplicación 11",
+    "subtopic": "G49 · aplicación 11",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un conflicto Tipo I se maneja como si fuera delito. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Proporcionar respuesta formativa acorde a la tipificación"
+    ],
+    "correctIndex": 3,
+    "explanation": "La tipificación orienta la ruta y la proporcionalidad. Sobre-criminalizar daña el clima y el aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-12",
+    "topic": "G49 · aplicación 12",
+    "subtopic": "G49 · aplicación 12",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No se hace lectura de contexto antes de reescribir el manual. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Diagnosticar clima, riesgos y percepciones de la comunidad educativa",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta"
+    ],
+    "correctIndex": 0,
+    "explanation": "La Guía 49 exige lectura de lo que ocurre en el EE. Sin diagnóstico, el manual queda genérico.",
+    "distractorAnalysis": {
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-13",
+    "topic": "G49 · aplicación 13",
+    "subtopic": "G49 · aplicación 13",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Las familias desconocen la ruta de atención. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Socializar rutas, roles y canales de reporte de forma comprensible",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "La comunidad debe conocer cómo activar la ruta. La información clara aumenta la protección.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-14",
+    "topic": "G49 · aplicación 14",
+    "subtopic": "G49 · aplicación 14",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se actualiza el manual sin el comité de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Liderar la actualización con el comité y participación amplia",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad"
+    ],
+    "correctIndex": 1,
+    "explanation": "El comité es instancia clave según Guía 49. La legitimidad nace de la participación.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-15",
+    "topic": "G49 · aplicación 15",
+    "subtopic": "G49 · aplicación 15",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras un acuerdo restaurativo no hay monitoreo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Programar seguimiento de acuerdos y clima del grupo",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos"
+    ],
+    "correctIndex": 2,
+    "explanation": "Seguimiento es componente de la ruta integral. Sin monitoreo, los acuerdos se diluyen.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g49-16",
+    "topic": "G49 · aplicación 16",
+    "subtopic": "G49 · aplicación 16",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente ridiculiza a un estudiante por su acento o procedencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Tratar el conflicto solo como indisciplina leve sin tipificar ni activar la ruta",
+      "Exponer el caso en redes o salas comunes “para prevenir”, vulnerando confidencialidad",
+      "Activar acciones pedagógicas y de protección frente a discriminación",
+      "Archivar el episodio tras una charla verbal, sin seguimiento ni registro de acuerdos"
+    ],
+    "correctIndex": 2,
+    "explanation": "La Guía 49 enfatiza respeto a la diversidad. La escuela debe ser espacio seguro e inclusivo.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "convivencia"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ]
+  },
+  {
+    "id": "oro-w2-g50-17",
+    "topic": "G50 · aplicación 17",
+    "subtopic": "G50 · aplicación 17",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se exige silencio absoluto todo el día en transición. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Diseñar rutinas con juego, lenguaje y movimiento significativos",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 0,
+    "explanation": "La inicial se basa en desarrollo integral y juego. El lenguaje oral se desarrolla en interacción.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ]
+  },
+  {
+    "id": "oro-w2-g50-18",
+    "topic": "G50 · aplicación 18",
+    "subtopic": "G50 · aplicación 18",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa 'castigo del rincón' prolongado ante llanto. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Acompañar regulación emocional con cuidado y límites respetuosos",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación"
+    ],
+    "correctIndex": 1,
+    "explanation": "El cuidado es dimensión educativa en inicial. La contención afectiva enseña autorregulación.",
+    "distractorAnalysis": {
+      "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ]
+  },
+  {
+    "id": "oro-w2-g50-19",
+    "topic": "G50 · aplicación 19",
+    "subtopic": "G50 · aplicación 19",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No hay tiempo de juego exterior por 'perder clase'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Garantizar juego y actividad física como parte del aprendizaje",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 2,
+    "explanation": "Juego no es tiempo perdido: es mediación. El cuerpo y el movimiento son vías de conocimiento.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ]
+  }
+]

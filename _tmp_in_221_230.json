@@ -1,0 +1,392 @@
+[
+  {
+    "id": "oro-esp-mat-m10",
+    "topic": "matematicas · caso situado 10",
+    "subtopic": "matematicas · caso situado 10",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Geometría se reduce a memorizar nombres de figuras. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Explorar propiedades, composición/descomposición y argumentación"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lineamientos: pensamiento espacial. Las propiedades importan más que la etiqueta.",
+    "normativeJustification": "Lineamientos: pensamiento espacial.",
+    "theoreticalJustification": "Las propiedades importan más que la etiqueta.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m11",
+    "topic": "matematicas · caso situado 11",
+    "subtopic": "matematicas · caso situado 11",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Estadística aparece solo en la última semana del año. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Distribuir recolección y lectura de datos a lo largo del año"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC incluyen pensamiento aleatorio/variacional según grado. Los datos necesitan tiempo de práctica.",
+    "normativeJustification": "EBC incluyen pensamiento aleatorio/variacional según grado.",
+    "theoreticalJustification": "Los datos necesitan tiempo de práctica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m12",
+    "topic": "matematicas · caso situado 12",
+    "subtopic": "matematicas · caso situado 12",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante usa estrategia distinta a la del tablero y se invalida. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Validar estrategias correctas equivalentes y comparar eficiencia",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "Múltiples estrategias son riqueza didáctica. Bruner: varias representaciones del mismo concepto.",
+    "normativeJustification": "Múltiples estrategias son riqueza didáctica.",
+    "theoreticalJustification": "Bruner: varias representaciones del mismo concepto.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m13",
+    "topic": "matematicas · caso situado 13",
+    "subtopic": "matematicas · caso situado 13",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La calculadora se prohíbe siempre, incluso en exploración de patrones. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Usar herramientas con intencionalidad según la meta de aprendizaje"
+    ],
+    "correctIndex": 3,
+    "explanation": "La herramienta puede liberar atención para el razonamiento. La meta define si el instrumento ayuda o estorba.",
+    "normativeJustification": "La herramienta puede liberar atención para el razonamiento.",
+    "theoreticalJustification": "La meta define si el instrumento ayuda o estorba.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m14",
+    "topic": "matematicas · caso situado 14",
+    "subtopic": "matematicas · caso situado 14",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Problemas 'trampa' se usan para confundir, no para enseñar. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Diseñar problemas desafiantes con propósito formativo y andamiaje",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "El reto debe estar en ZDP, no en la humillación. 1290: evaluación al servicio del aprendizaje.",
+    "normativeJustification": "El reto debe estar en ZDP, no en la humillación.",
+    "theoreticalJustification": "1290: evaluación al servicio del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m15",
+    "topic": "matematicas · caso situado 15",
+    "subtopic": "matematicas · caso situado 15",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No hay conexión entre aritmética y situaciones de medida del entorno. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Articular número, medida y estimación en contextos reales"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los pensamientos matemáticos se integran. Ausubel: anclaje en experiencia.",
+    "normativeJustification": "Los pensamientos matemáticos se integran.",
+    "theoreticalJustification": "Ausubel: anclaje en experiencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m16",
+    "topic": "matematicas · caso situado 16",
+    "subtopic": "matematicas · caso situado 16",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La recuperación es otra lista de algoritmos sin diagnóstico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Diagnosticar errores conceptuales y reenseñar con representación"
+    ],
+    "correctIndex": 3,
+    "explanation": "Formativa: partir de evidencia del error. Sin diagnóstico, la recuperación es ritual.",
+    "normativeJustification": "Formativa: partir de evidencia del error.",
+    "theoreticalJustification": "Sin diagnóstico, la recuperación es ritual.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m17",
+    "topic": "lenguaje · caso situado 17",
+    "subtopic": "lenguaje · caso situado 17",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se corrige la escritura solo con tinta roja y sin criterios de contenido. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Retroalimentar ideas, organización, audiencia y luego convenciones",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "La escritura es comunicación, no solo norma. Priorizar sentido + forma en espiral.",
+    "normativeJustification": "La escritura es comunicación, no solo norma.",
+    "theoreticalJustification": "Priorizar sentido + forma en espiral.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m18",
+    "topic": "lenguaje · caso situado 18",
+    "subtopic": "lenguaje · caso situado 18",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La biblioteca de aula está cerrada 'para que no se dañen los libros'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Circulares libros con acuerdos de cuidado y tiempo de lectura libre",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 0,
+    "explanation": "Sin acceso no hay hábito lector. La lectura voluminosa construye competencia.",
+    "normativeJustification": "Sin acceso no hay hábito lector.",
+    "theoreticalJustification": "La lectura voluminosa construye competencia.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m19",
+    "topic": "lenguaje · caso situado 19",
+    "subtopic": "lenguaje · caso situado 19",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un texto literario se usa solo para sacar personajes y fechas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Trabajar interpretación, disfrutar estético y producir respuesta creativa",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Literatura forma sensibilidad y pensamiento. Reducir a ficha empobrece la experiencia.",
+    "normativeJustification": "Literatura forma sensibilidad y pensamiento.",
+    "theoreticalJustification": "Reducir a ficha empobrece la experiencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

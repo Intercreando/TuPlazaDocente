@@ -1,0 +1,397 @@
+[
+  {
+    "id": "oro-esp-soc-01",
+    "topic": "Sociales / ciudadanía",
+    "subtopic": "Sociales / ciudadanía",
+    "targetCargo": "sociales",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras un conflicto en el barrio, la clase de sociales evita el tema y sigue solo con listas de fechas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el episodio como indisciplina de aula: amonestación y compromiso de “no repetir”, sin tipificar ni seguimiento.",
+      "Pedir a las familias que “se pongan de acuerdo” por WhatsApp y archivar el caso cuando baje la tensión visible.",
+      "Hacer una charla general de valores y cambiar de puesto a quien reporta, sin registro ni monitoreo del clima.",
+      "Analizar el conflicto con respeto, evidencia y propuestas de convivencia, articulado a EBC/ciudadanía"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC de competencias ciudadanas y lineamientos de sociales forman pensamiento crítico y convivencia. El contexto local es oportunidad de aprendizaje ciudadano mediado éticamente.",
+    "normativeJustification": "EBC de competencias ciudadanas y lineamientos de sociales forman pensamiento crítico y convivencia.",
+    "theoreticalJustification": "El contexto local es oportunidad de aprendizaje ciudadano mediado éticamente.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias ciudadanas"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "sociales"
+      },
+      {
+        "code": "ley1620",
+        "focus": "formación para la convivencia"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "lineamientos",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m1",
+    "topic": "preescolar · caso situado 1",
+    "subtopic": "preescolar · caso situado 1",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un niño de 5 años aún no escribe su nombre con letra convencional y se le niega el recreo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Acompañar la literacidad emergente con juego, nombre propio y trazos significativos; no castigar el desarrollo",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 0,
+    "explanation": "Inicial no sanciona el ritmo madurativo. La escritura emerge con sentido, no con privación.",
+    "normativeJustification": "Inicial no sanciona el ritmo madurativo.",
+    "theoreticalJustification": "La escritura emerge con sentido, no con privación.",
+    "distractorAnalysis": {
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m2",
+    "topic": "preescolar · caso situado 2",
+    "subtopic": "preescolar · caso situado 2",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El rincón de arte se cierra 'porque ensucia'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Mantener exploración artística con rutinas de cuidado del espacio",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 2,
+    "explanation": "El arte es dimensión del desarrollo integral. La organización se enseña, no se elimina la experiencia.",
+    "normativeJustification": "El arte es dimensión del desarrollo integral.",
+    "theoreticalJustification": "La organización se enseña, no se elimina la experiencia.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m3",
+    "topic": "preescolar · caso situado 3",
+    "subtopic": "preescolar · caso situado 3",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa solo ficha fotocopiada todo el día. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Equilibrar ficha puntual con juego, movimiento y proyectos cortos",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 1,
+    "explanation": "La ficha no puede ser el currículo de inicial. El cuerpo y el juego son mediaciones privilegiadas.",
+    "normativeJustification": "La ficha no puede ser el currículo de inicial.",
+    "theoreticalJustification": "El cuerpo y el juego son mediaciones privilegiadas.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m4",
+    "topic": "preescolar · caso situado 4",
+    "subtopic": "preescolar · caso situado 4",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un niño bilingüe (castellano–lengua indígena) es corregido para que 'deje su lengua'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Valorar la lengua propia y fortalecer el castellano como L2/adicional sin estigma",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación"
+    ],
+    "correctIndex": 2,
+    "explanation": "La diversidad cultural es riqueza del sistema educativo. Vygotsky: el lenguaje materno media el pensamiento.",
+    "normativeJustification": "La diversidad cultural es riqueza del sistema educativo.",
+    "theoreticalJustification": "Vygotsky: el lenguaje materno media el pensamiento.",
+    "distractorAnalysis": {
+      "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m5",
+    "topic": "preescolar · caso situado 5",
+    "subtopic": "preescolar · caso situado 5",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No hay registro de accidentes menores ni acuerdos de cuidado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Protocolizar cuidado, registro y comunicación con familias"
+    ],
+    "correctIndex": 3,
+    "explanation": "El cuidado es parte de la gestión de inicial. La trazabilidad protege derechos.",
+    "normativeJustification": "El cuidado es parte de la gestión de inicial.",
+    "theoreticalJustification": "La trazabilidad protege derechos.",
+    "distractorAnalysis": {
+      "0": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m6",
+    "topic": "preescolar · caso situado 6",
+    "subtopic": "preescolar · caso situado 6",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La asamblea matutina es monólogo adulto de 40 minutos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Diseñar asamblea breve con participación infantil real",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura"
+    ],
+    "correctIndex": 0,
+    "explanation": "La participación construye ciudadanía temprana. La atención infantil no sostiene monólogos largos.",
+    "normativeJustification": "La participación construye ciudadanía temprana.",
+    "theoreticalJustification": "La atención infantil no sostiene monólogos largos.",
+    "distractorAnalysis": {
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m7",
+    "topic": "preescolar · caso situado 7",
+    "subtopic": "preescolar · caso situado 7",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se etiquetan 'listos' y 'atrasados' frente al grupo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Describir avances con lenguaje de proceso y metas próximas"
+    ],
+    "correctIndex": 3,
+    "explanation": "La evaluación formativa evita estigma. Las etiquetas limitan la ZDP percibida.",
+    "normativeJustification": "La evaluación formativa evita estigma.",
+    "theoreticalJustification": "Las etiquetas limitan la ZDP percibida.",
+    "distractorAnalysis": {
+      "0": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "1": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-pre-m8",
+    "topic": "preescolar · caso situado 8",
+    "subtopic": "preescolar · caso situado 8",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Falta material y se cancela toda exploración sensorial. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Usar materiales del entorno y reciclados con intencionalidad",
+      "Acelerar planas y evaluaciones escritas como en primaria, reduciendo juego y observación",
+      "Sustituir el cuidado y la rutina significativa por presión escolarizante prematura",
+      "Usar ranking de “listos/atrasados” frente al grupo como principal devolución"
+    ],
+    "correctIndex": 0,
+    "explanation": "La pobreza de recursos no anula la pedagogía. El entorno cercano es laboratorio.",
+    "normativeJustification": "La pobreza de recursos no anula la pedagogía.",
+    "theoreticalJustification": "El entorno cercano es laboratorio.",
+    "distractorAnalysis": {
+      "1": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-m9",
+    "topic": "matematicas · caso situado 9",
+    "subtopic": "matematicas · caso situado 9",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se prohíbe explicar el procedimiento; solo importa la respuesta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Valorar y enseñar estrategias, justificación y verificación",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC: procesos matemáticos. La justificación revela comprensión.",
+    "normativeJustification": "EBC: procesos matemáticos.",
+    "theoreticalJustification": "La justificación revela comprensión.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "matemáticas"
+      },
+      {
+        "code": "dba",
+        "focus": "grado"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

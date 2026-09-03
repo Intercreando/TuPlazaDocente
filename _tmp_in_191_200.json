@@ -1,0 +1,402 @@
+[
+  {
+    "id": "oro-esp-mat-06",
+    "topic": "Matemáticas / representaciones",
+    "subtopic": "Matemáticas / representaciones",
+    "targetCargo": "matematicas",
+    "caseContext": "Se pasa de fichas a símbolos algebraicos en un solo paso, sin tablas, dibujos ni lenguaje verbal. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Transitar enactivo → icónico → simbólico con conexiones explícitas"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los referentes de matemáticas valoran múltiples representaciones y conexiones entre ellas. Bruner: la trayectoria representacional sostiene la comprensión durable.",
+    "normativeJustification": "Los referentes de matemáticas valoran múltiples representaciones y conexiones entre ellas.",
+    "theoreticalJustification": "Bruner: la trayectoria representacional sostiene la comprensión durable.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "bruner",
+        "focus": "E-I-S"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "matemáticas"
+      }
+    ],
+    "normativeRefs": [
+      "bruner",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-07",
+    "topic": "Matemáticas / criterios de evaluación",
+    "subtopic": "Matemáticas / criterios de evaluación",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La rúbrica de un problema solo dice 'bien/mal'; no contempla estrategia, representación ni explicación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Explicitar criterios de proceso, representación, resultado y comunicación matemática"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1290 exige claridad de criterios; los EBC valoran procesos matemáticos. Criterios visibles permiten autorregulación y feedback accionable.",
+    "normativeJustification": "El 1290 exige claridad de criterios; los EBC valoran procesos matemáticos.",
+    "theoreticalJustification": "Criterios visibles permiten autorregulación y feedback accionable.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      },
+      {
+        "code": "ebc",
+        "focus": "procesos"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-mat-08",
+    "topic": "Matemáticas / contexto",
+    "subtopic": "Matemáticas / contexto",
+    "targetCargo": "matematicas",
+    "caseContext": "Los problemas hablan de metros de nieve y tarifas de metro en una IE rural tropical sin adaptación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Contextualizar cantidades y situaciones al entorno manteniendo la estructura matemática del DBA"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los referentes se contextualizan en el PEI y la realidad del estudiantado. Ausubel: la significatividad aumenta con anclaje en saberes y experiencias previas.",
+    "normativeJustification": "Los referentes se contextualizan en el PEI y la realidad del estudiantado.",
+    "theoreticalJustification": "Ausubel: la significatividad aumenta con anclaje en saberes y experiencias previas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ausubel",
+        "focus": "contexto"
+      },
+      {
+        "code": "dba",
+        "focus": "problemas"
+      },
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      }
+    ],
+    "normativeRefs": [
+      "ausubel",
+      "dba",
+      "ley115"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-01",
+    "topic": "Lenguaje / prácticas sociales",
+    "subtopic": "Lenguaje / prácticas sociales",
+    "targetCargo": "lenguaje",
+    "caseContext": "El periodo de lenguaje se reduce a dictados diarios y listas de palabras, sin lectura de textos completos. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Desde lineamientos/EBC de lenguaje, conviene. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Organizar secuencias de lectura, escritura, oralidad y escucha con textos auténticos"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lineamientos y EBC de lenguaje orientan hacia prácticas sociales del lenguaje. Se aprende a leer y escribir leyendo y escribiendo con propósito comunicativo.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan hacia prácticas sociales del lenguaje.",
+    "theoreticalJustification": "Se aprende a leer y escribir leyendo y escribiendo con propósito comunicativo.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "competencias comunicativas"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-02",
+    "topic": "Lenguaje / proceso de escritura",
+    "subtopic": "Lenguaje / proceso de escritura",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Los estudiantes entregan el texto 'final' a la primera y solo reciben nota, sin borradores ni criterios. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Planificar–textualizar–revisar con rúbrica conocida y retroalimentación entre pares/docente",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 2,
+    "explanation": "El 1290 orienta evaluación formativa; los referentes de lenguaje valoran el proceso de escritura. La revisión con criterios desarrolla metacognición y calidad textual.",
+    "normativeJustification": "El 1290 orienta evaluación formativa; los referentes de lenguaje valoran el proceso de escritura.",
+    "theoreticalJustification": "La revisión con criterios desarrolla metacognición y calidad textual.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "proceso de escritura"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "escritura"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-03",
+    "topic": "Lenguaje / comprensión lectora",
+    "subtopic": "Lenguaje / comprensión lectora",
+    "targetCargo": "lenguaje",
+    "caseContext": "Tras leer un texto argumentativo, la única actividad es copiar el primer párrafo al cuaderno. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Para fortalecer comprensión crítica debería. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Formular preguntas de interpretación, evaluación de argumentos y producción de respuesta propia",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "EBC de lenguaje incluyen niveles de comprensión y uso crítico de la información. La lectura crítica exige inferencia, evaluación y toma de postura con evidencia del texto.",
+    "normativeJustification": "EBC de lenguaje incluyen niveles de comprensión y uso crítico de la información.",
+    "theoreticalJustification": "La lectura crítica exige inferencia, evaluación y toma de postura con evidencia del texto.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "lectura crítica"
+      },
+      {
+        "code": "dba",
+        "focus": "comprensión"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-04",
+    "topic": "Lenguaje / saberes previos",
+    "subtopic": "Lenguaje / saberes previos",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se introduce un género textual nuevo sin explorar qué saben los estudiantes ni para qué sirve ese género en la vida. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Activar saberes previos, propósito comunicativo y modelos del género antes de producir",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 1,
+    "explanation": "La planeación con referentes de área articula propósito, género y evaluación. Ausubel: el aprendizaje significativo ancla lo nuevo en la estructura cognitiva previa.",
+    "normativeJustification": "La planeación con referentes de área articula propósito, género y evaluación.",
+    "theoreticalJustification": "Ausubel: el aprendizaje significativo ancla lo nuevo en la estructura cognitiva previa.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ausubel",
+        "focus": "género textual"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      }
+    ],
+    "normativeRefs": [
+      "ausubel",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-05",
+    "topic": "Lenguaje / diversidad lingüística",
+    "subtopic": "Lenguaje / diversidad lingüística",
+    "targetCargo": "lenguaje",
+    "caseContext": "Un estudiante habla una variedad regional; compañeros se burlan y el docente exige 'hablar bien' ridiculizando el acento. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Valorar la diversidad lingüística, detener la discriminación y enseñar registros según contexto comunicativo"
+    ],
+    "correctIndex": 3,
+    "explanation": "La Guía 49 y la Ley 1620 exigen prevención de discriminación; el lenguaje escolar debe ser inclusivo. Enseñar registros (formal/informal) no implica estigmatizar la identidad lingüística.",
+    "normativeJustification": "La Guía 49 y la Ley 1620 exigen prevención de discriminación; el lenguaje escolar debe ser inclusivo.",
+    "theoreticalJustification": "Enseñar registros (formal/informal) no implica estigmatizar la identidad lingüística.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "no discriminación"
+      },
+      {
+        "code": "ley1620",
+        "focus": "prevención"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "variación lingüística"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-06",
+    "topic": "Lenguaje / oralidad",
+    "subtopic": "Lenguaje / oralidad",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La oralidad no se enseña ni se evalúa porque 'es difícil de calificar'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Diseñar situaciones orales auténticas con rúbricas de claridad, escucha y argumentación"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los referentes de lenguaje incluyen oralidad y escucha como prácticas centrales. Lo que se enseña y evalúa con criterios se desarrolla; lo omitido se debilita.",
+    "normativeJustification": "Los referentes de lenguaje incluyen oralidad y escucha como prácticas centrales.",
+    "theoreticalJustification": "Lo que se enseña y evalúa con criterios se desarrolla; lo omitido se debilita.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "oralidad"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios orales"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-07",
+    "topic": "Lenguaje / multimodalidad",
+    "subtopic": "Lenguaje / multimodalidad",
+    "targetCargo": "lenguaje",
+    "caseContext": "Los estudiantes producen un podcast escolar; la evaluación solo mira 'si leyeron bien el guion' y ignora audiencia y propósito. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Una evaluación más alineada al área valoraría. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Propósito, audiencia, organización discursiva, claridad y uso ético de fuentes",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Las prácticas sociales del lenguaje incluyen producciones multimodales con intención comunicativa. Evaluar el propósito y la audiencia desarrolla competencia comunicativa real.",
+    "normativeJustification": "Las prácticas sociales del lenguaje incluyen producciones multimodales con intención comunicativa.",
+    "theoreticalJustification": "Evaluar el propósito y la audiencia desarrolla competencia comunicativa real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "producción multimodal"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]
