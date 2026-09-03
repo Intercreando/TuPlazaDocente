@@ -1,0 +1,97 @@
+[
+  {
+    "pos": 237,
+    "id": "oro-esp-dir-m26",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Las actas del consejo académico no existen o están incompletas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Crear un grupo de WhatsApp de coordinadores y rectoría para acordar en tiempo real los temas del consejo académico, y conservar capturas como evidencia de agilidad ante quien pide una salida inmediata y visible.",
+      "Aplicar a todas las reuniones la misma plantilla de acta con campos genéricos y el mismo tiempo de diligenciamiento, argumentando que así se trata a todas las sesiones igual, se evitan reclamos de forma y queda un archivo homogéneo.",
+      "Institucionalizar actas claras del consejo académico que registren decisiones pedagógicas, responsables y seguimiento, conforme al Decreto 1860, para que la memoria institucional exista, oriente la enseñanza y no se disuelva en informalidad.",
+      "Foliar y firmar las carpetas del PEI y del consejo académico, con inventario de documentos y sello de coordinación, sin registrar las decisiones pedagógicas tomadas, de modo que haya archivo impecable sin memoria de lo acordado."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad pide lo más defendible pedagógica e institucionalmente: actas que conserven decisiones de enseñanza, no un canal rápido ni un fólder foliado. El Decreto 1860 atribuye al consejo académico funciones reales de orientación pedagógica; sin memoria escrita esas funciones se evaporan y se repiten errores. La Ley 115 exige gobierno escolar operativo, no simbólico. La opción correcta institucionaliza el registro de lo decidido, con responsables y seguimiento, de modo que hay instancia y trazabilidad. El WhatsApp cubre la rapidez. La plantilla genérica homogénea cubre la forma. Las carpetas del PEI cubren el formalismo documental y dejan el vacío de actas del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado de rapidez e imagen de gestión: el WhatsApp y las capturas parecen una solución inmediata y «moderna» al vacío de registro, pero no constituyen acta de instancia ni deciden pedagógicamente con memoria institucional.",
+      "1": "Trampa de la equidad como homogeneización: la misma plantilla y el mismo tiempo suenan a orden y a prevención de reclamos de forma, pero genéricos iguales no capturan la decisión de cada sesión; hay formato y no hay memoria pedagógica.",
+      "3": "Trampa del formalismo documental: foliar, firmar e inventariar el PEI es gestión de archivo impecable ante inspección, pero sin registrar decisiones el consejo académico sigue sin acta real; es el brillo documental del caso."
+    }
+  },
+  {
+    "pos": 242,
+    "id": "oro-esp-dir-m31",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Familias solo son citadas cuando hay sanción. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Expedir una circular de citaciones a familias con formato institucional, firma de enterado y archivo en secretaría, para que cada llamado quede trazable cuando hay una sanción, un conflicto o un reclamo de convivencia.",
+      "Abrir canales permanentes de participación familiar y una escuela de padres con sentido pedagógico, articulados al PEI y al gobierno escolar del Decreto 1860, de modo que las familias entren al aprendizaje y no aparezcan apenas cuando hay sanción.",
+      "Convocar a todas las familias a la misma citación masiva, con el mismo formato, la misma hora y el mismo mensaje, argumentando que así se trata a todos igual y se evita el reclamo de que a unos se les llama y a otros no.",
+      "Publicar un boletín digital de logros y un canal de WhatsApp de novedades, o convocar una reunión anual informativa, sin instalar escuela de padres ni espacios de participación con sentido pedagógico en el PEI."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad advierte contra una práctica casi correcta pero insuficiente: un boletín de logros, un WhatsApp de novedades o una reunión anual parecen alianza con las familias y no instalan participación pedagógica. El PEI y el Decreto 1860 conciben a las familias como estamento de la comunidad educativa, con canales de participación y formación, no como destinatarias de citaciones cuando ya hay sanción. Llegar a la casa apenas en clave punitiva rompe la corresponsabilidad y llega tarde al aprendizaje. La opción correcta abre participación permanente y escuela de padres con sentido pedagógico, articuladas al gobierno escolar, de modo que hay mediación, instancia y rastro. La circular de citaciones firmadas cubre el archivo administrativo. La citación masiva «para todos igual» homogeneiza el llamado. El boletín digital sin escuela de padres es el adorno comunicativo que el stem marca como insuficiente.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: circular, formato firmado y archivo en secretaría son gestión impecable de citaciones y responden al pedido de trazabilidad visible, pero perfeccionan el contacto punitivo del caso y no abren participación ni escuela de padres.",
+      "2": "Trampa de la equidad como homogeneización: la misma citación masiva suena a justicia y previene el reclamo de trato distinto, pero uniforma el llamado y confirma que las familias entran a la IE por la vía de la convocatoria colectiva, no por la participación pedagógica.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: boletín de logros, WhatsApp de novedades o reunión anual parecen abrir la escuela a las familias y calman a quien pide comunicación, pero no instalan escuela de padres ni canales de participación del PEI; es el polo que el stem pide no confundir con alianza pedagógica."
+    }
+  },
+  {
+    "pos": 263,
+    "id": "oro-c4-20",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente dice que inclusión es 'trabajo de orientación', no del aula. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Remitir a orientación, con formato institucional y carpeta foliada, las situaciones de inclusión del aula, y archivar las remisiones como evidencia de que cada caso quedó en la instancia especializada y el aula queda desligada de los ajustes.",
+      "Asumir corresponsabilidad de aula con el equipo de apoyo: traducir el PIAR a ajustes en la enseñanza, los materiales y las formas de demostrar el aprendizaje, y registrar esa mediación conjunta, de modo que la inclusión no se desplace a orientación.",
+      "Conservar los mismos materiales, tiempos y formatos de aula para el grupo entero, argumentando que así se trata a todos igual, y dejar que orientación se encargue de la inclusión en horarios de apoyo fuera de la clase.",
+      "Firmar el PIAR como docente de aula y encargar a orientación la implementación de los ajustes razonables en horarios paralelos, de modo que el documento quede completo, la especialidad ejecute lo pedagógico y el aula conserve su marcha habitual."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad exige articular norma vigente y mediación pedagógica: la inclusión es trabajo de aula y de equipo, no un traslado a orientación. El Decreto 1421 define el PIAR como herramienta de corresponsabilidad entre docente, apoyo, directivos y familia; los ajustes se concretan en la enseñanza. Afirmar que la inclusión es de orientación fragmenta el derecho y deja intactas las barreras del aula. La opción correcta asume esa corresponsabilidad, traduce el PIAR a mediación y deja rastro. La remisión foliada es gestión impecable de casos. Los mismos materiales con apoyo externo homogeneizan el aula. Firmar el PIAR y delegar la ejecución a orientación parece profesionalismo y reproduce la frase del caso con un documento completo.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: formato, carpeta foliada y archivo de remisiones son gestión de casos impecable y una instancia visible, pero confirman que la inclusión «es de orientación» y vacían de ajustes la enseñanza del aula del caso.",
+      "2": "Trampa de la equidad como homogeneización: los mismos materiales y tiempos suenan a justicia y evitan reclamos, mientras orientación «se encarga» fuera de clase; uniforman el aula y desplazan el derecho al horario de apoyo, que es el error del episodio con lenguaje de igualdad.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: firmar el PIAR y dejar la ejecución a orientación parece corresponsabilidad documental y respeto a la especialidad, pero el docente no media los ajustes en la enseñanza; hay firma y se reproduce el «eso no es del aula»."
+    }
+  },
+  {
+    "pos": 270,
+    "id": "oro-c4-27",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Docentes comentan el caso con nombres en la sala de profesores. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Expedir una circular nominativa de alerta para que todo el equipo docente vigile a quien fue nombrado en la sala, recoger firmas de enterado y archivar el aviso como medida preventiva, de modo que la reserva se sustituya por un alerta generalizado.",
+      "Restringir la información a quienes deben actuar en la ruta de atención, proteger la identidad de las partes y dejar registro de esa reserva, de modo que la sala de profesores deje de ser un espacio de comentario nominativo.",
+      "Socializar el episodio con nombres en asamblea de grado para que el grupo aprenda, con una reflexión guiada y un compromiso colectivo, argumentando que la pedagogía de la convivencia exige visibilizar el ejemplo.",
+      "Hacer una reunión breve en la sala de profesores con los nombres de las partes, argumentando corresponsabilidad del equipo y unidad de criterio, y pedir discreción verbal, sin circunscribir la información a los responsables de la ruta."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad pide la opción más defendible en un ítem CNSC/ICFES: confidencialidad operativa, no un profesionalismo que sigue nombrando. La Ley 1620 y las Guías 49 y 51 exigen reserva: la información circula entre quienes tienen función en la ruta, no en la sala como comentario colegiado. Comentar el caso con nombres viola el derecho a la intimidad y puede revictimizar. La opción correcta restringe el dato, protege la identidad y deja rastro de esa reserva. La circular de vigilancia nominativa es un alerta administrativo que amplifica el nombre. La asamblea para que el grupo aprenda convierte la pedagogía en exposición. La reunión breve con nombres parece corresponsabilidad docente y reproduce el error del caso con formato de claustro.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: circular, vigilancia del equipo, firmas y archivo son un alerta preventivo impecable y malentienden la corresponsabilidad como que todo el personal vigile a la persona nombrada; amplifican la identidad que el caso ya expuso en la sala.",
+      "2": "Trampa de la imagen pedagógica tóxica: socializar con nombres en asamblea parece formación en convivencia y un aprendizaje colectivo, pero expone a las partes, rompe la reserva y convierte el caso en ejemplo público; hay pedagogía visible y hay revictimización.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: la reunión breve con nombres y la petición de discreción parecen profesionalismo y unidad de criterio del claustro, pero siguen nombrando ante quien no tiene función en la ruta; es el comentario de la sala con formato de reunión."
+    }
+  },
+  {
+    "pos": 272,
+    "id": "oro-c4-29",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un conflicto Tipo I se trata como delito y genera pánico institucional. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Remitir el conflicto Tipo I a inspección de policía «por si acaso», con oficio radicado, circular de alerta interna y carpeta en rectoría, para dar a la comunidad una respuesta inmediata y dejar rastro jurídico del pánico.",
+      "Aplicar a cualquier conflicto la misma ruta de un Tipo III —denuncia, autoridades y comunicado de gravedad—, argumentando que la seriedad institucional se demuestra igualando el trámite y se evitan quejas de lenidad.",
+      "Mediar de forma express entre las partes, emitir un comunicado de «cero tolerancia al delito escolar» y archivar el cierre, de modo que haya un gesto de diálogo y, a la vez, un marco punitivo visible para calmar el pánico.",
+      "Tipificar el episodio como Tipo I con proporcionalidad, aplicar la respuesta formativa y restaurativa de la Guía 49 y dejar registro, acuerdos y seguimiento, de modo que la pedagogía no quede sustituida por el pánico ni por una inflación de la gravedad."
+    ],
+    "correctIndex": 3,
+    "explanation": "La condición de calidad pide la decisión más defendible pedagógica e institucionalmente: tipificar con proporcionalidad, no gestionar el pánico como si el conflicto Tipo I fuera un delito. La Guía MEN 49, el Decreto 1965 y la Ley 1620 distinguen tipos I, II y III; inflar la gravedad para «tomar en serio» el episodio viola el debido proceso y convierte la ruta en espectáculo de alarma. La opción correcta aplica la respuesta formativa y restaurativa del Tipo I, con registro y seguimiento, de modo que hay pedagogía e instancia. Remitir a inspección «por si acaso» es pánico institucionalizado con oficio impecable. Igualar el trámite al de un Tipo III homogeneiza la gravedad. Mediar de forma express y anunciar «cero tolerancia al delito» parece diálogo, pero conserva el marco punitivo que el caso ya desató.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: el oficio a inspección, la circular y la carpeta son gestión del riesgo jurídico impecable y calman el pánico con un trámite visible, pero institucionalizan la sobreactuación y niegan la competencia pedagógica del Tipo I.",
+      "1": "Trampa de la equidad como homogeneización de la gravedad: la misma ruta de Tipo III para cualquier conflicto suena a seriedad y a prevención de lenidad, pero borra la tipificación y convierte la proporcionalidad en un trámite único de máxima alarma.",
+      "2": "Trampa de la práctica casi correcta pero insuficiente: hay mediación y hay comunicado, lo que parece restaurativo e institucional. El marco de «cero tolerancia al delito» conserva la lectura punitiva del caso y cierra el expediente sin la respuesta formativa del Tipo I."
+    }
+  }
+]

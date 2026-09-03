@@ -1,0 +1,417 @@
+[
+  {
+    "id": "oro-c4-18",
+    "topic": "decreto1421 · cerebro 18",
+    "subtopic": "decreto1421 · cerebro 18",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un ajuste razonable (tiempo extra) se niega en el simulacro interno 'para que se acostumbren al ICFES'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Aplicar los ajustes acordados también en evaluaciones internas alineadas al PIAR",
+      "Negar ajustes en todo el año escolar",
+      "Cambiar la meta esencial en cada prueba sin registro",
+      "Aplicar ajustes solo si la familia insiste por escrito cada vez"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "1": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "2": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "3": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-19",
+    "topic": "decreto1421 · cerebro 19",
+    "subtopic": "decreto1421 · cerebro 19",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay barrera arquitectónica y se 'resuelve' dejando al estudiante en portería durante el descanso. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Eliminar/gestionar la barrera y garantizar participación en la vida escolar con plan institucional",
+      "Culpar al estudiante por no 'adaptarse', aunque se presente como solución rápida en la reunión.",
+      "Documentar la barrera sin ninguna acción de mejora, aunque se presente como solución rápida en la reunión.",
+      "Mantener la exclusión del descanso como medida permanente, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "1": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "2": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "3": "Parece práctica habitual, pero es parcial o inequitativa."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-20",
+    "topic": "decreto1421 · cerebro 20",
+    "subtopic": "decreto1421 · cerebro 20",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente dice que inclusión es 'trabajo de orientación', no del aula. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Delegar toda decisión pedagógica solo a orientación, aunque se presente como solución rápida en la reunión.",
+      "Asumir corresponsabilidad de aula + equipo de apoyo con PIAR y ajustes en la enseñanza",
+      "Hacer inclusión solo en actos cívicos, aunque ahorre tiempo visible de clase o de consejo.",
+      "Rechazar estudiantes con discapacidad en el grupo, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "0": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "2": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "3": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-21",
+    "topic": "decreto1421 · cerebro 21",
+    "subtopic": "decreto1421 · cerebro 21",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La familia pide bajar expectativas esenciales; el docente acepta sin equipo ni PIAR. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Acordar en equipo PIAR: mantener esenciales y ajustar acceso/demostración con la familia",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-22",
+    "topic": "decreto1421 · cerebro 22",
+    "subtopic": "decreto1421 · cerebro 22",
+    "targetCargo": "primaria",
+    "caseContext": "En educación física se excluye a un estudiante con movilidad reducida 'por seguridad' sin alternativas. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Rediseñar participación con ajustes y metas esenciales de la clase, no exclusión",
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-23",
+    "topic": "ley1620 · cerebro 23",
+    "subtopic": "ley1620 · cerebro 23",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un meme humillante circula en el grupo del grado; la IE espera a que 'se olvide'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Tipificar, proteger, activar ruta y hacer seguimiento del clima digital/escolar"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-24",
+    "topic": "ley1620 · cerebro 24",
+    "subtopic": "ley1620 · cerebro 24",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El manual no distingue situaciones Tipo I, II y III. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir con un listado genérico de 'faltas leves/graves' sin ruta",
+      "Actualizar el manual con tipologías, rutas y participación del comité",
+      "Copiar tipologías de otra IE sin lectura de contexto",
+      "Eliminar tipologías 'para simplificar'"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Omite criterios, trazabilidad o la meta esencial del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-25",
+    "topic": "ley1620 · cerebro 25",
+    "subtopic": "ley1620 · cerebro 25",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Una situación Tipo III se maneja solo con trabajo pedagógico interno. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Activar remisión a autoridades competentes y acciones de protección, además del manejo escolar"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-26",
+    "topic": "ley1620 · cerebro 26",
+    "subtopic": "ley1620 · cerebro 26",
+    "targetCargo": "directivos",
+    "caseContext": "En una IE oficial el equipo discute ley1620 · cerebro 26. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Programar seguimiento de acuerdos, clima y posible reincidencia",
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 0,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-27",
+    "topic": "ley1620 · cerebro 27",
+    "subtopic": "ley1620 · cerebro 27",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Docentes comentan el caso con nombres en la sala de profesores. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Restringir información a quienes deben actuar en la ruta y proteger identidad",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

@@ -1,0 +1,392 @@
+[
+  {
+    "id": "oro-c4-8",
+    "topic": "decreto1290 · cerebro 8",
+    "subtopic": "decreto1290 · cerebro 8",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evidencia del periodo son solo 2 quizzes de opción múltiple. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Triangular procesos, productos y autoevaluación con función formativa",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-9",
+    "topic": "decreto1290 · cerebro 9",
+    "subtopic": "decreto1290 · cerebro 9",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante mejora con andamiaje y el docente lo interpreta como 'copia del compañero'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Diseñar mediación intencional y evaluar el progreso hacia la autonomía con criterios"
+    ],
+    "correctIndex": 3,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-10",
+    "topic": "decreto1290 · cerebro 10",
+    "subtopic": "decreto1290 · cerebro 10",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La devolución llega 6 semanas después, cuando el tema ya cerró. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Acortar el ciclo feedback–acción con devoluciones oportunas y accionables",
+      "Concentrar toda la devolución en el boletín final",
+      "Dar feedback solo a quienes reprobaron",
+      "Sustituir feedback por más contenido nuevo"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "1": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Omite criterios, trazabilidad o la meta esencial del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-11",
+    "topic": "decreto1290 · cerebro 11",
+    "subtopic": "decreto1290 · cerebro 11",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa portfolio, pero sin criterios ni momentos de reflexión metacognitiva. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Guiar el portfolio con criterios, selección de evidencias y reflexión de mejora",
+      "Acumular hojas sin propósito ni revisión",
+      "Eliminar el portfolio porque 'toma tiempo'",
+      "Calificar el portfolio solo por cantidad de páginas"
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "1": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "2": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "3": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-12",
+    "topic": "decreto1290 · cerebro 12",
+    "subtopic": "decreto1290 · cerebro 12",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En 2°, se evalúa lectura solo por velocidad en voz alta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Abandonar la lectura oral por completo",
+      "Evaluar comprensión solo con dictado de palabras",
+      "Seguir midiendo solo velocidad como indicador único",
+      "Evaluar comprensión (literal/inferencial) con textos y tareas alineadas a DBA/EBC"
+    ],
+    "correctIndex": 3,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "1": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Parece práctica habitual, pero es parcial o inequitativa."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-13",
+    "topic": "decreto1421 · cerebro 13",
+    "subtopic": "decreto1421 · cerebro 13",
+    "targetCargo": "primaria",
+    "caseContext": "Una estudiante con discapacidad auditiva recibe las mismas guías orales densas sin apoyo visual. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Ajustar materiales (visuales, tiempo, formato) según PIAR y evaluar el aprendizaje esencial",
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-14",
+    "topic": "decreto1421 · cerebro 14",
+    "subtopic": "decreto1421 · cerebro 14",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El PIAR existe en archivo, pero ningún docente de área lo consulta al evaluar. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Anular el PIAR porque 'complica la logística'",
+      "Operar el PIAR en la evaluación cotidiana con roles claros y seguimiento",
+      "Dejar el PIAR solo para visitas de supervisión",
+      "Inventar ajustes el día del examen sin acuerdo previo"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "0": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "3": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-15",
+    "topic": "decreto1421 · cerebro 15",
+    "subtopic": "decreto1421 · cerebro 15",
+    "targetCargo": "primaria",
+    "caseContext": "Un estudiante con TDAH es sancionado reiteradamente por movimiento, sin ajustes de ambiente. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Diseñar apoyos ambientales/organizativos y criterios claros, evitando sanción como única respuesta",
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 0,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-16",
+    "topic": "decreto1421 · cerebro 16",
+    "subtopic": "decreto1421 · cerebro 16",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La IE acepta el cupo inclusivo pero no asigna tiempo para trabajo colaborativo del PIAR. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Dejar toda la carga en un solo docente 'voluntario', aunque parezca un trámite equitativo o suficiente.",
+      "Negar apoyos hasta 'tener más presupuesto', aunque ahorre tiempo visible de clase o de consejo.",
+      "Organizar tiempos, roles y seguimiento institucional del PIAR como deber del establecimiento",
+      "Evaluar inclusión solo con una jornada simbólica al año, aunque se presente como solución rápida en la reunión."
+    ],
+    "correctIndex": 2,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "0": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "1": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Omite criterios, trazabilidad o la meta esencial del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-17",
+    "topic": "decreto1421 · cerebro 17",
+    "subtopic": "decreto1421 · cerebro 17",
+    "targetCargo": "primaria",
+    "caseContext": "Se propone 'nota mínima automática' a estudiantes con discapacidad 'por inclusión'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Evaluar aprendizajes esenciales con ajustes y evidencias accesibles, no notas simbólicas",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje. Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables; el 1290 exige evaluación con criterios al servicio del aprendizaje.",
+    "theoreticalJustification": "Equidad es diversificar medios de acceso y demostración sin abandonar aprendizajes esenciales.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "PIAR"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "evaluación accesible"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

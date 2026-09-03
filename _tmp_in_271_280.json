@@ -1,0 +1,442 @@
+[
+  {
+    "id": "oro-c4-28",
+    "topic": "ley1620 · cerebro 28",
+    "subtopic": "ley1620 · cerebro 28",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Solo hay sanciones; el calendario no tiene acciones de promoción de convivencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Diseñar promoción (ciudadanía, diálogo, cuidado) con el comité a lo largo del año",
+      "Hacer una charla anual y dar por cumplida la promoción",
+      "Añadir más suspensiones como política única",
+      "Delegar promoción solo a policía o externos"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "1": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "2": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "3": "Omite criterios, trazabilidad o la meta esencial del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-29",
+    "topic": "ley1620 · cerebro 29",
+    "subtopic": "ley1620 · cerebro 29",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un conflicto Tipo I se trata como delito y genera pánico institucional. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Tipificar con proporcionalidad y aplicar respuesta formativa acorde al Tipo I"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-30",
+    "topic": "ley1620 · cerebro 30",
+    "subtopic": "ley1620 · cerebro 30",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Familias desconocen cómo reportar una situación de riesgo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Desincentivar reportes 'para no inflar estadísticas'",
+      "Recibir reportes solo por WhatsApp del rector sin protocolo",
+      "Asumir que 'ya saben' porque está en el manual PDF",
+      "Socializar canales, roles y ruta de forma comprensible a la comunidad"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "1": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "2": "Parece práctica habitual, pero es parcial o inequitativa."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-31",
+    "topic": "ley1620 · cerebro 31",
+    "subtopic": "ley1620 · cerebro 31",
+    "targetCargo": "directivos",
+    "caseContext": "En una IE oficial el equipo discute ley1620 · cerebro 31. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Reactivarlo con calendario, actas y liderazgo de promoción/prevención",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-32",
+    "topic": "ley1620 · cerebro 32",
+    "subtopic": "ley1620 · cerebro 32",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se ridiculiza la orientación sexual de un estudiante y un adulto minimiza. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Activar protección, educación en derechos y ruta ante discriminación",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 2,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-33",
+    "topic": "ley1620 · cerebro 33",
+    "subtopic": "ley1620 · cerebro 33",
+    "targetCargo": "directivos",
+    "caseContext": "En una IE oficial el equipo discute ley1620 · cerebro 33. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Hacer lectura de contexto con datos y priorizar prevención focalizada"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-34",
+    "topic": "ley1620 · cerebro 34",
+    "subtopic": "ley1620 · cerebro 34",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente agrede verbalmente a un estudiante y el caso se 'suaviza' internamente. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Activar protocolo frente a vulneración por adulto según competencia y protección al estudiante"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad. La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "normativeJustification": "Ley 1620 y Guías MEN 49/51 orientan promoción, prevención, atención y seguimiento con tipificación y confidencialidad.",
+    "theoreticalJustification": "La convivencia se educa con rutas claras, proporcionalidad y enfoque restaurativo, no solo con sanción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "ruta integral"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "manual y tipificación"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "atención"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-35",
+    "topic": "ley115 · cerebro 35",
+    "subtopic": "ley115 · cerebro 35",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El PEI se actualizó, pero los planes de área no cambian ni lo citan. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Exigir cambios sin participación docente, aunque se presente como solución rápida en la reunión.",
+      "Dejar el PEI en el archivo como cumplimiento formal, aunque ahorre tiempo visible de clase o de consejo.",
+      "Alinear planes de área, SIEE y proyectos al horizonte del PEI con el consejo académico",
+      "Reemplazar el PEI por tendencias de redes, aunque se presente como solución rápida en la reunión."
+    ],
+    "correctIndex": 2,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "1": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "3": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-36",
+    "topic": "ley115 · cerebro 36",
+    "subtopic": "ley115 · cerebro 36",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La observación de aula se usa solo para 'pillar faltas', sin devolución formativa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Observar con criterios, devolver feedback y acordar mejoramiento profesional",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-37",
+    "topic": "ley115 · cerebro 37",
+    "subtopic": "ley115 · cerebro 37",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Docentes nuevos no reciben inducción sobre SIEE, PIAR y rutas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Implementar inducción obligatoria con mentoría y documentos vivos",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

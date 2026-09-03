@@ -1,0 +1,392 @@
+[
+  {
+    "id": "oro-esp-dir-m30",
+    "topic": "directivos · caso situado 30",
+    "subtopic": "directivos · caso situado 30",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usan datos de aprendizaje solo para ranking de grados. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Usar datos para decisiones de acompañamiento y recursos",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "Evaluación institucional formativa. El ranking tóxico no mejora la enseñanza.",
+    "normativeJustification": "Evaluación institucional formativa.",
+    "theoreticalJustification": "El ranking tóxico no mejora la enseñanza.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m31",
+    "topic": "directivos · caso situado 31",
+    "subtopic": "directivos · caso situado 31",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Familias solo son citadas cuando hay sanción. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Abrir canales de participación y escuela de padres con sentido pedagógico",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "PEI y 1860: comunidad educativa. La alianza preventiva supera la citación punitiva.",
+    "normativeJustification": "PEI y 1860: comunidad educativa.",
+    "theoreticalJustification": "La alianza preventiva supera la citación punitiva.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m32",
+    "topic": "directivos · caso situado 32",
+    "subtopic": "directivos · caso situado 32",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El manual de convivencia no se revisa tras cambios de la Ley 1620. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Repetir la misma estrategia didáctica/administrativa con más intensidad, sin diagnóstico ni andamiaje nuevo",
+      "Actualizar con comité, participación y tipologías vigentes (Guía 49)",
+      "Resolver con criterio personal del docente/directivo, desconectado de PEI, SIEE o referentes MEN",
+      "Adoptar una medida “flexible” que en la práctica elimina la meta esencial de aprendizaje o protección"
+    ],
+    "correctIndex": 1,
+    "explanation": "El manual debe estar vivo y alineado. Un manual obsoleto genera respuestas ilegales o ineficaces.",
+    "normativeJustification": "El manual debe estar vivo y alineado.",
+    "theoreticalJustification": "Un manual obsoleto genera respuestas ilegales o ineficaces.",
+    "distractorAnalysis": {
+      "0": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger.",
+      "2": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "3": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-1",
+    "topic": "decreto1290 · cerebro 1",
+    "subtopic": "decreto1290 · cerebro 1",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras una prueba, el docente publica solo el promedio del curso y no devoluciones individuales. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Devolver a cada estudiante su logro frente a criterios y un siguiente paso de mejora",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 2,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-2",
+    "topic": "decreto1290 · cerebro 2",
+    "subtopic": "decreto1290 · cerebro 2",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un niño comprende con material concreto, pero la recuperación solo admite algoritmo escrito cronometrado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+      "Diseñar recuperación con representaciones y tiempo suficiente, manteniendo la meta esencial"
+    ],
+    "correctIndex": 3,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-3",
+    "topic": "decreto1290 · cerebro 3",
+    "subtopic": "decreto1290 · cerebro 3",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La autoevaluación se usa como trámite: el estudiante marca caritas sin criterios. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Usar autoevaluación solo al final del año",
+      "Enseñar autoevaluación con rúbrica clara y contraste frente a evidencias del trabajo",
+      "Dejar que la autoevaluación reemplace toda evidencia docente",
+      "Eliminar la autoevaluación porque 'no es objetiva'"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Parece práctica habitual, pero es parcial o inequitativa."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-4",
+    "topic": "decreto1290 · cerebro 4",
+    "subtopic": "decreto1290 · cerebro 4",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El consejo de evaluación promueve con un promedio 3.0 aunque no hay evidencias de aprendizajes esenciales. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Promover siempre por empatía aunque falte evidencia",
+      "Aplicar criterios del SIEE y evidencias de proceso, no solo el promedio aritmético",
+      "Reprobar sin revisar el carácter formativo del SIEE",
+      "Cambiar la escala del SIEE en la misma reunión sin proceso"
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Omite criterios, trazabilidad o la meta esencial del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-5",
+    "topic": "decreto1290 · cerebro 5",
+    "subtopic": "decreto1290 · cerebro 5",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente entrega la rúbrica el día de la sustentación 'para que no se preparen'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Entregar criterios solo a quienes 'se portan bien'",
+      "Evaluar sin rúbrica y decidir por impresión general",
+      "Usar rúbrica secreta incluso para el equipo docente",
+      "Socializar criterios antes de la producción para orientar el aprendizaje"
+    ],
+    "correctIndex": 3,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "1": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-6",
+    "topic": "decreto1290 · cerebro 6",
+    "subtopic": "decreto1290 · cerebro 6",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En coevaluación, los pares solo dicen 'me gustó' sin referirse a criterios. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Entrenar coevaluación con protocolo de evidencias y lenguaje de la rúbrica",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-7",
+    "topic": "decreto1290 · cerebro 7",
+    "subtopic": "decreto1290 · cerebro 7",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay error sistemático en fracciones; el docente avanza al siguiente capítulo del libro. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Seguir el libro para 'no retrasarse' aunque no haya comprensión",
+      "Poner más tarea idéntica sin mediación distinta",
+      "Culpar a las familias como única explicación",
+      "Reenseñar con diagnóstico del error, nuevas representaciones y evidencia de cierre"
+    ],
+    "correctIndex": 3,
+    "explanation": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción. La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación integral, flexible y formativa al servicio del aprendizaje y la promoción.",
+    "theoreticalJustification": "La mediación en la ZDP (Vygotsky) y la retroalimentación con criterios convierten la evidencia en mejora real.",
+    "distractorAnalysis": {
+      "0": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "1": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "2": "Omite criterios, trazabilidad o la meta esencial del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evaluación formativa"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  }
+]

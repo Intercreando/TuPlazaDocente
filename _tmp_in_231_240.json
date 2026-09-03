@@ -1,0 +1,392 @@
+[
+  {
+    "id": "oro-esp-len-m20",
+    "topic": "lenguaje · caso situado 20",
+    "subtopic": "lenguaje · caso situado 20",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No se enseña citación ética; se copia de internet sin crédito. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Enseñar uso ético de fuentes y parafraseo según grado",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Competencia comunicativa incluye ética de la información. Copiar sin crédito no es producción.",
+    "normativeJustification": "Competencia comunicativa incluye ética de la información.",
+    "theoreticalJustification": "Copiar sin crédito no es producción.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m21",
+    "topic": "lenguaje · caso situado 21",
+    "subtopic": "lenguaje · caso situado 21",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La escucha nunca se enseña; solo se exige silencio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Diseñar tareas de escucha activa con propósito (tomar notas, responder, resumir)",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Escucha es práctica social del lenguaje. Silencio ≠ comprensión.",
+    "normativeJustification": "Escucha es práctica social del lenguaje.",
+    "theoreticalJustification": "Silencio ≠ comprensión.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m22",
+    "topic": "lenguaje · caso situado 22",
+    "subtopic": "lenguaje · caso situado 22",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se evalúa lectura solo con opción múltiple de detalle literal. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Incluir inferencia, propósito del autor y evaluación del texto",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "EBC: niveles de comprensión. Lo literal es piso, no techo.",
+    "normativeJustification": "EBC: niveles de comprensión.",
+    "theoreticalJustification": "Lo literal es piso, no techo.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m23",
+    "topic": "lenguaje · caso situado 23",
+    "subtopic": "lenguaje · caso situado 23",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Los estudiantes no saben para quién escriben. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Explicitar audiencia y propósito antes de producir",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "Género = propósito + audiencia + rasgos. Sin audiencia, el texto queda vacío.",
+    "normativeJustification": "Género = propósito + audiencia + rasgos.",
+    "theoreticalJustification": "Sin audiencia, el texto queda vacío.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-len-m24",
+    "topic": "lenguaje · caso situado 24",
+    "subtopic": "lenguaje · caso situado 24",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se ridiculiza la letra 'feá' en público. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿cuál decisión articula mejor norma vigente y teoría del aprendizaje?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Acompañar legibilidad con respeto y metas formativas privadas"
+    ],
+    "correctIndex": 3,
+    "explanation": "El clima seguro habilita riesgo cognitivo. 1620/49: prevenir hostigamiento también en aula académica.",
+    "normativeJustification": "El clima seguro habilita riesgo cognitivo.",
+    "theoreticalJustification": "1620/49: prevenir hostigamiento también en aula académica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m25",
+    "topic": "directivos · caso situado 25",
+    "subtopic": "directivos · caso situado 25",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de mejoramiento institucional no tiene metas medibles ni responsables. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Definir metas, indicadores, responsables y fechas de seguimiento",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "La gestión requiere planeación con trazabilidad. Sin responsables, el plan es discurso.",
+    "normativeJustification": "La gestión requiere planeación con trazabilidad.",
+    "theoreticalJustification": "Sin responsables, el plan es discurso.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m26",
+    "topic": "directivos · caso situado 26",
+    "subtopic": "directivos · caso situado 26",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Las actas del consejo académico no existen o están incompletas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Institucionalizar actas claras que registren decisiones pedagógicas",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "1860: instancias con funcionamiento real. La memoria institucional evita repetición de errores.",
+    "normativeJustification": "1860: instancias con funcionamiento real.",
+    "theoreticalJustification": "La memoria institucional evita repetición de errores.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m27",
+    "topic": "directivos · caso situado 27",
+    "subtopic": "directivos · caso situado 27",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se prioriza ornamentación de eventos sobre tiempo de aula. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Proteger tiempo de enseñanza-aprendizaje como bien público",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El núcleo del servicio es el aprendizaje. Los eventos deben servir, no desplazar, la pedagogía.",
+    "normativeJustification": "El núcleo del servicio es el aprendizaje.",
+    "theoreticalJustification": "Los eventos deben servir, no desplazar, la pedagogía.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m28",
+    "topic": "directivos · caso situado 28",
+    "subtopic": "directivos · caso situado 28",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No hay inducción a docentes nuevos sobre PEI, SIEE y rutas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras intervenir de inmediato, ¿qué acción sería la más defendible en un ítem CNSC/ICFES?",
+    "options": [
+      "Diseñar inducción obligatoria con mentoría y documentos vivos",
+      "Resolver con criterio personal del docente/directivo, desconectado de PEI, SIEE o referentes MEN",
+      "Adoptar una medida “flexible” que en la práctica elimina la meta esencial de aprendizaje o protección",
+      "Repetir la misma estrategia didáctica/administrativa con más intensidad, sin diagnóstico ni andamiaje nuevo"
+    ],
+    "correctIndex": 0,
+    "explanation": "1278/calidad: profesionalización desde el ingreso. La inducción reduce improvisación dañina.",
+    "normativeJustification": "1278/calidad: profesionalización desde el ingreso.",
+    "theoreticalJustification": "La inducción reduce improvisación dañina.",
+    "distractorAnalysis": {
+      "1": "Uniforma o improvisa sin tipificación, criterios o ajustes que el caso exige.",
+      "2": "Parece institucional, pero es parcial: omite mediación, seguimiento o aprendizaje esencial.",
+      "3": "Privilegia cobertura, imagen o costumbre por encima de evidencia y derecho a aprender/proteger."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-esp-dir-m29",
+    "topic": "directivos · caso situado 29",
+    "subtopic": "directivos · caso situado 29",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La inclusión depende de 'buena voluntad' individual, no de política IE. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Para no caer en una práctica “casi correcta” pero insuficiente, conviene:",
+    "options": [
+      "Protocolizar PIAR, roles de apoyo y seguimiento institucional (1421)",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "La inclusión es deber del establecimiento. Sin política, la carga cae en un solo docente.",
+    "normativeJustification": "La inclusión es deber del establecimiento.",
+    "theoreticalJustification": "Sin política, la carga cae en un solo docente.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gestión"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]
