@@ -32,9 +32,8 @@ explanation: Redacta una justificación profunda y teórica. Explica por qué la
 
 distractorAnalysis: Actualiza este análisis para tus NUEVOS distractores. Explica, opción por opción, en qué trampa conceptual, normativa o de "dominio cruzado" cae cada una. El usuario debe entender por qué su respuesta "lógica" era técnicamente incorrecta.
 
-5. Ajuste de difficulty:
-
-Cambia el valor de la llave difficulty a 3 (alta carga cognitiva).
+5. Integridad de la Dificultad (difficulty y dificultad):
+Mantén los valores originales de las llaves difficulty y dificultad EXACTAMENTE como venían en el JSON original (ya sea 1, 2 o 3). PROHIBIDO alterar este número, de lo contrario se romperán los filtros de la base de datos de la aplicación.
 
 Restricciones Críticas de Código (Salida):
 Devuelve ÚNICAMENTE el código en formato JSON válido.
