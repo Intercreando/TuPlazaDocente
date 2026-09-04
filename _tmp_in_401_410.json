@@ -1,0 +1,426 @@
+[
+  {
+    "pos": 401,
+    "id": "oro-c4b-44",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ebc · volumen 44",
+    "subtopic": "ebc · volumen 44",
+    "specialtyTags": [
+      "matematicas",
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "bruner",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner"
+    ],
+    "caseContext": "En una IE oficial el equipo discute ebc · volumen 44. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Transitar enactivo→icónico→simbólico con conexiones"
+    ],
+    "explanation": "Procesos matemáticos. Representaciones múltiples.",
+    "normativeJustification": "Procesos matemáticos.",
+    "theoreticalJustification": "Representaciones múltiples.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 402,
+    "id": "oro-c4b-45",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "lineamientos · volumen 45",
+    "subtopic": "lineamientos · volumen 45",
+    "specialtyTags": [
+      "lenguaje",
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ebc",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Escriben 'para el docente' sin audiencia real nunca. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Diseñar producciones con audiencia y propósito auténticos",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Prácticas sociales del lenguaje. Propósito y audiencia.",
+    "normativeJustification": "Prácticas sociales del lenguaje.",
+    "theoreticalJustification": "Propósito y audiencia.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 403,
+    "id": "oro-c4b-46",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "dba · volumen 46",
+    "subtopic": "dba · volumen 46",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "dba",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "dba"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Focalizar DBA del grado y asegurar bases"
+    ],
+    "explanation": "Progresión por grado. Bases antes de adelantar.",
+    "normativeJustification": "Progresión por grado.",
+    "theoreticalJustification": "Bases antes de adelantar.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 404,
+    "id": "oro-c4b-47",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ebc · volumen 47",
+    "subtopic": "ebc · volumen 47",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ausubel",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "ausubel"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Proyecto de huerta sin explorar lo que ya saben del entorno. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Activar previos y conectar metas EBC al contexto"
+    ],
+    "explanation": "Saberes previos. Aprendizaje significativo.",
+    "normativeJustification": "Saberes previos.",
+    "theoreticalJustification": "Aprendizaje significativo.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 405,
+    "id": "oro-c4b-48",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "lineamientos · volumen 48",
+    "subtopic": "lineamientos · volumen 48",
+    "specialtyTags": [
+      "matematicas",
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "decreto1290"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Problema calificado solo por respuesta final. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+      "Valorar proceso, representación y argumentación"
+    ],
+    "explanation": "Evaluación de procesos. Criterios visibles.",
+    "normativeJustification": "Evaluación de procesos.",
+    "theoreticalJustification": "Criterios visibles.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 406,
+    "id": "oro-c4b-49",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ebc · volumen 49",
+    "subtopic": "ebc · volumen 49",
+    "specialtyTags": [
+      "lenguaje",
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "dba",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Lectura solo con preguntas literales de detalle. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Incluir inferencia, propósito y evaluación del texto",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Comprensión crítica. Inferencia y evaluación.",
+    "normativeJustification": "Comprensión crítica.",
+    "theoreticalJustification": "Inferencia y evaluación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 407,
+    "id": "oro-c4b-50",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "lineamientos · volumen 50",
+    "subtopic": "lineamientos · volumen 50",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ley115",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ley115"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Ejemplos urbanos ajenos en IE rural sin adaptación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Contextualizar referentes al territorio manteniendo la meta",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Contextualización PEI. Significatividad.",
+    "normativeJustification": "Contextualización PEI.",
+    "theoreticalJustification": "Significatividad.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 408,
+    "id": "oro-c4b-51",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen50 · volumen 51",
+    "subtopic": "guiaMen50 · volumen 51",
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "piaget",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Castigan el juego simbólico por 'perder tiempo'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Mediar el juego como espacio de lenguaje y aprendizaje",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Juego y desarrollo. Acción y representación.",
+    "normativeJustification": "Juego y desarrollo.",
+    "theoreticalJustification": "Acción y representación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 409,
+    "id": "oro-c4b-52",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen50 · volumen 52",
+    "subtopic": "guiaMen50 · volumen 52",
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Lavado de manos en silencio total; se prohíbe hablar. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Usar la rutina para lenguaje, autonomía y cuidado",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "Cuidado educativo. Rutinas significativas.",
+    "normativeJustification": "Cuidado educativo.",
+    "theoreticalJustification": "Rutinas significativas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 410,
+    "id": "oro-c4b-53",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen50 · volumen 53",
+    "subtopic": "guiaMen50 · volumen 53",
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "decreto1290"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Exigen promedio numérico semanal en transición. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Observar y documentar procesos con devolución a familias",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Evaluación cualitativa. Documentación pedagógica.",
+    "normativeJustification": "Evaluación cualitativa.",
+    "theoreticalJustification": "Documentación pedagógica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]

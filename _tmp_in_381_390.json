@@ -1,0 +1,412 @@
+[
+  {
+    "pos": 381,
+    "id": "oro-c4b-24",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen49 · volumen 24",
+    "subtopic": "guiaMen49 · volumen 24",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49"
+    ],
+    "caseContext": "Actualizan el manual copiando otro colegio la noche anterior a la visita. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Actualizar con comité, contexto local y tipologías vigentes"
+    ],
+    "explanation": "Manual participativo. Lectura de contexto.",
+    "normativeJustification": "Manual participativo.",
+    "theoreticalJustification": "Lectura de contexto.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 382,
+    "id": "oro-c4b-25",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ley1620 · volumen 25",
+    "subtopic": "ley1620 · volumen 25",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen51"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tipo I: suspensión inmediata sin diálogo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Acuerdos formativos/restaurativos con seguimiento",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "explanation": "Enfoque restaurativo proporcional. Reparar vínculos.",
+    "normativeJustification": "Enfoque restaurativo proporcional.",
+    "theoreticalJustification": "Reparar vínculos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 383,
+    "id": "oro-c4b-26",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen49 · volumen 26",
+    "subtopic": "guiaMen49 · volumen 26",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Programar promoción con el comité a lo largo del año",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "explanation": "Promoción de convivencia. Cultura de paz intencional.",
+    "normativeJustification": "Promoción de convivencia.",
+    "theoreticalJustification": "Cultura de paz intencional.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 384,
+    "id": "oro-c4b-27",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ley1620 · volumen 27",
+    "subtopic": "ley1620 · volumen 27",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El conflicto se 'resuelve' en el grupo de padres. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Conducirlo a la ruta institucional y proteger intimidad",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "explanation": "Canales formales. WhatsApp no es la ruta.",
+    "normativeJustification": "Canales formales.",
+    "theoreticalJustification": "WhatsApp no es la ruta.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 385,
+    "id": "oro-c4b-28",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen51 · volumen 28",
+    "subtopic": "guiaMen51 · volumen 28",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen51",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen51"
+    ],
+    "caseContext": "En una IE oficial el equipo discute guiaMen51 · volumen 28. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Definir roles, formar al equipo y ensayar el protocolo",
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "explanation": "Roles claros. Protocolo operable.",
+    "normativeJustification": "Roles claros.",
+    "theoreticalJustification": "Protocolo operable.",
+    "distractorAnalysis": {
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 386,
+    "id": "oro-c4b-29",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "guiaMen49 · volumen 29",
+    "subtopic": "guiaMen49 · volumen 29",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hostigan a un estudiante por su procedencia étnica y se minimiza. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Activar protección, educación en derechos y ruta",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "explanation": "No discriminación. Escuela segura.",
+    "normativeJustification": "No discriminación.",
+    "theoreticalJustification": "Escuela segura.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 387,
+    "id": "oro-c4b-30",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Guía 49 / seguimiento post-mediación",
+    "subtopic": "Ruta de Atención Integral — componente de seguimiento",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "seguimiento post-mediación"
+      },
+      {
+        "code": "ley1620",
+        "focus": "ruta de atención integral"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En una institución educativa, un conflicto Tipo I entre dos estudiantes de séptimo se resolvió con mediación pedagógica y acuerdos firmados. Han pasado dos semanas y nadie ha verificado el cumplimiento de esos acuerdos ni el clima entre las partes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Según la Ruta de Atención Integral para la Convivencia Escolar (Ley 1620 y Guía MEN 49), la decisión más coherente es:",
+    "options": [
+      "Archivar el caso el mismo día de la mediación, porque el acuerdo verbal ya basta",
+      "Cambiar solo de grupo a la víctima para evitar que el conflicto se repita",
+      "Imponer una sanción disciplinaria inmediata, aunque no se haya evaluado el cumplimiento de los acuerdos",
+      "Programar y registrar el seguimiento del cumplimiento de los acuerdos y del clima escolar entre las partes"
+    ],
+    "explanation": "La Ruta de Atención Integral tiene cuatro componentes: promoción, prevención, atención y seguimiento. Tras una mediación Tipo I, el cierre no es archivar: hay que verificar que los acuerdos se cumplan y que el clima no se deteriore. Omitir el seguimiento es una omisión normativa frecuente.",
+    "normativeJustification": "Ley 1620 y Decreto 1965 (hoy 1075): la Ruta incluye el componente de seguimiento tras la atención. La Guía MEN 49 orienta protocolos con verificación de acuerdos y clima escolar.",
+    "theoreticalJustification": "La mediación sin monitoreo deja el conflicto en riesgo de reaparecer; el seguimiento consolida el aprendizaje social y la trazabilidad institucional.",
+    "distractorAnalysis": {
+      "0": "Archivar de inmediato niega el componente de seguimiento de la Ruta.",
+      "1": "Mover solo a la víctima puede revictimizar y no garantiza reparación ni cambio de conducta.",
+      "2": "Sancionar sin valorar el cumplimiento de los acuerdos rompe la lógica restaurativa y proporcional del Tipo I."
+    }
+  },
+  {
+    "pos": 388,
+    "id": "oro-c4b-31",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ley115 · volumen 31",
+    "subtopic": "ley115 · volumen 31",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Decisiones de calendario y evaluación se toman sin consejo académico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Reactivar instancias con actas y participación docente"
+    ],
+    "explanation": "PEI orientador. Gobierno escolar real.",
+    "normativeJustification": "PEI orientador.",
+    "theoreticalJustification": "Gobierno escolar real.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 389,
+    "id": "oro-c4b-32",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · volumen 32",
+    "subtopic": "decreto1278 · volumen 32",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evaluación docente se usa para ranking y vergüenza pública. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Usarla con criterios, devolución y plan de mejora",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "explanation": "Evaluación de desempeño formativa. Mejoramiento profesional.",
+    "normativeJustification": "Evaluación de desempeño formativa.",
+    "theoreticalJustification": "Mejoramiento profesional.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 390,
+    "id": "oro-c4b-33",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · volumen 33",
+    "subtopic": "decreto1278 · volumen 33",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278",
+      "decreto1290"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Unifican en un formato SIEE estudiantil y evaluación docente. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Separar SIEE (1290) de desempeño docente (1278)",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Marcos distintos. Claridad institucional.",
+    "normativeJustification": "Marcos distintos.",
+    "theoreticalJustification": "Claridad institucional.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]
