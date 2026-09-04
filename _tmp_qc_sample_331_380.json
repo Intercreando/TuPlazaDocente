@@ -1,0 +1,97 @@
+[
+  {
+    "pos": 338,
+    "id": "oro-c4-95",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Te ofrecen un 'favor' a cambio de subir una nota. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Rechazar el favor, sostener los criterios públicos del SIEE sobre esa nota y reportar el ofrecimiento por el canal institucional que corresponda —coordinación o control interno—, con reserva del estudiante y sin negociar el juicio evaluativo.",
+      "Publicar una circular de cero dádivas en cartelera y en el grupo de padres, con el logo institucional y acuse, para proteger la imagen de integridad, sin reportar este ofrecimiento concreto ni revisar la nota en disputa a la luz del SIEE.",
+      "Conceder a todas las familias del grado el mismo ajuste de algunos puntos en el periodo, argumentando que así nadie puede alegar un favor particular, hay equidad de flexibilidad y se evitan reclamos de trato privilegiado.",
+      "Rechazar el favor explícito, bajar un poco el corte de esa nota y dejar constancia en el observador de flexibilidad por situación familiar, de modo que hay gesto ético visible y el criterio del SIEE se mueve en silencio."
+    ],
+    "correctIndex": 0,
+    "explanation": "La condición de calidad pide articular norma vigente y mediación pedagógica cuando ofrecen un favor a cambio de subir una nota. El Decreto 1278 y el SIEE del Decreto 1290 impiden negociar el juicio evaluativo; hay deber de reportar por canal institucional. Rechazar, sostener los criterios públicos y reportar con reserva es norma y mediación: el aprendizaje se evalúa con evidencia, no con dádiva. La circular de cero dádivas en cartelera protege la imagen y deja este caso sin instancia. Conceder a todo el grado el mismo ajuste de puntos homogeneiza la flexibilidad y corrompe el SIEE. Rechazar el favor, bajar un poco el corte y anotar flexibilidad parece ética con empatía y es exactamente la medida casi correcta que mueve el criterio en silencio.",
+    "distractorAnalysis": {
+      "1": "Trampa de dominio cruzado administrativo y de imagen: la circular de cero dádivas, el logo y el acuse protegen la reputación de integridad. Dejan este ofrecimiento concreto sin reporte y la nota en disputa sin el SIEE; hay mensaje público y no hay instancia.",
+      "2": "Trampa de la equidad como homogeneización: el mismo ajuste de puntos para todas las familias suena a justicia y a prevención de un favor particular. Uniforma la negociación del juicio y corrompe el SIEE en nombre de la equidad.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: rechazar el favor explícito, bajar un poco el corte y anotar flexibilidad parece ética empática con rastro. Mueve el criterio en silencio; es el gesto incompleto que el caso pide no confundir con norma y mediación."
+    }
+  },
+  {
+    "pos": 353,
+    "id": "oro-c4x-1278-etica-2",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evaluación docente no se socializa con criterios previos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Protocolizar en el PEI un calendario de visitas de aula con actas firmadas, registro fotográfico y oficio a coordinación, sin socializar de antemano los criterios de desempeño, para dejar rastro de que la evaluación docente «sí se hace».",
+      "Socializar con el docente los criterios de evaluación de desempeño antes de la observación, devolver retroalimentación con evidencias y acordar un plan de mejora con fechas de seguimiento, de modo que el Decreto 1278 oriente el desarrollo profesional.",
+      "Asignar a todos los docentes del grado la misma calificación de desempeño según el promedio del curso en las pruebas internas, argumentando que así hay equidad de resultado, se evitan acusaciones de subjetividad y el juicio queda comparable.",
+      "Entregar el instrumento el mismo día de la visita, diligenciarlo tras una observación breve y archivarlo sin conversación ni plan de mejora, de modo que hay un formato lleno en el expediente y la función formativa queda incompleta."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad pide articular norma vigente y mediación pedagógica: la evaluación docente se aplicó sin criterios socializados de antemano. El Decreto 1278 concibe la evaluación de desempeño como proceso con referente conocido, retroalimentación y plan de mejoramiento profesional, no como visita sorpresa ni como nota derivada del promedio de los estudiantes. La opción correcta socializa esos criterios antes de observar, devuelve evidencias y acuerda un plan de mejora con seguimiento. El calendario de visitas con fotos cubre el PEI y omite el derecho a conocer el referente. Calificar a todos por el promedio del curso homogeneiza el juicio y desplaza el objeto: evalúa resultados de estudiantes, no el desempeño docente. Entregar el instrumento el mismo día y archivarlo sin conversación es el formato lleno que el stem pide no confundir con mediación.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: calendario, actas y fotos son rastro impecable de que «hay evaluación». Omiten socializar criterios y convierten la visita en cobertura documental, no en proceso 1278.",
+      "2": "Trampa de la equidad como homogeneización y de dominio cruzado: la misma nota según el promedio del curso suena a objetividad. Evalúa a los estudiantes y niega el desempeño docente que el caso exige juzgar.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: hay instrumento y archivo, lo que parece evaluación. Llega tarde, no hay conversación ni plan de mejora; es el gesto incompleto frente a la mediación que pide el stem."
+    }
+  },
+  {
+    "pos": 364,
+    "id": "oro-c4b-7",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El periodo se decide con un único examen acumulativo sorpresa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Protocolizar el examen acumulativo sorpresa como cierre de periodo en el SIEE, con clave, fechas y firmas de área, para responder con evidencia comparable a quien pide rigor visible al terminar el corte.",
+      "Avisar la fecha del examen acumulativo con una semana de antelación y conservarlo como la evidencia que decide el periodo, de modo que hay aviso público y las producciones de proceso siguen fuera del juicio.",
+      "Recoger evidencias diversas a lo largo del periodo —producciones, observación y devolución formativa— con criterios conocidos, y tratar el examen, si se usa, como un insumo más del SIEE y no como el cierre del corte.",
+      "Aplicar a todo el grupo el mismo examen acumulativo sorpresa, con el mismo temario y el mismo tiempo, argumentando que así hay equidad de exigencia, se evitan ayudas desiguales y el archivo queda homogéneo."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad advierte contra una medida casi correcta pero insuficiente: avisar la fecha no convierte en formativa una prueba que sigue decidiendo el periodo. El Decreto 1290 exige evaluación integral, continua y formativa, con evidencias diversas y criterios conocidos, no un cierre acumulativo por sorpresa. La opción correcta recoge producciones, observación y devolución a lo largo del corte y, si hay examen, lo trata como un insumo más. Protocolizar esa prueba en el SIEE cubre el archivo y confirma el polo del caso. Aplicarla a todos por igual homogeneiza la sorpresa. El aviso de una semana parece transparencia y deja las evidencias de proceso fuera del juicio: es el gesto incompleto que el stem pide no confundir con el referente MEN.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: clave, fechas y firmas convierten el examen sorpresa en cierre protocolizado del SIEE. Es rigor de archivo impecable e institucionaliza la práctica que el caso denuncia.",
+      "1": "Trampa de la práctica casi correcta pero insuficiente: avisar la fecha parece criterio público y transparencia. Si esa prueba sigue decidiendo el periodo y el proceso queda fuera, la medida es insuficiente frente al Decreto 1290.",
+      "3": "Trampa de la equidad como homogeneización: el mismo examen sorpresa para todos suena a equidad de exigencia y a prevención de ayudas desiguales. Uniforma la ausencia de evidencias formativas y niega la diversidad de desempeños del periodo."
+    }
+  },
+  {
+    "pos": 365,
+    "id": "oro-c4b-8",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En 1° se exige demostraciones abstractas prematuras y se reprueba por 'falta de lógica'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Protocolizar en el SIEE una rúbrica de demostración formal para primero, con ítems comparables de «lógica» y archivo de reprobaciones, para evidenciar rigor matemático ante quien pide que el grado «piense como matemático».",
+      "Ajustar la demanda al desarrollo de primero: diagnosticar con material concreto y representaciones pictóricas, mediar hacia el DBA del grado y evaluar la justificación que el niño puede dar con esas representaciones, no una demostración abstracta.",
+      "Exigir a todo primero la misma demostración escrita sin material, con el mismo tiempo y el mismo criterio de «lógica», argumentando que así hay equidad de exigencia y se evitan ayudas que «bajan el nivel».",
+      "Permitir el material concreto diez minutos al inicio y retirarlo para exigir la misma demostración escrita, de modo que hay un gesto concreto y el juicio sigue anclado a la abstracción prematura que el caso describe."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad pide la opción más defendible en un ítem CNSC/ICFES: en primero se exigen demostraciones abstractas y se reprueba por «falta de lógica». El Decreto 1290 reconoce ritmos y el desarrollo; los DBA de primero orientan justificación con representaciones, no pruebas formales. Piaget sitúa a esta edad en la transición hacia operaciones concretas: sin base manipulativa e icónica, la demostración escrita mide un estadio que aún no está. La opción correcta ajusta la demanda, diagnostica con concreto y pictórico y evalúa la justificación posible. La rúbrica de demostración formal cubre el SIEE y confirma el error. La misma prueba escrita para todos homogeneiza una exigencia prematura. Diez minutos de material y luego la misma demostración es el gesto incompleto.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: la rúbrica de demostración formal y el archivo de reprobaciones son rigor de SIEE impecable. Institucionalizan una demanda inadecuada al desarrollo de primero y convierten la «falta de lógica» en evidencia comparable.",
+      "2": "Trampa de la equidad como homogeneización: la misma demostración escrita sin material suena a equidad de exigencia y a defensa del «nivel». Uniforma una tarea prematura y niega la mediación concreta que el desarrollo y el DBA exigen.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: diez minutos de material parecen respeto al concreto. Si se retira el apoyo para juzgar la misma demostración escrita, el gesto no cambia el criterio del caso ni la reprobación por «falta de lógica»."
+    }
+  },
+  {
+    "pos": 379,
+    "id": "oro-c4b-22",
+    "caseContext": "En una IE oficial el equipo discute ley1620 · volumen 22. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Levantar un acta interna, clasificar el hecho en el archivo de convivencia y comunicar que el caso quedó documentado, sin remisión a la autoridad competente ni plan de protección, para responder con trazabilidad de secretaría.",
+      "Remitir a la autoridad competente, archivar el oficio y considerar cerrada la responsabilidad escolar, sin plan de protección en la IE ni seguimiento pedagógico, de modo que hay remisión visible y la atención integral del Tipo III queda incompleta.",
+      "Activar de inmediato la remisión a la autoridad competente, garantizar protección a la víctima, informar a las instancias del Sistema Nacional de Convivencia Escolar y mantener seguimiento pedagógico, sin sustituir a las autoridades ni cerrar el caso con un acuerdo interno.",
+      "Aplicar a todo el grupo un taller masivo de valores y un comunicado genérico a las familias, argumentando que así hay equidad de mensaje, se cuida la imagen institucional y el clima queda atendido, sin remisión ni protección individual."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad advierte contra una medida casi correcta pero insuficiente frente a un presunto Tipo III: remitir a la autoridad y dar por cerrada la responsabilidad escolar parece cumplir la ruta y omite protección y seguimiento en la IE. La Ley 1620, el Decreto 1965 y la Guía MEN 51 (violencia sexual y presuntos delitos) exigen atención integral: protección inmediata, reporte a la autoridad competente, informe al Sistema Nacional de Convivencia y continuidad pedagógica. La escuela no sustituye a las autoridades ni «cierra» un presunto delito con un acta interna o un taller de valores. La opción correcta articula remisión, protección y seguimiento. El acta de secretaría es trazabilidad administrativa. El taller masivo cuida la imagen y homogeneiza el mensaje. Remitir y desentenderse es precisamente la insuficiencia que el stem pide no confundir con el referente MEN.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: el acta interna, la clasificación y el «caso documentado» son trazabilidad de secretaría impecable. Guardan el hecho en el archivo y omiten remisión, protección y el deber de oficio del Tipo III.",
+      "1": "Trampa de la práctica casi correcta pero insuficiente: remitir y archivar el oficio parece Ley 1620. Si se considera cerrada la responsabilidad escolar, faltan protección en la IE y seguimiento pedagógico; es el recorte que el stem pide no tomar por ruta completa.",
+      "3": "Trampa de la equidad como homogeneización y de la imagen institucional: el taller masivo y el comunicado genérico suenan a mensaje igual para todos y a cuidado reputacional. No hay remisión ni protección de quien está en riesgo."
+    }
+  }
+]

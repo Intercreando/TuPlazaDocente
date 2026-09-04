@@ -1,0 +1,97 @@
+[
+  {
+    "pos": 294,
+    "id": "oro-c4-51",
+    "caseContext": "En una IE oficial el equipo discute ebc · cerebro 51. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Iniciar la secuencia por la definición del libro, copiarla en el cuaderno y dejar constancia de esa apertura en el plan de área, para garantizar cobertura del tema, cumplir el índice y dejar trazabilidad documental ante coordinación.",
+      "Aplicar a todo el grupo el mismo pre-test de entrada, con ítems idénticos cuya calificación entra a la nota del periodo, argumentando que así se diagnostica con rigor comparable, se trata a todos igual y queda evidencia de saberes iniciales en el SIEE.",
+      "Explorar las ideas previas del grupo y conectar el contenido nuevo con esa estructura cognitiva, reorganizando la secuencia según lo que emerja, de modo que el aprendizaje significativo oriente la mediación y no un arranque de cobertura.",
+      "Abrir la clase con un recuento oral de unos tres minutos o un glosario previo atractivo, registrar las ideas en el tablero y continuar la secuencia ya diseñada sin usar esa información para reorganizar tareas ni ejemplos, de modo que el diagnóstico quede como clima de arranque."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad advierte contra una medida casi correcta pero insuficiente: preguntar ideas previas y no usarlas para conectar es el gesto que parece Ausubel y no lo es. El aprendizaje significativo exige explorar la estructura cognitiva y anclar lo nuevo en ella, reorganizando la secuencia; los DBA y la planeación del PEI se sostienen cuando esa conexión ocurre, no cuando el plan arranca por la definición del libro. La opción correcta explora, conecta y ajusta la mediación. Iniciar por el texto y dejar constancia en el plan es cobertura documental. El pre-test idéntico cuya nota entra al periodo convierte el diagnóstico en sanción comparable. El recuento oral o el glosario previo que no reorganizan la secuencia es precisamente el polo incompleto que el stem pide no confundir con anclaje.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: arrancar por la definición del libro y dejarla en el plan de área es cobertura y trazabilidad documental impecables, pero omite el diagnóstico de saberes previos y confirma el vacío del caso.",
+      "1": "Trampa de la equidad como homogeneización y de la sanción velada: el mismo pre-test con nota de periodo suena a diagnóstico serio y a criterio comparable. Uniforma el instrumento, castiga la entrada y no conecta lo nuevo con lo que cada quien ya comprende.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: el recuento oral o el glosario previo parecen explorar ideas previas y lucen como arranque activo. Si no reorganizan la secuencia, el diagnóstico es clima; es el gesto incompleto que el stem marca."
+    }
+  },
+  {
+    "pos": 297,
+    "id": "oro-c4-54",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa un recurso viral sin meta de aprendizaje ni referente de área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Expedir una circular de «innovación digital», recoger capturas de likes y vistas del recurso viral y archivarlas como evidencia de modernización, para responder con imagen a quien pide novedad visible y dejar rastro de que se usó tecnología.",
+      "Seleccionar y adaptar el recurso en la medida en que sirva a una meta explícita de EBC, DBA o lineamiento del área, con criterio de uso y evidencia de aprendizaje, de modo que la viralidad no sustituya el referente ni convierta la clase en espectáculo.",
+      "Proyectar el mismo video viral a todos los grados, en el mismo tiempo y con la misma ficha de seguimiento, argumentando que así hay equidad de recurso, se moderniza el colegio por igual y nadie queda por fuera de la innovación.",
+      "Usar el recurso viral y añadir al final una pregunta literal sobre lo visto, sin declarar la meta de área ni el DBA que se pretende, de modo que haya actividad, un cierre aparente y un material que parezca didáctico."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad pide lo más defendible pedagógica e institucionalmente: el recurso se justifica por la meta de área, no por su circulación. Los DBA, las EBC y los lineamientos son el referente de selección didáctica; un material viral sin meta convierte la clase en espectáculo y rompe la coherencia curricular. La opción correcta selecciona y adapta el recurso en función de un aprendizaje explícito, con criterio y evidencia. La circular de innovación y los likes son imagen administrativa impecable. El mismo video para todos los grados homogeneiza el «recurso equitativo». La pregunta literal al cierre parece mediación y deja el referente tan ausente como en el caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo y de imagen: la circular de innovación y el archivo de likes son modernización visible y trazable, pero institucionalizan el uso sin meta del caso y confunden espectáculo digital con calidad pedagógica.",
+      "2": "Trampa de la equidad como homogeneización: el mismo video para todos los grados suena a igualdad de oportunidad tecnológica —el «tratar a todos igual» del episodio—, pero borra la progresión de cada DBA y trata la viralidad como bien común, no como decisión de área.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: usar el recurso y añadir una pregunta parece dar cierre didáctico. Sin meta de EBC, DBA o lineamiento, la pregunta es adorno literal; el material sigue sin referente, que es el vacío del caso."
+    }
+  },
+  {
+    "pos": 305,
+    "id": "oro-c4-62",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se enseña suma formal en hoja a los 4 años sin conteo ni clasificación en juego. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Adoptar un cuadernillo de sumas formales para los cuatro años, con visto de coordinación y envío semanal a las familias, para adelantar el algoritmo y dejar evidencia comparable de preparación hacia primero.",
+      "Trabajar nociones matemáticas en juego y rutinas de los cuatro años —conteo, serieción, clasificación y comparación—, con observación y registro, de modo que las cantidades se construyan en acción y no en la hoja de suma formal.",
+      "Entregar a todo el grupo de cuatro años la misma hoja de algoritmos de suma y el mismo tiempo de mesa, argumentando que así hay equidad de rigor, se evitan reclamos y la evidencia del periodo queda comparable.",
+      "Destinar diez minutos al conteo con fichas, registrar esa actividad y conservar como evidencia de la clase la hoja de sumas formales, de modo que haya un momento de juego y el producto escrito siga documentando el avance."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad pide la opción más defendible en un ítem CNSC/ICFES: nociones matemáticas de inicial, no la suma formal en hoja a los cuatro años. La Guía MEN 50 y los DBA de transición sitúan conteo, serieción, clasificación y comparación en el juego y las rutinas. Piaget ancla las operaciones en la acción sobre objetos y Bruner coloca lo enactivo e icónico antes del símbolo escrito. La opción correcta trabaja esas nociones, observa y registra, de modo que hay mediación y evidencia. El cuadernillo con visto de coordinación, la misma hoja de algoritmos para todos o diez minutos de fichas seguidos de la hoja como producto parecen adelanto, rigor o equilibrio, y dejan intacta la formalización prematura del episodio.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: el cuadernillo, el visto de coordinación y el envío semanal a las familias son gestión curricular visible de «adelanto», pero convierten la suma formal del caso en política institucional y niegan el juego como mediación matemática.",
+      "2": "Trampa de la equidad como homogeneización: la misma hoja de algoritmos y el mismo tiempo de mesa suenan a rigor equitativo y a prevención de reclamos, pero uniforman una práctica escolarizante; tratar a todos igual aquí es negar el objeto de enseñanza de los cuatro años.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: los diez minutos de conteo con fichas parecen nociones en juego, pero si la evidencia de la clase sigue siendo la hoja de sumas formales, el conteo es un preámbulo y la formalización prematura queda como criterio."
+    }
+  },
+  {
+    "pos": 320,
+    "id": "oro-c4-77",
+    "caseContext": "En una IE oficial el equipo discute lineamientos · cerebro 77. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Fijar en el SIEE una planilla de dictados diarios datados, con listas de palabras y firma de coordinación, para responder con evidencia comparable a quien pide rigor visible en el periodo de lenguaje.",
+      "Organizar secuencias de lectura y escritura con textos auténticos y producción dirigida a una audiencia, con criterios públicos y evidencias de proceso, de modo que el dictado deje de sustituir el objeto del área.",
+      "Aplicar a todo el grupo el mismo dictado, con el mismo listado y el mismo tiempo, argumentando que así hay equidad de ortografía, se trata a todos igual y el archivo del periodo queda homogéneo.",
+      "Leer un cuento completo el viernes como actividad de clima y conservar los dictados diarios como evidencia y nota del resto de la semana, de modo que haya un texto visible sin desplazar el criterio que hoy agota el periodo."
+    ],
+    "correctIndex": 1,
+    "explanation": "La condición de calidad pide la decisión más defendible pedagógica e institucionalmente ante propuestas en conflicto: el periodo de lenguaje no puede agotarse en dictados diarios. Los Lineamientos de Lengua Castellana y las EBC privilegian lectura, escritura, oralidad y escucha con textos auténticos y producción con audiencia. Organizar esas secuencias con criterios e instancias deja evidencia del área y sitúa el dictado, si se usa, como recurso, no como sustituto. La planilla de dictados es archivo comparable. El mismo dictado «por equidad de ortografía» uniforma la reproducción. Un cuento el viernes y dictados el resto de la semana es el gesto incompleto: hay un texto y el criterio del periodo sigue siendo el dictado.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: la planilla de dictados diarios, las listas y la firma son trazabilidad de SIEE impecable y una respuesta visible de rigor, pero consolidan el error del caso: el periodo sigue reducido a reproducción y no hay instancia de textos auténticos.",
+      "2": "Trampa de la equidad como homogeneización: el mismo dictado «por equidad de ortografía» suena a justicia y a archivo comparable, pero uniforma la reproducción de palabras y niega secuencias diferenciadas de lectura y de producción con audiencia.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: el cuento del viernes parece abrir la lectura, pero si la evidencia y la nota del resto de la semana siguen siendo los dictados diarios el objeto del área no entra al juicio; hay un texto de clima y el criterio del caso permanece."
+    }
+  },
+  {
+    "pos": 329,
+    "id": "oro-c4-86",
+    "caseContext": "En una IE oficial el equipo discute lineamientos · cerebro 86. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Expedir una circular antiplagio, recoger firmas de enterado y archivarla en el SIEE, para dejar constancia institucional de que copiar de internet está prohibido, sin enseñar citación ni parafraseo.",
+      "Aplicar a todo el grupo el mismo cuestionario de integridad académica, con la misma clave y el mismo tiempo, argumentando que así hay equidad de mensaje y queda evidencia comparable, sin producción con fuentes ni parafraseo.",
+      "Enseñar el uso ético de fuentes y el parafraseo según el grado, con criterios conocidos, evidencias de proceso y devolución sobre la citación, de modo que el texto tomado de internet deje de operar como producto calificable.",
+      "Colocar un cartel de «no copies» y una feria de «sé original», y conservar la nota por extensión del texto pegado de la red, de modo que hay campaña visible y la mediación de citación queda incompleta."
+    ],
+    "correctIndex": 2,
+    "explanation": "La condición de calidad advierte contra una medida casi correcta pero insuficiente: una circular, un cuestionario o un cartel «no copies» no enseñan citación si el texto pegado de internet sigue entrando a la nota por extensión. Los Lineamientos de Lengua Castellana y las EBC incluyen el uso ético de fuentes y el parafraseo como objeto de enseñanza, graduado según el nivel. El Decreto 1290 exige criterios conocidos y evidencias de proceso. La opción correcta enseña esa ética con rastro de proceso, de modo que hay mediación y no espectáculo antiplagio. La circular firmada cubre el archivo. El mismo cuestionario de integridad para todos homogeneiza el mensaje y omite la producción con fuentes. El cartel y la feria de originalidad con la nota aún puesta al texto copiado son el gesto incompleto que el stem pide no confundir con enseñanza.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado administrativo: circular antiplagio y firmas son gestión impecable. Prohíben sin enseñar parafraseo ni citación y dejan intacta la copia de internet del caso.",
+      "1": "Trampa de la equidad como homogeneización: el mismo cuestionario de integridad suena a equidad de mensaje. Omite la producción con fuentes y uniforma un instrumento de copiar o citar sin escritura.",
+      "3": "Trampa de la práctica casi correcta pero insuficiente: cartel y feria parecen formación ética. Si la nota sigue midiendo extensión del texto pegado, la citación no se enseña y el pegado de internet permanece como producto."
+    }
+  }
+]

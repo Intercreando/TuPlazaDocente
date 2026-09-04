@@ -1,0 +1,442 @@
+[
+  {
+    "id": "oro-c4-38",
+    "topic": "ley115 · cerebro 38",
+    "subtopic": "ley115 · cerebro 38",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El consejo directivo no sesiona; hay decisiones de impacto sin acta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Reactivar instancias con calendario, participación y actas trazables",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-39",
+    "topic": "ley115 · cerebro 39",
+    "subtopic": "ley115 · cerebro 39",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Resultados internos bajos se responden solo con memorandos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Acompañar práctica, co-planificar metas de aprendizaje y hacer seguimiento",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-40",
+    "topic": "ley115 · cerebro 40",
+    "subtopic": "ley115 · cerebro 40",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evaluación de desempeño no tiene plan de mejoramiento asociado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Conectar evaluación de desempeño con plan de desarrollo profesional y evidencias",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-41",
+    "topic": "ley115 · cerebro 41",
+    "subtopic": "ley115 · cerebro 41",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El SIEE no se socializa a familias ni se aplica igual entre áreas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Socializar y monitorear aplicación coherente del SIEE en toda la IE",
+      "Ocultar el SIEE 'para evitar reclamos'",
+      "Cambiar criterios cada periodo sin proceso",
+      "Permitir escalas secretas por docente"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "1": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Parece práctica habitual, pero es parcial o inequitativa."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-42",
+    "topic": "ley115 · cerebro 42",
+    "subtopic": "ley115 · cerebro 42",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se priorizan eventos ornamentales sobre tiempo de aula en semanas clave. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Evaluar docentes por decoración de actos",
+      "Proteger tiempo de enseñanza-aprendizaje y alinear eventos al PEI",
+      "Seguir desplazando clase por ensayos prolongados",
+      "Cancelar toda vida institucional comunitaria"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Parece práctica habitual, pero es parcial o inequitativa.",
+      "3": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2
+  },
+  {
+    "id": "oro-c4-43",
+    "topic": "ley115 · cerebro 43",
+    "subtopic": "ley115 · cerebro 43",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: No hay plan de mejoramiento con metas, responsables ni fechas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Culpar al contexto externo como único factor",
+      "Definir PMI con metas medibles, responsables y seguimiento periódico",
+      "Dejar el PMI solo para la visita de calidad",
+      "Escribir un PMI genérico sin indicadores"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Omite criterios, trazabilidad o la meta esencial del caso.",
+      "2": "Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.",
+      "3": "Parece práctica habitual, pero es parcial o inequitativa."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-44",
+    "topic": "ley115 · cerebro 44",
+    "subtopic": "ley115 · cerebro 44",
+    "targetCargo": "directivos",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente pide formación en didáctica y se responde que 'no hay presupuesto para eso'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Priorizar desarrollo profesional situado (comunidades de aprendizaje, mentoría, microformación)"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "normativeJustification": "Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.",
+    "theoreticalJustification": "La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "PEI"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1278",
+        "focus": "profesionalización"
+      }
+    ],
+    "normativeRefs": [
+      "ley115",
+      "decreto1860",
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-45",
+    "topic": "ebc · cerebro 45",
+    "subtopic": "ebc · cerebro 45",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan de área lista temas del libro y no declara competencias ni DBA del grado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Reorientar metas a EBC/DBA del grado y explicitar evidencias de aprendizaje",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-46",
+    "topic": "ebc · cerebro 46",
+    "subtopic": "ebc · cerebro 46",
+    "targetCargo": "primaria",
+    "caseContext": "En una IE oficial el equipo discute ebc · cerebro 46. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Definir evidencias y criterios por área articulados al proyecto",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-47",
+    "topic": "ebc · cerebro 47",
+    "subtopic": "ebc · cerebro 47",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En matemáticas se invalida una estrategia correcta distinta a la del tablero. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Validar estrategias equivalentes y comparar eficiencia/representaciones",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

@@ -1,0 +1,432 @@
+[
+  {
+    "id": "oro-c4-78",
+    "topic": "lineamientos · cerebro 78",
+    "subtopic": "lineamientos · cerebro 78",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Textos 'finales' a la primera, sin borradores ni rúbrica. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Ciclo planificar–textualizar–revisar con criterios conocidos",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 0,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-79",
+    "topic": "lineamientos · cerebro 79",
+    "subtopic": "lineamientos · cerebro 79",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Preguntas de interpretación, evaluación de argumentos y respuesta propia",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-80",
+    "topic": "lineamientos · cerebro 80",
+    "subtopic": "lineamientos · cerebro 80",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una IE oficial el equipo discute Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Activar previos, propósito comunicativo y modelos antes de producir",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-81",
+    "topic": "lineamientos · cerebro 81",
+    "subtopic": "lineamientos · cerebro 81",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se burla el acento regional y el docente 'corrige' ridiculizando. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Valorar diversidad lingüística y enseñar registros según contexto, deteniendo discriminación",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 0,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-82",
+    "topic": "lineamientos · cerebro 82",
+    "subtopic": "lineamientos · cerebro 82",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una IE oficial el equipo discute lineamientos · cerebro 82. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Diseñar situaciones orales con rúbricas de claridad, escucha y argumentación",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-83",
+    "topic": "lineamientos · cerebro 83",
+    "subtopic": "lineamientos · cerebro 83",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Podcast escolar se evalúa solo por 'leer bien el guion'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Valorar propósito, audiencia, organización discursiva y uso ético de fuentes"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-84",
+    "topic": "lineamientos · cerebro 84",
+    "subtopic": "lineamientos · cerebro 84",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Andamiar con vocabulario, lectura compartida y preguntas guía",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-85",
+    "topic": "lineamientos · cerebro 85",
+    "subtopic": "lineamientos · cerebro 85",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Biblioteca de aula cerrada 'para que no se dañen los libros'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Circular libros con acuerdos de cuidado y tiempo de lectura libre"
+    ],
+    "correctIndex": 3,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-86",
+    "topic": "lineamientos · cerebro 86",
+    "subtopic": "lineamientos · cerebro 86",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una IE oficial el equipo discute lineamientos · cerebro 86. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Enseñar uso ético de fuentes y parafraseo según grado",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-87",
+    "topic": "decreto1278 · cerebro 87",
+    "subtopic": "decreto1278 · cerebro 87",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un compañero pide que firmes una asistencia que no cumplió. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Negarte con respeto y proponer corregir el registro con la verdad institucional",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

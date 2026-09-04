@@ -1,0 +1,495 @@
+[
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1290-aus-2",
+    "pillar": "pedagogico",
+    "topic": "1290-aus · cruce 2",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "1290-aus · cruce 2",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El error frecuente revela un modelo mental previo incorrecto y se ignora. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Usar el error como evidencia formativa para reorganizar la enseñanza"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1290 exige evaluación al servicio del aprendizaje. Ausubel: sin anclaje en saberes previos, la enseñanza se vuelve mecánica.",
+    "normativeJustification": "El 1290 exige evaluación al servicio del aprendizaje.",
+    "theoreticalJustification": "Ausubel: sin anclaje en saberes previos, la enseñanza se vuelve mecánica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "formativa"
+      },
+      {
+        "code": "ausubel",
+        "focus": "previos"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1290-aus-3",
+    "pillar": "pedagogico",
+    "topic": "1290-aus · cruce 3",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "1290-aus · cruce 3",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La recuperación repite la misma explicación sin partir de lo que el estudiante sí sabe. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Partir de anclajes existentes y diseñar mediación diferenciada",
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 0,
+    "explanation": "El 1290 exige evaluación al servicio del aprendizaje. Ausubel: sin anclaje en saberes previos, la enseñanza se vuelve mecánica.",
+    "normativeJustification": "El 1290 exige evaluación al servicio del aprendizaje.",
+    "theoreticalJustification": "Ausubel: sin anclaje en saberes previos, la enseñanza se vuelve mecánica.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "formativa"
+      },
+      {
+        "code": "ausubel",
+        "focus": "previos"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1421-vyg-1",
+    "pillar": "pedagogico",
+    "topic": "1421-vyg · cruce 1",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "1421-vyg · cruce 1",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un ajuste (guion visual) se retira bruscamente sin evaluar autonomía. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Retirar andamiajes de forma gradual según evidencia de autonomía",
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 0,
+    "explanation": "1421 exige ajustes razonables y PIAR. El andamiaje permite participar en la ZDP con apoyos temporales.",
+    "normativeJustification": "1421 exige ajustes razonables y PIAR.",
+    "theoreticalJustification": "El andamiaje permite participar en la ZDP con apoyos temporales.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "andamiaje"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1421-vyg-2",
+    "pillar": "pedagogico",
+    "topic": "1421-vyg · cruce 2",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "1421-vyg · cruce 2",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute 1421-vyg · cruce 2. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Diseñar roles de mediación intencional y evaluar el progreso individual con criterios",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "1421 exige ajustes razonables y PIAR. El andamiaje permite participar en la ZDP con apoyos temporales.",
+    "normativeJustification": "1421 exige ajustes razonables y PIAR.",
+    "theoreticalJustification": "El andamiaje permite participar en la ZDP con apoyos temporales.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "andamiaje"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1421-vyg-3",
+    "pillar": "pedagogico",
+    "topic": "1421-vyg · cruce 3",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "1421-vyg · cruce 3",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay barrera de acceso al material y se culpa al estudiante. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Ajustar el acceso al material y mediar la participación",
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 0,
+    "explanation": "1421 exige ajustes razonables y PIAR. El andamiaje permite participar en la ZDP con apoyos temporales.",
+    "normativeJustification": "1421 exige ajustes razonables y PIAR.",
+    "theoreticalJustification": "El andamiaje permite participar en la ZDP con apoyos temporales.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "andamiaje"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1620-rest-1",
+    "pillar": "pedagogico",
+    "topic": "1620-rest · cruce 1",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "1620-rest · cruce 1",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos",
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute 1620-rest · cruce 1. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Mediar acuerdos restaurativos con seguimiento según el manual",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "La ruta integral exige proporcionalidad y seguimiento. Lo restaurativo repara daño y vínculos; no se reduce al castigo.",
+    "normativeJustification": "La ruta integral exige proporcionalidad y seguimiento.",
+    "theoreticalJustification": "Lo restaurativo repara daño y vínculos; no se reduce al castigo.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "restaurativo"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "proporcionalidad"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1620-rest-2",
+    "pillar": "pedagogico",
+    "topic": "1620-rest · cruce 2",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "1620-rest · cruce 2",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La víctima es cambiada de curso; el agresor no tiene proceso. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Proteger a la víctima y activar ruta también con quien agrede, con debido proceso",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "La ruta integral exige proporcionalidad y seguimiento. Lo restaurativo repara daño y vínculos; no se reduce al castigo.",
+    "normativeJustification": "La ruta integral exige proporcionalidad y seguimiento.",
+    "theoreticalJustification": "Lo restaurativo repara daño y vínculos; no se reduce al castigo.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "restaurativo"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "proporcionalidad"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1620-rest-3",
+    "pillar": "pedagogico",
+    "topic": "1620-rest · cruce 3",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "1620-rest · cruce 3",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay acuerdo, pero nadie verifica cumplimiento. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Dar por cerrado el día de la mediación",
+      "Amenazar sin mediación",
+      "Delegar seguimiento solo a estudiantes",
+      "Hacer seguimiento de acuerdos y clima"
+    ],
+    "correctIndex": 3,
+    "explanation": "La ruta integral exige proporcionalidad y seguimiento. Lo restaurativo repara daño y vínculos; no se reduce al castigo.",
+    "normativeJustification": "La ruta integral exige proporcionalidad y seguimiento.",
+    "theoreticalJustification": "Lo restaurativo repara daño y vínculos; no se reduce al castigo.",
+    "distractorAnalysis": {
+      "0": "Respuesta parcial o ritualmente 'correcta' pero insuficiente.",
+      "1": "Omite mediación, evidencia o proporcionalidad.",
+      "2": "Debilita derechos, criterios o aprendizaje esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "restaurativo"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "proporcionalidad"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-ebc-1290-1",
+    "pillar": "pedagogico",
+    "topic": "ebc-1290 · cruce 1",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "ebc-1290 · cruce 1",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se enseñan competencias y se evalúa solo memoria de datos aislados. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Alinear evidencias a los desempeños enseñados (saber/saber hacer)",
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 0,
+    "explanation": "EBC orientan desempeños; 1290 exige criterios conocidos. Evaluar lo que se enseña con criterios visibles fortalece la autorregulación.",
+    "normativeJustification": "EBC orientan desempeños; 1290 exige criterios conocidos.",
+    "theoreticalJustification": "Evaluar lo que se enseña con criterios visibles fortalece la autorregulación.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "desempeños"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-ebc-1290-2",
+    "pillar": "pedagogico",
+    "topic": "ebc-1290 · cruce 2",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "ebc-1290 · cruce 2",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Los estudiantes no conocen qué se espera en la producción. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+      "Socializar rúbrica/criterios antes y usarlos en la devolución"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC orientan desempeños; 1290 exige criterios conocidos. Evaluar lo que se enseña con criterios visibles fortalece la autorregulación.",
+    "normativeJustification": "EBC orientan desempeños; 1290 exige criterios conocidos.",
+    "theoreticalJustification": "Evaluar lo que se enseña con criterios visibles fortalece la autorregulación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "desempeños"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  }
+]

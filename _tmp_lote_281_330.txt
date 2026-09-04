@@ -1,0 +1,850 @@
+===== 281 oro-c4-38 ci=0 diff=avanzado/3 cargo=directivos =====
+TOPIC: ley115 · cerebro 38
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: El consejo directivo no sesiona; hay decisiones de impacto sin acta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: El consejo directivo no sesiona; hay decisiones de impacto sin acta.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Reactivar instancias con calendario, participación y actas trazables
+  [0*] Reactivar instancias con calendario, participación y actas trazables
+  [1] Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.
+  [2] Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.
+  [3] Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 282 oro-c4-39 ci=2 diff=avanzado/3 cargo=directivos =====
+TOPIC: ley115 · cerebro 39
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Resultados internos bajos se responden solo con memorandos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Resultados internos bajos se responden solo con memorandos.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Acompañar práctica, co-planificar metas de aprendizaje y hacer seguimiento
+  [0] Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.
+  [1] Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.
+  [2*] Acompañar práctica, co-planificar metas de aprendizaje y hacer seguimiento
+  [3] Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 283 oro-c4-40 ci=2 diff=avanzado/3 cargo=directivos =====
+TOPIC: ley115 · cerebro 40
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: La evaluación de desempeño no tiene plan de mejoramiento asociado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: La evaluación de desempeño no tiene plan de mejoramiento asociado.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Conectar evaluación de desempeño con plan de desarrollo profesional y evidencias
+  [0] Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.
+  [1] Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.
+  [2*] Conectar evaluación de desempeño con plan de desarrollo profesional y evidencias
+  [3] Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 284 oro-c4-41 ci=0 diff=intermedio/2 cargo=directivos =====
+TOPIC: ley115 · cerebro 41
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: El SIEE no se socializa a familias ni se aplica igual entre áreas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: El SIEE no se socializa a familias ni se aplica igual entre áreas.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Socializar y monitorear aplicación coherente del SIEE en toda la IE
+  [0*] Socializar y monitorear aplicación coherente del SIEE en toda la IE
+  [1] Ocultar el SIEE 'para evitar reclamos'
+  [2] Cambiar criterios cada periodo sin proceso
+  [3] Permitir escalas secretas por docente
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"1":"Omite criterios, trazabilidad o la meta esencial del caso.","2":"Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.","3":"Parece práctica habitual, pero es parcial o inequitativa."}
+
+===== 285 oro-c4-42 ci=1 diff=intermedio/2 cargo=directivos =====
+TOPIC: ley115 · cerebro 42
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se priorizan eventos ornamentales sobre tiempo de aula en semanas clave. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se priorizan eventos ornamentales sobre tiempo de aula en semanas clave.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Proteger tiempo de enseñanza-aprendizaje y alinear eventos al PEI
+  [0] Evaluar docentes por decoración de actos
+  [1*] Proteger tiempo de enseñanza-aprendizaje y alinear eventos al PEI
+  [2] Seguir desplazando clase por ensayos prolongados
+  [3] Cancelar toda vida institucional comunitaria
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"0":"Omite criterios, trazabilidad o la meta esencial del caso.","2":"Parece práctica habitual, pero es parcial o inequitativa.","3":"Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección."}
+
+===== 286 oro-c4-43 ci=1 diff=avanzado/3 cargo=directivos =====
+TOPIC: ley115 · cerebro 43
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: No hay plan de mejoramiento con metas, responsables ni fechas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: No hay plan de mejoramiento con metas, responsables ni fechas.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Definir PMI con metas medibles, responsables y seguimiento periódico
+  [0] Culpar al contexto externo como único factor
+  [1*] Definir PMI con metas medibles, responsables y seguimiento periódico
+  [2] Dejar el PMI solo para la visita de calidad
+  [3] Escribir un PMI genérico sin indicadores
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"0":"Omite criterios, trazabilidad o la meta esencial del caso.","2":"Prioriza cobertura, imagen o costumbre sobre aprendizaje/protección.","3":"Parece práctica habitual, pero es parcial o inequitativa."}
+
+===== 287 oro-c4-44 ci=3 diff=avanzado/3 cargo=directivos =====
+TOPIC: ley115 · cerebro 44
+TAGS: [{"code":"ley115","focus":"PEI"},{"code":"decreto1860","focus":"gobierno escolar"},{"code":"decreto1278","focus":"profesionalización"}] REFS: ["ley115","decreto1860","decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Un docente pide formación en didáctica y se responde que 'no hay presupuesto para eso'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Un docente pide formación en didáctica y se responde que 'no hay presupuesto para eso'.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Priorizar desarrollo profesional situado (comunidades de aprendizaje, mentoría, microformación)
+  [0] Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.
+  [1] Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.
+  [2] Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.
+  [3*] Priorizar desarrollo profesional situado (comunidades de aprendizaje, mentoría, microformación)
+EXP: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio. La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+NORM: Ley 115 y Decreto 1860 organizan PEI y gobierno escolar; el 1278 articula profesionalización y calidad del servicio.
+THEO: La gestión directiva mejora aprendizajes cuando acompaña la práctica, no solo la burocracia.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 288 oro-c4-45 ci=2 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 45
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: El plan de área lista temas del libro y no declara competencias ni DBA del grado. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: El plan de área lista temas del libro y no declara competencias ni DBA del grado.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Reorientar metas a EBC/DBA del grado y explicitar evidencias de aprendizaje
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2*] Reorientar metas a EBC/DBA del grado y explicitar evidencias de aprendizaje
+  [3] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 289 oro-c4-46 ci=1 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 46
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una IE oficial el equipo discute ebc · cerebro 46. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Un proyecto de agua potable no tiene criterios por área.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Definir evidencias y criterios por área articulados al proyecto
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1*] Definir evidencias y criterios por área articulados al proyecto
+  [2] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","2":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 290 oro-c4-47 ci=2 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 47
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: En matemáticas se invalida una estrategia correcta distinta a la del tablero. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: En matemáticas se invalida una estrategia correcta distinta a la del tablero.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Validar estrategias equivalentes y comparar eficiencia/representaciones
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2*] Validar estrategias equivalentes y comparar eficiencia/representaciones
+  [3] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 291 oro-c4-48 ci=2 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 48
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: Lenguaje se reduce a ortografía y no hay producción de textos con audiencia. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.
+CASE_ORIG: Lenguaje se reduce a ortografía y no hay producción de textos con audiencia.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Diseñar secuencias de lectura/escritura/oralidad con propósito y audiencia real
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [2*] Diseñar secuencias de lectura/escritura/oralidad con propósito y audiencia real
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 292 oro-c4-49 ci=1 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 49
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Ciencias se enseña con definiciones para memorizar, sin indagación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Ciencias se enseña con definiciones para memorizar, sin indagación.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Promover ciclo pregunta–exploración–evidencia–explicación
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1*] Promover ciclo pregunta–exploración–evidencia–explicación
+  [2] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [3] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 293 oro-c4-50 ci=3 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 50
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Sociales evita problemas del entorno y solo memoriza fechas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Sociales evita problemas del entorno y solo memoriza fechas.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Analizar problemas locales con evidencia, respeto y pensamiento crítico
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+  [3*] Analizar problemas locales con evidencia, respeto y pensamiento crítico
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 294 oro-c4-51 ci=2 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 51
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una IE oficial el equipo discute ebc · cerebro 51. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Se planea sin diagnóstico de saberes previos.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Explorar ideas previas y conectar el nuevo contenido (aprendizaje significativo)
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [2*] Explorar ideas previas y conectar el nuevo contenido (aprendizaje significativo)
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","1":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 295 oro-c4-52 ci=3 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 52
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: El tránsito enactivo–icónico–simbólico se salta en un día. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: El tránsito enactivo–icónico–simbólico se salta en un día.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Diseñar progresión representacional con conexiones explícitas
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+  [3*] Diseñar progresión representacional con conexiones explícitas
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 296 oro-c4-53 ci=0 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 53
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: Los DBA se pegan en el plan pero no aparecen en las tareas ni en la evaluación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.
+CASE_ORIG: Los DBA se pegan en el plan pero no aparecen en las tareas ni en la evaluación.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Alinear tareas y criterios de evaluación a los DBA declarados
+  [0*] Alinear tareas y criterios de evaluación a los DBA declarados
+  [1] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [2] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 297 oro-c4-54 ci=1 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 54
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se usa un recurso viral sin meta de aprendizaje ni referente de área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se usa un recurso viral sin meta de aprendizaje ni referente de área.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Seleccionar recursos solo si sirven a una meta EBC/DBA/lineamiento explícita
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1*] Seleccionar recursos solo si sirven a una meta EBC/DBA/lineamiento explícita
+  [2] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [3] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 298 oro-c4-55 ci=2 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 55
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En 3° se enseñan contenidos de 6° 'para que el ICFES no los coja desprevenidos'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.
+CASE_ORIG: En 3° se enseñan contenidos de 6° 'para que el ICFES no los coja desprevenidos'.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Asegurar aprendizajes esenciales del grado y progresión sólida
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [2*] Asegurar aprendizajes esenciales del grado y progresión sólida
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 299 oro-c4-56 ci=3 diff=avanzado/3 cargo=primaria =====
+TOPIC: ebc · cerebro 56
+TAGS: [{"code":"ebc","focus":"competencias"},{"code":"dba","focus":"progresión"},{"code":"lineamientos","focus":"área"}] REFS: ["ebc","dba","lineamientos"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: La malla no articula evaluación formativa con los desempeños del área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: La malla no articula evaluación formativa con los desempeños del área.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Diseñar criterios y evidencias coherentes con lo enseñado y los referentes
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+  [3*] Diseñar criterios y evidencias coherentes con lo enseñado y los referentes
+EXP: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+NORM: EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.
+THEO: La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 300 oro-c4-57 ci=0 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 57
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: En transición se imponen planas diarias y se reduce el juego a 10 minutos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: En transición se imponen planas diarias y se reduce el juego a 10 minutos.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Reequilibrar la jornada con juego intencional, lenguaje y exploración como eje
+  [0*] Reequilibrar la jornada con juego intencional, lenguaje y exploración como eje
+  [1] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [2] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 301 oro-c4-58 ci=3 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 58
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Un niño de 5 años aún no escribe su nombre y se le niega el recreo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Un niño de 5 años aún no escribe su nombre y se le niega el recreo.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Acompañar literacidad emergente con sentido; no castigar el ritmo madurativo
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  [3*] Acompañar literacidad emergente con sentido; no castigar el ritmo madurativo
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 302 oro-c4-59 ci=3 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 59
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: La documentación son solo caritas semanales sin observaciones. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: La documentación son solo caritas semanales sin observaciones.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Registrar observaciones del desarrollo con ejemplos y devolución a familias
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [2] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  [3*] Registrar observaciones del desarrollo con ejemplos y devolución a familias
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 303 oro-c4-60 ci=2 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 60
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: El aula está en filas fijas sin rincones de juego. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: El aula está en filas fijas sin rincones de juego.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Organizar ambientes de juego, exploración e interacción con materiales significativos
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [2*] Organizar ambientes de juego, exploración e interacción con materiales significativos
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 304 oro-c4-61 ci=1 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 61
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Familias piden 'más tareas de primero' y la docente cede con paquetes diarios. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Familias piden 'más tareas de primero' y la docente cede con paquetes diarios.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Dialogar con evidencias del enfoque de desarrollo y acordar apoyos coherentes en casa
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1*] Dialogar con evidencias del enfoque de desarrollo y acordar apoyos coherentes en casa
+  [2] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [3] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 305 oro-c4-62 ci=1 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 62
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se enseña suma formal en hoja a los 4 años sin conteo ni clasificación en juego. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se enseña suma formal en hoja a los 4 años sin conteo ni clasificación en juego.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Trabajar nociones matemáticas en juego y rutinas (conteo, serieción, comparación)
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1*] Trabajar nociones matemáticas en juego y rutinas (conteo, serieción, comparación)
+  [2] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 306 oro-c4-63 ci=3 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 63
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Un niño bilingüe es corregido para que 'deje su lengua'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Un niño bilingüe es corregido para que 'deje su lengua'.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Valorar la lengua propia y fortalecer el castellano sin estigma
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  [3*] Valorar la lengua propia y fortalecer el castellano sin estigma
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 307 oro-c4-64 ci=3 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 64
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: La asamblea es un monólogo adulto de 40 minutos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: La asamblea es un monólogo adulto de 40 minutos.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Diseñar asamblea breve con participación infantil real
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [2] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  [3*] Diseñar asamblea breve con participación infantil real
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 308 oro-c4-65 ci=3 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 65
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Hay hipersensibilidad auditiva y se sanciona la desregulación como indisciplina. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Hay hipersensibilidad auditiva y se sanciona la desregulación como indisciplina.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Ajustar ambiente/tiempos/señales y documentar apoyos (PIAR si aplica)
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  [3*] Ajustar ambiente/tiempos/señales y documentar apoyos (PIAR si aplica)
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 309 oro-c4-66 ci=0 diff=avanzado/3 cargo=preescolar =====
+TOPIC: guiaMen50 · cerebro 66
+TAGS: [{"code":"guiaMen50","focus":"educación inicial"},{"code":"piaget","focus":"desarrollo"},{"code":"vygotsky","focus":"mediación"}] REFS: ["guiaMen50","piaget","vygotsky"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se prioriza 'adelantar lectoescritura' y se descuida alimentación y descanso. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se prioriza 'adelantar lectoescritura' y se descuida alimentación y descanso.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Integrar cuidado y aprendizaje como dimensiones inseparables
+  [0*] Integrar cuidado y aprendizaje como dimensiones inseparables
+  [1] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [2] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarroll
+NORM: La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.
+THEO: El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 310 oro-c4-67 ci=2 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 67
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: 20 ejercicios idénticos de división sin problema ni discusión. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: 20 ejercicios idénticos de división sin problema ni discusión.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Plantear problemas con sentido, varias estrategias y socialización de representaciones
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2*] Plantear problemas con sentido, varias estrategias y socialización de representaciones
+  [3] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 311 oro-c4-68 ci=0 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 68
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: El error 6×7=36 se marca con X sin analizar la estrategia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: El error 6×7=36 se marca con X sin analizar la estrategia.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Usar el error para indagar el pensamiento y reenseñar con representación
+  [0*] Usar el error para indagar el pensamiento y reenseñar con representación
+  [1] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [2] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 312 oro-c4-69 ci=3 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 69
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se prohíbe explicar el procedimiento; solo importa la respuesta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se prohíbe explicar el procedimiento; solo importa la respuesta.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Valorar y enseñar estrategias, justificación y verificación
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  [3*] Valorar y enseñar estrategias, justificación y verificación
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 313 oro-c4-70 ci=2 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 70
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Geometría = memorizar nombres de figuras. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Geometría = memorizar nombres de figuras.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Explorar propiedades, composición/descomposición y argumentación espacial
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2*] Explorar propiedades, composición/descomposición y argumentación espacial
+  [3] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 314 oro-c4-71 ci=2 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 71
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Estadística aparece solo la última semana del año. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Estadística aparece solo la última semana del año.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Distribuir recolección y lectura de datos a lo largo del año
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [2*] Distribuir recolección y lectura de datos a lo largo del año
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 315 oro-c4-72 ci=3 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 72
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Problemas con contextos ajenos (nieve/metro) en IE rural tropical. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Problemas con contextos ajenos (nieve/metro) en IE rural tropical.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Contextualizar situaciones al entorno manteniendo la estructura matemática del DBA
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  [3*] Contextualizar situaciones al entorno manteniendo la estructura matemática del DBA
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 316 oro-c4-73 ci=1 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 73
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: La rúbrica del problema es solo bien/mal. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: La rúbrica del problema es solo bien/mal.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Explicitar criterios de proceso, representación, resultado y comunicación
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1*] Explicitar criterios de proceso, representación, resultado y comunicación
+  [2] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 317 oro-c4-74 ci=1 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 74
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Un estudiante con PIAR comprende con base 10; la prueba niega el material. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Un estudiante con PIAR comprende con base 10; la prueba niega el material.
+CASE_DIFF: YES
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Ajustar forma/tiempo de evidencia manteniendo el aprendizaje esencial del PIAR
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1*] Ajustar forma/tiempo de evidencia manteniendo el aprendizaje esencial del PIAR
+  [2] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [3] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 318 oro-c4-75 ci=1 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 75
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: La recuperacion es otra lista de algoritmos sin diagnóstico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: La recuperacion es otra lista de algoritmos sin diagnóstico.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Diagnosticar errores conceptuales y reenseñar con nueva mediación
+  [0] Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  [1*] Diagnosticar errores conceptuales y reenseñar con nueva mediación
+  [2] Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+  [3] Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 319 oro-c4-76 ci=2 diff=avanzado/3 cargo=matematicas =====
+TOPIC: ebc · cerebro 76
+TAGS: [{"code":"ebc","focus":"pensamiento matemático"},{"code":"bruner","focus":"representaciones"},{"code":"decreto1290","focus":"criterios"}] REFS: ["ebc","bruner","decreto1290"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se invalida el uso de calculadora incluso al explorar patrones. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se invalida el uso de calculadora incluso al explorar patrones.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Usar herramientas con intencionalidad según la meta de aprendizaje
+  [0] Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  [1] Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+  [2*] Usar herramientas con intencionalidad según la meta de aprendizaje
+  [3] Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+EXP: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+NORM: EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.
+THEO: Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 320 oro-c4-77 ci=1 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 77
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una IE oficial el equipo discute lineamientos · cerebro 77. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Periodo = dictados diarios sin textos completos.
+CASE_DIFF: YES
+STEM: Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Organizar secuencias con textos auténticos y producción con audiencia
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1*] Organizar secuencias con textos auténticos y producción con audiencia
+  [2] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","2":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 321 oro-c4-78 ci=0 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 78
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Textos 'finales' a la primera, sin borradores ni rúbrica. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Textos 'finales' a la primera, sin borradores ni rúbrica.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Ciclo planificar–textualizar–revisar con criterios conocidos
+  [0*] Ciclo planificar–textualizar–revisar con criterios conocidos
+  [1] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [2] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [3] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 322 oro-c4-79 ci=2 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 79
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Después de un argumentativo, solo copian el primer párrafo.
+CASE_DIFF: YES
+STEM: Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Preguntas de interpretación, evaluación de argumentos y respuesta propia
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [2*] Preguntas de interpretación, evaluación de argumentos y respuesta propia
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","1":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 323 oro-c4-80 ci=1 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 80
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una IE oficial el equipo discute Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Se introduce un género sin propósito ni modelos.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Activar previos, propósito comunicativo y modelos antes de producir
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1*] Activar previos, propósito comunicativo y modelos antes de producir
+  [2] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","2":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 324 oro-c4-81 ci=0 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 81
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Se burla el acento regional y el docente 'corrige' ridiculizando. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Se burla el acento regional y el docente 'corrige' ridiculizando.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Valorar diversidad lingüística y enseñar registros según contexto, deteniendo discriminación
+  [0*] Valorar diversidad lingüística y enseñar registros según contexto, deteniendo discriminación
+  [1] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [2] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [3] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 325 oro-c4-82 ci=0 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 82
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una IE oficial el equipo discute lineamientos · cerebro 82. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Oralidad no se evalúa porque 'es difícil'.
+CASE_DIFF: YES
+STEM: Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Diseñar situaciones orales con rúbricas de claridad, escucha y argumentación
+  [0*] Diseñar situaciones orales con rúbricas de claridad, escucha y argumentación
+  [1] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [2] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"1":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","2":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 326 oro-c4-83 ci=3 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 83
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Podcast escolar se evalúa solo por 'leer bien el guion'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Podcast escolar se evalúa solo por 'leer bien el guion'.
+CASE_DIFF: YES
+STEM: Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:
+ORIG_GOOD (ci orig 1): Valorar propósito, audiencia, organización discursiva y uso ético de fuentes
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+  [3*] Valorar propósito, audiencia, organización discursiva y uso ético de fuentes
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 327 oro-c4-84 ci=2 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 84
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Texto desafiante: 'léanlo en silencio' y luego examen.
+CASE_DIFF: YES
+STEM: Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+ORIG_GOOD (ci orig 1): Andamiar con vocabulario, lectura compartida y preguntas guía
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [2*] Andamiar con vocabulario, lectura compartida y preguntas guía
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","1":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 328 oro-c4-85 ci=3 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 85
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Biblioteca de aula cerrada 'para que no se dañen los libros'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Biblioteca de aula cerrada 'para que no se dañen los libros'.
+CASE_DIFF: YES
+STEM: Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?
+ORIG_GOOD (ci orig 1): Circular libros con acuerdos de cuidado y tiempo de lectura libre
+  [0] Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  [1] Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+  [2] Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+  [3*] Circular libros con acuerdos de cuidado y tiempo de lectura libre
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","2":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+
+===== 329 oro-c4-86 ci=2 diff=avanzado/3 cargo=lenguaje =====
+TOPIC: lineamientos · cerebro 86
+TAGS: [{"code":"lineamientos","focus":"lenguaje"},{"code":"ebc","focus":"comunicación"},{"code":"ausubel","focus":"saberes previos"}] REFS: ["lineamientos","ebc","ausubel"]
+CASE_JSON: En una IE oficial el equipo discute lineamientos · cerebro 86. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.
+CASE_ORIG: Se copia de internet sin crédito y no se enseña citación ética.
+CASE_DIFF: YES
+STEM: Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?
+ORIG_GOOD (ci orig 1): Enseñar uso ético de fuentes y parafraseo según grado
+  [0] Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  [1] Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+  [2*] Enseñar uso ético de fuentes y parafraseo según grado
+  [3] Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+EXP: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+NORM: Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.
+THEO: Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.
+DA: {"0":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","1":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.","3":"Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."}
+
+===== 330 oro-c4-87 ci=2 diff=avanzado/3 cargo=primaria =====
+TOPIC: decreto1278 · cerebro 87
+TAGS: [{"code":"decreto1278","focus":"ética profesional"}] REFS: ["decreto1278"]
+CASE_JSON: En una institución educativa oficial ocurre lo siguiente: Un compañero pide que firmes una asistencia que no cumplió. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+CASE_ORIG: Un compañero pide que firmes una asistencia que no cumplió.
+CASE_DIFF: YES
+STEM: Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?
+ORIG_GOOD (ci orig 1): Negarte con respeto y proponer corregir el registro con la verdad institucional
+  [0] Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.
+  [1] Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.
+  [2*] Negarte con respeto y proponer corregir el registro con la verdad institucional
+  [3] Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.
+EXP: El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.
+NORM: El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.
+THEO: Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.
+DA: {"0":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","1":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.","3":"Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."}
+

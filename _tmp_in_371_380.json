@@ -1,0 +1,484 @@
+[
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-14",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 14",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 14",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Proponen que un estudiante 'no presente' ciencias 'por inclusión'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Mantener esenciales de ciencias con ajustes de acceso/demostración",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "Ajuste razonable mantiene esenciales. No es eliminar la competencia.",
+    "normativeJustification": "Ajuste razonable mantiene esenciales.",
+    "theoreticalJustification": "No es eliminar la competencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-15",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 15",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 15",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.",
+      "Planear retirada gradual del andamiaje según evidencia"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ajustes + mediación. Andamiaje temporal hacia autonomía.",
+    "normativeJustification": "Ajustes + mediación.",
+    "theoreticalJustification": "Andamiaje temporal hacia autonomía.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-16",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 16",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 16",
+    "targetCargo": "lenguaje",
+    "specialtyTags": [
+      "lenguaje",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Estudiante con baja visión recibe fotocopias densas ilegibles. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Ajustar tamaño/contraste/formato digital y evaluar comprensión esencial"
+    ],
+    "correctIndex": 3,
+    "explanation": "Acceso a prácticas de lenguaje. Diversificar medios de lectura/escritura.",
+    "normativeJustification": "Acceso a prácticas de lenguaje.",
+    "theoreticalJustification": "Diversificar medios de lectura/escritura.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-17",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 17",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 17",
+    "targetCargo": "matematicas",
+    "specialtyTags": [
+      "matematicas",
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute decreto1421 · volumen 17. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Permitir la representación acordada y valorar el aprendizaje esencial",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Ajustes en evidencias matemáticas. Procesos > único formato.",
+    "normativeJustification": "Ajustes en evidencias matemáticas.",
+    "theoreticalJustification": "Procesos > único formato.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ebc",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "ebc"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-18",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 18",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 18",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La inclusión depende de un solo docente 'sensibilizado'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Protocolizar roles, tiempos PIAR y seguimiento institucional"
+    ],
+    "correctIndex": 3,
+    "explanation": "Inclusión en el PEI y la gestión. Política institucional, no voluntad aislada.",
+    "normativeJustification": "Inclusión en el PEI y la gestión.",
+    "theoreticalJustification": "Política institucional, no voluntad aislada.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ley115",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "ley115"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-19",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 19",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 19",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute decreto1421 · volumen 19. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Rediseñar participación segura con ajustes y meta de aprendizaje",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Participación y aprendizaje. Barreras se transforman.",
+    "normativeJustification": "Participación y aprendizaje.",
+    "theoreticalJustification": "Barreras se transforman.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-20",
+    "pillar": "pedagogico",
+    "topic": "decreto1421 · volumen 20",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "decreto1421 · volumen 20",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Llevar la solicitud al equipo PIAR y acordar evidencias accesibles",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Familia corresponsable con PIAR. Acuerdos documentados.",
+    "normativeJustification": "Familia corresponsable con PIAR.",
+    "theoreticalJustification": "Acuerdos documentados.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1421",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-21",
+    "pillar": "pedagogico",
+    "topic": "ley1620 · volumen 21",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "ley1620 · volumen 21",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Burlas reiteradas por un apodo; se espera la pelea física. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.",
+      "Intervenir con mediación, tipificación y seguimiento del clima"
+    ],
+    "correctIndex": 3,
+    "explanation": "Ruta integral y tipificación. Prevención temprana.",
+    "normativeJustification": "Ruta integral y tipificación.",
+    "theoreticalJustification": "Prevención temprana.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-22",
+    "pillar": "pedagogico",
+    "topic": "ley1620 · volumen 22",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "ley1620 · volumen 22",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos"
+    ],
+    "caseContext": "En una IE oficial el equipo discute ley1620 · volumen 22. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Activar remisión competente + protección + seguimiento escolar",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "correctIndex": 2,
+    "explanation": "Tipo III: remisión y protección. Escuela no sustituye autoridades.",
+    "normativeJustification": "Tipo III: remisión y protección.",
+    "theoreticalJustification": "Escuela no sustituye autoridades.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "guiaMen51",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen51"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-23",
+    "pillar": "pedagogico",
+    "topic": "guiaMen49 · volumen 23",
+    "module": "Inclusión y convivencia escolar",
+    "subtopic": "guiaMen49 · volumen 23",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se lee el caso completo en orientación de grupo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Proteger identidad y manejar el caso por la ruta con quienes deben saber",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "Confidencialidad. Evitar revictimización.",
+    "normativeJustification": "Confidencialidad.",
+    "theoreticalJustification": "Evitar revictimización.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen49",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ley1620",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen49",
+      "ley1620"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  }
+]

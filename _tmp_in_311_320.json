@@ -1,0 +1,442 @@
+[
+  {
+    "id": "oro-c4-68",
+    "topic": "ebc · cerebro 68",
+    "subtopic": "ebc · cerebro 68",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El error 6×7=36 se marca con X sin analizar la estrategia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Usar el error para indagar el pensamiento y reenseñar con representación",
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 0,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-69",
+    "topic": "ebc · cerebro 69",
+    "subtopic": "ebc · cerebro 69",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se prohíbe explicar el procedimiento; solo importa la respuesta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Valorar y enseñar estrategias, justificación y verificación"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-70",
+    "topic": "ebc · cerebro 70",
+    "subtopic": "ebc · cerebro 70",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Geometría = memorizar nombres de figuras. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Explorar propiedades, composición/descomposición y argumentación espacial",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-71",
+    "topic": "ebc · cerebro 71",
+    "subtopic": "ebc · cerebro 71",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Estadística aparece solo la última semana del año. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Distribuir recolección y lectura de datos a lo largo del año",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-72",
+    "topic": "ebc · cerebro 72",
+    "subtopic": "ebc · cerebro 72",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Problemas con contextos ajenos (nieve/metro) en IE rural tropical. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Contextualizar situaciones al entorno manteniendo la estructura matemática del DBA"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-73",
+    "topic": "ebc · cerebro 73",
+    "subtopic": "ebc · cerebro 73",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La rúbrica del problema es solo bien/mal. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Explicitar criterios de proceso, representación, resultado y comunicación",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-74",
+    "topic": "ebc · cerebro 74",
+    "subtopic": "ebc · cerebro 74",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante con PIAR comprende con base 10; la prueba niega el material. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Ajustar forma/tiempo de evidencia manteniendo el aprendizaje esencial del PIAR",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-75",
+    "topic": "ebc · cerebro 75",
+    "subtopic": "ebc · cerebro 75",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La recuperacion es otra lista de algoritmos sin diagnóstico. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Diagnosticar errores conceptuales y reenseñar con nueva mediación",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-76",
+    "topic": "ebc · cerebro 76",
+    "subtopic": "ebc · cerebro 76",
+    "targetCargo": "matematicas",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se invalida el uso de calculadora incluso al explorar patrones. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Usar herramientas con intencionalidad según la meta de aprendizaje",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros. Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "normativeJustification": "EBC/lineamientos de matemáticas centran el área en resolución de problemas y procesos; el 1290 exige criterios claros.",
+    "theoreticalJustification": "Bruner y la didáctica actual recomiendan múltiples representaciones y discusión del razonamiento.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "pensamiento matemático"
+      },
+      {
+        "code": "bruner",
+        "focus": "representaciones"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "bruner",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-77",
+    "topic": "lineamientos · cerebro 77",
+    "subtopic": "lineamientos · cerebro 77",
+    "targetCargo": "lenguaje",
+    "caseContext": "En una IE oficial el equipo discute lineamientos · cerebro 77. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Organizar secuencias con textos auténticos y producción con audiencia",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 1,
+    "explanation": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito. Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "normativeJustification": "Lineamientos y EBC de lenguaje orientan prácticas sociales: lectura, escritura, oralidad y escucha con propósito.",
+    "theoreticalJustification": "Se aprende a comunicar comunicando; la revisión con criterios desarrolla metacognición.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "lenguaje"
+      },
+      {
+        "code": "ebc",
+        "focus": "comunicación"
+      },
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "ebc",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

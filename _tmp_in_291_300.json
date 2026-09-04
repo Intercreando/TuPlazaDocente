@@ -1,0 +1,442 @@
+[
+  {
+    "id": "oro-c4-48",
+    "topic": "ebc · cerebro 48",
+    "subtopic": "ebc · cerebro 48",
+    "targetCargo": "primaria",
+    "caseContext": "Lenguaje se reduce a ortografía y no hay producción de textos con audiencia. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Diseñar secuencias de lectura/escritura/oralidad con propósito y audiencia real",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-49",
+    "topic": "ebc · cerebro 49",
+    "subtopic": "ebc · cerebro 49",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Ciencias se enseña con definiciones para memorizar, sin indagación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Promover ciclo pregunta–exploración–evidencia–explicación",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-50",
+    "topic": "ebc · cerebro 50",
+    "subtopic": "ebc · cerebro 50",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Sociales evita problemas del entorno y solo memoriza fechas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Analizar problemas locales con evidencia, respeto y pensamiento crítico"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-51",
+    "topic": "ebc · cerebro 51",
+    "subtopic": "ebc · cerebro 51",
+    "targetCargo": "primaria",
+    "caseContext": "En una IE oficial el equipo discute ebc · cerebro 51. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Explorar ideas previas y conectar el nuevo contenido (aprendizaje significativo)",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-52",
+    "topic": "ebc · cerebro 52",
+    "subtopic": "ebc · cerebro 52",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El tránsito enactivo–icónico–simbólico se salta en un día. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Diseñar progresión representacional con conexiones explícitas"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-53",
+    "topic": "ebc · cerebro 53",
+    "subtopic": "ebc · cerebro 53",
+    "targetCargo": "primaria",
+    "caseContext": "Los DBA se pegan en el plan pero no aparecen en las tareas ni en la evaluación. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Alinear tareas y criterios de evaluación a los DBA declarados",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-54",
+    "topic": "ebc · cerebro 54",
+    "subtopic": "ebc · cerebro 54",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se usa un recurso viral sin meta de aprendizaje ni referente de área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Seleccionar recursos solo si sirven a una meta EBC/DBA/lineamiento explícita",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-55",
+    "topic": "ebc · cerebro 55",
+    "subtopic": "ebc · cerebro 55",
+    "targetCargo": "primaria",
+    "caseContext": "En 3° se enseñan contenidos de 6° 'para que el ICFES no los coja desprevenidos'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Asegurar aprendizajes esenciales del grado y progresión sólida",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 2,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-56",
+    "topic": "ebc · cerebro 56",
+    "subtopic": "ebc · cerebro 56",
+    "targetCargo": "primaria",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La malla no articula evaluación formativa con los desempeños del área. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Diseñar criterios y evidencias coherentes con lo enseñado y los referentes"
+    ],
+    "correctIndex": 3,
+    "explanation": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación. La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "normativeJustification": "EBC, DBA y lineamientos son referentes complementarios para orientar currículo, enseñanza y evaluación.",
+    "theoreticalJustification": "La coherencia curricular evita activismo sin meta y permite evaluar procesos, no solo productos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      },
+      {
+        "code": "dba",
+        "focus": "progresión"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "área"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "dba",
+      "lineamientos"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  },
+  {
+    "id": "oro-c4-57",
+    "topic": "guiaMen50 · cerebro 57",
+    "subtopic": "guiaMen50 · cerebro 57",
+    "targetCargo": "preescolar",
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En transición se imponen planas diarias y se reduce el juego a 10 minutos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Reequilibrar la jornada con juego intencional, lenguaje y exploración como eje",
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 0,
+    "explanation": "La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral. El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.",
+    "normativeJustification": "La Guía MEN 50 y orientaciones de inicial privilegian juego, cuidado, observación y desarrollo integral.",
+    "theoreticalJustification": "El aprendizaje temprano se construye en la acción y la interacción; forzar primaria temprana fragiliza el desarrollo.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "guiaMen50",
+        "focus": "educación inicial"
+      },
+      {
+        "code": "piaget",
+        "focus": "desarrollo"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "mediación"
+      }
+    ],
+    "normativeRefs": [
+      "guiaMen50",
+      "piaget",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3
+  }
+]

@@ -1,0 +1,456 @@
+[
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-88",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 88",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 88",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Una familia pide adelantar información confidencial de otro estudiante. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Proteger la intimidad y redirigir a canales institucionales pertinentes",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-89",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 89",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 89",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay desacuerdo fuerte en el área sobre criterios; la reunión se polariza. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Facilitar diálogo con evidencia, SIEE y acuerdos documentados",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 100,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-90",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 90",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 90",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un colega ridiculiza a un estudiante en sala de profesores. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Interrumpir con respeto, proteger dignidad y activar ruta institucional si aplica",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-91",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 91",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 91",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Te piden 'maquillar' evidencias para una visita de supervisión. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Documentar prácticas reales y honestas; rechazar la simulación",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-92",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 92",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 92",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante te confía un riesgo grave y pide secreto total. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Escuchar, proteger y activar ruta de atención según protocolo, sin exponerlo en redes",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 2,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 100,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-93",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 93",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 93",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Te asignan un grado nuevo sin materiales; sientes rabia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Priorizar el aprendizaje con lo disponible, pedir apoyo institucional con propuestas concretas",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-94",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 94",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 94",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un padre grita en recepción; hay estudiantes cerca. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Proteger el espacio, bajar la tensión y reconducir a reunión privada con protocolo"
+    ],
+    "correctIndex": 3,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-95",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 95",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 95",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Te ofrecen un 'favor' a cambio de subir una nota. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Rechazar, mantener criterios del SIEE y reportar por canal institucional si corresponde",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4-96",
+    "pillar": "pedagogico",
+    "topic": "decreto1278 · cerebro 96",
+    "module": "Competencias comportamentales",
+    "subtopic": "decreto1278 · cerebro 96",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria",
+      "directivos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El equipo quiere ocultar un accidente menor para 'no quedar mal'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Registrar, comunicar a quienes corresponde y activar cuidado/seguimiento",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje. Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "normativeJustification": "El ejercicio docente implica deberes éticos, confidencialidad, trabajo en equipo y orientación al aprendizaje.",
+    "theoreticalJustification": "Las competencias comportamentales del concurso evalúan criterio profesional en dilemas reales de escuela.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética profesional"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1290-aus-1",
+    "pillar": "pedagogico",
+    "topic": "1290-aus · cruce 1",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "1290-aus · cruce 1",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se inicia un tema nuevo con definición y examen el mismo día, sin explorar ideas previas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.",
+      "Diagnosticar previos y conectar el contenido nuevo antes de evaluar"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1290 exige evaluación al servicio del aprendizaje. Ausubel: sin anclaje en saberes previos, la enseñanza se vuelve mecánica.",
+    "normativeJustification": "El 1290 exige evaluación al servicio del aprendizaje.",
+    "theoreticalJustification": "Ausubel: sin anclaje en saberes previos, la enseñanza se vuelve mecánica.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "formativa"
+      },
+      {
+        "code": "ausubel",
+        "focus": "previos"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  }
+]

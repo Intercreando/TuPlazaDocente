@@ -1,0 +1,475 @@
+[
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-ebc-1290-3",
+    "pillar": "pedagogico",
+    "topic": "ebc-1290 · cruce 3",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "ebc-1290 · cruce 3",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El plan declara EBC, pero las tareas son activismo sin meta. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Rediseñar tareas con meta de competencia y evidencia observable",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 1,
+    "explanation": "EBC orientan desempeños; 1290 exige criterios conocidos. Evaluar lo que se enseña con criterios visibles fortalece la autorregulación.",
+    "normativeJustification": "EBC orientan desempeños; 1290 exige criterios conocidos.",
+    "theoreticalJustification": "Evaluar lo que se enseña con criterios visibles fortalece la autorregulación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "desempeños"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "criterios"
+      }
+    ],
+    "normativeRefs": [
+      "ebc",
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1278-etica-1",
+    "pillar": "pedagogico",
+    "topic": "1278-etica · cruce 1",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278-etica · cruce 1",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se filtran calificaciones sensibles en un grupo de padres. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo.",
+      "Cesar la filtración, proteger datos y usar canales institucionales"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1278 articula deberes, derechos y evaluación orientada al mejoramiento profesional. La profesionalidad se prueba en dilemas éticos y en el uso formativo de la evaluación.",
+    "normativeJustification": "El 1278 articula deberes, derechos y evaluación orientada al mejoramiento profesional.",
+    "theoreticalJustification": "La profesionalidad se prueba en dilemas éticos y en el uso formativo de la evaluación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética y desempeño"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1278-etica-2",
+    "pillar": "pedagogico",
+    "topic": "1278-etica · cruce 2",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278-etica · cruce 2",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La evaluación docente no se socializa con criterios previos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Socializar criterios y devolver feedback con plan de mejora",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 1,
+    "explanation": "El 1278 articula deberes, derechos y evaluación orientada al mejoramiento profesional. La profesionalidad se prueba en dilemas éticos y en el uso formativo de la evaluación.",
+    "normativeJustification": "El 1278 articula deberes, derechos y evaluación orientada al mejoramiento profesional.",
+    "theoreticalJustification": "La profesionalidad se prueba en dilemas éticos y en el uso formativo de la evaluación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética y desempeño"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-1278-etica-3",
+    "pillar": "pedagogico",
+    "topic": "1278-etica · cruce 3",
+    "module": "Gestión institucional y PEI",
+    "subtopic": "1278-etica · cruce 3",
+    "targetCargo": "directivos",
+    "specialtyTags": [
+      "directivos",
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un directivo pide falsear evidencias de clase. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Negarte y documentar prácticas reales; escalar por canal institucional",
+      "Resolver por mensaje o instrucción unilateral, sin pasar por la instancia (consejo, comité o SIEE) que el caso exige.",
+      "Dejar constancia genérica en un acta, sin responsables, fechas ni seguimiento de la decisión.",
+      "Priorizar la imagen institucional o la rapidez visible, aunque las evidencias muestren no aprendizaje o riesgo."
+    ],
+    "correctIndex": 0,
+    "explanation": "El 1278 articula deberes, derechos y evaluación orientada al mejoramiento profesional. La profesionalidad se prueba en dilemas éticos y en el uso formativo de la evaluación.",
+    "normativeJustification": "El 1278 articula deberes, derechos y evaluación orientada al mejoramiento profesional.",
+    "theoreticalJustification": "La profesionalidad se prueba en dilemas éticos y en el uso formativo de la evaluación.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "ética y desempeño"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-lin-bruner-1",
+    "pillar": "pedagogico",
+    "topic": "lin-bruner · cruce 1",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "lin-bruner · cruce 1",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute lin-bruner · cruce 1. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Transitar por representaciones concretas e icónicas antes del símbolo",
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "correctIndex": 0,
+    "explanation": "Los lineamientos de área recomiendan progresiones didácticas con sentido. Bruner: enactivo → icónico → simbólico con conexiones explícitas.",
+    "normativeJustification": "Los lineamientos de área recomiendan progresiones didácticas con sentido.",
+    "theoreticalJustification": "Bruner: enactivo → icónico → simbólico con conexiones explícitas.",
+    "distractorAnalysis": {
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "didáctica"
+      },
+      {
+        "code": "bruner",
+        "focus": "E-I-S"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "bruner"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-lin-bruner-2",
+    "pillar": "pedagogico",
+    "topic": "lin-bruner · cruce 2",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "lin-bruner · cruce 2",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En ciencias se salta de la definición al examen sin modelo/evidencia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Evaluando proporcionalidad, trazabilidad y aprendizaje, la mejor decisión es:",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Indagar con evidencia y luego formalizar el lenguaje científico",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 1,
+    "explanation": "Los lineamientos de área recomiendan progresiones didácticas con sentido. Bruner: enactivo → icónico → simbólico con conexiones explícitas.",
+    "normativeJustification": "Los lineamientos de área recomiendan progresiones didácticas con sentido.",
+    "theoreticalJustification": "Bruner: enactivo → icónico → simbólico con conexiones explícitas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "didáctica"
+      },
+      {
+        "code": "bruner",
+        "focus": "E-I-S"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "bruner"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4x-lin-bruner-3",
+    "pillar": "pedagogico",
+    "topic": "lin-bruner · cruce 3",
+    "module": "Currículo y referentes MEN",
+    "subtopic": "lin-bruner · cruce 3",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Para no caer en activismo vacío ni en omisión normativa, conviene. Un actor propone: “Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.”. Otro insiste: “Evaluar solo el producto final memorístico (definición, respuesta u ortografía), sin procesos ni representaciones.”. Un tercero sugiere: “Integrar un proyecto atractivo sin criterios ni metas de aprendizaje ligadas a EBC, DBA o lineamientos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.",
+      "Mostrar modelos, criterios y andamiaje de planificación textual"
+    ],
+    "correctIndex": 3,
+    "explanation": "Los lineamientos de área recomiendan progresiones didácticas con sentido. Bruner: enactivo → icónico → simbólico con conexiones explícitas.",
+    "normativeJustification": "Los lineamientos de área recomiendan progresiones didácticas con sentido.",
+    "theoreticalJustification": "Bruner: enactivo → icónico → simbólico con conexiones explícitas.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "didáctica"
+      },
+      {
+        "code": "bruner",
+        "focus": "E-I-S"
+      }
+    ],
+    "normativeRefs": [
+      "lineamientos",
+      "bruner"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-1",
+    "pillar": "pedagogico",
+    "topic": "decreto1290 · volumen 1",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "decreto1290 · volumen 1",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se inicia 'fracción' con algoritmo y quiz el mismo día, sin explorar ideas de parte-todo. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Ante este caso, ¿qué decisión articula mejor norma vigente y mediación pedagógica?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.",
+      "Diagnosticar previos con material y conectar el algoritmo a la comprensión"
+    ],
+    "correctIndex": 3,
+    "explanation": "El 1290 orienta evaluación formativa con criterios. Ausubel: anclar lo nuevo en saberes previos.",
+    "normativeJustification": "El 1290 orienta evaluación formativa con criterios.",
+    "theoreticalJustification": "Ausubel: anclar lo nuevo en saberes previos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "ausubel",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "ausubel"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-2",
+    "pillar": "pedagogico",
+    "topic": "decreto1290 · volumen 2",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "decreto1290 · volumen 2",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante resuelve con pistas del docente y luego se le evalúa solo en aislamiento extremo sin transición. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Cuál respuesta evita una medida “casi correcta” pero insuficiente frente al referente MEN?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Diseñar retirada gradual del andamiaje y evaluar el progreso hacia la autonomía",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "correctIndex": 2,
+    "explanation": "1290: evaluación al servicio del aprendizaje. Vygotsky: mediación en ZDP.",
+    "normativeJustification": "1290: evaluación al servicio del aprendizaje.",
+    "theoreticalJustification": "Vygotsky: mediación en ZDP.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290",
+      "vygotsky"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 120,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "oro-c4b-3",
+    "pillar": "pedagogico",
+    "topic": "decreto1290 · volumen 3",
+    "module": "Pedagogía y evaluación formativa",
+    "subtopic": "decreto1290 · volumen 3",
+    "targetCargo": "primaria",
+    "specialtyTags": [
+      "primaria"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La rúbrica tiene 12 indicadores confusos y nadie la entiende. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Si debieras argumentar tu elección en un ítem CNSC/ICFES, ¿qué opción es la más defendible?",
+    "options": [
+      "Simplificar criterios esenciales, socializarlos y usarlos en la devolución",
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "correctIndex": 0,
+    "explanation": "1290 exige claridad de criterios y carácter formativo. La autorregulación mejora con metas visibles.",
+    "normativeJustification": "1290 exige claridad de criterios y carácter formativo.",
+    "theoreticalJustification": "La autorregulación mejora con metas visibles.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    },
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "aplicación situada"
+      }
+    ],
+    "normativeRefs": [
+      "decreto1290"
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "qualityHardened": true
+  }
+]
