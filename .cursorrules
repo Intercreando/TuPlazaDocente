@@ -1,0 +1,21 @@
+# Arquitectura y Tecnologías
+- Este proyecto utiliza Flutter para el frontend y Firebase (Cloud Functions, Firestore, Storage) para el backend.
+- Sigue las mejores prácticas y arquitecturas recomendadas para estas tecnologías.
+
+# Sistema de Diseño (Flutter)
+- Nunca uses tamaños de fuente (fontSize), pesos (fontWeight), alturas de línea ni estilos de texto arbitrarios o hardcodeados en los componentes.
+- Utiliza siempre un sistema tipográfico centralizado y jerárquico definido en el tema global de la aplicación (TextTheme, tokens de diseño).
+- Si un componente requiere un estilo que no existe, regístralo primero en la configuración global.
+
+# Optimización de FrontEnd y Costos Firestore
+- Cero lecturas/escrituras en build(): NUNCA inicialices `Future`, `Stream`, ni llames a métodos `.update()`, `.set()` o `.get()` directamente dentro del método `build()`. Asigna los Futures en `initState` o guárdalos en el estado.
+- Adiós N+1 Queries: ESTÁ PROHIBIDO hacer un `.get()` a Firestore dentro de un bucle `for` o `map`. Usa `.whereIn` en lotes (chunks de 10) y almacena los resultados en memoria caché local.
+- Límites obligatorios: Toda consulta a Firestore (`.get()` o `.snapshots()`) DEBE llevar un `.limit()` explícito.
+- Prevención de Listeners Zombis: Si abres un stream manualmente con `.listen()`, DEBES crear una variable `StreamSubscription` y ejecutar su `.cancel()` dentro de un bloque `finally` o en el `dispose()` del widget.
+- Storage Eficiente: En listas o feeds, asume el uso de versiones miniatura. En `CachedNetworkImage`, exige siempre las propiedades `memCacheWidth` y `maxWidthDiskCache`.
+
+# Arquitectura Backend Financiera (Cloud Functions)
+- Evita el Fan-out descontrolado: Usa el patrón "Router Único". Solo debe existir un trigger por colección que enrute internamente.
+- Topes obligatorios: Toda Cloud Function debe declarar explícitamente `maxInstances` (ej. 10) y `timeoutSeconds` (ej. 30 a 120s max).
+- Prohibido el Eco/Bucle: Si una función modifica el mismo documento que la disparó, DEBE tener un caso base estricto al inicio o usar idempotencia con documentos lock.
+- Paginación segura: Si usas bucles en funciones, valida que el cursor avance (guarda los IDs visitados) y exige siempre `.orderBy()` antes de un `.startAfter()`.
