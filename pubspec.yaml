@@ -45,6 +45,7 @@ flutter:
     - assets/icons/
     - assets/brand/
     - assets/landing/landing-hero-triunfo-lagrimas.jpg
+    - assets/landing/hero_docente_zen.jpg
     - assets/reels/sfx/
     - assets/reels/sfx/hook.wav
     - google_fonts/

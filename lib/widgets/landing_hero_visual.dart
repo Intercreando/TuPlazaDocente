@@ -7,7 +7,7 @@ import '../theme/app_colors.dart';
 class LandingHeroVisual extends StatelessWidget {
   const LandingHeroVisual({super.key, this.compact = false});
 
-  static const assetPath = 'assets/landing/landing-hero-triunfo-lagrimas.jpg';
+  static const assetPath = 'assets/landing/hero_docente_zen.jpg';
 
   final bool compact;
 
@@ -56,13 +56,13 @@ class _HeroPhotoFrame extends StatelessWidget {
               Image.asset(
                 LandingHeroVisual.assetPath,
                 fit: BoxFit.cover,
-                alignment: const Alignment(0, -0.12),
-                filterQuality: FilterQuality.medium,
-                cacheWidth: 900,
+                alignment: Alignment.center,
+                filterQuality: FilterQuality.high,
+                cacheWidth: 1600,
                 gaplessPlayback: true,
                 semanticLabel:
-                    'Docente celebrando el nombramiento en propiedad '
-                    'en el concurso docente.',
+                    'Docente preparándose con tranquilidad y confianza '
+                    'usando TuPlazaDocente en su celular.',
                 errorBuilder: (context, error, stackTrace) {
                   return const ColoredBox(color: AppColors.ink);
                 },
@@ -77,7 +77,8 @@ class _HeroPhotoFrame extends StatelessWidget {
                       Colors.transparent,
                       AppColors.ink,
                     ],
-                    stops: [0, 0.42, 1],
+                    // Empieza abajo para no oscurecer la pantalla del celular.
+                    stops: [0, 0.58, 1],
                   ),
                 ),
               ),
@@ -91,14 +92,14 @@ class _HeroPhotoFrame extends StatelessWidget {
                     Container(width: 36, height: 2, color: AppColors.gold),
                     SizedBox(height: compact ? 8 : 10),
                     Text(
-                      'Un día será tu turno de alzar los brazos.',
-                      style: theme.textTheme.titleSmall?.copyWith(
+                      'La tranquilidad de saber exactamente qué te van a evaluar.',
+                      style: theme.textTheme.titleMedium?.copyWith(
                         color: AppColors.white,
                       ),
                     ),
-                    const SizedBox(height: 4),
+                    const SizedBox(height: 6),
                     Text(
-                      '¡Comienza a prepararte hoy!',
+                      'Olvídate del estrés y los PDFs interminables.',
                       style: theme.textTheme.labelLarge?.copyWith(
                         color: AppColors.gold,
                       ),
