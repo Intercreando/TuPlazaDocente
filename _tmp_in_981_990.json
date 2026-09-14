@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 981,
+    "id": "dir-apt-num-233",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente aplica una evaluación diagnóstica a sus 40 estudiantes. El 70% se ubicó en un nivel adecuado para iniciar el nuevo tema. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 14. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "12",
+      "10",
+      "14",
+      "16"
+    ],
+    "explanation": "Adecuado: 40 × 0.70 = 28 estudiantes; Refuerzo: 40 − 28 = 12 estudiantes.",
+    "normativeJustification": "Adecuado: 40 × 0.70 = 28 estudiantes; Refuerzo: 40 − 28 = 12 estudiantes.",
+    "theoreticalJustification": "Adecuado: 40 × 0.70 = 28 estudiantes; Refuerzo: 40 − 28 = 12 estudiantes.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 982,
+    "id": "dir-apt-num-234",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente destina 8 de las 40 semanas del año escolar a proyectos interdisciplinarios. Un docente propone reportar 15% (otra base, redondeo o indicador distinto); otro insiste en 25%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "15%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "explanation": "8/40 = 0.20 = 20% del año escolar.",
+    "normativeJustification": "8/40 = 0.20 = 20% del año escolar.",
+    "theoreticalJustification": "8/40 = 0.20 = 20% del año escolar.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 983,
+    "id": "dir-apt-num-235",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente tiene 3 cursos con 28, 32 y 30 estudiantes respectivamente. Debe imprimir un taller para cada estudiante de los 3 cursos, a $150 por copia. Un docente propone reportar $12.000 (otra base, redondeo o indicador distinto); otro insiste en $12.750. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$12.000",
+      "$12.750",
+      "$13.500",
+      "$14.250"
+    ],
+    "explanation": "28 + 32 + 30 = 90 estudiantes; 90 × $150 = $13.500.",
+    "normativeJustification": "28 + 32 + 30 = 90 estudiantes; 90 × $150 = $13.500.",
+    "theoreticalJustification": "28 + 32 + 30 = 90 estudiantes; 90 × $150 = $13.500.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 984,
+    "id": "dir-apt-num-236",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una rúbrica de evaluación de 4 niveles, un docente asigna: Superior = 4 puntos, Alto = 3 puntos, Básico = 2 puntos, Bajo = 1 punto. Un estudiante obtiene Alto en 3 criterios y Superior en 2 criterios. Un docente propone reportar 13 (otra base, redondeo o indicador distinto); otro insiste en 14. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "13",
+      "14",
+      "15",
+      "17"
+    ],
+    "explanation": "3 criterios en Alto: 3 × 3 = 9; 2 criterios en Superior: 2 × 4 = 8; Total: 9 + 8 = 17 puntos.",
+    "normativeJustification": "3 criterios en Alto: 3 × 3 = 9; 2 criterios en Superior: 2 × 4 = 8; Total: 9 + 8 = 17 puntos.",
+    "theoreticalJustification": "3 criterios en Alto: 3 × 3 = 9; 2 criterios en Superior: 2 × 4 = 8; Total: 9 + 8 = 17 puntos.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 985,
+    "id": "dir-apt-num-237",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente de matemáticas dicta 6 clases de 55 minutos cada una durante la semana. Un docente propone reportar 320 (otra base, redondeo o indicador distinto); otro insiste en 310. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "330",
+      "320",
+      "310",
+      "300"
+    ],
+    "explanation": "6 × 55 = 330 minutos.",
+    "normativeJustification": "6 × 55 = 330 minutos.",
+    "theoreticalJustification": "6 × 55 = 330 minutos.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 986,
+    "id": "dir-apt-num-238",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un curso de 36 estudiantes, la relación entre estudiantes que prefieren trabajo individual y trabajo en grupo es de 1 a 3. Un docente propone reportar 6 (otra base, redondeo o indicador distinto); otro insiste en 12. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "18"
+    ],
+    "explanation": "La relación 1:3 implica 4 partes en total; 36 ÷ 4 = 9 estudiantes prefieren trabajo individual.",
+    "normativeJustification": "La relación 1:3 implica 4 partes en total; 36 ÷ 4 = 9 estudiantes prefieren trabajo individual.",
+    "theoreticalJustification": "La relación 1:3 implica 4 partes en total; 36 ÷ 4 = 9 estudiantes prefieren trabajo individual.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 987,
+    "id": "dir-apt-num-239",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente debe calificar 120 evaluaciones. Ya calificó el 45%. Un docente propone reportar 60 (otra base, redondeo o indicador distinto); otro insiste en 63. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "60",
+      "63",
+      "66",
+      "70"
+    ],
+    "explanation": "Calificadas: 120 × 0.45 = 54; Faltan: 120 − 54 = 66 evaluaciones.",
+    "normativeJustification": "Calificadas: 120 × 0.45 = 54; Faltan: 120 − 54 = 66 evaluaciones.",
+    "theoreticalJustification": "Calificadas: 120 × 0.45 = 54; Faltan: 120 − 54 = 66 evaluaciones.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 988,
+    "id": "dir-apt-num-240",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente distribuye el tiempo de una clase de 60 minutos así: 10 minutos de repaso, 35 minutos de desarrollo del tema y el resto para cierre y evaluación. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 12. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "10",
+      "12",
+      "13",
+      "15"
+    ],
+    "explanation": "60 − 10 − 35 = 15 minutos para cierre y evaluación.",
+    "normativeJustification": "60 − 10 − 35 = 15 minutos para cierre y evaluación.",
+    "theoreticalJustification": "60 − 10 − 35 = 15 minutos para cierre y evaluación.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 989,
+    "id": "dir-apt-blan-241",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante interrumpe reiteradamente la clase con comentarios y risas que distraen al resto del grupo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Hablar con el estudiante en un momento apropiado (no necesariamente frente a todo el grupo) para entender la causa y establecer acuerdos claros de comportamiento.",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Indagar la causa y establecer acuerdos claros, evitando la exposición pública, es la respuesta más constructiva y formativa.",
+    "normativeJustification": "Indagar la causa y establecer acuerdos claros, evitando la exposición pública, es la respuesta más constructiva y formativa.",
+    "theoreticalJustification": "Indagar la causa y establecer acuerdos claros, evitando la exposición pública, es la respuesta más constructiva y formativa.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 990,
+    "id": "dir-apt-blan-242",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante no entrega las tareas de forma reiterada durante varias semanas. ¿Cuál sería la actuación más adecuada del docente antes de tomar medidas más drásticas? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Conversar con el estudiante para entender las causas, e informar oportunamente a la familia si la situación persiste.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Indagar las causas y comunicar oportunamente con la familia permite una intervención más efectiva que una sanción automática.",
+    "normativeJustification": "Indagar las causas y comunicar oportunamente con la familia permite una intervención más efectiva que una sanción automática.",
+    "theoreticalJustification": "Indagar las causas y comunicar oportunamente con la familia permite una intervención más efectiva que una sanción automática.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  }
+]

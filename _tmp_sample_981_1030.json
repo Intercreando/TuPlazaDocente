@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dir-apt-blan-259",
+    "correctIndex": 2,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante comparte con el docente, de manera confidencial, que está atravesando una situación familiar difícil. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir lo oído con el equipo de área, «para que todos puedan apoyar», sin acordarlo con el estudiante, de modo que la situación familiar difícil quede en el radar de varios adultos de la IE.",
+      "Agradecer la confianza, seguir con la clase y programar una sesión de valores la semana siguiente, para no dramatizar lo confiado y devolver al grupo el hilo de la asignatura.",
+      "Escuchar con respeto, cuidar la confidencialidad que el caso permita y orientar hacia orientación escolar u otro apoyo institucional si la situación familiar lo requiere, sin usurpar el rol de la familia.",
+      "Abrir una actuación de convivencia que involucre a la familia, con base en lo confiado, para que el manual cubra el malestar del estudiante como un asunto de clima del hogar."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un estudiante comparte en confianza una situación familiar difícil. Escuchar, reservar y canalizar a apoyo institucional es el deber de cuidado. Contarlo al área rompe la reserva. Seguir la clase y dejarlo para valores minimiza. Abrir convivencia contra la familia usa el 1620 fuera de lugar.",
+    "distractorAnalysis": {
+      "0": "Trampa del apoyo colectivo: informar al área «para que todos apoyen» parece red de cuidado. Rompe la confidencialidad de lo que el estudiante confió de su familia.",
+      "1": "Trampa de no dramatizar: seguir la clase y dejar una sesión de valores parece prudencia pedagógica. Minimiza lo confiado y retrasa el apoyo institucional que podría necesitar.",
+      "3": "Trampa de dominio cruzado de la Ley 1620: abrir convivencia que involucre a la familia luce como ruta. Convierte una confidencia en expediente de clima y puede revictimizar al estudiante."
+    }
+  },
+  {
+    "id": "dir-apt-dis-262",
+    "correctIndex": 1,
+    "caseContext": "En geometría, un equipo calcula el “área” de un rectángulo de 8 cm × 5 cm como 26 cm² (sumó los cuatro lados). Otro multiplica 8 × 5 = 40 cm² y nombra el resultado como superficie. Hay confusión área/perímetro en la socialización.",
+    "stem": "¿Qué evidencia muestra el aprendizaje esencial de área y qué confusión hay que reenseñar?",
+    "options": [
+      "Validar 26 cm² como área del rectángulo de 8 cm × 5 cm, porque recorrer los cuatro lados (8+5+8+5) parece medir el interior y cierra la socialización con un número del contorno.",
+      "Validar 40 cm² (8 × 5) como superficie y reenseñar que 26 cm es el perímetro, de modo que área y contorno no se intercambien en la evidencia de geometría.",
+      "Validar 35 cm² como «área aproximada», promedio de 8 y 5 más un ajuste, para no dejar sin respuesta a quien confundió las magnitudes en la socialización.",
+      "Validar 45 cm², suma de lados más un ajuste de rúbrica, y reportarlo como evidencia comparable de medición en el SIEE de geometría del período."
+    ],
+    "explanation": "La condición de calidad pide qué evidencia muestra el aprendizaje esencial de área y qué confusión reenseñar. El área del rectángulo es base × altura: 8 × 5 = 40 cm². 26 cm es el perímetro, no la superficie. 35 cm² promedia lados. 45 cm² inventa un ajuste para el SIEE. Área y perímetro no se intercambian aunque el número 26 aparezca en el recuento de lados.",
+    "distractorAnalysis": {
+      "0": "Trampa del contorno como interior: 26 cm² parece medir el rectángulo porque recorre los lados. Confunde perímetro con área y no es 8 × 5 = 40 cm².",
+      "2": "Trampa del promedio de lados: 35 cm² parece una aproximación razonable. No es la superficie y deja sin reenseñar la distinción área/perímetro.",
+      "3": "Trampa de dominio cruzado del SIEE: 45 cm² con ajuste de rúbrica luce como evidencia comparable de medición. Inventa una magnitud y no valida 40 cm² ni reenseña el 26 cm del perímetro."
+    }
+  },
+  {
+    "id": "dir-apt-dis-272",
+    "correctIndex": 3,
+    "caseContext": "Se clasifican hielo, agua en un vaso y aire en un globo. Un estudiante dice que el líquido tiene forma y volumen fijos “porque el vaso no se deforma”; otro identifica el sólido (hielo) con forma y volumen definidos. Otro atribuye ambos al gas.",
+    "stem": "¿Qué estado evidencia forma y volumen definidos y qué error hay que reenseñar?",
+    "options": [
+      "Validar el gas del globo como estado de forma y volumen definidos, porque el globo «tiene forma» y esa lectura cierra la clasificación de hielo, agua y aire.",
+      "Validar el plasma como estado de forma y volumen definidos por ser «el más energético», y usarlo como categoría superior en la clasificación de la rúbrica.",
+      "Validar el líquido del vaso como forma y volumen fijos, confundiendo la forma del recipiente con la de la sustancia, tal como propone quien dice que el vaso no se deforma.",
+      "Validar el sólido (hielo) con forma y volumen definidos, y reenseñar que el líquido tiene volumen definido pero toma la forma del recipiente, y que el gas no conserva ni forma ni volumen propios."
+    ],
+    "explanation": "La condición de calidad pide qué estado evidencia forma y volumen definidos y qué error reenseñar. El sólido (hielo) mantiene ambos. El líquido tiene volumen definido y forma del vaso. El gas del globo no conserva forma ni volumen propios. El plasma no está en la clasificación pedida. Confundir la forma del recipiente con la de la sustancia es el error del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de la forma del globo: el gas parece tener forma porque el globo la tiene. Atribuye al aire la geometría del recipiente elástico.",
+      "1": "Trampa del estado más energético: el plasma parece la categoría avanzada. No está en el caso de hielo, agua y aire y no responde forma y volumen definidos.",
+      "2": "Trampa de dominio cruzado del recipiente: validar el líquido porque el vaso no se deforma luce como observación empírica comparable. Confunde la forma del envase con la de la sustancia."
+    }
+  },
+  {
+    "id": "dir-apt-dis-275",
+    "correctIndex": 2,
+    "caseContext": "En una cadena de pasto–conejo–zorro, un equipo llama “productores” al zorro “porque produce crías”; otro a los descomponedores; otro a las plantas, que elaboran su alimento por fotosíntesis. La rúbrica pide rol trófico, no la palabra “producir” en sentido cotidiano.",
+    "stem": "¿Qué rol evidencia el concepto de productor y qué error hay que reenseñar?",
+    "options": [
+      "Validar a los carnívoros (el zorro) como productores porque «producen energía al cazar» o «producen crías», leyendo el verbo cotidiano sobre la cadena pasto–conejo–zorro.",
+      "Validar a los descomponedores como productores porque «producen tierra», y tomar ese rol de suelo como la base trófica de la cadena del caso.",
+      "Validar a las plantas como productoras por la fotosíntesis y reenseñar que «productor» no significa quien cría, quien caza ni quien come a los productores.",
+      "Validar a los consumidores primarios (el conejo) como productores porque «comen productores», y reportarlo como evidencia comparable de cadena en el SIEE."
+    ],
+    "explanation": "La condición de calidad pide qué rol evidencia el concepto de productor y qué error reenseñar. Las plantas elaboran alimento por fotosíntesis y son la base de pasto–conejo–zorro. El zorro es consumidor. Los descomponedores reciclan materia. El conejo es consumidor primario. La rúbrica pide rol trófico, no la palabra «producir» en sentido cotidiano ni una evidencia del SIEE.",
+    "distractorAnalysis": {
+      "0": "Trampa del verbo cotidiano: el zorro «produce» crías o energía al cazar. Es consumidor y no la base fotosintética de la cadena.",
+      "1": "Trampa de producir tierra: los descomponedores parecen la base porque «hacen suelo». Reciclan; no sustituyen a las plantas como productoras.",
+      "3": "Trampa de dominio cruzado del SIEE: etiquetar al conejo como productor porque come productores luce como evidencia de cadena. Invierte el rol trófico y no es la planta del caso."
+    }
+  },
+  {
+    "id": "dir-apt-dis-280",
+    "correctIndex": 3,
+    "caseContext": "Para ordenar hitos, un equipo usa un mapa político y lo llama “línea del tiempo”. Otro usa una gráfica cronológica de hechos. Otro una tabla de PIB por país. Se pide la herramienta que organiza el tiempo histórico, no el espacio ni la estadística.",
+    "stem": "¿Qué herramienta evidencia el aprendizaje esencial de cronología y qué confusión hay que reenseñar?",
+    "options": [
+      "Usar el mapa político como línea del tiempo porque «también tiene fechas en la leyenda», y aceptar esa herramienta espacial como eje de hitos históricos.",
+      "Usar el cronómetro que mide segundos de un acto cívico como herramienta de cronología, porque registra tiempo y cierra el taller de hitos con un instrumento preciso.",
+      "Usar la tabla comparativa de PIB por país porque «ordena datos», y tomarla como organización del tiempo histórico en el eje del caso.",
+      "Usar la representación gráfica cronológica de hechos (línea del tiempo) y reenseñar que el mapa político y la tabla estadística no sustituyen el eje temporal."
+    ],
+    "explanation": "La condición de calidad pide qué herramienta evidencia el aprendizaje esencial de cronología y qué confusión reenseñar. La línea del tiempo organiza hechos en el tiempo. El mapa representa el espacio, aunque la leyenda traiga una fecha. El cronómetro mide duración de un acto, no hitos históricos. La tabla de PIB ordena magnitudes, no el eje temporal. Espacio y estadística no sustituyen cronología.",
+    "distractorAnalysis": {
+      "0": "Trampa de las fechas en la leyenda: el mapa político parece cronológico porque trae un año. Organiza el espacio, no la secuencia de hitos.",
+      "1": "Trampa del tiempo medido: el cronómetro parece la herramienta del tiempo. Mide segundos de un acto cívico, no el orden histórico pedido.",
+      "2": "Trampa de dominio cruzado de la estadística: la tabla de PIB ordena datos y luce como evidencia comparable. No es el eje temporal de los hitos del caso."
+    }
+  }
+]

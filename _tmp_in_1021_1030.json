@@ -1,0 +1,336 @@
+[
+  {
+    "pos": 1021,
+    "id": "dir-apt-dis-273",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Naturales · conocimientos básicos",
+    "subtopic": "Ciencias Naturales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [],
+    "caseContext": "Tras un esquema del tubo digestivo, un estudiante afirma que el estómago “absorbe todo porque muele”; otro señala el intestino delgado como principal sitio de absorción de nutrientes; otro el intestino grueso “porque es más largo en el dibujo”.",
+    "stem": "¿Qué órgano hay que orientar como aprendizaje esencial de absorción y qué error hay que reenseñar?",
+    "options": [
+      "El intestino delgado (absorción de nutrientes) y reenseñar que el estómago principalmente digiere, no absorbe lo esencial.",
+      "El estómago, porque la trituración “ya es absorción”, aunque ahorre tiempo visible de clase o de consejo.",
+      "El esófago, porque “baja el alimento”, aunque parezca un trámite equitativo o suficiente.",
+      "El intestino grueso, porque “absorbe todo lo que queda”, sin distinguir agua de nutrientes, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "El intestino delgado es el principal sitio de absorción de nutrientes. El estómago digiere; el intestino grueso absorbe sobre todo agua.",
+    "normativeJustification": "El intestino delgado es el principal sitio de absorción de nutrientes. El estómago digiere; el intestino grueso absorbe sobre todo agua.",
+    "theoreticalJustification": "El intestino delgado es el principal sitio de absorción de nutrientes. El estómago digiere; el intestino grueso absorbe sobre todo agua.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1022,
+    "id": "dir-apt-dis-274",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Naturales · conocimientos básicos",
+    "subtopic": "Ciencias Naturales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [],
+    "caseContext": "En ciencias, un equipo clasifica carbón, petróleo y gas como “renovables porque salen de la tierra”. Otro clasifica la solar como renovable. La rúbrica pide argumentar con el criterio de reposición en tiempos humanos.",
+    "stem": "¿Qué clasificación debe orientarse como aprendizaje esencial y cuál error conceptual hay que reenseñar?",
+    "options": [
+      "Validar carbón como renovable, porque es un recurso natural.",
+      "Validar la energía solar como renovable y reenseñar que fósiles no se reponen a escala humana.",
+      "Validar petróleo como renovable, por su origen orgánico.",
+      "Validar gas natural como renovable, por emitirse “más limpio”."
+    ],
+    "explanation": "La energía solar proviene de una fuente prácticamente inagotable a escala humana, a diferencia de los combustibles fósiles.",
+    "normativeJustification": "La energía solar proviene de una fuente prácticamente inagotable a escala humana, a diferencia de los combustibles fósiles.",
+    "theoreticalJustification": "La energía solar proviene de una fuente prácticamente inagotable a escala humana, a diferencia de los combustibles fósiles.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1023,
+    "id": "dir-apt-dis-275",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Naturales · conocimientos básicos",
+    "subtopic": "Ciencias Naturales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [],
+    "caseContext": "En una cadena de pasto–conejo–zorro, un equipo llama “productores” al zorro “porque produce crías”; otro a los descomponedores; otro a las plantas, que elaboran su alimento por fotosíntesis. La rúbrica pide rol trófico, no la palabra “producir” en sentido cotidiano.",
+    "stem": "¿Qué rol evidencia el concepto de productor y qué error hay que reenseñar?",
+    "options": [
+      "Validar a los carnívoros como productores, porque “producen energía al cazar”.",
+      "Validar a los descomponedores como productores, porque “producen tierra”.",
+      "Validar a las plantas (fotosíntesis) y reenseñar que “productor” no significa “el que cría” ni “el que caza”.",
+      "Validar solo a los consumidores primarios, porque “comen productores”."
+    ],
+    "explanation": "Los productores (p. ej. plantas) elaboran su alimento por fotosíntesis y son la base de la cadena. No son los depredadores ni los descomponedores.",
+    "normativeJustification": "Los productores (p. ej. plantas) elaboran su alimento por fotosíntesis y son la base de la cadena. No son los depredadores ni los descomponedores.",
+    "theoreticalJustification": "Los productores (p. ej. plantas) elaboran su alimento por fotosíntesis y son la base de la cadena. No son los depredadores ni los descomponedores.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1024,
+    "id": "dir-apt-dis-276",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos básicos",
+    "subtopic": "Ciencias Sociales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En un mapa, un estudiante marca Medellín como capital “porque es la industrial”; otro Cali “del Pacífico”; otro Cartagena “histórica”. Otro señala Bogotá como capital político-administrativa del país. Se pide el criterio constitucional, no el prestigio regional.",
+    "stem": "¿Qué identificación evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "Validar Medellín como capital, por peso económico, aunque se presente como solución rápida en la reunión.",
+      "Validar Cali, por ser referente del Pacífico, aunque parezca un trámite equitativo o suficiente.",
+      "Validar Cartagena, por hitos coloniales, aunque parezca un trámite equitativo o suficiente.",
+      "Validar Bogotá como capital de la República y reenseñar no confundir capital política con “capitales” simbólicas regionales."
+    ],
+    "explanation": "Bogotá es la capital de la República de Colombia. El peso económico o histórico de otras ciudades no las convierte en capital del Estado.",
+    "normativeJustification": "Bogotá es la capital de la República de Colombia. El peso económico o histórico de otras ciudades no las convierte en capital del Estado.",
+    "theoreticalJustification": "Bogotá es la capital de la República de Colombia. El peso económico o histórico de otras ciudades no las convierte en capital del Estado.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1025,
+    "id": "dir-apt-dis-277",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos básicos",
+    "subtopic": "Ciencias Sociales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Al ubicar la región Pacífica, un estudiante escribe “Mar Caribe / Atlántico” porque “Colombia tiene mar al norte y eso es lo mismo”. Otro nombra el océano Pacífico en el litoral occidental. Otro el Índico “porque también es océano”.",
+    "stem": "¿Qué océano corresponde a la región Pacífica y qué confusión hay que reenseñar?",
+    "options": [
+      "El océano Pacífico, y reenseñar que el Caribe/Atlántico baña otra fachada, no la región Pacífica.",
+      "El Atlántico, unificando ambos litorales en un solo mar.",
+      "El Mar Caribe, por ser “el mar de Colombia” en el lenguaje cotidiano.",
+      "El Índico, por ser océano y “quedar al otro lado”."
+    ],
+    "explanation": "La región Pacífica colombiana limita con el océano Pacífico. El Caribe/Atlántico corresponde a otra fachada del país.",
+    "normativeJustification": "La región Pacífica colombiana limita con el océano Pacífico. El Caribe/Atlántico corresponde a otra fachada del país.",
+    "theoreticalJustification": "La región Pacífica colombiana limita con el océano Pacífico. El Caribe/Atlántico corresponde a otra fachada del país.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1026,
+    "id": "dir-apt-dis-278",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos básicos",
+    "subtopic": "Ciencias Sociales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En un eje cronológico, un estudiante coloca la Constitución vigente en 1886 “porque duró mucho”; otro en 1991, con la Asamblea Nacional Constituyente. Otro en 1994 “por el primer gobierno de esa carta”. Se pide el año de promulgación vigente, no el de una carta anterior.",
+    "stem": "¿Qué datación evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "Validar 1986, por cercanía a la Regeneración, aunque parezca un trámite equitativo o suficiente.",
+      "Validar 1991 (promulgación vigente) y reenseñar no atribuir vigencia actual a la Constitución de 1886.",
+      "Validar 1994, confundiendo primer gobierno con promulgación, aunque se presente como solución rápida en la reunión.",
+      "Validar 1998, por un hito electoral posterior, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La Constitución Política vigente se promulgó en 1991. La de 1886 rigió antes, pero no es la carta actual.",
+    "normativeJustification": "La Constitución Política vigente se promulgó en 1991. La de 1886 rigió antes, pero no es la carta actual.",
+    "theoreticalJustification": "La Constitución Política vigente se promulgó en 1991. La de 1886 rigió antes, pero no es la carta actual.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1027,
+    "id": "dir-apt-dis-279",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos básicos",
+    "subtopic": "Ciencias Sociales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un esquema de ramas del poder: un estudiante asigna al Congreso “administrar justicia” y a los jueces “hacer las leyes”. Otro identifica la función legislativa del Congreso (hacer, reformar y derogar leyes). Otro le atribuye el mando de las Fuerzas Militares.",
+    "stem": "¿Qué función del Congreso hay que orientar como aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "Administrar justicia penal, confundiendo Congreso con rama judicial.",
+      "Dirigir las fuerzas militares, confundiendo con el Ejecutivo.",
+      "Hacer, reformar y derogar leyes, y reenseñar no mezclar función legislativa con judicial o militar.",
+      "Nombrar gobernadores, como si el Congreso sustituyera la elección territorial."
+    ],
+    "explanation": "Al Congreso le corresponde principalmente la función legislativa. Administrar justicia y dirigir la fuerza pública no son su función principal.",
+    "normativeJustification": "Al Congreso le corresponde principalmente la función legislativa. Administrar justicia y dirigir la fuerza pública no son su función principal.",
+    "theoreticalJustification": "Al Congreso le corresponde principalmente la función legislativa. Administrar justicia y dirigir la fuerza pública no son su función principal.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1028,
+    "id": "dir-apt-dis-280",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos básicos",
+    "subtopic": "Ciencias Sociales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Para ordenar hitos, un equipo usa un mapa político y lo llama “línea del tiempo”. Otro usa una gráfica cronológica de hechos. Otro una tabla de PIB por país. Se pide la herramienta que organiza el tiempo histórico, no el espacio ni la estadística.",
+    "stem": "¿Qué herramienta evidencia el aprendizaje esencial de cronología y qué confusión hay que reenseñar?",
+    "options": [
+      "El mapa político, porque “también tiene fechas en la leyenda”, aunque parezca un trámite equitativo o suficiente.",
+      "El cronómetro, porque mide segundos de un acto cívico, aunque se presente como solución rápida en la reunión.",
+      "La tabla comparativa de países, porque “ordena datos”, aunque se presente como solución rápida en la reunión.",
+      "La representación gráfica cronológica de hechos y reenseñar que mapa y tabla no sustituyen el eje temporal."
+    ],
+    "explanation": "La línea del tiempo organiza cronológicamente hechos históricos. Un mapa representa el espacio; una tabla estadística no es, por sí, ese eje temporal.",
+    "normativeJustification": "La línea del tiempo organiza cronológicamente hechos históricos. Un mapa representa el espacio; una tabla estadística no es, por sí, ese eje temporal.",
+    "theoreticalJustification": "La línea del tiempo organiza cronológicamente hechos históricos. Un mapa representa el espacio; una tabla estadística no es, por sí, ese eje temporal.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1029,
+    "id": "dir-apt-ped-281",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [
+      {
+        "code": "piaget",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "piaget"
+    ],
+    "caseContext": "En 4° (9 años) proponen solo símbolos abstractos sin referentes. Un docente recuerda a Piaget: operaciones concretas razonan sobre lo concreto; lo abstracto pleno se consolida después. No es sensoriomotor ni egocentrismo de preoperacional.",
+    "stem": "Según Piaget, ¿qué caracteriza principalmente la etapa de operaciones concretas (aprox. 7-11 años)?",
+    "options": [
+      "Realizar operaciones lógicas sobre objetos y situaciones concretas, aún con dificultad para el pensamiento abstracto.",
+      "Pensar exclusivamente con símbolos abstractos, sin referente concreto.",
+      "No poder distinguir aún el propio punto de vista del de los demás (egocentrismo preoperacional).",
+      "Depender solo de reflejos sensoriomotores para interactuar con el entorno."
+    ],
+    "explanation": "En la etapa de las operaciones concretas, según Piaget, el niño logra razonar lógicamente sobre situaciones concretas, aunque el pensamiento abstracto pleno se consolida en la etapa siguiente.",
+    "normativeJustification": "En la etapa de las operaciones concretas, según Piaget, el niño logra razonar lógicamente sobre situaciones concretas, aunque el pensamiento abstracto pleno se consolida en la etapa siguiente.",
+    "theoreticalJustification": "En la etapa de las operaciones concretas, según Piaget, el niño logra razonar lógicamente sobre situaciones concretas, aunque el pensamiento abstracto pleno se consolida en la etapa siguiente.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1030,
+    "id": "dir-apt-ped-282",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [
+      {
+        "code": "bruner",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "bruner"
+    ],
+    "caseContext": "El docente entrega la conclusión ya armada. Un colega, con Bruner, pide que el estudiante explore y construya conclusiones con guía, no más quizzes ni un examen sorpresa como “descubrimiento”.",
+    "stem": "¿Qué caracteriza principalmente al aprendizaje por descubrimiento de Bruner?",
+    "options": [
+      "Que el docente entregue toda la información ya organizada, sin exploración.",
+      "Que el estudiante explore activamente y construya conclusiones, con guía del docente.",
+      "Dejar la autoevaluación como trámite de caritas, sin contrastar lo descubierto.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa."
+    ],
+    "explanation": "Bruner propone que el estudiante descubra activamente los principios, con una guía docente que estructura la exploración, en lugar de recibir la información ya elaborada.",
+    "normativeJustification": "Bruner propone que el estudiante descubra activamente los principios, con una guía docente que estructura la exploración, en lugar de recibir la información ya elaborada.",
+    "theoreticalJustification": "Bruner propone que el estudiante descubra activamente los principios, con una guía docente que estructura la exploración, en lugar de recibir la información ya elaborada.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

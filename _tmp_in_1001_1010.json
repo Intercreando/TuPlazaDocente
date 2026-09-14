@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1001,
+    "id": "dir-apt-blan-253",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El docente de apoyo pedagógico y el docente de aula no logran coordinar adecuadamente los apoyos previstos para un estudiante con PIAR. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Buscar un espacio de coordinación conjunta para alinear estrategias y evitar que el estudiante reciba mensajes contradictorios.",
+      "Cada docente debe aplicar sus propias estrategias sin ninguna coordinación.",
+      "El docente de aula debe asumir por completo la responsabilidad, sin involucrar al docente de apoyo.",
+      "Suspender los apoyos previstos hasta que surja un mejor momento para coordinarlos."
+    ],
+    "explanation": "La coordinación conjunta entre ambos docentes es esencial para que los apoyos sean coherentes y efectivos.",
+    "normativeJustification": "La coordinación conjunta entre ambos docentes es esencial para que los apoyos sean coherentes y efectivos.",
+    "theoreticalJustification": "La coordinación conjunta entre ambos docentes es esencial para que los apoyos sean coherentes y efectivos.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1002,
+    "id": "dir-apt-blan-254",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante de alto rendimiento manifiesta que se aburre porque el ritmo de la clase le resulta muy lento. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Ofrecerle actividades de profundización o retos adicionales que enriquezcan su aprendizaje sin desatender al resto del grupo.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Ofrecer actividades de profundización responde a la necesidad del estudiante sin descuidar la atención al resto del grupo.",
+    "normativeJustification": "Ofrecer actividades de profundización responde a la necesidad del estudiante sin descuidar la atención al resto del grupo.",
+    "theoreticalJustification": "Ofrecer actividades de profundización responde a la necesidad del estudiante sin descuidar la atención al resto del grupo.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1003,
+    "id": "dir-apt-blan-255",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El docente siente que la carga de tareas administrativas (registros, formatos, reportes) está afectando el tiempo disponible para la planeación pedagógica. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Dejar de realizar las tareas administrativas sin informar a nadie.",
+      "Asumir la situación en silencio, sin comunicarla a ninguna instancia.",
+      "Comunicar la situación de manera constructiva al coordinador o rector, y proponer, si es posible, alternativas para optimizar el tiempo.",
+      "Reducir la calidad de la planeación pedagógica sin buscar ninguna alternativa."
+    ],
+    "explanation": "Comunicar la situación de forma constructiva y proponer alternativas es más productivo que ignorarla o asumirla en silencio.",
+    "normativeJustification": "Comunicar la situación de forma constructiva y proponer alternativas es más productivo que ignorarla o asumirla en silencio.",
+    "theoreticalJustification": "Comunicar la situación de forma constructiva y proponer alternativas es más productivo que ignorarla o asumirla en silencio.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1004,
+    "id": "dir-apt-blan-256",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante le falta al respeto verbalmente al docente frente a todo el grupo. ¿Cuál sería la actuación más adecuada en el momento? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Mantener la calma, establecer el límite con firmeza y respeto, y abordar la situación formalmente después según el manual de convivencia."
+    ],
+    "explanation": "Mantener la calma y establecer límites con firmeza, sin perder el respeto, permite manejar la situación de forma profesional y formativa.",
+    "normativeJustification": "Mantener la calma y establecer límites con firmeza, sin perder el respeto, permite manejar la situación de forma profesional y formativa.",
+    "theoreticalJustification": "Mantener la calma y establecer límites con firmeza, sin perder el respeto, permite manejar la situación de forma profesional y formativa.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1005,
+    "id": "dir-apt-blan-257",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Los padres de dos estudiantes que tuvieron un conflicto llegan al mismo tiempo, molestos, a buscar al docente. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Atenderlos por separado, escuchando a cada uno, antes de facilitar cualquier espacio conjunto si es pertinente.",
+      "Atenderlos juntos de inmediato sin ninguna preparación previa.",
+      "Pedirles que resuelvan el conflicto entre ellos sin intervención del docente.",
+      "Evitar la conversación y remitirlos directamente a la rectoría sin ninguna explicación."
+    ],
+    "explanation": "Escuchar por separado antes de cualquier encuentro conjunto permite manejar la situación con mayor calma y objetividad.",
+    "normativeJustification": "Escuchar por separado antes de cualquier encuentro conjunto permite manejar la situación con mayor calma y objetividad.",
+    "theoreticalJustification": "Escuchar por separado antes de cualquier encuentro conjunto permite manejar la situación con mayor calma y objetividad.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1006,
+    "id": "dir-apt-blan-258",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El docente debe informar a un estudiante que no logró los objetivos de aprendizaje del período, a pesar de su esfuerzo visible. ¿Cuál sería la forma más adecuada de comunicarlo? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Comunicar el resultado sin ningún reconocimiento del esfuerzo realizado.",
+      "Reconocer el esfuerzo realizado, explicar con claridad las áreas por fortalecer y ofrecer un plan concreto de apoyo.",
+      "Evitar la conversación y solo enviar la calificación por escrito.",
+      "Comparar su desempeño con el de otros estudiantes del curso."
+    ],
+    "explanation": "Reconocer el esfuerzo y ofrecer un plan concreto de apoyo mantiene la motivación del estudiante frente a una noticia difícil.",
+    "normativeJustification": "Reconocer el esfuerzo y ofrecer un plan concreto de apoyo mantiene la motivación del estudiante frente a una noticia difícil.",
+    "theoreticalJustification": "Reconocer el esfuerzo y ofrecer un plan concreto de apoyo mantiene la motivación del estudiante frente a una noticia difícil.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1007,
+    "id": "dir-apt-blan-259",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante comparte con el docente, de manera confidencial, que está atravesando una situación familiar difícil. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir la información con otros docentes sin el conocimiento del estudiante.",
+      "Minimizar la situación y continuar la clase como si no hubiera pasado nada.",
+      "Escuchar con respeto, mantener la confidencialidad apropiada y orientar el caso hacia el apoyo institucional pertinente si es necesario.",
+      "Aconsejar directamente al estudiante sobre decisiones familiares que no le corresponden como docente."
+    ],
+    "explanation": "Escuchar con respeto y canalizar hacia el apoyo institucional adecuado es la actuación más apropiada ante una situación de este tipo.",
+    "normativeJustification": "Escuchar con respeto y canalizar hacia el apoyo institucional adecuado es la actuación más apropiada ante una situación de este tipo.",
+    "theoreticalJustification": "Escuchar con respeto y canalizar hacia el apoyo institucional adecuado es la actuación más apropiada ante una situación de este tipo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1008,
+    "id": "dir-apt-blan-260",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El docente nota que un estudiante ha bajado su rendimiento académico y ha cambiado su comportamiento en las últimas semanas. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Acercarse con empatía al estudiante para indagar qué está sucediendo, y activar los apoyos institucionales pertinentes si es necesario."
+    ],
+    "explanation": "Acercarse con empatía para indagar la causa del cambio, antes de asumir explicaciones, permite una respuesta más adecuada y oportuna.",
+    "normativeJustification": "Acercarse con empatía para indagar la causa del cambio, antes de asumir explicaciones, permite una respuesta más adecuada y oportuna.",
+    "theoreticalJustification": "Acercarse con empatía para indagar la causa del cambio, antes de asumir explicaciones, permite una respuesta más adecuada y oportuna.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1009,
+    "id": "dir-apt-dis-261",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Matemáticas · conocimientos básicos",
+    "subtopic": "Matemáticas · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "targetCargo": "matematicas",
+    "normativeRefs": [],
+    "caseContext": "En 4.º, tres cuadernos resuelven 3/4 + 1/8: uno suma 3+1 y 4+8 (4/12); otro deja 7/12 “porque el común es 12”; otro convierte 3/4 a 6/8 y obtiene 7/8. La rúbrica pide justificar equivalencia, no el algoritmo suelto.",
+    "stem": "¿Qué producción evidencia el aprendizaje esencial de suma de fracciones y qué error hay que reenseñar?",
+    "options": [
+      "Validar 7/8 (equivalencia a octavos) y reenseñar no sumar numeradores y denominadores por separado.",
+      "Validar 4/12, porque “sumar arriba y abajo” parece un procedimiento regular.",
+      "Validar 1/2, porque “casi es la mitad” basta como estimación sin equivalencia.",
+      "Validar 7/12, porque 12 es común, aunque 3/4 no se haya convertido."
+    ],
+    "explanation": "3/4 = 6/8; 6/8 + 1/8 = 7/8. Sumar numeradores y denominadores (4/12) o usar 12 sin convertir 3/4 (7/12) son errores de equivalencia.",
+    "normativeJustification": "3/4 = 6/8; 6/8 + 1/8 = 7/8. Sumar numeradores y denominadores (4/12) o usar 12 sin convertir 3/4 (7/12) son errores de equivalencia.",
+    "theoreticalJustification": "3/4 = 6/8; 6/8 + 1/8 = 7/8. Sumar numeradores y denominadores (4/12) o usar 12 sin convertir 3/4 (7/12) son errores de equivalencia.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1010,
+    "id": "dir-apt-dis-262",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Matemáticas · conocimientos básicos",
+    "subtopic": "Matemáticas · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "targetCargo": "matematicas",
+    "normativeRefs": [],
+    "caseContext": "En geometría, un equipo calcula el “área” de un rectángulo de 8 cm × 5 cm como 26 cm² (sumó los cuatro lados). Otro multiplica 8 × 5 = 40 cm² y nombra el resultado como superficie. Hay confusión área/perímetro en la socialización.",
+    "stem": "¿Qué evidencia muestra el aprendizaje esencial de área y qué confusión hay que reenseñar?",
+    "options": [
+      "Validar 26 cm² como área, porque recorre el contorno del rectángulo.",
+      "Validar 40 cm² (base × altura) y reenseñar que el perímetro (26 cm) no mide superficie.",
+      "Validar 35 cm², promedio de lados, como “área aproximada”.",
+      "Validar 45 cm², suma de lados más un “ajuste”, como área."
+    ],
+    "explanation": "El área del rectángulo es base × altura: 8 × 5 = 40 cm². 26 cm es el perímetro (8+5+8+5), no la superficie.",
+    "normativeJustification": "El área del rectángulo es base × altura: 8 × 5 = 40 cm². 26 cm es el perímetro (8+5+8+5), no la superficie.",
+    "theoreticalJustification": "El área del rectángulo es base × altura: 8 × 5 = 40 cm². 26 cm es el perímetro (8+5+8+5), no la superficie.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  }
+]

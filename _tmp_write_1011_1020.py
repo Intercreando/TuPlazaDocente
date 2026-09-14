@@ -1,0 +1,198 @@
+# -*- coding: utf-8 -*-
+"""Reescribe dir-apt-dis-263..272 (posiciones 1011-1020)."""
+import sys
+from pathlib import Path
+
+ROOT = Path(r"c:\Users\MSI\Documents\Proyectos\TuPlazaDocente")
+sys.path.insert(0, str(ROOT))
+from _tmp_cnsc_write_common import dump_and_report  # noqa: E402
+
+OUT = ROOT / "_tmp_out_1011_1020.json"
+CI = {
+    "dir-apt-dis-263": 2,
+    "dir-apt-dis-264": 3,
+    "dir-apt-dis-265": 0,
+    "dir-apt-dis-266": 1,
+    "dir-apt-dis-267": 2,
+    "dir-apt-dis-268": 3,
+    "dir-apt-dis-269": 0,
+    "dir-apt-dis-270": 1,
+    "dir-apt-dis-271": 2,
+    "dir-apt-dis-272": 3,
+}
+
+ITEMS = [
+    {
+        "id": "dir-apt-dis-263",
+        "options": [
+            "Validar 15 como siguiente término, porque el final de 14 «se ve de uno en uno», y registrar esa lectura como argumento suficiente de regularidad en la sucesión 2, 5, 8, 11, 14.",
+            "Validar 16 interpolando +2 entre 14 y el siguiente par, para cerrar la socialización con un número par cercano y no detener la clase en la diferencia constante.",
+            "Validar 17 con diferencia constante +3 (14 + 3) y reenseñar que no se cambia la razón a mitad de la sucesión 2, 5, 8, 11, 14.",
+            "Validar 18 duplicando el primer término (2 × 9) o reportando un salto «limpio» para el SIEE de patrones, de modo que el siguiente número quede alineado con una evidencia comparable de período.",
+        ],
+        "explanation": "La condición de calidad pide qué término y justificación evidencian el patrón y qué error reenseñar. La sucesión 2, 5, 8, 11, 14 es aritmética de razón 3, de modo que sigue 17. 15 cambia la razón a +1. 16 interpola +2. 18 duplica o inventa un salto para el SIEE. Argumentar la regularidad no es adivinar el número más cercano.",
+        "normativeJustification": "Los DBA de pensamiento variacional piden identificar la razón y justificar el siguiente término. El SIEE no homologa 18 como salto limpio ni 15 o 16 como regularidad.",
+        "theoreticalJustification": "En una sucesión aritmética el siguiente es último + razón. 14 + 3 = 17. Cambiar a +1, +2 o duplicar rompe el patrón.",
+        "distractorAnalysis": {
+            "0": "Trampa del salto de 1: 15 parece leer el final de 14. Cambia la razón de +3 y no argumenta la regularidad de 2, 5, 8, 11, 14.",
+            "1": "Trampa del par cercano: 16 con +2 parece un cierre numérico razonable. Interpola otra razón y evita reenseñar la diferencia constante.",
+            "3": "Trampa de dominio cruzado del SIEE: 18 como salto limpio o doble del primero luce como evidencia comparable de patrones. No es 14 + 3 = 17 y cambia el objeto de la regularidad.",
+        },
+    },
+    {
+        "id": "dir-apt-dis-264",
+        "options": [
+            "Validar «trescientos cinco mil setecientos», leyendo la coma de 305,7 como separador de millar, porque esa lectura suena a número grande y cierra el dictado de valor posicional.",
+            "Validar «treinta mil quinientos setenta», desplazando las cifras de 305,7, para ofrecer una lectura entera alternativa cuando el grupo duda entre décimas y millar.",
+            "Validar «trescientos cinco con siete centésimas», porque en el aula «todo decimal es centésima» y esa etiqueta unifica la evidencia de la parte decimal.",
+            "Validar «trescientos cinco con siete décimas», primer lugar tras la coma de 305,7, y reenseñar que décima no es centésima ni se lee la coma como millar.",
+        ],
+        "explanation": "La condición de calidad pide qué lectura evidencia el valor posicional decimal y qué error reenseñar. En 305,7 el 7 es décimas. Leer la coma como millar produce «trescientos cinco mil setecientos». Desplazar cifras da «treinta mil quinientos setenta». Llamar centésimas a toda cifra decimal ignora el primer lugar. La evaluación pide valor posicional, no deletreo.",
+        "normativeJustification": "Los DBA de sistema de numeración distinguen décima, centésima y millar. El SIEE no puede validar la coma como millar ni homologar «centésimas» como etiqueta genérica.",
+        "theoreticalJustification": "El primer dígito a la derecha de la coma es décimas. 305,7 se lee con siete décimas. Millar, desplazamiento o centésimas son otros órdenes.",
+        "distractorAnalysis": {
+            "0": "Trampa de la coma como millar: «trescientos cinco mil setecientos» parece una lectura fluida. Confunde el decimal 305,7 con un entero de millares.",
+            "1": "Trampa del desplazamiento de cifras: «treinta mil quinientos setenta» parece otra lectura plausible. Mueve el valor posicional y no señala las décimas.",
+            "2": "Trampa de dominio cruzado de la etiqueta decimal: «siete centésimas» unifica el lenguaje del aula y parece evidencia comparable. El 7 de 305,7 ocupa décimas, no centésimas.",
+        },
+    },
+    {
+        "id": "dir-apt-dis-265",
+        "options": [
+            "Validar 80 km/h (240 ÷ 3) como velocidad media y reenseñar que restar 240 − 3 o sumar 240 + 3 no produce la magnitud km/h que pide la rúbrica.",
+            "Validar 70 km/h descontando paradas no mencionadas en el tren de 240 km y 3 horas, para mostrar un cálculo «realista» de trayecto en la socialización.",
+            "Validar 90 km/h redondeando hacia arriba «por seguridad», de modo que la velocidad media quede holgada respecto de 240 ÷ 3 en el informe del problema.",
+            "Validar 60 km/h usando 4 horas «de holgura» y reportarlo como evidencia comparable de magnitud en el SIEE, alineada con un tiempo de trayecto más cauteloso.",
+        ],
+        "explanation": "La condición de calidad pide qué procedimiento evidencia velocidad media y qué error reenseñar. Velocidad = distancia ÷ tiempo = 240 ÷ 3 = 80 km/h. Restar o sumar horas no da km/h. 70 inventa paradas. 90 redondea por seguridad. 60 cambia a 4 horas para el SIEE. La rúbrica pide la magnitud, no un número suelto.",
+        "normativeJustification": "Los DBA de magnitudes piden distancia sobre tiempo con las unidades del problema. El SIEE no homologa 60 km/h por holgura ni 70 u 90 por realismo o seguridad.",
+        "theoreticalJustification": "v = d/t. 240/3 = 80 km/h. Inventar paradas, redondear o cambiar a 4 h altera la magnitud.",
+        "distractorAnalysis": {
+            "1": "Trampa del trayecto realista: 70 km/h descuenta paradas que el problema no da. Cambia 240 ÷ 3 y no evidencia velocidad media.",
+            "2": "Trampa del redondeo por seguridad: 90 km/h parece prudencia numérica. Infla 80 km/h y pierde la magnitud exacta de 240 km en 3 horas.",
+            "3": "Trampa de dominio cruzado del SIEE: 60 km/h con 4 horas luce como evidencia cautelosa de magnitud. Cambia el tiempo del problema y no es 240 ÷ 3 = 80 km/h.",
+        },
+    },
+    {
+        "id": "dir-apt-dis-266",
+        "options": [
+            "Validar «correr» como sustantivo porque el infinitivo «nombra una acción», y aceptarlo en cualquier uso como clase de palabra equivalente a un nombre en el taller.",
+            "Validar «amabilidad», que nombra una cualidad, y reenseñar que infinitivos y adverbios no son sustantivos por el hecho de «sonar a algo importante» en la oración.",
+            "Validar «rápidamente» porque modifica y «parece importante», de modo que el adverbio cierre la identificación de sustantivo sin detenerse en la clase de palabra.",
+            "Validar «muy» como sustantivo que intensifica y acompaña al nombre, y reportarlo como evidencia comparable de vocabulario en el SIEE del taller de clases de palabras.",
+        ],
+        "explanation": "La condición de calidad pide qué identificación evidencia el aprendizaje esencial de sustantivo y qué error reenseñar. «Amabilidad» nombra una cualidad. «Correr» es verbo en infinitivo. «Rápidamente» y «muy» son adverbios. El criterio es la clase de palabra, no «lo que suena a nombre» ni una evidencia de vocabulario en el SIEE.",
+        "normativeJustification": "Los DBA de lengua piden identificar clases de palabras por función. El SIEE no puede validar «muy» como sustantivo ni el infinitivo como nombre por defecto.",
+        "theoreticalJustification": "El sustantivo nombra (seres, objetos, cualidades). El infinitivo es verbo; el adverbio modifica. Confundirlos es error de categoría, no de «importancia» sonora.",
+        "distractorAnalysis": {
+            "0": "Trampa del infinitivo que nombra: «correr» parece sustantivo porque designa una acción. En el uso del taller es verbo; no evidencia la clase de palabra pedida.",
+            "2": "Trampa del modificador importante: «rápidamente» parece central en la frase. Es adverbio y no nombra una cualidad como «amabilidad».",
+            "3": "Trampa de dominio cruzado del SIEE: validar «muy» como vocabulario comparable luce como evidencia de taller. El intensificador no es sustantivo y no corrige el error de clase de palabra.",
+        },
+    },
+    {
+        "id": "dir-apt-dis-267",
+        "options": [
+            "Validar «ladra fuertemente» como sujeto porque es «lo más importante» de la oración, y tomar el predicado como núcleo de quién realiza la acción.",
+            "Validar «mi vecino» como sujeto, porque el complemento posesivo «manda» en «el perro de mi vecino» y parece el agente humano de la escena.",
+            "Validar «el perro de mi vecino» como sujeto (quien ladra) y reenseñar que «mi vecino» es complemento del nombre, no el que realiza la acción de ladrar.",
+            "Validar «fuertemente» como sujeto que completa la acción, y reportar el adverbio como evidencia comparable de análisis sintáctico en el SIEE.",
+        ],
+        "explanation": "La condición de calidad pide qué análisis evidencia el sujeto y qué confusión reenseñar. Quien realiza «ladra» es «el perro de mi vecino». «Ladra fuertemente» es predicado. «Mi vecino» es complemento del nombre. «Fuertemente» es adverbio. El marco del caso distingue núcleo del sujeto y complemento, no «lo más importante» ni una evidencia suelta del SIEE.",
+        "normativeJustification": "Los DBA de gramática piden identificar el sujeto por concordancia y función. El SIEE no homologa el adverbio ni el complemento posesivo como sujeto.",
+        "theoreticalJustification": "El sujeto es quien realiza o de quien se predica la acción. Aquí ladra el perro, no el vecino ni el adverbio.",
+        "distractorAnalysis": {
+            "0": "Trampa de lo más importante: tomar el predicado «ladra fuertemente» como sujeto parece atender al núcleo verbal. Invierte sujeto y predicado.",
+            "1": "Trampa del agente humano: «mi vecino» parece quien manda en la escena. Es complemento del nombre y no quien ladra.",
+            "3": "Trampa de dominio cruzado del SIEE: validar «fuertemente» como evidencia de análisis luce comparable. El adverbio no es sujeto y no reenseña la confusión con «mi vecino».",
+        },
+    },
+    {
+        "id": "dir-apt-dis-268",
+        "options": [
+            "Validar la coma entre verbo y complemento («prepararé, la cena»), porque la pausa al dictar parece marcar el objeto y cierra la rúbrica de puntuación con una coma visible.",
+            "Validar la coma que parte la subordinada («Cuando, llegue»), argumentando que toda prótasis «se respira» y esa marca basta como evidencia de coma adverbial.",
+            "Validar una coma entre «cena» y el complemento («cena, para toda»), para separar el propósito y mostrar dominio de incisos en la oración del taller.",
+            "Validar la coma tras la subordinada inicial («Cuando llegue a casa, prepararé…») y reenseñar que no se separa el verbo de su complemento directo ni se parte la prótasis.",
+        ],
+        "explanation": "La condición de calidad pide qué puntuación evidencia el criterio y qué error reenseñar. Tras la subordinada adverbial inicial va coma. No se parte «Cuando llegue» ni se separa «prepararé» de «la cena» ni «cena» de «para toda la familia». La rúbrica pide la pausa de la prótasis, no «coma donde se respira» ni un inciso inventado.",
+        "normativeJustification": "La norma de puntuación del español marca la subordinada adverbial inicial. El SIEE no puede validar la coma entre verbo y objeto ni la que parte la prótasis.",
+        "theoreticalJustification": "Prótasis + coma + apódosis. Separar verbo y complemento o abrir un inciso tras «cena» es otro oficio de la coma.",
+        "distractorAnalysis": {
+            "0": "Trampa de la pausa del dictado: «prepararé, la cena» parece marcar el objeto. Separa el verbo de su complemento directo y no es la coma de la subordinada inicial.",
+            "1": "Trampa de respirar la prótasis: «Cuando, llegue» parece evidenciar coma adverbial. Parte la subordinada y no marca el límite con la apódosis.",
+            "2": "Trampa de dominio cruzado del inciso: «cena, para toda» luce como dominio de comas comparables. Inventa un inciso y no valida la coma tras «Cuando llegue a casa».",
+        },
+    },
+    {
+        "id": "dir-apt-dis-269",
+        "options": [
+            "Identificar el cuento con personajes y hechos en el tiempo como texto narrativo, y reenseñar que la receta tiene secuencia pero su propósito es orientar un procedimiento, no relatar.",
+            "Clasificar el cuento como argumentativo porque «convence» al contar, y usar esa etiqueta para el taller de tipos textuales cuando el equipo defiende la fuerza del relato.",
+            "Clasificar cualquier secuencia como texto expositivo porque «informa» pasos o hechos, de modo que receta y cuento queden bajo la misma evidencia de información.",
+            "Validar la receta como narración en el SIEE porque los pasos ya son una historia, y reportarla como evidencia comparable de secuencia temporal en el período.",
+        ],
+        "explanation": "La condición de calidad pide qué tipo textual corresponde a narrar hechos en el tiempo y qué confusión reenseñar. El narrativo organiza hechos con personajes y tiempo. El instructivo (receta) tiene secuencia con otro propósito. El argumentativo convence con tesis. El expositivo explica sin relato. Confundir secuencia con narración o reportar la receta como narración en el SIEE pierde el propósito.",
+        "normativeJustification": "Los DBA de lenguaje distinguen tipos textuales por propósito. El SIEE no homologa la receta como narración por el hecho de tener pasos.",
+        "theoreticalJustification": "Narrar no es cualquier secuencia. El cuento relata; la receta instruye; el artículo explica. El propósito, no el orden, define el tipo.",
+        "distractorAnalysis": {
+            "1": "Trampa de convencer al contar: etiquetar el cuento como argumentativo parece atender a la fuerza del relato. Cambia el propósito narrativo por el de tesis y razones.",
+            "2": "Trampa de informar cualquier secuencia: el expositivo parece cubrir receta y cuento. Homogeneiza tipos y no reenseña la diferencia de propósito.",
+            "3": "Trampa de dominio cruzado del SIEE: validar la receta como narración por los pasos luce como evidencia de secuencia. El instructivo no relata hechos con personajes en el tiempo.",
+        },
+    },
+    {
+        "id": "dir-apt-dis-270",
+        "options": [
+            "Validar «amable» como antónimo de «generoso» por contraste coloquial del recreo, porque en el habla del grupo suena a opuesto y cierra el taller de vocabulario.",
+            "Validar «tacaño» como sentido opuesto de «generoso» y reenseñar que «amable», «solidario» y «bondadoso» son cercanos o sinónimos, no antónimos.",
+            "Validar «solidario» por parentesco afectivo con «generoso», de modo que la red semántica positiva baste como relación de oposición en el cuaderno.",
+            "Validar «bondadoso» como antónimo en el SIEE por vecindad de significado, y reportarlo como evidencia comparable de vocabulario del período.",
+        ],
+        "explanation": "La condición de calidad pide qué relación semántica evidencia antónimo y qué error reenseñar. «Tacaño» se opone a «generoso». «Amable», «solidario» y «bondadoso» son cercanos o sinónimos. El contraste coloquial del recreo no define oposición. Reportar «bondadoso» como antónimo en el SIEE confunde vecindad con antonimia.",
+        "normativeJustification": "Los DBA de semántica piden distinguir sinónimo y antónimo. El SIEE no puede homologar un cercano afectivo como oposición.",
+        "theoreticalJustification": "El antónimo invierte el rasgo. Los sinónimos y cercanos lo conservan. El recreo o la nota del período no cambian esa relación.",
+        "distractorAnalysis": {
+            "0": "Trampa del contraste coloquial: «amable» parece opuesto en el recreo. Es un cercano de «generoso», no su antónimo.",
+            "2": "Trampa del parentesco afectivo: «solidario» parece de la misma familia y, por ello, «el otro polo». Sigue siendo cercano, no opuesto.",
+            "3": "Trampa de dominio cruzado del SIEE: validar «bondadoso» como vocabulario comparable luce como evidencia. Es vecindad de significado, no antonimia de «generoso».",
+        },
+    },
+    {
+        "id": "dir-apt-dis-271",
+        "options": [
+            "Validar que la raíz hace fotosíntesis «porque está viva» o «a veces es verde», y aceptar esa función en el dibujo de la planta como evidencia de órgano activo.",
+            "Validar que la raíz produce flores y frutos por continuidad de la planta, de modo que un mismo órgano cubra anclaje y reproducción en la rúbrica.",
+            "Validar absorción de agua y sales y anclaje como función de la raíz, y reenseñar que la fotosíntesis ocurre principalmente en hojas con clorofila, no en la raíz.",
+            "Validar que la raíz almacena polen y reportarlo como evidencia comparable de reproducción en el SIEE de ciencias, para no dejar el órgano sin un rol de flor.",
+        ],
+        "explanation": "La condición de calidad pide qué función orientar como aprendizaje esencial y qué error conceptual reenseñar. La raíz absorbe y ancla. La fotosíntesis es sobre todo foliar. Producir flores no es función de la raíz. Guardar polen desplaza el órgano al aparato reproductor y lo reporta como evidencia del SIEE. La rúbrica pide función, no «todo el órgano sirve para todo».",
+        "normativeJustification": "Los DBA de ciencias distinguen funciones de raíz, tallo, hoja y flor. El SIEE no homologa polen en la raíz ni fotosíntesis radical como función esencial.",
+        "theoreticalJustification": "Absorción y anclaje son funciones radicales. Fotosíntesis, flor y polen corresponden a otros órganos. La continuidad de la planta no transfiere esas funciones.",
+        "distractorAnalysis": {
+            "0": "Trampa del órgano vivo: atribuir fotosíntesis a la raíz parece coherente porque «está viva». Desplaza la función de las hojas y no es el aprendizaje esencial.",
+            "1": "Trampa de la continuidad: que la raíz produzca flores parece un mismo organismo. Confunde órganos y no reenseña absorción y anclaje.",
+            "3": "Trampa de dominio cruzado del SIEE: asignar polen a la raíz luce como evidencia de reproducción. Cambia el órgano y no valida la función de absorción y anclaje.",
+        },
+    },
+    {
+        "id": "dir-apt-dis-272",
+        "options": [
+            "Validar el gas del globo como estado de forma y volumen definidos, porque el globo «tiene forma» y esa lectura cierra la clasificación de hielo, agua y aire.",
+            "Validar el plasma como estado de forma y volumen definidos por ser «el más energético», y usarlo como categoría superior en la clasificación de la rúbrica.",
+            "Validar el líquido del vaso como forma y volumen fijos, confundiendo la forma del recipiente con la de la sustancia, tal como propone quien dice que el vaso no se deforma.",
+            "Validar el sólido (hielo) con forma y volumen definidos, y reenseñar que el líquido tiene volumen definido pero toma la forma del recipiente, y que el gas no conserva ni forma ni volumen propios.",
+        ],
+        "explanation": "La condición de calidad pide qué estado evidencia forma y volumen definidos y qué error reenseñar. El sólido (hielo) mantiene ambos. El líquido tiene volumen definido y forma del vaso. El gas del globo no conserva forma ni volumen propios. El plasma no está en la clasificación pedida. Confundir la forma del recipiente con la de la sustancia es el error del caso.",
+        "normativeJustification": "Los DBA de materia piden propiedades de sólido, líquido y gas. El SIEE no introduce plasma ni valida el globo o el vaso como si la sustancia tuviera forma propia.",
+        "theoreticalJustification": "Forma y volumen definidos caracterizan al sólido. El líquido copia la forma del envase; el gas se expande. El recipiente no es la sustancia.",
+        "distractorAnalysis": {
+            "0": "Trampa de la forma del globo: el gas parece tener forma porque el globo la tiene. Atribuye al aire la geometría del recipiente elástico.",
+            "1": "Trampa del estado más energético: el plasma parece la categoría avanzada. No está en el caso de hielo, agua y aire y no responde forma y volumen definidos.",
+            "2": "Trampa de dominio cruzado del recipiente: validar el líquido porque el vaso no se deforma luce como observación empírica comparable. Confunde la forma del envase con la de la sustancia.",
+        },
+    },
+]
+
+if __name__ == "__main__":
+    sys.exit(dump_and_report(OUT, ITEMS, CI, {}))

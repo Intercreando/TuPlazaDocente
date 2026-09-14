@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 941,
+    "id": "dir-apt-ped-193",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Una clase es solo exposición o solo examen. Un docente estructura inicio (saberes previos), desarrollo (construcción y aplicación) y cierre (síntesis y evaluación).",
+    "stem": "¿Qué momentos debe contemplar, como mínimo, una secuencia didáctica bien estructurada?",
+    "options": [
+      "Inicio (activación de saberes previos), desarrollo (construcción y aplicación) y cierre (síntesis y evaluación).",
+      "Únicamente actividades de evaluación sumativa, aunque ahorre tiempo visible de clase o de consejo.",
+      "Solo la exposición del docente, sin actividad de los estudiantes, aunque ahorre tiempo visible de clase o de consejo.",
+      "Un único momento continuo, sin estructura interna, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Inicio, desarrollo y cierre son la estructura básica de una secuencia didáctica coherente.",
+    "normativeJustification": "Inicio, desarrollo y cierre son la estructura básica de una secuencia didáctica coherente.",
+    "theoreticalJustification": "Inicio, desarrollo y cierre son la estructura básica de una secuencia didáctica coherente.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 942,
+    "id": "dir-apt-ped-194",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Quieren “que los estudiantes se pongan la nota y el docente no evalúe”. Otro usa autoevaluación y coevaluación con criterios, complementando la heteroevaluación, no reemplazándola.",
+    "stem": "¿Qué permiten principalmente la coevaluación y la autoevaluación junto a la heteroevaluación?",
+    "options": [
+      "Reemplazar por completo la evaluación que realiza el docente, aunque se presente como solución rápida en la reunión.",
+      "Que los estudiantes desarrollen criterio sobre su desempeño y el de pares, fortaleciendo la reflexión.",
+      "Reducir la responsabilidad del docente en el proceso evaluativo, aunque parezca un trámite equitativo o suficiente.",
+      "Aplicarse únicamente en educación superior, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Complementan, sin reemplazar, la evaluación docente y fortalecen la reflexión del estudiante.",
+    "normativeJustification": "Complementan, sin reemplazar, la evaluación docente y fortalecen la reflexión del estudiante.",
+    "theoreticalJustification": "Complementan, sin reemplazar, la evaluación docente y fortalecen la reflexión del estudiante.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 943,
+    "id": "dir-apt-ped-195",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "“Uso de TIC” es pasar diapositivas o calificar el dispositivo. Un docente las integra para pensar (simular, contrastar fuentes, producir), no como fin ni para prescindir de lo analógico cuando aporta.",
+    "stem": "Más allá del uso instrumental, ¿qué implica el uso pedagógico de las TIC?",
+    "options": [
+      "Utilizar solo presentaciones digitales en reemplazo del tablero, aunque se presente como solución rápida en la reunión.",
+      "Evaluar el uso de dispositivos como fin en sí mismo, aunque ahorre tiempo visible de clase o de consejo.",
+      "Integrar herramientas digitales de forma intencionada para fortalecer pensamiento y aprendizaje, no solo transmitir.",
+      "Prescindir por completo de materiales físicos o análogos, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "El uso pedagógico intencionado va más allá de lo instrumental y busca fortalecer procesos cognitivos.",
+    "normativeJustification": "El uso pedagógico intencionado va más allá de lo instrumental y busca fortalecer procesos cognitivos.",
+    "theoreticalJustification": "El uso pedagógico intencionado va más allá de lo instrumental y busca fortalecer procesos cognitivos.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 944,
+    "id": "dir-apt-ped-196",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Confunden ABPr y ABP: uno es un problema acotado a resolver; el otro, un producto más amplio y largo. No son “iguales” ni excluyen investigación o trabajo en equipo.",
+    "stem": "¿En qué se diferencia principalmente el aprendizaje basado en problemas del basado en proyectos?",
+    "options": [
+      "El ABPr no requiere investigación por parte del estudiante, aunque ahorre tiempo visible de clase o de consejo.",
+      "El aprendizaje basado en proyectos no admite trabajo en equipo, aunque se presente como solución rápida en la reunión.",
+      "Ambos enfoques son exactamente iguales en estructura y duración, aunque parezca un trámite equitativo o suficiente.",
+      "El ABPr se centra en un problema específico y acotado; el proyecto suele derivar en un producto más amplio y de mayor duración."
+    ],
+    "explanation": "Aunque ambos son activos, difieren en alcance y duración típica de la actividad.",
+    "normativeJustification": "Aunque ambos son activos, difieren en alcance y duración típica de la actividad.",
+    "theoreticalJustification": "Aunque ambos son activos, difieren en alcance y duración típica de la actividad.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 945,
+    "id": "dir-apt-ped-197",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Diagnosticaron “estilos” visual/auditivo/kinestésico y quieren enseñar a cada uno solo en su canal. La evidencia recomienda variedad de estrategias para todos, no un estilo fijo dominante.",
+    "stem": "Respecto a los llamados estilos de aprendizaje, ¿qué recomienda principalmente la evidencia pedagógica actual?",
+    "options": [
+      "Usar variedad de estrategias y recursos para todos, sin limitar la enseñanza a un único estilo supuesto.",
+      "Diagnosticar un único estilo y enseñar solo en ese canal todo el año.",
+      "Evaluar únicamente en el formato “preferido”, aunque no evidencie el aprendizaje esencial.",
+      "Separar el grupo de forma permanente por estilo declarado."
+    ],
+    "explanation": "La evidencia cuestiona estilos fijos y recomienda diversificar estrategias para todos.",
+    "normativeJustification": "La evidencia cuestiona estilos fijos y recomienda diversificar estrategias para todos.",
+    "theoreticalJustification": "La evidencia cuestiona estilos fijos y recomienda diversificar estrategias para todos.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 946,
+    "id": "dir-apt-ped-198",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Una planeación de aula bien formulada debe articular, como mínimo. Un actor propone: “Únicamente el tema a desarrollar, sin ningún propósito explícito”. Otro insiste: “Solo la bibliografía que el docente usará en la clase”. Un tercero sugiere: “Exclusivamente el tiempo de duración de la clase”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Únicamente el tema a desarrollar, sin ningún propósito explícito, aunque se presente como solución rápida en la reunión.",
+      "Los propósitos de aprendizaje, las actividades o desempeños esperados, y las evidencias que permitirán valorar el logro",
+      "Solo la bibliografía que el docente usará en la clase, aunque parezca un trámite equitativo o suficiente.",
+      "Exclusivamente el tiempo de duración de la clase, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Una planeación coherente articula propósitos, desempeños esperados y evidencias.",
+    "normativeJustification": "Una planeación coherente articula propósitos, desempeños esperados y evidencias.",
+    "theoreticalJustification": "Una planeación coherente articula propósitos, desempeños esperados y evidencias.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 947,
+    "id": "dir-apt-ped-199",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La “devolución” es un “bien” genérico a fin de año o solo señalar errores. Un docente da retroalimentación oportuna, específica y con un siguiente paso de mejora.",
+    "stem": "Para que la retroalimentación docente sea efectiva, ¿cómo debe caracterizarse principalmente?",
+    "options": [
+      "Genérica e idéntica para todos, sin distinción de evidencia.",
+      "Entregada únicamente al finalizar el año escolar.",
+      "Oportuna, específica y orientada a acciones concretas de mejora, más que una valoración general.",
+      "Centrada exclusivamente en señalar errores, sin orientación de mejora."
+    ],
+    "explanation": "La retroalimentación efectiva es oportuna, específica y orientada a la mejora.",
+    "normativeJustification": "La retroalimentación efectiva es oportuna, específica y orientada a la mejora.",
+    "theoreticalJustification": "La retroalimentación efectiva es oportuna, específica y orientada a la mejora.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 948,
+    "id": "dir-apt-ped-200",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute El concepto de 'transposición didáctica' se refiere principalmente a. Un actor propone: “La traducción literal de un libro de texto a otro idioma”. Otro insiste: “El traslado físico de estudiantes entre distintas sedes educativas”. Un tercero sugiere: “La sustitución completa del docente por materiales autodidácticos”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "La traducción literal de un libro de texto a otro idioma, aunque parezca un trámite equitativo o suficiente.",
+      "El traslado físico de estudiantes entre distintas sedes educativas, aunque ahorre tiempo visible de clase o de consejo.",
+      "La sustitución completa del docente por materiales autodidácticos, aunque ahorre tiempo visible de clase o de consejo.",
+      "El proceso mediante el cual un saber científico o disciplinar se transforma en un saber enseñable y adaptado al contexto escolar"
+    ],
+    "explanation": "Es la adaptación de un saber disciplinar a una forma enseñable en el contexto escolar (Chevallard).",
+    "normativeJustification": "Es la adaptación de un saber disciplinar a una forma enseñable en el contexto escolar (Chevallard).",
+    "theoreticalJustification": "Es la adaptación de un saber disciplinar a una forma enseñable en el contexto escolar (Chevallard).",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 949,
+    "id": "dir-apt-lec-201",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Enseñar a un estudiante a comprender un texto no se limita a verificar si reconoce las palabras, sino a acompañarlo para que se haga preguntas antes, durante y después de la lectura: qué espera encontrar, si lo que está leyendo tiene sentido y qué aprendió al finalizar. Un docente que modela este tipo de preguntas en voz alta, mientras lee frente al grupo, ayuda a que los estudiantes interioricen estas estrategias y las apliquen de manera autónoma en futuras lecturas.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Modelar preguntas metacognitivas antes, durante y después de la lectura ayuda a que los estudiantes interioricen estrategias de comprensión.",
+      "La comprensión lectora se limita al reconocimiento de palabras.",
+      "Los estudiantes aprenden a comprender un texto sin ninguna guía docente.",
+      "Leer en voz alta frente al grupo no aporta a la comprensión lectora."
+    ],
+    "explanation": "El texto plantea que modelar estas preguntas favorece la interiorización autónoma de estrategias de comprensión.",
+    "normativeJustification": "El texto plantea que modelar estas preguntas favorece la interiorización autónoma de estrategias de comprensión.",
+    "theoreticalJustification": "El texto plantea que modelar estas preguntas favorece la interiorización autónoma de estrategias de comprensión.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 950,
+    "id": "dir-apt-lec-202",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Enseñar a un estudiante a comprender un texto no se limita a verificar si reconoce las palabras, sino a acompañarlo para que se haga preguntas antes, durante y después de la lectura: qué espera encontrar, si lo que está leyendo tiene sentido y qué aprendió al finalizar. Un docente que modela este tipo de preguntas en voz alta, mientras lee frente al grupo, ayuda a que los estudiantes interioricen estas estrategias y las apliquen de manera autónoma en futuras lecturas.",
+    "stem": "Según el texto, ¿en qué momentos se recomienda que el estudiante se haga preguntas sobre el texto?",
+    "options": [
+      "Únicamente después de terminar la lectura.",
+      "Antes, durante y después de la lectura.",
+      "Solo antes de comenzar a leer.",
+      "Exclusivamente cuando el docente lo indique de forma escrita."
+    ],
+    "explanation": "El texto lo menciona explícitamente como los tres momentos clave de la estrategia.",
+    "normativeJustification": "El texto lo menciona explícitamente como los tres momentos clave de la estrategia.",
+    "theoreticalJustification": "El texto lo menciona explícitamente como los tres momentos clave de la estrategia.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

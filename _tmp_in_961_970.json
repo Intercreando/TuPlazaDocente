@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 961,
+    "id": "dir-apt-lec-213",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Más allá del proyecto ambiental institucional, un docente puede integrar la dimensión ambiental en su práctica cotidiana de muchas formas: aprovechando una salida al patio para observar el entorno natural, analizando el consumo de recursos dentro del aula, o vinculando un problema ambiental local con los contenidos de su asignatura. Esta integración cotidiana, aunque no sustituye la planeación institucional, contribuye a que los estudiantes perciban la dimensión ambiental como parte de la vida diaria y no solo como un tema abordado en fechas específicas del calendario escolar.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Integrar la dimensión ambiental en la práctica cotidiana del aula contribuye a que los estudiantes la perciban como parte de la vida diaria.",
+      "La educación ambiental solo puede abordarse mediante el proyecto institucional.",
+      "El consumo de recursos dentro del aula no tiene relación con la educación ambiental.",
+      "La educación ambiental debe limitarse a fechas específicas del calendario escolar."
+    ],
+    "explanation": "El texto plantea la integración cotidiana como un complemento valioso a la planeación institucional.",
+    "normativeJustification": "El texto plantea la integración cotidiana como un complemento valioso a la planeación institucional.",
+    "theoreticalJustification": "El texto plantea la integración cotidiana como un complemento valioso a la planeación institucional.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 962,
+    "id": "dir-apt-lec-214",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Más allá del proyecto ambiental institucional, un docente puede integrar la dimensión ambiental en su práctica cotidiana de muchas formas: aprovechando una salida al patio para observar el entorno natural, analizando el consumo de recursos dentro del aula, o vinculando un problema ambiental local con los contenidos de su asignatura. Esta integración cotidiana, aunque no sustituye la planeación institucional, contribuye a que los estudiantes perciban la dimensión ambiental como parte de la vida diaria y no solo como un tema abordado en fechas específicas del calendario escolar.",
+    "stem": "Según el texto, ¿qué ejemplos se mencionan de integración ambiental en la práctica docente cotidiana?",
+    "options": [
+      "Exclusivamente la lectura de un libro sobre el tema una vez al año.",
+      "Observar el entorno natural, analizar el consumo de recursos y vincular problemas ambientales locales con los contenidos.",
+      "Reemplazar por completo el currículo de ciencias naturales.",
+      "Suspender las clases para dedicar un día exclusivo al tema."
+    ],
+    "explanation": "El texto los menciona explícitamente como ejemplos de esta integración cotidiana.",
+    "normativeJustification": "El texto los menciona explícitamente como ejemplos de esta integración cotidiana.",
+    "theoreticalJustification": "El texto los menciona explícitamente como ejemplos de esta integración cotidiana.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 963,
+    "id": "dir-apt-lec-215",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La motivación de los estudiantes hacia una asignatura no depende únicamente de su interés personal por el tema, sino también del clima que el docente logra construir en el aula: un ambiente donde los estudiantes se sientan seguros para participar, equivocarse y preguntar sin temor a la burla suele asociarse con mayores niveles de motivación, incluso en asignaturas que inicialmente generaban poco interés en el grupo.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La motivación depende exclusivamente del interés personal de cada estudiante.",
+      "El clima de aula no influye en la motivación de los estudiantes.",
+      "Un clima de aula seguro, donde los estudiantes puedan participar y equivocarse sin temor, favorece la motivación.",
+      "La motivación es un factor que el docente no puede influir de ninguna manera."
+    ],
+    "explanation": "El texto plantea el clima de aula como un factor que influye en la motivación, más allá del interés personal inicial.",
+    "normativeJustification": "El texto plantea el clima de aula como un factor que influye en la motivación, más allá del interés personal inicial.",
+    "theoreticalJustification": "El texto plantea el clima de aula como un factor que influye en la motivación, más allá del interés personal inicial.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 964,
+    "id": "dir-apt-lec-216",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La motivación de los estudiantes hacia una asignatura no depende únicamente de su interés personal por el tema, sino también del clima que el docente logra construir en el aula: un ambiente donde los estudiantes se sientan seguros para participar, equivocarse y preguntar sin temor a la burla suele asociarse con mayores niveles de motivación, incluso en asignaturas que inicialmente generaban poco interés en el grupo.",
+    "stem": "Según el texto, ¿en qué tipo de asignaturas puede observarse el efecto de un buen clima de aula sobre la motivación?",
+    "options": [
+      "Únicamente en las asignaturas que ya generaban mucho interés previo.",
+      "Solo en asignaturas relacionadas con el arte.",
+      "Exclusivamente en la educación física.",
+      "Incluso en asignaturas que inicialmente generaban poco interés en el grupo."
+    ],
+    "explanation": "El texto lo señala explícitamente en la última oración.",
+    "normativeJustification": "El texto lo señala explícitamente en la última oración.",
+    "theoreticalJustification": "El texto lo señala explícitamente en la última oración.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 965,
+    "id": "dir-apt-lec-217",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Aplicar la evaluación formativa en el día a día no siempre implica diseñar instrumentos elaborados: puede ser tan sencillo como hacer una pregunta abierta al finalizar la clase, observar el trabajo de los estudiantes mientras resuelven un ejercicio, o pedirles que expliquen con sus propias palabras lo que acaban de aprender. Lo importante no es la sofisticación del instrumento, sino que la información recogida se use realmente para ajustar la siguiente clase.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La evaluación formativa puede aplicarse mediante estrategias sencillas, siempre que la información recogida se use para ajustar la enseñanza.",
+      "La evaluación formativa siempre requiere instrumentos elaborados y sofisticados.",
+      "Observar el trabajo de los estudiantes no aporta información útil para el docente.",
+      "La evaluación formativa no tiene ninguna relación con la planeación de las siguientes clases."
+    ],
+    "explanation": "El texto plantea que lo esencial no es la sofisticación del instrumento, sino el uso pedagógico de la información recogida.",
+    "normativeJustification": "El texto plantea que lo esencial no es la sofisticación del instrumento, sino el uso pedagógico de la información recogida.",
+    "theoreticalJustification": "El texto plantea que lo esencial no es la sofisticación del instrumento, sino el uso pedagógico de la información recogida.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 966,
+    "id": "dir-apt-lec-218",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Aplicar la evaluación formativa en el día a día no siempre implica diseñar instrumentos elaborados: puede ser tan sencillo como hacer una pregunta abierta al finalizar la clase, observar el trabajo de los estudiantes mientras resuelven un ejercicio, o pedirles que expliquen con sus propias palabras lo que acaban de aprender. Lo importante no es la sofisticación del instrumento, sino que la información recogida se use realmente para ajustar la siguiente clase.",
+    "stem": "Según el texto, ¿qué ejemplos se mencionan de estrategias sencillas de evaluación formativa?",
+    "options": [
+      "Exclusivamente exámenes escritos estandarizados.",
+      "Una pregunta abierta al finalizar la clase, observación del trabajo de los estudiantes, y pedirles que expliquen lo aprendido.",
+      "Solo la revisión de cuadernos al final del período.",
+      "Únicamente pruebas externas aplicadas por el Ministerio de Educación."
+    ],
+    "explanation": "El texto los menciona explícitamente como ejemplos de estrategias sencillas de evaluación formativa.",
+    "normativeJustification": "El texto los menciona explícitamente como ejemplos de estrategias sencillas de evaluación formativa.",
+    "theoreticalJustification": "El texto los menciona explícitamente como ejemplos de estrategias sencillas de evaluación formativa.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 967,
+    "id": "dir-apt-lec-219",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Además de la biblioteca escolar central, muchos docentes organizan una pequeña colección de libros dentro de su propia aula, conocida como biblioteca o rincón de lectura. Esta cercanía física con los libros, sumada a la posibilidad de que los estudiantes elijan libremente qué leer en momentos específicos del día, suele asociarse con un mayor hábito de lectura autónoma, especialmente cuando el docente participa activamente recomendando títulos y conversando con los estudiantes sobre lo que están leyendo.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La biblioteca de aula reemplaza por completo la necesidad de una biblioteca escolar central.",
+      "Los estudiantes no deben elegir libremente qué leer en el aula.",
+      "La cercanía a los libros y la libre elección de lectura, junto con la participación activa del docente, favorecen el hábito de lectura autónoma.",
+      "La biblioteca de aula no tiene ninguna relación con el hábito de lectura."
+    ],
+    "explanation": "El texto plantea estos elementos como favorables para el desarrollo de la lectura autónoma.",
+    "normativeJustification": "El texto plantea estos elementos como favorables para el desarrollo de la lectura autónoma.",
+    "theoreticalJustification": "El texto plantea estos elementos como favorables para el desarrollo de la lectura autónoma.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 968,
+    "id": "dir-apt-lec-220",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Además de la biblioteca escolar central, muchos docentes organizan una pequeña colección de libros dentro de su propia aula, conocida como biblioteca o rincón de lectura. Esta cercanía física con los libros, sumada a la posibilidad de que los estudiantes elijan libremente qué leer en momentos específicos del día, suele asociarse con un mayor hábito de lectura autónoma, especialmente cuando el docente participa activamente recomendando títulos y conversando con los estudiantes sobre lo que están leyendo.",
+    "stem": "Según el texto, ¿qué rol cumple el docente para potenciar el efecto de la biblioteca de aula?",
+    "options": [
+      "Debe mantenerse completamente al margen de las elecciones de lectura de los estudiantes.",
+      "Debe imponer los mismos libros a todo el curso.",
+      "Debe eliminar cualquier conversación sobre los libros leídos.",
+      "Participa activamente recomendando títulos y conversando con los estudiantes sobre lo que están leyendo."
+    ],
+    "explanation": "El texto lo señala explícitamente como un factor que potencia el efecto de la biblioteca de aula.",
+    "normativeJustification": "El texto lo señala explícitamente como un factor que potencia el efecto de la biblioteca de aula.",
+    "theoreticalJustification": "El texto lo señala explícitamente como un factor que potencia el efecto de la biblioteca de aula.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 969,
+    "id": "dir-apt-num-221",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente tiene 32 estudiantes en su curso. El 25% obtuvo desempeño superior en la última evaluación. Un docente propone reportar 6 (otra base, redondeo o indicador distinto); otro insiste en 7. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "8",
+      "6",
+      "7",
+      "9"
+    ],
+    "explanation": "32 × 0.25 = 8 estudiantes.",
+    "normativeJustification": "32 × 0.25 = 8 estudiantes.",
+    "theoreticalJustification": "32 × 0.25 = 8 estudiantes.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 970,
+    "id": "dir-apt-num-222",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente califica 28 cuadernos a un ritmo de 5 minutos cada uno. Un docente propone reportar 2h 00min (otra base, redondeo o indicador distinto); otro insiste en 2h 40min. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "2h 00min",
+      "2h 20min",
+      "2h 40min",
+      "3h 00min"
+    ],
+    "explanation": "28 × 5 = 140 minutos = 2 horas con 20 minutos.",
+    "normativeJustification": "28 × 5 = 140 minutos = 2 horas con 20 minutos.",
+    "theoreticalJustification": "28 × 5 = 140 minutos = 2 horas con 20 minutos.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  }
+]

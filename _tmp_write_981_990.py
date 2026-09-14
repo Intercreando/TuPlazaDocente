@@ -1,0 +1,208 @@
+# -*- coding: utf-8 -*-
+"""Reescribe dir-apt-num-233..240 y dir-apt-blan-241..242 (posiciones 981-990)."""
+import sys
+from pathlib import Path
+
+ROOT = Path(r"c:\Users\MSI\Documents\Proyectos\TuPlazaDocente")
+sys.path.insert(0, str(ROOT))
+from _tmp_cnsc_write_common import dump_and_report  # noqa: E402
+
+OUT = ROOT / "_tmp_out_981_990.json"
+CI = {
+    "dir-apt-num-233": 0,
+    "dir-apt-num-234": 1,
+    "dir-apt-num-235": 2,
+    "dir-apt-num-236": 3,
+    "dir-apt-num-237": 0,
+    "dir-apt-num-238": 1,
+    "dir-apt-num-239": 2,
+    "dir-apt-num-240": 3,
+    "dir-apt-blan-241": 0,
+    "dir-apt-blan-242": 1,
+}
+NEEDLE = {
+    "dir-apt-num-233": "12",
+    "dir-apt-num-234": "20%",
+    "dir-apt-num-235": "$13.500",
+    "dir-apt-num-236": "17",
+    "dir-apt-num-237": "330",
+    "dir-apt-num-238": "9",
+    "dir-apt-num-239": "66",
+    "dir-apt-num-240": "15",
+}
+
+ITEMS = [
+    {
+        "id": "dir-apt-num-233",
+        "options": [
+            "Consignar 12 estudiantes de refuerzo en el acta institucional: 40 × 0,70 = 28 en nivel adecuado y 40 − 28 = 12, cifra del comité de calidad, sin redondear ni cambiar la base de 40 del diagnóstico.",
+            "Reportar 10 estudiantes de refuerzo en el PMI, tomando el 25% de 40 (40 × 0,25), como propone el docente, porque deja un cupo de apoyo «cauto» comparable con el histórico de la evaluación diagnóstica.",
+            "Consignar 14 estudiantes de refuerzo en el acta de calidad, usando el 35% de 40 (40 × 0,35), como insiste el segundo docente, para no tensionar el informe de inicio de tema ante Secretaría.",
+            "Registrar 16 estudiantes de refuerzo en el tablero PMI, tomando el 40% de 40 (40 × 0,40) como techo de apoyo, para que el indicador de la diagnóstica luzca alineado con la meta de Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. En el curso de 40, el 70% en nivel adecuado son 28, de modo que el refuerzo es 40 − 28 = 12. Esa es la cifra del acta de la evaluación diagnóstica. El 10 toma el 25% de 40; el 14 toma el 35%; el 16 toma el 40% de la meta PMI. Ninguna conserva el complemento del 70% sobre 40.",
+        "normativeJustification": "El Decreto 1075 y la Guía 34 exigen que el PMI y el acta conserven la matrícula del curso y el indicador pedido. No se sustituye 40 − 28 por 40 × 0,25, por 40 × 0,35 ni por el techo del 40%.",
+        "theoreticalJustification": "El refuerzo es el complemento del 70% sobre 40: 40 × 0,30 = 12. 40 × 0,25 = 10; 40 × 0,35 = 14; 40 × 0,40 = 16 cambian la alícuota o la meta.",
+        "distractorAnalysis": {
+            "1": "Trampa del 25% del docente: 10 = 40 × 0,25. Es el cupo «cauto» que propone para el PMI. Cambia el complemento del 70% y no es 40 − 28 = 12 de refuerzo.",
+            "2": "Trampa del 35% del segundo docente: 14 = 40 × 0,35. Conserva un recuento cercano de apoyo, pero cambia la alícuota del diagnóstico. No opera 12 sobre 40.",
+            "3": "Trampa de dominio cruzado de la meta PMI: 16 = 40 × 0,40. Es un techo plausible de apoyo para Secretaría. Sustituye el 30% de refuerzo por 40% y no es 12.",
+        },
+    },
+    {
+        "id": "dir-apt-num-234",
+        "options": [
+            "Reportar 15% de semanas de proyectos en el PMI, tomando 6 de 40 o recortando dos semanas, como propone el docente, porque deja una intensidad interdisciplinaria «cauta» comparable con el histórico del año escolar.",
+            "Consignar 20% del año escolar en proyectos interdisciplinarios: 8/40 = 20%, cifra del acta del comité de calidad, sin redondear las 8 semanas ni cambiar la base de 40 que pide Secretaría.",
+            "Consignar 25% en el acta de calidad, usando 10 de 40 semanas, como insiste el segundo docente, para no tensionar el informe de proyectos interdisciplinarios ante Secretaría.",
+            "Registrar 30% en el tablero PMI, tomando 12/40 o la meta de aprendizaje por proyectos, para que el uso del calendario luzca alineado con el compromiso de calidad de Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Las 8 semanas de proyectos sobre 40 del año escolar son 8/40 = 20%. Esa es la cifra del acta institucional. El 15% toma 6/40; el 25% toma 10/40; el 30% es meta PMI de proyectos. Ninguna conserva 8 sobre 40.",
+        "normativeJustification": "La intensidad interdisciplinaria se reporta con las semanas reales del proyecto y las 40 del calendario. El PMI no puede recortar a 6, inflar a 10 ni usar un techo del 30% como si fueran 8/40.",
+        "theoreticalJustification": "La proporción es semanas de proyecto / semanas del año. 8/40 = 20%. 6/40 = 15%; 10/40 = 25%; 12/40 = 30% cambian el numerador.",
+        "distractorAnalysis": {
+            "0": "Trampa de recortar a 6 semanas: 15% = 6/40, como propone el docente. Omite 2 semanas de proyectos interdisciplinarios. No es 8/40 = 20% del año escolar.",
+            "2": "Trampa de 10 semanas: 25% = 10/40, como insiste el segundo docente. Infla las 8 semanas del caso. No conserva 8/40 = 20%.",
+            "3": "Trampa de dominio cruzado de la meta PMI: 30% = 12/40 o techo de proyectos. Es un indicador plausible de aprendizaje activo. Sustituye 8 semanas por 12 y no es 20%.",
+        },
+    },
+    {
+        "id": "dir-apt-num-235",
+        "options": [
+            "Reportar $12.000 en el PMI, imprimiendo para 80 estudiantes (80 × 150) y omitiendo un curso, como propone el docente, porque deja un gasto de talleres «ajustado» comparable con el histórico de reprografía.",
+            "Consignar $12.750 en el acta de calidad, usando 85 copias a 150 pesos, como insiste el segundo docente, para no tensionar el informe de impresión de los tres cursos ante Secretaría.",
+            "Consignar $13.500 en el acta institucional: 28 + 32 + 30 = 90 estudiantes y 90 × 150 = 13.500, cifra del comité de calidad, sin recortar cursos ni cambiar el unitario de 150 pesos.",
+            "Registrar $14.250 en el SIMAT, inflando a 95 copias (95 × 150) como cupo holgado, para que el gasto de talleres luzca alineado con la matrícula de calidad de Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Los tres cursos suman 28 + 32 + 30 = 90 estudiantes y 90 × 150 = 13500 pesos. Esa es la cifra del acta de reprografía. 12000 omite un curso (80 × 150); 12750 usa 85 copias; 14250 infla a 95 del SIMAT. Ninguna conserva 90 talleres a 150 pesos.",
+        "normativeJustification": "La compra de copias se reporta con la matrícula real de los tres cursos y el unitario de 150 pesos. El PMI no puede omitir un grupo, usar 85 copias ni inflar a 95 como si fueran 90 × 150.",
+        "theoreticalJustification": "Total = (28 + 32 + 30) × 150 = 90 × 150 = 13.500. 80 × 150 = 12.000; 85 × 150 = 12.750; 95 × 150 = 14.250 cambian n.",
+        "distractorAnalysis": {
+            "0": "Trampa de omitir un curso: $12.000 = 80 × 150, como propone el docente. Recorta la suma 28 + 32 + 30. No es 90 × 150 = 13.500.",
+            "1": "Trampa de 85 copias: $12.750 = 85 × 150, como insiste el segundo docente. Cambia la matrícula de 90. No conserva 28 + 32 + 30 a 150 pesos.",
+            "3": "Trampa de dominio cruzado del cupo SIMAT: $14.250 = 95 × 150. Es un gasto holgado plausible de matrícula. Infla los 90 talleres y no es 13.500.",
+        },
+    },
+    {
+        "id": "dir-apt-num-236",
+        "options": [
+            "Reportar 13 puntos en el PMI, tratando Superior como Básico (3 × 3 + 2 × 2 = 9 + 4), como propone el docente, porque deja un puntaje «cauto» comparable con el histórico de la rúbrica de 4 niveles.",
+            "Consignar 14 puntos en el acta de calidad, tratando Alto como Básico (3 × 2 + 2 × 4 = 6 + 8), como insiste el segundo docente, para no tensionar el informe de la rúbrica ante Secretaría.",
+            "Registrar 15 puntos en el tablero PMI, homogenizando Alto y Superior en 3 (3 × 3 + 2 × 3 = 9 + 6) o 5 criterios × 3, para que el puntaje luzca alineado con la meta de calidad.",
+            "Consignar 17 puntos en el acta institucional: 3 criterios en Alto (3 × 3 = 9) y 2 en Superior (2 × 4 = 8), 9 + 8 = 17, sin cambiar los pesos de la rúbrica de 4 niveles.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Alto vale 3 y Superior vale 4: 3 × 3 + 2 × 4 = 9 + 8 = 17 puntos. Esa es la cifra del acta de la rúbrica. 13 baja Superior a 2; 14 baja Alto a 2; 15 homogeniza en 3. Ninguna conserva los pesos 4, 3, 2 y 1 del caso.",
+        "normativeJustification": "El SIEE reporta la rúbrica con los puntos de cada nivel. El PMI no puede relajar Superior a Básico, Alto a Básico ni unificar en 3 como si el total fuera 3 × 3 + 2 × 4.",
+        "theoreticalJustification": "Puntaje = Σ (criterios × peso). 3 × 3 + 2 × 4 = 17. 3 × 3 + 2 × 2 = 13; 3 × 2 + 2 × 4 = 14; 3 × 3 + 2 × 3 = 15 cambian pesos.",
+        "distractorAnalysis": {
+            "0": "Trampa de bajar Superior a Básico: 13 = 3 × 3 + 2 × 2, como propone el docente. Cambia el peso 4 de Superior. No es 9 + 8 = 17.",
+            "1": "Trampa de bajar Alto a Básico: 14 = 3 × 2 + 2 × 4, como insiste el segundo docente. Cambia el peso 3 de Alto. No conserva 17 puntos.",
+            "2": "Trampa de dominio cruzado del tablero PMI: 15 homogeniza niveles en 3. Es un puntaje comparable plausible de calidad. Pierde la distinción Alto/Superior y no es 17.",
+        },
+    },
+    {
+        "id": "dir-apt-num-237",
+        "options": [
+            "Consignar 330 minutos semanales de matemáticas en el acta: 6 × 55 = 330, cifra del comité de calidad, sin redondear las 6 clases ni cambiar los 55 minutos que pide Secretaría.",
+            "Reportar 320 minutos en el PMI, recortando cerca de 2 minutos por clase (6 × ~53), como propone el docente, porque deja una intensidad «limpia» comparable con el histórico semanal.",
+            "Consignar 310 minutos en el acta de calidad, usando 6 × ~52 o cinco bloques de 62, como insiste el segundo docente, para no tensionar el informe de intensidad de matemáticas ante Secretaría.",
+            "Registrar 300 minutos en el tablero PMI, tomando 6 × 50 como hora lectiva «estándar», para que la jornada de matemáticas luzca alineada con la meta de calidad de Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Seis clases de 55 minutos son 6 × 55 = 330 minutos semanales. Esa es la cifra del acta de intensidad. 320 recorta minutos por clase; 310 usa otra sesión; 300 toma la hora de 50 del PMI. Ninguna conserva 6 × 55.",
+        "normativeJustification": "La intensidad semanal se reporta con el número de clases y los minutos reales de cada una. El PMI no puede recortar a 53, 52 o 50 minutos como si fueran 6 × 55.",
+        "theoreticalJustification": "Minutos = clases × duración. 6 × 55 = 330. 6 × ~53 = 320; 6 × ~52 = 310; 6 × 50 = 300 cambian la sesión.",
+        "distractorAnalysis": {
+            "1": "Trampa de recortar a ~53 minutos: 320 = 6 × ~53, como propone el docente. Baja los 55 minutos de cada clase de matemáticas. No es 6 × 55 = 330.",
+            "2": "Trampa de otra sesión: 310 usa 6 × ~52 o cinco bloques, como insiste el segundo docente. Cambia la duración o el número de clases. No conserva 330 minutos.",
+            "3": "Trampa de dominio cruzado de la hora PMI: 300 = 6 × 50. Es la jornada «estándar» de calidad. Sustituye 55 minutos por 50 y no es 330.",
+        },
+    },
+    {
+        "id": "dir-apt-num-238",
+        "options": [
+            "Reportar 6 estudiantes de trabajo individual en el PMI, tomando 36 ÷ 6 o recortando tres cupos, como propone el docente, porque deja un recuento «cauto» comparable con el histórico de preferencia del curso.",
+            "Consignar 9 estudiantes de trabajo individual en el acta: relación 1 a 3, 4 partes, 36 ÷ 4 = 9, cifra del comité de calidad, sin cambiar la matrícula de 36 ni la razón que pide Secretaría.",
+            "Consignar 12 estudiantes de trabajo individual en el acta de calidad, tomando 36 ÷ 3 como si la razón 1:3 midiera tercios iguales, como insiste el segundo docente, para no tensionar el informe ante Secretaría.",
+            "Registrar 18 estudiantes de trabajo individual en el SIMAT, partiendo el curso a la mitad (36 ÷ 2), para que el indicador de preferencia luzca alineado con el cupo de calidad de Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. La razón 1 a 3 son 4 partes y 36 ÷ 4 = 9 prefieren trabajo individual. Esa es la cifra del acta. 6 divide 36 entre 6; 12 toma tercios; 18 parte el curso a la mitad en el SIMAT. Ninguna conserva la razón 1:3 sobre 36.",
+        "normativeJustification": "La preferencia se reporta con la matrícula real y la razón declarada. El PMI no puede usar sextos, tercios ni la mitad del SIMAT como si 1 + 3 partes fueran 36 ÷ 4.",
+        "theoreticalJustification": "Partes = 1 + 3 = 4; individual = 36 × (1/4) = 9. 36 ÷ 6 = 6; 36 ÷ 3 = 12; 36 ÷ 2 = 18 cambian el número de partes.",
+        "distractorAnalysis": {
+            "0": "Trampa de dividir en 6: 6 = 36 ÷ 6, como propone el docente. Recorta las 4 partes de la razón 1:3. No es 36 ÷ 4 = 9 de trabajo individual.",
+            "2": "Trampa de los tercios: 12 = 36 ÷ 3, como insiste el segundo docente. Lee 1:3 como tres partes iguales. No conserva 9 sobre 36.",
+            "3": "Trampa de dominio cruzado del cupo SIMAT: 18 = 36 ÷ 2. Es la mitad de matrícula, plausible como indicador. Sustituye la razón 1:3 por un 50% y no es 9.",
+        },
+    },
+    {
+        "id": "dir-apt-num-239",
+        "options": [
+            "Reportar 60 evaluaciones pendientes en el PMI, tomando la mitad de 120 (50% restante), como propone el docente, porque deja un rezago «redondo» comparable con el histórico de calificación.",
+            "Consignar 63 pendientes en el acta de calidad, usando 120 × 0,525 o el 45% de 140, como insiste el segundo docente, para no tensionar el informe de avance de las 120 evaluaciones ante Secretaría.",
+            "Consignar 66 evaluaciones por calificar en el acta: 120 × 0,45 = 54 ya calificadas y 120 − 54 = 66, cifra del comité de calidad, sin redondear el 45% ni cambiar la base de 120.",
+            "Registrar 70 pendientes en el tablero PMI, tomando 120 − 50 o un techo de rezago, para que el indicador de calificación luzca alineado con la meta de oportunidad de Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 45% de 120 ya calificado son 54, de modo que faltan 120 − 54 = 66. Esa es la cifra del acta. 60 toma la mitad; 63 aproxima otra alícuota; 70 es techo PMI de rezago. Ninguna conserva el complemento del 45% sobre 120.",
+        "normativeJustification": "El avance de calificación se reporta con el lote real y el porcentaje ya calificado. El PMI no puede usar 50%, una base de 140 ni un techo de 70 como si el resto fuera 120 − 54.",
+        "theoreticalJustification": "Pendientes = n × (1 − 0,45). 120 × 0,55 = 66. 120 × 0,50 = 60; ~120 × 0,525 = 63; 120 − 50 = 70 cambian el complemento.",
+        "distractorAnalysis": {
+            "0": "Trampa de la mitad: 60 = 120 × 0,50, como propone el docente. Sustituye el 45% calificado por un 50% «redondo». No es 120 − 54 = 66.",
+            "1": "Trampa de aproximar a 63: 120 × 0,525 o 45% de 140, como insiste el segundo docente. Cambia la alícuota o la base. No conserva 66 pendientes.",
+            "3": "Trampa de dominio cruzado de la meta PMI: 70 = 120 − 50 o techo de rezago. Es un indicador plausible de oportunidad. Infla los pendientes y no es 66.",
+        },
+    },
+    {
+        "id": "dir-apt-num-240",
+        "options": [
+            "Reportar 10 minutos de cierre en el PMI, copiando el bloque de repaso, como propone el docente, porque deja un cierre «simétrico» comparable con el histórico de la clase de 60 minutos.",
+            "Consignar 12 minutos de cierre en el acta de calidad, tomando el 20% de 60, como insiste el segundo docente, para no tensionar el informe de uso del tiempo ante Secretaría.",
+            "Registrar 13 minutos en el tablero PMI, usando 60 − 10 − 37 o una meta de cierre time-on-task, para que el tramo final luzca alineado con la calidad de Secretaría.",
+            "Consignar 15 minutos de cierre y evaluación en el acta: 60 − 10 − 35 = 15, cifra del comité de calidad, sin redondear ni cambiar los bloques de 10 y 35 que pide Secretaría.",
+        ],
+        "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. De 60 minutos, 10 de repaso y 35 de desarrollo dejan 60 − 10 − 35 = 15 para cierre y evaluación. Esa es la cifra del acta. 10 copia el repaso; 12 toma el 20% de 60; 13 recorta el desarrollo. Ninguna conserva el resto de 15.",
+        "normativeJustification": "El uso del tiempo de clase se reporta con los bloques reales. El PMI no puede copiar los 10 de repaso, tomar el 20% de 60 ni recortar el desarrollo a 37 como si el cierre fuera 60 − 10 − 35.",
+        "theoreticalJustification": "Cierre = 60 − 10 − 35 = 15. Copiar 10, tomar 0,20 × 60 = 12 o usar 60 − 47 = 13 cambian el resto.",
+        "distractorAnalysis": {
+            "0": "Trampa de copiar el repaso: 10 minutos, como propone el docente. Reporta el primer bloque como si fuera el cierre. No es 60 − 10 − 35 = 15.",
+            "1": "Trampa del 20% de 60: 12 minutos, como insiste el segundo docente. Usa una alícuota redonda. No conserva el resto de 15 minutos.",
+            "2": "Trampa de dominio cruzado del time-on-task PMI: 13 minutos recorta el desarrollo o aplica una meta de cierre. Es un tramo plausible de calidad. No es 15.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-241",
+        "options": [
+            "Conversar con el estudiante que interrumpe con comentarios y risas en un momento apropiado, fuera de la exposición pública del grupo, para comprender la causa y pactar acuerdos claros de comportamiento con seguimiento en el aula.",
+            "Anotar en el observador, frente al grupo, cada interrupción como falta al manual, para que el recuento visible restaure el orden de la clase y quede evidencia inmediata de convivencia.",
+            "Descontar puntos de la actividad del día por cada comentario o risa que distraiga, de modo que el SIEE registre la interrupción como evidencia comparable de actitud en el período.",
+            "Remitir de inmediato al estudiante a coordinación para una suspensión corta de la clase, a fin de recuperar el clima y mostrar que la reiteración de risas tiene consecuencia institucional.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un estudiante interrumpe reiteradamente con comentarios y risas. Indagar la causa en un momento apropiado y pactar acuerdos, sin exponerlo ante el grupo, es formativo y sostiene el clima. Anotar faltas en público convierte el observador en escarnio. Descontar puntos usa el SIEE como sanción de actitud. Remitir a suspensión corta prioriza el orden visible y salta el diálogo pedagógico.",
+        "normativeJustification": "La Ley 1620 y el manual exigen debido proceso, confidencialidad y enfoque formativo. El observador público, el descuento de nota y la suspensión exprés no sustituyen el acuerdo pedagógico ni la ruta proporcional.",
+        "theoreticalJustification": "La interrupción reiterada suele tener causa. El acuerdo privado regula sin humillar. El recuento público, la nota de actitud o la remisión inmediata miden escarnio, SIEE o orden, no la conducta ética pedida.",
+        "distractorAnalysis": {
+            "1": "Trampa del observador visible: anotar cada interrupción frente al grupo parece rigor de convivencia. Expone al estudiante y convierte el registro en escarnio, no en acuerdo formativo sobre las risas que distraen.",
+            "2": "Trampa de dominio cruzado del SIEE: descontar puntos por cada comentario deja evidencia comparable de actitud. El stem pide conducta ética e institucional, no convertir la interrupción en calificación del período.",
+            "3": "Trampa de la suspensión corta: remitir a coordinación restaura el clima con rapidez. Salta el diálogo sobre la causa y usa una medida de hecho desproporcionada para comentarios y risas en clase.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-242",
+        "options": [
+            "Abrir de inmediato un plan de recuperación del SIEE y reportar incumplimiento de deberes en el observador, sin conversar aún con el estudiante, para que las semanas sin tarea queden como evidencia comparable de período.",
+            "Conversar con el estudiante para comprender por qué no entrega las tareas desde hace varias semanas e informar a la familia por el canal institucional si la situación persiste, antes de medidas más drásticas.",
+            "Activar de una vez la ruta de convivencia por incumplimiento reiterado de deberes escolares, con llamado a coordinación, para que el manual cubra las semanas sin tarea como falta al pacto de aula.",
+            "Asignar un paquete extra de talleres para entregar al cierre de la semana, como consecuencia visible de las tareas omitidas, sin indagar aún las causas ni avisar a la familia por el canal de la IE.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente antes de medidas más drásticas por varias semanas sin tarea. Conversar para entender las causas e informar a la familia si persiste es proporcional y formativo. Abrir recuperación e observador sin diálogo convierte el SIEE en sanción prematura. Activar convivencia por deberes escolares mezcla 1620 con un problema pedagógico. El paquete extra de talleres es consecuencia visible sin diagnóstico.",
+        "normativeJustification": "El Decreto 1290 y el SIEE piden indagar causas y comunicar a la familia antes de medidas drásticas. La ruta 1620 no es el primer paso por tareas omitidas; el observador y el taller extra no sustituyen ese diálogo.",
+        "theoreticalJustification": "La no entrega reiterada puede ser incomprensión, sobrecarga o falta de apoyo. El diálogo y el aviso familiar habilitan apoyo. La recuperación automática, la convivencia o el paquete extra miden SIEE, 1620 o imagen, no la ética pedida.",
+        "distractorAnalysis": {
+            "0": "Trampa de la recuperación prematura: abrir el SIEE y el observador sin conversar parece rigor de período. Convierte las semanas sin tarea en evidencia sancionatoria y salta la indagación de causas que el stem pide antes de lo drástico.",
+            "2": "Trampa de dominio cruzado de la Ley 1620: activar convivencia por incumplimiento de deberes luce como manual impecable. El caso es pedagógico y de comunicación con la familia, no un conflicto de convivencia que deba abrirse de entrada.",
+            "3": "Trampa de la consecuencia visible: el paquete extra de talleres parece formativo y cierra la semana. No indaga por qué dejó de entregar ni informa a la familia, que es lo defendible antes de medidas más duras.",
+        },
+    },
+]
+
+if __name__ == "__main__":
+    sys.exit(dump_and_report(OUT, ITEMS, CI, NEEDLE))

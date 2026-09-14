@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1011,
+    "id": "dir-apt-dis-263",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Matemáticas · conocimientos básicos",
+    "subtopic": "Matemáticas · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "targetCargo": "matematicas",
+    "normativeRefs": [],
+    "caseContext": "En una secuencia 2, 5, 8, 11, 14, … un estudiante dice que sigue 15 “porque va de uno en uno al final”; otro dice 16 “sumando 2”; otro identifica la diferencia constante +3 y propone 17. Se pide argumentar la regularidad, no adivinar.",
+    "stem": "¿Qué término y justificación evidencian el patrón y qué error hay que reenseñar?",
+    "options": [
+      "Validar 15, porque el último salto “se ve de 1”, aunque parezca un trámite equitativo o suficiente.",
+      "Validar 16, interpolando +2 entre 14 y un número par, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar 17 (diferencia constante +3) y reenseñar no cambiar la razón a mitad de la sucesión.",
+      "Validar 18, duplicando el primer término, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La sucesión es aritmética de razón 3. El siguiente término es 14 + 3 = 17. Cambiar la razón ( +1 o +2) rompe el patrón.",
+    "normativeJustification": "La sucesión es aritmética de razón 3. El siguiente término es 14 + 3 = 17. Cambiar la razón ( +1 o +2) rompe el patrón.",
+    "theoreticalJustification": "La sucesión es aritmética de razón 3. El siguiente término es 14 + 3 = 17. Cambiar la razón ( +1 o +2) rompe el patrón.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1012,
+    "id": "dir-apt-dis-264",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Matemáticas · conocimientos básicos",
+    "subtopic": "Matemáticas · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "targetCargo": "matematicas",
+    "normativeRefs": [],
+    "caseContext": "Al leer 305,7, un estudiante dice “trescientos cinco mil setecientos”; otro “trescientos cinco con siete centésimas”; otro “trescientos cinco con siete décimas”, señalando el primer lugar decimal. La evaluación pide valor posicional, no deletreo.",
+    "stem": "¿Qué lectura evidencia el valor posicional decimal y qué error hay que reenseñar?",
+    "options": [
+      "Validar “trescientos cinco mil setecientos”, leyendo la coma como millar.",
+      "Validar “treinta mil quinientos setenta”, desplazando las cifras.",
+      "Validar “siete centésimas”, porque todo decimal “es centésima”.",
+      "Validar “siete décimas” (primer lugar tras la coma) y reenseñar décima ≠ centésima ni millar."
+    ],
+    "explanation": "En 305,7 el 7 ocupa el lugar de las décimas. No son centésimas ni se lee la parte entera como millar.",
+    "normativeJustification": "En 305,7 el 7 ocupa el lugar de las décimas. No son centésimas ni se lee la parte entera como millar.",
+    "theoreticalJustification": "En 305,7 el 7 ocupa el lugar de las décimas. No son centésimas ni se lee la parte entera como millar.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1013,
+    "id": "dir-apt-dis-265",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Matemáticas · conocimientos básicos",
+    "subtopic": "Matemáticas · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "matematicas"
+    ],
+    "targetCargo": "matematicas",
+    "normativeRefs": [],
+    "caseContext": "Un problema: un tren recorre 240 km en 3 horas a velocidad constante. Un equipo resta 240 − 3; otro divide 240 ÷ 3 = 80 km/h y explica distancia/tiempo. Otro suma 240 + 3. La rúbrica pide magnitud (km/h), no un número suelto.",
+    "stem": "¿Qué procedimiento evidencia velocidad media y qué error hay que reenseñar?",
+    "options": [
+      "Validar 80 km/h (distancia ÷ tiempo) y reenseñar que restar o sumar horas no produce velocidad.",
+      "Validar 70 km/h, “descontando paradas” no mencionadas, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar 90 km/h, redondeando hacia arriba “por seguridad”, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar 60 km/h, usando 4 horas “por si acaso”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Velocidad media = distancia ÷ tiempo = 240 ÷ 3 = 80 km/h. Restar o cambiar el tiempo sin dato inventa otra magnitud.",
+    "normativeJustification": "Velocidad media = distancia ÷ tiempo = 240 ÷ 3 = 80 km/h. Restar o cambiar el tiempo sin dato inventa otra magnitud.",
+    "theoreticalJustification": "Velocidad media = distancia ÷ tiempo = 240 ÷ 3 = 80 km/h. Restar o cambiar el tiempo sin dato inventa otra magnitud.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1014,
+    "id": "dir-apt-dis-266",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Lengua Castellana · conocimientos básicos",
+    "subtopic": "Lengua Castellana · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "lenguaje"
+    ],
+    "targetCargo": "lenguaje",
+    "normativeRefs": [],
+    "caseContext": "En clase se pide identificar un sustantivo. Un estudiante marca “correr” porque “nombra una acción”; otro marca “amabilidad” (cualidad); otros marcan “rápidamente” o “muy”. Se pide criterio de clase de palabra, no “lo que suena a nombre”.",
+    "stem": "¿Qué identificación evidencia el aprendizaje esencial de sustantivo y qué error hay que reenseñar?",
+    "options": [
+      "Validar “correr”: el infinitivo “nombra” y por eso sería sustantivo en cualquier uso, aunque se presente como solución rápida en la reunión.",
+      "Validar “amabilidad” (nombra una cualidad) y reenseñar que infinitivos y adverbios no son sustantivos por defecto.",
+      "Validar “rápidamente”, porque modifica y “parece importante”, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar “muy”, porque intensifica y “acompaña al nombre”, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "“Amabilidad” nombra una cualidad (sustantivo). “Correr” es verbo en infinitivo; “rápidamente” y “muy” son adverbios.",
+    "normativeJustification": "“Amabilidad” nombra una cualidad (sustantivo). “Correr” es verbo en infinitivo; “rápidamente” y “muy” son adverbios.",
+    "theoreticalJustification": "“Amabilidad” nombra una cualidad (sustantivo). “Correr” es verbo en infinitivo; “rápidamente” y “muy” son adverbios.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1015,
+    "id": "dir-apt-dis-267",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Lengua Castellana · conocimientos básicos",
+    "subtopic": "Lengua Castellana · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "lenguaje"
+    ],
+    "targetCargo": "lenguaje",
+    "normativeRefs": [],
+    "caseContext": "Oración: “El perro de mi vecino ladra fuertemente”. Un estudiante dice que el sujeto es “mi vecino” (quien “tiene” el perro); otro dice “ladra fuertemente”; otro identifica “el perro de mi vecino” como quien realiza la acción de ladrar.",
+    "stem": "¿Qué análisis evidencia el sujeto y qué confusión hay que reenseñar, según el marco y la evidencia del caso?",
+    "options": [
+      "Validar “ladra fuertemente” como sujeto, por ser “lo más importante”.",
+      "Validar “mi vecino”, porque el complemento posesivo “manda” en la oración.",
+      "Validar “el perro de mi vecino” (quien ladra) y reenseñar no confundir complemento con núcleo del sujeto.",
+      "Validar “fuertemente”, porque el adverbio “completa” al sujeto."
+    ],
+    "explanation": "El sujeto es quien realiza la acción de “ladra”: “el perro de mi vecino”. “Mi vecino” es complemento del nombre, no el sujeto.",
+    "normativeJustification": "El sujeto es quien realiza la acción de “ladra”: “el perro de mi vecino”. “Mi vecino” es complemento del nombre, no el sujeto.",
+    "theoreticalJustification": "El sujeto es quien realiza la acción de “ladra”: “el perro de mi vecino”. “Mi vecino” es complemento del nombre, no el sujeto.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1016,
+    "id": "dir-apt-dis-268",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Lengua Castellana · conocimientos básicos",
+    "subtopic": "Lengua Castellana · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "lenguaje"
+    ],
+    "targetCargo": "lenguaje",
+    "normativeRefs": [],
+    "caseContext": "Se evalúa la coma tras una subordinada adverbial inicial. Producciones: “Cuando, llegue a casa…”; “Cuando llegue a casa prepararé, la cena…”; “Cuando llegue a casa, prepararé la cena para toda la familia.” La rúbrica pide pausa de la prótasis, no “coma donde se respira”.",
+    "stem": "¿Qué puntuación evidencia el criterio y qué error hay que reenseñar, según el marco y la evidencia del caso?",
+    "options": [
+      "Validar la coma entre verbo y complemento (“prepararé, la cena”).",
+      "Validar la coma que parte la subordinada (“Cuando, llegue”).",
+      "Validar una coma entre “cena” y el complemento (“cena, para toda”).",
+      "Validar la coma tras la subordinada inicial y reenseñar no separar el verbo de su complemento directo."
+    ],
+    "explanation": "Tras la subordinada inicial (“Cuando llegue a casa”) va coma. No se separa el verbo de su complemento ni se parte la prótasis.",
+    "normativeJustification": "Tras la subordinada inicial (“Cuando llegue a casa”) va coma. No se separa el verbo de su complemento ni se parte la prótasis.",
+    "theoreticalJustification": "Tras la subordinada inicial (“Cuando llegue a casa”) va coma. No se separa el verbo de su complemento ni se parte la prótasis.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1017,
+    "id": "dir-apt-dis-269",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Lengua Castellana · conocimientos básicos",
+    "subtopic": "Lengua Castellana · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "lenguaje"
+    ],
+    "targetCargo": "lenguaje",
+    "normativeRefs": [],
+    "caseContext": "Se piden textos para un taller. Un equipo entrega una receta (pasos para hacer algo) y la llama “narrativa porque tiene secuencia”. Otro entrega un cuento con personajes y hechos en el tiempo. Otro un artículo que explica un fenómeno sin relato.",
+    "stem": "¿Qué tipo textual corresponde a narrar hechos en el tiempo y qué confusión hay que reenseñar?",
+    "options": [
+      "El texto narrativo (secuencia de hechos con personajes/tiempo) y reenseñar que no toda secuencia (instructivo) es narración.",
+      "El argumentativo, porque “convence” al contar, aunque se presente como solución rápida en la reunión.",
+      "El expositivo, porque “informa” cualquier secuencia, aunque se presente como solución rápida en la reunión.",
+      "El instructivo, porque los pasos ya son una historia, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El texto narrativo presenta hechos organizados en el tiempo, con personajes. Un instructivo tiene secuencia, pero su propósito es orientar un procedimiento, no relatar.",
+    "normativeJustification": "El texto narrativo presenta hechos organizados en el tiempo, con personajes. Un instructivo tiene secuencia, pero su propósito es orientar un procedimiento, no relatar.",
+    "theoreticalJustification": "El texto narrativo presenta hechos organizados en el tiempo, con personajes. Un instructivo tiene secuencia, pero su propósito es orientar un procedimiento, no relatar.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1018,
+    "id": "dir-apt-dis-270",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Lengua Castellana · conocimientos básicos",
+    "subtopic": "Lengua Castellana · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "lenguaje"
+    ],
+    "targetCargo": "lenguaje",
+    "normativeRefs": [],
+    "caseContext": "En vocabulario, se pide el antónimo de “generoso”. Varias respuestas: “amable”, “solidario”, “bondadoso” (cercanos o sinónimos) y “tacaño”. Un estudiante defiende “amable” porque “suena contrario en el recreo”.",
+    "stem": "¿Qué relación semántica evidencia antónimo y qué error hay que reenseñar?",
+    "options": [
+      "Validar “amable” como opuesto, por contraste coloquial, aunque se presente como solución rápida en la reunión.",
+      "Validar “tacaño” (sentido opuesto) y reenseñar no tomar sinónimos o cercanos como antónimos.",
+      "Validar “solidario”, por parentesco afectivo, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar “bondadoso”, por vecindad de significado, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "“Tacaño” se opone a “generoso”. “Amable”, “solidario” y “bondadoso” son cercanos o sinónimos, no antónimos.",
+    "normativeJustification": "“Tacaño” se opone a “generoso”. “Amable”, “solidario” y “bondadoso” son cercanos o sinónimos, no antónimos.",
+    "theoreticalJustification": "“Tacaño” se opone a “generoso”. “Amable”, “solidario” y “bondadoso” son cercanos o sinónimos, no antónimos.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1019,
+    "id": "dir-apt-dis-271",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Naturales · conocimientos básicos",
+    "subtopic": "Ciencias Naturales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [],
+    "caseContext": "En un dibujo de planta, un equipo escribe que las raíces “hacen la fotosíntesis porque están vivas”; otro que “producen flores”; otro que absorben agua y sales y anclan la planta. La rúbrica pide función, no “todo el órgano sirve para todo”.",
+    "stem": "¿Qué función hay que orientar como aprendizaje esencial y qué error conceptual hay que reenseñar?",
+    "options": [
+      "Validar la fotosíntesis en la raíz, porque “también es verde a veces”, aunque parezca un trámite equitativo o suficiente.",
+      "Validar que la raíz produce flores y frutos, por continuidad de la planta, aunque se presente como solución rápida en la reunión.",
+      "Validar absorción y anclaje, y reenseñar que la fotosíntesis ocurre principalmente en hojas con clorofila.",
+      "Validar que la raíz solo guarda polen, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Las raíces absorben agua y nutrientes y fijan la planta. La fotosíntesis ocurre sobre todo en las hojas, no en la raíz.",
+    "normativeJustification": "Las raíces absorben agua y nutrientes y fijan la planta. La fotosíntesis ocurre sobre todo en las hojas, no en la raíz.",
+    "theoreticalJustification": "Las raíces absorben agua y nutrientes y fijan la planta. La fotosíntesis ocurre sobre todo en las hojas, no en la raíz.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1020,
+    "id": "dir-apt-dis-272",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Naturales · conocimientos básicos",
+    "subtopic": "Ciencias Naturales · conocimientos básicos",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [],
+    "caseContext": "Se clasifican hielo, agua en un vaso y aire en un globo. Un estudiante dice que el líquido tiene forma y volumen fijos “porque el vaso no se deforma”; otro identifica el sólido (hielo) con forma y volumen definidos. Otro atribuye ambos al gas.",
+    "stem": "¿Qué estado evidencia forma y volumen definidos y qué error hay que reenseñar?",
+    "options": [
+      "Validar el gas, porque el globo “tiene forma”.",
+      "Validar el plasma, por ser “el más energético”.",
+      "Validar el líquido, confundiendo la forma del recipiente con la de la sustancia.",
+      "Validar el sólido y reenseñar que el líquido tiene volumen definido pero forma del recipiente."
+    ],
+    "explanation": "El sólido mantiene forma y volumen. El líquido tiene volumen definido y forma del recipiente; el gas no conserva ni forma ni volumen propios.",
+    "normativeJustification": "El sólido mantiene forma y volumen. El líquido tiene volumen definido y forma del recipiente; el gas no conserva ni forma ni volumen propios.",
+    "theoreticalJustification": "El sólido mantiene forma y volumen. El líquido tiene volumen definido y forma del recipiente; el gas no conserva ni forma ni volumen propios.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  }
+]

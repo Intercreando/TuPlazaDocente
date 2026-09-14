@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 991,
+    "id": "dir-apt-blan-243",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un padre de familia cuestiona, de manera respetuosa, una calificación asignada a su hijo en un trabajo escrito. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Negarse a explicar los criterios utilizados en la calificación.",
+      "Cambiar la calificación de inmediato solo para evitar el reclamo.",
+      "Explicar con claridad los criterios de evaluación utilizados y revisar objetivamente el trabajo junto con el padre si es necesario.",
+      "Decirle al padre que no tiene ningún derecho a cuestionar la calificación."
+    ],
+    "explanation": "La transparencia en los criterios y la disposición a revisar objetivamente fortalece la confianza en el proceso evaluativo.",
+    "normativeJustification": "La transparencia en los criterios y la disposición a revisar objetivamente fortalece la confianza en el proceso evaluativo.",
+    "theoreticalJustification": "La transparencia en los criterios y la disposición a revisar objetivamente fortalece la confianza en el proceso evaluativo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 992,
+    "id": "dir-apt-blan-244",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante un examen, el docente sorprende a un estudiante copiando las respuestas de un compañero. ¿Cuál sería la actuación más adecuada en ese momento? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Retirar discretamente el material irregular y abordar la situación formalmente después, según el manual de convivencia."
+    ],
+    "explanation": "Manejar la situación con discreción en el momento y formalizarla después, respetando el debido proceso, es la actuación más adecuada.",
+    "normativeJustification": "Manejar la situación con discreción en el momento y formalizarla después, respetando el debido proceso, es la actuación más adecuada.",
+    "theoreticalJustification": "Manejar la situación con discreción en el momento y formalizarla después, respetando el debido proceso, es la actuación más adecuada.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 993,
+    "id": "dir-apt-blan-245",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante la clase, el docente presencia directamente una situación de acoso entre dos estudiantes. ¿Cuál sería la actuación más adecuada en ese momento? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Intervenir de inmediato para detener la situación, y posteriormente reportarla y activar la ruta de atención institucional correspondiente.",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La intervención inmediata, seguida del reporte formal, es la actuación apropiada ante una situación de acoso presenciada directamente.",
+    "normativeJustification": "La intervención inmediata, seguida del reporte formal, es la actuación apropiada ante una situación de acoso presenciada directamente.",
+    "theoreticalJustification": "La intervención inmediata, seguida del reporte formal, es la actuación apropiada ante una situación de acoso presenciada directamente.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 994,
+    "id": "dir-apt-blan-246",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante con dificultades de aprendizaje se atrasa cada vez más respecto al ritmo del resto del grupo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplicar exactamente las mismas actividades y tiempos que al resto del grupo, sin ningún ajuste.",
+      "Comunicar la situación al equipo de apoyo pedagógico y explorar ajustes razonables en las actividades del estudiante.",
+      "Reducir las expectativas académicas de todo el grupo para nivelar al estudiante.",
+      "Recomendar directamente que el estudiante repita el año, sin ningún proceso previo de apoyo."
+    ],
+    "explanation": "Activar el apoyo pedagógico y ajustar las actividades de forma razonable es la respuesta institucionalmente adecuada.",
+    "normativeJustification": "Activar el apoyo pedagógico y ajustar las actividades de forma razonable es la respuesta institucionalmente adecuada.",
+    "theoreticalJustification": "Activar el apoyo pedagógico y ajustar las actividades de forma razonable es la respuesta institucionalmente adecuada.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 995,
+    "id": "dir-apt-blan-247",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante un trabajo en grupo, dos estudiantes tienen un conflicto por desacuerdos sobre cómo dividir las tareas. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Mediar el conflicto ayudándolos a comunicarse y a acordar una distribución de tareas que ambos consideren justa.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La mediación que fortalece la comunicación entre los estudiantes tiene un valor formativo mayor que resolver el conflicto por ellos.",
+    "normativeJustification": "La mediación que fortalece la comunicación entre los estudiantes tiene un valor formativo mayor que resolver el conflicto por ellos.",
+    "theoreticalJustification": "La mediación que fortalece la comunicación entre los estudiantes tiene un valor formativo mayor que resolver el conflicto por ellos.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 996,
+    "id": "dir-apt-blan-248",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante muy tímido nunca participa voluntariamente en clase, aunque sus trabajos escritos muestran buen desempeño. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Generar oportunidades de participación de menor exposición (en parejas o pequeños grupos) antes de proponer una participación frente a todo el curso."
+    ],
+    "explanation": "Generar oportunidades graduales de participación respeta el ritmo del estudiante mientras fomenta su desarrollo de habilidades comunicativas.",
+    "normativeJustification": "Generar oportunidades graduales de participación respeta el ritmo del estudiante mientras fomenta su desarrollo de habilidades comunicativas.",
+    "theoreticalJustification": "Generar oportunidades graduales de participación respeta el ritmo del estudiante mientras fomenta su desarrollo de habilidades comunicativas.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 997,
+    "id": "dir-apt-blan-249",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un colega le pide al docente que suba la nota de un estudiante en una evaluación compartida, sin ninguna justificación pedagógica de por medio. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Explicarle con respeto que la calificación debe basarse en criterios objetivos, y no acceder a la solicitud sin justificación.",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Mantener la objetividad de los criterios de evaluación, explicando la negativa con respeto, protege la integridad del proceso evaluativo.",
+    "normativeJustification": "Mantener la objetividad de los criterios de evaluación, explicando la negativa con respeto, protege la integridad del proceso evaluativo.",
+    "theoreticalJustification": "Mantener la objetividad de los criterios de evaluación, explicando la negativa con respeto, protege la integridad del proceso evaluativo.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 998,
+    "id": "dir-apt-blan-250",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante llega nuevo a la institución a mitad de año y parece sentirse aislado del resto del grupo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Diseñar actividades que favorezcan su integración social y académica con el grupo, sin exponerlo de forma incómoda.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Diseñar actividades intencionadas de integración, sin exponer innecesariamente al estudiante, favorece su adaptación social y académica.",
+    "normativeJustification": "Diseñar actividades intencionadas de integración, sin exponer innecesariamente al estudiante, favorece su adaptación social y académica.",
+    "theoreticalJustification": "Diseñar actividades intencionadas de integración, sin exponer innecesariamente al estudiante, favorece su adaptación social y académica.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 999,
+    "id": "dir-apt-blan-251",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El docente comete un error de contenido durante la explicación de un tema y se da cuenta poco después, frente al mismo grupo. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Reconocer el error abiertamente frente al grupo y hacer la corrección correspondiente.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Reconocer el error con transparencia modela una actitud de aprendizaje continuo y fortalece la confianza del grupo.",
+    "normativeJustification": "Reconocer el error con transparencia modela una actitud de aprendizaje continuo y fortalece la confianza del grupo.",
+    "theoreticalJustification": "Reconocer el error con transparencia modela una actitud de aprendizaje continuo y fortalece la confianza del grupo.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1000,
+    "id": "dir-apt-blan-252",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Directivo (ola 3)",
+    "subtopic": "Competencias blandas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Varios estudiantes usan el celular de forma reiterada durante la clase, a pesar de las indicaciones dadas al inicio del período. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Recordar con firmeza los acuerdos establecidos en el manual de convivencia y aplicar las consecuencias previstas de manera consistente."
+    ],
+    "explanation": "Aplicar de forma consistente los acuerdos previamente establecidos es más efectivo y formativo que medidas improvisadas o desproporcionadas.",
+    "normativeJustification": "Aplicar de forma consistente los acuerdos previamente establecidos es más efectivo y formativo que medidas improvisadas o desproporcionadas.",
+    "theoreticalJustification": "Aplicar de forma consistente los acuerdos previamente establecidos es más efectivo y formativo que medidas improvisadas o desproporcionadas.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  }
+]

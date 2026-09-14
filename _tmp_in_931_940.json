@@ -1,0 +1,329 @@
+[
+  {
+    "pos": 931,
+    "id": "dir-apt-ped-183",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Quieren “separar el curso por inteligencia dominante” de por vida. Un docente usa Gardner para diversificar formas de presentar y evaluar, sin etiquetar ni evaluar solo lo lógico-matemático.",
+    "stem": "¿Qué sugiere una aplicación pertinente de las inteligencias múltiples en el aula?",
+    "options": [
+      "Que cada estudiante tiene un único tipo de inteligencia fijo de por vida.",
+      "Que solo la inteligencia lógico-matemática debe evaluarse.",
+      "Diversificar formas de presentar y evaluar, reconociendo distintas fortalezas cognitivas.",
+      "Separar grupos permanentes según la inteligencia “dominante”."
+    ],
+    "explanation": "La aplicación pertinente es diversificar estrategias, no etiquetar ni segregar de forma fija.",
+    "normativeJustification": "La aplicación pertinente es diversificar estrategias, no etiquetar ni segregar de forma fija.",
+    "theoreticalJustification": "La aplicación pertinente es diversificar estrategias, no etiquetar ni segregar de forma fija.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 932,
+    "id": "dir-apt-ped-184",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Al iniciar la unidad, aplican un instrumento y lo usan como nota definitiva. Un docente lo usa para identificar saberes previos y reorientar la planeación, no para sancionar ni para reemplazar la formativa del período.",
+    "stem": "¿Cuál es el propósito principal de la evaluación diagnóstica al inicio de un período o unidad?",
+    "options": [
+      "Asignar la calificación definitiva del período.",
+      "usar como medida punitiva a quienes muestran menor desempeño previo.",
+      "Reemplazar la evaluación formativa durante el período.",
+      "Identificar saberes previos y necesidades para orientar la planeación pedagógica."
+    ],
+    "explanation": "La evaluación diagnóstica orienta la planeación a partir del punto de partida real.",
+    "normativeJustification": "La evaluación diagnóstica orienta la planeación a partir del punto de partida real.",
+    "theoreticalJustification": "La evaluación diagnóstica orienta la planeación a partir del punto de partida real.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 933,
+    "id": "dir-apt-ped-185",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Confunden formativa y sumativa: quieren “solo quizzes de proceso” o “solo el examen final”. Se pide el cierre valorativo de un período frente al acompañamiento continuo.",
+    "stem": "A diferencia de la formativa, ¿qué caracteriza principalmente a la evaluación sumativa?",
+    "options": [
+      "Emitir un juicio valorativo final sobre el aprendizaje logrado al cierre de un proceso o período.",
+      "Brindar retroalimentación continua durante todo el proceso, aunque ahorre tiempo visible de clase o de consejo.",
+      "Aplicarse exclusivamente al inicio de cada unidad, aunque se presente como solución rápida en la reunión.",
+      "Excluir cualquier forma de calificación o certificación, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La sumativa cierra un proceso con un juicio valorativo; la formativa acompaña el proceso.",
+    "normativeJustification": "La sumativa cierra un proceso con un juicio valorativo; la formativa acompaña el proceso.",
+    "theoreticalJustification": "La sumativa cierra un proceso con un juicio valorativo; la formativa acompaña el proceso.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 934,
+    "id": "dir-apt-ped-186",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute El portafolio, como estrategia de evaluación, permite principalmente. Un actor propone: “Reducir la evaluación a un único momento del período académico”. Otro insiste: “Sustituir por completo la observación directa del docente”. Un tercero sugiere: “Aplicarse únicamente en la educación superior”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Reducir la evaluación a un único momento del período académico, aunque se presente como solución rápida en la reunión.",
+      "Evidenciar el progreso del estudiante a lo largo del tiempo mediante una selección organizada de sus producciones",
+      "Sustituir por completo la observación directa del docente, aunque parezca un trámite equitativo o suficiente.",
+      "Aplicarse únicamente en la educación superior, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "El portafolio documenta el proceso y la evolución del aprendizaje a lo largo del tiempo.",
+    "normativeJustification": "El portafolio documenta el proceso y la evolución del aprendizaje a lo largo del tiempo.",
+    "theoreticalJustification": "El portafolio documenta el proceso y la evolución del aprendizaje a lo largo del tiempo.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 935,
+    "id": "dir-apt-ped-187",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute El concepto de 'currículo oculto' se refiere a. Un actor propone: “Un documento curricular confidencial que solo conocen los directivos”. Otro insiste: “La parte del currículo dedicada exclusivamente a la evaluación”. Un tercero sugiere: “Un currículo alternativo aplicado únicamente en la educación privada”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Un documento curricular confidencial que solo conocen los directivos, aunque se presente como solución rápida en la reunión.",
+      "La parte del currículo dedicada exclusivamente a la evaluación, aunque parezca un trámite equitativo o suficiente.",
+      "Los aprendizajes, valores y normas que los estudiantes adquieren de manera implícita a través de las dinámicas y relaciones escolares, más allá del currículo formal",
+      "Un currículo alternativo aplicado únicamente en la educación privada, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Alude a los aprendizajes no explícitos transmitidos por la cultura y prácticas institucionales.",
+    "normativeJustification": "Alude a los aprendizajes no explícitos transmitidos por la cultura y prácticas institucionales.",
+    "theoreticalJustification": "Alude a los aprendizajes no explícitos transmitidos por la cultura y prácticas institucionales.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 936,
+    "id": "dir-apt-ped-188",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "vygotsky",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "vygotsky"
+    ],
+    "caseContext": "Un docente “dicta y examina”. Otro facilita que el estudiante construya, con preguntas y andamiaje. No se trata de reemplazar a la familia ni de ser solo juez disciplinario.",
+    "stem": "¿A qué se refiere principalmente el docente como mediador pedagógico, según el marco y la evidencia del caso?",
+    "options": [
+      "A resolver exclusivamente conflictos disciplinarios.",
+      "A reemplazar por completo el rol de la familia en el aprendizaje.",
+      "A evaluar únicamente con pruebas estandarizadas.",
+      "A facilitar y acompañar la construcción de conocimiento, más que transmitir en un solo sentido."
+    ],
+    "explanation": "La mediación pedagógica implica acompañar y facilitar el aprendizaje activo del estudiante.",
+    "normativeJustification": "La mediación pedagógica implica acompañar y facilitar el aprendizaje activo del estudiante.",
+    "theoreticalJustification": "La mediación pedagógica implica acompañar y facilitar el aprendizaje activo del estudiante.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 937,
+    "id": "dir-apt-ped-189",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Proponen “aula invertida” como “nada de explicación nunca” o “solo virtual”. Un docente pide revisar contenidos introductorios fuera y usar la clase para aplicar y profundizar, con mediación.",
+    "stem": "En esta propuesta de reorganizar el tiempo, ¿qué caracteriza principalmente al aula invertida?",
+    "options": [
+      "Que los estudiantes revisan contenidos introductorios fuera del aula y dedican la clase a aplicar y profundizar.",
+      "Eliminar por completo cualquier exposición o mediación del docente, dentro o fuera del aula.",
+      "Invertir el orden de las evaluaciones respecto a las actividades, sin cambiar el uso del tiempo de clase.",
+      "Aplicarse únicamente en educación virtual, como si no pudiera usarse en una IE presencial."
+    ],
+    "explanation": "Traslado de contenidos introductorios fuera del aula para priorizar aplicación en clase.",
+    "normativeJustification": "Traslado de contenidos introductorios fuera del aula para priorizar aplicación en clase.",
+    "theoreticalJustification": "Traslado de contenidos introductorios fuera del aula para priorizar aplicación en clase.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 938,
+    "id": "dir-apt-ped-190",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute La gamificación educativa consiste principalmente en. Un actor propone: “Reemplazar completamente las evaluaciones formales por videojuegos”. Otro insiste: “Aplicarse exclusivamente en la educación inicial”. Un tercero sugiere: “Sustituir la planeación pedagógica por actividades recreativas sin propósito de aprendizaje”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Reemplazar completamente las evaluaciones formales por videojuegos, aunque parezca un trámite equitativo o suficiente.",
+      "Incorporar elementos y dinámicas propias de los juegos (retos, niveles, recompensas) en actividades de aprendizaje para fomentar la motivación",
+      "Aplicarse exclusivamente en la educación inicial, aunque ahorre tiempo visible de clase o de consejo.",
+      "Sustituir la planeación pedagógica por actividades recreativas sin propósito de aprendizaje, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Usa elementos del juego para motivar el aprendizaje, sin reemplazar el propósito pedagógico.",
+    "normativeJustification": "Usa elementos del juego para motivar el aprendizaje, sin reemplazar el propósito pedagógico.",
+    "theoreticalJustification": "Usa elementos del juego para motivar el aprendizaje, sin reemplazar el propósito pedagógico.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 939,
+    "id": "dir-apt-ped-191",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El “programa socioemocional” es memorizar definiciones o prohibir expresar emociones. Un docente busca que reconozcan y gestionen emociones y se relacionen de forma asertiva.",
+    "stem": "¿Qué busca principalmente el desarrollo de competencias socioemocionales en el aula?",
+    "options": [
+      "recitar definiciones teóricas sobre las emociones.",
+      "Evaluarlas exclusivamente con pruebas escritas estandarizadas.",
+      "Reconocer y gestionar emociones, y relacionarse de manera asertiva.",
+      "Evitar expresar cualquier emoción dentro del aula."
+    ],
+    "explanation": "Apuntan al reconocimiento, gestión emocional y relación asertiva con los demás.",
+    "normativeJustification": "Apuntan al reconocimiento, gestión emocional y relación asertiva con los demás.",
+    "theoreticalJustification": "Apuntan al reconocimiento, gestión emocional y relación asertiva con los demás.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 940,
+    "id": "dir-apt-ped-192",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Confunden autonomía con “trabajar siempre solo y sin devolución”. Un estudiante planifica, ejecuta y revisa su proceso, con mediación y criterios. No es independencia extrema ni dependencia total del docente.",
+    "stem": "¿Qué caracteriza principalmente al aprendizaje autónomo, según el marco y la evidencia del caso?",
+    "options": [
+      "Trabajar siempre de manera individual, sin interacción.",
+      "Depender exclusivamente de la instrucción directa del docente.",
+      "No requerir ningún tipo de retroalimentación.",
+      "Asumir un rol activo en la planificación, ejecución y evaluación del propio aprendizaje."
+    ],
+    "explanation": "Implica un rol activo y autorregulado, no necesariamente en soledad.",
+    "normativeJustification": "Implica un rol activo y autorregulado, no necesariamente en soledad.",
+    "theoreticalJustification": "Implica un rol activo y autorregulado, no necesariamente en soledad.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

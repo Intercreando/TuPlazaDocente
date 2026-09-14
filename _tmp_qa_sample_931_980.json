@@ -1,0 +1,97 @@
+[
+  {
+    "id": "dir-apt-ped-196",
+    "correctIndex": 3,
+    "pillar": "pedagogico",
+    "caseContext": "Confunden ABPr y ABP: uno es un problema acotado a resolver; el otro, un producto más amplio y largo. No son “iguales” ni excluyen investigación o trabajo en equipo.",
+    "stem": "¿En qué se diferencia principalmente el aprendizaje basado en problemas del basado en proyectos?",
+    "options": [
+      "El aprendizaje basado en problemas no requiere investigación por parte del estudiante, de modo que el tiempo de clase se destine a resolver el enunciado acotado y se gane ritmo frente al proyecto de mayor duración.",
+      "El aprendizaje basado en proyectos no admite trabajo en equipo, para que cada evidencia sea individual y comparable en el boletín, a diferencia del problema acotado que sí se resolvería en grupo.",
+      "Tratar ambos enfoques como el mismo indicador de aprendizaje activo para la visita de calidad, iguales en estructura y duración, de modo que el PMI los reporte sin distinguir el problema acotado del producto amplio.",
+      "El aprendizaje basado en problemas se centra en un problema específico y acotado; el basado en proyectos suele derivar en un producto más amplio y de mayor duración, y ninguno excluye investigación ni trabajo en equipo."
+    ],
+    "explanation": "La condición de calidad pregunta en qué se diferencia principalmente el aprendizaje basado en problemas del basado en proyectos. El primero se centra en un problema específico y acotado; el segundo suele derivar en un producto más amplio y de mayor duración. Afirmar que el problema no exige investigación vacía el ABPr para ganar ritmo de clase. Negar el trabajo en equipo en el proyecto sirve al boletín individual, no al enfoque. Tratarlos como el mismo indicador de aprendizaje activo del PMI borra la diferencia de alcance. Ambos son activos; difieren en objeto y duración.",
+    "distractorAnalysis": {
+      "0": "Trampa de omitir la investigación: resolver el enunciado acotado sin indagar parece ganar ritmo frente al proyecto. El ABPr exige investigación del estudiante; no se diferencia del ABP por ahorrar pesquisa.",
+      "1": "Trampa de la evidencia individual: negar el equipo en el proyecto parece rigor de boletín comparable. El ABP admite trabajo colaborativo; la diferencia con el ABPr no es la imposibilidad de agrupar.",
+      "2": "Trampa de dominio cruzado del PMI: tratarlos como el mismo indicador de aprendizaje activo, iguales en estructura y duración, parece eficiencia ante la visita. Borra el problema acotado frente al producto amplio."
+    }
+  },
+  {
+    "id": "dir-apt-lec-207",
+    "correctIndex": 2,
+    "pillar": "lecturaCritica",
+    "caseContext": "Enseñar a escribir no consiste únicamente en corregir la ortografía de un texto ya terminado, sino en acompañar al estudiante a lo largo de un proceso que incluye planificar qué va a escribir, redactar una primera versión, y revisar y reescribir a partir de la retroalimentación recibida. Cuando un docente solo evalúa el producto final, sin haber acompañado las etapas previas, pierde la oportunidad de identificar en qué momento del proceso el estudiante enfrenta mayores dificultades.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Enseñar a escribir se reduce a corregir la ortografía del texto ya terminado, de modo que la labor docente se agota en la revisión formal del producto y no en acompañar planificación, redacción y reescritura.",
+      "El proceso de escritura no requiere acompañamiento docente en la planificación ni en la primera versión, porque el estudiante construye el texto por su cuenta y la revisión llega después, sobre el producto ya cerrado.",
+      "Acompañar las etapas de planificación, redacción y revisión es clave para enseñar a escribir, más allá de evaluar el producto final, porque esas fases permiten identificar dónde el estudiante enfrenta mayores dificultades.",
+      "La etapa de revisión es la evidencia comparable de cierre en el SIEE, y las fases de planificación y redacción resultan opcionales para la valoración, porque lo que cuenta es el texto final homologable del período."
+    ],
+    "explanation": "La pregunta pide la idea principal del texto. Enseñar a escribir no se agota en corregir la ortografía del producto terminado: hay que acompañar planificación, redacción de una primera versión, revisión y reescritura a partir de la retroalimentación. Reducir la enseñanza a la ortografía del texto final toma un detalle que el pasaje niega y lo presenta como tesis. Afirmar que el proceso no requiere acompañamiento docente invierte el núcleo del relato. Tratar la revisión como evidencia comparable de cierre del SIEE, con las etapas previas como opcionales, importa un criterio de evaluación que el texto no formula.",
+    "distractorAnalysis": {
+      "0": "Trampa del detalle de la ortografía: corregir el texto terminado aparece en el pasaje y parece el oficio de enseñar a escribir. El texto lo niega como reducción y sitúa la idea principal en acompañar planificación, redacción y revisión.",
+      "1": "Trampa de la inversión del acompañamiento: dejar al estudiante solo en las etapas previas parece fomentar autonomía. El relato sostiene que enseñar a escribir consiste en acompañar el proceso, no en esperar el producto cerrado.",
+      "3": "Trampa de dominio cruzado del SIEE: tomar la revisión como evidencia comparable de cierre parece rigor evaluativo. El texto no vuelve opcionales la planificación ni la redacción; las presenta como etapas del proceso."
+    }
+  },
+  {
+    "id": "dir-apt-lec-220",
+    "correctIndex": 3,
+    "pillar": "lecturaCritica",
+    "caseContext": "Además de la biblioteca escolar central, muchos docentes organizan una pequeña colección de libros dentro de su propia aula, conocida como biblioteca o rincón de lectura. Esta cercanía física con los libros, sumada a la posibilidad de que los estudiantes elijan libremente qué leer en momentos específicos del día, suele asociarse con un mayor hábito de lectura autónoma, especialmente cuando el docente participa activamente recomendando títulos y conversando con los estudiantes sobre lo que están leyendo.",
+    "stem": "Según el texto, ¿qué rol cumple el docente para potenciar el efecto de la biblioteca de aula?",
+    "options": [
+      "Conservar una distancia respecto de las elecciones del rincón de aula, sin recomendar títulos ni conversar sobre lo leído, para no interferir con el hábito autónomo de los estudiantes.",
+      "Asignar los mismos títulos de la biblioteca de aula a todo el curso, en clave de equidad de evidencias, de modo que la elección libre en momentos específicos del día quede sustituida por una lista común.",
+      "Retirar la conversación sobre los libros y dejar evidencia escrita comparable de lectura para el SIEE, de modo que el rincón se reporta como nota de proceso y no como diálogo sobre títulos.",
+      "El docente participa activamente recomendando títulos de la biblioteca de aula y conversando con los estudiantes sobre lo que están leyendo, para potenciar el hábito autónomo junto a la elección libre."
+    ],
+    "explanation": "La condición de calidad pregunta qué rol cumple el docente para potenciar el efecto de la biblioteca de aula. El texto señala participación activa: recomendar títulos y conversar con los estudiantes sobre lo que están leyendo. Mantenerse al margen niega esa participación. Imponer los mismos libros a todo el curso contradice la elección libre. Dejar evidencia comparable para el SIEE importa un cierre de calificación que el pasaje no pide.",
+    "distractorAnalysis": {
+      "0": "Trampa de la no interferencia: alejarse de las elecciones del rincón parece respetar la autonomía lectora. El texto pide lo contrario: participación activa recomendando títulos y conversando sobre lo que están leyendo.",
+      "1": "Trampa de la lista común: asignar los mismos libros a todo el curso parece equidad de evidencias. Contradice la elección libre en momentos específicos del día que el pasaje asocia al hábito autónomo.",
+      "2": "Trampa de dominio cruzado del SIEE: retirar la conversación y dejar evidencia escrita comparable es un cierre plausible de proceso. El texto no pide nota de lectura; pide recomendar títulos y conversar sobre lo leído."
+    }
+  },
+  {
+    "id": "dir-apt-lec-212",
+    "correctIndex": 3,
+    "pillar": "lecturaCritica",
+    "caseContext": "En instituciones con población estudiantil diversa, un docente puede encontrarse con estudiantes que hablan una lengua materna distinta al español o que provienen de tradiciones culturales poco conocidas para el resto del grupo. Reconocer y valorar esta diversidad en el aula, por ejemplo mediante actividades que visibilicen distintas expresiones culturales, no solo fortalece la identidad de los estudiantes pertenecientes a estos grupos, sino que enriquece la experiencia educativa de todo el curso.",
+    "stem": "Según el texto, ¿qué beneficio adicional tiene visibilizar distintas expresiones culturales en el aula?",
+    "options": [
+      "Reduce el tiempo dedicado a otras áreas del currículo, porque visibilizar lenguas maternas y tradiciones poco conocidas desplazaría horas de las asignaturas y recortaría la malla del resto del grupo.",
+      "Elimina la necesidad de trabajar otras competencias, porque la visibilidad cultural ya constituye el ajuste razonable del Decreto 1421 y del PIAR, y con ello se daría por atendida la diversidad del curso.",
+      "Beneficia a los estudiantes de origen diverso y deja por fuera al resto del curso, de modo que las actividades de visibilidad cultural no enriquecerían la experiencia educativa del grupo en su conjunto.",
+      "Enriquece la experiencia educativa de todo el curso, además de fortalecer la identidad de los estudiantes que hablan una lengua materna distinta al español o provienen de tradiciones culturales poco conocidas."
+    ],
+    "explanation": "La pregunta pide, según el texto, qué beneficio adicional tiene visibilizar distintas expresiones culturales en el aula. El pasaje lo formula al cierre: esa visibilidad enriquece la experiencia educativa de todo el curso, además de fortalecer la identidad de los grupos diversos. Reducir el tiempo de otras áreas inventa un costo curricular no dicho. Dar por cumplido el Decreto 1421 y el PIAR con la visibilidad cultural desplaza el beneficio hacia un ajuste de apoyo. Restringir el provecho a los estudiantes de origen diverso contradice la expresión de que se enriquece todo el curso.",
+    "distractorAnalysis": {
+      "0": "Trampa del costo curricular no dicho: recortar horas de otras áreas parece el precio de visibilizar culturas. El texto no menciona esa pérdida; señala un beneficio adicional para la experiencia de todo el curso.",
+      "1": "Trampa de dominio cruzado del Decreto 1421 y del PIAR: dar por atendida la diversidad con la visibilidad cultural parece un ajuste razonable. El texto no elimina otras competencias; describe un enriquecimiento de todo el curso.",
+      "2": "Trampa de restringir el destinatario: reservar el provecho a los estudiantes de origen diverso parece leer el fortalecimiento identitario. El pasaje añade de forma expresa que se enriquece la experiencia de todo el curso."
+    }
+  },
+  {
+    "id": "dir-apt-num-225",
+    "correctIndex": 0,
+    "pillar": "aptitudNumerica",
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una prueba de 20 preguntas, un estudiante respondió correctamente el 80%. Un docente propone reportar 14 (otra base, redondeo o indicador distinto); otro insiste en 15. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Consignar 16 aciertos en el acta institucional: 20 × 0,80 = 16 preguntas de la prueba, cifra del comité de calidad, sin redondear el 80% ni cambiar la base de 20 ítems que pide Secretaría para el PMI.",
+      "Reportar 14 aciertos en el PMI, aplicando 70% a las 20 preguntas (20 × 0,70), como propone el docente, porque deja un desempeño «cauto» comparable con el histórico de la prueba del curso.",
+      "Consignar 15 aciertos en el acta de calidad, usando 75% de 20 (20 × 0,75) o tres cuartos «redondos», como insiste el segundo docente, para no tensionar el informe de la prueba ante Secretaría.",
+      "Registrar 18 aciertos en el tablero PMI, tomando 90% de las 20 preguntas (20 × 0,90) como techo de acierto, para que el indicador de la prueba luzca alineado con la meta de Secretaría."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. En la prueba de 20 preguntas el 80% de acierto es 20 × 0,80 = 16. Esa es la cifra del acta institucional. 14 aplica 70%; 15 aplica 75%; 18 aplica 90% de la meta PMI. Ninguna conserva el 80% sobre las 20 preguntas del caso.",
+    "distractorAnalysis": {
+      "1": "Trampa del 70% del docente: 14 = 20 × 0,70. Es el desempeño «cauto» que propone. Cambia el 80% de acierto de la prueba. No es 20 × 0,80 = 16.",
+      "2": "Trampa de los tres cuartos: 15 = 20 × 0,75, como insiste el segundo docente. Usa un 75% «redondo». No conserva el 80% sobre las 20 preguntas.",
+      "3": "Trampa de dominio cruzado de la meta PMI: 18 = 20 × 0,90. Es el techo de acierto de calidad. Sustituye el 80% del caso por 90% y no es 16."
+    }
+  }
+]

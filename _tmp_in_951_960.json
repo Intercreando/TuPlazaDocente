@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 951,
+    "id": "dir-apt-lec-203",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Durante mucho tiempo, el error en matemáticas se trató como algo que debía evitarse o corregirse de inmediato. Sin embargo, distintas investigaciones en didáctica de las matemáticas sugieren que analizar el error junto con los estudiantes —entender por qué llegaron a una respuesta incorrecta— puede ser una oportunidad valiosa de aprendizaje, siempre que el docente cree un ambiente de confianza donde equivocarse no se perciba como un fracaso, sino como parte natural del proceso de construcción del conocimiento matemático.",
+    "stem": "Según el texto, ¿qué sugieren las investigaciones recientes sobre el error en matemáticas?",
+    "options": [
+      "Que el error debe evitarse y corregirse de inmediato sin ningún análisis.",
+      "Que los errores no tienen ningún valor pedagógico.",
+      "Que analizar el error junto con los estudiantes puede ser una oportunidad valiosa de aprendizaje.",
+      "Que solo los estudiantes con mejor desempeño deben analizar sus errores."
+    ],
+    "explanation": "El texto lo plantea como la idea central derivada de la investigación en didáctica de las matemáticas.",
+    "normativeJustification": "El texto lo plantea como la idea central derivada de la investigación en didáctica de las matemáticas.",
+    "theoreticalJustification": "El texto lo plantea como la idea central derivada de la investigación en didáctica de las matemáticas.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 952,
+    "id": "dir-apt-lec-204",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Durante mucho tiempo, el error en matemáticas se trató como algo que debía evitarse o corregirse de inmediato. Sin embargo, distintas investigaciones en didáctica de las matemáticas sugieren que analizar el error junto con los estudiantes —entender por qué llegaron a una respuesta incorrecta— puede ser una oportunidad valiosa de aprendizaje, siempre que el docente cree un ambiente de confianza donde equivocarse no se perciba como un fracaso, sino como parte natural del proceso de construcción del conocimiento matemático.",
+    "stem": "¿Qué condición señala el texto como necesaria para que el análisis del error sea productivo?",
+    "options": [
+      "Que el docente corrija el error sin ninguna explicación.",
+      "Que el estudiante repita el ejercicio de memoria.",
+      "Que el error se señale públicamente frente a todo el curso.",
+      "Que el docente cree un ambiente de confianza donde equivocarse no se perciba como un fracaso."
+    ],
+    "explanation": "El texto lo señala explícitamente como condición para que el error se convierta en oportunidad de aprendizaje.",
+    "normativeJustification": "El texto lo señala explícitamente como condición para que el error se convierta en oportunidad de aprendizaje.",
+    "theoreticalJustification": "El texto lo señala explícitamente como condición para que el error se convierta en oportunidad de aprendizaje.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 953,
+    "id": "dir-apt-lec-205",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Cuando los estudiantes trabajan en equipo para resolver una tarea, no todos aprenden de la misma manera solo por estar agrupados: la investigación sobre aprendizaje colaborativo señala que el diseño de la actividad debe generar una verdadera necesidad de interdependencia, de modo que ningún integrante pueda completar la tarea sin el aporte de los demás. De lo contrario, el trabajo en equipo puede convertirse en una simple división de tareas individuales sin beneficio adicional para el aprendizaje.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Para que el trabajo en equipo beneficie el aprendizaje, la actividad debe diseñarse para generar interdependencia real entre los integrantes.",
+      "Agrupar a los estudiantes siempre garantiza un aprendizaje colaborativo efectivo.",
+      "El trabajo en equipo nunca aporta beneficios adicionales al aprendizaje individual.",
+      "La interdependencia entre estudiantes no influye en los resultados del trabajo en equipo."
+    ],
+    "explanation": "El texto plantea que la interdependencia, y no solo el agrupamiento, es la condición para un aprendizaje colaborativo real.",
+    "normativeJustification": "El texto plantea que la interdependencia, y no solo el agrupamiento, es la condición para un aprendizaje colaborativo real.",
+    "theoreticalJustification": "El texto plantea que la interdependencia, y no solo el agrupamiento, es la condición para un aprendizaje colaborativo real.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 954,
+    "id": "dir-apt-lec-206",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Cuando los estudiantes trabajan en equipo para resolver una tarea, no todos aprenden de la misma manera solo por estar agrupados: la investigación sobre aprendizaje colaborativo señala que el diseño de la actividad debe generar una verdadera necesidad de interdependencia, de modo que ningún integrante pueda completar la tarea sin el aporte de los demás. De lo contrario, el trabajo en equipo puede convertirse en una simple división de tareas individuales sin beneficio adicional para el aprendizaje.",
+    "stem": "Según el texto, ¿qué puede ocurrir si la actividad no genera una verdadera interdependencia?",
+    "options": [
+      "Los estudiantes aprenden automáticamente más rápido.",
+      "El trabajo en equipo se convierte en una simple división de tareas individuales sin beneficio adicional.",
+      "La actividad se vuelve imposible de realizar.",
+      "El docente pierde el control total del grupo."
+    ],
+    "explanation": "El texto lo señala explícitamente en la última oración.",
+    "normativeJustification": "El texto lo señala explícitamente en la última oración.",
+    "theoreticalJustification": "El texto lo señala explícitamente en la última oración.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 955,
+    "id": "dir-apt-lec-207",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Enseñar a escribir no consiste únicamente en corregir la ortografía de un texto ya terminado, sino en acompañar al estudiante a lo largo de un proceso que incluye planificar qué va a escribir, redactar una primera versión, y revisar y reescribir a partir de la retroalimentación recibida. Cuando un docente solo evalúa el producto final, sin haber acompañado las etapas previas, pierde la oportunidad de identificar en qué momento del proceso el estudiante enfrenta mayores dificultades.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Enseñar a escribir se reduce a corregir la ortografía del texto final.",
+      "El proceso de escritura no requiere ningún acompañamiento docente.",
+      "Acompañar las etapas de planificación, redacción y revisión es clave para enseñar a escribir, más allá de evaluar solo el producto final.",
+      "Solo la etapa de revisión es relevante en el proceso de escritura."
+    ],
+    "explanation": "El texto plantea la importancia de acompañar todas las etapas del proceso, no solo evaluar el resultado final.",
+    "normativeJustification": "El texto plantea la importancia de acompañar todas las etapas del proceso, no solo evaluar el resultado final.",
+    "theoreticalJustification": "El texto plantea la importancia de acompañar todas las etapas del proceso, no solo evaluar el resultado final.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 956,
+    "id": "dir-apt-lec-208",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Enseñar a escribir no consiste únicamente en corregir la ortografía de un texto ya terminado, sino en acompañar al estudiante a lo largo de un proceso que incluye planificar qué va a escribir, redactar una primera versión, y revisar y reescribir a partir de la retroalimentación recibida. Cuando un docente solo evalúa el producto final, sin haber acompañado las etapas previas, pierde la oportunidad de identificar en qué momento del proceso el estudiante enfrenta mayores dificultades.",
+    "stem": "Según el texto, ¿qué pierde el docente que solo evalúa el producto final de un texto?",
+    "options": [
+      "La posibilidad de calificar el texto.",
+      "El control disciplinario del grupo.",
+      "El tiempo de la clase.",
+      "La oportunidad de identificar en qué momento del proceso el estudiante enfrenta mayores dificultades."
+    ],
+    "explanation": "El texto lo señala explícitamente en la última oración.",
+    "normativeJustification": "El texto lo señala explícitamente en la última oración.",
+    "theoreticalJustification": "El texto lo señala explícitamente en la última oración.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 957,
+    "id": "dir-apt-lec-209",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En la primera infancia, el juego no es simplemente una actividad de descanso entre momentos de aprendizaje: es, en sí mismo, una de las formas privilegiadas mediante las cuales los niños exploran el mundo, resuelven problemas y desarrollan habilidades sociales. Un docente que planifica situaciones de juego con una intención pedagógica clara —sin convertirlo en una actividad completamente libre ni en un ejercicio académico disfrazado— puede potenciar aprendizajes significativos sin renunciar al placer y la espontaneidad propios de esta etapa.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El juego, cuando se planifica con intención pedagógica, puede potenciar aprendizajes significativos en la primera infancia.",
+      "El juego es únicamente una actividad de descanso sin ningún valor pedagógico.",
+      "El juego debe convertirse siempre en un ejercicio académico estructurado.",
+      "La primera infancia no requiere de ningún tipo de planificación docente."
+    ],
+    "explanation": "El texto plantea el juego como una vía privilegiada de aprendizaje cuando se planifica con intención pedagógica.",
+    "normativeJustification": "El texto plantea el juego como una vía privilegiada de aprendizaje cuando se planifica con intención pedagógica.",
+    "theoreticalJustification": "El texto plantea el juego como una vía privilegiada de aprendizaje cuando se planifica con intención pedagógica.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 958,
+    "id": "dir-apt-lec-210",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En la primera infancia, el juego no es simplemente una actividad de descanso entre momentos de aprendizaje: es, en sí mismo, una de las formas privilegiadas mediante las cuales los niños exploran el mundo, resuelven problemas y desarrollan habilidades sociales. Un docente que planifica situaciones de juego con una intención pedagógica clara —sin convertirlo en una actividad completamente libre ni en un ejercicio académico disfrazado— puede potenciar aprendizajes significativos sin renunciar al placer y la espontaneidad propios de esta etapa.",
+    "stem": "Según el texto, ¿qué debe evitar el docente al planificar situaciones de juego?",
+    "options": [
+      "Dar cualquier tipo de espacio a la espontaneidad de los niños.",
+      "Convertirlo en una actividad completamente libre o en un ejercicio académico disfrazado.",
+      "Incluir cualquier intención pedagógica en la actividad.",
+      "Permitir que los niños resuelvan problemas durante el juego."
+    ],
+    "explanation": "El texto lo señala explícitamente como los dos extremos que deben evitarse.",
+    "normativeJustification": "El texto lo señala explícitamente como los dos extremos que deben evitarse.",
+    "theoreticalJustification": "El texto lo señala explícitamente como los dos extremos que deben evitarse.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 959,
+    "id": "dir-apt-lec-211",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En instituciones con población estudiantil diversa, un docente puede encontrarse con estudiantes que hablan una lengua materna distinta al español o que provienen de tradiciones culturales poco conocidas para el resto del grupo. Reconocer y valorar esta diversidad en el aula, por ejemplo mediante actividades que visibilicen distintas expresiones culturales, no solo fortalece la identidad de los estudiantes pertenecientes a estos grupos, sino que enriquece la experiencia educativa de todo el curso.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La diversidad cultural en el aula debe ignorarse para mantener la homogeneidad del grupo.",
+      "Solo los estudiantes de una lengua materna distinta deben participar en actividades culturales.",
+      "Reconocer y valorar la diversidad cultural en el aula fortalece la identidad de los estudiantes y enriquece la experiencia de todo el curso.",
+      "La diversidad cultural es un obstáculo para el aprendizaje del grupo."
+    ],
+    "explanation": "El texto plantea el reconocimiento de la diversidad como un beneficio tanto individual como colectivo.",
+    "normativeJustification": "El texto plantea el reconocimiento de la diversidad como un beneficio tanto individual como colectivo.",
+    "theoreticalJustification": "El texto plantea el reconocimiento de la diversidad como un beneficio tanto individual como colectivo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 960,
+    "id": "dir-apt-lec-212",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 3)",
+    "subtopic": "Lectura crítica · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En instituciones con población estudiantil diversa, un docente puede encontrarse con estudiantes que hablan una lengua materna distinta al español o que provienen de tradiciones culturales poco conocidas para el resto del grupo. Reconocer y valorar esta diversidad en el aula, por ejemplo mediante actividades que visibilicen distintas expresiones culturales, no solo fortalece la identidad de los estudiantes pertenecientes a estos grupos, sino que enriquece la experiencia educativa de todo el curso.",
+    "stem": "Según el texto, ¿qué beneficio adicional tiene visibilizar distintas expresiones culturales en el aula?",
+    "options": [
+      "Reduce el tiempo dedicado a otras áreas del currículo.",
+      "Elimina la necesidad de trabajar en otras competencias.",
+      "Solo beneficia a los estudiantes de origen diverso.",
+      "Enriquece la experiencia educativa de todo el curso."
+    ],
+    "explanation": "El texto lo señala explícitamente en la última oración.",
+    "normativeJustification": "El texto lo señala explícitamente en la última oración.",
+    "theoreticalJustification": "El texto lo señala explícitamente en la última oración.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]
