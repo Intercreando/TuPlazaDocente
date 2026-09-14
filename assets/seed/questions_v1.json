@@ -25246,19 +25246,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de:",
       "options": [
-        "Contraste",
-        "Temporalidad",
-        "Causa",
-        "Adición"
+        "Introduce un contraste adversativo: opone la función de retroalimentar a la práctica de reducir la evaluación a notas.",
+        "Ordena dos momentos sucesivos: primero se retroalimenta y, en una etapa posterior, se convierten los juicios en calificaciones.",
+        "Presenta la reducción a notas como efecto causal de una evaluación que retroalimenta, al estilo de un «por tanto» encubierto.",
+        "Recuerda el deber del Decreto 1290 de devolver al estudiante información cualitativa y no limitarse al registro numérico."
       ],
       "correctIndex": 0,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "Trampa temporal: «no obstante» no marca secuencia ni etapas del proceso evaluativo; marca oposición entre dos afirmaciones simultáneas en el discurso.",
+        "2": "Trampa causal: el fragmento no dice que retroalimentar produzca las notas; denuncia una práctica que contradice la función formativa.",
+        "3": "Dominio cruzado normativo: la afirmación es defendible en evaluación formativa, pero el stem pide la función del conector, no la norma."
       },
       "knowledgeTags": [
         {
@@ -25284,19 +25284,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal:",
       "options": [
-        "La inclusión es solo infraestructura",
-        "La convivencia es ajena al currículo",
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La evaluación debe ser homogénea siempre"
+        "Garantizar rampas, señalética y cupos de matrícula basta para declarar inclusiva a la institución una vez cumplida la accesibilidad.",
+        "La convivencia pertenece al Comité de Convivencia y, por tanto, queda fuera del currículo y de los ajustes de aula.",
+        "La inclusión, según el texto, exige transformar prácticas de enseñanza, evaluación y convivencia, más allá del acceso físico.",
+        "La equidad se logra aplicando la misma prueba, en el mismo tiempo y con el mismo instrumento, a todo el grupo."
       ],
       "correctIndex": 2,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "Lectura parcial + dominio cruzado administrativo: el acceso físico importa (Decreto 1421), pero el texto dice que la inclusión no se agota ahí.",
+        "1": "Trampa de silo institucional: el texto articula convivencia con inclusión pedagógica; no la externaliza a un comité.",
+        "3": "Trampa de homogeneidad «justa»: suena a igualdad de trato, pero el texto exige ajustes en evaluación, no uniformidad."
       },
       "knowledgeTags": [
         {
@@ -25322,19 +25322,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que:",
       "options": [
-        "Planificar con evidencia favorece coherencia",
-        "Solo directivos planifican",
-        "El currículo no requiere evidencia",
-        "La improvisación siempre es indeseable"
+        "Se sigue, con el alcance del enunciado, que planificar con evidencia favorece la coherencia y reduce la improvisación en esas prácticas docentes.",
+        "La planificación con evidencia es una función que corresponde al equipo directivo, y el docente ejecuta lo ya definido.",
+        "El currículo oficial ya contiene toda la evidencia necesaria; el docente no requiere recoger datos de aula para planear.",
+        "La improvisación carece de valor pedagógico y debe desaparecer del aula como rasgo de baja profesionalidad."
       ],
       "correctIndex": 0,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Sobrelectura del sujeto: el enunciado habla de docentes que planifican, no transfiere la función a dirección.",
+        "2": "Contradice la premisa. Si planificar con evidencia reduce la improvisación, el enunciado sí otorga valor a esa evidencia de práctica.",
+        "3": "Absolutiza el predicado. «Reducen la improvisación» no equivale a declarar indeseable cualquier ajuste flexible en clase."
       },
       "knowledgeTags": [
         {
@@ -25360,19 +25360,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es:",
       "options": [
-        "Las pruebas externas miden liderazgo",
-        "Los docentes no necesitan acompañamiento",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio"
+        "Las pruebas estandarizadas externas son el indicador que demuestra, por sí mismas, la presencia de liderazgo pedagógico.",
+        "Los docentes pueden mejorar de manera sostenible sin acompañamiento, si disponen de materiales y de autonomía de aula.",
+        "El plan de mejoramiento institucional, alimentado por la autoevaluación, es el instrumento que formaliza las metas de calidad de la sede.",
+        "El autor da por sentado que el liderazgo pedagógico es condición necesaria para que la mejora escolar se sostenga."
       ],
       "correctIndex": 3,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Confunde supuesto con indicador. El enunciado no afirma que SABER (u otra prueba) mida liderazgo.",
+        "1": "Contradice el supuesto de necesidad del liderazgo pedagógico; introduce una tesis rival no dicha por el autor.",
+        "2": "Dominio cruzado de gestión (Guía 34). El PME es correcto en ese ámbito; no es el supuesto que el autor da por sentado en la frase sobre liderazgo."
       },
       "knowledgeTags": [
         {
@@ -25398,19 +25398,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 6)",
       "options": [
-        "Inducción por analogía",
-        "Deducción modus tollens",
-        "Falacia de autoridad",
-        "Generalización apresurada"
+        "Inducción por analogía: se transfiere la legitimidad de un PEI participativo a este caso por semejanza de contextos.",
+        "Deducción por modus tollens: «solo si P, Q» equivale a Q → P; se niega P y se concluye ¬Q.",
+        "Falacia de autoridad: se acepta la ilegitimidad porque lo dice un documento o un experto, no por la forma del argumento.",
+        "Generalización apresurada: de un PEI sin participación se concluye una ley sobre todos los PEI del país."
       ],
       "correctIndex": 1,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "No hay analogía entre dos instituciones. Hay una regla condicional y un caso; eso es deducción, no analogía.",
+        "2": "El texto no apela a un experto. Quien vea «PEI» y piense en norma (Ley 115) puede caer aquí: dominio cruzado jurídico.",
+        "3": "La conclusión es sobre ESTE PEI, no sobre una población. No hay generalización inductiva."
       },
       "knowledgeTags": [
         {
@@ -25436,19 +25436,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 7)",
       "options": [
-        "Contraste",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Marca oposición discursiva entre lo que se atribuye a la evaluación formativa y lo que, en la práctica, hacen muchas instituciones.",
+        "Suma una idea del mismo signo: refuerza que retroalimentar y calificar son dos caras complementarias de un mismo proceso.",
+        "Reformula con otras palabras la primera cláusula, como si «reducir a notas» fuera un sinónimo institucional de «retroalimentar».",
+        "Introduce una condición: la evaluación formativa retroalimenta a condición de que las instituciones la traduzcan en calificaciones."
       ],
       "correctIndex": 0,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "Trampa aditiva: «no obstante» no equivale a «además»; no acumula información coincidente, sino que instala un contraste.",
+        "2": "Trampa de reformulación: la segunda cláusula no parafrasea la primera; la contradice. Un conector de reformulación sería «es decir» o «o sea».",
+        "3": "Trampa condicional: no hay «si… entonces». El conector no subordina una práctica a la otra; las pone en tensión."
       },
       "knowledgeTags": [
         {
@@ -25473,19 +25473,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 8)",
       "options": [
-        "La convivencia es ajena al currículo",
-        "La inclusión es solo infraestructura",
-        "La evaluación debe ser homogénea siempre",
-        "La inclusión exige transformar prácticas pedagógicas"
+        "La convivencia escolar es un asunto de disciplina ajeno a las decisiones curriculares del área.",
+        "La inclusión se resuelve con infraestructura y con el certificado de accesibilidad de la planta física.",
+        "Una evaluación idéntica para todos es la garantía más limpia de no discriminar en la promoción.",
+        "La tesis central es que incluir implica cambiar evaluación y convivencia, no detenerse en el acceso físico."
       ],
       "correctIndex": 3,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "2": "Confunde la estructura o el conector evaluado."
+        "0": "Fragmenta lo que el texto une: convivencia y evaluación son parte de la inclusión pedagógica.",
+        "1": "Dominio cruzado de planta física: correcto como requisito de gestión, insuficiente como idea principal del pasaje.",
+        "2": "Confunde igualdad formal con equidad. El texto pide ajustes de evaluación, no homogeneidad."
       },
       "knowledgeTags": [
         {
@@ -25511,19 +25511,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 9)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Planificar con evidencia favorece coherencia",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Completar a tiempo los formatos institucionales de plan de aula demuestra, por sí mismo, que hay planificación con evidencia.",
+        "Si un estudiante comprende por una vía distinta a la planeada, el docente debe mantener la representación prevista en el plan.",
+        "La inferencia lícita es que apoyarse en evidencia al planear favorece coherencia y disminuye la improvisación de esos docentes.",
+        "Dejar el plan de aula en el repositorio institucional permite a coordinación hacer seguimiento de cobertura y de tiempos."
       ],
       "correctIndex": 2,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "Dominio cruzado administrativo: el formato es cumplimiento; el enunciado habla de evidencia, no de papelería al día.",
+        "1": "Sobrelectura prescriptiva. El enunciado no regula cómo reaccionar ante vías alternativas de comprensión.",
+        "3": "Dominio cruzado administrativo: el repositorio y el seguimiento de cobertura son prácticas reales de gestión; el enunciado no infiere eso, sino coherencia a partir de evidencia."
       },
       "knowledgeTags": [
         {
@@ -25548,19 +25548,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 10)",
       "options": [
-        "Los docentes no necesitan acompañamiento",
-        "Las pruebas externas miden liderazgo",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio"
+        "El acompañamiento a docentes es prescindible cuando hay un plan de aula bien escrito y un libro guía.",
+        "El puntaje en pruebas externas equivale a una medida directa del liderazgo del rector y de los coordinadores.",
+        "La sostenibilidad depende de ejecutar al pie de la letra las metas del plan de mejoramiento institucional.",
+        "Se asume que, sin liderazgo pedagógico, la mejora escolar no logra sostenerse en el tiempo."
       ],
       "correctIndex": 3,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Niega el papel del liderazgo pedagógico que el enunciado eleva a condición de sostenibilidad.",
+        "1": "Identifica resultado de prueba con liderazgo. Eso sería un supuesto distinto, no el del enunciado.",
+        "2": "Dominio cruzado de gestión (Guía 34/PME): el plan es un instrumento real, pero no es el supuesto del autor."
       },
       "knowledgeTags": [
         {
@@ -25586,19 +25586,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 11)",
       "options": [
-        "Generalización apresurada",
-        "Falacia de autoridad",
-        "Inducción por analogía",
-        "Deducción modus tollens"
+        "Generalización apresurada a partir de un caso: un PEI ilegítimo bastaría para describir el sistema escolar entero.",
+        "Falacia de autoridad: la ilegitimidad se sostiene porque el PEI es un documento de rango legal.",
+        "Inducción por analogía entre la legitimidad comunitaria y la legitimidad de un contrato civil.",
+        "Estructura deductiva de modus tollens sobre un condicional de necesidad (participación necesaria para la legitimidad)."
       ],
       "correctIndex": 3,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta."
+        "0": "La conclusión no escala a «todos los PEI». Permanece en el caso. No es inducción defectuosa; es deducción.",
+        "1": "Dominio cruzado normativo. El PEI sí tiene anclaje legal, pero el ítem pregunta por la forma lógica, no por el rango del documento.",
+        "2": "No se razona por semejanza de casos. Se aplica una condicional. La analogía jurídica es otra trampa de dominio."
       },
       "knowledgeTags": [
         {
@@ -25624,19 +25624,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 12)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contraste",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Señala finalidad: reducir a notas aparecía como el propósito declarado de retroalimentar.",
+        "Ejemplifica cómo se retroalimenta en las aulas: la nota sería el caso concreto de esa retroalimentación.",
+        "Cumple función adversativa de contraste entre la retroalimentación formativa y su reducción institucional a calificaciones.",
+        "Avala, en clave de gestión, que el SIEE unifique la valoración en una escala numérica para facilitar boletines y reportes a secretaría."
       ],
       "correctIndex": 2,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Trampa de finalidad: «no obstante» no es «para que» ni «a fin de». El fragmento denuncia un desvío, no un objetivo.",
+        "1": "Trampa de ejemplificación: «reducir a notas» no ilustra la retroalimentación; la empobrece. Un ejemplificador sería «por ejemplo».",
+        "3": "Dominio cruzado administrativo: unificar escalas puede ser pertinente en secretaría, pero no describe la función del conector en el fragmento."
       },
       "knowledgeTags": [
         {
@@ -25661,19 +25661,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 13)",
       "options": [
-        "La inclusión es solo infraestructura",
-        "La convivencia es ajena al currículo",
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La evaluación debe ser homogénea siempre"
+        "El acceso físico es el núcleo de la inclusión; los ajustes de aula son un complemento opcional cuando hay recursos.",
+        "Separar la ruta de convivencia de la ruta pedagógica evita mezclar el PIAR con el manual de convivencia.",
+        "Incluir, en la tesis del texto, demanda transformar prácticas pedagógicas —evaluación y convivencia—, no quedarse en el ingreso al plantel.",
+        "Homogeneizar rúbricas y tiempos de prueba protege al docente ante tutelas por trato diferenciado."
       ],
       "correctIndex": 2,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "Invierte la jerarquía del texto: el acceso no se niega, pero se declara insuficiente; los ajustes no son opcionales en la tesis.",
+        "1": "Trampa de «orden institucional»: suena ordenada, pero el texto exige justamente articular evaluación y convivencia.",
+        "3": "Dominio cruzado jurídico-defensivo: el temor a la tutela es real en las salas de profesores, pero contradice los ajustes que el texto exige."
       },
       "knowledgeTags": [
         {
@@ -25699,19 +25699,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 14)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Planificar con evidencia favorece coherencia",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Alinear el plan de aula con la malla, los DBA del grado y el PEI es un requisito de coherencia curricular ante el Consejo Académico.",
+        "Cabe inferir que la planificación anclada en evidencia favorece coherencia pedagógica y reduce la improvisación de quienes así proceden.",
+        "Toda decisión de aula no prevista en el plan escrito cuenta como improvisación a eliminar, incluso un ajuste pertinente.",
+        "La evidencia que cuenta es la de pruebas estandarizadas externas; los registros de aula son anecdóticos para planear."
       ],
       "correctIndex": 1,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Dominio cruzado curricular: esa alineación es defendible institucionalmente, pero el enunciado infiere el valor de la evidencia para reducir improvisación, no el trámite de alineación.",
+        "2": "Sobreinterpreta «reducen la improvisación» como veto a cualquier ajuste. El texto no llega tan lejos.",
+        "3": "Restringe «evidencia» a lo externo. El enunciado no hace esa jerarquía; la sobrelectura es del lector, no del texto."
       },
       "knowledgeTags": [
         {
@@ -25736,19 +25736,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 15)",
       "options": [
-        "Las pruebas externas miden liderazgo",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "Los docentes no necesitan acompañamiento",
-        "La mejora depende solo de recursos"
+        "Las pruebas externas funcionan como termómetro del liderazgo y, por eso, bastan para evaluar a los directivos.",
+        "El supuesto es que el liderazgo pedagógico influye de modo necesario en la sostenibilidad de la mejora escolar.",
+        "Los docentes, con su saber de aula, sostienen la mejora al margen de cualquier liderazgo pedagógico institucional.",
+        "La mejora sostenible depende de la disponibilidad presupuestal y de la planta física, más que de procesos de liderazgo."
       ],
       "correctIndex": 1,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Sustituye el supuesto (necesidad del liderazgo para la mejora) por un uso evaluativo de las pruebas.",
+        "2": "Invierte el supuesto. El enunciado no declara autosuficiencia docente frente al liderazgo.",
+        "3": "Teoría rival (recursos). Plausible en administración educativa; no es lo que el autor da por sentado."
       },
       "knowledgeTags": [
         {
@@ -25774,19 +25774,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 16)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Deducción modus tollens",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Modus ponens: se afirma la participación y, por ello, se concluye que el PEI es legítimo.",
+        "Deducción modus tollens: se niega la condición necesaria (participación) y se concluye la negación de la legitimidad.",
+        "Falacia de negar el antecedente: si fuera «si hay participación, hay legitimidad», negar la participación no probaría ilegitimidad.",
+        "Razonamiento inductivo: de este PEI se extrae una regla general sobre cómo deben hacerse todos los proyectos educativos."
       ],
       "correctIndex": 1,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "En el texto la participación se NIEGA, no se afirma. Quien confunde ponens con tollens elige esta opción.",
+        "2": "Trampa más sofisticada. Esa falacia existiría si la condicional fuera P → Q. Como «solo si P, Q» es Q → P, negar P para concluir ¬Q es tollens válido.",
+        "3": "Hay una regla ya dada y un caso. Eso es deducción. La inducción iría de casos a regla."
       },
       "knowledgeTags": [
         {
@@ -25811,19 +25811,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 17)",
       "options": [
-        "Contraste",
-        "Adición",
-        "Temporalidad",
-        "Causa"
+        "Instala un contraste: la segunda cláusula se opone a la primera en lugar de continuarla o explicarla.",
+        "Encadena una consecuencia necesaria: si hay retroalimentación, el sistema escolar termina, de hecho, en notas.",
+        "Ubica en el calendario escolar dos fases (formativa y sumativa) que se suceden sin tensión entre ellas.",
+        "Atribuye a la primera cláusula el papel de causa eficiente de la segunda, como en un esquema de estímulo-respuesta."
       ],
       "correctIndex": 0,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Trampa consecutiva: «no obstante» no es «por consiguiente». La reducción a notas se presenta como desvío, no como resultado lógico.",
+        "2": "Trampa de periodización institucional: el texto no habla de periodos ni de diseño del SIEE; habla de una relación adversativa entre dos ideas.",
+        "3": "Trampa causal disfrazada de psicología del aprendizaje: el conector no explica un mecanismo; marca oposición."
       },
       "knowledgeTags": [
         {
@@ -25849,19 +25849,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 18)",
       "options": [
-        "La convivencia es ajena al currículo",
-        "La evaluación debe ser homogénea siempre",
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La inclusión es solo infraestructura"
+        "La convivencia se gestiona con el manual y no requiere cambios en el aula ni en la forma de evaluar.",
+        "Mantener instrumentos uniformes es la vía más transparente de reportar resultados al sistema de calidad.",
+        "La idea principal sostiene que la inclusión obliga a reconfigurar prácticas pedagógicas, de evaluación y de convivencia.",
+        "La inclusión equivale a matricular a la población diversa y reportar cobertura en el SIMAT."
       ],
       "correctIndex": 2,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Reduce convivencia a reglamento. El texto la pone como frente de ajuste, junto con la evaluación.",
+        "1": "Dominio cruzado de calidad/Saber: la transparencia del reporte no es la tesis; el texto pide ajustes de evaluación.",
+        "3": "Dominio cruzado de matrícula: cobertura es necesaria en política pública, pero el texto la declara insuficiente."
       },
       "knowledgeTags": [
         {
@@ -25887,19 +25887,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 19)",
       "options": [
-        "El currículo no requiere evidencia",
-        "Solo directivos planifican",
-        "La improvisación siempre es indeseable",
-        "Planificar con evidencia favorece coherencia"
+        "El currículo, al estar definido por el MEN, no requiere que el docente incorpore evidencia de su propio grupo.",
+        "Planificar es atribución de coordinación académica; el docente que planea con evidencia usurpa una función directiva.",
+        "Improvisar en clase revela falta de ética profesional y no admite matices formativos ni de respuesta a lo imprevisto.",
+        "Lo que se infiere, sin salir del enunciado, es que planificar con evidencia favorece coherencia y baja la improvisación en esos docentes."
       ],
       "correctIndex": 3,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Niega lo que el enunciado sostiene al valorar la planificación con evidencia.",
+        "1": "Cambia el sujeto y criminaliza la práctica que el enunciado describe como propia de docentes.",
+        "2": "Moraliza y ensancha el predicado. El enunciado describe una reducción, no un juicio ético total."
       },
       "knowledgeTags": [
         {
@@ -25925,19 +25925,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 20)",
       "options": [
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "Las pruebas externas miden liderazgo",
-        "Los docentes no necesitan acompañamiento",
-        "La mejora depende solo de recursos"
+        "Queda supuesto que el liderazgo pedagógico es necesario para sostener la mejora escolar a lo largo del tiempo.",
+        "Un ranking de pruebas externas prueba la calidad del liderazgo con independencia de lo que ocurra en las aulas.",
+        "Si hay materiales suficientes, el acompañamiento pedagógico deja de ser un factor de sostenibilidad.",
+        "Con más presupuesto y mejor infraestructura se garantiza, de hecho, la sostenibilidad de la mejora."
       ],
       "correctIndex": 0,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Confunde evidencia externa con supuesto. El autor no menciona pruebas.",
+        "2": "Reduce liderazgo a logística de recursos y lo declara prescindible: lo contrario del enunciado.",
+        "3": "Convierte los recursos en condición suficiente. El autor apunta al liderazgo, no al presupuesto."
       },
       "knowledgeTags": [
         {
@@ -25963,19 +25963,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 21)",
       "options": [
-        "Deducción modus tollens",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Predomina el modus tollens deductivo sobre un condicional de necesidad: sin participación, no hay legitimidad de ese PEI.",
+        "Afirmación del consecuente: de la legitimidad se inferiría la participación, y luego se invertiría el argumento.",
+        "Falacia de autoridad del Consejo Directivo, que «sella» la legitimidad con su acta de adopción.",
+        "Analogía con la construcción colectiva del manual de convivencia, transferida al PEI."
       ],
       "correctIndex": 0,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "El texto no parte de «es legítimo». Parte de «no hubo participación». No es afirmación del consecuente.",
+        "2": "Dominio cruzado de gobierno escolar: el acta existe, pero el argumento del stem no apela a esa autoridad.",
+        "3": "No hay segundo caso que sirva de analogado. Hay condicional + hecho. Es deducción."
       },
       "knowledgeTags": [
         {
@@ -26000,19 +26000,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 22)",
       "options": [
-        "Causa",
-        "Adición",
-        "Contraste",
-        "Temporalidad"
+        "Expresa causa: las instituciones reducen a notas porque la evaluación formativa retroalimenta.",
+        "Añade un segundo beneficio de la misma práctica, en la línea de un conector copulativo.",
+        "Funciona como conector de contraste adversativo entre la pretensión formativa y la reducción a notas.",
+        "Marca el paso del tiempo entre el momento de retroalimentar y el de certificar aprendizajes al cierre del periodo."
       ],
       "correctIndex": 2,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "Trampa causal directa. El orden lógico del fragmento no es «A causa B», sino «A; sin embargo, B».",
+        "1": "Trampa aditiva. «No obstante» no suma beneficios; denuncia una contradicción práctica.",
+        "3": "Trampa temporal/certificadora: plausible en el discurso del SIEE, pero el fragmento no ordena tiempos; opone funciones."
       },
       "knowledgeTags": [
         {
@@ -26038,19 +26038,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 23)",
       "options": [
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La convivencia es ajena al currículo",
-        "La inclusión es solo infraestructura",
-        "La evaluación debe ser homogénea siempre"
+        "Según el pasaje, incluir exige transformar las prácticas pedagógicas —incluidos evaluación y clima—, no limitarse al acceso físico.",
+        "El currículo permanece intacto si el Comité de Convivencia atiende los casos y el aula sigue su programa.",
+        "Con rampa, baño accesible y cupo asignado, la institución ya cumplió el estándar de inclusión.",
+        "Evaluar a todos con el mismo examen, el mismo día, es la expresión más clara de igualdad de oportunidades."
       ],
       "correctIndex": 0,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "1": "Trampa de delegación: el texto no autoriza dejar el currículo quieto. Evaluación y convivencia entran al aula.",
+        "2": "Lectura reductiva de infraestructura. El «no se agota» del texto invalida esta conclusión.",
+        "3": "Confunde igualdad de instrumento con inclusión. El texto exige ajustes en evaluación."
       },
       "knowledgeTags": [
         {
@@ -26076,19 +26076,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 24)",
       "options": [
-        "El currículo no requiere evidencia",
-        "Planificar con evidencia favorece coherencia",
-        "Solo directivos planifican",
-        "La improvisación siempre es indeseable"
+        "Si el plan de estudios ya fue aprobado por el Consejo Académico, recoger evidencia de aula resulta redundante.",
+        "Se infiere que recurrir a evidencia al planear favorece la coherencia de la enseñanza y reduce la improvisación de esos docentes.",
+        "Quienes planifican con evidencia son, en la práctica, los directivos docentes que hacen seguimiento al plan de área.",
+        "La flexibilidad en clase es equivalente a improvisación y, por tanto, incompatible con una planificación profesional."
       ],
       "correctIndex": 1,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Dominio cruzado de gobierno escolar: la aprobación del plan no agota lo que el enunciado llama evidencia para planificar.",
+        "2": "Desplaza el sujeto hacia el directivo. El enunciado habla de docentes, no de supervisión.",
+        "3": "Falsa equivalencia. El enunciado no identifica flexibilidad con improvisación ni las declara incompatibles."
       },
       "knowledgeTags": [
         {
@@ -26114,19 +26114,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 25)",
       "options": [
-        "Las pruebas externas miden liderazgo",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "Los docentes no necesitan acompañamiento"
+        "Los resultados de pruebas nacionales miden, de manera fidedigna, el liderazgo de la institución.",
+        "El seguimiento a indicadores del plan de mejoramiento es la ruta formal con la que la institución rinde cuentas de la mejora.",
+        "El autor presupone que el liderazgo pedagógico condiciona la sostenibilidad de la mejora, no que sea un adorno de gestión.",
+        "Los docentes no requieren liderazgo ni acompañamiento si su evaluación de desempeño individual es alta."
       ],
       "correctIndex": 2,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "Desplaza el supuesto hacia un indicador. El enunciado no habla de medición externa.",
+        "1": "Dominio cruzado de calidad/PME: la rendición de cuentas existe y es correcta en gestión; no es el supuesto del autor sobre el liderazgo pedagógico.",
+        "3": "Atomiza la mejora en desempeños individuales y niega el supuesto colectivo de liderazgo."
       },
       "knowledgeTags": [
         {
@@ -26152,19 +26152,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 26)",
       "options": [
-        "Inducción por analogía",
-        "Generalización apresurada",
-        "Deducción modus tollens",
-        "Falacia de autoridad"
+        "Inducción por analogía entre este PEI y otro establecimiento que sí tuvo asamblea de padres.",
+        "Generalización apresurada: un proceso sin participación invalidaría, de un golpe, el PEI como figura jurídica.",
+        "La forma es deductiva: modus tollens que niega la condición necesaria de participación y concluye ilegitimidad.",
+        "Falacia de autoridad: se declara ilegítimo porque un experto en gestión educativa así lo califica."
       ],
       "correctIndex": 2,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "No se compara con otro establecimiento. El segundo analogado no aparece.",
+        "1": "La conclusión es de este ejemplar, no de la figura jurídica en abstracto.",
+        "3": "No hay experto en el texto. La autoridad imaginada es relleno del lector, no estructura del argumento."
       },
       "knowledgeTags": [
         {
@@ -26190,19 +26190,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 27)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contraste",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Introduce una relación de consecuencia: la reducción a notas se presenta como el resultado esperado de retroalimentar.",
+        "Marca reformulación: la segunda cláusula aclara, con otras palabras, qué significa retroalimentar en la vida institucional.",
+        "Opone dos proposiciones: la función retroalimentadora y la reducción institucional a calificaciones.",
+        "Recuerda que el Decreto 1290 exige una evaluación que retroalimente al estudiante y a la familia, más allá del registro numérico."
       ],
       "correctIndex": 2,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Trampa consecutiva: «no obstante» no equivale a «por consiguiente». La segunda cláusula denuncia un desvío, no un resultado lógico de la primera.",
+        "1": "Trampa de paráfrasis. «Reducir a notas» no sinonimiza «retroalimenta»; la contradice. Un reformulador sería «es decir».",
+        "3": "Dominio cruzado normativo: la afirmación es correcta en evaluación formativa, pero el stem pide la función del conector, no el deber legal."
       },
       "knowledgeTags": [
         {
@@ -26227,19 +26227,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 28)",
       "options": [
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La evaluación debe ser homogénea siempre",
-        "La inclusión es solo infraestructura",
-        "La convivencia es ajena al currículo"
+        "El texto sostiene que la inclusión verdadera implica cambiar evaluación y convivencia, es decir, las prácticas pedagógicas.",
+        "La equidad evaluativa consiste en no adaptar pruebas, para que el resultado sea comparable entre pares.",
+        "La inclusión es, ante todo, un asunto de planta física y de señalización universal del campus.",
+        "La convivencia se agota en campañas de valores y no dialoga con el diseño curricular ni con el PIAR."
       ],
       "correctIndex": 0,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "Trampa de comparabilidad: argumento frecuente en áreas, pero opuesto a los «ajustes en evaluación» del pasaje.",
+        "2": "Sobrepondera el acceso físico, que el texto considera punto de partida, no tesis.",
+        "3": "Trampa de campañas: práctica bienintencionada y visible, insuficiente frente a lo que el texto articula."
       },
       "knowledgeTags": [
         {
@@ -26265,19 +26265,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 29)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Planificar con evidencia favorece coherencia",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Los DBA del grado, junto con los EBC, constituyen el referente de calidad con el que se alinea el plan de área.",
+        "Una vez escrito el plan, conviene no alterar la secuencia aunque el grupo evidencie otra vía de comprensión.",
+        "La conclusión que se sostiene es que planificar con evidencia favorece coherencia y reduce la improvisación en las prácticas aludidas.",
+        "La planeación con evidencia se demuestra con el sello de vistos buenos de coordinación en cada formato semanal."
       ],
       "correctIndex": 2,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "0": "Dominio cruzado de referentes MEN: cierto en diseño curricular, pero el enunciado no identifica esa alineación con «planificar con evidencia» ni infiere eso.",
+        "1": "Convierte la planificación en rígido protocolo. El enunciado no prohíbe ajustar a partir de nueva evidencia.",
+        "3": "Dominio cruzado de control interno: el visto bueno es trazabilidad, no la inferencia semántica del enunciado."
       },
       "knowledgeTags": [
         {
@@ -26302,19 +26302,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 30)",
       "options": [
-        "Las pruebas externas miden liderazgo",
-        "Los docentes no necesitan acompañamiento",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio"
+        "La calidad del liderazgo se lee en el puesto que ocupe la IE en el índice sintético de calidad o su sucesor.",
+        "El aula puede sostener mejoras de manera aislada, sin procesos institucionales de liderazgo pedagógico.",
+        "Sostener la mejora es, ante todo, un problema de caja y de dotación, resoluble con un presupuesto reforzado.",
+        "El supuesto implícito es que el liderazgo pedagógico resulta necesario para que la mejora escolar se sostenga."
       ],
       "correctIndex": 3,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Dominio cruzado de rendición de cuentas. El autor no apoya su tesis en un índice.",
+        "1": "Niega la necesidad que el enunciado afirma («sin liderazgo no hay…»).",
+        "2": "Teoría de insumos. Competidora razonable en política educativa; no es el supuesto del fragmento."
       },
       "knowledgeTags": [
         {
@@ -26340,19 +26340,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 31)",
       "options": [
-        "Inducción por analogía",
-        "Falacia de autoridad",
-        "Generalización apresurada",
-        "Deducción modus tollens"
+        "Inducción por analogía con la legitimidad democrática de un concejo municipal.",
+        "Apelación a la autoridad de la Ley 115, que «ya diría» que sin comunidad no hay PEI.",
+        "Generalización desde un PEI hacia todos los de la entidad territorial certificada.",
+        "Estructura de modus tollens: «solo si hay participación, hay legitimidad»; no hay participación; luego no hay legitimidad."
       ],
       "correctIndex": 3,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto."
+        "0": "Analogía política verosímil e incorrecta: el texto no razona por semejanza de instituciones.",
+        "1": "Dominio cruzado legal: la Ley 115 sí exige participación, pero el ítem pide la forma del argumento citado, no la cita legal.",
+        "2": "El cuantificador de la conclusión es este PEI, no la ETC. No hay salto inductivo."
       },
       "knowledgeTags": [
         {
@@ -26378,19 +26378,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 32)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contraste",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Introduce una concesión que anula la primera idea, como si retroalimentar dejara de ser verdadero una vez aparecen las notas.",
+        "Especifica el alcance de «retroalimenta», delimitando que ello ocurre preferentemente en el registro de notas.",
+        "Señala contraste adversativo: la práctica institucional de anotar contradice la función de retroalimentar.",
+        "Remite al Comité de Evaluación y Promoción como instancia que, por reglamento, convierte toda retroalimentación en nota."
       ],
       "correctIndex": 2,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Trampa concesiva extrema: «no obstante» contrasta, no borra la validez de la primera cláusula. La tensión se mantiene.",
+        "1": "Trampa de especificación: no hay delimitación de alcance; hay denuncia de una reducción. Un especificador sería «en particular».",
+        "3": "Dominio cruzado de gobierno escolar: el Comité existe y valora, pero el stem no pregunta por la instancia, sino por el conector."
       },
       "knowledgeTags": [
         {
@@ -26415,19 +26415,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 33)",
       "options": [
-        "La inclusión es solo infraestructura",
-        "La evaluación debe ser homogénea siempre",
-        "La convivencia es ajena al currículo",
-        "La inclusión exige transformar prácticas pedagógicas"
+        "Basta con cumplir el cupo de estudiantes con discapacidad y cargar el PIAR en la plataforma para estar al día.",
+        "Una prueba común, sin ajustes, es el modo más limpio de no privilegiar a nadie en la promoción.",
+        "La convivencia es territorio del orientador y no debe «pedagogizarse» en las clases de área.",
+        "La idea principal es que incluir requiere transformar prácticas pedagógicas, con ajustes en evaluación y convivencia."
       ],
       "correctIndex": 3,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto."
+        "0": "Dominio cruzado de cumplimiento documental: el PIAR es obligatorio, pero el texto apunta a prácticas, no al archivo.",
+        "1": "Igualdad formal versus equidad. El texto pide ajustes de evaluación.",
+        "2": "Trampa profesional-silo: reconoce un actor real y, al hacerlo, contradice la tesis de ajustes también en convivencia escolar cotidiana."
       },
       "knowledgeTags": [
         {
@@ -26453,19 +26453,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 34)",
       "options": [
-        "Planificar con evidencia favorece coherencia",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Cabe inferir, con parsimonia, que planificar con evidencia favorece coherencia y disminuye la improvisación de esos docentes.",
+        "Los docentes que no llenan el plan en la plantilla unificada de la institución, por definición, improvisan.",
+        "Planificar con evidencia implica atarse al libro de texto adoptado, que ya trae la secuencia «probada».",
+        "Reducir la improvisación significa eliminar el diálogo espontáneo y atenerse al guion minuto a minuto."
       ],
       "correctIndex": 0,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "Identifica evidencia con plantilla. El enunciado no hace esa equivalencia documental.",
+        "2": "Sustituye evidencia de aula por autoridad del texto escolar. Sobrelectura no autorizada.",
+        "3": "Confunde improvisación con interacción. El enunciado no prescribe un guion rígido."
       },
       "knowledgeTags": [
         {
@@ -26490,19 +26490,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 35)",
       "options": [
-        "Los docentes no necesitan acompañamiento",
-        "La mejora depende solo de recursos",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "Las pruebas externas miden liderazgo"
+        "El acompañamiento situado a los docentes es prescindible cuando hay un sistema robusto de estímulos salariales.",
+        "Con recursos amplios, la mejora se sostiene aunque el liderazgo pedagógico sea débil o intermitente.",
+        "Se da por sentado que el liderazgo pedagógico influye como condición necesaria en la sostenibilidad del cambio escolar.",
+        "Las pruebas censales demuestran, ellas mismas, si hay o no liderazgo pedagógico en la institución."
       ],
       "correctIndex": 2,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Sustituye liderazgo por incentivo. El enunciado no menciona retribución.",
+        "1": "Declara los recursos suficientes y el liderazgo opcional: choca con «sin liderazgo no hay mejora sostenible».",
+        "3": "Confunde supuesto causal con instrumento de medición. El autor no aporta ese puente empírico."
       },
       "knowledgeTags": [
         {
@@ -26528,19 +26528,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 36)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Deducción modus tollens",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Modus ponens: se afirma que hubo participación y se concluye legitimidad.",
+        "Deducción por modus tollens sobre la participación como condición necesaria de la legitimidad del PEI.",
+        "Negación del antecedente (forma inválida): tratar la fórmula de necesidad (P necesario para Q) como si fuera P → Q y negar P para negar Q.",
+        "Inferencia abductiva: la ilegitimidad es la «mejor explicación» de la baja asistencia a las asambleas."
       ],
       "correctIndex": 1,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Las premisas niegan la participación. Quien recuerde el nombre «modus» sin analizar polaridad cae aquí.",
+        "2": "Es la confusión clave entre condición necesaria y suficiente. Bien leída, la forma es válida (tollens), no falaz.",
+        "3": "No hay abducción (inferir la causa más verosímil). Hay condicional explícita y modus tollens."
       },
       "knowledgeTags": [
         {
@@ -26565,19 +26565,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 37)",
       "options": [
-        "Contraste",
-        "Temporalidad",
-        "Causa",
-        "Adición"
+        "Cumple función de contraste: articula una oposición entre retroalimentar y reducir la evaluación a notas.",
+        "Indica temporalidad: sitúa la retroalimentación antes y las notas después, como fases de un mismo ciclo.",
+        "Indica causa: explica por qué las instituciones califican, derivándolo de la naturaleza de la evaluación formativa.",
+        "Indica adición: incorpora un rasgo más de la evaluación formativa, en serie con «retroalimenta»."
       ],
       "correctIndex": 0,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "Trampa temporal clásica. El conector no ordena el ciclo evaluativo; pone en tensión dos caracterizaciones.",
+        "2": "Trampa causal. El texto no explica un porqué; contrapone un deber funcional a una práctica reductiva.",
+        "3": "Trampa aditiva. Reducir a notas no es un rasgo más de lo formativo; es el contrapunto del fragmento."
       },
       "knowledgeTags": [
         {
@@ -26603,19 +26603,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 38)",
       "options": [
-        "La evaluación debe ser homogénea siempre",
-        "La inclusión es solo infraestructura",
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La convivencia es ajena al currículo"
+        "Aplicar el mismo instrumento evaluativo a todo el grado es la mejor defensa institucional ante reclamos de familias.",
+        "La inclusión se identifica con la adecuación arquitectónica del predio y con el cumplimiento de NTC de accesibilidad.",
+        "Incluir, para el autor del texto, es transformar prácticas de aula, evaluación y convivencia, no detenerse en el acceso.",
+        "El clima escolar se regula en el manual y no exige rediseñar la evaluación ni la enseñanza cotidiana."
       ],
       "correctIndex": 2,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Dominio cruzado de gestión del conflicto: suena a resguardo jurídico, pero niega los ajustes que el texto exige.",
+        "1": "Dominio cruzado técnico-arquitectónico: norma real de planta física; no es la idea principal del pasaje.",
+        "3": "Separa convivencia de pedagogía, exactamente lo que el texto rechaza al pedir ajustes en ambos frentes."
       },
       "knowledgeTags": [
         {
@@ -26641,19 +26641,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 39)",
       "options": [
-        "Planificar con evidencia favorece coherencia",
-        "El currículo no requiere evidencia",
-        "Solo directivos planifican",
-        "La improvisación siempre es indeseable"
+        "Se sigue que la planificación con evidencia favorece coherencia pedagógica y reduce la improvisación de quienes la practican.",
+        "El currículo prescrito no necesita evidencia de aprendizaje; basta con cubrir los contenidos del programa.",
+        "La evidencia para planear la aportan los informes de gestión del rector, no los registros del aula.",
+        "Cualquier desvío respecto del plan escrito es una falta que el SIEE debería sancionar en la evaluación de desempeño."
       ],
       "correctIndex": 0,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Contradice el valor que el enunciado otorga a planificar con evidencia.",
+        "2": "Cambia la fuente de evidencia hacia el sistema de gestión. El enunciado sitúa la práctica en los docentes.",
+        "3": "Dominio cruzado de evaluación docente: introduce sanción donde el enunciado describe un efecto pedagógico."
       },
       "knowledgeTags": [
         {
@@ -26679,19 +26679,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 40)",
       "options": [
-        "Las pruebas externas miden liderazgo",
-        "Los docentes no necesitan acompañamiento",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "La mejora depende solo de recursos"
+        "Un buen promedio en pruebas externas acredita, sin más mediaciones, la existencia de liderazgo pedagógico.",
+        "Los docentes no necesitan ser acompañados: la mejora sostenible nace de su oficio artesanal individual.",
+        "El implícito es que, para el autor, el liderazgo pedagógico es necesario a la sostenibilidad de la mejora escolar.",
+        "La sostenibilidad se juega en la ampliación de planta física y en la conectividad, más que en el liderazgo."
       ],
       "correctIndex": 2,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Toma el resultado de prueba como prueba del supuesto. El enunciado no hace esa identificación.",
+        "1": "Romanticismo profesional que niega el rol del liderazgo institucional supuesto por el autor.",
+        "3": "Agenda de infraestructura (válida en otro debate de política). No es el supuesto del enunciado."
       },
       "knowledgeTags": [
         {
@@ -26717,19 +26717,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 41)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
-        "Deducción modus tollens"
+        "Circularidad: se llama ilegítimo al PEI porque no es legítimo, y se disfraza con la palabra «participación».",
+        "Falacia de negar el antecedente, si se lee la cláusula de necesidad como un condicional suficiente.",
+        "Inducción enumerativa: varios PEI sin asamblea permitirían concluir una regla nacional.",
+        "La estructura predominante es la deducción por modus tollens, no una falacia ni un salto inductivo."
       ],
       "correctIndex": 3,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Selecciona una categoría cercana pero incorrecta.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto."
+        "0": "No hay petición de principio. Hay una condicional de necesidad y un hecho (no hubo participación).",
+        "1": "Lectura errónea pero sofisticada de la condicional de necesidad. Corregida la forma (Q → P), el paso es tollens válido.",
+        "2": "El texto no enumera varios casos. Un caso + una regla = deducción."
       },
       "knowledgeTags": [
         {
@@ -26754,19 +26754,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 42)",
       "options": [
-        "Contraste",
-        "Adición",
-        "Temporalidad",
-        "Causa"
+        "Marca contraste adversativo entre la función formativa declarada y la reducción a calificaciones.",
+        "Funciona como conector de adición, equivalente pragmático de «además» o «asimismo».",
+        "Funciona como marcador de temporalidad, equivalente a «luego» o «a continuación».",
+        "Funciona como marcador de causa, equivalente a «porque» o «debido a que»."
       ],
       "correctIndex": 0,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Confunde adversativo con aditivo. «Además» acumularía; «no obstante» contrapone.",
+        "2": "Confunde adversativo con temporal. No hay orden de acontecimientos; hay choque de afirmaciones.",
+        "3": "Confunde adversativo con causal. La segunda cláusula no fundamenta la primera."
       },
       "knowledgeTags": [
         {
@@ -26792,19 +26792,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 43)",
       "options": [
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La evaluación debe ser homogénea siempre",
-        "La convivencia es ajena al currículo",
-        "La inclusión es solo infraestructura"
+        "La tesis afirma que la inclusión obliga a transformar prácticas pedagógicas, de evaluación y de convivencia.",
+        "La promoción en igualdad de condiciones se garantiza conservando tiempos, ítems y rúbricas idénticos para el grupo.",
+        "Convivencia e inclusión son rutas paralelas: una atiende conflictos y la otra, el acceso al edificio.",
+        "La inclusión se agota cuando el estudiante entra al aula regular, con independencia de cómo se evalúa o se convive."
       ],
       "correctIndex": 0,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Trampa de «condiciones iguales»: ignora que el texto pide ajustes de evaluación.",
+        "2": "Paralelismo institucional elegante y falso respecto del texto, que las entrelaza con la pedagogía.",
+        "3": "Lectura de acceso como techo. El texto la toma como piso."
       },
       "knowledgeTags": [
         {
@@ -26830,19 +26830,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 44)",
       "options": [
-        "El currículo no requiere evidencia",
-        "Solo directivos planifican",
-        "Planificar con evidencia favorece coherencia",
-        "La improvisación siempre es indeseable"
+        "Recoger evidencia es innecesario cuando el plan de área ya alineó DBA, EBC y malla del PEI.",
+        "Planear con evidencia es, en estricto sentido, una competencia de inspección y vigilancia más que de aula.",
+        "La inferencia válida es que planificar con evidencia favorece la coherencia y reduce la improvisación en esos docentes.",
+        "La improvisación, incluso cuando responde a una pregunta potente del grupo, resta profesionalismo y debe evitarse."
       ],
       "correctIndex": 2,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Confunde alineación curricular (necesaria) con evidencia de la práctica (lo que el enunciado valora).",
+        "1": "Traslada la práctica a un ámbito de control externo. El sujeto del enunciado es el docente.",
+        "3": "Ensancha el juicio. El enunciado no clasifica ni condena cada desvío sensible al grupo."
       },
       "knowledgeTags": [
         {
@@ -26868,19 +26868,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 45)",
       "options": [
-        "Los docentes no necesitan acompañamiento",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Las pruebas externas miden liderazgo"
+        "Si la evaluación de desempeño docente es alta, el liderazgo pedagógico institucional deja de ser necesario.",
+        "El autor asume que el liderazgo pedagógico es condición de la sostenibilidad de la mejora, no un complemento opcional.",
+        "La ruta de mejoramiento institucional (autoevaluación, plan de mejoramiento y seguimiento) es el ciclo de calidad que el MEN recomienda a las instituciones.",
+        "El liderazgo se verifica, de manera privilegiada, cuando suben los puntajes de las pruebas de Estado, tomados como evidencia del proceso institucional."
       ],
       "correctIndex": 1,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Sustituye liderazgo colectivo por sumatoria de desempeños. El enunciado no autoriza esa sustitución.",
+        "2": "Dominio cruzado Guía 34: el ciclo es correcto en gestión de calidad; no es el supuesto que sostiene la frase sobre liderazgo pedagógico.",
+        "3": "Reduce liderazgo a un indicador externo. Eso sería otro supuesto, no el que sostiene la frase dada."
       },
       "knowledgeTags": [
         {
@@ -26906,19 +26906,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es: (variante 46)",
       "options": [
-        "Falacia de autoridad",
-        "Deducción modus tollens",
-        "Inducción por analogía",
-        "Generalización apresurada"
+        "Falacia de autoridad: el PEI pierde legitimidad porque lo dice un formato de secretaría de educación.",
+        "Predomina el modus tollens deductivo: se niega la participación (necesaria) y se concluye que ese PEI no es legítimo.",
+        "Inducción por analogía con la construcción participativa del gobierno escolar en otra IE.",
+        "Generalización apresurada de la ilegitimidad de un PEI a la ilegitimidad de todo el sistema de calidad."
       ],
       "correctIndex": 1,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "La condición de calidad pide la estructura lógica predominante. «Solo si hay participación de la comunidad, el PEI es legítimo» hace de la participación una condición necesaria: legitimidad → participación (Q → P). La segunda premisa niega P (no hubo participación) y la conclusión niega Q (no es legítimo). Esa forma es modus tollens válido sobre Q → P. Quien lea «solo si P, Q» como si P entonces Q (P → Q) creerá ver la falacia de negar el antecedente; esa es la trampa más fina. Tampoco es inducción ni analogía: hay una regla condicional y un caso, es decir, deducción. Una opción que recuerde, con razón, que el PEI se construye con la comunidad (Ley 115) pero no nombre la forma lógica cae en dominio cruzado normativo.",
+      "normativeJustification": "La participación en la construcción del PEI es exigencia de la Ley 115 de 1994 y del Decreto 1860, pero el ítem evalúa la forma del argumento, no el deber legal.",
+      "theoreticalJustification": "«Solo si P, Q» ≡ Q → P (P necesario para Q). Modus tollens: de X → Y y ¬Y se sigue ¬X. Aplicado aquí: de Q → P y ¬P se sigue ¬Q. Distinto de modus ponens y de negar el antecedente.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "0": "Dominio cruzado burocrático. El argumento del stem no cita un formato ni una autoridad externa.",
+        "2": "No hay segundo caso. Sin analogado, no hay analogía.",
+        "3": "La conclusión no alcanza al sistema de calidad. Quien «piensa en grande» sobreinterpreta el alcance."
       },
       "knowledgeTags": [
         {
@@ -26944,19 +26944,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "En el fragmento “la evaluación formativa retroalimenta; no obstante, muchas instituciones la reducen a notas”, “no obstante” cumple función de: (variante 47)",
       "options": [
-        "Contraste",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Introduce contraste: la segunda oración se alza contra la primera en lugar de confirmarla.",
+        "Justifica pedagógicamente que el docente reserve la retroalimentación cualitativa para los casos de reprobación inminente.",
+        "Equilibra dos mitades del SIEE (formativa y sumativa) como si el conector declarara paridad entre ambas.",
+        "Traduce el fragmento a un indicador de gestión: porcentaje de estudiantes con nota cargada en la plataforma a tiempo."
       ],
       "correctIndex": 0,
-      "explanation": "Conector adversativo/concesivo de contraste.",
-      "normativeJustification": "La comprensión de conectores es competencia nuclear de lectura crítica.",
-      "theoreticalJustification": "Conector adversativo/concesivo de contraste.",
+      "explanation": "La condición de calidad pide la función discursiva de «no obstante», no un juicio sobre evaluación formativa. En el fragmento, la primera cláusula atribuye a esa evaluación la función de retroalimentar; la segunda denuncia que muchas instituciones la reducen a notas. «No obstante» es un conector adversativo: instala un contraste entre una función declarada y una práctica que la contradice. No introduce causa (no presenta las notas como efecto de retroalimentar), ni sucesión temporal, ni adición del mismo signo. Quien elija una afirmación pedagógica correcta —por ejemplo, un deber del Decreto 1290— pero ajena al conector cae en la trampa de dominio cruzado: acierta en normativa y falla en lectura crítica.",
+      "normativeJustification": "La lectura crítica del concurso CNSC/ICFES evalúa relaciones discursivas (EBC de Lenguaje: comprensión de la organización del texto y de los conectores). El Decreto 1290 informa el contenido del ejemplo, no la respuesta.",
+      "theoreticalJustification": "Los conectores adversativos (no obstante, sin embargo, empero) marcan oposición entre dos proposiciones; se distinguen de causales, temporales, aditivos, consecutivos y de reformulación. Identificar la relación lógica, no el tema pedagógico, es la competencia.",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "1": "Dominio cruzado de «economía de la retroalimentación»: práctica frecuente y discutible, pero no es la función de «no obstante».",
+        "2": "Trampa de equilibrio institucional: el fragmento no pondera dos componentes del SIEE; denuncia una reducción.",
+        "3": "Dominio cruzado de calidad/PME: el indicador puede ser útil para secretaría, pero ignora la pregunta lingüística."
       },
       "knowledgeTags": [
         {
@@ -26981,19 +26981,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un texto sostiene que la inclusión no se agota en el acceso físico, sino que exige ajustes en evaluación y convivencia. Idea principal: (variante 48)",
       "options": [
-        "La inclusión exige transformar prácticas pedagógicas",
-        "La convivencia es ajena al currículo",
-        "La inclusión es solo infraestructura",
-        "La evaluación debe ser homogénea siempre"
+        "De acuerdo con el texto, incluir implica transformar las prácticas pedagógicas —evaluación y convivencia—, más allá del acceso físico.",
+        "El manual de convivencia, bien socializado, releva al docente de ajustar su evaluación o su clase.",
+        "Con matrícula, rampa y docente de apoyo asignado, la inclusión ya está institucionalmente resuelta.",
+        "Evaluar sin diferenciación es la expresión más rigurosa de altos estándares y de respeto por el DBA del grado."
       ],
       "correctIndex": 0,
-      "explanation": "La tesis amplía inclusión más allá del acceso.",
-      "normativeJustification": "Identificar idea principal es un desempeño típico ICFES.",
-      "theoreticalJustification": "La tesis amplía inclusión más allá del acceso.",
+      "explanation": "La condición de calidad pide la idea principal, no una medida administrativa plausible. El texto declara que la inclusión no se agota en el acceso físico y exige ajustes en evaluación y convivencia: desplaza el centro hacia la transformación de prácticas pedagógicas y de clima. Las opciones que se quedan en infraestructura, en homogeneizar pruebas «por equidad» o en dejar la convivencia en un comité paralelo recogen políticas reales, pero no reconstruyen la tesis. Quien responda con rampas, cupos o certificaciones —correctas en gestión— sin leer el «no se agota… sino que» cae en dominio cruzado.",
+      "normativeJustification": "Decreto 1421/2017 y Lineamientos de educación inclusiva del MEN exigen ajustes razonables en enseñanza, evaluación y convivencia, no solo acceso físico. El ítem, aun así, se resuelve por lectura de la tesis, no por recitar la norma.",
+      "theoreticalJustification": "La idea principal resume la tesis (qué se afirma y con qué alcance). Distinguirla de datos, de implicaciones institucionales y de políticas vecinas (acceso, evaluación homogénea, convivencia como silo) es el núcleo del ítem.",
       "distractorAnalysis": {
-        "1": "Sobreinterpreta más allá del texto.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Confunde la estructura o el conector evaluado."
+        "1": "Trampa normativa local: el manual es necesario, pero el texto no lo presenta como sustituto de la práctica de aula.",
+        "2": "Paquete de gestión (cupo + planta + apoyo) que suena completo y, según el texto, sigue siendo insuficiente.",
+        "3": "Dominio cruzado de rigor curricular: los DBA no anulan los ajustes razonables; el texto pide precisamente esos ajustes."
       },
       "knowledgeTags": [
         {
@@ -27019,19 +27019,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Los docentes que planifican con evidencia reducen la improvisación.” Se infiere que: (variante 49)",
       "options": [
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Planificar con evidencia favorece coherencia",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "La mejor evidencia para planear es el cronograma de simulacros de prueba de Estado del calendario institucional.",
+        "Si el estudiante muestra otra vía de comprensión, el plan escrito prevalece para no perder la coherencia institucional.",
+        "Del enunciado se sigue que planificar con evidencia favorece coherencia y reduce la improvisación de los docentes que así actúan.",
+        "Contextualizar con fiestas locales y fechas cívicas reemplaza la recolección de evidencia para la próxima sesión."
       ],
       "correctIndex": 2,
-      "explanation": "La inferencia válida se limita a lo sustentado por el enunciado.",
-      "normativeJustification": "Se evalúa inferencia controlada, no sobreinterpretación.",
-      "theoreticalJustification": "La inferencia válida se limita a lo sustentado por el enunciado.",
+      "explanation": "La condición de calidad pide una inferencia válida: lo que se sigue del enunciado sin inflar su alcance. «Los docentes que planifican con evidencia reducen la improvisación» autoriza concluir que planificar con evidencia favorece coherencia en esas prácticas. No autoriza negar todo valor a la improvisación, ni trasladar la planificación al equipo directivo, ni afirmar que el currículo prescinde de evidencia. Inferir no es moralizar ni completar con lo que «un buen docente haría»; es respetar el universo del texto.",
+      "normativeJustification": "La prueba de lectura crítica CNSC puntúa inferencias locales. El Decreto 1290 y los lineamientos de planeación curricular contextualizan el ejemplo; no amplían lo que el enunciado permite concluir.",
+      "theoreticalJustification": "Una inferencia lícita se mantiene dentro de lo que las premisas sostienen. Las sobrelecturas (generalizar el sujeto, absolutizar el predicado, negar el contrario no dicho) son el error típico en lectura crítica.",
       "distractorAnalysis": {
-        "0": "Confunde la estructura o el conector evaluado.",
-        "1": "Sobreinterpreta más allá del texto.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Dominio cruzado de preparación de pruebas: calendario plausible, pero el enunciado no identifica evidencia con simulacros.",
+        "1": "Interpreta coherencia como fidelidad al papel, no como coherencia pedagógica. El enunciado no llega ahí.",
+        "3": "Sustituye evidencia por efemérides. El enunciado no trata la contextualización como equivalente de evidencia."
       },
       "knowledgeTags": [
         {
@@ -27056,19 +27056,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "Un autor afirma: “Sin liderazgo pedagógico no hay mejora escolar sostenible.” El supuesto implícito es: (variante 50)",
       "options": [
-        "Las pruebas externas miden liderazgo",
-        "Los docentes no necesitan acompañamiento",
-        "El liderazgo pedagógico influye en la sostenibilidad del cambio",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual."
+        "Las pruebas externas son, en la práctica, el único espejo fidedigno del liderazgo pedagógico del establecimiento.",
+        "Cabe una mejora sostenible sostenida por docentes aislados, sin un liderazgo pedagógico que los articule.",
+        "Queda presupuesto que el liderazgo pedagógico condiciona de manera necesaria la sostenibilidad de la mejora escolar.",
+        "El informe de gestión del rector y la autoevaluación institucional documentan, ante la comunidad, los avances de la mejora."
       ],
       "correctIndex": 2,
-      "explanation": "El enunciado asume relación causal liderazgo→sostenibilidad.",
-      "normativeJustification": "Reconocer supuestos es nivel avanzado de lectura crítica.",
-      "theoreticalJustification": "El enunciado asume relación causal liderazgo→sostenibilidad.",
+      "explanation": "La condición de calidad pide el supuesto implícito, no la conclusión ni un indicador externo. «Sin liderazgo pedagógico no hay mejora escolar sostenible» trata ese liderazgo como condición necesaria de la sostenibilidad del cambio: si la mejora se sostiene, se asume que hubo liderazgo pedagógico (equivalente a: si no hay liderazgo, no hay mejora sostenible). El ítem no afirma que las pruebas externas midan liderazgo, ni que los recursos expliquen por sí solos la mejora, ni que el liderazgo sea condición suficiente. Quien elija un plan de mejoramiento o un índice SABER —útiles en gestión— confunde dominio administrativo con supuesto del autor.",
+      "normativeJustification": "El liderazgo pedagógico aparece en la Guía 34 y en el modelo de evaluación de desempeño directivo, pero este ítem se resuelve por lógica del enunciado, no por citar el instrumento de gestión.",
+      "theoreticalJustification": "Un supuesto es lo que el autor da por sentado para que el enunciado tenga sentido. «Sin A no hay B» codifica A como necesario para B; no equivale a «A basta para B» ni a «C mide A».",
       "distractorAnalysis": {
-        "0": "Sobreinterpreta más allá del texto.",
-        "1": "Confunde la estructura o el conector evaluado.",
-        "3": "Selecciona una categoría cercana pero incorrecta."
+        "0": "Convierte un instrumento de evaluación masiva en definición de liderazgo. El enunciado no lo dice.",
+        "1": "Niega la necesidad afirmada por «sin liderazgo no hay…».",
+        "3": "Dominio cruzado de rendición de cuentas: práctica institucional real y defendible; no es el supuesto implícito del enunciado sobre el liderazgo."
       },
       "knowledgeTags": [
         {
@@ -27094,19 +27094,19 @@
       "subtopic": "trabajo en equipo",
       "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
       "options": [
-        "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
-        "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
-        "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
-        "Facilitar acuerdos basados en evidencias y normas institucionales"
+        "Convocar de inmediato una votación del área para «democratizar» el criterio y dejar constancia de mayoría, aunque aún no se hayan contrastado evidencias ni el SIEE.",
+        "Escalar el desacuerdo al Consejo Directivo para que imponga un criterio único en la misma jornada y «cierre» el conflicto, ahorrando tiempo de clase.",
+        "Pasar los puntos de conflicto a un grupo de mensajería del área «para no exponer a nadie en acta» y retomar cuando baje la tensión.",
+        "Facilitar un acuerdo de área con criterios explícitos, evidencias del SIEE y registro en acta, cuidando el debido proceso y la confidencialidad institucional."
       ],
       "correctIndex": 3,
-      "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
-      "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
-      "theoreticalJustification": "La opción correcta maximiza trabajo en equipo con apego a canales institucionales y respeto.",
+      "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente en un desacuerdo de área con riesgo de escalar, simular o filtrar información. La opción correcta articula evidencia (criterios, SIEE), canal institucional (acta, instancias del gobierno escolar) e integridad (debido proceso y confidencialidad). Votar de inmediato «para democratizar», escalar al Consejo Directivo a fin de cerrar el día, o pasar el conflicto a un chat «para no dejar huella» suenan prudentes a un docente empírico, pero evaden la deliberación con evidencia o rompen el canal. El Código de Integridad del servicio público y el gobierno escolar exigen registro, escucha y decisión trazable, no atajos de clima ni de jerarquía.",
+      "normativeJustification": "Ley 115 (gobierno escolar), Decreto 1860, SIEE (Decreto 1290) y valores del Código de Integridad (DAFP): honestidad, diligencia y compromiso con lo público. La confidencialidad no autoriza sacar el conflicto del registro institucional.",
+      "theoreticalJustification": "En dilemas de trabajo en equipo institucional, la conducta defendible combina integridad, evidencia compartida y uso del canal formal. La votación sin contraste de criterios, la imposición jerárquica y el canal informal son atajos que simulan acuerdo o protegen el clima a costa del debido proceso.",
       "distractorAnalysis": {
-        "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
-        "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
-        "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+        "0": "Suena democrático y ágil. Falla la condición ética-institucional: sin evidencia ni contraste de criterios, la mayoría formaliza un acuerdo vacío y puede simular consenso.",
+        "1": "Dominio cruzado de jerarquía/eficiencia. El Consejo no sustituye la deliberación de área ni el SIEE; imponer para mostrar liderazgo rompe el debido proceso pedagógico.",
+        "2": "Suena a cuidado del clima y de la confidencialidad. Falla el canal: la confidencialidad no autoriza sacar el conflicto del registro institucional ni diluir responsabilidades."
       },
       "knowledgeTags": [
         {
@@ -49579,5 +49579,63 @@
     "itemsTouched": 50,
     "range": "items[480:530]",
     "note": "Reglas CNSC aplicadas: opciones plausibles, explanation profunda, distractorAnalysis especifico, fs-lec-1 opciones corregidas"
+  },
+  "contestUpgradeWave7": {
+    "at": "2026-09-14T16:28:06.259493+00:00",
+    "itemsTouched": 50,
+    "range": "531-580",
+    "ids": [
+      "fs-lec-2",
+      "fs-lec-3",
+      "fs-lec-4",
+      "fs-lec-5",
+      "fs-lec-6",
+      "fs-lec-7",
+      "fs-lec-8",
+      "fs-lec-9",
+      "fs-lec-10",
+      "fs-lec-11",
+      "fs-lec-12",
+      "fs-lec-13",
+      "fs-lec-14",
+      "fs-lec-15",
+      "fs-lec-16",
+      "fs-lec-17",
+      "fs-lec-18",
+      "fs-lec-19",
+      "fs-lec-20",
+      "fs-lec-21",
+      "fs-lec-22",
+      "fs-lec-23",
+      "fs-lec-24",
+      "fs-lec-25",
+      "fs-lec-26",
+      "fs-lec-27",
+      "fs-lec-28",
+      "fs-lec-29",
+      "fs-lec-30",
+      "fs-lec-31",
+      "fs-lec-32",
+      "fs-lec-33",
+      "fs-lec-34",
+      "fs-lec-35",
+      "fs-lec-36",
+      "fs-lec-37",
+      "fs-lec-38",
+      "fs-lec-39",
+      "fs-lec-40",
+      "fs-lec-41",
+      "fs-lec-42",
+      "fs-lec-43",
+      "fs-lec-44",
+      "fs-lec-45",
+      "fs-lec-46",
+      "fs-lec-47",
+      "fs-lec-48",
+      "fs-lec-49",
+      "fs-lec-50",
+      "fs-com-1"
+    ],
+    "note": "Lectura crítica (conectores, idea principal, inferencia, supuesto, modus tollens) y 1 ítem comportamental; distractores plausibles sin absolutismos."
   }
 }
