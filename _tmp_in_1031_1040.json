@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1031,
+    "id": "dir-apt-ped-283",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Ante un problema, un estudiante “empieza a operar” sin leer. Polya pide primero comprender (datos y pregunta), luego plan, ejecución y revisión. No empezar por comparar con el compañero ni saltar a revisar una solución inexistente.",
+    "stem": "Según Polya, ¿cuál es la primera fase frente a un problema matemático?",
+    "options": [
+      "Ejecutar de inmediato el primer procedimiento que se ocurra.",
+      "Revisar la solución obtenida, aunque aún no se haya comprendido el problema.",
+      "Comprender el problema, identificando los datos y lo que se pide resolver.",
+      "Comparar la respuesta con la de otros compañeros como primer paso."
+    ],
+    "explanation": "Polya propone comprender el problema como la primera de sus cuatro fases, antes de diseñar un plan, ejecutarlo y revisar la solución.",
+    "normativeJustification": "Polya propone comprender el problema como la primera de sus cuatro fases, antes de diseñar un plan, ejecutarlo y revisar la solución.",
+    "theoreticalJustification": "Polya propone comprender el problema como la primera de sus cuatro fases, antes de diseñar un plan, ejecutarlo y revisar la solución.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1032,
+    "id": "dir-apt-ped-284",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En ciencias piden memorizar leyes o copiar el experimento del libro sin pregunta. Un docente pide preguntar, hipotetizar, poner a prueba y analizar resultados.",
+    "stem": "Aplicar el método científico como estrategia didáctica implica principalmente que los estudiantes:",
+    "options": [
+      "Memoricen las leyes científicas sin indagación.",
+      "Repitan el experimento del texto sin pregunta propia.",
+      "Eviten formular hipótesis sobre los fenómenos.",
+      "Formulen preguntas, planteen hipótesis, las pongan a prueba y analicen resultados."
+    ],
+    "explanation": "El método científico como estrategia didáctica busca que los estudiantes vivan un proceso de indagación activa, no solo la memorización de conclusiones ya establecidas.",
+    "normativeJustification": "El método científico como estrategia didáctica busca que los estudiantes vivan un proceso de indagación activa, no solo la memorización de conclusiones ya establecidas.",
+    "theoreticalJustification": "El método científico como estrategia didáctica busca que los estudiantes vivan un proceso de indagación activa, no solo la memorización de conclusiones ya establecidas.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1033,
+    "id": "dir-apt-ped-285",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En 2° saltan a la ecuación sin material. Otro docente usa fichas o regletas como puente hacia el símbolo, no como reemplazo eterno del número escrito ni como evaluación motriz.",
+    "stem": "¿Cuál es el propósito principal del material concreto en la enseñanza inicial de las matemáticas?",
+    "options": [
+      "Facilitar la comprensión de lo abstracto mediante manipulación tangible previa a la representación simbólica.",
+      "Reemplazar por completo la necesidad de símbolos y números escritos, aunque parezca un trámite equitativo o suficiente.",
+      "Limitar las matemáticas exclusivamente a la educación inicial, aunque se presente como solución rápida en la reunión.",
+      "Evaluar el desempeño motriz más que la comprensión matemática, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "El material concreto sirve como puente entre la manipulación tangible y la comprensión de conceptos matemáticos abstractos.",
+    "normativeJustification": "El material concreto sirve como puente entre la manipulación tangible y la comprensión de conceptos matemáticos abstractos.",
+    "theoreticalJustification": "El material concreto sirve como puente entre la manipulación tangible y la comprensión de conceptos matemáticos abstractos.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1034,
+    "id": "dir-apt-ped-286",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El “orden” se sostiene con amonestaciones visibles y miedo. Un docente practica disciplina positiva: firmeza y amabilidad, consecuencias comprensibles y autorregulación, no un examen de conducta ni un trámite de caritas.",
+    "stem": "¿Qué caracteriza principalmente a la disciplina positiva como enfoque de convivencia en el aula?",
+    "options": [
+      "Apoyarse en la amonestación visible como única herramienta, sin enseñar autorregulación.",
+      "Combinar firmeza y amabilidad, para que el estudiante comprenda consecuencias y desarrolle autorregulación.",
+      "Dejar la autoevaluación de conducta como trámite de caritas, sin acuerdos.",
+      "Sustituir las normas por un único examen de “comportamiento”."
+    ],
+    "explanation": "La disciplina positiva combina firmeza y respeto, buscando el desarrollo de la autorregulación más que la obediencia por temor al castigo.",
+    "normativeJustification": "La disciplina positiva combina firmeza y respeto, buscando el desarrollo de la autorregulación más que la obediencia por temor al castigo.",
+    "theoreticalJustification": "La disciplina positiva combina firmeza y respeto, buscando el desarrollo de la autorregulación más que la obediencia por temor al castigo.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1035,
+    "id": "dir-apt-ped-287",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El docente impone las normas o, al contrario, “deja que el grupo mande”. Construirlas con los estudiantes busca comprensión y compromiso, no eludir consecuencias ni ceder la autoridad.",
+    "stem": "Cuando se construyen las normas de aula con los estudiantes, ¿qué se busca principalmente?",
+    "options": [
+      "Reducir la responsabilidad del docente frente al grupo.",
+      "Eliminar cualquier consecuencia ante el incumplimiento.",
+      "Que comprendan el sentido de las normas y se comprometan de forma más genuina.",
+      "Delegar por completo la autoridad del aula en los estudiantes."
+    ],
+    "explanation": "La construcción conjunta de normas favorece la comprensión de su sentido y un compromiso más genuino por parte de los estudiantes.",
+    "normativeJustification": "La construcción conjunta de normas favorece la comprensión de su sentido y un compromiso más genuino por parte de los estudiantes.",
+    "theoreticalJustification": "La construcción conjunta de normas favorece la comprensión de su sentido y un compromiso más genuino por parte de los estudiantes.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1036,
+    "id": "dir-apt-ped-288",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La motivación del curso depende de puntos y amenazas. Un docente diseña tareas con interés genuino (intrínseca), sin confundirla con “más quizzes” ni con supervisión constante.",
+    "stem": "A diferencia de la extrínseca, ¿qué caracteriza a la motivación intrínseca?",
+    "options": [
+      "Depender de premios o calificaciones externas para sostenerse.",
+      "Requerir siempre la supervisión constante de un adulto.",
+      "Estar motivada únicamente por evitar un temor a la amonestación.",
+      "Surgir del interés genuino o la satisfacción que el estudiante encuentra en la actividad misma."
+    ],
+    "explanation": "La motivación intrínseca surge del interés o disfrute genuino de la actividad, a diferencia de la extrínseca, que depende de factores externos.",
+    "normativeJustification": "La motivación intrínseca surge del interés o disfrute genuino de la actividad, a diferencia de la extrínseca, que depende de factores externos.",
+    "theoreticalJustification": "La motivación intrínseca surge del interés o disfrute genuino de la actividad, a diferencia de la extrínseca, que depende de factores externos.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1037,
+    "id": "dir-apt-ped-289",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un proyecto articula matemáticas, ciencias y lengua sobre el mismo problema del entorno. Un colega pide “volver a asignaturas aisladas” o tratarlo como solo sumativa de un área.",
+    "stem": "¿De qué es ejemplo un proyecto de aula que integra esas áreas alrededor de un mismo tema?",
+    "options": [
+      "Interdisciplinariedad o currículo integrado.",
+      "Evaluación sumativa exclusiva de una sola área.",
+      "Enseñanza tradicional de asignaturas completamente aisladas.",
+      "Un modelo exclusivo de la educación superior."
+    ],
+    "explanation": "La articulación de contenidos de distintas áreas alrededor de un mismo tema es característica de la interdisciplinariedad o el currículo integrado.",
+    "normativeJustification": "La articulación de contenidos de distintas áreas alrededor de un mismo tema es característica de la interdisciplinariedad o el currículo integrado.",
+    "theoreticalJustification": "La articulación de contenidos de distintas áreas alrededor de un mismo tema es característica de la interdisciplinariedad o el currículo integrado.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1038,
+    "id": "dir-apt-ped-290",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Una unidad didáctica bien formulada debe articular, como mínimo. Un actor propone: “Únicamente la lista de contenidos a desarrollar, sin ninguna secuencia de actividades.”. Otro insiste: “Solo el número de sesiones de clase que durará el tema.”. Un tercero sugiere: “Exclusivamente los recursos bibliográficos que se usarán.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Únicamente la lista de contenidos a desarrollar, sin ninguna secuencia de actividades.",
+      "Objetivos de aprendizaje, contenidos, actividades secuenciadas y criterios de evaluación.",
+      "Solo el número de sesiones de clase que durará el tema.",
+      "Exclusivamente los recursos bibliográficos que se usarán."
+    ],
+    "explanation": "Una unidad didáctica articula de manera coherente los objetivos, contenidos, actividades y criterios de evaluación de un período de enseñanza.",
+    "normativeJustification": "Una unidad didáctica articula de manera coherente los objetivos, contenidos, actividades y criterios de evaluación de un período de enseñanza.",
+    "theoreticalJustification": "Una unidad didáctica articula de manera coherente los objetivos, contenidos, actividades y criterios de evaluación de un período de enseñanza.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 1039,
+    "id": "dir-apt-ped-291",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Las tablets se reservan “a quienes no tienen dificultad” o se usa un único formato. Inclusión con TIC es ofrecer distintas formas de acceso y expresión según necesidades, no reemplazar al docente.",
+    "stem": "El uso de las TIC como herramienta de inclusión implica principalmente que:",
+    "options": [
+      "Se reserven exclusivamente a estudiantes sin dificultades de aprendizaje.",
+      "Reemplacen por completo la interacción del docente con los estudiantes.",
+      "Se usen para ofrecer distintas formas de acceso a la información y de expresión, según necesidades.",
+      "Se limiten a un único tipo de dispositivo para todo el grupo."
+    ],
+    "explanation": "Las TIC pueden ampliar las formas de acceso y expresión disponibles para los estudiantes, favoreciendo la atención a la diversidad en el aula.",
+    "normativeJustification": "Las TIC pueden ampliar las formas de acceso y expresión disponibles para los estudiantes, favoreciendo la atención a la diversidad en el aula.",
+    "theoreticalJustification": "Las TIC pueden ampliar las formas de acceso y expresión disponibles para los estudiantes, favoreciendo la atención a la diversidad en el aula.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1040,
+    "id": "dir-apt-ped-292",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La unidad es solo exposición o solo examen. Un docente sigue a Kolb: experiencia concreta, observación reflexiva, conceptualización y experimentación activa. Un colega pide “más teoría para el quiz”.",
+    "stem": "Según el ciclo de Kolb, ¿a través de qué se produce principalmente el aprendizaje experiencial en este diseño de unidad?",
+    "options": [
+      "La recitación repetida de teoría, sin experiencia concreta ni experimentación posterior.",
+      "La exposición pasiva del estudiante a la información, sin observación reflexiva del grupo.",
+      "La evaluación exclusivamente mediante un examen final, sin ciclo de experiencia y conceptualización.",
+      "Un ciclo de experiencia concreta, observación reflexiva, conceptualización abstracta y experimentación activa."
+    ],
+    "explanation": "Kolb propone un ciclo de cuatro fases que articula la experiencia, la reflexión, la conceptualización y la experimentación como base del aprendizaje.",
+    "normativeJustification": "Kolb propone un ciclo de cuatro fases que articula la experiencia, la reflexión, la conceptualización y la experimentación como base del aprendizaje.",
+    "theoreticalJustification": "Kolb propone un ciclo de cuatro fases que articula la experiencia, la reflexión, la conceptualización y la experimentación como base del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

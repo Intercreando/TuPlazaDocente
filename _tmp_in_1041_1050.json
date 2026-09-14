@@ -1,0 +1,329 @@
+[
+  {
+    "pos": 1041,
+    "id": "dir-apt-ped-293",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Las preguntas de clase son “¿cómo se llama el personaje?”. Un docente pregunta “¿por qué tomó esa decisión?” (análisis). No es más quizzes ni un trámite de autoevaluación.",
+    "stem": "Una pregunta como “¿por qué crees que el personaje tomó esa decisión?”, frente a una literal, es principalmente de:",
+    "options": [
+      "Orden superior: exige análisis e interpretación, no solo recuperación literal.",
+      "Orden inferior: solo recupera un dato puntual del texto, sin interpretación.",
+      "Orden reproductivo: copia una frase del texto sin interpretarla.",
+      "Orden administrativo: sirve para tomar asistencia, no para comprender."
+    ],
+    "explanation": "Las preguntas que exigen análisis, interpretación o justificación se consideran de orden superior, frente a las preguntas de recuperación literal de información.",
+    "normativeJustification": "Las preguntas que exigen análisis, interpretación o justificación se consideran de orden superior, frente a las preguntas de recuperación literal de información.",
+    "theoreticalJustification": "Las preguntas que exigen análisis, interpretación o justificación se consideran de orden superior, frente a las preguntas de recuperación literal de información.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1042,
+    "id": "dir-apt-ped-294",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Piden “aceptar el texto sin cuestionar” o “memorizar más”. Pensamiento crítico es analizar, cuestionar y evaluar información y argumentos antes de aceptar o rechazar.",
+    "stem": "Promover el pensamiento crítico en el aula implica principalmente que los estudiantes:",
+    "options": [
+      "Acepten sin cuestionamiento cualquier información que reciban.",
+      "Analicen, cuestionen y evalúen información y argumentos antes de aceptarlos o rechazarlos.",
+      "Memoricen la mayor cantidad posible de información sin análisis.",
+      "Eviten expresar desacuerdos con el docente en cualquier circunstancia."
+    ],
+    "explanation": "El pensamiento crítico implica analizar y evaluar la información de forma razonada, no aceptarla ni rechazarla sin ningún análisis.",
+    "normativeJustification": "El pensamiento crítico implica analizar y evaluar la información de forma razonada, no aceptarla ni rechazarla sin ningún análisis.",
+    "theoreticalJustification": "El pensamiento crítico implica analizar y evaluar la información de forma razonada, no aceptarla ni rechazarla sin ningún análisis.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1043,
+    "id": "dir-apt-ped-295",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un ítem tipo Saber/PISA narra una situación y luego pregunta. Un colega dice que “solo pone difícil la memoria”. Se busca aplicar conocimientos en un contexto con sentido, no reemplazar la enseñanza disciplinar.",
+    "stem": "¿Qué busca principalmente un ítem que presenta un contexto realista antes de la pregunta?",
+    "options": [
+      "Aumentar la dificultad sin propósito pedagógico adicional.",
+      "Evaluar exclusivamente la memoria del contexto presentado.",
+      "Evaluar la capacidad de aplicar conocimientos y habilidades en una situación con sentido.",
+      "Reemplazar por completo la necesidad de enseñar contenidos disciplinares."
+    ],
+    "explanation": "Los ítems contextualizados buscan evaluar la aplicación de conocimientos y habilidades en situaciones con sentido, más allá de la memorización aislada.",
+    "normativeJustification": "Los ítems contextualizados buscan evaluar la aplicación de conocimientos y habilidades en situaciones con sentido, más allá de la memorización aislada.",
+    "theoreticalJustification": "Los ítems contextualizados buscan evaluar la aplicación de conocimientos y habilidades en situaciones con sentido, más allá de la memorización aislada.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1044,
+    "id": "dir-apt-ped-296",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La comprensión lectora es lectura silenciosa y preguntas de copia. Un docente propone enseñanza recíproca: roles rotativos de predecir, cuestionar, aclarar y resumir, de forma colaborativa.",
+    "stem": "En esta clase de comprensión, ¿qué caracteriza principalmente a la enseñanza recíproca (reciprocal teaching)?",
+    "options": [
+      "Leer de forma completamente individual, sin interacción ni roles compartidos de comprensión.",
+      "Recitar el texto palabra por palabra, como si la comprensión fuera reproducción literal.",
+      "Recibir únicamente preguntas cerradas del docente, sin que el estudiante guíe la discusión.",
+      "Asumir roles rotativos (predecir, cuestionar, aclarar y resumir) para guiar en colaboración la comprensión."
+    ],
+    "explanation": "La enseñanza recíproca se basa en que los estudiantes asuman roles específicos que guían de forma colaborativa la comprensión del texto.",
+    "normativeJustification": "La enseñanza recíproca se basa en que los estudiantes asuman roles específicos que guían de forma colaborativa la comprensión del texto.",
+    "theoreticalJustification": "La enseñanza recíproca se basa en que los estudiantes asuman roles específicos que guían de forma colaborativa la comprensión del texto.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1045,
+    "id": "dir-apt-ped-297",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [
+      {
+        "code": "vygotsky",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "vygotsky"
+    ],
+    "caseContext": "Coordinación pide “sin ayudas, para que sea comparable”. Un docente ofrece andamiaje: apoyo temporal y ajustado que se retira al ganar autonomía (ZDP), no un andamio físico ni cero apoyo desde el día uno.",
+    "stem": "¿A qué se refiere principalmente el andamiaje (scaffolding) ligado a la ZDP?",
+    "options": [
+      "Al apoyo temporal y ajustado del docente, que se retira gradualmente al ganar autonomía.",
+      "A una estructura física de educación física.",
+      "A un tipo de evaluación aplicada solo al final del año.",
+      "A eliminar todo apoyo docente desde el inicio del aprendizaje."
+    ],
+    "explanation": "El andamiaje implica un apoyo ajustado y temporal, que se retira progresivamente a medida que el estudiante desarrolla mayor autonomía.",
+    "normativeJustification": "El andamiaje implica un apoyo ajustado y temporal, que se retira progresivamente a medida que el estudiante desarrolla mayor autonomía.",
+    "theoreticalJustification": "El andamiaje implica un apoyo ajustado y temporal, que se retira progresivamente a medida que el estudiante desarrolla mayor autonomía.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1046,
+    "id": "dir-apt-ped-298",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En primaria organizan el período alrededor de preguntas del entorno, articulando áreas. No es “todo el año un examen”, ni prescindir de planeación, ni una sola área.",
+    "stem": "¿Qué caracteriza principalmente a un currículo por proyectos de aula en primaria?",
+    "options": [
+      "Organizar todo el año exclusivamente alrededor de un examen final.",
+      "Articular aprendizajes de distintas áreas alrededor de preguntas o problemáticas significativas.",
+      "Prescindir por completo de cualquier planeación docente.",
+      "Limitarse a una sola área durante todo el período."
+    ],
+    "explanation": "El currículo por proyectos articula distintas áreas alrededor de preguntas o problemáticas significativas para los estudiantes, favoreciendo un aprendizaje con sentido.",
+    "normativeJustification": "El currículo por proyectos articula distintas áreas alrededor de preguntas o problemáticas significativas para los estudiantes, favoreciendo un aprendizaje con sentido.",
+    "theoreticalJustification": "El currículo por proyectos articula distintas áreas alrededor de preguntas o problemáticas significativas para los estudiantes, favoreciendo un aprendizaje con sentido.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1047,
+    "id": "dir-apt-ped-299",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los grupos son fijos por lista o se evita el trabajo en equipo. Un docente propone agrupamiento flexible: variar la composición según el propósito de la actividad y las necesidades, no por capricho.",
+    "stem": "En esta organización del trabajo, ¿en qué consiste principalmente el agrupamiento flexible como estrategia pedagógica?",
+    "options": [
+      "Mantener los mismos grupos todo el año, sin variación según la actividad o las necesidades.",
+      "Formar grupos exclusivamente por orden alfabético, sin propósito pedagógico de la tarea.",
+      "Variar la composición de los grupos según el propósito de cada actividad y las necesidades.",
+      "Evitar cualquier trabajo grupal en el aula, para que toda evidencia sea estrictamente individual."
+    ],
+    "explanation": "El agrupamiento flexible permite adaptar la composición de los grupos según el propósito pedagógico de cada actividad.",
+    "normativeJustification": "El agrupamiento flexible permite adaptar la composición de los grupos según el propósito pedagógico de cada actividad.",
+    "theoreticalJustification": "El agrupamiento flexible permite adaptar la composición de los grupos según el propósito pedagógico de cada actividad.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1048,
+    "id": "dir-apt-ped-300",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Solo hay pruebas escritas. Un docente observa procesos y actitudes que el examen no muestra, con registro. No sustituye toda evidencia escrita ni se reduce a “disciplina”.",
+    "stem": "La observación como instrumento cualitativo permite principalmente al docente:",
+    "options": [
+      "Sustituir por completo cualquier evaluación escrita, aunque se presente como solución rápida en la reunión.",
+      "Evaluar exclusivamente el comportamiento disciplinario, aunque ahorre tiempo visible de clase o de consejo.",
+      "Evitar registrar evidencia del proceso de aprendizaje, aunque parezca un trámite equitativo o suficiente.",
+      "Recoger información sobre procesos, actitudes y desempeños no siempre visibles en instrumentos escritos."
+    ],
+    "explanation": "La observación permite captar procesos, actitudes y desempeños que instrumentos exclusivamente escritos podrían no evidenciar.",
+    "normativeJustification": "La observación permite captar procesos, actitudes y desempeños que instrumentos exclusivamente escritos podrían no evidenciar.",
+    "theoreticalJustification": "La observación permite captar procesos, actitudes y desempeños que instrumentos exclusivamente escritos podrían no evidenciar.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1049,
+    "id": "dir-apt-lec-301",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La independencia de las provincias que hoy conforman Colombia no fue un hecho aislado ocurrido en un único día, sino un proceso que se extendió por más de una década, con avances y retrocesos. Tras el llamado Grito de Independencia del 20 de julio de 1810, se vivió un período de luchas internas entre distintas facciones criollas, conocido como la Patria Boba, que debilitó la capacidad de resistencia frente a la reconquista española liderada por Pablo Morillo. Solo después de la campaña libertadora de Simón Bolívar, que culminó con la Batalla de Boyacá en 1819, se consolidó de manera más definitiva el proceso de independencia.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La independencia de Colombia fue un proceso extendido en el tiempo, con avances y retrocesos, y no un hecho ocurrido en un solo día.",
+      "La independencia de Colombia se logró únicamente el 20 de julio de 1810.",
+      "La Patria Boba fortaleció la resistencia frente a la reconquista española.",
+      "Simón Bolívar lideró la reconquista española en el territorio colombiano."
+    ],
+    "explanation": "El texto plantea la independencia como un proceso extendido, señalando distintas etapas hasta su consolidación.",
+    "normativeJustification": "El texto plantea la independencia como un proceso extendido, señalando distintas etapas hasta su consolidación.",
+    "theoreticalJustification": "El texto plantea la independencia como un proceso extendido, señalando distintas etapas hasta su consolidación.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1050,
+    "id": "dir-apt-lec-302",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La independencia de las provincias que hoy conforman Colombia no fue un hecho aislado ocurrido en un único día, sino un proceso que se extendió por más de una década, con avances y retrocesos. Tras el llamado Grito de Independencia del 20 de julio de 1810, se vivió un período de luchas internas entre distintas facciones criollas, conocido como la Patria Boba, que debilitó la capacidad de resistencia frente a la reconquista española liderada por Pablo Morillo. Solo después de la campaña libertadora de Simón Bolívar, que culminó con la Batalla de Boyacá en 1819, se consolidó de manera más definitiva el proceso de independencia.",
+    "stem": "Según el texto, ¿qué caracterizó al período conocido como la Patria Boba?",
+    "options": [
+      "Una alianza sólida entre todas las facciones criollas.",
+      "Luchas internas entre distintas facciones criollas que debilitaron la resistencia frente a la reconquista.",
+      "La consolidación definitiva de la independencia.",
+      "La ausencia total de conflictos políticos internos."
+    ],
+    "explanation": "El texto lo describe explícitamente como un período de luchas internas que debilitó la resistencia.",
+    "normativeJustification": "El texto lo describe explícitamente como un período de luchas internas que debilitó la resistencia.",
+    "theoreticalJustification": "El texto lo describe explícitamente como un período de luchas internas que debilitó la resistencia.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

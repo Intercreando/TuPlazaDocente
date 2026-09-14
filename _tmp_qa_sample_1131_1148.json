@@ -1,0 +1,62 @@
+[
+  {
+    "id": "dir-apt-ped-396",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Una salida es “paseo sin planeación” o se usa solo para notar conducta. El trabajo de campo permite observar y analizar fenómenos sociales o geográficos en contexto, complementando el aula.",
+    "stem": "Las salidas pedagógicas o el trabajo de campo permiten principalmente:",
+    "options": [
+      "Sustituir de forma permanente el trabajo de aula por salidas, y reportarlo como indicador PMI de escuela abierta al territorio, sin el complemento teórico que el caso pide.",
+      "Evaluar sobre todo la conducta fuera del aula con el manual de convivencia de la Ley 1620, homologando compostura en el recorrido con el análisis del fenómeno social o geográfico.",
+      "Dejar la ruta al descubrimiento espontáneo del barrio, sin guía de observación, para no escolarizar la salida y preservar autenticidad frente a un paseo sin planeación.",
+      "Observar y analizar fenómenos sociales o geográficos en su contexto real, complementando el aula, no un paseo sin planeación ni una nota de conducta del recorrido."
+    ],
+    "explanation": "La condición de calidad pregunta qué permiten principalmente las salidas pedagógicas o el trabajo de campo. Permiten observar y analizar fenómenos sociales o geográficos en contexto real, complementando el aula, no un paseo sin planeación ni una nota de conducta. Reportar la salida permanente al PMI de escuela abierta documenta territorio y apaga el aula. Evaluar conducta con la Ley 1620 homologa compostura con análisis. La ruta espontánea sin guía parece autenticidad y reproduce el paseo sin planeación.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado del PMI: sustituir el aula por salidas como escuela abierta luce como calidad territorial. Omite el complemento teórico y convierte la salida en reemplazo permanente.",
+      "1": "Trampa de la convivencia 1620: evaluar la conducta del recorrido parece orden institucional. Homologa compostura con análisis del fenómeno social o geográfico que el campo debe permitir.",
+      "2": "Trampa de la autenticidad: dejar la ruta al descubrimiento sin guía parece no escolarizar. Reproduce el paseo sin planeación que el caso critica y niega la observación analítica."
+    }
+  },
+  {
+    "id": "dir-apt-ped-397",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Los SIG se presentan como “teoría de satélites” o se prohíbe el mapa en papel. En aula, las capas permiten relacionar variables sobre un mismo territorio.",
+    "stem": "El uso de herramientas básicas de SIG permite principalmente que los estudiantes:",
+    "options": [
+      "Analizar y visualizar información geográfica en capas, relacionando variables sobre un mismo territorio, no memorizar satélites ni prohibir el mapa en papel ni tratar el SIG como software ajeno a sociales.",
+      "Memorizar el funcionamiento técnico de los satélites como alfabetización STEM del DBA de tecnología, desplazando las capas y las variables del territorio que el SIG hace visibles.",
+      "Tratar el SIG como software de sistemas ajeno a sociales y evitar el análisis espacial, para no invadir el área de informática y dejar el mapa en papel como único recurso.",
+      "Reemplazar los mapas en papel en todas las actividades y reportarlo como indicador PMI de innovación digital de la IE, como si el SIG anulara las representaciones analógicas."
+    ],
+    "explanation": "La condición de calidad pregunta qué permite principalmente el uso de herramientas básicas de SIG. Permite analizar y visualizar información geográfica en capas, relacionando variables sobre un mismo territorio, no teoría de satélites ni prohibir el mapa en papel. Memorizar satélites como STEM del DBA de tecnología desplaza las capas. Tratar el SIG como software ajeno a sociales evita el análisis espacial. Reportar el reemplazo del papel al PMI documenta innovación digital, no lectura de capas.",
+    "distractorAnalysis": {
+      "1": "Trampa de la alfabetización STEM: memorizar satélites parece rigor tecnológico. Desplaza las capas y las variables del territorio que el SIG debe hacer visibles en sociales.",
+      "2": "Trampa del software ajeno: evitar el análisis espacial para no invadir informática parece respeto de áreas. Deja el SIG fuera de sociales y el mapa en papel como recurso sin capas.",
+      "3": "Trampa de dominio cruzado del PMI: reemplazar el mapa en papel como innovación digital luce institucional. Anula representaciones analógicas y no enseña a relacionar variables en capas."
+    }
+  },
+  {
+    "id": "dir-apt-ped-394",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "El currículo “impone una cultura de referencia” o silencia la diversidad del aula. Educación intercultural: reconocimiento, diálogo y respeto entre culturas presentes.",
+    "stem": "La educación intercultural en ciencias sociales busca principalmente. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Imponer la cultura de referencia del PEI como referente válido para todo el grupo, a fin de no fragmentar la identidad institucional del aula ni la diversidad que el caso describe.",
+      "Promover reconocimiento, diálogo y respeto entre distintas culturas del aula y de la sociedad, sin silenciar la diversidad ni recortar el currículo a la cultura propia de cada estudiante.",
+      "Unificar el currículo en un relato cultural del DBA nacional, para no dispersar la unidad con la diversidad presente en el aula y sostener un eje común de sociales.",
+      "Limitar el estudio a la cultura propia de cada estudiante y reportarlo como indicador PMI de pertinencia etnoeducativa, sin diálogo intercultural entre las culturas del aula."
+    ],
+    "explanation": "La condición de calidad pide la opción más defendible, con evidencia e instancia, sobre qué busca principalmente la educación intercultural en ciencias sociales. Busca reconocimiento, diálogo y respeto entre culturas del aula y de la sociedad, no imponer una cultura de referencia ni silenciar la diversidad. El PEI como referente único unifica identidad y apaga el diálogo. El relato del DBA nacional parece eje común y dispersa menos, pero oculta al aula. El PMI de pertinencia etnoeducativa documenta lo propio y omite el entre-culturas.",
+    "distractorAnalysis": {
+      "0": "Trampa de la identidad institucional: imponer la cultura de referencia del PEI parece no fragmentar el aula. Silencia la diversidad y niega el diálogo que la educación intercultural busca.",
+      "2": "Trampa del eje nacional: unificar el currículo en el DBA parece no dispersar la unidad. Oculta las culturas del aula y convierte el diálogo en un relato homogéneo.",
+      "3": "Trampa de dominio cruzado del PMI: limitar el estudio a la cultura propia como pertinencia etnoeducativa luce como calidad. Omite el diálogo entre culturas y recorta el currículo a lo propio de cada estudiante."
+    }
+  }
+]

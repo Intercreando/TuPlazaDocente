@@ -1,0 +1,1602 @@
+[
+  {
+    "pos": 1081,
+    "id": "dir-apt-num-333",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente organiza un debate en el que participan 28 estudiantes, divididos en 2 equipos con igual número de integrantes. Un docente propone reportar 12 (otra base, redondeo o indicador distinto); otro insiste en 16. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "14",
+      "12",
+      "16",
+      "10"
+    ],
+    "explanation": "28 ÷ 2 = 14 estudiantes por equipo.",
+    "normativeJustification": "28 ÷ 2 = 14 estudiantes por equipo.",
+    "theoreticalJustification": "28 ÷ 2 = 14 estudiantes por equipo.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1082,
+    "id": "dir-apt-num-334",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un curso, el 40% de los estudiantes eligió investigar sobre la Independencia y el 25% sobre la Constitución de 1991, del total de 32 estudiantes. Un docente propone reportar 9 (otra base, redondeo o indicador distinto); otro insiste en 13. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "explanation": "40% + 25% = 65%. El 35% restante corresponde a otro tema: 32 × 0.35 = 11 estudiantes.",
+    "normativeJustification": "40% + 25% = 65%. El 35% restante corresponde a otro tema: 32 × 0.35 = 11 estudiantes.",
+    "theoreticalJustification": "40% + 25% = 65%. El 35% restante corresponde a otro tema: 32 × 0.35 = 11 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1083,
+    "id": "dir-apt-num-335",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En 1991 la Asamblea Nacional Constituyente estuvo compuesta por 70 miembros, y el 20% pertenecía a partidos distintos a los tradicionales. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 12. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "explanation": "70 × 0.20 = 14 miembros.",
+    "normativeJustification": "70 × 0.20 = 14 miembros.",
+    "theoreticalJustification": "70 × 0.20 = 14 miembros.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1084,
+    "id": "dir-apt-num-336",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente de ciencias sociales dedica 3 de las 5 clases semanales al estudio de la historia y el resto a geografía. Un docente propone reportar 20% (otra base, redondeo o indicador distinto); otro insiste en 30%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "20%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "explanation": "2 de las 5 clases se dedican a geografía: 2/5 = 0.40 = 40%.",
+    "normativeJustification": "2 de las 5 clases se dedican a geografía: 2/5 = 0.40 = 40%.",
+    "theoreticalJustification": "2 de las 5 clases se dedican a geografía: 2/5 = 0.40 = 40%.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1085,
+    "id": "dir-apt-num-337",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La tasa de desempleo de una ciudad es del 11.5% sobre una población económicamente activa de 800.000 personas. Un docente propone reportar 84.000 (otra base, redondeo o indicador distinto); otro insiste en 98.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "92.000",
+      "84.000",
+      "98.000",
+      "104.000"
+    ],
+    "explanation": "800.000 x 0.115 = 92.000 personas.",
+    "normativeJustification": "800.000 x 0.115 = 92.000 personas.",
+    "theoreticalJustification": "800.000 x 0.115 = 92.000 personas.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1086,
+    "id": "dir-apt-num-338",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente elabora un cuestionario sobre los órganos del poder público con 24 preguntas, distribuidas equitativamente entre las 3 ramas del poder. Un docente propone reportar 6 (otra base, redondeo o indicador distinto); otro insiste en 10. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "explanation": "24 ÷ 3 = 8 preguntas por cada rama del poder público.",
+    "normativeJustification": "24 ÷ 3 = 8 preguntas por cada rama del poder público.",
+    "theoreticalJustification": "24 ÷ 3 = 8 preguntas por cada rama del poder público.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1087,
+    "id": "dir-apt-num-339",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Entre la Constitución de 1886 y la Constitución de 1991. Un docente propone reportar 95 (otra base, redondeo o indicador distinto); otro insiste en 100. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "95",
+      "100",
+      "105",
+      "110"
+    ],
+    "explanation": "1991 - 1886 = 105 años.",
+    "normativeJustification": "1991 - 1886 = 105 años.",
+    "theoreticalJustification": "1991 - 1886 = 105 años.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1088,
+    "id": "dir-apt-num-340",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una gráfica de distribución del territorio nacional, el 6% corresponde a áreas urbanas, sobre una superficie total de 1.140.000 km2. Un docente propone reportar 54.000 km2 (otra base, redondeo o indicador distinto); otro insiste en 60.000 km2. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "54.000 km2",
+      "60.000 km2",
+      "64.200 km2",
+      "68.400 km2"
+    ],
+    "explanation": "1.140.000 x 0.06 = 68.400 km².",
+    "normativeJustification": "1.140.000 x 0.06 = 68.400 km².",
+    "theoreticalJustification": "1.140.000 x 0.06 = 68.400 km².",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1089,
+    "id": "dir-apt-blan-341",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un debate en clase sobre un tema político genera posiciones muy polarizadas entre los estudiantes, con un tono cada vez más acalorado. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Recordar y reforzar las normas de escucha y respeto acordadas previamente, y redirigir el debate hacia el análisis de argumentos en lugar de posiciones personales.",
+      "Suspender permanentemente cualquier discusión sobre temas políticos en el aula.",
+      "Tomar partido abiertamente por una de las posiciones para orientar la discusión.",
+      "Dejar que el debate continúe sin ninguna intervención, sin importar el tono que tome."
+    ],
+    "explanation": "Reforzar las normas de respeto y reorientar hacia el análisis de argumentos permite mantener el valor pedagógico del debate sin perder el control del ambiente.",
+    "normativeJustification": "Reforzar las normas de respeto y reorientar hacia el análisis de argumentos permite mantener el valor pedagógico del debate sin perder el control del ambiente.",
+    "theoreticalJustification": "Reforzar las normas de respeto y reorientar hacia el análisis de argumentos permite mantener el valor pedagógico del debate sin perder el control del ambiente.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1090,
+    "id": "dir-apt-blan-342",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante presenta una noticia falsa (desinformación) como fuente confiable en un trabajo sobre un tema de actualidad. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Aprovechar la situación como oportunidad pedagógica para trabajar con el grupo criterios de verificación y evaluación de fuentes.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Convertir el error en una oportunidad de enseñanza sobre alfabetización mediática fortalece una competencia clave del área.",
+    "normativeJustification": "Convertir el error en una oportunidad de enseñanza sobre alfabetización mediática fortalece una competencia clave del área.",
+    "theoreticalJustification": "Convertir el error en una oportunidad de enseñanza sobre alfabetización mediática fortalece una competencia clave del área.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1091,
+    "id": "dir-apt-blan-343",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un padre de familia cuestiona que se aborde en clase un tema que considera políticamente sensible, como los derechos humanos. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Explicar con respeto el sustento curricular y pedagógico del tema, y aclarar que se aborda desde una perspectiva plural y no partidista.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Explicar el sustento curricular y el enfoque plural del tema responde a la inquietud sin renunciar a contenidos formativos legítimos.",
+    "normativeJustification": "Explicar el sustento curricular y el enfoque plural del tema responde a la inquietud sin renunciar a contenidos formativos legítimos.",
+    "theoreticalJustification": "Explicar el sustento curricular y el enfoque plural del tema responde a la inquietud sin renunciar a contenidos formativos legítimos.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1092,
+    "id": "dir-apt-blan-344",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Al hablar sobre el conflicto armado colombiano, un estudiante revela espontáneamente que su familia fue víctima de desplazamiento forzado. ¿Cuál sería la actuación más adecuada del docente en ese momento? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Reconocer con sensibilidad lo compartido, sin exponerlo más de lo que él mismo decidió compartir, y ofrecer un espacio de conversación posterior si lo desea."
+    ],
+    "explanation": "Reconocer con sensibilidad lo compartido, sin forzar mayor exposición, respeta la experiencia del estudiante y abre la puerta a un acompañamiento posterior si es necesario.",
+    "normativeJustification": "Reconocer con sensibilidad lo compartido, sin forzar mayor exposición, respeta la experiencia del estudiante y abre la puerta a un acompañamiento posterior si es necesario.",
+    "theoreticalJustification": "Reconocer con sensibilidad lo compartido, sin forzar mayor exposición, respeta la experiencia del estudiante y abre la puerta a un acompañamiento posterior si es necesario.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1093,
+    "id": "dir-apt-blan-345",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos estudiantes con posturas políticas opuestas, que reflejan las de sus familias, discuten de forma acalorada durante una actividad de clase. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Mediar el intercambio, orientándolo hacia la argumentación basada en evidencia y el respeto mutuo, sin descalificar ninguna de las posturas familiares.",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Mediar hacia la argumentación basada en evidencia, sin descalificar ninguna postura familiar, preserva el pluralismo propio de la formación ciudadana.",
+    "normativeJustification": "Mediar hacia la argumentación basada en evidencia, sin descalificar ninguna postura familiar, preserva el pluralismo propio de la formación ciudadana.",
+    "theoreticalJustification": "Mediar hacia la argumentación basada en evidencia, sin descalificar ninguna postura familiar, preserva el pluralismo propio de la formación ciudadana.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1094,
+    "id": "dir-apt-blan-346",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una clase sobre diversidad cultural, un estudiante hace un comentario discriminatorio hacia un grupo étnico. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Abordar el comentario en el momento, explicando por qué resulta problemático, y retomarlo como contenido formativo sobre el respeto a la diversidad.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Abordar el comentario en el momento, con un enfoque formativo, convierte la situación en una oportunidad de aprendizaje sobre el respeto a la diversidad.",
+    "normativeJustification": "Abordar el comentario en el momento, con un enfoque formativo, convierte la situación en una oportunidad de aprendizaje sobre el respeto a la diversidad.",
+    "theoreticalJustification": "Abordar el comentario en el momento, con un enfoque formativo, convierte la situación en una oportunidad de aprendizaje sobre el respeto a la diversidad.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1095,
+    "id": "dir-apt-blan-347",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Se acerca un período electoral y un estudiante pregunta directamente por quién debería votar su familia. ¿Cuál sería la respuesta más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Recomendar abiertamente un candidato o partido específico.",
+      "Evitar por completo cualquier conversación relacionada con las elecciones.",
+      "Explicar que esa es una decisión personal y familiar, y en su lugar orientar al estudiante sobre cómo analizar propuestas y fuentes de información para formar su propio criterio.",
+      "Pedirle que le pregunte directamente al docente de otra área."
+    ],
+    "explanation": "Orientar hacia el desarrollo del criterio propio del estudiante, sin emitir recomendaciones partidistas, es coherente con el rol formativo del docente en un tema electoral.",
+    "normativeJustification": "Orientar hacia el desarrollo del criterio propio del estudiante, sin emitir recomendaciones partidistas, es coherente con el rol formativo del docente en un tema electoral.",
+    "theoreticalJustification": "Orientar hacia el desarrollo del criterio propio del estudiante, sin emitir recomendaciones partidistas, es coherente con el rol formativo del docente en un tema electoral.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1096,
+    "id": "dir-apt-blan-348",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante presenta, como parte de una investigación, una fuente histórica con contenido gráfico de violencia relacionado con un período como La Violencia en Colombia. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Revisar previamente el material, contextualizarlo pedagógicamente y decidir con criterio qué parte es pertinente compartir con el grupo, considerando su edad y sensibilidad."
+    ],
+    "explanation": "Revisar y contextualizar previamente el material permite un manejo pedagógicamente responsable de fuentes históricas sensibles.",
+    "normativeJustification": "Revisar y contextualizar previamente el material permite un manejo pedagógicamente responsable de fuentes históricas sensibles.",
+    "theoreticalJustification": "Revisar y contextualizar previamente el material permite un manejo pedagógicamente responsable de fuentes históricas sensibles.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1097,
+    "id": "dir-apt-blan-349",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante un proyecto de árbol genealógico, un estudiante muestra reticencia a compartir información sobre su familia. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Respetar su decisión, ofrecer alternativas flexibles para desarrollar la actividad sin exponer información que el estudiante prefiera no compartir.",
+      "Insistir en que debe compartir toda la información solicitada sin ninguna excepción.",
+      "Calificar con una nota baja al estudiante por no completar la actividad como se solicitó originalmente.",
+      "Pedirle a otro familiar que complete la información directamente con el docente."
+    ],
+    "explanation": "Respetar la reticencia del estudiante y ofrecer alternativas flexibles reconoce que las situaciones familiares pueden ser sensibles y diversas.",
+    "normativeJustification": "Respetar la reticencia del estudiante y ofrecer alternativas flexibles reconoce que las situaciones familiares pueden ser sensibles y diversas.",
+    "theoreticalJustification": "Respetar la reticencia del estudiante y ofrecer alternativas flexibles reconoce que las situaciones familiares pueden ser sensibles y diversas.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1098,
+    "id": "dir-apt-blan-350",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una actividad sobre tradiciones religiosas mayoritarias, un estudiante de una religión minoritaria se muestra incómodo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Abordar el tema desde una perspectiva plural que incluya distintas tradiciones religiosas, y conversar en privado con el estudiante si es necesario.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Abordar el tema desde una perspectiva plural, y ofrecer un espacio de conversación individual, respeta la diversidad religiosa presente en el aula.",
+    "normativeJustification": "Abordar el tema desde una perspectiva plural, y ofrecer un espacio de conversación individual, respeta la diversidad religiosa presente en el aula.",
+    "theoreticalJustification": "Abordar el tema desde una perspectiva plural, y ofrecer un espacio de conversación individual, respeta la diversidad religiosa presente en el aula.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1099,
+    "id": "dir-apt-blan-351",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una discusión sobre desigualdad económica, un grupo de estudiantes de bajos recursos parece sentirse señalado por los ejemplos utilizados. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Continuar la clase exactamente igual, sin ningún ajuste.",
+      "Suspender por completo el tema de desigualdad económica del currículo.",
+      "Ajustar los ejemplos utilizados, abordar el tema con sensibilidad y enfocarlo en el análisis estructural más que en situaciones personales de los estudiantes.",
+      "Pedir a los estudiantes que compartan públicamente su situación económica familiar."
+    ],
+    "explanation": "Ajustar los ejemplos y enfocar el análisis en lo estructural, con sensibilidad, evita exponer innecesariamente la situación personal de los estudiantes.",
+    "normativeJustification": "Ajustar los ejemplos y enfocar el análisis en lo estructural, con sensibilidad, evita exponer innecesariamente la situación personal de los estudiantes.",
+    "theoreticalJustification": "Ajustar los ejemplos y enfocar el análisis en lo estructural, con sensibilidad, evita exponer innecesariamente la situación personal de los estudiantes.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1100,
+    "id": "dir-apt-blan-352",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un colega de otra área cuestiona que el docente dedique tiempo de clase a analizar la coyuntura política actual. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Explicar con respeto el sustento pedagógico de analizar la coyuntura para desarrollar competencias ciudadanas y de pensamiento crítico."
+    ],
+    "explanation": "Explicar el sustento pedagógico del análisis de coyuntura, con respeto, defiende la pertinencia curricular del área de ciencias sociales.",
+    "normativeJustification": "Explicar el sustento pedagógico del análisis de coyuntura, con respeto, defiende la pertinencia curricular del área de ciencias sociales.",
+    "theoreticalJustification": "Explicar el sustento pedagógico del análisis de coyuntura, con respeto, defiende la pertinencia curricular del área de ciencias sociales.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1101,
+    "id": "dir-apt-blan-353",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Estudiantes de estratos socioeconómicos distintos expresan opiniones muy diferentes sobre un tema de política pública, generando cierta tensión en el grupo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Facilitar que las distintas perspectivas se expresen con respeto, y usar la diversidad de opiniones como insumo para analizar el tema desde múltiples ángulos.",
+      "Descalificar las opiniones que no coincidan con la posición mayoritaria del grupo.",
+      "Evitar cualquier tema de política pública para no generar tensión en el aula.",
+      "Pedir a los estudiantes que oculten su origen socioeconómico durante la discusión."
+    ],
+    "explanation": "Facilitar la expresión respetuosa de las distintas perspectivas enriquece el análisis del tema desde múltiples ángulos, en lugar de evitarlo.",
+    "normativeJustification": "Facilitar la expresión respetuosa de las distintas perspectivas enriquece el análisis del tema desde múltiples ángulos, en lugar de evitarlo.",
+    "theoreticalJustification": "Facilitar la expresión respetuosa de las distintas perspectivas enriquece el análisis del tema desde múltiples ángulos, en lugar de evitarlo.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1102,
+    "id": "dir-apt-blan-354",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante manifiesta desinterés total por la clase de ciencias sociales, calificándola como 'poco útil'. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Conversar con el estudiante para entender su percepción, y explorar formas de conectar los contenidos con situaciones o intereses relevantes para él.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Indagar la percepción del estudiante y buscar conexiones significativas con sus intereses es más constructivo que ignorar o sancionar su comentario.",
+    "normativeJustification": "Indagar la percepción del estudiante y buscar conexiones significativas con sus intereses es más constructivo que ignorar o sancionar su comentario.",
+    "theoreticalJustification": "Indagar la percepción del estudiante y buscar conexiones significativas con sus intereses es más constructivo que ignorar o sancionar su comentario.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1103,
+    "id": "dir-apt-blan-355",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante un simulacro de las Naciones Unidas (Modelo ONU), un estudiante debe representar una postura con la que está personalmente en desacuerdo. Manifiesta incomodidad con esto al docente. ¿Cuál sería la respuesta más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Explicarle el valor pedagógico de representar posturas distintas a la propia para desarrollar empatía y comprensión de otras perspectivas, ofreciendo acompañamiento en el proceso.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Explicar el valor formativo de representar posturas distintas, ofreciendo acompañamiento, ayuda a resignificar la incomodidad inicial como parte del aprendizaje.",
+    "normativeJustification": "Explicar el valor formativo de representar posturas distintas, ofreciendo acompañamiento, ayuda a resignificar la incomodidad inicial como parte del aprendizaje.",
+    "theoreticalJustification": "Explicar el valor formativo de representar posturas distintas, ofreciendo acompañamiento, ayuda a resignificar la incomodidad inicial como parte del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1104,
+    "id": "dir-apt-blan-356",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante llega visiblemente alterado a clase tras haber visto noticias recientes sobre un hecho de violencia ocurrido en el país. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Permitir un breve espacio para que el estudiante exprese cómo se siente, y evaluar si es pertinente ajustar la actividad planeada o remitirlo a apoyo institucional si es necesario."
+    ],
+    "explanation": "Ofrecer un espacio breve de expresión emocional, con flexibilidad en la actividad planeada, atiende la situación del estudiante de forma sensible y oportuna.",
+    "normativeJustification": "Ofrecer un espacio breve de expresión emocional, con flexibilidad en la actividad planeada, atiende la situación del estudiante de forma sensible y oportuna.",
+    "theoreticalJustification": "Ofrecer un espacio breve de expresión emocional, con flexibilidad en la actividad planeada, atiende la situación del estudiante de forma sensible y oportuna.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1105,
+    "id": "dir-apt-blan-357",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Se presenta un desacuerdo entre estudiantes sobre la interpretación de un hecho histórico controvertido, cada uno defendiendo una versión distinta. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Guiar el análisis hacia el contraste de distintas fuentes e interpretaciones históricas, mostrando que la historia admite más de una lectura fundamentada.",
+      "Imponer una única interpretación como la correcta, sin ningún análisis adicional.",
+      "Evitar cualquier tema histórico que pueda generar interpretaciones distintas.",
+      "Pedir a los estudiantes que voten cuál interpretación es la correcta."
+    ],
+    "explanation": "Guiar el contraste de fuentes e interpretaciones desarrolla el pensamiento histórico crítico, más que imponer una única versión.",
+    "normativeJustification": "Guiar el contraste de fuentes e interpretaciones desarrolla el pensamiento histórico crítico, más que imponer una única versión.",
+    "theoreticalJustification": "Guiar el contraste de fuentes e interpretaciones desarrolla el pensamiento histórico crítico, más que imponer una única versión.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1106,
+    "id": "dir-apt-blan-358",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante cuestiona por qué debe estudiar la historia de otros países y no solo la de Colombia. ¿Cuál sería la respuesta más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Explicarle, con ejemplos concretos, cómo los procesos históricos de otros países ayudan a comprender mejor los propios y el mundo interconectado en el que vivimos.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Explicar con ejemplos concretos el valor comparativo de la historia mundial responde a la inquietud del estudiante de forma pedagógicamente sólida.",
+    "normativeJustification": "Explicar con ejemplos concretos el valor comparativo de la historia mundial responde a la inquietud del estudiante de forma pedagógicamente sólida.",
+    "theoreticalJustification": "Explicar con ejemplos concretos el valor comparativo de la historia mundial responde a la inquietud del estudiante de forma pedagógicamente sólida.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1107,
+    "id": "dir-apt-blan-359",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Al calificar un ensayo argumentativo sobre un tema social, el docente identifica una opinión con la que está personalmente en desacuerdo, aunque bien argumentada. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Bajar la calificación por no compartir la opinión expresada.",
+      "Pedirle al estudiante que cambie su opinión antes de calificar el trabajo.",
+      "Evaluar el ensayo según la calidad de la argumentación y el uso de evidencia, independientemente de si el docente comparte o no la opinión expresada.",
+      "Anular el trabajo por considerarlo inapropiado."
+    ],
+    "explanation": "Evaluar según la calidad argumentativa, sin que la opinión personal del docente influya en la calificación, es esencial para la objetividad del proceso evaluativo.",
+    "normativeJustification": "Evaluar según la calidad argumentativa, sin que la opinión personal del docente influya en la calificación, es esencial para la objetividad del proceso evaluativo.",
+    "theoreticalJustification": "Evaluar según la calidad argumentativa, sin que la opinión personal del docente influya en la calificación, es esencial para la objetividad del proceso evaluativo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1108,
+    "id": "dir-apt-blan-360",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante pregunta directamente al docente cuál es su opinión política personal sobre un tema controvertido que se está discutiendo en clase. ¿Cuál sería la respuesta más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir abiertamente su opinión personal y defenderla frente al grupo como la posición correcta.",
+      "Reprender al estudiante por hacer una pregunta de este tipo.",
+      "Mentir sobre su opinión para evitar cualquier tipo de conflicto.",
+      "Explicar con respeto que su rol como docente es presentar distintas perspectivas de manera equilibrada, más que imponer su opinión personal sobre el grupo."
+    ],
+    "explanation": "Mantener un rol equilibrado, sin imponer la opinión personal, es coherente con la función formativa del docente frente a temas controvertidos.",
+    "normativeJustification": "Mantener un rol equilibrado, sin imponer la opinión personal, es coherente con la función formativa del docente frente a temas controvertidos.",
+    "theoreticalJustification": "Mantener un rol equilibrado, sin imponer la opinión personal, es coherente con la función formativa del docente frente a temas controvertidos.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1109,
+    "id": "dir-apt-dis-361",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Dos fechas circulan en el aula: 20 de julio de 1810 (Grito de Independencia en Santafé) y 7 de agosto de 1819 (Boyacá). Un estudiante las fusiona como “20 de julio de 1819”. Se pide distinguir inicio del proceso y hito militar decisivo.",
+    "stem": "¿Qué datación del Grito hay que orientar como aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "20 de julio de 1810, y reenseñar no confundirlo con la Batalla de Boyacá (7 de agosto de 1819).",
+      "7 de agosto de 1819 como “Grito”, fusionando ambos hitos.",
+      "20 de julio de 1819, mezclando día del Grito con año de Boyacá.",
+      "5 de agosto de 1810, por cercanía al calendario escolar."
+    ],
+    "explanation": "El Grito de Independencia se conmemora el 20 de julio de 1810. El 7 de agosto de 1819 es la Batalla de Boyacá, otro hito.",
+    "normativeJustification": "El Grito de Independencia se conmemora el 20 de julio de 1810. El 7 de agosto de 1819 es la Batalla de Boyacá, otro hito.",
+    "theoreticalJustification": "El Grito de Independencia se conmemora el 20 de julio de 1810. El 7 de agosto de 1819 es la Batalla de Boyacá, otro hito.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1110,
+    "id": "dir-apt-dis-362",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre Boyacá (7 de agosto de 1819), un texto estudiantil dice que “ahí empezó la independencia” (omitendo 1810). Otro explica que la victoria patriota abrió el camino a Bogotá y consolidó el proceso. Otro la presenta como “la primera Constitución”.",
+    "stem": "¿Qué interpretación del hito es la más defendible y qué error hay que reenseñar?",
+    "options": [
+      "Que Boyacá inicia el proceso, borrando el Grito de 1810, aunque ahorre tiempo visible de clase o de consejo.",
+      "Que consolidó la independencia al derrotar realistas y abrir el avance a Bogotá, y reenseñar no confundir inicio con desenlace militar.",
+      "Que allí se promulgó la primera Constitución, aunque parezca un trámite equitativo o suficiente.",
+      "Que cerró para siempre todo conflicto interno criollo, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Boyacá fue decisiva para consolidar la independencia y avanzar sobre Bogotá. No es el inicio del proceso (1810) ni un acto constitucional.",
+    "normativeJustification": "Boyacá fue decisiva para consolidar la independencia y avanzar sobre Bogotá. No es el inicio del proceso (1810) ni un acto constitucional.",
+    "theoreticalJustification": "Boyacá fue decisiva para consolidar la independencia y avanzar sobre Bogotá. No es el inicio del proceso (1810) ni un acto constitucional.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1111,
+    "id": "dir-apt-dis-363",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Al caracterizar la Constitución de 1886 (Regeneración, Núñez), un equipo la describe como federal y de estados soberanos (confusión con el federalismo previo). Otro como centralista y de larga vigencia hasta 1991. Otro dice que “al año siguiente llegó 1991”.",
+    "stem": "¿Qué caracterización evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "Validar el modelo federal de 1886, proyectando el siglo XIX federal sobre esa carta, aunque se presente como solución rápida en la reunión.",
+      "Validar la eliminación de la presidencia, sin base en el texto, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar el centralismo y su vigencia hasta 1991, y reenseñar no atribuirle federalismo ni un reemplazo inmediato.",
+      "Validar que 1991 la sustituyó al año siguiente de 1886, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La Constitución de 1886 estableció un modelo centralista y, con reformas, rigió hasta 1991. No es federal ni fue reemplazada al año siguiente.",
+    "normativeJustification": "La Constitución de 1886 estableció un modelo centralista y, con reformas, rigió hasta 1991. No es federal ni fue reemplazada al año siguiente.",
+    "theoreticalJustification": "La Constitución de 1886 estableció un modelo centralista y, con reformas, rigió hasta 1991. No es federal ni fue reemplazada al año siguiente.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1112,
+    "id": "dir-apt-dis-364",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre la Guerra de los Mil Días (1899-1902), un estudiante la narra como guerra con un vecino; otro como patriotas vs. realistas españoles; otro como conflicto civil entre Partido Liberal y Partido Conservador. Se pide el carácter interno y partidista del hecho.",
+    "stem": "¿Qué lectura del conflicto es la más precisa y qué anacronismo hay que reenseñar?",
+    "options": [
+      "Guerra internacional por límites, sin el clivaje partidista interno, aunque se presente como solución rápida en la reunión.",
+      "Guerra de independencia vs. España, desplazada 80 años, aunque parezca un trámite equitativo o suficiente.",
+      "Guerra indígena vs. Estado central, como única clave, aunque parezca un trámite equitativo o suficiente.",
+      "Conflicto civil liberal–conservador de fin de siglo, y reenseñar no confundirlo con independencias o guerras vecinales."
+    ],
+    "explanation": "La Guerra de los Mil Días fue un conflicto civil entre liberales y conservadores (1899-1902), no una guerra de independencia ni un conflicto internacional.",
+    "normativeJustification": "La Guerra de los Mil Días fue un conflicto civil entre liberales y conservadores (1899-1902), no una guerra de independencia ni un conflicto internacional.",
+    "theoreticalJustification": "La Guerra de los Mil Días fue un conflicto civil entre liberales y conservadores (1899-1902), no una guerra de independencia ni un conflicto internacional.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1113,
+    "id": "dir-apt-dis-365",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un eje del siglo XX mezcla el 9 de abril de 1948 con el Acuerdo de 2016 y con 1991. Un estudiante atribuye el Bogotazo al asesinato de Jorge Eliécer Gaitán y a los disturbios en Bogotá. Otro lo identifica con el Frente Nacional o con la Constituyente.",
+    "stem": "¿Qué relación evidencia el aprendizaje esencial del Bogotazo y qué error hay que reenseñar?",
+    "options": [
+      "Asesinato de Gaitán (9 de abril de 1948) y disturbios posteriores; reenseñar no desplazarlo a 1991 ni a 2016.",
+      "Firma del Acuerdo de paz de 2016 con las FARC-EP, aunque se presente como solución rápida en la reunión.",
+      "Promulgación de la Constitución de 1991, aunque ahorre tiempo visible de clase o de consejo.",
+      "Inicio formal del Frente Nacional en esa misma fecha, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Bogotazo se relaciona con el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948 y los disturbios en Bogotá. No es 1991 ni el Acuerdo de 2016.",
+    "normativeJustification": "El Bogotazo se relaciona con el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948 y los disturbios en Bogotá. No es 1991 ni el Acuerdo de 2016.",
+    "theoreticalJustification": "El Bogotazo se relaciona con el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948 y los disturbios en Bogotá. No es 1991 ni el Acuerdo de 2016.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1114,
+    "id": "dir-apt-dis-366",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre el Frente Nacional (1958-1974), un texto dice que “unificó todos los partidos en uno solo”; otro describe alternancia presidencial y reparto paritario de cargos entre liberal y conservador. Otro habla de “gobierno militar permanente”.",
+    "stem": "¿Qué caracterización del pacto es la más precisa y qué error hay que reenseñar?",
+    "options": [
+      "Partido único obligatorio, confundiendo pacto bipolar con unipartidismo, aunque parezca un trámite equitativo o suficiente.",
+      "Alternancia y paridad liberal–conservador, y reenseñar que no eliminó elecciones ni instauró un gobierno militar permanente.",
+      "Gobierno militar permanente como definición del período, aunque se presente como solución rápida en la reunión.",
+      "Supresión completa de elecciones presidenciales, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Frente Nacional pactó alternancia presidencial y reparto paritario entre liberal y conservador. No fue partido único ni dictadura militar permanente.",
+    "normativeJustification": "El Frente Nacional pactó alternancia presidencial y reparto paritario entre liberal y conservador. No fue partido único ni dictadura militar permanente.",
+    "theoreticalJustification": "El Frente Nacional pactó alternancia presidencial y reparto paritario entre liberal y conservador. No fue partido único ni dictadura militar permanente.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1115,
+    "id": "dir-apt-dis-367",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Al resumir el Acuerdo de 2016 (Gobierno–FARC-EP), un equipo escribe “se acabó el Congreso y los partidos”. Otro menciona reforma rural, participación política, dejación de armas y justicia transicional (JEP). Se pide contenidos del acuerdo, no caricatura institucional.",
+    "stem": "¿Qué síntesis evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "La eliminación del sistema judicial ordinario como punto central, aunque ahorre tiempo visible de clase o de consejo.",
+      "La disolución de todos los partidos existentes, aunque parezca un trámite equitativo o suficiente.",
+      "Reforma rural, participación, fin del conflicto y JEP, y reenseñar que el acuerdo no disuelve el Estado de derecho.",
+      "La anexión de nuevos territorios al país, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "El Acuerdo de 2016 incluye, entre otros, reforma rural integral, participación política, fin del conflicto (dejación de armas) y justicia transicional (JEP). No elimina el Congreso ni los partidos.",
+    "normativeJustification": "El Acuerdo de 2016 incluye, entre otros, reforma rural integral, participación política, fin del conflicto (dejación de armas) y justicia transicional (JEP). No elimina el Congreso ni los partidos.",
+    "theoreticalJustification": "El Acuerdo de 2016 incluye, entre otros, reforma rural integral, participación política, fin del conflicto (dejación de armas) y justicia transicional (JEP). No elimina el Congreso ni los partidos.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1116,
+    "id": "dir-apt-dis-368",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un esquema pide las tres ramas del poder público según la Constitución. Aparecen: “nacional, departamental y municipal”; “civil, militar y eclesiástica”; y “legislativa, ejecutiva y judicial”. Se pide el criterio de separación de poderes, no el de organización territorial.",
+    "stem": "¿Qué tríada evidencia el aprendizaje esencial y qué confusión hay que reenseñar?",
+    "options": [
+      "Nacional–departamental–municipal (niveles territoriales, no ramas).",
+      "Civil–militar–eclesiástica (órdenes sociales, no ramas constitucionales).",
+      "Central–territorial–descentralizada (formas de administración).",
+      "Legislativa, ejecutiva y judicial, y reenseñar no confundir ramas con niveles territoriales."
+    ],
+    "explanation": "La Constitución de 1991 organiza el poder público en ramas legislativa, ejecutiva y judicial. Los niveles territorial o las órdenes social-religiosas no son esas ramas.",
+    "normativeJustification": "La Constitución de 1991 organiza el poder público en ramas legislativa, ejecutiva y judicial. Los niveles territorial o las órdenes social-religiosas no son esas ramas.",
+    "theoreticalJustification": "La Constitución de 1991 organiza el poder público en ramas legislativa, ejecutiva y judicial. Los niveles territorial o las órdenes social-religiosas no son esas ramas.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1117,
+    "id": "dir-apt-dis-369",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En un caso de vigilancia de recursos públicos, un estudiante asigna la función a la Procuraduría (disciplina de servidores); otro a la Defensoría (derechos humanos); otro a la Contraloría (gestión fiscal). Se pide el organismo de control fiscal, no el disciplinario.",
+    "stem": "¿Qué organismo corresponde a la vigilancia de fondos públicos y qué error hay que reenseñar?",
+    "options": [
+      "La Contraloría General de la República (control fiscal) y reenseñar no confundirla con Procuraduría, Defensoría o Registraduría.",
+      "La Procuraduría, porque “vigila a todo funcionario” en cualquier materia, aunque ahorre tiempo visible de clase o de consejo.",
+      "La Defensoría del Pueblo, porque “defiende el presupuesto de la gente”, aunque parezca un trámite equitativo o suficiente.",
+      "La Registraduría, porque “registra el gasto”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La Contraloría vigila la gestión fiscal y el manejo de recursos públicos. La Procuraduría es disciplinaria; la Defensoría, derechos humanos; la Registraduría, identidad y procesos electorales.",
+    "normativeJustification": "La Contraloría vigila la gestión fiscal y el manejo de recursos públicos. La Procuraduría es disciplinaria; la Defensoría, derechos humanos; la Registraduría, identidad y procesos electorales.",
+    "theoreticalJustification": "La Contraloría vigila la gestión fiscal y el manejo de recursos públicos. La Procuraduría es disciplinaria; la Defensoría, derechos humanos; la Registraduría, identidad y procesos electorales.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1118,
+    "id": "dir-apt-dis-370",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En geografía de Colombia, un equipo nombra el Cauca como “el más largo”; otro el Magdalena, articulando transporte e historia económica; otro el Atrato “porque es el más caudaloso en su relato”. Se pide el río más largo y su papel histórico, no fama local.",
+    "stem": "¿Qué identificación del río más largo de Colombia es la más precisa y qué error conceptual hay que reenseñar?",
+    "options": [
+      "El Cauca como el más largo, por ser afluente conocido y visible en el mapa escolar de la región andina.",
+      "El Magdalena (el más largo y eje histórico de transporte) y reenseñar no sustituirlo por afluentes o ríos regionales.",
+      "El Atrato como el más largo, por relatos de caudal, sin distinguir longitud de otras magnitudes.",
+      "El Meta como el más largo, por la Orinoquía en el mapa escolar, sin comparar trayectos."
+    ],
+    "explanation": "El Magdalena es el río más largo de Colombia y ha sido clave para el transporte y la actividad económica. Cauca, Atrato y Meta no desplazan ese hecho.",
+    "normativeJustification": "El Magdalena es el río más largo de Colombia y ha sido clave para el transporte y la actividad económica. Cauca, Atrato y Meta no desplazan ese hecho.",
+    "theoreticalJustification": "El Magdalena es el río más largo de Colombia y ha sido clave para el transporte y la actividad económica. Cauca, Atrato y Meta no desplazan ese hecho.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1119,
+    "id": "dir-apt-dis-371",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un mapa de límites: un estudiante incluye México y Guatemala; otro Chile y Argentina; otro Panamá, Venezuela, Brasil, Perú y Ecuador. Se pide vecinos con frontera directa, no “América Latina” como bloque.",
+    "stem": "¿Qué conjunto de países evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "México–Guatemala–Costa Rica–Panamá–Venezuela, ampliando Centroamérica sin frontera colombiana.",
+      "Chile–Argentina–Bolivia–Perú–Ecuador, mezclando Cono Sur.",
+      "Panamá, Venezuela, Brasil, Perú y Ecuador, y reenseñar no incluir países sin frontera terrestre con Colombia.",
+      "Perú–Bolivia–Paraguay–Brasil–Venezuela, colando Bolivia y Paraguay."
+    ],
+    "explanation": "Colombia limita con Panamá, Venezuela, Brasil, Perú y Ecuador. México, Chile, Argentina, Bolivia o Paraguay no tienen frontera terrestre con Colombia.",
+    "normativeJustification": "Colombia limita con Panamá, Venezuela, Brasil, Perú y Ecuador. México, Chile, Argentina, Bolivia o Paraguay no tienen frontera terrestre con Colombia.",
+    "theoreticalJustification": "Colombia limita con Panamá, Venezuela, Brasil, Perú y Ecuador. México, Chile, Argentina, Bolivia o Paraguay no tienen frontera terrestre con Colombia.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1120,
+    "id": "dir-apt-dis-372",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Se pregunta qué océano no baña América. Un estudiante descarta el Pacífico y el Atlántico (correcto que sí bañan) pero duda entre Ártico e Índico. Otro marca el Índico. Otro el Ártico “porque queda lejos”.",
+    "stem": "¿Qué océano no tiene costas en América y qué error hay que reenseñar, según el marco y la evidencia del caso?",
+    "options": [
+      "El Pacífico, pese a la costa occidental americana.",
+      "El Atlántico, pese a la costa oriental.",
+      "El Ártico, omitiendo costas en el extremo norte americano.",
+      "El Índico, y reenseñar que Pacífico, Atlántico y Ártico sí tocan el continente americano."
+    ],
+    "explanation": "El océano Índico no tiene costas en América. Pacífico, Atlántico y Ártico sí alcanzan el continente americano.",
+    "normativeJustification": "El océano Índico no tiene costas en América. Pacífico, Atlántico y Ártico sí alcanzan el continente americano.",
+    "theoreticalJustification": "El océano Índico no tiene costas en América. Pacífico, Atlántico y Ártico sí alcanzan el continente americano.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1121,
+    "id": "dir-apt-dis-373",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre 1789, un texto dice que la Revolución Francesa “consolidó la monarquía absoluta”; otro que impulsó libertad, igualdad y fraternidad e influyó en independencias americanas; otro que “no salió de Francia”. Se pide impacto de ideas, no el desenlace caricaturesco.",
+    "stem": "¿Qué lectura del hito es la más defendible y qué error hay que reenseñar?",
+    "options": [
+      "Que impulsó esos ideales e influyó en procesos independentistas, y reenseñar que no consolidó el absolutismo ni el feudalismo.",
+      "Que consolidó de modo definitivo la monarquía absoluta, aunque ahorre tiempo visible de clase o de consejo.",
+      "Que no influyó fuera de Francia, aunque ahorre tiempo visible de clase o de consejo.",
+      "Que marcó el inicio del feudalismo europeo, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La Revolución Francesa difundió ideales de libertad, igualdad y fraternidad e influyó en procesos posteriores, incluidos los independentistas americanos. No restauró el absolutismo ni inauguró el feudalismo.",
+    "normativeJustification": "La Revolución Francesa difundió ideales de libertad, igualdad y fraternidad e influyó en procesos posteriores, incluidos los independentistas americanos. No restauró el absolutismo ni inauguró el feudalismo.",
+    "theoreticalJustification": "La Revolución Francesa difundió ideales de libertad, igualdad y fraternidad e influyó en procesos posteriores, incluidos los independentistas americanos. No restauró el absolutismo ni inauguró el feudalismo.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1122,
+    "id": "dir-apt-dis-374",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Causas de 1914: un estudiante cita la caída del Muro de Berlín (1989); otro el sistema de alianzas, tensiones nacionalistas y coloniales (y el atentado de Sarajevo); otro el Tratado de Versalles (que es consecuencia). Se pide causa, no anacronismo.",
+    "stem": "¿Qué explicación de las causas es la más precisa y qué error hay que reenseñar?",
+    "options": [
+      "La caída del Muro de Berlín, desplazada setenta años, aunque ahorre tiempo visible de clase o de consejo.",
+      "Alianzas, nacionalismos y tensiones coloniales, y reenseñar no tomar Versalles (posguerra) ni 1989 como causa de 1914.",
+      "El Tratado de Versalles como detonante de 1914, aunque parezca un trámite equitativo o suficiente.",
+      "La independencia africana de mediados del siglo XX, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Entre las causas de la Primera Guerra Mundial están el sistema de alianzas y las tensiones nacionalistas y coloniales. Versalles es posterior; el Muro de Berlín, de 1989.",
+    "normativeJustification": "Entre las causas de la Primera Guerra Mundial están el sistema de alianzas y las tensiones nacionalistas y coloniales. Versalles es posterior; el Muro de Berlín, de 1989.",
+    "theoreticalJustification": "Entre las causas de la Primera Guerra Mundial están el sistema de alianzas y las tensiones nacionalistas y coloniales. Versalles es posterior; el Muro de Berlín, de 1989.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1123,
+    "id": "dir-apt-dis-375",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre la Guerra Fría (aprox. 1947-1991), un ensayo afirma que EE. UU. y la URSS se combatieron de forma directa y continua en Europa. Otro describe tensión bipolar, carrera armamentista y conflictos indirectos, sin guerra directa entre ambas potencias.",
+    "stem": "¿Qué caracterización de la Guerra Fría es la más precisa y qué error conceptual hay que reenseñar?",
+    "options": [
+      "Guerra directa y continua entre EE. UU. y la URSS en territorio europeo, como si fuera una guerra clásica.",
+      "Unificación política mundial bajo un solo sistema, omitiendo la bipolaridad de bloques.",
+      "Tensión bipolar sin enfrentamiento militar directo entre las dos potencias, y reenseñar no igualarla a una guerra europea continua entre ambas.",
+      "El fin de todo conflicto internacional tras 1945, como si la posguerra hubiera cancelado la tensión."
+    ],
+    "explanation": "La Guerra Fría fue una tensión política, ideológica y militar entre bloques, sin guerra directa continua entre EE. UU. y la URSS. Hubo conflictos indirectos y carrera armamentista.",
+    "normativeJustification": "La Guerra Fría fue una tensión política, ideológica y militar entre bloques, sin guerra directa continua entre EE. UU. y la URSS. Hubo conflictos indirectos y carrera armamentista.",
+    "theoreticalJustification": "La Guerra Fría fue una tensión política, ideológica y militar entre bloques, sin guerra directa continua entre EE. UU. y la URSS. Hubo conflictos indirectos y carrera armamentista.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1124,
+    "id": "dir-apt-dis-376",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un estudiante afirma que el PIB es “lo que gana en promedio cada habitante”. Otro lo explica como el valor de bienes y servicios finales producidos en un periodo, con un ejemplo de cosecha local. La evaluación pide argumentar, no recitar.",
+    "stem": "¿Qué evidencia demuestra el aprendizaje esencial del concepto de PIB, según el marco y la evidencia del caso?",
+    "options": [
+      "Identificar el PIB con la deuda externa acumulada.",
+      "Identificar el PIB con el número de empresas registradas.",
+      "Identificar el PIB con el ingreso personal promedio (PIB per cápita confundido con PIB).",
+      "Explicar el PIB como valor de bienes y servicios finales producidos en un periodo, con ejemplo situado."
+    ],
+    "explanation": "El PIB es un indicador que mide el valor de la producción total de bienes y servicios finales de una economía en un período determinado.",
+    "normativeJustification": "El PIB es un indicador que mide el valor de la producción total de bienes y servicios finales de una economía en un período determinado.",
+    "theoreticalJustification": "El PIB es un indicador que mide el valor de la producción total de bienes y servicios finales de una economía en un período determinado.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1125,
+    "id": "dir-apt-dis-377",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Se contrastan economía de mercado y planificación central. Un estudiante dice que en el mercado “un ministerio asigna cupos a cada fábrica”; otro que las decisiones de qué, cómo y para quién producir pasan sobre todo por oferta y demanda, con rol limitado del Estado en la asignación directa.",
+    "stem": "¿Qué mecanismo evidencia el sistema de mercado y qué error hay que reenseñar?",
+    "options": [
+      "La interacción oferta–demanda, y reenseñar que la asignación central de todos los recursos describe otro sistema.",
+      "Un organismo estatal que planifica y asigna todos los recursos (planificación central, no mercado).",
+      "Un sorteo periódico del gobierno como regla de mercado.",
+      "Un monopolio estatal único por sector como definición de mercado."
+    ],
+    "explanation": "En una economía de mercado, oferta y demanda orientan en lo principal qué, cómo y para quién producir. La asignación centralizada describe un sistema planificado, no de mercado.",
+    "normativeJustification": "En una economía de mercado, oferta y demanda orientan en lo principal qué, cómo y para quién producir. La asignación centralizada describe un sistema planificado, no de mercado.",
+    "theoreticalJustification": "En una economía de mercado, oferta y demanda orientan en lo principal qué, cómo y para quién producir. La asignación centralizada describe un sistema planificado, no de mercado.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1126,
+    "id": "dir-apt-dis-378",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En antropología escolar, un estudiante reduce “cultura” a pintura y música; otro al puntaje de pruebas; otro la entiende como conocimientos, creencias, valores y prácticas compartidas y transmitidas. Se pide el concepto amplio, no el uso coloquial de “culto”.",
+    "stem": "¿Qué concepción de cultura es la más precisa y qué reducción hay que reenseñar?",
+    "options": [
+      "Solo artes (música, pintura) como sinónimo exhaustivo de cultura, aunque ahorre tiempo visible de clase o de consejo.",
+      "El conjunto de conocimientos, creencias, valores y formas de vida compartidas y transmitidas, y reenseñar no reducirla a arte, título escolar o “sociedades antiguas”.",
+      "Solo el nivel educativo formal alcanzado, aunque parezca un trámite equitativo o suficiente.",
+      "Un concepto aplicable únicamente a sociedades “tradicionales”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "En antropología, cultura abarca conocimientos, creencias, valores, costumbres y formas de vida compartidas y transmitidas. No se reduce al arte ni al diploma.",
+    "normativeJustification": "En antropología, cultura abarca conocimientos, creencias, valores, costumbres y formas de vida compartidas y transmitidas. No se reduce al arte ni al diploma.",
+    "theoreticalJustification": "En antropología, cultura abarca conocimientos, creencias, valores, costumbres y formas de vida compartidas y transmitidas. No se reduce al arte ni al diploma.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1127,
+    "id": "dir-apt-dis-379",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre urbanización, un texto dice que “el campo desapareció en todo el mundo”; otro la asocia a industrialización y migración campo–ciudad. Otro a “caída de la población mundial”. Se pide el proceso histórico, no el extremo retórico.",
+    "stem": "¿Qué asociación evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "La urbanización como disminución general de la población mundial, aunque parezca un trámite equitativo o suficiente.",
+      "El abandono total de la agricultura en el planeta, aunque ahorre tiempo visible de clase o de consejo.",
+      "Industrialización y migración campo–ciudad, y reenseñar que lo rural no desaparece por el hecho de urbanizar.",
+      "La desaparición completa de las zonas rurales en todos los países, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La urbanización se ha ligado históricamente a industrialización y migración campo–ciudad. No implica el fin de lo rural ni una caída demográfica mundial.",
+    "normativeJustification": "La urbanización se ha ligado históricamente a industrialización y migración campo–ciudad. No implica el fin de lo rural ni una caída demográfica mundial.",
+    "theoreticalJustification": "La urbanización se ha ligado históricamente a industrialización y migración campo–ciudad. No implica el fin de lo rural ni una caída demográfica mundial.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1128,
+    "id": "dir-apt-dis-380",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Periodización de independencias hispanoamericanas y brasileña: un estudiante las sitúa en el siglo XVI (conquista); otro en la segunda mitad del XX (descolonización africana); otro en las primeras décadas del XIX, con ideas ilustradas e invasión napoleónica a España.",
+    "stem": "¿Qué periodización es la más precisa y qué anacronismo hay que reenseñar?",
+    "options": [
+      "Segunda mitad del siglo XX, confundiendo con otras descolonizaciones, aunque parezca un trámite equitativo o suficiente.",
+      "Siglo XVI, identificando conquista con independencia, aunque ahorre tiempo visible de clase o de consejo.",
+      "Siglo XVIII “antes de la Ilustración”, omitiendo el contexto de las ideas y de 1808, aunque se presente como solución rápida en la reunión.",
+      "Primeras décadas del XIX, con Ilustración e invasión napoleónica, y reenseñar no desplazar el proceso a la Conquista ni al siglo XX."
+    ],
+    "explanation": "Las independencias de la mayoría de países latinoamericanos se concentraron en las primeras décadas del siglo XIX, en un contexto ilustrado y de crisis de la monarquía española (invasión napoleónica).",
+    "normativeJustification": "Las independencias de la mayoría de países latinoamericanos se concentraron en las primeras décadas del siglo XIX, en un contexto ilustrado y de crisis de la monarquía española (invasión napoleónica).",
+    "theoreticalJustification": "Las independencias de la mayoría de países latinoamericanos se concentraron en las primeras décadas del siglo XIX, en un contexto ilustrado y de crisis de la monarquía española (invasión napoleónica).",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1129,
+    "id": "dir-apt-ped-381",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "La historia se evalúa como lista de fechas. Un docente pide causalidad, cambio y continuidad entre momentos. Un colega defiende “más datos para el quiz de efemérides”.",
+    "stem": "En esta evaluación de historia, ¿qué implica principalmente desarrollar pensamiento histórico en el estudiante?",
+    "options": [
+      "Comprender relaciones de causalidad, cambio y continuidad, más allá de acumular fechas aisladas.",
+      "Acumular la mayor cantidad posible de fechas exactas, sin establecer relaciones entre períodos.",
+      "Repetir de memoria los nombres de los personajes más importantes, sin analizar procesos.",
+      "Evitar relacionar distintos períodos históricos, para “no mezclar temas” en la prueba."
+    ],
+    "explanation": "El pensamiento histórico se centra en comprender relaciones de causalidad, cambio y continuidad, no solo en la memorización de datos aislados.",
+    "normativeJustification": "El pensamiento histórico se centra en comprender relaciones de causalidad, cambio y continuidad, no solo en la memorización de datos aislados.",
+    "theoreticalJustification": "El pensamiento histórico se centra en comprender relaciones de causalidad, cambio y continuidad, no solo en la memorización de datos aislados.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1130,
+    "id": "dir-apt-ped-382",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un acta de 1810 y un manual escolar de 2020 se tratan como “iguales” o se dice que “lo primario siempre es más confiable”. Se distingue testimonio de época vs interpretación posterior.",
+    "stem": "En la enseñanza de la historia, ¿cuál es una diferencia clave entre fuente primaria y secundaria?",
+    "options": [
+      "Las primarias siempre son más confiables, sin excepción, aunque ahorre tiempo visible de clase o de consejo.",
+      "La primaria proviene de la época o el hecho; la secundaria es una interpretación o análisis posterior.",
+      "Las secundarias siempre son documentos oficiales del gobierno, aunque parezca un trámite equitativo o suficiente.",
+      "No hay diferencia didáctica relevante entre ambos tipos, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La fuente primaria es un testimonio directo de la época estudiada, mientras que la secundaria interpreta o analiza esos testimonios posteriormente.",
+    "normativeJustification": "La fuente primaria es un testimonio directo de la época estudiada, mientras que la secundaria interpreta o analiza esos testimonios posteriormente.",
+    "theoreticalJustification": "La fuente primaria es un testimonio directo de la época estudiada, mientras que la secundaria interpreta o analiza esos testimonios posteriormente.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

@@ -1,0 +1,1609 @@
+[
+  {
+    "pos": 1031,
+    "id": "dir-apt-ped-283",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Ante un problema, un estudiante “empieza a operar” sin leer. Polya pide primero comprender (datos y pregunta), luego plan, ejecución y revisión. No empezar por comparar con el compañero ni saltar a revisar una solución inexistente.",
+    "stem": "Según Polya, ¿cuál es la primera fase frente a un problema matemático?",
+    "options": [
+      "Ejecutar de inmediato el primer procedimiento que se ocurra.",
+      "Revisar la solución obtenida, aunque aún no se haya comprendido el problema.",
+      "Comprender el problema, identificando los datos y lo que se pide resolver.",
+      "Comparar la respuesta con la de otros compañeros como primer paso."
+    ],
+    "explanation": "Polya propone comprender el problema como la primera de sus cuatro fases, antes de diseñar un plan, ejecutarlo y revisar la solución.",
+    "normativeJustification": "Polya propone comprender el problema como la primera de sus cuatro fases, antes de diseñar un plan, ejecutarlo y revisar la solución.",
+    "theoreticalJustification": "Polya propone comprender el problema como la primera de sus cuatro fases, antes de diseñar un plan, ejecutarlo y revisar la solución.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1032,
+    "id": "dir-apt-ped-284",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En ciencias piden memorizar leyes o copiar el experimento del libro sin pregunta. Un docente pide preguntar, hipotetizar, poner a prueba y analizar resultados.",
+    "stem": "Aplicar el método científico como estrategia didáctica implica principalmente que los estudiantes:",
+    "options": [
+      "Memoricen las leyes científicas sin indagación.",
+      "Repitan el experimento del texto sin pregunta propia.",
+      "Eviten formular hipótesis sobre los fenómenos.",
+      "Formulen preguntas, planteen hipótesis, las pongan a prueba y analicen resultados."
+    ],
+    "explanation": "El método científico como estrategia didáctica busca que los estudiantes vivan un proceso de indagación activa, no solo la memorización de conclusiones ya establecidas.",
+    "normativeJustification": "El método científico como estrategia didáctica busca que los estudiantes vivan un proceso de indagación activa, no solo la memorización de conclusiones ya establecidas.",
+    "theoreticalJustification": "El método científico como estrategia didáctica busca que los estudiantes vivan un proceso de indagación activa, no solo la memorización de conclusiones ya establecidas.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1033,
+    "id": "dir-apt-ped-285",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En 2° saltan a la ecuación sin material. Otro docente usa fichas o regletas como puente hacia el símbolo, no como reemplazo eterno del número escrito ni como evaluación motriz.",
+    "stem": "¿Cuál es el propósito principal del material concreto en la enseñanza inicial de las matemáticas?",
+    "options": [
+      "Facilitar la comprensión de lo abstracto mediante manipulación tangible previa a la representación simbólica.",
+      "Reemplazar por completo la necesidad de símbolos y números escritos, aunque parezca un trámite equitativo o suficiente.",
+      "Limitar las matemáticas exclusivamente a la educación inicial, aunque se presente como solución rápida en la reunión.",
+      "Evaluar el desempeño motriz más que la comprensión matemática, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "El material concreto sirve como puente entre la manipulación tangible y la comprensión de conceptos matemáticos abstractos.",
+    "normativeJustification": "El material concreto sirve como puente entre la manipulación tangible y la comprensión de conceptos matemáticos abstractos.",
+    "theoreticalJustification": "El material concreto sirve como puente entre la manipulación tangible y la comprensión de conceptos matemáticos abstractos.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1034,
+    "id": "dir-apt-ped-286",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El “orden” se sostiene con amonestaciones visibles y miedo. Un docente practica disciplina positiva: firmeza y amabilidad, consecuencias comprensibles y autorregulación, no un examen de conducta ni un trámite de caritas.",
+    "stem": "¿Qué caracteriza principalmente a la disciplina positiva como enfoque de convivencia en el aula?",
+    "options": [
+      "Apoyarse en la amonestación visible como única herramienta, sin enseñar autorregulación.",
+      "Combinar firmeza y amabilidad, para que el estudiante comprenda consecuencias y desarrolle autorregulación.",
+      "Dejar la autoevaluación de conducta como trámite de caritas, sin acuerdos.",
+      "Sustituir las normas por un único examen de “comportamiento”."
+    ],
+    "explanation": "La disciplina positiva combina firmeza y respeto, buscando el desarrollo de la autorregulación más que la obediencia por temor al castigo.",
+    "normativeJustification": "La disciplina positiva combina firmeza y respeto, buscando el desarrollo de la autorregulación más que la obediencia por temor al castigo.",
+    "theoreticalJustification": "La disciplina positiva combina firmeza y respeto, buscando el desarrollo de la autorregulación más que la obediencia por temor al castigo.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1035,
+    "id": "dir-apt-ped-287",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El docente impone las normas o, al contrario, “deja que el grupo mande”. Construirlas con los estudiantes busca comprensión y compromiso, no eludir consecuencias ni ceder la autoridad.",
+    "stem": "Cuando se construyen las normas de aula con los estudiantes, ¿qué se busca principalmente?",
+    "options": [
+      "Reducir la responsabilidad del docente frente al grupo.",
+      "Eliminar cualquier consecuencia ante el incumplimiento.",
+      "Que comprendan el sentido de las normas y se comprometan de forma más genuina.",
+      "Delegar por completo la autoridad del aula en los estudiantes."
+    ],
+    "explanation": "La construcción conjunta de normas favorece la comprensión de su sentido y un compromiso más genuino por parte de los estudiantes.",
+    "normativeJustification": "La construcción conjunta de normas favorece la comprensión de su sentido y un compromiso más genuino por parte de los estudiantes.",
+    "theoreticalJustification": "La construcción conjunta de normas favorece la comprensión de su sentido y un compromiso más genuino por parte de los estudiantes.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1036,
+    "id": "dir-apt-ped-288",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La motivación del curso depende de puntos y amenazas. Un docente diseña tareas con interés genuino (intrínseca), sin confundirla con “más quizzes” ni con supervisión constante.",
+    "stem": "A diferencia de la extrínseca, ¿qué caracteriza a la motivación intrínseca?",
+    "options": [
+      "Depender de premios o calificaciones externas para sostenerse.",
+      "Requerir siempre la supervisión constante de un adulto.",
+      "Estar motivada únicamente por evitar un temor a la amonestación.",
+      "Surgir del interés genuino o la satisfacción que el estudiante encuentra en la actividad misma."
+    ],
+    "explanation": "La motivación intrínseca surge del interés o disfrute genuino de la actividad, a diferencia de la extrínseca, que depende de factores externos.",
+    "normativeJustification": "La motivación intrínseca surge del interés o disfrute genuino de la actividad, a diferencia de la extrínseca, que depende de factores externos.",
+    "theoreticalJustification": "La motivación intrínseca surge del interés o disfrute genuino de la actividad, a diferencia de la extrínseca, que depende de factores externos.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1037,
+    "id": "dir-apt-ped-289",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un proyecto articula matemáticas, ciencias y lengua sobre el mismo problema del entorno. Un colega pide “volver a asignaturas aisladas” o tratarlo como solo sumativa de un área.",
+    "stem": "¿De qué es ejemplo un proyecto de aula que integra esas áreas alrededor de un mismo tema?",
+    "options": [
+      "Interdisciplinariedad o currículo integrado.",
+      "Evaluación sumativa exclusiva de una sola área.",
+      "Enseñanza tradicional de asignaturas completamente aisladas.",
+      "Un modelo exclusivo de la educación superior."
+    ],
+    "explanation": "La articulación de contenidos de distintas áreas alrededor de un mismo tema es característica de la interdisciplinariedad o el currículo integrado.",
+    "normativeJustification": "La articulación de contenidos de distintas áreas alrededor de un mismo tema es característica de la interdisciplinariedad o el currículo integrado.",
+    "theoreticalJustification": "La articulación de contenidos de distintas áreas alrededor de un mismo tema es característica de la interdisciplinariedad o el currículo integrado.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1038,
+    "id": "dir-apt-ped-290",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Una unidad didáctica bien formulada debe articular, como mínimo. Un actor propone: “Únicamente la lista de contenidos a desarrollar, sin ninguna secuencia de actividades.”. Otro insiste: “Solo el número de sesiones de clase que durará el tema.”. Un tercero sugiere: “Exclusivamente los recursos bibliográficos que se usarán.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Únicamente la lista de contenidos a desarrollar, sin ninguna secuencia de actividades.",
+      "Objetivos de aprendizaje, contenidos, actividades secuenciadas y criterios de evaluación.",
+      "Solo el número de sesiones de clase que durará el tema.",
+      "Exclusivamente los recursos bibliográficos que se usarán."
+    ],
+    "explanation": "Una unidad didáctica articula de manera coherente los objetivos, contenidos, actividades y criterios de evaluación de un período de enseñanza.",
+    "normativeJustification": "Una unidad didáctica articula de manera coherente los objetivos, contenidos, actividades y criterios de evaluación de un período de enseñanza.",
+    "theoreticalJustification": "Una unidad didáctica articula de manera coherente los objetivos, contenidos, actividades y criterios de evaluación de un período de enseñanza.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 1039,
+    "id": "dir-apt-ped-291",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Las tablets se reservan “a quienes no tienen dificultad” o se usa un único formato. Inclusión con TIC es ofrecer distintas formas de acceso y expresión según necesidades, no reemplazar al docente.",
+    "stem": "El uso de las TIC como herramienta de inclusión implica principalmente que:",
+    "options": [
+      "Se reserven exclusivamente a estudiantes sin dificultades de aprendizaje.",
+      "Reemplacen por completo la interacción del docente con los estudiantes.",
+      "Se usen para ofrecer distintas formas de acceso a la información y de expresión, según necesidades.",
+      "Se limiten a un único tipo de dispositivo para todo el grupo."
+    ],
+    "explanation": "Las TIC pueden ampliar las formas de acceso y expresión disponibles para los estudiantes, favoreciendo la atención a la diversidad en el aula.",
+    "normativeJustification": "Las TIC pueden ampliar las formas de acceso y expresión disponibles para los estudiantes, favoreciendo la atención a la diversidad en el aula.",
+    "theoreticalJustification": "Las TIC pueden ampliar las formas de acceso y expresión disponibles para los estudiantes, favoreciendo la atención a la diversidad en el aula.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1040,
+    "id": "dir-apt-ped-292",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La unidad es solo exposición o solo examen. Un docente sigue a Kolb: experiencia concreta, observación reflexiva, conceptualización y experimentación activa. Un colega pide “más teoría para el quiz”.",
+    "stem": "Según el ciclo de Kolb, ¿a través de qué se produce principalmente el aprendizaje experiencial en este diseño de unidad?",
+    "options": [
+      "La recitación repetida de teoría, sin experiencia concreta ni experimentación posterior.",
+      "La exposición pasiva del estudiante a la información, sin observación reflexiva del grupo.",
+      "La evaluación exclusivamente mediante un examen final, sin ciclo de experiencia y conceptualización.",
+      "Un ciclo de experiencia concreta, observación reflexiva, conceptualización abstracta y experimentación activa."
+    ],
+    "explanation": "Kolb propone un ciclo de cuatro fases que articula la experiencia, la reflexión, la conceptualización y la experimentación como base del aprendizaje.",
+    "normativeJustification": "Kolb propone un ciclo de cuatro fases que articula la experiencia, la reflexión, la conceptualización y la experimentación como base del aprendizaje.",
+    "theoreticalJustification": "Kolb propone un ciclo de cuatro fases que articula la experiencia, la reflexión, la conceptualización y la experimentación como base del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1041,
+    "id": "dir-apt-ped-293",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Las preguntas de clase son “¿cómo se llama el personaje?”. Un docente pregunta “¿por qué tomó esa decisión?” (análisis). No es más quizzes ni un trámite de autoevaluación.",
+    "stem": "Una pregunta como “¿por qué crees que el personaje tomó esa decisión?”, frente a una literal, es principalmente de:",
+    "options": [
+      "Orden superior: exige análisis e interpretación, no solo recuperación literal.",
+      "Orden inferior: solo recupera un dato puntual del texto, sin interpretación.",
+      "Orden reproductivo: copia una frase del texto sin interpretarla.",
+      "Orden administrativo: sirve para tomar asistencia, no para comprender."
+    ],
+    "explanation": "Las preguntas que exigen análisis, interpretación o justificación se consideran de orden superior, frente a las preguntas de recuperación literal de información.",
+    "normativeJustification": "Las preguntas que exigen análisis, interpretación o justificación se consideran de orden superior, frente a las preguntas de recuperación literal de información.",
+    "theoreticalJustification": "Las preguntas que exigen análisis, interpretación o justificación se consideran de orden superior, frente a las preguntas de recuperación literal de información.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1042,
+    "id": "dir-apt-ped-294",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Piden “aceptar el texto sin cuestionar” o “memorizar más”. Pensamiento crítico es analizar, cuestionar y evaluar información y argumentos antes de aceptar o rechazar.",
+    "stem": "Promover el pensamiento crítico en el aula implica principalmente que los estudiantes:",
+    "options": [
+      "Acepten sin cuestionamiento cualquier información que reciban.",
+      "Analicen, cuestionen y evalúen información y argumentos antes de aceptarlos o rechazarlos.",
+      "Memoricen la mayor cantidad posible de información sin análisis.",
+      "Eviten expresar desacuerdos con el docente en cualquier circunstancia."
+    ],
+    "explanation": "El pensamiento crítico implica analizar y evaluar la información de forma razonada, no aceptarla ni rechazarla sin ningún análisis.",
+    "normativeJustification": "El pensamiento crítico implica analizar y evaluar la información de forma razonada, no aceptarla ni rechazarla sin ningún análisis.",
+    "theoreticalJustification": "El pensamiento crítico implica analizar y evaluar la información de forma razonada, no aceptarla ni rechazarla sin ningún análisis.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1043,
+    "id": "dir-apt-ped-295",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un ítem tipo Saber/PISA narra una situación y luego pregunta. Un colega dice que “solo pone difícil la memoria”. Se busca aplicar conocimientos en un contexto con sentido, no reemplazar la enseñanza disciplinar.",
+    "stem": "¿Qué busca principalmente un ítem que presenta un contexto realista antes de la pregunta?",
+    "options": [
+      "Aumentar la dificultad sin propósito pedagógico adicional.",
+      "Evaluar exclusivamente la memoria del contexto presentado.",
+      "Evaluar la capacidad de aplicar conocimientos y habilidades en una situación con sentido.",
+      "Reemplazar por completo la necesidad de enseñar contenidos disciplinares."
+    ],
+    "explanation": "Los ítems contextualizados buscan evaluar la aplicación de conocimientos y habilidades en situaciones con sentido, más allá de la memorización aislada.",
+    "normativeJustification": "Los ítems contextualizados buscan evaluar la aplicación de conocimientos y habilidades en situaciones con sentido, más allá de la memorización aislada.",
+    "theoreticalJustification": "Los ítems contextualizados buscan evaluar la aplicación de conocimientos y habilidades en situaciones con sentido, más allá de la memorización aislada.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1044,
+    "id": "dir-apt-ped-296",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La comprensión lectora es lectura silenciosa y preguntas de copia. Un docente propone enseñanza recíproca: roles rotativos de predecir, cuestionar, aclarar y resumir, de forma colaborativa.",
+    "stem": "En esta clase de comprensión, ¿qué caracteriza principalmente a la enseñanza recíproca (reciprocal teaching)?",
+    "options": [
+      "Leer de forma completamente individual, sin interacción ni roles compartidos de comprensión.",
+      "Recitar el texto palabra por palabra, como si la comprensión fuera reproducción literal.",
+      "Recibir únicamente preguntas cerradas del docente, sin que el estudiante guíe la discusión.",
+      "Asumir roles rotativos (predecir, cuestionar, aclarar y resumir) para guiar en colaboración la comprensión."
+    ],
+    "explanation": "La enseñanza recíproca se basa en que los estudiantes asuman roles específicos que guían de forma colaborativa la comprensión del texto.",
+    "normativeJustification": "La enseñanza recíproca se basa en que los estudiantes asuman roles específicos que guían de forma colaborativa la comprensión del texto.",
+    "theoreticalJustification": "La enseñanza recíproca se basa en que los estudiantes asuman roles específicos que guían de forma colaborativa la comprensión del texto.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1045,
+    "id": "dir-apt-ped-297",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [
+      {
+        "code": "vygotsky",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "vygotsky"
+    ],
+    "caseContext": "Coordinación pide “sin ayudas, para que sea comparable”. Un docente ofrece andamiaje: apoyo temporal y ajustado que se retira al ganar autonomía (ZDP), no un andamio físico ni cero apoyo desde el día uno.",
+    "stem": "¿A qué se refiere principalmente el andamiaje (scaffolding) ligado a la ZDP?",
+    "options": [
+      "Al apoyo temporal y ajustado del docente, que se retira gradualmente al ganar autonomía.",
+      "A una estructura física de educación física.",
+      "A un tipo de evaluación aplicada solo al final del año.",
+      "A eliminar todo apoyo docente desde el inicio del aprendizaje."
+    ],
+    "explanation": "El andamiaje implica un apoyo ajustado y temporal, que se retira progresivamente a medida que el estudiante desarrolla mayor autonomía.",
+    "normativeJustification": "El andamiaje implica un apoyo ajustado y temporal, que se retira progresivamente a medida que el estudiante desarrolla mayor autonomía.",
+    "theoreticalJustification": "El andamiaje implica un apoyo ajustado y temporal, que se retira progresivamente a medida que el estudiante desarrolla mayor autonomía.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1046,
+    "id": "dir-apt-ped-298",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En primaria organizan el período alrededor de preguntas del entorno, articulando áreas. No es “todo el año un examen”, ni prescindir de planeación, ni una sola área.",
+    "stem": "¿Qué caracteriza principalmente a un currículo por proyectos de aula en primaria?",
+    "options": [
+      "Organizar todo el año exclusivamente alrededor de un examen final.",
+      "Articular aprendizajes de distintas áreas alrededor de preguntas o problemáticas significativas.",
+      "Prescindir por completo de cualquier planeación docente.",
+      "Limitarse a una sola área durante todo el período."
+    ],
+    "explanation": "El currículo por proyectos articula distintas áreas alrededor de preguntas o problemáticas significativas para los estudiantes, favoreciendo un aprendizaje con sentido.",
+    "normativeJustification": "El currículo por proyectos articula distintas áreas alrededor de preguntas o problemáticas significativas para los estudiantes, favoreciendo un aprendizaje con sentido.",
+    "theoreticalJustification": "El currículo por proyectos articula distintas áreas alrededor de preguntas o problemáticas significativas para los estudiantes, favoreciendo un aprendizaje con sentido.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1047,
+    "id": "dir-apt-ped-299",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los grupos son fijos por lista o se evita el trabajo en equipo. Un docente propone agrupamiento flexible: variar la composición según el propósito de la actividad y las necesidades, no por capricho.",
+    "stem": "En esta organización del trabajo, ¿en qué consiste principalmente el agrupamiento flexible como estrategia pedagógica?",
+    "options": [
+      "Mantener los mismos grupos todo el año, sin variación según la actividad o las necesidades.",
+      "Formar grupos exclusivamente por orden alfabético, sin propósito pedagógico de la tarea.",
+      "Variar la composición de los grupos según el propósito de cada actividad y las necesidades.",
+      "Evitar cualquier trabajo grupal en el aula, para que toda evidencia sea estrictamente individual."
+    ],
+    "explanation": "El agrupamiento flexible permite adaptar la composición de los grupos según el propósito pedagógico de cada actividad.",
+    "normativeJustification": "El agrupamiento flexible permite adaptar la composición de los grupos según el propósito pedagógico de cada actividad.",
+    "theoreticalJustification": "El agrupamiento flexible permite adaptar la composición de los grupos según el propósito pedagógico de cada actividad.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1048,
+    "id": "dir-apt-ped-300",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 3)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 3)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Solo hay pruebas escritas. Un docente observa procesos y actitudes que el examen no muestra, con registro. No sustituye toda evidencia escrita ni se reduce a “disciplina”.",
+    "stem": "La observación como instrumento cualitativo permite principalmente al docente:",
+    "options": [
+      "Sustituir por completo cualquier evaluación escrita, aunque se presente como solución rápida en la reunión.",
+      "Evaluar exclusivamente el comportamiento disciplinario, aunque ahorre tiempo visible de clase o de consejo.",
+      "Evitar registrar evidencia del proceso de aprendizaje, aunque parezca un trámite equitativo o suficiente.",
+      "Recoger información sobre procesos, actitudes y desempeños no siempre visibles en instrumentos escritos."
+    ],
+    "explanation": "La observación permite captar procesos, actitudes y desempeños que instrumentos exclusivamente escritos podrían no evidenciar.",
+    "normativeJustification": "La observación permite captar procesos, actitudes y desempeños que instrumentos exclusivamente escritos podrían no evidenciar.",
+    "theoreticalJustification": "La observación permite captar procesos, actitudes y desempeños que instrumentos exclusivamente escritos podrían no evidenciar.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1049,
+    "id": "dir-apt-lec-301",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La independencia de las provincias que hoy conforman Colombia no fue un hecho aislado ocurrido en un único día, sino un proceso que se extendió por más de una década, con avances y retrocesos. Tras el llamado Grito de Independencia del 20 de julio de 1810, se vivió un período de luchas internas entre distintas facciones criollas, conocido como la Patria Boba, que debilitó la capacidad de resistencia frente a la reconquista española liderada por Pablo Morillo. Solo después de la campaña libertadora de Simón Bolívar, que culminó con la Batalla de Boyacá en 1819, se consolidó de manera más definitiva el proceso de independencia.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La independencia de Colombia fue un proceso extendido en el tiempo, con avances y retrocesos, y no un hecho ocurrido en un solo día.",
+      "La independencia de Colombia se logró únicamente el 20 de julio de 1810.",
+      "La Patria Boba fortaleció la resistencia frente a la reconquista española.",
+      "Simón Bolívar lideró la reconquista española en el territorio colombiano."
+    ],
+    "explanation": "El texto plantea la independencia como un proceso extendido, señalando distintas etapas hasta su consolidación.",
+    "normativeJustification": "El texto plantea la independencia como un proceso extendido, señalando distintas etapas hasta su consolidación.",
+    "theoreticalJustification": "El texto plantea la independencia como un proceso extendido, señalando distintas etapas hasta su consolidación.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1050,
+    "id": "dir-apt-lec-302",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La independencia de las provincias que hoy conforman Colombia no fue un hecho aislado ocurrido en un único día, sino un proceso que se extendió por más de una década, con avances y retrocesos. Tras el llamado Grito de Independencia del 20 de julio de 1810, se vivió un período de luchas internas entre distintas facciones criollas, conocido como la Patria Boba, que debilitó la capacidad de resistencia frente a la reconquista española liderada por Pablo Morillo. Solo después de la campaña libertadora de Simón Bolívar, que culminó con la Batalla de Boyacá en 1819, se consolidó de manera más definitiva el proceso de independencia.",
+    "stem": "Según el texto, ¿qué caracterizó al período conocido como la Patria Boba?",
+    "options": [
+      "Una alianza sólida entre todas las facciones criollas.",
+      "Luchas internas entre distintas facciones criollas que debilitaron la resistencia frente a la reconquista.",
+      "La consolidación definitiva de la independencia.",
+      "La ausencia total de conflictos políticos internos."
+    ],
+    "explanation": "El texto lo describe explícitamente como un período de luchas internas que debilitó la resistencia.",
+    "normativeJustification": "El texto lo describe explícitamente como un período de luchas internas que debilitó la resistencia.",
+    "theoreticalJustification": "El texto lo describe explícitamente como un período de luchas internas que debilitó la resistencia.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1051,
+    "id": "dir-apt-lec-303",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia se caracteriza por una notable diversidad geográfica, resultado en buena parte de la presencia de la cordillera de los Andes, que se divide en tres ramales al ingresar al territorio nacional. Esta configuración da origen a regiones naturales tan distintas entre sí como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía, cada una con climas, ecosistemas y formas de poblamiento propias. Esta diversidad geográfica ha influido históricamente en la manera desigual en que se han desarrollado las vías de comunicación y las actividades económicas en las distintas zonas del país.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Colombia tiene una geografía completamente homogénea en todo su territorio.",
+      "La cordillera de los Andes no influye en la diversidad geográfica de Colombia.",
+      "La diversidad geográfica de Colombia, marcada por la cordillera de los Andes, ha influido en el desarrollo desigual de sus regiones.",
+      "Las cinco regiones naturales de Colombia tienen exactamente el mismo clima."
+    ],
+    "explanation": "El texto vincula la diversidad geográfica con el desarrollo desigual de las regiones del país.",
+    "normativeJustification": "El texto vincula la diversidad geográfica con el desarrollo desigual de las regiones del país.",
+    "theoreticalJustification": "El texto vincula la diversidad geográfica con el desarrollo desigual de las regiones del país.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1052,
+    "id": "dir-apt-lec-304",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia se caracteriza por una notable diversidad geográfica, resultado en buena parte de la presencia de la cordillera de los Andes, que se divide en tres ramales al ingresar al territorio nacional. Esta configuración da origen a regiones naturales tan distintas entre sí como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía, cada una con climas, ecosistemas y formas de poblamiento propias. Esta diversidad geográfica ha influido históricamente en la manera desigual en que se han desarrollado las vías de comunicación y las actividades económicas en las distintas zonas del país.",
+    "stem": "Según el texto, ¿qué origina la división de la cordillera de los Andes en tres ramales?",
+    "options": [
+      "La eliminación de las regiones naturales del país.",
+      "Una reducción en la diversidad de ecosistemas.",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "El origen de regiones naturales distintas, como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía."
+    ],
+    "explanation": "El texto lo señala explícitamente como consecuencia de esta configuración geográfica.",
+    "normativeJustification": "El texto lo señala explícitamente como consecuencia de esta configuración geográfica.",
+    "theoreticalJustification": "El texto lo señala explícitamente como consecuencia de esta configuración geográfica.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1053,
+    "id": "dir-apt-lec-305",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Uno de los conceptos fundamentales de la economía es la relación entre la oferta y la demanda de un bien o servicio: cuando la cantidad demandada por los consumidores supera la cantidad ofrecida por los productores, suele producirse una tendencia al aumento del precio, mientras que una oferta que supera ampliamente la demanda tiende a generar una reducción de precios. Sin embargo, esta relación no opera de manera igualmente libre en todos los mercados, ya que factores como la intervención estatal, los monopolios o la información imperfecta pueden alterar este comportamiento esperado.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La relación entre oferta y demanda influye en los precios, aunque distintos factores pueden alterar su comportamiento esperado.",
+      "Los precios nunca se ven afectados por la relación entre oferta y demanda.",
+      "La intervención estatal es el único factor que determina los precios en cualquier mercado.",
+      "La oferta y la demanda son conceptos que no tienen ninguna relación con los precios."
+    ],
+    "explanation": "El texto plantea la relación general entre oferta, demanda y precios, matizada por factores que pueden alterarla.",
+    "normativeJustification": "El texto plantea la relación general entre oferta, demanda y precios, matizada por factores que pueden alterarla.",
+    "theoreticalJustification": "El texto plantea la relación general entre oferta, demanda y precios, matizada por factores que pueden alterarla.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1054,
+    "id": "dir-apt-lec-306",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Uno de los conceptos fundamentales de la economía es la relación entre la oferta y la demanda de un bien o servicio: cuando la cantidad demandada por los consumidores supera la cantidad ofrecida por los productores, suele producirse una tendencia al aumento del precio, mientras que una oferta que supera ampliamente la demanda tiende a generar una reducción de precios. Sin embargo, esta relación no opera de manera igualmente libre en todos los mercados, ya que factores como la intervención estatal, los monopolios o la información imperfecta pueden alterar este comportamiento esperado.",
+    "stem": "Según el texto, ¿qué tiende a ocurrir cuando la demanda de un bien supera ampliamente su oferta?",
+    "options": [
+      "Una tendencia a la reducción del precio.",
+      "Una tendencia al aumento del precio.",
+      "La desaparición completa del bien del mercado.",
+      "Ninguna variación en el precio del bien."
+    ],
+    "explanation": "El texto lo señala explícitamente como la tendencia esperada en esa situación.",
+    "normativeJustification": "El texto lo señala explícitamente como la tendencia esperada en esa situación.",
+    "theoreticalJustification": "El texto lo señala explícitamente como la tendencia esperada en esa situación.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1055,
+    "id": "dir-apt-lec-307",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La democracia representativa, en la que los ciudadanos eligen a sus gobernantes mediante el voto, ha sido complementada en muchos países, incluido Colombia, con mecanismos de participación directa como el referendo, la consulta popular o el plebiscito. Estos mecanismos permiten que la ciudadanía se pronuncie directamente sobre decisiones específicas, más allá de la elección periódica de representantes, aunque su uso efectivo depende de condiciones como el acceso a información clara y la existencia de garantías para una participación libre e informada.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La democracia representativa ha sido eliminada por completo en Colombia.",
+      "Los mecanismos de participación directa reemplazan por completo la elección de representantes.",
+      "Los mecanismos de participación directa complementan la democracia representativa, aunque su efectividad depende de ciertas condiciones.",
+      "El plebiscito es el único mecanismo de participación ciudadana existente en Colombia."
+    ],
+    "explanation": "El texto plantea estos mecanismos como un complemento a la democracia representativa, condicionado a ciertos factores.",
+    "normativeJustification": "El texto plantea estos mecanismos como un complemento a la democracia representativa, condicionado a ciertos factores.",
+    "theoreticalJustification": "El texto plantea estos mecanismos como un complemento a la democracia representativa, condicionado a ciertos factores.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1056,
+    "id": "dir-apt-lec-308",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La democracia representativa, en la que los ciudadanos eligen a sus gobernantes mediante el voto, ha sido complementada en muchos países, incluido Colombia, con mecanismos de participación directa como el referendo, la consulta popular o el plebiscito. Estos mecanismos permiten que la ciudadanía se pronuncie directamente sobre decisiones específicas, más allá de la elección periódica de representantes, aunque su uso efectivo depende de condiciones como el acceso a información clara y la existencia de garantías para una participación libre e informada.",
+    "stem": "Según el texto, ¿de qué depende el uso efectivo de estos mecanismos de participación directa?",
+    "options": [
+      "Exclusivamente de la voluntad del gobierno de turno.",
+      "De la eliminación de la democracia representativa.",
+      "De que se apliquen únicamente en elecciones presidenciales.",
+      "Del acceso a información clara y de garantías para una participación libre e informada."
+    ],
+    "explanation": "El texto lo señala explícitamente como condiciones necesarias para su uso efectivo.",
+    "normativeJustification": "El texto lo señala explícitamente como condiciones necesarias para su uso efectivo.",
+    "theoreticalJustification": "El texto lo señala explícitamente como condiciones necesarias para su uso efectivo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1057,
+    "id": "dir-apt-lec-309",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia reconoce constitucionalmente su carácter pluriétnico y multicultural, lo que incluye el reconocimiento de más de un centenar de pueblos indígenas con lenguas, cosmovisiones y formas de organización propias. Este reconocimiento no se limita a un enunciado simbólico: implica, entre otros aspectos, el derecho de estos pueblos a la consulta previa frente a decisiones que puedan afectar sus territorios, así como a la jurisdicción especial indígena para resolver ciertos conflictos según sus propias normas y procedimientos.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El reconocimiento constitucional de la diversidad étnica de Colombia implica derechos concretos, como la consulta previa y la jurisdicción especial indígena.",
+      "Colombia no reconoce constitucionalmente ningún tipo de diversidad étnica.",
+      "Los pueblos indígenas de Colombia carecen de cualquier forma de organización propia.",
+      "La consulta previa es un mecanismo que no tiene ninguna relación con los pueblos indígenas."
+    ],
+    "explanation": "El texto plantea que este reconocimiento constitucional se traduce en derechos concretos, más allá de lo simbólico.",
+    "normativeJustification": "El texto plantea que este reconocimiento constitucional se traduce en derechos concretos, más allá de lo simbólico.",
+    "theoreticalJustification": "El texto plantea que este reconocimiento constitucional se traduce en derechos concretos, más allá de lo simbólico.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1058,
+    "id": "dir-apt-lec-310",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia reconoce constitucionalmente su carácter pluriétnico y multicultural, lo que incluye el reconocimiento de más de un centenar de pueblos indígenas con lenguas, cosmovisiones y formas de organización propias. Este reconocimiento no se limita a un enunciado simbólico: implica, entre otros aspectos, el derecho de estos pueblos a la consulta previa frente a decisiones que puedan afectar sus territorios, así como a la jurisdicción especial indígena para resolver ciertos conflictos según sus propias normas y procedimientos.",
+    "stem": "Según el texto, ¿qué le permite a los pueblos indígenas la jurisdicción especial indígena?",
+    "options": [
+      "Estar exentos de cualquier tipo de normatividad.",
+      "Resolver ciertos conflictos según sus propias normas y procedimientos.",
+      "Eliminar la consulta previa en la toma de decisiones.",
+      "Participar exclusivamente en elecciones locales."
+    ],
+    "explanation": "El texto lo señala explícitamente como una de las implicaciones del reconocimiento constitucional.",
+    "normativeJustification": "El texto lo señala explícitamente como una de las implicaciones del reconocimiento constitucional.",
+    "theoreticalJustification": "El texto lo señala explícitamente como una de las implicaciones del reconocimiento constitucional.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1059,
+    "id": "dir-apt-lec-311",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los movimientos migratorios rara vez responden a una sola causa: factores económicos, como la búsqueda de mejores oportunidades laborales, suelen combinarse con motivos como la violencia, los desastres naturales o la persecución política. Comprender esta multicausalidad es importante para evitar explicaciones simplistas sobre los procesos migratorios, así como para diseñar políticas públicas que respondan de manera integral a las distintas necesidades de la población migrante.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Los movimientos migratorios siempre responden a una única causa económica.",
+      "La violencia y los desastres naturales nunca influyen en los procesos migratorios.",
+      "Los procesos migratorios suelen tener múltiples causas combinadas, lo que es importante para evitar explicaciones simplistas.",
+      "Las políticas públicas no deben considerar las causas de la migración."
+    ],
+    "explanation": "El texto plantea la multicausalidad como una idea central para comprender los procesos migratorios.",
+    "normativeJustification": "El texto plantea la multicausalidad como una idea central para comprender los procesos migratorios.",
+    "theoreticalJustification": "El texto plantea la multicausalidad como una idea central para comprender los procesos migratorios.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1060,
+    "id": "dir-apt-lec-312",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los movimientos migratorios rara vez responden a una sola causa: factores económicos, como la búsqueda de mejores oportunidades laborales, suelen combinarse con motivos como la violencia, los desastres naturales o la persecución política. Comprender esta multicausalidad es importante para evitar explicaciones simplistas sobre los procesos migratorios, así como para diseñar políticas públicas que respondan de manera integral a las distintas necesidades de la población migrante.",
+    "stem": "Según el texto, ¿para qué es importante comprender la multicausalidad de la migración?",
+    "options": [
+      "Para justificar el cierre total de fronteras.",
+      "Para culpar exclusivamente a los migrantes de su situación.",
+      "Para reducir la migración a un problema exclusivamente económico.",
+      "Para evitar explicaciones simplistas y diseñar políticas públicas más integrales."
+    ],
+    "explanation": "El texto lo señala explícitamente como propósito de comprender esta multicausalidad.",
+    "normativeJustification": "El texto lo señala explícitamente como propósito de comprender esta multicausalidad.",
+    "theoreticalJustification": "El texto lo señala explícitamente como propósito de comprender esta multicausalidad.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1061,
+    "id": "dir-apt-lec-313",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El cambio climático no es solo un fenómeno atmosférico: sus efectos, como el aumento del nivel del mar o la alteración de los patrones de lluvia, tienen consecuencias directas sobre la geografía humana, alterando patrones de asentamiento, actividades agrícolas y, en algunos casos, generando desplazamientos de población. Estudiar el cambio climático desde las ciencias sociales implica, entonces, analizar no solo sus causas físicas, sino también sus efectos sobre las dinámicas sociales, económicas y territoriales de las comunidades afectadas.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El cambio climático tiene efectos sobre la geografía humana que deben analizarse también desde las ciencias sociales.",
+      "El cambio climático es un fenómeno que no tiene ninguna relación con las ciencias sociales.",
+      "El cambio climático solo debe estudiarse desde una perspectiva estrictamente atmosférica.",
+      "Los patrones de asentamiento humano no se ven afectados por el cambio climático."
+    ],
+    "explanation": "El texto plantea la necesidad de estudiar el cambio climático también desde sus efectos sociales y territoriales.",
+    "normativeJustification": "El texto plantea la necesidad de estudiar el cambio climático también desde sus efectos sociales y territoriales.",
+    "theoreticalJustification": "El texto plantea la necesidad de estudiar el cambio climático también desde sus efectos sociales y territoriales.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1062,
+    "id": "dir-apt-lec-314",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El cambio climático no es solo un fenómeno atmosférico: sus efectos, como el aumento del nivel del mar o la alteración de los patrones de lluvia, tienen consecuencias directas sobre la geografía humana, alterando patrones de asentamiento, actividades agrícolas y, en algunos casos, generando desplazamientos de población. Estudiar el cambio climático desde las ciencias sociales implica, entonces, analizar no solo sus causas físicas, sino también sus efectos sobre las dinámicas sociales, económicas y territoriales de las comunidades afectadas.",
+    "stem": "Según el texto, ¿qué tipo de consecuencias puede generar el cambio climático sobre la población?",
+    "options": [
+      "Ninguna consecuencia relevante sobre los patrones de asentamiento.",
+      "Alteraciones en los patrones de asentamiento, las actividades agrícolas y, en algunos casos, desplazamientos de población.",
+      "Un aumento generalizado y uniforme de la población en todas las regiones.",
+      "La eliminación completa de las actividades agrícolas en todo el mundo."
+    ],
+    "explanation": "El texto los menciona explícitamente como consecuencias del cambio climático sobre la geografía humana.",
+    "normativeJustification": "El texto los menciona explícitamente como consecuencias del cambio climático sobre la geografía humana.",
+    "theoreticalJustification": "El texto los menciona explícitamente como consecuencias del cambio climático sobre la geografía humana.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1063,
+    "id": "dir-apt-lec-315",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La Constitución Política de 1991 significó una transformación importante frente a la Constitución de 1886 que la precedió: entre otros cambios, amplió el catálogo de derechos fundamentales, creó mecanismos como la acción de tutela para proteger esos derechos de manera ágil, y estableció nuevas instituciones como la Corte Constitucional. Aunque han pasado más de tres décadas desde su promulgación, algunos de sus principios, como el reconocimiento del Estado Social de Derecho, continúan siendo un referente central en el debate político y jurídico del país.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La Constitución de 1991 no introdujo ningún cambio respecto a la de 1886.",
+      "La acción de tutela fue eliminada por la Constitución de 1991.",
+      "La Constitución de 1991 amplió los derechos fundamentales y creó nuevos mecanismos e instituciones, cuyos principios siguen vigentes en el debate actual.",
+      "La Corte Constitucional fue creada antes de la Constitución de 1991."
+    ],
+    "explanation": "El texto describe estos cambios y señala la vigencia de sus principios en el debate actual.",
+    "normativeJustification": "El texto describe estos cambios y señala la vigencia de sus principios en el debate actual.",
+    "theoreticalJustification": "El texto describe estos cambios y señala la vigencia de sus principios en el debate actual.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1064,
+    "id": "dir-apt-lec-316",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La Constitución Política de 1991 significó una transformación importante frente a la Constitución de 1886 que la precedió: entre otros cambios, amplió el catálogo de derechos fundamentales, creó mecanismos como la acción de tutela para proteger esos derechos de manera ágil, y estableció nuevas instituciones como la Corte Constitucional. Aunque han pasado más de tres décadas desde su promulgación, algunos de sus principios, como el reconocimiento del Estado Social de Derecho, continúan siendo un referente central en el debate político y jurídico del país.",
+    "stem": "Según el texto, ¿qué mecanismo se creó en la Constitución de 1991 para proteger de manera ágil los derechos fundamentales?",
+    "options": [
+      "El referendo.",
+      "La consulta popular.",
+      "El plebiscito.",
+      "La acción de tutela."
+    ],
+    "explanation": "El texto lo menciona explícitamente como uno de los mecanismos creados por la Constitución de 1991.",
+    "normativeJustification": "El texto lo menciona explícitamente como uno de los mecanismos creados por la Constitución de 1991.",
+    "theoreticalJustification": "El texto lo menciona explícitamente como uno de los mecanismos creados por la Constitución de 1991.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1065,
+    "id": "dir-apt-lec-317",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El crecimiento acelerado de las ciudades latinoamericanas durante el siglo XX, impulsado en buena parte por la migración desde zonas rurales, no siempre estuvo acompañado de una planeación urbana adecuada. Esto se tradujo, en muchos casos, en la expansión de asentamientos informales en las periferias urbanas, con acceso limitado a servicios públicos, transporte y equipamientos educativos, lo que generó patrones de desigualdad territorial que persisten hasta la actualidad en varias ciudades de la región.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El crecimiento acelerado de las ciudades latinoamericanas, sin una planeación adecuada, generó desigualdades territoriales que persisten hasta hoy.",
+      "El crecimiento de las ciudades latinoamericanas estuvo siempre acompañado de una planeación urbana adecuada.",
+      "La migración rural-urbana no tuvo ninguna influencia en el crecimiento de las ciudades.",
+      "Los asentamientos informales desaparecieron completamente durante el siglo XX."
+    ],
+    "explanation": "El texto vincula el crecimiento urbano sin planeación adecuada con la persistencia de desigualdades territoriales.",
+    "normativeJustification": "El texto vincula el crecimiento urbano sin planeación adecuada con la persistencia de desigualdades territoriales.",
+    "theoreticalJustification": "El texto vincula el crecimiento urbano sin planeación adecuada con la persistencia de desigualdades territoriales.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1066,
+    "id": "dir-apt-lec-318",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El crecimiento acelerado de las ciudades latinoamericanas durante el siglo XX, impulsado en buena parte por la migración desde zonas rurales, no siempre estuvo acompañado de una planeación urbana adecuada. Esto se tradujo, en muchos casos, en la expansión de asentamientos informales en las periferias urbanas, con acceso limitado a servicios públicos, transporte y equipamientos educativos, lo que generó patrones de desigualdad territorial que persisten hasta la actualidad en varias ciudades de la región.",
+    "stem": "Según el texto, ¿qué caracterizó a muchos de los asentamientos informales surgidos en las periferias urbanas?",
+    "options": [
+      "Un acceso amplio y garantizado a todos los servicios públicos.",
+      "Un acceso limitado a servicios públicos, transporte y equipamientos educativos.",
+      "Una planeación urbana ejemplar desde su origen.",
+      "La ausencia total de población migrante."
+    ],
+    "explanation": "El texto lo señala explícitamente como característica de estos asentamientos.",
+    "normativeJustification": "El texto lo señala explícitamente como característica de estos asentamientos.",
+    "theoreticalJustification": "El texto lo señala explícitamente como característica de estos asentamientos.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1067,
+    "id": "dir-apt-lec-319",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La noción de derechos humanos, tal como se conoce hoy, ha sido el resultado de un proceso histórico de ampliación progresiva: de un enfoque inicial centrado en los derechos civiles y políticos (como la libertad de expresión o el derecho al voto), se pasó gradualmente a reconocer también los derechos económicos, sociales y culturales (como la educación o la salud), y más recientemente, derechos colectivos como el derecho a un ambiente sano. Esta evolución refleja cambios en la manera en que las sociedades han entendido la dignidad humana a lo largo del tiempo.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Los derechos humanos han tenido siempre exactamente el mismo alcance a lo largo de la historia.",
+      "Los derechos económicos, sociales y culturales fueron los primeros en reconocerse históricamente.",
+      "La noción de derechos humanos ha evolucionado históricamente, ampliándose de los derechos civiles y políticos a otros como los sociales y colectivos.",
+      "El derecho a un ambiente sano fue el primer derecho humano reconocido en la historia."
+    ],
+    "explanation": "El texto describe esta evolución progresiva en el reconocimiento de distintas categorías de derechos.",
+    "normativeJustification": "El texto describe esta evolución progresiva en el reconocimiento de distintas categorías de derechos.",
+    "theoreticalJustification": "El texto describe esta evolución progresiva en el reconocimiento de distintas categorías de derechos.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1068,
+    "id": "dir-apt-lec-320",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La noción de derechos humanos, tal como se conoce hoy, ha sido el resultado de un proceso histórico de ampliación progresiva: de un enfoque inicial centrado en los derechos civiles y políticos (como la libertad de expresión o el derecho al voto), se pasó gradualmente a reconocer también los derechos económicos, sociales y culturales (como la educación o la salud), y más recientemente, derechos colectivos como el derecho a un ambiente sano. Esta evolución refleja cambios en la manera en que las sociedades han entendido la dignidad humana a lo largo del tiempo.",
+    "stem": "Según el texto, ¿qué tipo de derechos se reconocieron más recientemente, según lo descrito?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Los derechos económicos y sociales únicamente.",
+      "Derechos colectivos, como el derecho a un ambiente sano."
+    ],
+    "explanation": "El texto lo señala explícitamente como el reconocimiento más reciente en esta evolución histórica.",
+    "normativeJustification": "El texto lo señala explícitamente como el reconocimiento más reciente en esta evolución histórica.",
+    "theoreticalJustification": "El texto lo señala explícitamente como el reconocimiento más reciente en esta evolución histórica.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1069,
+    "id": "dir-apt-num-321",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un mapa tiene una escala 1:50.000. La distancia entre dos ciudades en el mapa es de 6 cm. Un docente propone reportar 2.5 km (otra base, redondeo o indicador distinto); otro insiste en 3.5 km. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "3 km",
+      "2.5 km",
+      "3.5 km",
+      "4 km"
+    ],
+    "explanation": "6 cm x 50.000 = 300.000 cm = 3.000 m = 3 km.",
+    "normativeJustification": "6 cm x 50.000 = 300.000 cm = 3.000 m = 3 km.",
+    "theoreticalJustification": "6 cm x 50.000 = 300.000 cm = 3.000 m = 3 km.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1070,
+    "id": "dir-apt-num-322",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un país tiene una población de 48 millones de habitantes. El 76% vive en zonas urbanas. Un docente propone reportar 10.5 (otra base, redondeo o indicador distinto); otro insiste en 12.5. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "10.5",
+      "11.5",
+      "12.5",
+      "13.5"
+    ],
+    "explanation": "Población urbana: 48 × 0.76 = 36.48 millones. Población rural: 48 − 36.48 = 11.5 millones.",
+    "normativeJustification": "Población urbana: 48 × 0.76 = 36.48 millones. Población rural: 48 − 36.48 = 11.5 millones.",
+    "theoreticalJustification": "Población urbana: 48 × 0.76 = 36.48 millones. Población rural: 48 − 36.48 = 11.5 millones.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1071,
+    "id": "dir-apt-num-323",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Entre el año 1810 y el año 1819 (Batalla de Boyacá). Un docente propone reportar 7 (otra base, redondeo o indicador distinto); otro insiste en 8. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "explanation": "1819 - 1810 = 9 años.",
+    "normativeJustification": "1819 - 1810 = 9 años.",
+    "theoreticalJustification": "1819 - 1810 = 9 años.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1072,
+    "id": "dir-apt-num-324",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un curso de ciencias sociales, un docente pide a sus 40 estudiantes ubicar en un mapa 5 países cada uno. Un docente propone reportar 150 (otra base, redondeo o indicador distinto); otro insiste en 180. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "150",
+      "180",
+      "190",
+      "200"
+    ],
+    "explanation": "40 × 5 = 200 ubicaciones.",
+    "normativeJustification": "40 × 5 = 200 ubicaciones.",
+    "theoreticalJustification": "40 × 5 = 200 ubicaciones.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1073,
+    "id": "dir-apt-num-325",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La inflación anual de un país fue del 4.5% y el salario mínimo se ajustó en un 6%. Un docente propone reportar 1.0% (otra base, redondeo o indicador distinto); otro insiste en 2.0%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "1.5%",
+      "1.0%",
+      "2.0%",
+      "2.5%"
+    ],
+    "explanation": "El incremento real aproximado se calcula restando la inflación al ajuste salarial: 6% - 4.5% = 1.5%.",
+    "normativeJustification": "El incremento real aproximado se calcula restando la inflación al ajuste salarial: 6% - 4.5% = 1.5%.",
+    "theoreticalJustification": "El incremento real aproximado se calcula restando la inflación al ajuste salarial: 6% - 4.5% = 1.5%.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1074,
+    "id": "dir-apt-num-326",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente de ciencias sociales organiza una línea del tiempo con 24 eventos históricos distribuidos equitativamente en 4 períodos. Un docente propone reportar 5 (otra base, redondeo o indicador distinto); otro insiste en 7. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "explanation": "24 ÷ 4 = 6 eventos por período.",
+    "normativeJustification": "24 ÷ 4 = 6 eventos por período.",
+    "theoreticalJustification": "24 ÷ 4 = 6 eventos por período.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1075,
+    "id": "dir-apt-num-327",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una encuesta aplicada a 200 estudiantes sobre participación en el gobierno escolar, el 35% afirmó haber votado en la última elección de personero. Un docente propone reportar 60 (otra base, redondeo o indicador distinto); otro insiste en 65. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "60",
+      "65",
+      "70",
+      "75"
+    ],
+    "explanation": "200 × 0.35 = 70 estudiantes.",
+    "normativeJustification": "200 × 0.35 = 70 estudiantes.",
+    "theoreticalJustification": "200 × 0.35 = 70 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1076,
+    "id": "dir-apt-num-328",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La superficie de un país es de 1.140.000 km2 y el 12% corresponde a áreas protegidas. Un docente propone reportar 108.000 km2 (otra base, redondeo o indicador distinto); otro insiste en 120.000 km2. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "108.000 km2",
+      "120.000 km2",
+      "128.000 km2",
+      "136.800 km2"
+    ],
+    "explanation": "1.140.000 × 0.12 = 136.800 km².",
+    "normativeJustification": "1.140.000 × 0.12 = 136.800 km².",
+    "theoreticalJustification": "1.140.000 × 0.12 = 136.800 km².",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1077,
+    "id": "dir-apt-num-329",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente revisa 36 mapas conceptuales sobre la Constitución de 1991, a un ritmo de 4 minutos cada uno. Un docente propone reportar 2h 12min (otra base, redondeo o indicador distinto); otro insiste en 2h 36min. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "2h 24min",
+      "2h 12min",
+      "2h 36min",
+      "2h 48min"
+    ],
+    "explanation": "36 x 4 = 144 minutos = 2 horas con 24 minutos.",
+    "normativeJustification": "36 x 4 = 144 minutos = 2 horas con 24 minutos.",
+    "theoreticalJustification": "36 x 4 = 144 minutos = 2 horas con 24 minutos.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1078,
+    "id": "dir-apt-num-330",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una gráfica de crecimiento poblacional, una ciudad pasó de 1.200.000 a 1.500.000 habitantes en 10 años. Un docente propone reportar 20% (otra base, redondeo o indicador distinto); otro insiste en 30%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "explanation": "Incremento: 1.500.000 - 1.200.000 = 300.000. Porcentaje: 300.000 / 1.200.000 = 0.25 = 25%.",
+    "normativeJustification": "Incremento: 1.500.000 - 1.200.000 = 300.000. Porcentaje: 300.000 / 1.200.000 = 0.25 = 25%.",
+    "theoreticalJustification": "Incremento: 1.500.000 - 1.200.000 = 300.000. Porcentaje: 300.000 / 1.200.000 = 0.25 = 25%.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1079,
+    "id": "dir-apt-num-331",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente asigna un taller de análisis de fuentes históricas con 15 preguntas. Un estudiante responde correctamente el 60%. Un docente propone reportar 7 (otra base, redondeo o indicador distinto); otro insiste en 8. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "explanation": "15 × 0.60 = 9 preguntas.",
+    "normativeJustification": "15 × 0.60 = 9 preguntas.",
+    "theoreticalJustification": "15 × 0.60 = 9 preguntas.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1080,
+    "id": "dir-apt-num-332",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El Producto Interno Bruto (PIB) de un país fue de $280 billones de pesos, y el sector agropecuario representó el 7% de ese total. Un docente propone reportar $14 billones (otra base, redondeo o indicador distinto); otro insiste en $16.8 billones. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$14 billones",
+      "$16.8 billones",
+      "$18.2 billones",
+      "$19.6 billones"
+    ],
+    "explanation": "280 × 0.07 = $19.6 billones de pesos.",
+    "normativeJustification": "280 × 0.07 = $19.6 billones de pesos.",
+    "theoreticalJustification": "280 × 0.07 = $19.6 billones de pesos.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  }
+]

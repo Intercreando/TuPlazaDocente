@@ -1,0 +1,258 @@
+[
+  {
+    "pos": 1141,
+    "id": "dir-apt-ped-393",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Al abordar el conflicto armado, un texto ofrece “una sola versión oficial”. Un enfoque responsable reconoce pluralidad de voces, incluidas las de las víctimas, sin relatos únicos ni convertirlo en un trámite de notas.",
+    "stem": "Abordar la memoria histórica del conflicto armado con responsabilidad pedagógica implica principalmente:",
+    "options": [
+      "Reconocer la pluralidad de voces y experiencias, incluidas las de las víctimas, evitando relatos únicos o simplificados.",
+      "Presentar una única versión oficial del conflicto, sin contrastar fuentes, aunque parezca un trámite equitativo o suficiente.",
+      "Omitir a las víctimas para “no politizar” la clase, aunque se presente como solución rápida en la reunión.",
+      "Evaluar solo con un quiz de fechas, sin análisis de relatos, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Un abordaje pedagógico responsable de la memoria histórica reconoce la pluralidad de voces y experiencias, evitando relatos únicos o simplificados.",
+    "normativeJustification": "Un abordaje pedagógico responsable de la memoria histórica reconoce la pluralidad de voces y experiencias, evitando relatos únicos o simplificados.",
+    "theoreticalJustification": "Un abordaje pedagógico responsable de la memoria histórica reconoce la pluralidad de voces y experiencias, evitando relatos únicos o simplificados.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1142,
+    "id": "dir-apt-ped-394",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "El currículo “impone una cultura de referencia” o silencia la diversidad del aula. Educación intercultural: reconocimiento, diálogo y respeto entre culturas presentes.",
+    "stem": "La educación intercultural en ciencias sociales busca principalmente. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Imponer una única cultura como referente válido para todo el grupo.",
+      "Promover reconocimiento, diálogo y respeto entre distintas culturas del aula y de la sociedad.",
+      "Eliminar cualquier mención a la diversidad cultural del currículo.",
+      "Limitar el estudio de la cultura exclusivamente a la propia de cada estudiante."
+    ],
+    "explanation": "La educación intercultural promueve el reconocimiento, el diálogo y el respeto entre las distintas culturas presentes en la sociedad.",
+    "normativeJustification": "La educación intercultural promueve el reconocimiento, el diálogo y el respeto entre las distintas culturas presentes en la sociedad.",
+    "theoreticalJustification": "La educación intercultural promueve el reconocimiento, el diálogo y el respeto entre las distintas culturas presentes en la sociedad.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1143,
+    "id": "dir-apt-ped-395",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Circulan cadenas en redes y se piden “aceptarlas” o “prohibir medios”. Alfabetización mediática: analizar origen, intención y confiabilidad de la información.",
+    "stem": "Desarrollar alfabetización mediática implica principalmente enseñar a:",
+    "options": [
+      "Aceptar sin cuestionamiento toda la información de los medios.",
+      "Evitar por completo el uso de medios como fuente.",
+      "Analizar críticamente origen, intención y confiabilidad de la información en medios y redes.",
+      "Evaluar el tema solo con un promedio de “uso de celular”, sin análisis de fuentes."
+    ],
+    "explanation": "La alfabetización mediática busca desarrollar un análisis crítico sobre el origen, la intención y la confiabilidad de la información recibida.",
+    "normativeJustification": "La alfabetización mediática busca desarrollar un análisis crítico sobre el origen, la intención y la confiabilidad de la información recibida.",
+    "theoreticalJustification": "La alfabetización mediática busca desarrollar un análisis crítico sobre el origen, la intención y la confiabilidad de la información recibida.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1144,
+    "id": "dir-apt-ped-396",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Una salida es “paseo sin planeación” o se usa solo para notar conducta. El trabajo de campo permite observar y analizar fenómenos sociales o geográficos en contexto, complementando el aula.",
+    "stem": "Las salidas pedagógicas o el trabajo de campo permiten principalmente:",
+    "options": [
+      "Reemplazar por completo el trabajo de aula durante el año, aunque se presente como solución rápida en la reunión.",
+      "Evaluar exclusivamente el comportamiento fuera del aula, aunque parezca un trámite equitativo o suficiente.",
+      "Evitar cualquier planeación previa del docente, aunque parezca un trámite equitativo o suficiente.",
+      "Que los estudiantes observen y analicen fenómenos sociales o geográficos en su contexto real, más allá de lo teórico."
+    ],
+    "explanation": "El trabajo de campo permite una observación y análisis directo de fenómenos sociales o geográficos en su contexto real, complementando el trabajo teórico.",
+    "normativeJustification": "El trabajo de campo permite una observación y análisis directo de fenómenos sociales o geográficos en su contexto real, complementando el trabajo teórico.",
+    "theoreticalJustification": "El trabajo de campo permite una observación y análisis directo de fenómenos sociales o geográficos en su contexto real, complementando el trabajo teórico.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1145,
+    "id": "dir-apt-ped-397",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Los SIG se presentan como “teoría de satélites” o se prohíbe el mapa en papel. En aula, las capas permiten relacionar variables sobre un mismo territorio.",
+    "stem": "El uso de herramientas básicas de SIG permite principalmente que los estudiantes:",
+    "options": [
+      "Analicen y visualicen información geográfica en capas, relacionando variables sobre un mismo territorio.",
+      "Memoricen el funcionamiento técnico de los satélites, aunque se presente como solución rápida en la reunión.",
+      "Eviten cualquier análisis espacial de la información, aunque ahorre tiempo visible de clase o de consejo.",
+      "Reemplacen por completo los mapas físicos en cualquier actividad, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Las herramientas SIG permiten visualizar y analizar información geográfica en capas, relacionando distintas variables sobre un territorio.",
+    "normativeJustification": "Las herramientas SIG permiten visualizar y analizar información geográfica en capas, relacionando distintas variables sobre un territorio.",
+    "theoreticalJustification": "Las herramientas SIG permiten visualizar y analizar información geográfica en capas, relacionando distintas variables sobre un territorio.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1146,
+    "id": "dir-apt-ped-398",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Derechos humanos queda en “una clase aislada” o en más quizzes. El enfoque transversal analiza historia, política y sociedad a la luz de la dignidad y los derechos fundamentales.",
+    "stem": "Incorporar un enfoque de derechos humanos en sociales implica principalmente:",
+    "options": [
+      "Limitarlo a una única clase aislada durante el año, aunque parezca un trámite equitativo o suficiente.",
+      "Analizar contenidos históricos, políticos y sociales en relación con la dignidad humana y los derechos fundamentales.",
+      "Dejarlo como autoevaluación de caritas, sin análisis de casos, aunque se presente como solución rápida en la reunión.",
+      "Sustituir el análisis por un único examen sorpresa de artículos, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Este enfoque implica analizar los contenidos considerando su relación con la dignidad humana y los derechos fundamentales, de manera transversal.",
+    "normativeJustification": "Este enfoque implica analizar los contenidos considerando su relación con la dignidad humana y los derechos fundamentales, de manera transversal.",
+    "theoreticalJustification": "Este enfoque implica analizar los contenidos considerando su relación con la dignidad humana y los derechos fundamentales, de manera transversal.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1147,
+    "id": "dir-apt-ped-399",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Al evaluar un ensayo argumentativo sobre un tema social, un criterio pedagógicamente adecuado sería principalmente valorar. Un actor propone: “Únicamente la extensión del texto, sin ningún otro criterio.”. Otro insiste: “Que el estudiante coincida con la opinión personal del docente sobre el tema.”. Un tercero sugiere: “Exclusivamente la ortografía, sin considerar el contenido argumentativo.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Únicamente la extensión del texto, sin ningún otro criterio.",
+      "Que el estudiante coincida con la opinión personal del docente sobre el tema.",
+      "La claridad de la tesis, la solidez de los argumentos y el uso de evidencia para sustentarlos.",
+      "Exclusivamente la ortografía, sin considerar el contenido argumentativo."
+    ],
+    "explanation": "Evaluar la claridad de la tesis, la solidez argumentativa y el uso de evidencia son criterios centrales para valorar un ensayo argumentativo.",
+    "normativeJustification": "Evaluar la claridad de la tesis, la solidez argumentativa y el uso de evidencia son criterios centrales para valorar un ensayo argumentativo.",
+    "theoreticalJustification": "Evaluar la claridad de la tesis, la solidez argumentativa y el uso de evidencia son criterios centrales para valorar un ensayo argumentativo.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 1148,
+    "id": "dir-apt-ped-400",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Educación económica se vuelve “memorizar el PIB de todos los países” o “jugar a la bolsa”. En básicas, busca decisiones cotidianas informadas: ahorro y consumo responsable.",
+    "stem": "La educación económica y financiera básica, transversal en sociales, busca principalmente que los estudiantes:",
+    "options": [
+      "Memoricen indicadores macroeconómicos de todos los países, aunque ahorre tiempo visible de clase o de consejo.",
+      "Se conviertan en expertos en inversión bursátil desde la básica, aunque se presente como solución rápida en la reunión.",
+      "Eviten relacionar lo económico con su vida cotidiana, aunque parezca un trámite equitativo o suficiente.",
+      "Desarrollen conocimientos y habilidades básicas para decisiones económicas informadas (ahorro, consumo responsable)."
+    ],
+    "explanation": "La educación económica y financiera busca desarrollar habilidades prácticas para la toma de decisiones informadas en la vida cotidiana de los estudiantes. </user_query>",
+    "normativeJustification": "La educación económica y financiera busca desarrollar habilidades prácticas para la toma de decisiones informadas en la vida cotidiana de los estudiantes. </user_query>",
+    "theoreticalJustification": "La educación económica y financiera busca desarrollar habilidades prácticas para la toma de decisiones informadas en la vida cotidiana de los estudiantes. </user_query>",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

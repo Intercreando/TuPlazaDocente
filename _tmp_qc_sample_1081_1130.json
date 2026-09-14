@@ -1,0 +1,102 @@
+[
+  {
+    "id": "dir-apt-num-339",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Entre la Constitución de 1886 y la Constitución de 1991. Un docente propone reportar 95 (otra base, redondeo o indicador distinto); otro insiste en 100. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Reportar 95 años en el PMI, restando 1991 − 1886 − 10 (omite una década de reformas), como propone el docente, porque deja un intervalo cauto comparable con el histórico constitucional.",
+      "Consignar 100 años en el acta de calidad, redondeando 1991 − 1886 a un siglo, como insiste el segundo docente, para no tensionar el informe de vigencia de 1886 ante Secretaría.",
+      "Consignar 105 años en el acta institucional: 1991 − 1886 = 105, cifra del comité de calidad, sin conteo inclusivo ni otra base de cartas que pide Secretaría.",
+      "Registrar 110 años en el tablero PMI, sumando 1991 − 1886 + 5 (holgura de reformas), para que el tramo 1886-1991 luzca alineado con la década de calidad de Secretaría."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Entre 1886 y 1991 la diferencia es 1991 − 1886 = 105 años. Esa es la cifra del acta de vigencia constitucional. El 95 descuenta una década; el 100 redondea a siglo; el 110 suma holgura del tablero. Ninguna conserva 1991 − 1886 sobre las fechas del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de omitir una década: 95 = 1991 − 1886 − 10, como propone el docente. Recorta la vigencia de 1886. No es 1991 − 1886 = 105 años.",
+      "1": "Trampa del siglo redondo: 100, como insiste el segundo docente. Redondea 105. No conserva 105 años entre las dos Constituciones.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 110 = 1991 − 1886 + 5. Es holgura plausible de reformas para Secretaría. Infla el intervalo y no es 105."
+    }
+  },
+  {
+    "id": "dir-apt-blan-360",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante pregunta directamente al docente cuál es su opinión política personal sobre un tema controvertido que se está discutiendo en clase. ¿Cuál sería la respuesta más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir la opinión política personal como marco experto para orientar el análisis del grupo, de modo que los estudiantes dispongan de un referente «informado» sobre el tema controvertido.",
+      "Recordar el manual de convivencia y pedir que las preguntas sobre la vida personal del docente se hagan en orientación, no en clase, para no desviar el tema controvertido.",
+      "Declarar que el docente no tiene postura sobre el tema y pasar de inmediato a un quiz del SIEE de datos, para evitar cualquier conflicto y conservar evidencia comparable.",
+      "Explicar con respeto que el rol docente es presentar distintas perspectivas de manera equilibrada, más que imponer la opinión personal del maestro sobre el grupo."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un estudiante pregunta la opinión política personal del docente sobre un tema controvertido. Explicitar el rol de presentar perspectivas equilibradas forma ciudadanía sin imponer. Compartir la opinión como marco experto usa la autoridad para sesgar el análisis. Enviar la pregunta a orientación trata como intromisión personal lo que es una demanda de rol. Declarar que no hay postura y pasar a un quiz evade y cambia el objeto por evidencia del SIEE.",
+    "distractorAnalysis": {
+      "0": "Trampa del marco experto: compartir la opinión personal como referente informado parece honestidad intelectual. Impone la tesis del docente y no es la conducta más defendible ética e institucionalmente.",
+      "1": "Trampa del manual: enviar la pregunta a orientación parece límite profesional. Trata como intromisión una demanda de rol frente a un tema controvertido de clase.",
+      "2": "Trampa de dominio cruzado del SIEE: declarar que no hay postura y pasar a un quiz luce como neutralidad comparable. Evade el rol de presentar perspectivas y cambia el objeto por datos."
+    }
+  },
+  {
+    "id": "dir-apt-dis-375",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Sobre la Guerra Fría (aprox. 1947-1991), un ensayo afirma que EE. UU. y la URSS se combatieron de forma directa y continua en Europa. Otro describe tensión bipolar, carrera armamentista y conflictos indirectos, sin guerra directa entre ambas potencias.",
+    "stem": "¿Qué caracterización de la Guerra Fría es la más precisa y qué error conceptual hay que reenseñar?",
+    "options": [
+      "Caracterizar la Guerra Fría como guerra directa y continua entre EE. UU. y la URSS en territorio europeo, como si fuera una guerra clásica de frentes permanentes.",
+      "Caracterizarla como unificación política mundial bajo un sistema, omitiendo la bipolaridad de bloques y la carrera armamentista que el ensayo contrapone.",
+      "Caracterizarla como tensión bipolar, carrera armamentista y conflictos indirectos, sin enfrentamiento militar directo continuo entre las dos potencias, y reenseñar no igualarla a una guerra europea clásica entre ambas.",
+      "Caracterizarla como el fin de todo conflicto internacional tras 1945, y reportarlo en el PMI de paz de la IE, como si la posguerra hubiera cancelado la tensión bipolar."
+    ],
+    "explanation": "La condición de calidad pide la caracterización más precisa de la Guerra Fría y el error conceptual a reenseñar. Fue tensión política, ideológica y militar entre bloques, con carrera armamentista y conflictos indirectos, sin guerra directa continua entre EE. UU. y la URSS. La guerra clásica en Europa iguala el nombre a un frente permanente. La unificación mundial omite la bipolaridad. El PMI de paz que declara el fin de todo conflicto tras 1945 contradice 1947-1991.",
+    "distractorAnalysis": {
+      "0": "Trampa de la guerra clásica: frentes permanentes en Europa parecen explicar el nombre. Contradicen la ausencia de choque directo continuo entre las dos potencias.",
+      "1": "Trampa de la unificación mundial: un sistema único parece el desenlace de 1945. Omite la bipolaridad y la carrera armamentista.",
+      "3": "Trampa de dominio cruzado del PMI: el fin de todo conflicto tras 1945 luce como indicador de paz. Cancela 1947-1991 y no es la caracterización más precisa."
+    }
+  },
+  {
+    "id": "dir-apt-ped-382",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Un acta de 1810 y un manual escolar de 2020 se tratan como “iguales” o se dice que “lo primario siempre es más confiable”. Se distingue testimonio de época vs interpretación posterior.",
+    "stem": "En la enseñanza de la historia, ¿cuál es una diferencia clave entre fuente primaria y secundaria?",
+    "options": [
+      "Tratar el acta de 1810 como intrínsecamente más confiable que el manual de 2020, sin análisis de autor, propósito ni contexto, porque «lo primario» se enseña como garantía de verdad.",
+      "Distinguir que la fuente primaria proviene de la época o del hecho (el acta de 1810) y que la secundaria es una interpretación o análisis posterior (el manual escolar de 2020).",
+      "Tratar las secundarias como documentos oficiales del gobierno, de modo que el manual de 2020 se lea como acto administrativo y no como interpretación didáctica posterior al hecho.",
+      "Afirmar que no hay diferencia didáctica relevante entre ambos tipos y evaluarlos con la misma rúbrica del SIEE, para que acta y manual entren como evidencia comparable de «fuentes»."
+    ],
+    "explanation": "La condición de calidad pregunta una diferencia clave entre fuente primaria y secundaria en la enseñanza de la historia. La primaria es testimonio de la época o del hecho (acta de 1810); la secundaria interpreta después (manual de 2020). Tratar lo primario como garantía de verdad confunde tipo con confiabilidad. Leer las secundarias como documentos oficiales del gobierno anacroniza el manual. Homologar ambos en el SIEE como evidencia comparable borra la distinción didáctica del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de la verdad de lo primario: el acta de 1810 parece más confiable por ser de la época. Confunde tipo de fuente con garantía de verdad y no analiza autor ni propósito.",
+      "2": "Trampa del documento oficial: leer lo secundario como acto de gobierno parece rigor institucional. El manual de 2020 es interpretación didáctica, no un sello estatal del hecho.",
+      "3": "Trampa de dominio cruzado del SIEE: la misma rúbrica para acta y manual luce como evidencia comparable de fuentes. Borra la diferencia didáctica entre testimonio de época e interpretación posterior."
+    }
+  },
+  {
+    "id": "dir-apt-dis-371",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Un mapa de límites: un estudiante incluye México y Guatemala; otro Chile y Argentina; otro Panamá, Venezuela, Brasil, Perú y Ecuador. Se pide vecinos con frontera directa, no “América Latina” como bloque.",
+    "stem": "¿Qué conjunto de países evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "Incluir México, Guatemala, Costa Rica, Panamá y Venezuela, ampliando Centroamérica como bloque latinoamericano aunque varios de esos países no tengan frontera terrestre con Colombia.",
+      "Incluir Chile, Argentina, Bolivia, Perú y Ecuador, mezclando el Cono Sur con vecinos andinos, como mapa de «América del Sur» del atlas escolar.",
+      "Incluir Panamá, Venezuela, Brasil, Perú y Ecuador, y reenseñar no agregar países sin frontera terrestre con Colombia (México, Chile, Argentina, Bolivia o Paraguay).",
+      "Incluir Perú, Bolivia, Paraguay, Brasil y Venezuela, y reportarlo en el PMI de integración suramericana de la IE, colando Bolivia y Paraguay como vecinos de calidad."
+    ],
+    "explanation": "La condición de calidad pide el conjunto de países que evidencia el aprendizaje esencial y el error a reenseñar. Colombia limita por tierra con Panamá, Venezuela, Brasil, Perú y Ecuador. México y Centroamérica amplían un bloque sin frontera. Chile y Argentina mezclan el Cono Sur. Bolivia y Paraguay en el PMI de integración suramericana importan un indicador de calidad que no es frontera directa.",
+    "distractorAnalysis": {
+      "0": "Trampa del bloque latinoamericano: sumar México y Centroamérica parece unidad regional. Incluye países sin frontera terrestre con Colombia.",
+      "1": "Trampa del Cono Sur: Chile y Argentina parecen el mapa de América del Sur del atlas. Mezclan vecinos andinos con países sin frontera colombiana.",
+      "3": "Trampa de dominio cruzado del PMI: Bolivia y Paraguay como integración suramericana lucen como calidad. No tienen frontera terrestre con Colombia y no son el conjunto esencial."
+    }
+  }
+]

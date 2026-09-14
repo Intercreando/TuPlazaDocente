@@ -136,9 +136,15 @@ def validate(
     return errors
 
 
-def dump_and_report(out: Path, items: list, ci_map: dict, needle: dict | None = None) -> int:
+def dump_and_report(
+    out: Path,
+    items: list,
+    ci_map: dict,
+    needle: dict | None = None,
+    n_items: int = 10,
+) -> int:
     public = [public_item(it) for it in items]
-    errors = validate(public, ci_map, needle)
+    errors = validate(public, ci_map, needle, n_items=n_items)
     print("=== longitudes opciones ===")
     for it in public:
         lens = [len(o) for o in it["options"]]
@@ -179,7 +185,7 @@ def dump_and_report(out: Path, items: list, ci_map: dict, needle: dict | None = 
         return 1
     out.write_text(json.dumps(public, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     loaded = json.loads(out.read_text(encoding="utf-8"))
-    errors2 = validate(loaded, ci_map, needle)
+    errors2 = validate(loaded, ci_map, needle, n_items=n_items)
     if errors2:
         print("=== ERRORES POST-DUMP ===")
         for e in errors2:

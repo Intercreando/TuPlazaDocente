@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1091,
+    "id": "dir-apt-blan-343",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un padre de familia cuestiona que se aborde en clase un tema que considera políticamente sensible, como los derechos humanos. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Explicar con respeto el sustento curricular y pedagógico del tema, y aclarar que se aborda desde una perspectiva plural y no partidista.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Explicar el sustento curricular y el enfoque plural del tema responde a la inquietud sin renunciar a contenidos formativos legítimos.",
+    "normativeJustification": "Explicar el sustento curricular y el enfoque plural del tema responde a la inquietud sin renunciar a contenidos formativos legítimos.",
+    "theoreticalJustification": "Explicar el sustento curricular y el enfoque plural del tema responde a la inquietud sin renunciar a contenidos formativos legítimos.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1092,
+    "id": "dir-apt-blan-344",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Al hablar sobre el conflicto armado colombiano, un estudiante revela espontáneamente que su familia fue víctima de desplazamiento forzado. ¿Cuál sería la actuación más adecuada del docente en ese momento? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Reconocer con sensibilidad lo compartido, sin exponerlo más de lo que él mismo decidió compartir, y ofrecer un espacio de conversación posterior si lo desea."
+    ],
+    "explanation": "Reconocer con sensibilidad lo compartido, sin forzar mayor exposición, respeta la experiencia del estudiante y abre la puerta a un acompañamiento posterior si es necesario.",
+    "normativeJustification": "Reconocer con sensibilidad lo compartido, sin forzar mayor exposición, respeta la experiencia del estudiante y abre la puerta a un acompañamiento posterior si es necesario.",
+    "theoreticalJustification": "Reconocer con sensibilidad lo compartido, sin forzar mayor exposición, respeta la experiencia del estudiante y abre la puerta a un acompañamiento posterior si es necesario.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1093,
+    "id": "dir-apt-blan-345",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos estudiantes con posturas políticas opuestas, que reflejan las de sus familias, discuten de forma acalorada durante una actividad de clase. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Mediar el intercambio, orientándolo hacia la argumentación basada en evidencia y el respeto mutuo, sin descalificar ninguna de las posturas familiares.",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Mediar hacia la argumentación basada en evidencia, sin descalificar ninguna postura familiar, preserva el pluralismo propio de la formación ciudadana.",
+    "normativeJustification": "Mediar hacia la argumentación basada en evidencia, sin descalificar ninguna postura familiar, preserva el pluralismo propio de la formación ciudadana.",
+    "theoreticalJustification": "Mediar hacia la argumentación basada en evidencia, sin descalificar ninguna postura familiar, preserva el pluralismo propio de la formación ciudadana.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1094,
+    "id": "dir-apt-blan-346",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una clase sobre diversidad cultural, un estudiante hace un comentario discriminatorio hacia un grupo étnico. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Abordar el comentario en el momento, explicando por qué resulta problemático, y retomarlo como contenido formativo sobre el respeto a la diversidad.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Abordar el comentario en el momento, con un enfoque formativo, convierte la situación en una oportunidad de aprendizaje sobre el respeto a la diversidad.",
+    "normativeJustification": "Abordar el comentario en el momento, con un enfoque formativo, convierte la situación en una oportunidad de aprendizaje sobre el respeto a la diversidad.",
+    "theoreticalJustification": "Abordar el comentario en el momento, con un enfoque formativo, convierte la situación en una oportunidad de aprendizaje sobre el respeto a la diversidad.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1095,
+    "id": "dir-apt-blan-347",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Se acerca un período electoral y un estudiante pregunta directamente por quién debería votar su familia. ¿Cuál sería la respuesta más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Recomendar abiertamente un candidato o partido específico.",
+      "Evitar por completo cualquier conversación relacionada con las elecciones.",
+      "Explicar que esa es una decisión personal y familiar, y en su lugar orientar al estudiante sobre cómo analizar propuestas y fuentes de información para formar su propio criterio.",
+      "Pedirle que le pregunte directamente al docente de otra área."
+    ],
+    "explanation": "Orientar hacia el desarrollo del criterio propio del estudiante, sin emitir recomendaciones partidistas, es coherente con el rol formativo del docente en un tema electoral.",
+    "normativeJustification": "Orientar hacia el desarrollo del criterio propio del estudiante, sin emitir recomendaciones partidistas, es coherente con el rol formativo del docente en un tema electoral.",
+    "theoreticalJustification": "Orientar hacia el desarrollo del criterio propio del estudiante, sin emitir recomendaciones partidistas, es coherente con el rol formativo del docente en un tema electoral.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1096,
+    "id": "dir-apt-blan-348",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante presenta, como parte de una investigación, una fuente histórica con contenido gráfico de violencia relacionado con un período como La Violencia en Colombia. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Revisar previamente el material, contextualizarlo pedagógicamente y decidir con criterio qué parte es pertinente compartir con el grupo, considerando su edad y sensibilidad."
+    ],
+    "explanation": "Revisar y contextualizar previamente el material permite un manejo pedagógicamente responsable de fuentes históricas sensibles.",
+    "normativeJustification": "Revisar y contextualizar previamente el material permite un manejo pedagógicamente responsable de fuentes históricas sensibles.",
+    "theoreticalJustification": "Revisar y contextualizar previamente el material permite un manejo pedagógicamente responsable de fuentes históricas sensibles.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1097,
+    "id": "dir-apt-blan-349",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante un proyecto de árbol genealógico, un estudiante muestra reticencia a compartir información sobre su familia. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Respetar su decisión, ofrecer alternativas flexibles para desarrollar la actividad sin exponer información que el estudiante prefiera no compartir.",
+      "Insistir en que debe compartir toda la información solicitada sin ninguna excepción.",
+      "Calificar con una nota baja al estudiante por no completar la actividad como se solicitó originalmente.",
+      "Pedirle a otro familiar que complete la información directamente con el docente."
+    ],
+    "explanation": "Respetar la reticencia del estudiante y ofrecer alternativas flexibles reconoce que las situaciones familiares pueden ser sensibles y diversas.",
+    "normativeJustification": "Respetar la reticencia del estudiante y ofrecer alternativas flexibles reconoce que las situaciones familiares pueden ser sensibles y diversas.",
+    "theoreticalJustification": "Respetar la reticencia del estudiante y ofrecer alternativas flexibles reconoce que las situaciones familiares pueden ser sensibles y diversas.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1098,
+    "id": "dir-apt-blan-350",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una actividad sobre tradiciones religiosas mayoritarias, un estudiante de una religión minoritaria se muestra incómodo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Abordar el tema desde una perspectiva plural que incluya distintas tradiciones religiosas, y conversar en privado con el estudiante si es necesario.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Abordar el tema desde una perspectiva plural, y ofrecer un espacio de conversación individual, respeta la diversidad religiosa presente en el aula.",
+    "normativeJustification": "Abordar el tema desde una perspectiva plural, y ofrecer un espacio de conversación individual, respeta la diversidad religiosa presente en el aula.",
+    "theoreticalJustification": "Abordar el tema desde una perspectiva plural, y ofrecer un espacio de conversación individual, respeta la diversidad religiosa presente en el aula.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1099,
+    "id": "dir-apt-blan-351",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una discusión sobre desigualdad económica, un grupo de estudiantes de bajos recursos parece sentirse señalado por los ejemplos utilizados. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Continuar la clase exactamente igual, sin ningún ajuste.",
+      "Suspender por completo el tema de desigualdad económica del currículo.",
+      "Ajustar los ejemplos utilizados, abordar el tema con sensibilidad y enfocarlo en el análisis estructural más que en situaciones personales de los estudiantes.",
+      "Pedir a los estudiantes que compartan públicamente su situación económica familiar."
+    ],
+    "explanation": "Ajustar los ejemplos y enfocar el análisis en lo estructural, con sensibilidad, evita exponer innecesariamente la situación personal de los estudiantes.",
+    "normativeJustification": "Ajustar los ejemplos y enfocar el análisis en lo estructural, con sensibilidad, evita exponer innecesariamente la situación personal de los estudiantes.",
+    "theoreticalJustification": "Ajustar los ejemplos y enfocar el análisis en lo estructural, con sensibilidad, evita exponer innecesariamente la situación personal de los estudiantes.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1100,
+    "id": "dir-apt-blan-352",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un colega de otra área cuestiona que el docente dedique tiempo de clase a analizar la coyuntura política actual. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Explicar con respeto el sustento pedagógico de analizar la coyuntura para desarrollar competencias ciudadanas y de pensamiento crítico."
+    ],
+    "explanation": "Explicar el sustento pedagógico del análisis de coyuntura, con respeto, defiende la pertinencia curricular del área de ciencias sociales.",
+    "normativeJustification": "Explicar el sustento pedagógico del análisis de coyuntura, con respeto, defiende la pertinencia curricular del área de ciencias sociales.",
+    "theoreticalJustification": "Explicar el sustento pedagógico del análisis de coyuntura, con respeto, defiende la pertinencia curricular del área de ciencias sociales.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1111,
+    "id": "dir-apt-dis-363",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Al caracterizar la Constitución de 1886 (Regeneración, Núñez), un equipo la describe como federal y de estados soberanos (confusión con el federalismo previo). Otro como centralista y de larga vigencia hasta 1991. Otro dice que “al año siguiente llegó 1991”.",
+    "stem": "¿Qué caracterización evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "Validar el modelo federal de 1886, proyectando el siglo XIX federal sobre esa carta, aunque se presente como solución rápida en la reunión.",
+      "Validar la eliminación de la presidencia, sin base en el texto, aunque ahorre tiempo visible de clase o de consejo.",
+      "Validar el centralismo y su vigencia hasta 1991, y reenseñar no atribuirle federalismo ni un reemplazo inmediato.",
+      "Validar que 1991 la sustituyó al año siguiente de 1886, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La Constitución de 1886 estableció un modelo centralista y, con reformas, rigió hasta 1991. No es federal ni fue reemplazada al año siguiente.",
+    "normativeJustification": "La Constitución de 1886 estableció un modelo centralista y, con reformas, rigió hasta 1991. No es federal ni fue reemplazada al año siguiente.",
+    "theoreticalJustification": "La Constitución de 1886 estableció un modelo centralista y, con reformas, rigió hasta 1991. No es federal ni fue reemplazada al año siguiente.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1112,
+    "id": "dir-apt-dis-364",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre la Guerra de los Mil Días (1899-1902), un estudiante la narra como guerra con un vecino; otro como patriotas vs. realistas españoles; otro como conflicto civil entre Partido Liberal y Partido Conservador. Se pide el carácter interno y partidista del hecho.",
+    "stem": "¿Qué lectura del conflicto es la más precisa y qué anacronismo hay que reenseñar?",
+    "options": [
+      "Guerra internacional por límites, sin el clivaje partidista interno, aunque se presente como solución rápida en la reunión.",
+      "Guerra de independencia vs. España, desplazada 80 años, aunque parezca un trámite equitativo o suficiente.",
+      "Guerra indígena vs. Estado central, como única clave, aunque parezca un trámite equitativo o suficiente.",
+      "Conflicto civil liberal–conservador de fin de siglo, y reenseñar no confundirlo con independencias o guerras vecinales."
+    ],
+    "explanation": "La Guerra de los Mil Días fue un conflicto civil entre liberales y conservadores (1899-1902), no una guerra de independencia ni un conflicto internacional.",
+    "normativeJustification": "La Guerra de los Mil Días fue un conflicto civil entre liberales y conservadores (1899-1902), no una guerra de independencia ni un conflicto internacional.",
+    "theoreticalJustification": "La Guerra de los Mil Días fue un conflicto civil entre liberales y conservadores (1899-1902), no una guerra de independencia ni un conflicto internacional.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1113,
+    "id": "dir-apt-dis-365",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un eje del siglo XX mezcla el 9 de abril de 1948 con el Acuerdo de 2016 y con 1991. Un estudiante atribuye el Bogotazo al asesinato de Jorge Eliécer Gaitán y a los disturbios en Bogotá. Otro lo identifica con el Frente Nacional o con la Constituyente.",
+    "stem": "¿Qué relación evidencia el aprendizaje esencial del Bogotazo y qué error hay que reenseñar?",
+    "options": [
+      "Asesinato de Gaitán (9 de abril de 1948) y disturbios posteriores; reenseñar no desplazarlo a 1991 ni a 2016.",
+      "Firma del Acuerdo de paz de 2016 con las FARC-EP, aunque se presente como solución rápida en la reunión.",
+      "Promulgación de la Constitución de 1991, aunque ahorre tiempo visible de clase o de consejo.",
+      "Inicio formal del Frente Nacional en esa misma fecha, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Bogotazo se relaciona con el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948 y los disturbios en Bogotá. No es 1991 ni el Acuerdo de 2016.",
+    "normativeJustification": "El Bogotazo se relaciona con el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948 y los disturbios en Bogotá. No es 1991 ni el Acuerdo de 2016.",
+    "theoreticalJustification": "El Bogotazo se relaciona con el asesinato de Jorge Eliécer Gaitán el 9 de abril de 1948 y los disturbios en Bogotá. No es 1991 ni el Acuerdo de 2016.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1114,
+    "id": "dir-apt-dis-366",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre el Frente Nacional (1958-1974), un texto dice que “unificó todos los partidos en uno solo”; otro describe alternancia presidencial y reparto paritario de cargos entre liberal y conservador. Otro habla de “gobierno militar permanente”.",
+    "stem": "¿Qué caracterización del pacto es la más precisa y qué error hay que reenseñar?",
+    "options": [
+      "Partido único obligatorio, confundiendo pacto bipolar con unipartidismo, aunque parezca un trámite equitativo o suficiente.",
+      "Alternancia y paridad liberal–conservador, y reenseñar que no eliminó elecciones ni instauró un gobierno militar permanente.",
+      "Gobierno militar permanente como definición del período, aunque se presente como solución rápida en la reunión.",
+      "Supresión completa de elecciones presidenciales, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Frente Nacional pactó alternancia presidencial y reparto paritario entre liberal y conservador. No fue partido único ni dictadura militar permanente.",
+    "normativeJustification": "El Frente Nacional pactó alternancia presidencial y reparto paritario entre liberal y conservador. No fue partido único ni dictadura militar permanente.",
+    "theoreticalJustification": "El Frente Nacional pactó alternancia presidencial y reparto paritario entre liberal y conservador. No fue partido único ni dictadura militar permanente.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1115,
+    "id": "dir-apt-dis-367",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Al resumir el Acuerdo de 2016 (Gobierno–FARC-EP), un equipo escribe “se acabó el Congreso y los partidos”. Otro menciona reforma rural, participación política, dejación de armas y justicia transicional (JEP). Se pide contenidos del acuerdo, no caricatura institucional.",
+    "stem": "¿Qué síntesis evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "La eliminación del sistema judicial ordinario como punto central, aunque ahorre tiempo visible de clase o de consejo.",
+      "La disolución de todos los partidos existentes, aunque parezca un trámite equitativo o suficiente.",
+      "Reforma rural, participación, fin del conflicto y JEP, y reenseñar que el acuerdo no disuelve el Estado de derecho.",
+      "La anexión de nuevos territorios al país, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "El Acuerdo de 2016 incluye, entre otros, reforma rural integral, participación política, fin del conflicto (dejación de armas) y justicia transicional (JEP). No elimina el Congreso ni los partidos.",
+    "normativeJustification": "El Acuerdo de 2016 incluye, entre otros, reforma rural integral, participación política, fin del conflicto (dejación de armas) y justicia transicional (JEP). No elimina el Congreso ni los partidos.",
+    "theoreticalJustification": "El Acuerdo de 2016 incluye, entre otros, reforma rural integral, participación política, fin del conflicto (dejación de armas) y justicia transicional (JEP). No elimina el Congreso ni los partidos.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1116,
+    "id": "dir-apt-dis-368",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un esquema pide las tres ramas del poder público según la Constitución. Aparecen: “nacional, departamental y municipal”; “civil, militar y eclesiástica”; y “legislativa, ejecutiva y judicial”. Se pide el criterio de separación de poderes, no el de organización territorial.",
+    "stem": "¿Qué tríada evidencia el aprendizaje esencial y qué confusión hay que reenseñar?",
+    "options": [
+      "Nacional–departamental–municipal (niveles territoriales, no ramas).",
+      "Civil–militar–eclesiástica (órdenes sociales, no ramas constitucionales).",
+      "Central–territorial–descentralizada (formas de administración).",
+      "Legislativa, ejecutiva y judicial, y reenseñar no confundir ramas con niveles territoriales."
+    ],
+    "explanation": "La Constitución de 1991 organiza el poder público en ramas legislativa, ejecutiva y judicial. Los niveles territorial o las órdenes social-religiosas no son esas ramas.",
+    "normativeJustification": "La Constitución de 1991 organiza el poder público en ramas legislativa, ejecutiva y judicial. Los niveles territorial o las órdenes social-religiosas no son esas ramas.",
+    "theoreticalJustification": "La Constitución de 1991 organiza el poder público en ramas legislativa, ejecutiva y judicial. Los niveles territorial o las órdenes social-religiosas no son esas ramas.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1117,
+    "id": "dir-apt-dis-369",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En un caso de vigilancia de recursos públicos, un estudiante asigna la función a la Procuraduría (disciplina de servidores); otro a la Defensoría (derechos humanos); otro a la Contraloría (gestión fiscal). Se pide el organismo de control fiscal, no el disciplinario.",
+    "stem": "¿Qué organismo corresponde a la vigilancia de fondos públicos y qué error hay que reenseñar?",
+    "options": [
+      "La Contraloría General de la República (control fiscal) y reenseñar no confundirla con Procuraduría, Defensoría o Registraduría.",
+      "La Procuraduría, porque “vigila a todo funcionario” en cualquier materia, aunque ahorre tiempo visible de clase o de consejo.",
+      "La Defensoría del Pueblo, porque “defiende el presupuesto de la gente”, aunque parezca un trámite equitativo o suficiente.",
+      "La Registraduría, porque “registra el gasto”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La Contraloría vigila la gestión fiscal y el manejo de recursos públicos. La Procuraduría es disciplinaria; la Defensoría, derechos humanos; la Registraduría, identidad y procesos electorales.",
+    "normativeJustification": "La Contraloría vigila la gestión fiscal y el manejo de recursos públicos. La Procuraduría es disciplinaria; la Defensoría, derechos humanos; la Registraduría, identidad y procesos electorales.",
+    "theoreticalJustification": "La Contraloría vigila la gestión fiscal y el manejo de recursos públicos. La Procuraduría es disciplinaria; la Defensoría, derechos humanos; la Registraduría, identidad y procesos electorales.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1118,
+    "id": "dir-apt-dis-370",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En geografía de Colombia, un equipo nombra el Cauca como “el más largo”; otro el Magdalena, articulando transporte e historia económica; otro el Atrato “porque es el más caudaloso en su relato”. Se pide el río más largo y su papel histórico, no fama local.",
+    "stem": "¿Qué identificación del río más largo de Colombia es la más precisa y qué error conceptual hay que reenseñar?",
+    "options": [
+      "El Cauca como el más largo, por ser afluente conocido y visible en el mapa escolar de la región andina.",
+      "El Magdalena (el más largo y eje histórico de transporte) y reenseñar no sustituirlo por afluentes o ríos regionales.",
+      "El Atrato como el más largo, por relatos de caudal, sin distinguir longitud de otras magnitudes.",
+      "El Meta como el más largo, por la Orinoquía en el mapa escolar, sin comparar trayectos."
+    ],
+    "explanation": "El Magdalena es el río más largo de Colombia y ha sido clave para el transporte y la actividad económica. Cauca, Atrato y Meta no desplazan ese hecho.",
+    "normativeJustification": "El Magdalena es el río más largo de Colombia y ha sido clave para el transporte y la actividad económica. Cauca, Atrato y Meta no desplazan ese hecho.",
+    "theoreticalJustification": "El Magdalena es el río más largo de Colombia y ha sido clave para el transporte y la actividad económica. Cauca, Atrato y Meta no desplazan ese hecho.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1119,
+    "id": "dir-apt-dis-371",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un mapa de límites: un estudiante incluye México y Guatemala; otro Chile y Argentina; otro Panamá, Venezuela, Brasil, Perú y Ecuador. Se pide vecinos con frontera directa, no “América Latina” como bloque.",
+    "stem": "¿Qué conjunto de países evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "México–Guatemala–Costa Rica–Panamá–Venezuela, ampliando Centroamérica sin frontera colombiana.",
+      "Chile–Argentina–Bolivia–Perú–Ecuador, mezclando Cono Sur.",
+      "Panamá, Venezuela, Brasil, Perú y Ecuador, y reenseñar no incluir países sin frontera terrestre con Colombia.",
+      "Perú–Bolivia–Paraguay–Brasil–Venezuela, colando Bolivia y Paraguay."
+    ],
+    "explanation": "Colombia limita con Panamá, Venezuela, Brasil, Perú y Ecuador. México, Chile, Argentina, Bolivia o Paraguay no tienen frontera terrestre con Colombia.",
+    "normativeJustification": "Colombia limita con Panamá, Venezuela, Brasil, Perú y Ecuador. México, Chile, Argentina, Bolivia o Paraguay no tienen frontera terrestre con Colombia.",
+    "theoreticalJustification": "Colombia limita con Panamá, Venezuela, Brasil, Perú y Ecuador. México, Chile, Argentina, Bolivia o Paraguay no tienen frontera terrestre con Colombia.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1120,
+    "id": "dir-apt-dis-372",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Se pregunta qué océano no baña América. Un estudiante descarta el Pacífico y el Atlántico (correcto que sí bañan) pero duda entre Ártico e Índico. Otro marca el Índico. Otro el Ártico “porque queda lejos”.",
+    "stem": "¿Qué océano no tiene costas en América y qué error hay que reenseñar, según el marco y la evidencia del caso?",
+    "options": [
+      "El Pacífico, pese a la costa occidental americana.",
+      "El Atlántico, pese a la costa oriental.",
+      "El Ártico, omitiendo costas en el extremo norte americano.",
+      "El Índico, y reenseñar que Pacífico, Atlántico y Ártico sí tocan el continente americano."
+    ],
+    "explanation": "El océano Índico no tiene costas en América. Pacífico, Atlántico y Ártico sí alcanzan el continente americano.",
+    "normativeJustification": "El océano Índico no tiene costas en América. Pacífico, Atlántico y Ártico sí alcanzan el continente americano.",
+    "theoreticalJustification": "El océano Índico no tiene costas en América. Pacífico, Atlántico y Ártico sí alcanzan el continente americano.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  }
+]

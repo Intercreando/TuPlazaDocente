@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1131,
+    "id": "dir-apt-ped-383",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Estudiantes condenan el pasado solo con valores de hoy. Empatía histórica: comprender decisiones en el contexto de la época, sin anacronismo ni “simpatía automática” ni ausencia de crítica.",
+    "stem": "Desarrollar empatía histórica implica principalmente ayudar a. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Juzgar el pasado exclusivamente con los estándares actuales.",
+      "Sentir simpatía automática por todos los personajes históricos.",
+      "Comprender decisiones y acciones del pasado en el contexto de su época.",
+      "Evitar cualquier análisis crítico de las acciones de personajes históricos."
+    ],
+    "explanation": "La empatía histórica busca comprender el pasado desde su propio contexto, evitando el anacronismo de juzgarlo únicamente con estándares actuales.",
+    "normativeJustification": "La empatía histórica busca comprender el pasado desde su propio contexto, evitando el anacronismo de juzgarlo únicamente con estándares actuales.",
+    "theoreticalJustification": "La empatía histórica busca comprender el pasado desde su propio contexto, evitando el anacronismo de juzgarlo únicamente con estándares actuales.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1132,
+    "id": "dir-apt-ped-384",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "La “geografía” es copiar mapas o memorizar coordenadas. Alfabetización cartográfica: leer, interpretar y elaborar mapas (escala, simbología, coordenadas).",
+    "stem": "La alfabetización cartográfica implica principalmente que el estudiante:",
+    "options": [
+      "Recite las coordenadas de todos los países.",
+      "Evite el uso de mapas durante el aprendizaje.",
+      "Dibuje solo a mano alzada, sin referencia de escala ni simbología.",
+      "Pueda leer, interpretar y elaborar mapas, comprendiendo escala, simbología y coordenadas."
+    ],
+    "explanation": "La alfabetización cartográfica implica el desarrollo de habilidades para leer, interpretar y elaborar representaciones cartográficas de manera comprensiva.",
+    "normativeJustification": "La alfabetización cartográfica implica el desarrollo de habilidades para leer, interpretar y elaborar representaciones cartográficas de manera comprensiva.",
+    "theoreticalJustification": "La alfabetización cartográfica implica el desarrollo de habilidades para leer, interpretar y elaborar representaciones cartográficas de manera comprensiva.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1133,
+    "id": "dir-apt-ped-385",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Piden listas de ríos sin relacionarlos con población o escalas. Pensamiento espacial: relaciones y distribución de fenómenos en el espacio, y escalas de análisis.",
+    "stem": "El pensamiento espacial en geografía busca principalmente que el estudiante:",
+    "options": [
+      "Comprenda relaciones entre fenómenos y su distribución espacial, y las escalas de análisis.",
+      "Recite nombres de accidentes geográficos, sin análisis.",
+      "Evite relacionar geografía física y humana.",
+      "Se limite a copiar mapas ya elaborados, sin análisis propio."
+    ],
+    "explanation": "El pensamiento espacial busca comprender las relaciones y distribuciones espaciales de los fenómenos estudiados, no solo memorizar datos geográficos aislados.",
+    "normativeJustification": "El pensamiento espacial busca comprender las relaciones y distribuciones espaciales de los fenómenos estudiados, no solo memorizar datos geográficos aislados.",
+    "theoreticalJustification": "El pensamiento espacial busca comprender las relaciones y distribuciones espaciales de los fenómenos estudiados, no solo memorizar datos geográficos aislados.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1134,
+    "id": "dir-apt-ped-386",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Ciudadanas se reduce a copiar la Constitución o a imponer una militancia. El MEN busca habilidades cognitivas, emocionales y comunicativas para participar en una sociedad democrática.",
+    "stem": "En este reduccionismo de la clase, ¿qué buscan principalmente desarrollar las competencias ciudadanas del MEN?",
+    "options": [
+      "Solo conocimientos teóricos sobre instituciones, sin práctica de participación ni dilemas del entorno.",
+      "Habilidades cognitivas, emocionales y comunicativas para participar de forma constructiva en una sociedad democrática.",
+      "Una postura política específica obligatoria para todo el grupo, como si el área formara militancia.",
+      "Únicamente la recitación de artículos de la Constitución Política, sin habilidades de participación."
+    ],
+    "explanation": "Las competencias ciudadanas buscan integrar conocimientos, habilidades cognitivas, emocionales y comunicativas para la participación democrática.",
+    "normativeJustification": "Las competencias ciudadanas buscan integrar conocimientos, habilidades cognitivas, emocionales y comunicativas para la participación democrática.",
+    "theoreticalJustification": "Las competencias ciudadanas buscan integrar conocimientos, habilidades cognitivas, emocionales y comunicativas para la participación democrática.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1135,
+    "id": "dir-apt-ped-387",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Hay un conflicto social en noticias. Un docente evita el tema; otro impone su opinión. La recomendación es presentar perspectivas fundamentadas y análisis crítico, sin que “el más fuerte” imponga la tesis.",
+    "stem": "Al enseñar un tema controvertido, ¿qué recomendación didáctica es la más defendible?",
+    "options": [
+      "Evitar por completo cualquier tema que genere controversia, aunque se presente como solución rápida en la reunión.",
+      "Imponer la opinión del docente como la única válida, aunque parezca un trámite equitativo o suficiente.",
+      "Presentar distintas perspectivas fundamentadas, fomentando análisis crítico sin imponer una sola postura.",
+      "Permitir que quien habla más fuerte imponga su postura al grupo, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La enseñanza de temas controvertidos recomienda presentar distintas perspectivas fundamentadas, promoviendo el análisis crítico sin imposición de una única postura.",
+    "normativeJustification": "La enseñanza de temas controvertidos recomienda presentar distintas perspectivas fundamentadas, promoviendo el análisis crítico sin imposición de una única postura.",
+    "theoreticalJustification": "La enseñanza de temas controvertidos recomienda presentar distintas perspectivas fundamentadas, promoviendo el análisis crítico sin imposición de una única postura.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1136,
+    "id": "dir-apt-ped-388",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En sociales, un “caso” es recitar definiciones. El estudio de caso analiza en profundidad una situación real o realista para decidir con evidencia, no un quiz secreto ni un promedio vacío.",
+    "stem": "En esta clase, ¿en qué consiste principalmente el método de estudio de caso aplicado a las ciencias sociales?",
+    "options": [
+      "Recitar conceptos de la unidad sin un ejemplo concreto ni decisión fundada en evidencia.",
+      "Aplicar exclusivamente pruebas estandarizadas de selección múltiple, sin análisis de una situación.",
+      "Evitar el análisis de situaciones reales del entorno, para no “salirse del temario”.",
+      "Analizar en profundidad una situación real o realista para desarrollar análisis y toma de decisiones."
+    ],
+    "explanation": "El estudio de caso permite analizar situaciones reales o realistas en profundidad, desarrollando habilidades de análisis aplicadas a los contenidos del área.",
+    "normativeJustification": "El estudio de caso permite analizar situaciones reales o realistas en profundidad, desarrollando habilidades de análisis aplicadas a los contenidos del área.",
+    "theoreticalJustification": "El estudio de caso permite analizar situaciones reales o realistas en profundidad, desarrollando habilidades de análisis aplicadas a los contenidos del área.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1137,
+    "id": "dir-apt-ped-389",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Estudiantes investigan un problema real del barrio y proponen acciones. Es ABP aplicado a lo social, no un quiz memorístico ni un tema desconectado de la comunidad.",
+    "stem": "Un proyecto que investiga y propone soluciones a una problemática social real de la comunidad es un ejemplo de:",
+    "options": [
+      "Aprendizaje basado en problemas aplicado a las ciencias sociales.",
+      "Evaluación exclusivamente memorística de contenidos teóricos.",
+      "Un enfoque que evita cualquier vínculo con la realidad social del estudiante.",
+      "Una actividad sin relación con las competencias ciudadanas."
+    ],
+    "explanation": "Este tipo de proyecto es un ejemplo de aprendizaje basado en problemas, aplicado a una problemática social real y cercana a los estudiantes.",
+    "normativeJustification": "Este tipo de proyecto es un ejemplo de aprendizaje basado en problemas, aplicado a una problemática social real y cercana a los estudiantes.",
+    "theoreticalJustification": "Este tipo de proyecto es un ejemplo de aprendizaje basado en problemas, aplicado a una problemática social real y cercana a los estudiantes.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1138,
+    "id": "dir-apt-ped-390",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un “debate” es hablar más fuerte, sin tiempos ni evidencia. El debate estructurado fija roles, tiempos y reglas, y exige argumentar con evidencia.",
+    "stem": "¿Qué caracteriza principalmente al debate estructurado en ciencias sociales?",
+    "options": [
+      "Hablar sin orden ni tiempo definido, aunque ahorre tiempo visible de clase o de consejo.",
+      "Establecer roles, tiempos y reglas claras, exigiendo argumentar las posturas con evidencia.",
+      "Evaluar quién habla más fuerte, aunque parezca un trámite equitativo o suficiente.",
+      "Prescindir de cualquier preparación previa, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "El debate estructurado organiza la participación mediante roles, tiempos y reglas claras, exigiendo argumentación basada en evidencia.",
+    "normativeJustification": "El debate estructurado organiza la participación mediante roles, tiempos y reglas claras, exigiendo argumentación basada en evidencia.",
+    "theoreticalJustification": "El debate estructurado organiza la participación mediante roles, tiempos y reglas claras, exigiendo argumentación basada en evidencia.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1139,
+    "id": "dir-apt-ped-391",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Simulan un juicio o una sesión legislativa. El propósito es comprender instituciones o procesos al asumir roles, no memorizar un guion ni reemplazar toda evaluación del período.",
+    "stem": "La simulación de un juicio o sesión legislativa busca principalmente que los estudiantes:",
+    "options": [
+      "Memoricen un guion sin comprender el contenido.",
+      "Eviten el análisis crítico del proceso representado.",
+      "Comprendan de forma vivencial instituciones o procesos, asumiendo roles y perspectivas.",
+      "Reemplacen por completo cualquier otra evaluación del período."
+    ],
+    "explanation": "Este tipo de simulación busca una comprensión vivencial de instituciones o procesos, a través de la asunción de distintos roles y perspectivas.",
+    "normativeJustification": "Este tipo de simulación busca una comprensión vivencial de instituciones o procesos, a través de la asunción de distintos roles y perspectivas.",
+    "theoreticalJustification": "Este tipo de simulación busca una comprensión vivencial de instituciones o procesos, a través de la asunción de distintos roles y perspectivas.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1140,
+    "id": "dir-apt-ped-392",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Una caricatura política se usa para “describir rayas” o memorizar al autor. El recurso sirve para interpretar mensajes, símbolos y posturas de forma sintética.",
+    "stem": "El uso didáctico de caricaturas políticas permite principalmente que los estudiantes:",
+    "options": [
+      "Memoricen la biografía completa del caricaturista, aunque ahorre tiempo visible de clase o de consejo.",
+      "Eviten analizar el contexto histórico o político, aunque se presente como solución rápida en la reunión.",
+      "Se limiten a describir elementos visuales, sin interpretación, aunque se presente como solución rápida en la reunión.",
+      "Desarrollen análisis crítico al interpretar mensajes, símbolos y posturas expresados de forma sintética."
+    ],
+    "explanation": "Las caricaturas políticas son un recurso valioso para desarrollar habilidades de análisis crítico e interpretación de mensajes y posturas de forma sintética.",
+    "normativeJustification": "Las caricaturas políticas son un recurso valioso para desarrollar habilidades de análisis crítico e interpretación de mensajes y posturas de forma sintética.",
+    "theoreticalJustification": "Las caricaturas políticas son un recurso valioso para desarrollar habilidades de análisis crítico e interpretación de mensajes y posturas de forma sintética.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

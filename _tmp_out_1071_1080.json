@@ -1,0 +1,172 @@
+[
+  {
+    "id": "dir-apt-num-323",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen que el PMI y el acta conserven las fechas del caso y la operación pedida. No se sustituye 1819 − 1810 por un tramo de 7, por 8 exclusivo ni por la década inclusiva de 10.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Entre 1810 y 1819 la diferencia es 1819 − 1810 = 9 años. Esa es la cifra del acta del proceso independentista para el PMI y el SIMAT. El 7 descuenta dos años de otra base; el 8 excluye un extremo; el 10 suma ambos extremos como década del tablero. Ninguna conserva la resta 1819 − 1810 sobre las fechas del caso.",
+    "theoreticalJustification": "La diferencia de años es minuendo menos sustraendo: 1819 − 1810 = 9. El 7 cambia la base; 8 = 1819 − 1810 − 1; 10 = 1819 − 1810 + 1. Ninguna es la resta del caso.",
+    "options": [
+      "Reportar 7 años en el PMI, restando 1819 menos 1810 y descontando dos años de la Patria Boba como tramo que no entra al informe, porque deja un intervalo cauto comparable con el histórico de efemérides.",
+      "Consignar 8 años en el acta de calidad, usando 1819 − 1810 − 1 (conteo exclusivo de un extremo), como insiste el segundo docente, para no tensionar el informe del proceso independentista ante Secretaría.",
+      "Consignar 9 años en el acta institucional: 1819 − 1810 = 9 años entre la gesta de 1810 y Boyacá, cifra del comité de calidad, sin conteo inclusivo ni otra base de efemérides que pide Secretaría.",
+      "Registrar 10 años en el tablero PMI, sumando 1819 − 1810 + 1 (conteo inclusivo de ambos extremos), para que el tramo independentista luzca alineado con la década de calidad de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa de otra base (Patria Boba): 7 años descuenta dos del intervalo 1819 − 1810. Conserva un recuento cercano de efemérides, pero no es la diferencia de 9 años del acta.",
+      "1": "Trampa del conteo exclusivo: 8 = 1819 − 1810 − 1, como insiste el segundo docente. Excluye un extremo del proceso independentista. No conserva 9 años.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 10 = 1819 − 1810 + 1 (inclusivo) o década de calidad. Es un indicador plausible para Secretaría. No es 9 años."
+    }
+  },
+  {
+    "id": "dir-apt-num-324",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen reportar la matrícula real del curso y la tarea pedida. El PMI no puede recortar a 30, usar 36 ni inflar a 38 en el SIMAT como si fueran 40 × 5.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Cuarenta estudiantes ubican 5 países cada uno: 40 × 5 = 200 ubicaciones. Esa es la cifra del acta del mapa de ciencias sociales. El 150 omite 10 estudiantes (30 × 5); el 180 usa 36 × 5; el 190 toma 38 × 5 del cupo SIMAT. Ninguna conserva 40 × 5 sobre el curso del caso.",
+    "theoreticalJustification": "Total = estudiantes × países. 40 × 5 = 200. 30 × 5 = 150; 36 × 5 = 180; 38 × 5 = 190 cambian n o el factor. Ninguna es 200 ubicaciones.",
+    "options": [
+      "Reportar 150 ubicaciones en el PMI, tomando 30 estudiantes × 5 países (omite 10 del curso de 40), como propone el docente, porque deja un recuento cauto comparable con el histórico de mapas.",
+      "Consignar 180 ubicaciones en el acta de calidad, usando 36 × 5 o 40 × 4,5, como insiste el segundo docente, para no tensionar el informe de países en el mapa de ciencias sociales ante Secretaría.",
+      "Registrar 190 ubicaciones en el cupo SIMAT, tomando 38 × 5 como matrícula holgada de mapas, para que el indicador de ubicaciones luzca alineado con la calidad de Secretaría.",
+      "Consignar 200 ubicaciones en el acta institucional: 40 estudiantes × 5 países = 200, cifra del comité de calidad, sin recortar el curso ni cambiar los 5 países que pide Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa de omitir 10 estudiantes: 150 = 30 × 5, como propone el docente. Recorta el curso de 40 del caso. No es 40 × 5 = 200 ubicaciones en el mapa.",
+      "1": "Trampa de 36 × 5 o 40 × 4,5: 180, como insiste el segundo docente. Cambia la matrícula o el número de países. No conserva 200 ubicaciones.",
+      "2": "Trampa de dominio cruzado del cupo SIMAT: 190 = 38 × 5. Es una matrícula holgada plausible de mapas. Infla o recorta el 40 y no es 200."
+    }
+  },
+  {
+    "id": "dir-apt-num-325",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen conservar los porcentajes del caso. El PMI no puede redondear 4,5% a 5% o a 4% ni sustituir el incremento real por una meta de 2,5%.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El incremento real aproximado resta la inflación al ajuste: 6% − 4,5% = 1,5%. Esa es la cifra del acta salarial para el PMI y el SIMAT. El 1,0% redondea la inflación a 5%; el 2,0% la baja a 4%; el 2,5% es meta del tablero. Ninguna conserva 6% − 4,5% sobre los datos del caso.",
+    "theoreticalJustification": "Incremento real aproximado = ajuste − inflación. 6% − 4,5% = 1,5%. 6% − 5% = 1%; 6% − 4% = 2%; 2,5% es otra alícuota. Ninguna es 1,5%.",
+    "options": [
+      "Consignar 1.5% de incremento real en el acta institucional: 6% − 4,5% = 1,5%, cifra del comité de calidad, sin redondear la inflación ni cambiar el 6% de ajuste salarial que pide Secretaría.",
+      "Reportar 1.0% en el PMI, redondeando la inflación de 4,5% a 5% y restando 6% − 5%, como propone el docente, porque deja un incremento real cauto comparable con el histórico salarial.",
+      "Consignar 2.0% en el acta de calidad, redondeando la inflación a 4% (6% − 4%), como insiste el segundo docente, para no tensionar el informe de poder adquisitivo ante Secretaría.",
+      "Registrar 2.5% en el tablero PMI, tomando una meta de incremento real de calidad, para que el ajuste del salario mínimo luzca alineado con el compromiso de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "1": "Trampa de redondear la inflación a 5%: 1,0% = 6% − 5%, como propone el docente. Cambia el 4,5% del caso. No es 6% − 4,5% = 1,5% de incremento real.",
+      "2": "Trampa de redondear la inflación a 4%: 2,0% = 6% − 4%, como insiste el segundo docente. Baja la inflación y agranda el incremento. No conserva 1,5%.",
+      "3": "Trampa de dominio cruzado de la meta PMI: 2,5% es un techo plausible de poder adquisitivo para Secretaría. Sustituye 6% − 4,5% y no es 1,5%."
+    }
+  },
+  {
+    "id": "dir-apt-num-326",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen reportar los 24 eventos y los 4 períodos del caso. El PMI no puede recortar a 20, inflar a 28 ni usar 3 trimestres como si 24 ÷ 4 fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Veinticuatro eventos en 4 períodos iguales son 24 ÷ 4 = 6 eventos por período. Esa es la cifra del acta de la línea del tiempo. El 5 omite 4 hitos (20 ÷ 4); el 7 infla a 28 ÷ 4; el 8 divide 24 entre 3 trimestres del tablero. Ninguna conserva 24 ÷ 4 sobre los períodos del caso.",
+    "theoreticalJustification": "Eventos por período = total ÷ períodos. 24 ÷ 4 = 6. 20 ÷ 4 = 5; 28 ÷ 4 = 7; 24 ÷ 3 = 8 cambian el numerador o el divisor. Ninguna es 6.",
+    "options": [
+      "Reportar 5 eventos por período en el PMI, tomando 20 ÷ 4 al omitir 4 hitos de la línea del tiempo, como propone el docente, porque deja un recuento cauto comparable con el histórico de sociales.",
+      "Consignar 6 eventos por período en el acta institucional: 24 hitos ÷ 4 períodos = 6, cifra del comité de calidad, sin recortar la línea ni cambiar los 4 tramos que pide Secretaría.",
+      "Consignar 7 eventos por período en el acta de calidad, usando 28 ÷ 4 al inflar 4 hitos, como insiste el segundo docente, para no tensionar el informe de la línea del tiempo ante Secretaría.",
+      "Registrar 8 eventos por período en el tablero de calidad, tomando 24 ÷ 3 como si hubiera tres trimestres, para que la línea del tiempo luzca alineada con la meta de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa de omitir 4 hitos: 5 = 20 ÷ 4, como propone el docente. Recorta los 24 eventos de la línea del tiempo. No es 24 ÷ 4 = 6 eventos por período.",
+      "2": "Trampa de inflar 4 hitos: 7 = 28 ÷ 4, como insiste el segundo docente. Cambia el total de 24. No conserva 6 eventos por período.",
+      "3": "Trampa de dominio cruzado del tablero de calidad: 8 = 24 ÷ 3 (tres trimestres). Es un recuento plausible de calendario. Sustituye 4 períodos y no es 6."
+    }
+  },
+  {
+    "id": "dir-apt-num-327",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen reportar la encuesta real: 200 estudiantes y 35%. El PMI no puede usar 30%, 32,5% ni una meta de 75 votos como si fueran 70.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 35% de 200 estudiantes es 200 × 0,35 = 70 votos de personero. Esa es la cifra del acta de gobierno escolar. El 60 toma el 30%; el 65 usa 0,325; el 75 toma 0,375 o la meta del tablero. Ninguna conserva 200 × 0,35 sobre la encuesta del caso.",
+    "theoreticalJustification": "Votos = n × proporción. 200 × 0,35 = 70. 200 × 0,30 = 60; 200 × 0,325 = 65; 200 × 0,375 = 75 cambian la alícuota. Ninguna es 70.",
+    "options": [
+      "Reportar 60 votos de personero en el PMI, tomando 200 × 0,30 (30% redondo), como propone el docente, porque deja una participación cauta comparable con el histórico de gobierno escolar.",
+      "Consignar 65 votos en el acta de calidad, usando 200 × 0,325 (punto medio entre 30% y 35%), como insiste el segundo docente, para no tensionar el informe de la elección de personero ante Secretaría.",
+      "Consignar 70 estudiantes que votaron personero en el acta institucional: 200 × 0,35 = 70, cifra del comité de calidad, sin redondear el 35% ni cambiar la base de 200 que pide Secretaría.",
+      "Registrar 75 votos en el tablero PMI, tomando 200 × 0,375 o una meta de participación, para que la elección de personero luzca alineada con la calidad de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa del 30% redondo: 60 = 200 × 0,30, como propone el docente. Sustituye el 35% de la encuesta. No es 200 × 0,35 = 70 estudiantes que votaron personero.",
+      "1": "Trampa del punto medio 32,5%: 65 = 200 × 0,325, como insiste el segundo docente. Promedia 30% y 35%. No conserva 70 votos.",
+      "3": "Trampa de dominio cruzado de la meta PMI: 75 = 200 × 0,375 o techo de participación. Es un indicador plausible de gobierno escolar. Infla el 35% y no es 70."
+    }
+  },
+  {
+    "id": "dir-apt-num-328",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen conservar la superficie de 1140000 km2 y el 12% protegido. El PMI no puede usar 900000, un millón redondo ni 10% de 1280000.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 12% de 1140000 km2 es 1140000 × 0,12 = 136800. Esa es la cifra del acta de áreas protegidas. El 108000 usa 900000 × 0,12; el 120000 usa un millón × 0,12; el 128000 toma 10% de 1280000 en el tablero. Ninguna conserva 1140000 × 0,12 sobre la superficie del caso.",
+    "theoreticalJustification": "Área = superficie × 0,12. 1140000 × 0,12 = 136800. 900000 × 0,12 = 108000; 1000000 × 0,12 = 120000; 1280000 × 0,10 = 128000 cambian base o alícuota.",
+    "options": [
+      "Reportar 108.000 km2 en el PMI, tomando 900000 × 0,12 (otra superficie), como propone el docente, porque deja un área protegida cauta comparable con el histórico ambiental de la IE.",
+      "Consignar 120.000 km2 en el acta de calidad, usando 1000000 × 0,12 (base millón redonda), como insiste el segundo docente, para no tensionar el informe de áreas protegidas ante Secretaría.",
+      "Registrar 128.000 km2 en el tablero de calidad, tomando 1280000 × 0,10 (cambia superficie y pasa el 12% a 10%), para que el indicador ambiental luzca alineado con la meta de Secretaría.",
+      "Consignar 136.800 km2 de áreas protegidas en el acta institucional: 1140000 × 0,12 = 136.800, cifra del comité de calidad, sin redondear el 12% ni cambiar la superficie de 1140000 km2."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa de otra superficie: 108.000 = 900000 × 0,12, como propone el docente. Recorta los 1140000 km2 del caso. No es 1140000 × 0,12 = 136800 km2 protegidos.",
+      "1": "Trampa de la base millón: 120.000 = 1000000 × 0,12, como insiste el segundo docente. Redondea la superficie. No conserva 136800 km2.",
+      "2": "Trampa de dominio cruzado del tablero de calidad: 128.000 = 1280000 × 0,10. Es un indicador ambiental plausible. Cambia superficie y 12% y no es 136800."
+    }
+  },
+  {
+    "id": "dir-apt-num-329",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen reportar los 36 mapas y los 4 minutos reales. El PMI no puede recortar a 33, inflar a 39 ni usar un aforo de 42 como si fueran 144 minutos.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Treinta y seis mapas a 4 minutos son 36 × 4 = 144 minutos, es decir 2 h y 24 min. Esa es la cifra del acta de revisión de la Constitución de 1991. El 2 h 12 min omite 3 mapas (33 × 4); el 2 h 36 min infla a 39 × 4; el 2 h 48 min toma 42 × 4 del tablero. Ninguna conserva 36 × 4 = 144 minutos.",
+    "theoreticalJustification": "Tiempo = mapas × minutos. 36 × 4 = 144 min = 2 h 24 min. 33 × 4 = 132; 39 × 4 = 156; 42 × 4 = 168 cambian n. Ninguna es 144.",
+    "options": [
+      "Consignar 2h 24min en el acta institucional: 36 mapas × 4 min = 144 min (2 h y 24 min), cifra del comité de calidad, sin recortar mapas ni cambiar los 4 minutos que pide Secretaría.",
+      "Reportar 2h 12min en el PMI, tomando 33 × 4 = 132 min (omite 3 mapas conceptuales), como propone el docente, porque deja un tiempo cauto comparable con el histórico de revisión.",
+      "Consignar 2h 36min en el acta de calidad, usando 39 × 4 = 156 min (infla 3 mapas), como insiste el segundo docente, para no tensionar el informe de la Constitución de 1991 ante Secretaría.",
+      "Registrar 2h 48min en el tablero de calidad, tomando 42 × 4 = 168 min como aforo holgado de revisión, para que los mapas de 1991 luzcan alineados con la meta de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "1": "Trampa de omitir 3 mapas: 2h 12min = 132 min = 33 × 4, como propone el docente. Recorta los 36 mapas conceptuales. No es 36 × 4 = 144 min (2h 24min).",
+      "2": "Trampa de inflar 3 mapas: 2h 36min = 156 min = 39 × 4, como insiste el segundo docente. Cambia el lote de 36. No conserva 2h 24min.",
+      "3": "Trampa de dominio cruzado del tablero de calidad: 2h 48min = 168 min = 42 × 4. Es un aforo holgado plausible de revisión. Infla los 36 mapas y no es 2h 24min."
+    }
+  },
+  {
+    "id": "dir-apt-num-330",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen el porcentaje de crecimiento sobre la población inicial. El PMI no puede usar la base final de 1500000, un 3% anual × 10 ni una meta de 35%.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El incremento es 1500000 − 1200000 = 300000 y 300000 / 1200000 = 0,25 = 25%. Esa es la cifra del acta de la gráfica poblacional. El 20% divide 300000 entre la base final 1500000; el 30% usa 10 × 3% o otra base; el 35% es meta del tablero. Ninguna conserva 300000 sobre 1200000.",
+    "theoreticalJustification": "Variación relativa = (final − inicial) / inicial. (1500000 − 1200000) / 1200000 = 25%. 300000 / 1500000 = 20%; 10 × 3% = 30%; 35% es otra alícuota.",
+    "options": [
+      "Reportar 20% en el PMI, tomando 300000 / 1500000 (base final en vez de la inicial de 1200000), como propone el docente, porque deja un crecimiento cauto comparable con el histórico poblacional.",
+      "Consignar 25% de crecimiento en el acta institucional: (1500000 − 1200000) / 1200000 = 25%, cifra del comité de calidad, sin cambiar la base inicial de 1200000 que pide Secretaría.",
+      "Consignar 30% en el acta de calidad, usando 10 años × 3% anual simple o 300000 / 1000000, como insiste el segundo docente, para no tensionar el informe de la gráfica poblacional ante Secretaría.",
+      "Registrar 35% en el tablero PMI, tomando una meta de expansión urbana, para que el paso de 1200000 a 1500000 luzca alineado con la calidad de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa de la base final: 20% = 300000 / 1500000, como propone el docente. Cambia el denominador de 1200000 a 1500000. No es (1500000 − 1200000) / 1200000 = 25%.",
+      "2": "Trampa del 3% anual × 10 años: 30%, como insiste el segundo docente. Sustituye la variación relativa por un interés simple. No conserva 25%.",
+      "3": "Trampa de dominio cruzado de la meta PMI: 35% es un techo plausible de expansión urbana para Secretaría. Sustituye 300000 / 1200000 y no es 25%."
+    }
+  },
+  {
+    "id": "dir-apt-num-331",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen reportar las 15 preguntas y el 60% acertado. El PMI no puede usar 50% a la baja, un 53% ni una meta de 10 aciertos como si fueran 9.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 60% de 15 preguntas es 15 × 0,60 = 9 preguntas correctas. Esa es la cifra del acta del taller de fuentes históricas. El 7 toma cerca del 50% a la baja; el 8 redondea otra alícuota; el 10 usa dos tercios o la meta del tablero. Ninguna conserva 15 × 0,60 sobre las preguntas del caso.",
+    "theoreticalJustification": "Aciertos = ítems × proporción. 15 × 0,60 = 9. 15 × 0,50 ≈ 7; 15 × 0,53 ≈ 8; 15 × 2/3 = 10 cambian la alícuota. Ninguna es 9 preguntas.",
+    "options": [
+      "Reportar 7 aciertos en el PMI, tomando 15 × 0,50 y bajando al entero (omite el 60% del taller), como propone el docente, porque deja un recuento cauto comparable con el histórico de fuentes.",
+      "Consignar 8 aciertos en el acta de calidad, usando 15 × 0,53 o el 50% redondeado hacia arriba, como insiste el segundo docente, para no tensionar el informe del taller de fuentes históricas ante Secretaría.",
+      "Consignar 9 preguntas correctas en el acta institucional: 15 × 0,60 = 9, cifra del comité de calidad, sin redondear el 60% ni cambiar las 15 preguntas que pide Secretaría.",
+      "Registrar 10 aciertos en el tablero de calidad, tomando dos tercios de 15 o una meta de 10 sobre 15, para que el taller de fuentes luzca alineado con el compromiso de Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa del 50% a la baja: 7 ≈ 15 × 0,50, como propone el docente. Omite el 60% del taller de fuentes. No es 15 × 0,60 = 9 preguntas correctas.",
+      "1": "Trampa del 50% hacia arriba o 0,53: 8, como insiste el segundo docente. Cambia la alícuota del 60%. No conserva 9 preguntas.",
+      "3": "Trampa de dominio cruzado del tablero de calidad: 10 = dos tercios de 15 o meta 10/15. Es un umbral plausible de desempeño. Sustituye el 60% y no es 9."
+    }
+  },
+  {
+    "id": "dir-apt-num-332",
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen conservar el PIB de 280 billones y el 7% agropecuario. El PMI no puede usar 5%, 6% ni 6,5% como si el sector fueran 19,6 billones.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 7% de 280 billones es 280 × 0,07 = 19,6 billones. Esa es la cifra del acta del PIB agropecuario. Los 14 billones toman el 5%; los 16,8 toman el 6%; los 18,2 toman 6,5% del tablero. Ninguna conserva 280 × 0,07 sobre el PIB del caso.",
+    "theoreticalJustification": "Valor sectorial = PIB × 0,07. 280 × 0,07 = 19,6. 280 × 0,05 = 14; 280 × 0,06 = 16,8; 280 × 0,065 = 18,2 cambian la alícuota. Ninguna es 19,6.",
+    "options": [
+      "Reportar $14 billones en el PMI, tomando 280 × 0,05 (5% en vez del 7% agropecuario), como propone el docente, porque deja un recuento cauto comparable con el histórico del PIB sectorial.",
+      "Consignar $16.8 billones en el acta de calidad, usando 280 × 0,06 (6% en vez de 7%), como insiste el segundo docente, para no tensionar el informe del sector agropecuario ante Secretaría.",
+      "Registrar $18.2 billones en el tablero PMI, tomando 280 × 0,065 (alícuota 6,5%) como meta de PIB agropecuario, para que el indicador sectorial luzca alineado con la calidad de Secretaría.",
+      "Consignar $19.6 billones en el acta institucional: 280 × 0,07 = 19,6, cifra del comité de calidad, sin redondear el 7% ni cambiar los 280 billones de PIB que pide Secretaría."
+    ],
+    "distractorAnalysis": {
+      "0": "Trampa del 5%: $14 billones = 280 × 0,05, como propone el docente. Sustituye el 7% agropecuario. No es 280 × 0,07 = 19,6 billones del acta.",
+      "1": "Trampa del 6%: $16.8 billones = 280 × 0,06, como insiste el segundo docente. Baja un punto el peso del sector. No conserva 19,6 billones.",
+      "2": "Trampa de dominio cruzado del tablero PMI: $18.2 billones = 280 × 0,065. Es una meta plausible de PIB agropecuario. Cambia el 7% y no es 19,6."
+    }
+  }
+]

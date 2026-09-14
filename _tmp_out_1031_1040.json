@@ -1,0 +1,172 @@
+[
+  {
+    "options": [
+      "Pedir que quien «empieza a operar» sin leer aplique de inmediato el algoritmo más conocido de la unidad, para no perder tiempo de clase y sostener fluidez procedimental visible ante el grupo.",
+      "Abrir de entrada la revisión y la metacognición previstas en el SIEE, exigiendo evidencias de una solución que aún no existe porque el problema matemático ni siquiera se ha comprendido.",
+      "Comprender el problema como primera fase de Polya: identificar datos, condiciones y lo que se pide resolver, antes de diseñar un plan, ejecutarlo y revisar la solución obtenida.",
+      "Comparar de entrada la respuesta con la del compañero como primer paso formativo de coevaluación, y registrar esa coincidencia como evidencia comparable de resolución en el SIEE."
+    ],
+    "explanation": "La condición de calidad pregunta cuál es la primera fase frente a un problema matemático según Polya. Esa fase es comprender: identificar datos, condiciones y lo que se pide resolver, antes de planear, ejecutar y revisar. Aplicar de inmediato un algoritmo conocido sostiene fluidez, pero salta la lectura que el caso exige. Abrir la revisión del SIEE sobre una solución inexistente invierte el ciclo. Comparar con el compañero puede ser coevaluación válida en otro momento, no el primer paso de Polya.",
+    "id": "dir-apt-ped-283",
+    "theoreticalJustification": "Polya ordena comprender, planear, ejecutar y revisar. Saltar a un algoritmo, a la metacognición del SIEE o a la comparación con el compañero cambia el objeto de la primera fase.",
+    "normativeJustification": "Los DBA de matemáticas piden resolver problemas con comprensión previa de datos y pregunta. El SIEE no homologa la coevaluación inicial ni la revisión de una solución inexistente como primera fase de Polya.",
+    "distractorAnalysis": {
+      "0": "Trampa de la fluidez: ejecutar de inmediato el algoritmo conocido parece no perder tiempo de clase. Salta la comprensión de datos y pregunta que Polya sitúa primero frente a quien opera sin leer.",
+      "1": "Trampa de la revisión anticipada: abrir la metacognición del SIEE parece formativo. Pide evidencias de una solución que aún no existe e invierte el ciclo de Polya.",
+      "3": "Trampa de dominio cruzado del SIEE y la coevaluación: comparar con el compañero como primer paso luce formativo y comparable. Es un juicio de pares, no la comprensión de datos y pregunta que Polya pide primero."
+    }
+  },
+  {
+    "options": [
+      "Memorizar las leyes del DBA como alfabetización científica previa a Saber, de modo que el curso reciba conclusiones ya establecidas antes de indagar el fenómeno en el laboratorio.",
+      "Repetir el experimento del texto como laboratorio controlado de calidad, registrar horas de práctica y reportarlas como evidencia comparable del PRAE o del SIEE, sin pregunta propia.",
+      "Recoger datos del fenómeno «sin hipótesis previa» para no sesgar la observación, argumentando que esa cautela garantiza objetividad didáctica en el taller de ciencias.",
+      "Formular preguntas sobre el fenómeno, plantear hipótesis, ponerlas a prueba con un diseño de indagación y analizar los resultados, en lugar de memorizar leyes o copiar el experimento del libro."
+    ],
+    "explanation": "La condición de calidad pregunta qué implica principalmente aplicar el método científico como estrategia didáctica. Los estudiantes formulan preguntas, plantean hipótesis, las ponen a prueba y analizan resultados. Memorizar leyes del DBA para Saber es alfabetización receptiva, no indagación. Repetir el experimento del texto y reportar horas al PRAE o al SIEE documenta laboratorio, no pregunta propia. Recoger datos sin hipótesis pretende objetividad y deja la indagación sin rumbo.",
+    "id": "dir-apt-ped-284",
+    "theoreticalJustification": "El método científico escolar es ciclo de indagación activa. Memorizar, copiar el texto o observar «sin hipótesis» cambian el objeto: de preguntar a reproducir o a positivismo ingenuo.",
+    "normativeJustification": "Los DBA de ciencias piden indagación: pregunta, hipótesis, prueba y análisis. El PRAE y el SIEE no convierten horas de laboratorio ni la memorización de leyes en método científico didáctico.",
+    "distractorAnalysis": {
+      "0": "Trampa de la alfabetización para Saber: memorizar las leyes del DBA parece rigor científico. Entrega conclusiones ya hechas y omite la pregunta, la hipótesis y la prueba que el caso pide.",
+      "1": "Trampa de dominio cruzado del PRAE y el SIEE: repetir el experimento del texto y reportar horas de laboratorio luce como calidad comparable. Documenta práctica, no una pregunta propia ni hipótesis a prueba.",
+      "2": "Trampa del positivismo ingenuo: recoger datos sin hipótesis parece no sesgar la observación. Deja la indagación sin dirección y contradice formular y poner a prueba una conjetura."
+    }
+  },
+  {
+    "options": [
+      "Facilitar en 2° la comprensión de lo abstracto mediante fichas o regletas: manipulación tangible como puente previo al símbolo y al número escrito, no como fin permanente ni como prueba motriz.",
+      "Mantener las fichas y regletas como evidencia DUA de todo el período, sin transitar al número escrito, para que el material concreto «siga siendo accesible» y no se fuerce el símbolo en 2°.",
+      "Reservar el material concreto a educación inicial por considerarlo «apropiado a la etapa», y en 2° saltar ya a la ecuación escrita como señal de rigor de los DBA de matemáticas.",
+      "Calificar la destreza de manipular fichas y regletas como desempeño motriz comparable en el SIEE, homologando agilidad de manos con comprensión del valor numérico en 2°."
+    ],
+    "explanation": "La condición de calidad pregunta el propósito principal del material concreto en la enseñanza inicial de las matemáticas. En 2°, fichas o regletas sirven de puente tangible hacia el símbolo, no de reemplazo eterno ni de prueba motriz. Conservarlas como evidencia DUA de todo el período impide transitar al número escrito. Reservar el concreto a educación inicial y saltar a la ecuación en 2° niega el puente que el caso pide. Calificar la manipulación en el SIEE confunde destreza de manos con comprensión matemática.",
+    "id": "dir-apt-ped-285",
+    "theoreticalJustification": "El material concreto media lo abstracto y luego cede paso al símbolo. Fijarlo como evidencia DUA, reservarlo a inicial o calificar la mano cambia el propósito del puente.",
+    "normativeJustification": "Los DBA de matemáticas y el DUA piden múltiples representaciones que transiten de lo concreto al símbolo. El SIEE no homologa la destreza motriz de las fichas como comprensión numérica de 2°.",
+    "distractorAnalysis": {
+      "1": "Trampa del DUA mal leído: conservar fichas todo el período parece accesibilidad permanente. Impide el tránsito al número escrito que el caso pide como puente, no como reemplazo eterno.",
+      "2": "Trampa de la etapa: reservar el concreto a educación inicial parece respeto al desarrollo. En 2° niega el puente hacia el símbolo y empuja a saltar a la ecuación.",
+      "3": "Trampa de dominio cruzado del SIEE motriz: calificar la agilidad con fichas luce como desempeño comparable. Homologa la mano con la comprensión matemática que el material concreto debe facilitar."
+    }
+  },
+  {
+    "options": [
+      "Apoyar el orden del aula en la amonestación visible como límite consistente del manual de convivencia (Ley 1620), para que el registro público sostenga la conducta del grupo por temor al llamado de atención.",
+      "Combinar firmeza y amabilidad, de modo que el estudiante comprenda consecuencias previsibles y desarrolle autorregulación, en lugar de sostener el orden por amonestación visible o por miedo.",
+      "Dejar la autoevaluación de conducta como trámite de caritas al cierre, sin acuerdos de aula, argumentando que el gesto socioemocional ya documenta convivencia en el período.",
+      "Sustituir las normas de aula por un examen de «comportamiento» y reportar esa nota como evidencia comparable de convivencia en el SIEE, alineada a un desempeño homogéneo del grupo."
+    ],
+    "explanation": "La condición de calidad pregunta qué caracteriza principalmente a la disciplina positiva como enfoque de convivencia en el aula. Combina firmeza y amabilidad para que el estudiante comprenda consecuencias y desarrolle autorregulación. La amonestación visible del manual 1620 puede marcar un límite, pero sostiene el orden por temor, no por autogobierno. El trámite de caritas documenta un gesto socioemocional sin acuerdos. El examen de comportamiento del SIEE convierte la convivencia en nota comparable, no en disciplina positiva.",
+    "id": "dir-apt-ped-286",
+    "theoreticalJustification": "La disciplina positiva articula firmeza y amabilidad con consecuencias comprensibles. Castigo visible, trámite de caritas o nota de comportamiento cambian el objeto: de autorregularse a temer, a gesticular o a calificar.",
+    "normativeJustification": "La Ley 1620 y el manual de convivencia piden formación de ciudadanía y autorregulación, no el orden por miedo. El SIEE no convierte un examen de conducta ni las caritas en disciplina positiva.",
+    "distractorAnalysis": {
+      "0": "Trampa del límite visible: la amonestación del manual 1620 parece consistencia institucional. Sostiene el orden por temor al registro y no enseña la autorregulación que la disciplina positiva pide.",
+      "2": "Trampa del trámite socioemocional: las caritas parecen evidencia de convivencia. Sin acuerdos, dejan la conducta como gesto de cierre y no combinan firmeza, amabilidad y consecuencias comprensibles.",
+      "3": "Trampa de dominio cruzado del SIEE: el examen de comportamiento luce como evidencia comparable de convivencia. Convierte la disciplina positiva en nota homogénea, no en firmeza amable ni autorregulación."
+    }
+  },
+  {
+    "options": [
+      "Hacer votar las reglas para aliviar la carga del docente y presentar esa votación como autonomía del grupo, de modo que el adulto quede menos responsable del clima cotidiano del aula.",
+      "Retirar las consecuencias ante el incumplimiento para proteger el clima, argumentando que un restaurativo vacío evita tensionar al grupo que «ya se compromete» al redactar las normas.",
+      "Que comprendan el sentido de las normas construidas con el grupo y se comprometan de forma más genuina, sin que el docente eluda consecuencias ni ceda la autoridad cotidiana del aula.",
+      "Ceder la autoridad cotidiana del aula al consejo estudiantil como trámite de gobierno escolar, y registrar esa cesión como evidencia de participación comparable en el PEI."
+    ],
+    "explanation": "La condición de calidad pregunta qué se busca principalmente al construir las normas de aula con los estudiantes. Se busca que comprendan su sentido y se comprometan de forma más genuina. Hacer votar las reglas para aliviar la carga del docente disfraza autonomía y reduce la responsabilidad adulta. Retirar consecuencias para proteger el clima vacía el acuerdo. Ceder la autoridad al consejo estudiantil puede ser gobierno escolar válido, no la construcción cotidiana de normas de aula.",
+    "id": "dir-apt-ped-287",
+    "theoreticalJustification": "La corresponsabilidad exige comprender el sentido de la norma y sostener acuerdos. Votar para aliviar carga, retirar consecuencias o ceder al consejo cambian el objeto de la construcción conjunta.",
+    "normativeJustification": "La Ley 1620 y el gobierno escolar distinguen participación de cesión de autoridad. Construir normas con el grupo no elimina consecuencias ni traslada al consejo estudiantil el clima cotidiano.",
+    "distractorAnalysis": {
+      "0": "Trampa de la autonomía como alivio: votar las reglas parece empoderar al grupo. Reduce la responsabilidad del docente y no busca comprensión ni compromiso genuino con el sentido de la norma.",
+      "1": "Trampa del restaurativo vacío: retirar consecuencias parece cuidar el clima. Vacía el acuerdo construido con los estudiantes y deja las normas sin respaldo ante el incumplimiento.",
+      "3": "Trampa de dominio cruzado del gobierno escolar: ceder la autoridad al consejo estudiantil luce como participación comparable en el PEI. Confunde instancia de representación con la construcción cotidiana de normas de aula."
+    }
+  },
+  {
+    "options": [
+      "Sostener el curso con puntos, tablas de logros y más quizzes del SIEE como evidencia comparable de motivación, argumentando que esa gamificación de calificaciones sostiene el interés del grupo.",
+      "Asegurar supervisión adulta constante como «acompañamiento», de forma que la persistencia en la tarea dependa de la mirada del docente y no del interés por la actividad misma.",
+      "Orientar la tarea a evitar la amonestación y presentarlo como clima seguro, de modo que el estudiante trabaje por temor al registro y no por satisfacción en la actividad.",
+      "Surgir del interés genuino o de la satisfacción que el estudiante encuentra en la actividad misma, a diferencia de premios, supervisión constante o miedo a la amonestación."
+    ],
+    "explanation": "La condición de calidad pregunta qué caracteriza a la motivación intrínseca a diferencia de la extrínseca. Surge del interés genuino o de la satisfacción en la actividad misma. Sostener el curso con puntos y quizzes del SIEE documenta calificaciones, no interés por la tarea. La supervisión adulta constante desplaza la persistencia hacia la mirada del docente. Orientar el trabajo a evitar la amonestación convierte el clima «seguro» en control por temor.",
+    "id": "dir-apt-ped-288",
+    "theoreticalJustification": "La motivación intrínseca nace de la actividad. Premios, vigilancia adulta o evitar el castigo son extrínsecos y desplazan el objeto hacia la nota, la mirada o el miedo.",
+    "normativeJustification": "El Decreto 1290 distingue evaluación formativa de incentivos externos. Más quizzes del SIEE no miden motivación intrínseca; la supervisión constante y el temor a la amonestación son control, no interés genuino.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado del SIEE: puntos y más quizzes lucen como gamificación y evidencia comparable de motivación. Documentan calificaciones externas, no el interés genuino por la actividad misma.",
+      "1": "Trampa del acompañamiento como vigilancia: la supervisión adulta constante parece cuidado. Hace depender la persistencia de la mirada del docente, no de la satisfacción en la tarea.",
+      "2": "Trampa del clima seguro por temor: orientar la tarea a evitar la amonestación parece proteger al grupo. Sustituye el interés genuino por el miedo al registro y es motivación extrínseca."
+    }
+  },
+  {
+    "options": [
+      "Interdisciplinariedad o currículo integrado: articular matemáticas, ciencias y lengua alrededor del mismo problema del entorno, en lugar de aislar asignaturas o reducirlo a una sumativa de área.",
+      "Tomar el proyecto como prueba sumativa de un área en el SIEE, de modo que matemáticas, ciencias o lengua «cierren nota» y las demás queden como adorno del producto final.",
+      "Volver a asignaturas aisladas como rigor disciplinar de los DBA, argumentando que integrar matemáticas, ciencias y lengua diluye la profundidad de cada plan de área.",
+      "Tratar el proyecto como indicador PMI de innovación o como modelo propio de educación superior, y reportarlo en el tablero de calidad más que como currículo integrado de aula."
+    ],
+    "explanation": "La condición de calidad pregunta de qué es ejemplo un proyecto de aula que integra matemáticas, ciencias y lengua alrededor de un mismo tema. Es interdisciplinariedad o currículo integrado sobre un problema del entorno. Tomarlo como sumativa de un área en el SIEE reduce las demás a adorno. Volver a asignaturas aisladas en nombre del rigor de los DBA deshace la articulación del caso. Reportarlo como indicador PMI o como modelo de educación superior desplaza el objeto hacia gestión o nivel distinto.",
+    "id": "dir-apt-ped-289",
+    "theoreticalJustification": "La interdisciplinariedad articula saberes en un mismo problema. La sumativa de un área, el aislamiento disciplinar o el tablero PMI cambian el objeto del proyecto de aula.",
+    "normativeJustification": "Los lineamientos curriculares y el PEI reconocen la integración de áreas en proyectos significativos. El SIEE y el PMI no convierten esa integración en sumativa de un área ni en indicador de innovación de otro nivel.",
+    "distractorAnalysis": {
+      "1": "Trampa de la sumativa de área: usar el proyecto para «cerrar nota» en el SIEE parece evaluación auténtica. Reduce matemáticas, ciencias y lengua a un área y deja las otras como adorno.",
+      "2": "Trampa del rigor disciplinar: volver a asignaturas aisladas parece fidelidad a los DBA. Deshace la articulación alrededor del problema del entorno que el caso presenta como proyecto.",
+      "3": "Trampa de dominio cruzado del PMI y la educación superior: reportar el proyecto como innovación o como modelo universitario luce en el tablero de calidad. No describe el currículo integrado de aula del caso."
+    }
+  },
+  {
+    "options": [
+      "Organizar la unidad como lista de contenidos del DBA a cubrir en el período, sin secuencia de actividades, para documentar cobertura curricular ante el equipo de la IE oficial.",
+      "Articular objetivos de aprendizaje, contenidos, actividades secuenciadas y criterios de evaluación, de modo que la unidad didáctica oriente enseñanza, evidencia y juicio en el período.",
+      "Fijar el número de sesiones que durará el tema como intensidad horaria para el PMI, y tomar ese conteo de tiempo como formulación suficiente de la unidad didáctica.",
+      "Reunir la bibliografía y los recursos que se usarán, y presentarlos en la visita de calidad como documentación comparable de la unidad, por encima de objetivos y secuencia."
+    ],
+    "explanation": "La condición de calidad pregunta qué decisión es la más defendible pedagógica e institucionalmente al formular una unidad didáctica. Lo defendible es articular objetivos, contenidos, actividades secuenciadas y criterios de evaluación. Una lista de contenidos del DBA sin secuencia documenta cobertura, no enseñanza. El número de sesiones sirve al PMI como intensidad, no como unidad. La bibliografía de la visita de calidad acredita recursos, no la coherencia didáctica pedida.",
+    "id": "dir-apt-ped-290",
+    "theoreticalJustification": "Una unidad didáctica articula para qué, qué, cómo y con qué criterios se evalúa. Lista, conteo de sesiones o recursos sueltos son fragmentos, no la decisión más defendible.",
+    "normativeJustification": "La planeación institucional y el Decreto 1290 exigen objetivos, actividades y criterios de evaluación articulados. Cobertura del DBA, intensidad del PMI o bibliografía de visita no sustituyen esa unidad.",
+    "distractorAnalysis": {
+      "0": "Trampa de la cobertura: la lista de contenidos del DBA parece alineación curricular. Omite la secuencia de actividades y los criterios, y no formula la unidad que el equipo discute.",
+      "2": "Trampa de la intensidad: el número de sesiones parece planificación responsable para el PMI. Mide tiempo, no objetivos, actividades ni criterios de evaluación de la unidad.",
+      "3": "Trampa de dominio cruzado de la visita de calidad: la bibliografía luce como documentación comparable de recursos. Acredita materiales, no la articulación didáctica más defendible pedagógica e institucionalmente."
+    }
+  },
+  {
+    "options": [
+      "Reservar las tablets a quienes «las aprovechan mejor» o no presentan dificultad, para no desperdiciar dispositivos y sostener un uso eficiente visible en el aula inclusiva.",
+      "Sustituir la mediación del docente por plataformas personalizadas que asignan rutas, de modo que la inclusión quede delegada al software y el adulto supervise el tablero de avances.",
+      "Usar las TIC para ofrecer distintas formas de acceso a la información y de expresión según necesidades, en línea con el DUA, sin reservar dispositivos ni reemplazar al docente.",
+      "Limitar el aula a un mismo tipo de dispositivo y un formato de evidencia para el SIEE o el PMI digital, argumentando que la comparabilidad exige la misma vía de acceso y expresión."
+    ],
+    "explanation": "La condición de calidad pregunta qué implica principalmente el uso de las TIC como herramienta de inclusión. Implica ofrecer distintas formas de acceso y de expresión según necesidades, en clave DUA. Reservar tablets a quienes no tienen dificultad niega el acceso a quien más las requiere. Sustituir la mediación docente por plataformas personalizadas deja la inclusión en el software. Unificar dispositivo y formato para el SIEE o el PMI digital prioriza comparabilidad sobre diversidad de vías.",
+    "id": "dir-apt-ped-291",
+    "theoreticalJustification": "Las TIC inclusivas amplían vías; no sustituyen al docente ni premian a quien no tiene dificultad. Un formato homogéneo sirve a la comparabilidad, no a la inclusión.",
+    "normativeJustification": "El DUA y el Decreto 1421 piden múltiples medios de acceso y expresión. El SIEE y el PMI digital no pueden imponer un dispositivo único ni reservar tablets a quien «ya rinde».",
+    "distractorAnalysis": {
+      "0": "Trampa de la eficiencia: reservar tablets a quienes las aprovechan mejor parece no desperdiciar recursos. Niega el acceso precisamente a quien las necesita como vía de inclusión.",
+      "1": "Trampa de la plataforma personalizada: delegar rutas al software parece atención individual. Sustituye la mediación docente que el caso mantiene como parte de la inclusión con TIC.",
+      "3": "Trampa de dominio cruzado del SIEE y el PMI digital: un mismo dispositivo y formato lucen como evidencia comparable. Priorizan homogeneidad sobre las distintas formas de acceso y expresión que pide el DUA."
+    }
+  },
+  {
+    "options": [
+      "Organizar la unidad como recitación repetida de teoría para el quiz, sin experiencia concreta ni experimentación posterior, a fin de asegurar contenidos antes de cualquier práctica del grupo.",
+      "Sostener una exposición pasiva como input previo, sin observación reflexiva del grupo, argumentando que recibir información completa prepara mejor el ciclo de Kolb en la unidad.",
+      "Cerrar la unidad con un examen final como evidencia comparable del SIEE, sin ciclo de experiencia concreta, reflexión, conceptualización y experimentación activa en el diseño.",
+      "Producir el aprendizaje experiencial mediante un ciclo de experiencia concreta, observación reflexiva, conceptualización abstracta y experimentación activa, no con recitación, exposición pasiva o examen de cierre."
+    ],
+    "explanation": "La condición de calidad pregunta a través de qué se produce principalmente el aprendizaje experiencial según el ciclo de Kolb en este diseño de unidad. Se produce por experiencia concreta, observación reflexiva, conceptualización abstracta y experimentación activa. La recitación para el quiz omite la experiencia concreta. La exposición pasiva omite la observación reflexiva del grupo. El examen final del SIEE puede cerrar un período, no sustituye el ciclo de cuatro fases.",
+    "id": "dir-apt-ped-292",
+    "theoreticalJustification": "Kolb produce aprendizaje al ciclar experiencia, reflexión, conceptualización y experimentación. Teoría para el quiz, exposición pasiva o examen final rompen el ciclo de la unidad.",
+    "normativeJustification": "Los DBA y el Decreto 1290 piden experiencias de aprendizaje y evidencia de proceso, no un quiz o un examen de cierre como sustituto del ciclo. Kolb articula cuatro fases, no una recitación.",
+    "distractorAnalysis": {
+      "0": "Trampa de la teoría para el quiz: recitar contenidos parece asegurar la base. Omite la experiencia concreta y la experimentación activa que Kolb sitúa en el aprendizaje experiencial de la unidad.",
+      "1": "Trampa del input pasivo: la exposición completa parece preparar el ciclo. Deja al grupo sin observación reflexiva y contradice el diseño experiencial que el caso contrapone a la sola exposición.",
+      "2": "Trampa de dominio cruzado del SIEE: el examen final luce como cierre comparable del período. Evalúa de golpe y no produce el ciclo de experiencia, reflexión, conceptualización y experimentación de Kolb."
+    }
+  }
+]

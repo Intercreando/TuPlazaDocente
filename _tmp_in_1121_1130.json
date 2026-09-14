@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1121,
+    "id": "dir-apt-dis-373",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre 1789, un texto dice que la Revolución Francesa “consolidó la monarquía absoluta”; otro que impulsó libertad, igualdad y fraternidad e influyó en independencias americanas; otro que “no salió de Francia”. Se pide impacto de ideas, no el desenlace caricaturesco.",
+    "stem": "¿Qué lectura del hito es la más defendible y qué error hay que reenseñar?",
+    "options": [
+      "Que impulsó esos ideales e influyó en procesos independentistas, y reenseñar que no consolidó el absolutismo ni el feudalismo.",
+      "Que consolidó de modo definitivo la monarquía absoluta, aunque ahorre tiempo visible de clase o de consejo.",
+      "Que no influyó fuera de Francia, aunque ahorre tiempo visible de clase o de consejo.",
+      "Que marcó el inicio del feudalismo europeo, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La Revolución Francesa difundió ideales de libertad, igualdad y fraternidad e influyó en procesos posteriores, incluidos los independentistas americanos. No restauró el absolutismo ni inauguró el feudalismo.",
+    "normativeJustification": "La Revolución Francesa difundió ideales de libertad, igualdad y fraternidad e influyó en procesos posteriores, incluidos los independentistas americanos. No restauró el absolutismo ni inauguró el feudalismo.",
+    "theoreticalJustification": "La Revolución Francesa difundió ideales de libertad, igualdad y fraternidad e influyó en procesos posteriores, incluidos los independentistas americanos. No restauró el absolutismo ni inauguró el feudalismo.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1122,
+    "id": "dir-apt-dis-374",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Causas de 1914: un estudiante cita la caída del Muro de Berlín (1989); otro el sistema de alianzas, tensiones nacionalistas y coloniales (y el atentado de Sarajevo); otro el Tratado de Versalles (que es consecuencia). Se pide causa, no anacronismo.",
+    "stem": "¿Qué explicación de las causas es la más precisa y qué error hay que reenseñar?",
+    "options": [
+      "La caída del Muro de Berlín, desplazada setenta años, aunque ahorre tiempo visible de clase o de consejo.",
+      "Alianzas, nacionalismos y tensiones coloniales, y reenseñar no tomar Versalles (posguerra) ni 1989 como causa de 1914.",
+      "El Tratado de Versalles como detonante de 1914, aunque parezca un trámite equitativo o suficiente.",
+      "La independencia africana de mediados del siglo XX, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Entre las causas de la Primera Guerra Mundial están el sistema de alianzas y las tensiones nacionalistas y coloniales. Versalles es posterior; el Muro de Berlín, de 1989.",
+    "normativeJustification": "Entre las causas de la Primera Guerra Mundial están el sistema de alianzas y las tensiones nacionalistas y coloniales. Versalles es posterior; el Muro de Berlín, de 1989.",
+    "theoreticalJustification": "Entre las causas de la Primera Guerra Mundial están el sistema de alianzas y las tensiones nacionalistas y coloniales. Versalles es posterior; el Muro de Berlín, de 1989.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1123,
+    "id": "dir-apt-dis-375",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre la Guerra Fría (aprox. 1947-1991), un ensayo afirma que EE. UU. y la URSS se combatieron de forma directa y continua en Europa. Otro describe tensión bipolar, carrera armamentista y conflictos indirectos, sin guerra directa entre ambas potencias.",
+    "stem": "¿Qué caracterización de la Guerra Fría es la más precisa y qué error conceptual hay que reenseñar?",
+    "options": [
+      "Guerra directa y continua entre EE. UU. y la URSS en territorio europeo, como si fuera una guerra clásica.",
+      "Unificación política mundial bajo un solo sistema, omitiendo la bipolaridad de bloques.",
+      "Tensión bipolar sin enfrentamiento militar directo entre las dos potencias, y reenseñar no igualarla a una guerra europea continua entre ambas.",
+      "El fin de todo conflicto internacional tras 1945, como si la posguerra hubiera cancelado la tensión."
+    ],
+    "explanation": "La Guerra Fría fue una tensión política, ideológica y militar entre bloques, sin guerra directa continua entre EE. UU. y la URSS. Hubo conflictos indirectos y carrera armamentista.",
+    "normativeJustification": "La Guerra Fría fue una tensión política, ideológica y militar entre bloques, sin guerra directa continua entre EE. UU. y la URSS. Hubo conflictos indirectos y carrera armamentista.",
+    "theoreticalJustification": "La Guerra Fría fue una tensión política, ideológica y militar entre bloques, sin guerra directa continua entre EE. UU. y la URSS. Hubo conflictos indirectos y carrera armamentista.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1124,
+    "id": "dir-apt-dis-376",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un estudiante afirma que el PIB es “lo que gana en promedio cada habitante”. Otro lo explica como el valor de bienes y servicios finales producidos en un periodo, con un ejemplo de cosecha local. La evaluación pide argumentar, no recitar.",
+    "stem": "¿Qué evidencia demuestra el aprendizaje esencial del concepto de PIB, según el marco y la evidencia del caso?",
+    "options": [
+      "Identificar el PIB con la deuda externa acumulada.",
+      "Identificar el PIB con el número de empresas registradas.",
+      "Identificar el PIB con el ingreso personal promedio (PIB per cápita confundido con PIB).",
+      "Explicar el PIB como valor de bienes y servicios finales producidos en un periodo, con ejemplo situado."
+    ],
+    "explanation": "El PIB es un indicador que mide el valor de la producción total de bienes y servicios finales de una economía en un período determinado.",
+    "normativeJustification": "El PIB es un indicador que mide el valor de la producción total de bienes y servicios finales de una economía en un período determinado.",
+    "theoreticalJustification": "El PIB es un indicador que mide el valor de la producción total de bienes y servicios finales de una economía en un período determinado.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1125,
+    "id": "dir-apt-dis-377",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Se contrastan economía de mercado y planificación central. Un estudiante dice que en el mercado “un ministerio asigna cupos a cada fábrica”; otro que las decisiones de qué, cómo y para quién producir pasan sobre todo por oferta y demanda, con rol limitado del Estado en la asignación directa.",
+    "stem": "¿Qué mecanismo evidencia el sistema de mercado y qué error hay que reenseñar?",
+    "options": [
+      "La interacción oferta–demanda, y reenseñar que la asignación central de todos los recursos describe otro sistema.",
+      "Un organismo estatal que planifica y asigna todos los recursos (planificación central, no mercado).",
+      "Un sorteo periódico del gobierno como regla de mercado.",
+      "Un monopolio estatal único por sector como definición de mercado."
+    ],
+    "explanation": "En una economía de mercado, oferta y demanda orientan en lo principal qué, cómo y para quién producir. La asignación centralizada describe un sistema planificado, no de mercado.",
+    "normativeJustification": "En una economía de mercado, oferta y demanda orientan en lo principal qué, cómo y para quién producir. La asignación centralizada describe un sistema planificado, no de mercado.",
+    "theoreticalJustification": "En una economía de mercado, oferta y demanda orientan en lo principal qué, cómo y para quién producir. La asignación centralizada describe un sistema planificado, no de mercado.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1126,
+    "id": "dir-apt-dis-378",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "En antropología escolar, un estudiante reduce “cultura” a pintura y música; otro al puntaje de pruebas; otro la entiende como conocimientos, creencias, valores y prácticas compartidas y transmitidas. Se pide el concepto amplio, no el uso coloquial de “culto”.",
+    "stem": "¿Qué concepción de cultura es la más precisa y qué reducción hay que reenseñar?",
+    "options": [
+      "Solo artes (música, pintura) como sinónimo exhaustivo de cultura, aunque ahorre tiempo visible de clase o de consejo.",
+      "El conjunto de conocimientos, creencias, valores y formas de vida compartidas y transmitidas, y reenseñar no reducirla a arte, título escolar o “sociedades antiguas”.",
+      "Solo el nivel educativo formal alcanzado, aunque parezca un trámite equitativo o suficiente.",
+      "Un concepto aplicable únicamente a sociedades “tradicionales”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "En antropología, cultura abarca conocimientos, creencias, valores, costumbres y formas de vida compartidas y transmitidas. No se reduce al arte ni al diploma.",
+    "normativeJustification": "En antropología, cultura abarca conocimientos, creencias, valores, costumbres y formas de vida compartidas y transmitidas. No se reduce al arte ni al diploma.",
+    "theoreticalJustification": "En antropología, cultura abarca conocimientos, creencias, valores, costumbres y formas de vida compartidas y transmitidas. No se reduce al arte ni al diploma.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1127,
+    "id": "dir-apt-dis-379",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre urbanización, un texto dice que “el campo desapareció en todo el mundo”; otro la asocia a industrialización y migración campo–ciudad. Otro a “caída de la población mundial”. Se pide el proceso histórico, no el extremo retórico.",
+    "stem": "¿Qué asociación evidencia el aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "La urbanización como disminución general de la población mundial, aunque parezca un trámite equitativo o suficiente.",
+      "El abandono total de la agricultura en el planeta, aunque ahorre tiempo visible de clase o de consejo.",
+      "Industrialización y migración campo–ciudad, y reenseñar que lo rural no desaparece por el hecho de urbanizar.",
+      "La desaparición completa de las zonas rurales en todos los países, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "La urbanización se ha ligado históricamente a industrialización y migración campo–ciudad. No implica el fin de lo rural ni una caída demográfica mundial.",
+    "normativeJustification": "La urbanización se ha ligado históricamente a industrialización y migración campo–ciudad. No implica el fin de lo rural ni una caída demográfica mundial.",
+    "theoreticalJustification": "La urbanización se ha ligado históricamente a industrialización y migración campo–ciudad. No implica el fin de lo rural ni una caída demográfica mundial.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1128,
+    "id": "dir-apt-dis-380",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Periodización de independencias hispanoamericanas y brasileña: un estudiante las sitúa en el siglo XVI (conquista); otro en la segunda mitad del XX (descolonización africana); otro en las primeras décadas del XIX, con ideas ilustradas e invasión napoleónica a España.",
+    "stem": "¿Qué periodización es la más precisa y qué anacronismo hay que reenseñar?",
+    "options": [
+      "Segunda mitad del siglo XX, confundiendo con otras descolonizaciones, aunque parezca un trámite equitativo o suficiente.",
+      "Siglo XVI, identificando conquista con independencia, aunque ahorre tiempo visible de clase o de consejo.",
+      "Siglo XVIII “antes de la Ilustración”, omitiendo el contexto de las ideas y de 1808, aunque se presente como solución rápida en la reunión.",
+      "Primeras décadas del XIX, con Ilustración e invasión napoleónica, y reenseñar no desplazar el proceso a la Conquista ni al siglo XX."
+    ],
+    "explanation": "Las independencias de la mayoría de países latinoamericanos se concentraron en las primeras décadas del siglo XIX, en un contexto ilustrado y de crisis de la monarquía española (invasión napoleónica).",
+    "normativeJustification": "Las independencias de la mayoría de países latinoamericanos se concentraron en las primeras décadas del siglo XIX, en un contexto ilustrado y de crisis de la monarquía española (invasión napoleónica).",
+    "theoreticalJustification": "Las independencias de la mayoría de países latinoamericanos se concentraron en las primeras décadas del siglo XIX, en un contexto ilustrado y de crisis de la monarquía española (invasión napoleónica).",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1129,
+    "id": "dir-apt-ped-381",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "La historia se evalúa como lista de fechas. Un docente pide causalidad, cambio y continuidad entre momentos. Un colega defiende “más datos para el quiz de efemérides”.",
+    "stem": "En esta evaluación de historia, ¿qué implica principalmente desarrollar pensamiento histórico en el estudiante?",
+    "options": [
+      "Comprender relaciones de causalidad, cambio y continuidad, más allá de acumular fechas aisladas.",
+      "Acumular la mayor cantidad posible de fechas exactas, sin establecer relaciones entre períodos.",
+      "Repetir de memoria los nombres de los personajes más importantes, sin analizar procesos.",
+      "Evitar relacionar distintos períodos históricos, para “no mezclar temas” en la prueba."
+    ],
+    "explanation": "El pensamiento histórico se centra en comprender relaciones de causalidad, cambio y continuidad, no solo en la memorización de datos aislados.",
+    "normativeJustification": "El pensamiento histórico se centra en comprender relaciones de causalidad, cambio y continuidad, no solo en la memorización de datos aislados.",
+    "theoreticalJustification": "El pensamiento histórico se centra en comprender relaciones de causalidad, cambio y continuidad, no solo en la memorización de datos aislados.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 1130,
+    "id": "dir-apt-ped-382",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Didáctica de Ciencias Sociales (ola 4)",
+    "subtopic": "Didáctica de Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Un acta de 1810 y un manual escolar de 2020 se tratan como “iguales” o se dice que “lo primario siempre es más confiable”. Se distingue testimonio de época vs interpretación posterior.",
+    "stem": "En la enseñanza de la historia, ¿cuál es una diferencia clave entre fuente primaria y secundaria?",
+    "options": [
+      "Las primarias siempre son más confiables, sin excepción, aunque ahorre tiempo visible de clase o de consejo.",
+      "La primaria proviene de la época o el hecho; la secundaria es una interpretación o análisis posterior.",
+      "Las secundarias siempre son documentos oficiales del gobierno, aunque parezca un trámite equitativo o suficiente.",
+      "No hay diferencia didáctica relevante entre ambos tipos, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La fuente primaria es un testimonio directo de la época estudiada, mientras que la secundaria interpreta o analiza esos testimonios posteriormente.",
+    "normativeJustification": "La fuente primaria es un testimonio directo de la época estudiada, mientras que la secundaria interpreta o analiza esos testimonios posteriormente.",
+    "theoreticalJustification": "La fuente primaria es un testimonio directo de la época estudiada, mientras que la secundaria interpreta o analiza esos testimonios posteriormente.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

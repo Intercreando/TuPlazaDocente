@@ -1,0 +1,172 @@
+[
+  {
+    "distractorAnalysis": {
+      "1": "Trampa de omitir 4 estudiantes: 12 = 24 ÷ 2, como propone el docente. Recorta el debate de 28. No es 28 ÷ 2 = 14 integrantes por equipo.",
+      "2": "Trampa de inflar 4 cupos: 16 = 32 ÷ 2, como insiste el segundo docente. Cambia la matrícula del caso. No conserva 14 por equipo.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 10 = 20 ÷ 2. Es un aforo holgado plausible de debate. Sustituye los 28 estudiantes y no es 14."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen reportar los 28 estudiantes y los 2 equipos del caso. El PMI no puede recortar a 24, inflar a 32 ni usar 20 como si 28 ÷ 2 fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Veintiocho estudiantes en 2 equipos iguales son 28 ÷ 2 = 14 por equipo. Esa es la cifra del acta del debate para el PMI y el SIMAT. El 12 omite 4 estudiantes (24 ÷ 2); el 16 infla a 32 ÷ 2; el 10 toma 20 ÷ 2 del tablero. Ninguna conserva 28 ÷ 2 sobre el grupo del caso.",
+    "theoreticalJustification": "Integrantes por equipo = total ÷ equipos. 28 ÷ 2 = 14. 24 ÷ 2 = 12; 32 ÷ 2 = 16; 20 ÷ 2 = 10 cambian el numerador. Ninguna es 14.",
+    "id": "dir-apt-num-333",
+    "options": [
+      "Consignar 14 estudiantes por equipo en el acta institucional: 28 ÷ 2 = 14, cifra del comité de calidad, sin recortar el debate ni cambiar los 2 equipos con igual número que pide Secretaría.",
+      "Reportar 12 integrantes por equipo en el PMI, tomando 24 ÷ 2 (omite 4 del debate de 28), como propone el docente, porque deja un recuento cauto comparable con el histórico de grupos.",
+      "Consignar 16 por equipo en el acta de calidad, usando 32 ÷ 2 (infla 4 cupos SIMAT), como insiste el segundo docente, para no tensionar el informe del debate ante Secretaría.",
+      "Registrar 10 por equipo en el tablero PMI, tomando 20 ÷ 2 como aforo holgado de debate, para que los equipos luzcan alineados con la meta de calidad de Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de recortar la alícuota: 9 ≈ 32 × 0,28, como propone el docente. Baja el 35% de otro tema. No es 32 × 0,35 = 11 estudiantes.",
+      "2": "Trampa de reportar Independencia: 13 ≈ 32 × 0,40, como insiste el segundo docente. Confunde el 40% elegido con el complemento. No conserva 11.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 15 ≈ 32 × 0,47. Es un colchón plausible de investigación. Infla el 35% y no es 11."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen el complemento real: 32 estudiantes y 35% de otro tema. El PMI no puede usar 28%, el 40% de Independencia ni una meta de 15.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Independencia 40% y Constitución 25% suman 65%; el 35% restante de 32 es 32 × 0,35 = 11. Esa es la cifra del acta de investigación. El 9 recorta la alícuota; el 13 toma el 40% de Independencia; el 15 infla el complemento en el tablero. Ninguna conserva 32 × 0,35 sobre el curso del caso.",
+    "theoreticalJustification": "Complemento = n × (1 − 0,40 − 0,25). 32 × 0,35 = 11. 32 × 0,28 ≈ 9; 32 × 0,40 ≈ 13; 32 × 0,47 ≈ 15 cambian la alícuota. Ninguna es 11.",
+    "id": "dir-apt-num-334",
+    "options": [
+      "Reportar 9 estudiantes de otro tema en el PMI, tomando 32 × 0,28 o el 40% de Independencia recortado, como propone el docente, porque deja un recuento cauto comparable con el histórico de investigación.",
+      "Consignar 11 estudiantes de otro tema en el acta institucional: 40% + 25% = 65% y 32 × 0,35 = 11, cifra del comité, sin cambiar los porcentajes ni la base de 32 que pide Secretaría.",
+      "Consignar 13 en el acta de calidad, usando 32 × 0,40 (Independencia) redondeado, como insiste el segundo docente, para no tensionar el informe de temas ante Secretaría.",
+      "Registrar 15 en el tablero PMI, tomando 32 × 0,47 o Independencia más un colchón de calidad, para que el otro tema luzca alineado con la meta de Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de otra asamblea: 10 = 50 × 0,20 o 70 × 0,14, como propone el docente. Recorta los 70 miembros de 1991. No es 70 × 0,20 = 14.",
+      "1": "Trampa de 60 × 0,20: 12, como insiste el segundo docente. Cambia la base de 70. No conserva 14 miembros no tradicionales.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 16 = 80 × 0,20. Es un cupo holgado plausible de Constituyente. Infla los 70 y no es 14."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen los 70 miembros y el 20% del caso. El PMI no puede usar 50, 60 ni 80 asambleístas como si 70 × 0,20 fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 20% de 70 miembros es 70 × 0,20 = 14. Esa es la cifra del acta de la Asamblea de 1991. El 10 usa 50 × 0,20 o 14%; el 12 usa 60 × 0,20; el 16 toma 80 × 0,20 del tablero. Ninguna conserva 70 × 0,20 sobre la Asamblea del caso.",
+    "theoreticalJustification": "No tradicionales = miembros × 0,20. 70 × 0,20 = 14. 50 × 0,20 = 10; 60 × 0,20 = 12; 80 × 0,20 = 16 cambian n. Ninguna es 14.",
+    "id": "dir-apt-num-335",
+    "options": [
+      "Reportar 10 miembros no tradicionales en el PMI, tomando 50 × 0,20 (otra asamblea) o 70 × 0,14, como propone el docente, porque deja un recuento cauto comparable con el histórico de 1991.",
+      "Consignar 12 en el acta de calidad, usando 60 × 0,20 o 70 × 0,17, como insiste el segundo docente, para no tensionar el informe de la Constituyente ante Secretaría.",
+      "Consignar 14 miembros de partidos distintos a los tradicionales en el acta institucional: 70 × 0,20 = 14, cifra del comité de calidad, sin recortar la Asamblea ni cambiar el 20% que pide Secretaría.",
+      "Registrar 16 en el tablero PMI, tomando 80 × 0,20 como cupo holgado de Constituyente, para que el 20% no tradicional luzca alineado con la calidad de Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de omitir una clase: 20% = 1/5, como propone el docente. Recorta las 2 de geografía. No es 2/5 = 40% del acta.",
+      "1": "Trampa de 1,5/5: 30%, como insiste el segundo docente. Fracciona una clase que el caso no parte. No conserva 40%.",
+      "2": "Trampa de dominio cruzado del tablero PMI: 35% es un equilibrio plausible entre historia y geografía. Sustituye 2/5 y no es 40%."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen las 5 clases y las 3 de historia del caso. El PMI no puede reportar 1/5, 1,5/5 ni 35% como si 2/5 de geografía fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Tres de cinco clases son historia; el resto, 2 de geografía, es 2/5 = 40%. Esa es la cifra del acta de intensidad. El 20% toma 1/5; el 30% usa 1,5/5; el 35% es meta de equilibrio del tablero. Ninguna conserva 2/5 sobre las 5 clases del caso.",
+    "theoreticalJustification": "Geografía = (5 − 3) / 5 = 40%. 1/5 = 20%; 1,5/5 = 30%; 35% es otra alícuota. Ninguna es 40%.",
+    "id": "dir-apt-num-336",
+    "options": [
+      "Reportar 20% de geografía en el PMI, tomando 1 de 5 clases (omite 1 de las 2 restantes), como propone el docente, porque deja un recuento cauto comparable con el histórico del área.",
+      "Consignar 30% en el acta de calidad, usando 1,5 / 5 o tres décimas redondas, como insiste el segundo docente, para no tensionar el informe de intensidad ante Secretaría.",
+      "Registrar 35% en el tablero PMI, tomando un punto medio entre historia y geografía como meta de equilibrio, para que la carga semanal luzca alineada con la calidad de Secretaría.",
+      "Consignar 40% de geografía en el acta institucional: 5 − 3 = 2 clases y 2/5 = 40%, cifra del comité de calidad, sin recortar las 2 de geografía ni cambiar las 5 semanales que pide Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "1": "Trampa de bajar la tasa a 10,5%: 84.000 = 800000 × 0,105, como propone el docente. Recorta el 11,5% del caso. No es 800000 × 0,115 = 92000.",
+      "2": "Trampa de 12,25%: 98.000 = 800000 × 0,1225, como insiste el segundo docente. Infla la desocupación. No conserva 92000 personas.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 104.000 = 800000 × 0,13. Es una meta plausible de desocupación urbana. Sustituye el 11,5% y no es 92000."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen la PEA de 800000 y el 11,5% del caso. El PMI no puede usar 10,5%, 12,25% ni 13% como si los desocupados fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 11,5% de 800000 de PEA es 800000 × 0,115 = 92000. Esa es la cifra del acta de desempleo urbano. El 84000 baja la tasa a 10,5%; el 98000 usa 12,25%; el 104000 toma 13% del tablero. Ninguna conserva 800000 × 0,115 sobre la PEA del caso.",
+    "theoreticalJustification": "Desocupados = PEA × 0,115. 800000 × 0,115 = 92000. 800000 × 0,105 = 84000; × 0,1225 = 98000; × 0,13 = 104000 cambian la tasa. Ninguna es 92000.",
+    "id": "dir-apt-num-337",
+    "options": [
+      "Consignar 92.000 personas desocupadas en el acta institucional: 800000 × 0,115 = 92000, cifra del comité de calidad, sin redondear el 11,5% ni cambiar la PEA de 800000 que pide Secretaría.",
+      "Reportar 84.000 en el PMI, tomando 800000 × 0,105 (11,5% bajado a 10,5%), como propone el docente, porque deja un recuento cauto comparable con el histórico de desempleo.",
+      "Consignar 98.000 en el acta de calidad, usando 800000 × 0,1225, como insiste el segundo docente, para no tensionar el informe de PEA urbana ante Secretaría.",
+      "Registrar 104.000 en el tablero PMI, tomando 800000 × 0,13 como meta de desocupación, para que la tasa de 11,5% luzca alineada con la calidad de Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de una cuarta rama: 6 = 24 ÷ 4, como propone el docente. Suma el órgano electoral a las 3 ramas. No es 24 ÷ 3 = 8 preguntas por rama.",
+      "2": "Trampa de inflar 6 ítems: 10 = 30 ÷ 3, como insiste el segundo docente. Cambia el cuestionario de 24. No conserva 8 por rama.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 12 = 24 ÷ 2. Es un recuento plausible de dos ramas visibles. Omite la judicial y no es 8."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen las 24 preguntas y las 3 ramas del caso. El PMI no puede usar 4 órganos, 30 ítems ni 2 ramas como si 24 ÷ 3 fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Veinticuatro preguntas en 3 ramas iguales son 24 ÷ 3 = 8 por rama. Esa es la cifra del acta del cuestionario. El 6 divide entre 4 órganos; el 10 infla a 30 ÷ 3; el 12 divide 24 entre 2 ramas del tablero. Ninguna conserva 24 ÷ 3 sobre las ramas del caso.",
+    "theoreticalJustification": "Preguntas por rama = total ÷ ramas. 24 ÷ 3 = 8. 24 ÷ 4 = 6; 30 ÷ 3 = 10; 24 ÷ 2 = 12 cambian divisor o n. Ninguna es 8.",
+    "id": "dir-apt-num-338",
+    "options": [
+      "Reportar 6 preguntas por rama en el PMI, tomando 24 ÷ 4 al sumar el órgano electoral como cuarta rama, como propone el docente, porque deja un recuento cauto comparable con el histórico de poder público.",
+      "Consignar 8 preguntas por rama en el acta institucional: 24 ÷ 3 = 8, cifra del comité de calidad, sin recortar el cuestionario ni cambiar las 3 ramas que pide Secretaría.",
+      "Consignar 10 por rama en el acta de calidad, usando 30 ÷ 3 (infla 6 ítems), como insiste el segundo docente, para no tensionar el informe del cuestionario ante Secretaría.",
+      "Registrar 12 por rama en el tablero PMI, tomando 24 ÷ 2 (ejecutivo y legislativo), para que el cuestionario luzca alineado con la calidad de Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de omitir una década: 95 = 1991 − 1886 − 10, como propone el docente. Recorta la vigencia de 1886. No es 1991 − 1886 = 105 años.",
+      "1": "Trampa del siglo redondo: 100, como insiste el segundo docente. Redondea 105. No conserva 105 años entre las dos Constituciones.",
+      "3": "Trampa de dominio cruzado del tablero PMI: 110 = 1991 − 1886 + 5. Es holgura plausible de reformas para Secretaría. Infla el intervalo y no es 105."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen las fechas 1886 y 1991 del caso. El PMI no puede descontar 10 años, redondear a 100 ni inflar a 110 como si la resta fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. Entre 1886 y 1991 la diferencia es 1991 − 1886 = 105 años. Esa es la cifra del acta de vigencia constitucional. El 95 descuenta una década; el 100 redondea a siglo; el 110 suma holgura del tablero. Ninguna conserva 1991 − 1886 sobre las fechas del caso.",
+    "theoreticalJustification": "Vigencia = 1991 − 1886 = 105. 105 − 10 = 95; redondeo a 100; 105 + 5 = 110 cambian la diferencia. Ninguna es 105.",
+    "id": "dir-apt-num-339",
+    "options": [
+      "Reportar 95 años en el PMI, restando 1991 − 1886 − 10 (omite una década de reformas), como propone el docente, porque deja un intervalo cauto comparable con el histórico constitucional.",
+      "Consignar 100 años en el acta de calidad, redondeando 1991 − 1886 a un siglo, como insiste el segundo docente, para no tensionar el informe de vigencia de 1886 ante Secretaría.",
+      "Consignar 105 años en el acta institucional: 1991 − 1886 = 105, cifra del comité de calidad, sin conteo inclusivo ni otra base de cartas que pide Secretaría.",
+      "Registrar 110 años en el tablero PMI, sumando 1991 − 1886 + 5 (holgura de reformas), para que el tramo 1886-1991 luzca alineado con la década de calidad de Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de otra superficie: 54.000 = 900000 × 0,06, como propone el docente. Recorta los 1140000 km2. No es 1140000 × 0,06 = 68400 km2 urbanos.",
+      "1": "Trampa de la base millón: 60.000 = 1000000 × 0,06, como insiste el segundo docente. Redondea la superficie. No conserva 68400 km2.",
+      "2": "Trampa de dominio cruzado del tablero PMI: 64.200 = 1070000 × 0,06. Es una superficie holgada plausible. Cambia los 1140000 km2 y no es 68400."
+    },
+    "normativeJustification": "El Decreto 1075 y la Guía 34 exigen 1140000 km2 y el 6% urbano del caso. El PMI no puede usar 900000, un millón redondo ni 1070000 como si el 6% fueran otra cifra.",
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 6% de 1140000 km2 es 1140000 × 0,06 = 68400. Esa es la cifra del acta de áreas urbanas. El 54000 usa 900000 × 0,06; el 60000 usa un millón × 0,06; el 64200 toma 1070000 × 0,06 del tablero. Ninguna conserva 1140000 × 0,06 sobre la superficie del caso.",
+    "theoreticalJustification": "Área urbana = superficie × 0,06. 1140000 × 0,06 = 68400. 900000 × 0,06 = 54000; 1000000 × 0,06 = 60000; 1070000 × 0,06 = 64200 cambian la base. Ninguna es 68400.",
+    "id": "dir-apt-num-340",
+    "options": [
+      "Reportar 54.000 km2 urbanos en el PMI, tomando 900000 × 0,06 (otra superficie), como propone el docente, porque deja un recuento cauto comparable con el histórico de ocupación.",
+      "Consignar 60.000 km2 en el acta de calidad, usando 1000000 × 0,06 (base millón), como insiste el segundo docente, para no tensionar el informe de áreas urbanas ante Secretaría.",
+      "Registrar 64.200 km2 en el tablero PMI, tomando 1070000 × 0,06 como superficie holgada, para que el 6% urbano luzca alineado con la calidad de Secretaría.",
+      "Consignar 68.400 km2 urbanos en el acta institucional: 1140000 × 0,06 = 68400, cifra del comité de calidad, sin redondear el 6% ni cambiar los 1140000 km2 que pide Secretaría."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "1": "Trampa del enfriamiento evaluativo: sustituir el debate por un cuestionario del SIEE parece cuidar el clima. Clausura la deliberación política que el caso pide regular, no cancelar.",
+      "2": "Trampa del PEI como veredicto: alinear una postura con el proyecto institucional parece ordenar el aula. Toma partido con sello institucional y deja de ser la conducta más defendible ética e institucionalmente.",
+      "3": "Trampa de dominio cruzado del SIEE: registrar la oralidad de cada bando luce como evidencia comparable de ciudadanía. Documenta la polarización y no media el tono acalorado del debate."
+    },
+    "normativeJustification": "La Ley 1620 y los Estándares de competencias ciudadanas piden regular el disenso con respeto y argumentación. El SIEE y el PEI no autorizan a clausurar el debate, a imponer una postura institucional ni a calificar la polarización como participación comparable.",
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente ante un debate político polarizado y de tono acalorado. Reforzar las normas de escucha ya acordadas y redirigir hacia argumentos sostiene el valor pedagógico del disenso y cuida el clima, sin censurar el tema ni tomar partido. Cerrar el debate y pasar a un cuestionario del SIEE enfría el aula, pero sacrifica la deliberación. Alinear una postura con el PEI usa la institución para ganarle a un bando. Registrar la oralidad polarizada como evidencia comparable convierte el conflicto en trámite de nota.",
+    "theoreticalJustification": "El docente media el conflicto cognitivo hacia razones, no hacia el cierre, el bando oficial o la nota. El cuestionario, el PEI como veredicto y el registro SIEE miden control, lealtad o evidencia, no deliberación ética.",
+    "id": "dir-apt-blan-341",
+    "options": [
+      "Recordar y reforzar las normas de escucha y respeto ya acordadas con el grupo, y redirigir el debate polarizado hacia el análisis de argumentos, en vez de dejar que el tono acalorado se vuelva ataque personal.",
+      "Cerrar de inmediato el debate político y sustituirlo por un cuestionario escrito del SIEE sobre datos del tema, para enfriar el clima sin seguir mediando la discusión acalorada en el aula.",
+      "Intervenir con un marco del PEI que declare cuál de las dos posturas queda alineada con el proyecto institucional, de modo que el grupo deje de polarizarse alrededor de posiciones personales.",
+      "Dejar que el debate siga y registrar la oralidad de cada bando como evidencia comparable de competencias ciudadanas en el SIEE, argumentando que la polarización misma documenta participación."
+    ]
+  },
+  {
+    "distractorAnalysis": {
+      "0": "Trampa de la rúbrica inmediata: bajar la nota y archivar en el observador parece integridad académica. Sanciona el error y omite el taller de verificación que el caso pide como conducta ética e institucional.",
+      "2": "Trampa del quiz de fechas: anular el trabajo de actualidad y recuperar un DBA de efemérides parece evidencia comparable. Cambia el objeto: de contrastar la noticia falsa a cubrir fechas.",
+      "3": "Trampa de dominio cruzado del PMI: reportar fuentes no verificadas como indicador de alfabetización mediática luce como gestión de calidad. Archiva el hallazgo y no media el error con el grupo."
+    },
+    "normativeJustification": "Los DBA de ciencias sociales y el SIEE piden evaluar con criterio y formar en uso de fuentes. El observador, el quiz de efemérides y el tablero PMI no reemplazan la mediación sobre desinformación en el aula.",
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un estudiante presenta una noticia falsa como fuente confiable. Convertir el error en taller de verificación fortalece la alfabetización mediática del área y sostiene integridad académica sin humillar. Calificar de inmediato y archivar en el observador sanciona, pero no enseña a contrastar. Sustituir el trabajo por un quiz de fechas del DBA recupera evidencia comparable y evade el objeto (la fuente falsa). Reportar el caso al PMI documenta un indicador de calidad y deja el error sin mediación pedagógica.",
+    "theoreticalJustification": "La noticia falsa es insumo de alfabetización mediática. La nota inmediata, el quiz de fechas o el indicador de calidad miden sanción, cobertura o tablero, no verificación con el grupo.",
+    "id": "dir-apt-blan-342",
+    "options": [
+      "Calificar de inmediato el trabajo con la rúbrica de fuentes, bajar la nota por la noticia falsa y archivar el caso en el observador, sin abrir un taller de verificación con el grupo.",
+      "Aprovechar la noticia falsa presentada como fuente confiable para trabajar con el grupo criterios de verificación, contraste y evaluación de fuentes, y recién entonces valorar el producto.",
+      "Anular el trabajo de actualidad y sustituirlo por un quiz de fechas del DBA, para recuperar evidencia comparable y no dejar que la desinformación contamine la nota del período.",
+      "Reportar el episodio como indicador PMI de alfabetización mediática, levantar un porcentaje de fuentes no verificadas y archivar el hallazgo en calidad, sin mediar el error en el aula."
+    ]
+  }
+]

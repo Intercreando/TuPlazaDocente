@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1081,
+    "id": "dir-apt-num-333",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente organiza un debate en el que participan 28 estudiantes, divididos en 2 equipos con igual número de integrantes. Un docente propone reportar 12 (otra base, redondeo o indicador distinto); otro insiste en 16. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "14",
+      "12",
+      "16",
+      "10"
+    ],
+    "explanation": "28 ÷ 2 = 14 estudiantes por equipo.",
+    "normativeJustification": "28 ÷ 2 = 14 estudiantes por equipo.",
+    "theoreticalJustification": "28 ÷ 2 = 14 estudiantes por equipo.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1082,
+    "id": "dir-apt-num-334",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un curso, el 40% de los estudiantes eligió investigar sobre la Independencia y el 25% sobre la Constitución de 1991, del total de 32 estudiantes. Un docente propone reportar 9 (otra base, redondeo o indicador distinto); otro insiste en 13. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "explanation": "40% + 25% = 65%. El 35% restante corresponde a otro tema: 32 × 0.35 = 11 estudiantes.",
+    "normativeJustification": "40% + 25% = 65%. El 35% restante corresponde a otro tema: 32 × 0.35 = 11 estudiantes.",
+    "theoreticalJustification": "40% + 25% = 65%. El 35% restante corresponde a otro tema: 32 × 0.35 = 11 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1083,
+    "id": "dir-apt-num-335",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En 1991 la Asamblea Nacional Constituyente estuvo compuesta por 70 miembros, y el 20% pertenecía a partidos distintos a los tradicionales. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 12. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "explanation": "70 × 0.20 = 14 miembros.",
+    "normativeJustification": "70 × 0.20 = 14 miembros.",
+    "theoreticalJustification": "70 × 0.20 = 14 miembros.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1084,
+    "id": "dir-apt-num-336",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente de ciencias sociales dedica 3 de las 5 clases semanales al estudio de la historia y el resto a geografía. Un docente propone reportar 20% (otra base, redondeo o indicador distinto); otro insiste en 30%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "20%",
+      "30%",
+      "35%",
+      "40%"
+    ],
+    "explanation": "2 de las 5 clases se dedican a geografía: 2/5 = 0.40 = 40%.",
+    "normativeJustification": "2 de las 5 clases se dedican a geografía: 2/5 = 0.40 = 40%.",
+    "theoreticalJustification": "2 de las 5 clases se dedican a geografía: 2/5 = 0.40 = 40%.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1085,
+    "id": "dir-apt-num-337",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La tasa de desempleo de una ciudad es del 11.5% sobre una población económicamente activa de 800.000 personas. Un docente propone reportar 84.000 (otra base, redondeo o indicador distinto); otro insiste en 98.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "92.000",
+      "84.000",
+      "98.000",
+      "104.000"
+    ],
+    "explanation": "800.000 x 0.115 = 92.000 personas.",
+    "normativeJustification": "800.000 x 0.115 = 92.000 personas.",
+    "theoreticalJustification": "800.000 x 0.115 = 92.000 personas.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1086,
+    "id": "dir-apt-num-338",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente elabora un cuestionario sobre los órganos del poder público con 24 preguntas, distribuidas equitativamente entre las 3 ramas del poder. Un docente propone reportar 6 (otra base, redondeo o indicador distinto); otro insiste en 10. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "12"
+    ],
+    "explanation": "24 ÷ 3 = 8 preguntas por cada rama del poder público.",
+    "normativeJustification": "24 ÷ 3 = 8 preguntas por cada rama del poder público.",
+    "theoreticalJustification": "24 ÷ 3 = 8 preguntas por cada rama del poder público.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1087,
+    "id": "dir-apt-num-339",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Entre la Constitución de 1886 y la Constitución de 1991. Un docente propone reportar 95 (otra base, redondeo o indicador distinto); otro insiste en 100. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "95",
+      "100",
+      "105",
+      "110"
+    ],
+    "explanation": "1991 - 1886 = 105 años.",
+    "normativeJustification": "1991 - 1886 = 105 años.",
+    "theoreticalJustification": "1991 - 1886 = 105 años.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1088,
+    "id": "dir-apt-num-340",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una gráfica de distribución del territorio nacional, el 6% corresponde a áreas urbanas, sobre una superficie total de 1.140.000 km2. Un docente propone reportar 54.000 km2 (otra base, redondeo o indicador distinto); otro insiste en 60.000 km2. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "54.000 km2",
+      "60.000 km2",
+      "64.200 km2",
+      "68.400 km2"
+    ],
+    "explanation": "1.140.000 x 0.06 = 68.400 km².",
+    "normativeJustification": "1.140.000 x 0.06 = 68.400 km².",
+    "theoreticalJustification": "1.140.000 x 0.06 = 68.400 km².",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1089,
+    "id": "dir-apt-blan-341",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un debate en clase sobre un tema político genera posiciones muy polarizadas entre los estudiantes, con un tono cada vez más acalorado. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Recordar y reforzar las normas de escucha y respeto acordadas previamente, y redirigir el debate hacia el análisis de argumentos en lugar de posiciones personales.",
+      "Suspender permanentemente cualquier discusión sobre temas políticos en el aula.",
+      "Tomar partido abiertamente por una de las posiciones para orientar la discusión.",
+      "Dejar que el debate continúe sin ninguna intervención, sin importar el tono que tome."
+    ],
+    "explanation": "Reforzar las normas de respeto y reorientar hacia el análisis de argumentos permite mantener el valor pedagógico del debate sin perder el control del ambiente.",
+    "normativeJustification": "Reforzar las normas de respeto y reorientar hacia el análisis de argumentos permite mantener el valor pedagógico del debate sin perder el control del ambiente.",
+    "theoreticalJustification": "Reforzar las normas de respeto y reorientar hacia el análisis de argumentos permite mantener el valor pedagógico del debate sin perder el control del ambiente.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1090,
+    "id": "dir-apt-blan-342",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante presenta una noticia falsa (desinformación) como fuente confiable en un trabajo sobre un tema de actualidad. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Aprovechar la situación como oportunidad pedagógica para trabajar con el grupo criterios de verificación y evaluación de fuentes.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Convertir el error en una oportunidad de enseñanza sobre alfabetización mediática fortalece una competencia clave del área.",
+    "normativeJustification": "Convertir el error en una oportunidad de enseñanza sobre alfabetización mediática fortalece una competencia clave del área.",
+    "theoreticalJustification": "Convertir el error en una oportunidad de enseñanza sobre alfabetización mediática fortalece una competencia clave del área.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  }
+]

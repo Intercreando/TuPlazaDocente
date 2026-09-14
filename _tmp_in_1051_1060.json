@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1051,
+    "id": "dir-apt-lec-303",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia se caracteriza por una notable diversidad geográfica, resultado en buena parte de la presencia de la cordillera de los Andes, que se divide en tres ramales al ingresar al territorio nacional. Esta configuración da origen a regiones naturales tan distintas entre sí como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía, cada una con climas, ecosistemas y formas de poblamiento propias. Esta diversidad geográfica ha influido históricamente en la manera desigual en que se han desarrollado las vías de comunicación y las actividades económicas en las distintas zonas del país.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Colombia tiene una geografía completamente homogénea en todo su territorio.",
+      "La cordillera de los Andes no influye en la diversidad geográfica de Colombia.",
+      "La diversidad geográfica de Colombia, marcada por la cordillera de los Andes, ha influido en el desarrollo desigual de sus regiones.",
+      "Las cinco regiones naturales de Colombia tienen exactamente el mismo clima."
+    ],
+    "explanation": "El texto vincula la diversidad geográfica con el desarrollo desigual de las regiones del país.",
+    "normativeJustification": "El texto vincula la diversidad geográfica con el desarrollo desigual de las regiones del país.",
+    "theoreticalJustification": "El texto vincula la diversidad geográfica con el desarrollo desigual de las regiones del país.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1052,
+    "id": "dir-apt-lec-304",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia se caracteriza por una notable diversidad geográfica, resultado en buena parte de la presencia de la cordillera de los Andes, que se divide en tres ramales al ingresar al territorio nacional. Esta configuración da origen a regiones naturales tan distintas entre sí como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía, cada una con climas, ecosistemas y formas de poblamiento propias. Esta diversidad geográfica ha influido históricamente en la manera desigual en que se han desarrollado las vías de comunicación y las actividades económicas en las distintas zonas del país.",
+    "stem": "Según el texto, ¿qué origina la división de la cordillera de los Andes en tres ramales?",
+    "options": [
+      "La eliminación de las regiones naturales del país.",
+      "Una reducción en la diversidad de ecosistemas.",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "El origen de regiones naturales distintas, como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía."
+    ],
+    "explanation": "El texto lo señala explícitamente como consecuencia de esta configuración geográfica.",
+    "normativeJustification": "El texto lo señala explícitamente como consecuencia de esta configuración geográfica.",
+    "theoreticalJustification": "El texto lo señala explícitamente como consecuencia de esta configuración geográfica.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1053,
+    "id": "dir-apt-lec-305",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Uno de los conceptos fundamentales de la economía es la relación entre la oferta y la demanda de un bien o servicio: cuando la cantidad demandada por los consumidores supera la cantidad ofrecida por los productores, suele producirse una tendencia al aumento del precio, mientras que una oferta que supera ampliamente la demanda tiende a generar una reducción de precios. Sin embargo, esta relación no opera de manera igualmente libre en todos los mercados, ya que factores como la intervención estatal, los monopolios o la información imperfecta pueden alterar este comportamiento esperado.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La relación entre oferta y demanda influye en los precios, aunque distintos factores pueden alterar su comportamiento esperado.",
+      "Los precios nunca se ven afectados por la relación entre oferta y demanda.",
+      "La intervención estatal es el único factor que determina los precios en cualquier mercado.",
+      "La oferta y la demanda son conceptos que no tienen ninguna relación con los precios."
+    ],
+    "explanation": "El texto plantea la relación general entre oferta, demanda y precios, matizada por factores que pueden alterarla.",
+    "normativeJustification": "El texto plantea la relación general entre oferta, demanda y precios, matizada por factores que pueden alterarla.",
+    "theoreticalJustification": "El texto plantea la relación general entre oferta, demanda y precios, matizada por factores que pueden alterarla.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1054,
+    "id": "dir-apt-lec-306",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Uno de los conceptos fundamentales de la economía es la relación entre la oferta y la demanda de un bien o servicio: cuando la cantidad demandada por los consumidores supera la cantidad ofrecida por los productores, suele producirse una tendencia al aumento del precio, mientras que una oferta que supera ampliamente la demanda tiende a generar una reducción de precios. Sin embargo, esta relación no opera de manera igualmente libre en todos los mercados, ya que factores como la intervención estatal, los monopolios o la información imperfecta pueden alterar este comportamiento esperado.",
+    "stem": "Según el texto, ¿qué tiende a ocurrir cuando la demanda de un bien supera ampliamente su oferta?",
+    "options": [
+      "Una tendencia a la reducción del precio.",
+      "Una tendencia al aumento del precio.",
+      "La desaparición completa del bien del mercado.",
+      "Ninguna variación en el precio del bien."
+    ],
+    "explanation": "El texto lo señala explícitamente como la tendencia esperada en esa situación.",
+    "normativeJustification": "El texto lo señala explícitamente como la tendencia esperada en esa situación.",
+    "theoreticalJustification": "El texto lo señala explícitamente como la tendencia esperada en esa situación.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1055,
+    "id": "dir-apt-lec-307",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La democracia representativa, en la que los ciudadanos eligen a sus gobernantes mediante el voto, ha sido complementada en muchos países, incluido Colombia, con mecanismos de participación directa como el referendo, la consulta popular o el plebiscito. Estos mecanismos permiten que la ciudadanía se pronuncie directamente sobre decisiones específicas, más allá de la elección periódica de representantes, aunque su uso efectivo depende de condiciones como el acceso a información clara y la existencia de garantías para una participación libre e informada.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La democracia representativa ha sido eliminada por completo en Colombia.",
+      "Los mecanismos de participación directa reemplazan por completo la elección de representantes.",
+      "Los mecanismos de participación directa complementan la democracia representativa, aunque su efectividad depende de ciertas condiciones.",
+      "El plebiscito es el único mecanismo de participación ciudadana existente en Colombia."
+    ],
+    "explanation": "El texto plantea estos mecanismos como un complemento a la democracia representativa, condicionado a ciertos factores.",
+    "normativeJustification": "El texto plantea estos mecanismos como un complemento a la democracia representativa, condicionado a ciertos factores.",
+    "theoreticalJustification": "El texto plantea estos mecanismos como un complemento a la democracia representativa, condicionado a ciertos factores.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1056,
+    "id": "dir-apt-lec-308",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La democracia representativa, en la que los ciudadanos eligen a sus gobernantes mediante el voto, ha sido complementada en muchos países, incluido Colombia, con mecanismos de participación directa como el referendo, la consulta popular o el plebiscito. Estos mecanismos permiten que la ciudadanía se pronuncie directamente sobre decisiones específicas, más allá de la elección periódica de representantes, aunque su uso efectivo depende de condiciones como el acceso a información clara y la existencia de garantías para una participación libre e informada.",
+    "stem": "Según el texto, ¿de qué depende el uso efectivo de estos mecanismos de participación directa?",
+    "options": [
+      "Exclusivamente de la voluntad del gobierno de turno.",
+      "De la eliminación de la democracia representativa.",
+      "De que se apliquen únicamente en elecciones presidenciales.",
+      "Del acceso a información clara y de garantías para una participación libre e informada."
+    ],
+    "explanation": "El texto lo señala explícitamente como condiciones necesarias para su uso efectivo.",
+    "normativeJustification": "El texto lo señala explícitamente como condiciones necesarias para su uso efectivo.",
+    "theoreticalJustification": "El texto lo señala explícitamente como condiciones necesarias para su uso efectivo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1057,
+    "id": "dir-apt-lec-309",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia reconoce constitucionalmente su carácter pluriétnico y multicultural, lo que incluye el reconocimiento de más de un centenar de pueblos indígenas con lenguas, cosmovisiones y formas de organización propias. Este reconocimiento no se limita a un enunciado simbólico: implica, entre otros aspectos, el derecho de estos pueblos a la consulta previa frente a decisiones que puedan afectar sus territorios, así como a la jurisdicción especial indígena para resolver ciertos conflictos según sus propias normas y procedimientos.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El reconocimiento constitucional de la diversidad étnica de Colombia implica derechos concretos, como la consulta previa y la jurisdicción especial indígena.",
+      "Colombia no reconoce constitucionalmente ningún tipo de diversidad étnica.",
+      "Los pueblos indígenas de Colombia carecen de cualquier forma de organización propia.",
+      "La consulta previa es un mecanismo que no tiene ninguna relación con los pueblos indígenas."
+    ],
+    "explanation": "El texto plantea que este reconocimiento constitucional se traduce en derechos concretos, más allá de lo simbólico.",
+    "normativeJustification": "El texto plantea que este reconocimiento constitucional se traduce en derechos concretos, más allá de lo simbólico.",
+    "theoreticalJustification": "El texto plantea que este reconocimiento constitucional se traduce en derechos concretos, más allá de lo simbólico.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1058,
+    "id": "dir-apt-lec-310",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Colombia reconoce constitucionalmente su carácter pluriétnico y multicultural, lo que incluye el reconocimiento de más de un centenar de pueblos indígenas con lenguas, cosmovisiones y formas de organización propias. Este reconocimiento no se limita a un enunciado simbólico: implica, entre otros aspectos, el derecho de estos pueblos a la consulta previa frente a decisiones que puedan afectar sus territorios, así como a la jurisdicción especial indígena para resolver ciertos conflictos según sus propias normas y procedimientos.",
+    "stem": "Según el texto, ¿qué le permite a los pueblos indígenas la jurisdicción especial indígena?",
+    "options": [
+      "Estar exentos de cualquier tipo de normatividad.",
+      "Resolver ciertos conflictos según sus propias normas y procedimientos.",
+      "Eliminar la consulta previa en la toma de decisiones.",
+      "Participar exclusivamente en elecciones locales."
+    ],
+    "explanation": "El texto lo señala explícitamente como una de las implicaciones del reconocimiento constitucional.",
+    "normativeJustification": "El texto lo señala explícitamente como una de las implicaciones del reconocimiento constitucional.",
+    "theoreticalJustification": "El texto lo señala explícitamente como una de las implicaciones del reconocimiento constitucional.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1059,
+    "id": "dir-apt-lec-311",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los movimientos migratorios rara vez responden a una sola causa: factores económicos, como la búsqueda de mejores oportunidades laborales, suelen combinarse con motivos como la violencia, los desastres naturales o la persecución política. Comprender esta multicausalidad es importante para evitar explicaciones simplistas sobre los procesos migratorios, así como para diseñar políticas públicas que respondan de manera integral a las distintas necesidades de la población migrante.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Los movimientos migratorios siempre responden a una única causa económica.",
+      "La violencia y los desastres naturales nunca influyen en los procesos migratorios.",
+      "Los procesos migratorios suelen tener múltiples causas combinadas, lo que es importante para evitar explicaciones simplistas.",
+      "Las políticas públicas no deben considerar las causas de la migración."
+    ],
+    "explanation": "El texto plantea la multicausalidad como una idea central para comprender los procesos migratorios.",
+    "normativeJustification": "El texto plantea la multicausalidad como una idea central para comprender los procesos migratorios.",
+    "theoreticalJustification": "El texto plantea la multicausalidad como una idea central para comprender los procesos migratorios.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1060,
+    "id": "dir-apt-lec-312",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "subtopic": "Lectura crítica · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los movimientos migratorios rara vez responden a una sola causa: factores económicos, como la búsqueda de mejores oportunidades laborales, suelen combinarse con motivos como la violencia, los desastres naturales o la persecución política. Comprender esta multicausalidad es importante para evitar explicaciones simplistas sobre los procesos migratorios, así como para diseñar políticas públicas que respondan de manera integral a las distintas necesidades de la población migrante.",
+    "stem": "Según el texto, ¿para qué es importante comprender la multicausalidad de la migración?",
+    "options": [
+      "Para justificar el cierre total de fronteras.",
+      "Para culpar exclusivamente a los migrantes de su situación.",
+      "Para reducir la migración a un problema exclusivamente económico.",
+      "Para evitar explicaciones simplistas y diseñar políticas públicas más integrales."
+    ],
+    "explanation": "El texto lo señala explícitamente como propósito de comprender esta multicausalidad.",
+    "normativeJustification": "El texto lo señala explícitamente como propósito de comprender esta multicausalidad.",
+    "theoreticalJustification": "El texto lo señala explícitamente como propósito de comprender esta multicausalidad.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

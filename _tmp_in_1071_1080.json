@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1071,
+    "id": "dir-apt-num-323",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Entre el año 1810 y el año 1819 (Batalla de Boyacá). Un docente propone reportar 7 (otra base, redondeo o indicador distinto); otro insiste en 8. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "explanation": "1819 - 1810 = 9 años.",
+    "normativeJustification": "1819 - 1810 = 9 años.",
+    "theoreticalJustification": "1819 - 1810 = 9 años.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1072,
+    "id": "dir-apt-num-324",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un curso de ciencias sociales, un docente pide a sus 40 estudiantes ubicar en un mapa 5 países cada uno. Un docente propone reportar 150 (otra base, redondeo o indicador distinto); otro insiste en 180. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "150",
+      "180",
+      "190",
+      "200"
+    ],
+    "explanation": "40 × 5 = 200 ubicaciones.",
+    "normativeJustification": "40 × 5 = 200 ubicaciones.",
+    "theoreticalJustification": "40 × 5 = 200 ubicaciones.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1073,
+    "id": "dir-apt-num-325",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La inflación anual de un país fue del 4.5% y el salario mínimo se ajustó en un 6%. Un docente propone reportar 1.0% (otra base, redondeo o indicador distinto); otro insiste en 2.0%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "1.5%",
+      "1.0%",
+      "2.0%",
+      "2.5%"
+    ],
+    "explanation": "El incremento real aproximado se calcula restando la inflación al ajuste salarial: 6% - 4.5% = 1.5%.",
+    "normativeJustification": "El incremento real aproximado se calcula restando la inflación al ajuste salarial: 6% - 4.5% = 1.5%.",
+    "theoreticalJustification": "El incremento real aproximado se calcula restando la inflación al ajuste salarial: 6% - 4.5% = 1.5%.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1074,
+    "id": "dir-apt-num-326",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente de ciencias sociales organiza una línea del tiempo con 24 eventos históricos distribuidos equitativamente en 4 períodos. Un docente propone reportar 5 (otra base, redondeo o indicador distinto); otro insiste en 7. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "explanation": "24 ÷ 4 = 6 eventos por período.",
+    "normativeJustification": "24 ÷ 4 = 6 eventos por período.",
+    "theoreticalJustification": "24 ÷ 4 = 6 eventos por período.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1075,
+    "id": "dir-apt-num-327",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una encuesta aplicada a 200 estudiantes sobre participación en el gobierno escolar, el 35% afirmó haber votado en la última elección de personero. Un docente propone reportar 60 (otra base, redondeo o indicador distinto); otro insiste en 65. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "60",
+      "65",
+      "70",
+      "75"
+    ],
+    "explanation": "200 × 0.35 = 70 estudiantes.",
+    "normativeJustification": "200 × 0.35 = 70 estudiantes.",
+    "theoreticalJustification": "200 × 0.35 = 70 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1076,
+    "id": "dir-apt-num-328",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La superficie de un país es de 1.140.000 km2 y el 12% corresponde a áreas protegidas. Un docente propone reportar 108.000 km2 (otra base, redondeo o indicador distinto); otro insiste en 120.000 km2. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "108.000 km2",
+      "120.000 km2",
+      "128.000 km2",
+      "136.800 km2"
+    ],
+    "explanation": "1.140.000 × 0.12 = 136.800 km².",
+    "normativeJustification": "1.140.000 × 0.12 = 136.800 km².",
+    "theoreticalJustification": "1.140.000 × 0.12 = 136.800 km².",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1077,
+    "id": "dir-apt-num-329",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente revisa 36 mapas conceptuales sobre la Constitución de 1991, a un ritmo de 4 minutos cada uno. Un docente propone reportar 2h 12min (otra base, redondeo o indicador distinto); otro insiste en 2h 36min. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "2h 24min",
+      "2h 12min",
+      "2h 36min",
+      "2h 48min"
+    ],
+    "explanation": "36 x 4 = 144 minutos = 2 horas con 24 minutos.",
+    "normativeJustification": "36 x 4 = 144 minutos = 2 horas con 24 minutos.",
+    "theoreticalJustification": "36 x 4 = 144 minutos = 2 horas con 24 minutos.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1078,
+    "id": "dir-apt-num-330",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una gráfica de crecimiento poblacional, una ciudad pasó de 1.200.000 a 1.500.000 habitantes en 10 años. Un docente propone reportar 20% (otra base, redondeo o indicador distinto); otro insiste en 30%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "explanation": "Incremento: 1.500.000 - 1.200.000 = 300.000. Porcentaje: 300.000 / 1.200.000 = 0.25 = 25%.",
+    "normativeJustification": "Incremento: 1.500.000 - 1.200.000 = 300.000. Porcentaje: 300.000 / 1.200.000 = 0.25 = 25%.",
+    "theoreticalJustification": "Incremento: 1.500.000 - 1.200.000 = 300.000. Porcentaje: 300.000 / 1.200.000 = 0.25 = 25%.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1079,
+    "id": "dir-apt-num-331",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente asigna un taller de análisis de fuentes históricas con 15 preguntas. Un estudiante responde correctamente el 60%. Un docente propone reportar 7 (otra base, redondeo o indicador distinto); otro insiste en 8. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "explanation": "15 × 0.60 = 9 preguntas.",
+    "normativeJustification": "15 × 0.60 = 9 preguntas.",
+    "theoreticalJustification": "15 × 0.60 = 9 preguntas.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 1080,
+    "id": "dir-apt-num-332",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "subtopic": "Razonamiento cuantitativo · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El Producto Interno Bruto (PIB) de un país fue de $280 billones de pesos, y el sector agropecuario representó el 7% de ese total. Un docente propone reportar $14 billones (otra base, redondeo o indicador distinto); otro insiste en $16.8 billones. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$14 billones",
+      "$16.8 billones",
+      "$18.2 billones",
+      "$19.6 billones"
+    ],
+    "explanation": "280 × 0.07 = $19.6 billones de pesos.",
+    "normativeJustification": "280 × 0.07 = $19.6 billones de pesos.",
+    "theoreticalJustification": "280 × 0.07 = $19.6 billones de pesos.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  }
+]

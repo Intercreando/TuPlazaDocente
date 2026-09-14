@@ -1,0 +1,92 @@
+[
+  {
+    "id": "dir-apt-ped-298",
+    "correctIndex": 1,
+    "caseContext": "En primaria organizan el período alrededor de preguntas del entorno, articulando áreas. No es “todo el año un examen”, ni prescindir de planeación, ni una sola área.",
+    "stem": "¿Qué caracteriza principalmente a un currículo por proyectos de aula en primaria?",
+    "options": [
+      "Organizar el año alrededor del examen final del período, de modo que las preguntas del entorno queden al servicio de ensayar la prueba y no de articular áreas.",
+      "Articular aprendizajes de distintas áreas alrededor de preguntas o problemáticas significativas del entorno, con planeación que integra el período de primaria.",
+      "Dejar el período al currículo emergente, prescindiendo de la planeación docente, porque el proyecto nace del interés del grupo y no requiere una secuencia.",
+      "Limitar el proyecto a una área como profundidad disciplinar del DBA, y reportarlo como indicador de rigor en el PMI, sin articular las demás áreas del entorno."
+    ],
+    "explanation": "La condición de calidad pregunta qué caracteriza principalmente un currículo por proyectos de aula en primaria. Articula aprendizajes de distintas áreas alrededor de preguntas significativas del entorno. Organizar el año en función del examen final reduce el proyecto a ensayo de prueba. Prescindir de la planeación como currículo emergente deja el período sin secuencia. Limitarlo a una área como rigor del DBA o del PMI niega la articulación que el caso describe.",
+    "distractorAnalysis": {
+      "0": "Trampa del examen como eje: organizar el año alrededor de la prueba final parece preparación responsable. Las preguntas del entorno quedan al servicio del ensayo y no de articular áreas.",
+      "2": "Trampa del currículo emergente: prescindir de la planeación porque el proyecto nace del interés parece respeto al grupo. Deja el período de primaria sin secuencia y contradice el caso.",
+      "3": "Trampa de dominio cruzado del DBA y el PMI: limitar el proyecto a una área como profundidad disciplinar parece rigor de calidad. Niega la articulación de áreas alrededor del entorno que pide el stem."
+    }
+  },
+  {
+    "id": "dir-apt-ped-291",
+    "correctIndex": 2,
+    "caseContext": "Las tablets se reservan “a quienes no tienen dificultad” o se usa un único formato. Inclusión con TIC es ofrecer distintas formas de acceso y expresión según necesidades, no reemplazar al docente.",
+    "stem": "El uso de las TIC como herramienta de inclusión implica principalmente que:",
+    "options": [
+      "Reservar las tablets a quienes «las aprovechan mejor» o no presentan dificultad, para no desperdiciar dispositivos y sostener un uso eficiente visible en el aula inclusiva.",
+      "Sustituir la mediación del docente por plataformas personalizadas que asignan rutas, de modo que la inclusión quede delegada al software y el adulto supervise el tablero de avances.",
+      "Usar las TIC para ofrecer distintas formas de acceso a la información y de expresión según necesidades, en línea con el DUA, sin reservar dispositivos ni reemplazar al docente.",
+      "Limitar el aula a un mismo tipo de dispositivo y un formato de evidencia para el SIEE o el PMI digital, argumentando que la comparabilidad exige la misma vía de acceso y expresión."
+    ],
+    "explanation": "La condición de calidad pregunta qué implica principalmente el uso de las TIC como herramienta de inclusión. Implica ofrecer distintas formas de acceso y de expresión según necesidades, en clave DUA. Reservar tablets a quienes no tienen dificultad niega el acceso a quien más las requiere. Sustituir la mediación docente por plataformas personalizadas deja la inclusión en el software. Unificar dispositivo y formato para el SIEE o el PMI digital prioriza comparabilidad sobre diversidad de vías.",
+    "distractorAnalysis": {
+      "0": "Trampa de la eficiencia: reservar tablets a quienes las aprovechan mejor parece no desperdiciar recursos. Niega el acceso precisamente a quien las necesita como vía de inclusión.",
+      "1": "Trampa de la plataforma personalizada: delegar rutas al software parece atención individual. Sustituye la mediación docente que el caso mantiene como parte de la inclusión con TIC.",
+      "3": "Trampa de dominio cruzado del SIEE y el PMI digital: un mismo dispositivo y formato lucen como evidencia comparable. Priorizan homogeneidad sobre las distintas formas de acceso y expresión que pide el DUA."
+    }
+  },
+  {
+    "id": "dir-apt-lec-303",
+    "correctIndex": 2,
+    "caseContext": "Colombia se caracteriza por una notable diversidad geográfica, resultado en buena parte de la presencia de la cordillera de los Andes, que se divide en tres ramales al ingresar al territorio nacional. Esta configuración da origen a regiones naturales tan distintas entre sí como la Andina, la Caribe, la Pacífica, la Orinoquía y la Amazonía, cada una con climas, ecosistemas y formas de poblamiento propias. Esta diversidad geográfica ha influido históricamente en la manera desigual en que se han desarrollado las vías de comunicación y las actividades económicas en las distintas zonas del país.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Colombia se presenta como una unidad geográfica nacional homogénea, de modo que climas, ecosistemas y poblamiento se lean como un territorio continuo, sin regiones naturales distintas ni desarrollo desigual de vías.",
+      "La cordillera de los Andes influye poco en la diversidad geográfica frente a las costas, de modo que el Caribe y el Pacífico explicarían las regiones y el poblamiento más que los tres ramales.",
+      "La diversidad geográfica de Colombia, marcada por la cordillera de los Andes y sus tres ramales, ha influido en el desarrollo desigual de las vías de comunicación y de las actividades económicas regionales.",
+      "Las cinco regiones naturales deben consignarse con el mismo clima en el indicador de equidad territorial del PMI, para que el informe de calidad acredite homogeneidad ambiental entre Andina, Caribe y Amazonía."
+    ],
+    "explanation": "La condición de calidad pide la idea principal del texto. El pasaje sostiene que la diversidad geográfica, resultado en buena parte de los Andes y de su división en tres ramales, da origen a cinco regiones naturales y ha influido en el desarrollo desigual de vías y de actividades económicas. Leer a Colombia como una unidad geográfica homogénea invierte esa diversidad de climas, ecosistemas y poblamiento. Minimizar el papel de los Andes frente a las costas contradice el peso que el texto les asigna al ingresar al territorio. Homogeneizar el clima de las cinco regiones en un indicador de equidad del PMI importa un reporte de calidad que el pasaje no afirma.",
+    "distractorAnalysis": {
+      "0": "Trampa de la homogeneidad territorial: leer unidad geográfica nacional parece cohesión del país. El texto describe regiones distintas y un desarrollo desigual de vías y economía, no un territorio continuo.",
+      "1": "Trampa de minimizar los Andes: privilegiar costas del Caribe y del Pacífico parece explicar dos regiones nombradas. El pasaje sitúa los tres ramales como origen de la diversidad y del poblamiento desigual.",
+      "3": "Trampa de dominio cruzado del PMI: consignar el mismo clima en las cinco regiones parece equidad territorial de un informe. El texto las distingue por climas, ecosistemas y poblamiento, no por homogeneidad de calidad."
+    }
+  },
+  {
+    "id": "dir-apt-lec-305",
+    "correctIndex": 0,
+    "caseContext": "Uno de los conceptos fundamentales de la economía es la relación entre la oferta y la demanda de un bien o servicio: cuando la cantidad demandada por los consumidores supera la cantidad ofrecida por los productores, suele producirse una tendencia al aumento del precio, mientras que una oferta que supera ampliamente la demanda tiende a generar una reducción de precios. Sin embargo, esta relación no opera de manera igualmente libre en todos los mercados, ya que factores como la intervención estatal, los monopolios o la información imperfecta pueden alterar este comportamiento esperado.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La relación entre oferta y demanda influye en los precios, aunque la intervención estatal, los monopolios o la información imperfecta pueden alterar ese comportamiento esperado en distintos mercados.",
+      "Los precios de un bien o servicio quedan determinados por los costos de producción, de modo que oferta y demanda ocuparían un lugar secundario frente a esa contabilidad de insumos y márgenes.",
+      "La intervención estatal garantiza el precio justo en los mercados, de modo que monopolios e información imperfecta quedarían corregidos y la relación oferta-demanda perdería capacidad de alterar valores.",
+      "Oferta y demanda se reportan como cupos y lista de espera del SIEE, sin relación con los precios de mercado, de modo que el indicador de matrícula sustituya la lectura económica del texto."
+    ],
+    "explanation": "La condición de calidad pide la idea principal del texto. El pasaje plantea que oferta y demanda influyen en los precios, y que intervención estatal, monopolios o información imperfecta pueden alterar ese comportamiento esperado. Determinar los precios por costos de producción importa una teoría vecina que el fragmento no usa. Tratar la intervención estatal como garantía de precio justo sobregeneraliza un factor que el texto cita como alteración posible. Reportar oferta y demanda como cupos del SIEE desplaza el objeto hacia la matrícula escolar.",
+    "distractorAnalysis": {
+      "1": "Trampa de los costos de producción: fijar el precio por insumos y márgenes parece teoría económica ordenada. El texto no la usa; sitúa oferta y demanda, con factores que pueden alterar el comportamiento esperado.",
+      "2": "Trampa de garantizar el precio justo: leer la intervención estatal como corrección plena parece defensa del consumidor. El pasaje la cita como un factor que puede alterar la relación, no como garantía del valor.",
+      "3": "Trampa de dominio cruzado del SIEE: reportar oferta y demanda como cupos y lista de espera luce como economía escolar. El texto habla de precios de mercado, no del indicador de matrícula."
+    }
+  },
+  {
+    "id": "dir-apt-num-327",
+    "correctIndex": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una encuesta aplicada a 200 estudiantes sobre participación en el gobierno escolar, el 35% afirmó haber votado en la última elección de personero. Un docente propone reportar 60 (otra base, redondeo o indicador distinto); otro insiste en 65. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Reportar 60 votos de personero en el PMI, tomando 200 × 0,30 (30% redondo), como propone el docente, porque deja una participación cauta comparable con el histórico de gobierno escolar.",
+      "Consignar 65 votos en el acta de calidad, usando 200 × 0,325 (punto medio entre 30% y 35%), como insiste el segundo docente, para no tensionar el informe de la elección de personero ante Secretaría.",
+      "Consignar 70 estudiantes que votaron personero en el acta institucional: 200 × 0,35 = 70, cifra del comité de calidad, sin redondear el 35% ni cambiar la base de 200 que pide Secretaría.",
+      "Registrar 75 votos en el tablero PMI, tomando 200 × 0,375 o una meta de participación, para que la elección de personero luzca alineada con la calidad de Secretaría."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación, sin redondear ni cambiar la base. El 35% de 200 estudiantes es 200 × 0,35 = 70 votos de personero. Esa es la cifra del acta de gobierno escolar. El 60 toma el 30%; el 65 usa 0,325; el 75 toma 0,375 o la meta del tablero. Ninguna conserva 200 × 0,35 sobre la encuesta del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa del 30% redondo: 60 = 200 × 0,30, como propone el docente. Sustituye el 35% de la encuesta. No es 200 × 0,35 = 70 estudiantes que votaron personero.",
+      "1": "Trampa del punto medio 32,5%: 65 = 200 × 0,325, como insiste el segundo docente. Promedia 30% y 35%. No conserva 70 votos.",
+      "3": "Trampa de dominio cruzado de la meta PMI: 75 = 200 × 0,375 o techo de participación. Es un indicador plausible de gobierno escolar. Infla el 35% y no es 70."
+    }
+  }
+]

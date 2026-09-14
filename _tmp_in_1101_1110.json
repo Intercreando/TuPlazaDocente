@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 1101,
+    "id": "dir-apt-blan-353",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Estudiantes de estratos socioeconómicos distintos expresan opiniones muy diferentes sobre un tema de política pública, generando cierta tensión en el grupo. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Facilitar que las distintas perspectivas se expresen con respeto, y usar la diversidad de opiniones como insumo para analizar el tema desde múltiples ángulos.",
+      "Descalificar las opiniones que no coincidan con la posición mayoritaria del grupo.",
+      "Evitar cualquier tema de política pública para no generar tensión en el aula.",
+      "Pedir a los estudiantes que oculten su origen socioeconómico durante la discusión."
+    ],
+    "explanation": "Facilitar la expresión respetuosa de las distintas perspectivas enriquece el análisis del tema desde múltiples ángulos, en lugar de evitarlo.",
+    "normativeJustification": "Facilitar la expresión respetuosa de las distintas perspectivas enriquece el análisis del tema desde múltiples ángulos, en lugar de evitarlo.",
+    "theoreticalJustification": "Facilitar la expresión respetuosa de las distintas perspectivas enriquece el análisis del tema desde múltiples ángulos, en lugar de evitarlo.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1102,
+    "id": "dir-apt-blan-354",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante manifiesta desinterés total por la clase de ciencias sociales, calificándola como 'poco útil'. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Conversar con el estudiante para entender su percepción, y explorar formas de conectar los contenidos con situaciones o intereses relevantes para él.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Indagar la percepción del estudiante y buscar conexiones significativas con sus intereses es más constructivo que ignorar o sancionar su comentario.",
+    "normativeJustification": "Indagar la percepción del estudiante y buscar conexiones significativas con sus intereses es más constructivo que ignorar o sancionar su comentario.",
+    "theoreticalJustification": "Indagar la percepción del estudiante y buscar conexiones significativas con sus intereses es más constructivo que ignorar o sancionar su comentario.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1103,
+    "id": "dir-apt-blan-355",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante un simulacro de las Naciones Unidas (Modelo ONU), un estudiante debe representar una postura con la que está personalmente en desacuerdo. Manifiesta incomodidad con esto al docente. ¿Cuál sería la respuesta más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Explicarle el valor pedagógico de representar posturas distintas a la propia para desarrollar empatía y comprensión de otras perspectivas, ofreciendo acompañamiento en el proceso.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Explicar el valor formativo de representar posturas distintas, ofreciendo acompañamiento, ayuda a resignificar la incomodidad inicial como parte del aprendizaje.",
+    "normativeJustification": "Explicar el valor formativo de representar posturas distintas, ofreciendo acompañamiento, ayuda a resignificar la incomodidad inicial como parte del aprendizaje.",
+    "theoreticalJustification": "Explicar el valor formativo de representar posturas distintas, ofreciendo acompañamiento, ayuda a resignificar la incomodidad inicial como parte del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1104,
+    "id": "dir-apt-blan-356",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante llega visiblemente alterado a clase tras haber visto noticias recientes sobre un hecho de violencia ocurrido en el país. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Permitir un breve espacio para que el estudiante exprese cómo se siente, y evaluar si es pertinente ajustar la actividad planeada o remitirlo a apoyo institucional si es necesario."
+    ],
+    "explanation": "Ofrecer un espacio breve de expresión emocional, con flexibilidad en la actividad planeada, atiende la situación del estudiante de forma sensible y oportuna.",
+    "normativeJustification": "Ofrecer un espacio breve de expresión emocional, con flexibilidad en la actividad planeada, atiende la situación del estudiante de forma sensible y oportuna.",
+    "theoreticalJustification": "Ofrecer un espacio breve de expresión emocional, con flexibilidad en la actividad planeada, atiende la situación del estudiante de forma sensible y oportuna.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1105,
+    "id": "dir-apt-blan-357",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Se presenta un desacuerdo entre estudiantes sobre la interpretación de un hecho histórico controvertido, cada uno defendiendo una versión distinta. ¿Cuál sería la actuación más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Guiar el análisis hacia el contraste de distintas fuentes e interpretaciones históricas, mostrando que la historia admite más de una lectura fundamentada.",
+      "Imponer una única interpretación como la correcta, sin ningún análisis adicional.",
+      "Evitar cualquier tema histórico que pueda generar interpretaciones distintas.",
+      "Pedir a los estudiantes que voten cuál interpretación es la correcta."
+    ],
+    "explanation": "Guiar el contraste de fuentes e interpretaciones desarrolla el pensamiento histórico crítico, más que imponer una única versión.",
+    "normativeJustification": "Guiar el contraste de fuentes e interpretaciones desarrolla el pensamiento histórico crítico, más que imponer una única versión.",
+    "theoreticalJustification": "Guiar el contraste de fuentes e interpretaciones desarrolla el pensamiento histórico crítico, más que imponer una única versión.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1106,
+    "id": "dir-apt-blan-358",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante cuestiona por qué debe estudiar la historia de otros países y no solo la de Colombia. ¿Cuál sería la respuesta más adecuada del docente? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Explicarle, con ejemplos concretos, cómo los procesos históricos de otros países ayudan a comprender mejor los propios y el mundo interconectado en el que vivimos.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Explicar con ejemplos concretos el valor comparativo de la historia mundial responde a la inquietud del estudiante de forma pedagógicamente sólida.",
+    "normativeJustification": "Explicar con ejemplos concretos el valor comparativo de la historia mundial responde a la inquietud del estudiante de forma pedagógicamente sólida.",
+    "theoreticalJustification": "Explicar con ejemplos concretos el valor comparativo de la historia mundial responde a la inquietud del estudiante de forma pedagógicamente sólida.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 1107,
+    "id": "dir-apt-blan-359",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Al calificar un ensayo argumentativo sobre un tema social, el docente identifica una opinión con la que está personalmente en desacuerdo, aunque bien argumentada. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Bajar la calificación por no compartir la opinión expresada.",
+      "Pedirle al estudiante que cambie su opinión antes de calificar el trabajo.",
+      "Evaluar el ensayo según la calidad de la argumentación y el uso de evidencia, independientemente de si el docente comparte o no la opinión expresada.",
+      "Anular el trabajo por considerarlo inapropiado."
+    ],
+    "explanation": "Evaluar según la calidad argumentativa, sin que la opinión personal del docente influya en la calificación, es esencial para la objetividad del proceso evaluativo.",
+    "normativeJustification": "Evaluar según la calidad argumentativa, sin que la opinión personal del docente influya en la calificación, es esencial para la objetividad del proceso evaluativo.",
+    "theoreticalJustification": "Evaluar según la calidad argumentativa, sin que la opinión personal del docente influya en la calificación, es esencial para la objetividad del proceso evaluativo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1108,
+    "id": "dir-apt-blan-360",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "subtopic": "Competencias blandas · Ciencias Sociales (ola 4)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante pregunta directamente al docente cuál es su opinión política personal sobre un tema controvertido que se está discutiendo en clase. ¿Cuál sería la respuesta más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir abiertamente su opinión personal y defenderla frente al grupo como la posición correcta.",
+      "Reprender al estudiante por hacer una pregunta de este tipo.",
+      "Mentir sobre su opinión para evitar cualquier tipo de conflicto.",
+      "Explicar con respeto que su rol como docente es presentar distintas perspectivas de manera equilibrada, más que imponer su opinión personal sobre el grupo."
+    ],
+    "explanation": "Mantener un rol equilibrado, sin imponer la opinión personal, es coherente con la función formativa del docente frente a temas controvertidos.",
+    "normativeJustification": "Mantener un rol equilibrado, sin imponer la opinión personal, es coherente con la función formativa del docente frente a temas controvertidos.",
+    "theoreticalJustification": "Mantener un rol equilibrado, sin imponer la opinión personal, es coherente con la función formativa del docente frente a temas controvertidos.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 1109,
+    "id": "dir-apt-dis-361",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Dos fechas circulan en el aula: 20 de julio de 1810 (Grito de Independencia en Santafé) y 7 de agosto de 1819 (Boyacá). Un estudiante las fusiona como “20 de julio de 1819”. Se pide distinguir inicio del proceso y hito militar decisivo.",
+    "stem": "¿Qué datación del Grito hay que orientar como aprendizaje esencial y qué error hay que reenseñar?",
+    "options": [
+      "20 de julio de 1810, y reenseñar no confundirlo con la Batalla de Boyacá (7 de agosto de 1819).",
+      "7 de agosto de 1819 como “Grito”, fusionando ambos hitos.",
+      "20 de julio de 1819, mezclando día del Grito con año de Boyacá.",
+      "5 de agosto de 1810, por cercanía al calendario escolar."
+    ],
+    "explanation": "El Grito de Independencia se conmemora el 20 de julio de 1810. El 7 de agosto de 1819 es la Batalla de Boyacá, otro hito.",
+    "normativeJustification": "El Grito de Independencia se conmemora el 20 de julio de 1810. El 7 de agosto de 1819 es la Batalla de Boyacá, otro hito.",
+    "theoreticalJustification": "El Grito de Independencia se conmemora el 20 de julio de 1810. El 7 de agosto de 1819 es la Batalla de Boyacá, otro hito.",
+    "distractorAnalysis": {
+      "1": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  },
+  {
+    "pos": 1110,
+    "id": "dir-apt-dis-362",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias Sociales · conocimientos disciplinares",
+    "subtopic": "Ciencias Sociales · conocimientos disciplinares",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [],
+    "caseContext": "Sobre Boyacá (7 de agosto de 1819), un texto estudiantil dice que “ahí empezó la independencia” (omitendo 1810). Otro explica que la victoria patriota abrió el camino a Bogotá y consolidó el proceso. Otro la presenta como “la primera Constitución”.",
+    "stem": "¿Qué interpretación del hito es la más defendible y qué error hay que reenseñar?",
+    "options": [
+      "Que Boyacá inicia el proceso, borrando el Grito de 1810, aunque ahorre tiempo visible de clase o de consejo.",
+      "Que consolidó la independencia al derrotar realistas y abrir el avance a Bogotá, y reenseñar no confundir inicio con desenlace militar.",
+      "Que allí se promulgó la primera Constitución, aunque parezca un trámite equitativo o suficiente.",
+      "Que cerró para siempre todo conflicto interno criollo, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Boyacá fue decisiva para consolidar la independencia y avanzar sobre Bogotá. No es el inicio del proceso (1810) ni un acto constitucional.",
+    "normativeJustification": "Boyacá fue decisiva para consolidar la independencia y avanzar sobre Bogotá. No es el inicio del proceso (1810) ni un acto constitucional.",
+    "theoreticalJustification": "Boyacá fue decisiva para consolidar la independencia y avanzar sobre Bogotá. No es el inicio del proceso (1810) ni un acto constitucional.",
+    "distractorAnalysis": {
+      "0": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "2": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial.",
+      "3": "Concepción plausible (sentido cotidiano, anacronismo o magnitud vecina) que no corresponde al aprendizaje esencial."
+    }
+  }
+]
