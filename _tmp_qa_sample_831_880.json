@@ -1,0 +1,107 @@
+[
+  {
+    "pos": 857,
+    "id": "dir-apt-lec-109",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "La articulación de la educación media con instituciones como el SENA permite que los estudiantes de grados décimo y undécimo cursen formación técnica laboral, obteniendo una certificación adicional a su título de bachiller. Para que esta articulación funcione, la institución educativa debe garantizar espacios, tiempos y, en algunos casos, instructores calificados, además de gestionar convenios formales que definan las responsabilidades de cada entidad participante en el proceso.",
+    "stem": "¿Qué permite la articulación de la educación media con el SENA, según el texto?",
+    "options": [
+      "Que los estudiantes de décimo y undécimo cursen formación técnica laboral y obtengan una certificación adicional a su título de bachiller, mediante la articulación de la educación media con instituciones como el SENA.",
+      "Que la certificación técnica laboral del SENA sustituya el título de bachiller de los estudiantes articulados de décimo y undécimo, de modo que la media se cierre con el certificado de la entidad de formación para el trabajo.",
+      "Que el currículo de la educación media se reemplace por entero por la malla del SENA, de modo que las áreas de la institución cedan su lugar al programa técnico y desaparezca el plan de estudios de décimo y undécimo.",
+      "Que la articulación sustituya la financiación de la educación media a cargo del Sistema General de Participaciones, de modo que los cupos SENA releven a la institución y a la entidad territorial de la Ley 715 en esos grados."
+    ],
+    "explanation": "La condición de calidad pide qué permite la articulación de la educación media con el SENA, según el texto. El pasaje afirma que estudiantes de décimo y undécimo cursan formación técnica laboral y obtienen una certificación adicional a su título de bachiller. Sustituir el bachillerato por la certificación SENA invierte el carácter adicional de esa titulación. Reemplazar por entero el currículo de media sobregeneraliza una articulación que el texto no presenta como supresión de la malla. Afirmar que la articulación releva la financiación de la media por cupos SENA introduce un saber de la Ley 715 y del SGP que el relato no sostiene.",
+    "distractorAnalysis": {
+      "1": "Trampa de sustituir el bachillerato: cerrar la media con el certificado SENA parece doble vía laboral. El texto afirma una certificación adicional al título de bachiller, no el reemplazo de ese título para los estudiantes articulados.",
+      "2": "Trampa de reemplazar el currículo: ceder toda la malla de décimo y undécimo al SENA parece articulación profunda. El pasaje describe formación técnica laboral concurrente, no la supresión del plan de estudios de la educación media.",
+      "3": "Trampa de dominio cruzado de la Ley 715 y del SGP: relevar la financiación de media con cupos SENA parece eficiencia de recursos. El texto no afirma esa sustitución presupuestal; habla de certificación adicional al bachillerato."
+    }
+  },
+  {
+    "pos": 878,
+    "id": "dir-apt-num-130",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente dicta 22 horas de clase a la semana. El año escolar tiene 40 semanas efectivas. Un docente propone reportar 840 (otra base, redondeo o indicador distinto); otro insiste en 800. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Reportar 840 horas anuales en el PMI, multiplicando 21 × 40 al omitir una hora semanal, porque deja un total «ajustado» comparable con otra asignación de la planta ya radicada.",
+      "Consignar 880 horas anuales: 22 × 40 semanas efectivas, como el producto exacto de la intensidad semanal del docente, sin recortar una hora ni inflar la jornada ni el calendario.",
+      "Consignar 800 horas en el acta de calidad, tomando 20 × 40 como jornada «limpia» de otra vigencia o de otro cargo, para no tensionar el informe de horas ante Secretaría.",
+      "Registrar 900 horas en el tablero de calidad, usando 22,5 × 40 o 22 × ~41 semanas, para dejar holgura de gestión en el indicador de tiempo escolar ante Secretaría."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos y la operación, sin redondear ni cambiar la base. 22 horas semanales por 40 semanas efectivas son 22 × 40 = 880 horas anuales. Esa es la cifra del acta. 840 omite una hora (21 × 40); 800 usa 20 × 40 como jornada «limpia»; 900 infla a 22,5 × 40. Ninguna conserva 22 y 40 del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de omitir una hora: 840 = 21 × 40. Recorta la intensidad semanal de 22. Reporta otra asignación de planta, no 22 × 40 semanas efectivas.",
+      "2": "Trampa de la jornada «limpia» a 20 horas: 800 = 20 × 40. Usa otra intensidad o otra vigencia. No es 22 × 40 semanas efectivas del docente del caso.",
+      "3": "Trampa de dominio cruzado de las 40 semanas con holgura: 900 = 22,5 × 40 o 22 × ~41. Infla el tiempo escolar en el tablero; no conserva 22 y 40."
+    }
+  },
+  {
+    "pos": 870,
+    "id": "dir-apt-num-122",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una jornada de evaluación docente, se citan 45 docentes en grupos de 9 para las entrevistas. Un docente propone reportar 4 (otra base, redondeo o indicador distinto); otro insiste en 6. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Reportar 4 grupos de entrevista en el acta, tomando 36 docentes ÷ 9 o 45 ÷ 11, como si se omitiera a 9 docentes de la jornada o se agrandara el cupo, para un recuento ajustado de calidad.",
+      "Consignar 5 grupos de entrevista, resultantes de 45 docentes ÷ 9 por grupo, como la cifra exacta de la jornada de evaluación docente, sin redondear ni sustituir el tamaño del grupo ni el n citado en el caso.",
+      "Registrar 6 grupos en el PMI de la jornada, tomando 54 ÷ 9 (sumando 9 docentes de más) o 45 ÷ 7,5, para dejar un número de entrevistas que cubra holgura de agenda ante Secretaría.",
+      "Cargar 9 como número de grupos de entrevista en el informe de planta, confundiendo el tamaño de cada grupo (9 docentes) con el n de grupos, porque 9 es la cifra visible de la convocatoria de evaluación."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base. Hay 45 docentes citados en grupos de 9 para las entrevistas: 45 ÷ 9 = 5 grupos. Esa es la cifra del acta de la jornada de evaluación docente. Reportar 4 omite 9 docentes (36 ÷ 9) o divide 45 entre 11. Reportar 6 usa 54 ÷ 9 o 45 ÷ 7,5; reportar 9 confunde el tamaño de cada grupo con el número de grupos.",
+    "distractorAnalysis": {
+      "0": "Trampa de omitir nueve docentes: 4 grupos salen de 36 ÷ 9 o de 45 ÷ 11. El recuento parece ajustado, pero recorta la jornada de 45 o agranda el cupo por grupo y no es 45 ÷ 9.",
+      "2": "Trampa de inflar la agenda: 6 grupos salen de 54 ÷ 9 o de 45 ÷ 7,5. Cubre holgura de entrevistas, pero suma docentes de más o reduce el tamaño de grupo respecto a los 9 del caso.",
+      "3": "Trampa de dominio cruzado de la planta: reportar 9 como número de grupos toma el tamaño de cada entrevista (9 docentes) como indicador de cobertura de la jornada. Confunde n del grupo con n de grupos; no divide 45 ÷ 9."
+    }
+  },
+  {
+    "pos": 860,
+    "id": "dir-apt-lec-112",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "La operación de un comedor escolar en el marco del Programa de Alimentación Escolar exige el cumplimiento de normas sanitarias estrictas, incluyendo la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y la infraestructura. El rector, aunque no es responsable directo de la operación del operador contratado, debe realizar seguimiento y reportar oportunamente cualquier irregularidad que ponga en riesgo la salud de los estudiantes.",
+    "stem": "¿Qué aspectos menciona el texto como parte de las normas sanitarias exigidas?",
+    "options": [
+      "Incluir el horario de clases y la organización de la jornada como requisito sanitario del comedor escolar, de modo que la malla curricular y los periodos lectivos acrediten el cumplimiento de las normas del Programa de Alimentación Escolar.",
+      "Tomar el número de estudiantes matriculados en el SIMAT como norma sanitaria del comedor, de modo que la cobertura reportada sustituya el control de la cadena de frío y la verificación de higiene del personal y de la infraestructura.",
+      "Incluir la evaluación de desempeño del Decreto 1278 aplicada al personal de cocina como norma sanitaria del PAE, de modo que el instrumento de carrera docente acredite la higiene y la manipulación de alimentos del comedor.",
+      "La manipulación adecuada de los alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y de la infraestructura que opera el comedor escolar en el marco del PAE."
+    ],
+    "explanation": "La condición de calidad pide los aspectos que el texto menciona como parte de las normas sanitarias exigidas. El pasaje cita la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de la higiene del personal y de la infraestructura. El horario de clases no figura como requisito sanitario. El número de matriculados en el SIMAT es un dato de cobertura, no una norma de higiene del comedor. Evaluar el desempeño del personal de cocina con el Decreto 1278 es un saber de carrera docente ajeno a las condiciones sanitarias descritas.",
+    "distractorAnalysis": {
+      "0": "Trampa del horario como higiene: acreditar el PAE con la malla y la jornada parece orden institucional. El texto no incluye el horario de clases entre las normas sanitarias; cita cadena de frío, manipulación e higiene.",
+      "1": "Trampa de la matrícula como norma: el SIMAT es el dato de cobertura y suena a control del comedor. No es una norma sanitaria del pasaje; el relato apunta a cadena de frío, higiene del personal y de la infraestructura.",
+      "2": "Trampa de dominio cruzado del Decreto 1278: evaluar el desempeño del personal de cocina es un instrumento real de carrera docente. El texto no lo menciona; las normas sanitarias son manipulación, cadena de frío e higiene."
+    }
+  },
+  {
+    "pos": 873,
+    "id": "dir-apt-num-125",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Se debe imprimir el manual de convivencia para 780 estudiantes, a razón de $850 por ejemplar. Ya se imprimieron 300. Un docente propone reportar $380.000 (otra base, redondeo o indicador distinto); otro insiste en $396.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Consignar $408.000 como costo de los ejemplares restantes: 780 − 300 = 480 y 480 × $850, sin cambiar la tarifa de imprenta ni el n de manuales de convivencia aún no impresos.",
+      "Reportar $380.000 en el PMI de imprenta, calculando 400 ejemplares restantes a $950 (otra tarifa o otro tiraje), porque es un cupo redondo comparable en tesorería y en el histórico de Secretaría.",
+      "Consignar $396.000 en el acta de calidad, aplicando $825 por ejemplar a los 480 restantes o una tarifa de otra vigencia, para no tensionar el informe de ejecución del manual.",
+      "Registrar $420.000 como techo de imprenta, aproximando 480 × $850 al alza o usando ~494 cupos, para dejar holgura de gestión en el tablero de calidad ante Secretaría."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos y la operación, sin redondear ni cambiar la base. Restan 780 − 300 = 480 ejemplares del manual y 480 × 850 = 408 mil pesos. Esa es la cifra del acta de imprenta. 380 mil usa 400 restantes a 950 pesos; 396 mil aplica 825 a los 480; 420 mil es un techo holgado. Ninguna conserva 480 ejemplares a 850 pesos.",
+    "distractorAnalysis": {
+      "1": "Trampa de otra tarifa y otro n: 380 mil = 400 × 950. Mezcla ejemplares redondeados con una tarifa de otra vigencia. No es 480 × 850 del manual de convivencia.",
+      "2": "Trampa de la tarifa de imprenta a 825: 396 mil = 480 × 825. Conserva los 480 restantes pero cambia los 850 pesos del caso por otra alícuota de imprenta.",
+      "3": "Trampa de dominio cruzado del cupo holgado: 420 mil aproxima 480 × ~875 o ~494 × 850. Presenta techo de gestión ante Secretaría, no el costo exacto de los 480 manuales."
+    }
+  }
+]

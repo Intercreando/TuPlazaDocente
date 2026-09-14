@@ -1,0 +1,107 @@
+[
+  {
+    "pos": 707,
+    "id": "oro-cie-23",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Circula en el curso un rumor sobre un 'remedio casero milagroso'. El docente lo prohíbe mencionar. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Prohibir que se mencione el «remedio casero milagroso» para no legitimar pseudociencia, tratar el rumor como falta al orden del aula y retomar de inmediato el capítulo de salud del libro de ciencias.",
+      "Guiar una evaluación crítica del rumor: contrastar la afirmación milagrosa con evidencia, sesgos y fuentes confiables, y dejar registro del criterio con el que el curso acepta o descarta el remedio.",
+      "Abrir un círculo de testimonios familiares sobre el remedio, dar por válida la experiencia de cada casa y cerrar la sesión sin criterios de evidencia ni contraste con mecanismos biológicos o riesgos de salud.",
+      "Expedir una circular de convivencia y salud que «cierra el tema» ante las familias, archivar el oficio como gestión del rumor y comunicar que el asunto queda resuelto por clima escolar, no por evidencia."
+    ],
+    "explanation": "La condición de calidad es lo más defendible pedagógica e institucionalmente ante un rumor milagroso: formar criterio científico con evidencia, no vedar el tema ni resolverlo por oficio. Los EBC y los Lineamientos de ciencias incluyen alfabetización científica y pensamiento crítico: contrastar afirmaciones, fuentes y sesgos. Guiar esa evaluación del remedio casero deja registro de cómo se acepta o se descarta una pretensión de verdad. Prohibir mencionarlo para no legitimar pseudociencia es censura bienintencionada. El círculo de testimonios familiares valida por cercanía. La circular de convivencia cierra el rumor como clima y no como objeto de indagación.",
+    "distractorAnalysis": {
+      "0": "Trampa de la censura bienintencionada: vedar el rumor milagroso para no legitimar pseudociencia parece cuidado ético y orden de aula. Impide contrastar la afirmación con evidencia y deja el mito sin herramientas críticas.",
+      "2": "Trampa del debate de testimonios: dar la palabra a cada familia parece respeto cultural y participación. Sin criterios de evidencia, el rumor se valida por cercanía y no se examina el mecanismo biológico ni el riesgo.",
+      "3": "Trampa de dominio cruzado de la circular de convivencia: cerrar el tema por oficio de clima y salud parece gestión institucional. Resuelve el rumor como orden administrativo y no forma pensamiento científico sobre el remedio."
+    }
+  },
+  {
+    "pos": 728,
+    "id": "oro-soc-12",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En un debate, un estudiante usa estereotipos discriminatorios. El docente ignora 'para no cortar la participación'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Dejar que el debate siga su curso hasta el cierre, invocando la libertad de expresión pedagógica y el derecho a argumentar sin censura previa, para no cortar la participación, modelar un aula democrática y contrastar las intervenciones en la ronda final de réplicas.",
+      "Interrumpir con respeto, marcar el límite del Manual y de la Ley 1620 —la dignidad no se debate como opinable—, y convertir el estereotipo en objeto de aprendizaje ciudadano, con registro, criterios públicos y ruta formativa para el grupo y para quien fue aludido.",
+      "Aplicar de inmediato una sanción pública —anotación en el observador, retiro del debate y llamado a acudientes en el mismo acto— para proteger a quien fue aludido con un correctivo visible y ejemplar, sin analizar el estereotipo ni formar al grupo.",
+      "Diligenciar el formato de convivencia, remitir el episodio a orientación y al Comité Escolar de Convivencia, y retomar el temario de sociales en el mismo bloque, de modo que el protocolo quede trazable y el aula ceda el caso a otra instancia."
+    ],
+    "explanation": "La condición de calidad pide lo más defendible pedagógica e institucionalmente cuando un estereotipo discriminatorio aparece en el debate y el docente no interviene. La Ley 1620, el Manual y los EBC de competencias ciudadanas exigen prevenir y atender la discriminación en el acto educativo: interrumpir con respeto, nombrar el límite (la dignidad no es opinable) y convertir el momento en aprendizaje, con registro y ruta. Dejar fluir el debate en nombre de la libertad de expresión suena a pedagogía democrática y normaliza el agravio: hay participación, no formación. La sanción pública inmediata parece proteger y sustituye mediación por escarmiento. Remitir a convivencia y seguir la clase es dominio cruzado de protocolo: el Comité queda enterado y el aula abdica de su lugar de ciudadanía.",
+    "distractorAnalysis": {
+      "0": "Trampa de la libertad de expresión pedagógica: no cortar el debate y confiar en las réplicas finales parece respeto a la participación y a un aula democrática. El estereotipo circula como un argumento más; se omite el límite de la Ley 1620 y del Manual en el momento del agravio.",
+      "2": "Trampa de la sanción pública que parece proteger: anotación, retiro y llamado a acudientes en el acto lucen como defensa inmediata de quien fue aludido. Sustituyen la mediación formativa por escarmiento y no convierten el estereotipo en aprendizaje ciudadano.",
+      "3": "Trampa de dominio cruzado de la ruta de convivencia: remitir a orientación y al Comité y seguir el temario parece protocolo trazable de la Ley 1620. El aula deja de ser instancia de formación y el episodio queda como caso de otra dependencia."
+    }
+  },
+  {
+    "pos": 720,
+    "id": "oro-soc-04",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Estudiantes usan un video de redes como 'prueba histórica' sin preguntar autor, fecha ni intención. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aceptar el video de redes como prueba histórica porque «motiva y es fuente actual», proyectarlo sin preguntar autor, fecha ni intención, y calificar el entusiasmo del grupo como evidencia de pensamiento social.",
+      "Enseñar crítica de fuentes sobre ese video de redes —origen, contexto, intención, sesgo y contraste con crónicas u otras evidencias— y evaluar el juicio historiográfico del estudiante, no la viralidad ni la emoción del clip.",
+      "Prohibir el uso de redes en la clase de sociales y volver al manual impreso como fuente autorizada del periodo, para «proteger» al grupo del error y recuperar el rigor del texto escolar frente a lo viral.",
+      "Ofrecer un taller de ciudadanía digital y de Ley 1581 sobre datos personales en redes, recoger consentimientos y dar por resuelto el episodio del video, sin crítica de origen, contexto ni sesgo historiográfico."
+    ],
+    "explanation": "La condición de calidad pide la decisión más defendible cuando un video de redes se usa como prueba histórica sin autor, fecha ni intención. Los EBC y los Lineamientos de Ciencias Sociales exigen crítica de fuentes: origen, contexto, sesgo y contraste. Enseñar esos criterios sobre el clip mismo forma pensamiento histórico y alfabetización mediática. Aceptarlo porque «motiva y es actual» confunde engagement con evidencia. Prohibir las redes y volver al manual protege de forma autoritaria y evade el objeto de enseñanza. El taller de ciudadanía digital y Ley 1581 es dominio de protección de datos: legaliza el uso de pantallas y no interroga el video como fuente.",
+    "distractorAnalysis": {
+      "0": "Trampa de la fuente actual que motiva: proyectar el video de redes sin autor ni fecha parece pertinencia y engagement. Convierte el entusiasmo en evidencia y omite origen, contexto y sesgo.",
+      "2": "Trampa de la prohibición protectora: vetar redes y volver al manual parece rigor y resguardo frente a lo viral. Evade enseñar crítica de fuentes y sustituye el objeto de estudio por censura del canal.",
+      "3": "Trampa de dominio cruzado de la ciudadanía digital: el taller 1581 y los consentimientos lucen como protección de datos y respuesta institucional. No interrogan el video como prueba histórica."
+    }
+  },
+  {
+    "pos": 710,
+    "id": "oro-cie-26",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Al enseñar fuerza y movimiento, no se usan ejemplos del transporte escolar, el recreo o herramientas del entorno. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Para fortalecer sentido y transferencia, conviene. En el episodio, ¿qué opción es la más defendible, con evidencia e instancia?",
+    "options": [
+      "Dictar definiciones y fórmulas de fuerza y movimiento del libro y, «si el tiempo alcanza», mencionar de paso el transporte escolar, para cubrir primero el capítulo con rigor simbólico comparable entre cursos.",
+      "Modelar situaciones cotidianas del transporte escolar, del recreo y de las herramientas del entorno, formalizar después con el lenguaje de la física y dejar evidencias de esa transferencia, no el capítulo desanclado.",
+      "Organizar juegos de patio con pelotas, empujones y carreras, fotografiar «física en el recreo» y omitir la formalización de fuerza, magnitud y movimiento que el grado espera demostrar en el área.",
+      "Proyectar un video viral de choques y montañas rusas como cobertura TIC de fuerza y movimiento, registrar la proyección en el plan de área y dar por enseñada la unidad sin modelar el entorno escolar."
+    ],
+    "explanation": "La condición de calidad articula sentido, transferencia y lo más defendible con evidencia e instancia: el concepto de fuerza y movimiento debe nacer de un problema reconocible del entorno escolar y luego formalizarse. Los EBC de física y el anclaje ausubeliano piden explicar el mundo cercano —transporte escolar, recreo, herramientas— con modelos científicos, no con el capítulo primero y el ejemplo «si alcanza». Modelar esas situaciones y después introducir el lenguaje de la física deja desempeños transferibles y trazables. Las fórmulas del libro sin entorno quedan inertes. Los juegos de patio sin formalizar no demuestran el DBA. El video viral cubre TIC y sustituye el medio escolar.",
+    "distractorAnalysis": {
+      "0": "Trampa del capítulo primero: definiciones y fórmulas del libro, con el transporte «si alcanza», parecen rigor disciplinar. El concepto no nace del entorno y la transferencia que pide el stem queda diferida o nula.",
+      "2": "Trampa del patio sin formalizar: juegos con pelotas y carreras parecen anclaje cotidiano de fuerza y movimiento. Sin modelo ni lenguaje de la física, el recreo no demuestra el desempeño que el grado debe evidenciar.",
+      "3": "Trampa de dominio cruzado de cobertura TIC: el video viral de choques registra «recurso digital» en el plan y luce actualizado. Sustituye el entorno escolar (ruta, recreo, herramientas) por una proyección ajena al contexto."
+    }
+  },
+  {
+    "pos": 723,
+    "id": "oro-soc-07",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En un aula intercultural, el currículo de sociales invisibiliza pueblos indígenas y comunidades negras del territorio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Conservar un «currículo universal» de sociales con los mismos contenidos para todo el grupo, argumentando que nombrar pueblos indígenas y comunidades negras del territorio «diferencia» y genera reclamos, y así tratar a todos por igual.",
+      "Incluir memorias, derechos y aportes de pueblos indígenas y de comunidades negras del territorio con rigor histórico y respeto, articular Ley 70, etnoeducación y EBC de identidad, y dejar evidencia de esos aprendizajes en la planeación de aula.",
+      "Destinar un «día de la etnoeducación» con comida típica, trajes y fotografías para la cartelera, sin fuentes, sin derechos colectivos ni aportes al territorio, y dar por cubierta la diversidad étnica con esa jornada visible para la comunidad.",
+      "Firmar un convenio con el cabildo y reservar una silla simbólica en el consejo directivo «en representación étnica», archivar el documento en el PEI y no alterar el currículo de aula que sigue omitiendo esas memorias y esos derechos."
+    ],
+    "explanation": "La condición de calidad pide la decisión más defendible pedagógica e institucionalmente cuando el currículo invisibiliza pueblos indígenas y comunidades negras del territorio. La Constitución reconoce la nación multiétnica y pluricultural; la Ley 115 y la etnoeducación, con la Ley 70, exigen incorporar memorias, derechos y aportes con rigor, no como folclor de un día. La equidad no es homogeneizar contenidos «para no diferenciar»: esa homogeneización borra al sujeto que el caso nombra. El día de comida típica responde al pedido visible y deja intacta la malla. El convenio y la silla en el PEI son inclusión de archivo: el gobierno escolar luce interétnico y el aula sigue sin esas historias. La opción correcta enseña con fuentes y deja trazabilidad en la planeación.",
+    "distractorAnalysis": {
+      "0": "Trampa de la equidad como homogeneización: el «currículo universal» y tratar a todos por igual parecen evitar reclamos y discriminación inversa. Invisibilizan pueblos indígenas y comunidades negras del territorio y contradicen Constitución, Ley 115 y Ley 70.",
+      "2": "Trampa del día folclórico: comida típica, trajes y fotos parecen etnoeducación visible y calman a la comunidad. Sin fuentes ni derechos, convierten la diversidad étnica en jornada ornamental y dejan el currículo igual.",
+      "3": "Trampa de dominio cruzado del PEI interétnico: el convenio con el cabildo y la silla en el consejo directivo lucen como participación y archivo de calidad. No alteran el aula que sigue omitiendo memorias, derechos y aportes."
+    }
+  }
+]

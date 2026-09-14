@@ -1,0 +1,107 @@
+[
+  {
+    "pos": 807,
+    "id": "dir-apt-blan-59",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área, un docente critica de forma poco respetuosa el trabajo de un colega frente a todo el grupo. ¿Cuál sería la intervención más adecuada del coordinador que lidera la reunión? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Dejar que la crítica poco respetuosa continúe en la reunión de área y minutar cada frase para la carpeta de evaluación 1278 del docente, como evidencia de clima laboral, sin detener el agravio hacia el colega.",
+      "Interrumpir con respeto la crítica al colega, recordar las normas de comunicación asertiva de la reunión de área y, si el fondo lo requiere, proponer un espacio privado al finalizar, sin humillar a quien habló ni silenciar el trabajo.",
+      "Cambiar de inmediato la agenda de la reunión de área por un taller de convivencia, aprovechando el momento de la crítica, y dar por atendido el incidente sin nombrar la agresión al colega ni mediar entre las partes.",
+      "Pedir al personero estudiantil o al consejo de padres que medie entre los dos docentes, como si una instancia de participación estudiantil o familiar resolviera el trato irrespetuoso ocurrido en la reunión de área."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando, en una reunión de área, un docente critica con poco respeto el trabajo de un colega. El coordinador que lidera debe proteger el clima laboral y el objeto de la reunión: interrumpir con asertividad, recordar normas de comunicación y, si hace falta, abrir un espacio privado. El respeto laboral y el liderazgo de la reunión exigen detener el agravio en el acto; el 1278 no se usa para minutar en vivo un ultraje como si fuera prueba. Dejar continuar y archivar frases para la carpeta 1278 finge rigor y abandona la mediación. Cambiar la agenda a un taller de convivencia elude el incidente. Pedir al personero o al consejo de padres que medie entre docentes es instancia cruzada: esas figuras no dirimen un conflicto laboral de área.",
+    "distractorAnalysis": {
+      "0": "Trampa del rigor documental 1278: minutar la crítica irrespetuosa parece evidencia de clima y de evaluación. Permite que el agravio continúe en la reunión de área y convierte al coordinador en notario, no en mediador.",
+      "2": "Trampa del taller oportunista: cambiar la agenda a convivencia parece pedagogía inmediata. Elude nombrar la crítica al colega, no media entre las partes y disuelve el incidente en una actividad genérica de clima.",
+      "3": "Trampa de dominio cruzado de instancias de participación: pedir al personero o al consejo de padres que medie entre docentes suena a gobierno escolar amplio. Esas figuras no resuelven un conflicto laboral de una reunión de área."
+    }
+  },
+  {
+    "pos": 828,
+    "id": "dir-apt-ges-80",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Tras la autoevaluación, el rector quiere “archivar el informe y seguir el PEI como está”. El Consejo Directivo pide un PMI con metas, acciones y responsables. Un docente sugiere que el PMI reemplace al PEI y al SIEE.",
+    "stem": "¿Cuál es el propósito principal del Plan de Mejoramiento Institucional derivado de la autoevaluación?",
+    "options": [
+      "Sustituir el Proyecto Educativo Institucional por el PMI, de modo que el plan de mejoramiento reemplace la identidad, los fines y el currículo del PEI, como sugiere el docente tras la autoevaluación.",
+      "Establecer metas, acciones, tiempos y responsables para superar las debilidades identificadas en la autoevaluación, articularlas a las cuatro áreas de gestión de la Guía 34 y conservar el PEI y el SIEE como marcos vigentes.",
+      "Redactar el PMI como el calendario académico del año, con fechas de periodos, recesos y pruebas institucionales, y presentarlo al Consejo Directivo como el plan de mejoramiento derivado de la autoevaluación.",
+      "Reemplazar el Sistema Institucional de Evaluación de Estudiantes por el PMI, de modo que las metas de mejoramiento sustituyan criterios, promoción y escalas del SIEE adoptado por el Consejo Directivo."
+    ],
+    "explanation": "La condición de calidad pide el propósito principal del Plan de Mejoramiento Institucional derivado de la autoevaluación. La Guía 34 articula autoevaluación, PMI y plan de acción: metas, acciones, tiempos y responsables para las debilidades halladas en las cuatro áreas de gestión. El PEI (artículo 73 de la Ley 115) es el horizonte identitario; el PMI no lo sustituye. El calendario académico es un instrumento de organización, no el PMI. El SIEE es el sistema de evaluación estudiantil; el PMI no lo reemplaza. Archivar el informe y seguir el PEI como está, como quiere el rector, deja la autoevaluación sin plan. La decisión defendible traduce hallazgos en mejora y conserva PEI y SIEE.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado del PEI: sustituir el Proyecto Educativo por el PMI parece coherencia documental tras la autoevaluación. El PEI es el marco de identidad (Ley 115); el PMI es el plan de mejora, no su reemplazo.",
+      "2": "Trampa del calendario como plan: fechar periodos, recesos y pruebas parece organización impecable. El calendario no atiende las debilidades de la autoevaluación ni asigna metas y responsables de mejora.",
+      "3": "Trampa de reemplazar el SIEE: fundir evaluación estudiantil con el PMI parece un solo sistema de calidad. El Decreto 1290 conserva el SIEE; el PMI no redefine promoción ni escalas."
+    }
+  },
+  {
+    "pos": 820,
+    "id": "dir-apt-ges-72",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Quieren “autoevaluar” copiando el formato del año anterior y publicando un ranking de sedes. Un coordinador pide identificar fortalezas y brechas en las cuatro áreas de gestión como insumo del PMI. El Consejo Directivo pide evidencia, no imagen.",
+    "stem": "¿Cuál es el propósito principal de la autoevaluación institucional anual en ese ciclo de mejoramiento?",
+    "options": [
+      "Publicar un ranking comparable de sedes con el formato copiado del año anterior, para que la comunidad vea quién sube y quién baja y el Consejo Directivo reciba un tablero de imagen en vez de un diagnóstico.",
+      "Identificar fortalezas y brechas en las cuatro áreas de gestión y traducirlas en insumos del plan de mejoramiento institucional, con evidencia para el Consejo Directivo y no con un ranking de sedes.",
+      "Sustituir el PEI por un informe de prensa dirigido a la Secretaría, de forma que la autoevaluación se agote en comunicación externa y no produzca un plan de mejoramiento con las cuatro áreas.",
+      "Reemplazar el PMI y el SIEE por un promedio de satisfacción familiar, presentado como evidencia comunitaria de calidad, sin diagnóstico de las cuatro áreas de gestión que pide el coordinador."
+    ],
+    "explanation": "La condición de calidad pregunta el propósito principal de la autoevaluación institucional anual en ese ciclo de mejoramiento. La Guía 34 del MEN sitúa la autoevaluación como diagnóstico de fortalezas y brechas en las cuatro áreas de gestión —directiva, académica, administrativa-financiera y comunitaria— y como insumo del PMI. Copiar el formato del año anterior y publicar un ranking de sedes produce imagen, que es lo que el Consejo Directivo pide no recibir. Un informe de prensa no sustituye al PEI ni cierra el ciclo. Un promedio de satisfacción familiar puede ser un dato de gestión comunitaria, pero no reemplaza PMI ni SIEE. La opción del coordinador es la que articula evidencia y mejoramiento.",
+    "distractorAnalysis": {
+      "0": "Trampa del ranking de imagen: copiar el formato y publicar quién sube y quién baja parece transparencia y competencia sana entre sedes. Es el uso punitivo-mediático que el caso describe, no el propósito de autoevaluación del ciclo de mejoramiento.",
+      "2": "Trampa del informe de prensa: comunicar a Secretaría con un recorte periodístico luce como rendición de cuentas. Sustituye el PEI y deja sin PMI el diagnóstico de las cuatro áreas que el coordinador pide.",
+      "3": "Trampa de dominio cruzado de la satisfacción familiar: un promedio de familias es un dato real de gestión comunitaria. No reemplaza PMI ni SIEE y omite las cuatro áreas de la Guía 34 que el Consejo Directivo necesita como evidencia."
+    }
+  },
+  {
+    "pos": 810,
+    "id": "dir-apt-ges-62",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "El rector quiere adoptar un nuevo manual de convivencia esta semana por circular. El Consejo Académico dice que le corresponde porque toca disciplina de aula. Padres piden votarlo en asamblea general.",
+    "stem": "En este desacuerdo sobre quién adopta el manual, ¿qué instancia corresponde en el gobierno escolar (Ley 115 y Decreto 1860)?",
+    "options": [
+      "Resolver que el Consejo Académico adopte el nuevo manual de convivencia en esta semana, por cuanto toca la disciplina de aula, y dejar sin efecto la circular con la que el rector pretendía expedirlo.",
+      "Someter el nuevo manual de convivencia a adopción del Consejo Directivo, conforme a la Ley 115 y al Decreto 1860, con construcción participativa, y no reemplazar esa instancia por una circular de rectoría ni por el voto de otra mesa.",
+      "Facultar al personero estudiantil para adoptar el manual de convivencia, en su calidad de vocero de derechos, y cerrar con su visto bueno el desacuerdo entre la circular de rectoría, el Consejo Académico y los padres.",
+      "Convocar la asamblea general de la Asociación de Padres para votar y adoptar el nuevo manual de convivencia, otorgando a esa votación el carácter de acto de gobierno escolar que el rector quería resolver por circular."
+    ],
+    "explanation": "La condición de calidad pregunta qué instancia del gobierno escolar corresponde para adoptar el manual de convivencia, según la Ley 115 y el Decreto 1860, en el desacuerdo entre una circular de rectoría, el Consejo Académico y la asamblea de padres. El Consejo Directivo adopta el manual, con participación de la comunidad educativa; el rector lo ejecuta y no lo expide por acto unilateral de esta semana. El Consejo Académico orienta lo pedagógico y puede conceptuar sobre disciplina de aula, pero no adopta el manual. El personero promueve derechos y deberes estudiantiles; no es órgano de adopción. La Asociación de Padres participa y puede opinar; su asamblea no sustituye al Consejo Directivo.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado del Consejo Académico: adoptar el manual porque toca disciplina de aula parece coherencia pedagógica. Esa instancia orienta lo académico; no reemplaza al Consejo Directivo ni anula la circular usurpando la adopción.",
+      "2": "Trampa del personero como órgano de adopción: su visto bueno parece garantizar derechos estudiantiles en el nuevo manual. El personero promueve y vigila; no adopta normas de convivencia ni cierra el desacuerdo de gobierno escolar.",
+      "3": "Trampa de la asamblea de padres: votar el manual en la Asociación parece participación máxima y frena la circular del rector. La comunidad opina y vela; no adopta el manual en lugar del Consejo Directivo."
+    }
+  },
+  {
+    "pos": 823,
+    "id": "dir-apt-ges-75",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Al reportar valoración para homologación, un área usa 1–100 y otra cinco niveles propios. Coordinación pide una escala nacional común en el SIEE.",
+    "stem": "Para homologar valoraciones entre áreas, ¿qué escala nacional debe incluir el SIEE?",
+    "options": [
+      "Adoptar en el SIEE los cinco niveles cualitativos propios que ya usa un área, elevarlos a escala institucional para todas las asignaturas y presentarlos como homologación interna más detallada que la escala nacional.",
+      "Incluir en el SIEE la escala nacional de desempeños Superior, Alto, Básico y Bajo, de modo que las valoraciones de 1 a 100 y las de cinco niveles propios se homologuen para movilidad y reportes, según el Decreto 1290.",
+      "Imponer la escala numérica de 1 a 100 que ya aplica la otra área como escala de reporte del SIEE, y convertir todas las valoraciones a centésimas para el boletín y la homologación entre asignaturas.",
+      "Sostener que la autonomía del SIEE exime a la institución de reportar escala nacional, conservar las dos escalas de área como están y resolver la homologación con equivalencias internas del plan de estudios."
+    ],
+    "explanation": "La condición de calidad pide la escala nacional que el SIEE debe incluir para homologar valoraciones entre áreas. El Decreto 1290 establece cuatro desempeños nacionales —Superior, Alto, Básico y Bajo— precisamente para movilidad y comparabilidad. Los cinco niveles propios de un área son autonomía institucional, no la escala nacional. La escala 1 a 100 de la otra área es un lenguaje numérico permitido, pero no sustituye el reporte nacional. Invocar la autonomía del SIEE para no reportar escala nacional invierte el 1290: hay autonomía para el sistema, no para omitir la escala de homologación. Incluir Superior, Alto, Básico y Bajo articula las dos prácticas del caso.",
+    "distractorAnalysis": {
+      "0": "Trampa de los cinco niveles propios: elevar la escala cualitativa de un área a escala institucional parece homologación interna más fina. No es la escala nacional del 1290; conserva el desajuste que coordinación quiere resolver.",
+      "2": "Trampa de dominio cruzado de la escala 1 a 100: es el lenguaje numérico correcto de la otra área y facilita boletines. No es la escala nacional; imponerla como reporte deja fuera Superior, Alto, Básico y Bajo.",
+      "3": "Trampa de la autonomía del SIEE: no reportar escala nacional parece defender el Decreto 1290. La autonomía cubre criterios y estrategias, no la omisión de la escala nacional exigida para movilidad."
+    }
+  }
+]

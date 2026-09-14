@@ -1,0 +1,334 @@
+[
+  {
+    "pos": 791,
+    "id": "dir-apt-blan-43",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un padre de familia llega molesto a la rectoría exigiendo una respuesta inmediata sobre una queja radicada hace una semana que aún no ha sido resuelta. ¿Cuál es la respuesta más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Pedirle que regrese otro día porque no es un buen momento",
+      "Escuchar su inquietud, explicar el estado del proceso y comprometerse con una fecha concreta de respuesta",
+      "Delegar la conversación en la secretaria sin dar más información",
+      "Decirle que la demora no es responsabilidad de la institución"
+    ],
+    "explanation": "Escuchar, informar con transparencia y comprometerse con un plazo es la respuesta más constructiva.",
+    "normativeJustification": "Escuchar, informar con transparencia y comprometerse con un plazo es la respuesta más constructiva.",
+    "theoreticalJustification": "Escuchar, informar con transparencia y comprometerse con un plazo es la respuesta más constructiva.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 792,
+    "id": "dir-apt-blan-44",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una reunión de Consejo Directivo, un miembro propone una decisión que el rector considera contraria a la normatividad vigente. ¿Cuál sería la actuación más apropiada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aceptar la propuesta para evitar un conflicto en la reunión",
+      "Explicar con claridad las implicaciones normativas y proponer alternativas viables dentro del marco legal",
+      "Retirarse de la reunión sin dar explicaciones",
+      "Aprobar la decisión y corregirla informalmente después"
+    ],
+    "explanation": "El liderazgo técnico exige explicar el marco legal y ofrecer alternativas, no evadir ni ceder sin fundamento.",
+    "normativeJustification": "El liderazgo técnico exige explicar el marco legal y ofrecer alternativas, no evadir ni ceder sin fundamento.",
+    "theoreticalJustification": "El liderazgo técnico exige explicar el marco legal y ofrecer alternativas, no evadir ni ceder sin fundamento.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 793,
+    "id": "dir-apt-blan-45",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante con bajo rendimiento académico manifiesta a su director de grupo que está pasando por dificultades familiares. ¿Qué actuación institucional sería más pertinente liderar como directivo? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Remitirlo directamente a repitencia según el promedio obtenido",
+      "Activar la ruta de apoyo psicosocial de la institución y hacer seguimiento conjunto con el equipo docente",
+      "Indicar al docente que continúe la evaluación sin ajustes",
+      "Esperar a que la familia solicite ayuda formalmente"
+    ],
+    "explanation": "La activación oportuna de la ruta de apoyo psicosocial atiende la causa de fondo del bajo rendimiento.",
+    "normativeJustification": "La activación oportuna de la ruta de apoyo psicosocial atiende la causa de fondo del bajo rendimiento.",
+    "theoreticalJustification": "La activación oportuna de la ruta de apoyo psicosocial atiende la causa de fondo del bajo rendimiento.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 794,
+    "id": "dir-apt-blan-46",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una evaluación de desempeño, un docente recibe una calificación baja en un componente específico. Al comunicarle el resultado, ¿cuál es el enfoque más constructivo? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Entregar el resultado por escrito sin espacio para retroalimentación",
+      "Presentar el resultado, explicar los criterios y acordar un plan de mejoramiento conjunto",
+      "Comparar públicamente su desempeño con el de otros docentes",
+      "Omitir la conversación para no generar incomodidad"
+    ],
+    "explanation": "La retroalimentación con un plan de mejoramiento concertado favorece el desarrollo profesional del docente.",
+    "normativeJustification": "La retroalimentación con un plan de mejoramiento concertado favorece el desarrollo profesional del docente.",
+    "theoreticalJustification": "La retroalimentación con un plan de mejoramiento concertado favorece el desarrollo profesional del docente.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 795,
+    "id": "dir-apt-blan-47",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un grupo de docentes le solicita al rector eliminar una prueba institucional porque consideran que genera demasiada presión en los estudiantes. El rector no está de acuerdo con eliminarla, pero reconoce que hay preocupaciones válidas. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Eliminar la prueba de inmediato para evitar el conflicto con los docentes",
+      "Mantener la prueba sin dar ninguna explicación a los docentes",
+      "Explicar el propósito pedagógico de la prueba y abrir un espacio para ajustar sus condiciones de aplicación",
+      "Delegar la decisión final en los estudiantes mediante una votación"
+    ],
+    "explanation": "Sostener la decisión con fundamento, atendiendo la preocupación legítima, refleja liderazgo dialogante.",
+    "normativeJustification": "Sostener la decisión con fundamento, atendiendo la preocupación legítima, refleja liderazgo dialogante.",
+    "theoreticalJustification": "Sostener la decisión con fundamento, atendiendo la preocupación legítima, refleja liderazgo dialogante.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 796,
+    "id": "dir-apt-blan-48",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente comete un error significativo en el registro de notas que afecta a varios estudiantes. Al notar el error, ¿cuál es la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Abordar el error en privado, corregirlo formalmente y acordar medidas para evitar que se repita",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Corregir con prontitud y en privado protege tanto la calidad del proceso como el respeto al docente.",
+    "normativeJustification": "Corregir con prontitud y en privado protege tanto la calidad del proceso como el respeto al docente.",
+    "theoreticalJustification": "Corregir con prontitud y en privado protege tanto la calidad del proceso como el respeto al docente.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 797,
+    "id": "dir-apt-blan-49",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una reunión de padres, uno de ellos interrumpe repetidamente y eleva el tono de voz para cuestionar una decisión académica. ¿Cuál sería la respuesta más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Mantener la calma, reconocer su preocupación y proponer conversar el tema en un espacio individual al finalizar",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Desescalar sin ceder al tono, ofreciendo un espacio adecuado, resuelve la inquietud sin afectar la reunión.",
+    "normativeJustification": "Desescalar sin ceder al tono, ofreciendo un espacio adecuado, resuelve la inquietud sin afectar la reunión.",
+    "theoreticalJustification": "Desescalar sin ceder al tono, ofreciendo un espacio adecuado, resuelve la inquietud sin afectar la reunión.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 798,
+    "id": "dir-apt-blan-50",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un coordinador nota que una docente nueva tiene dificultades para manejar la disciplina de un grupo numeroso. ¿Cuál sería la actuación más constructiva? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Ofrecerle acompañamiento pedagógico y estrategias de manejo de aula, con seguimiento cercano",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El acompañamiento formativo oportuno es la respuesta más constructiva ante una dificultad de un docente nuevo.",
+    "normativeJustification": "El acompañamiento formativo oportuno es la respuesta más constructiva ante una dificultad de un docente nuevo.",
+    "theoreticalJustification": "El acompañamiento formativo oportuno es la respuesta más constructiva ante una dificultad de un docente nuevo.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 799,
+    "id": "dir-apt-blan-51",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos estudiantes de grados distintos protagonizan una pelea dentro de la institución. Ambos acusan al otro de haber iniciado la agresión. ¿Cuál sería el manejo más adecuado? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Escuchar por separado a cada estudiante, indagar con testigos y aplicar el debido proceso según el manual de convivencia",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El debido proceso exige indagación imparcial antes de cualquier medida disciplinaria.",
+    "normativeJustification": "El debido proceso exige indagación imparcial antes de cualquier medida disciplinaria.",
+    "theoreticalJustification": "El debido proceso exige indagación imparcial antes de cualquier medida disciplinaria.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 800,
+    "id": "dir-apt-blan-52",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente le comenta al rector, de manera confidencial, que atraviesa una situación personal difícil que está afectando su desempeño. ¿Cuál sería la actuación más apropiada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir la información con otros docentes para que tengan más comprensión",
+      "Escuchar con respeto, mantener la confidencialidad y explorar juntos posibles apoyos institucionales",
+      "Sugerirle que solicite un traslado inmediato a otra institución",
+      "Indicarle que su vida personal no debe mencionarse en el trabajo"
+    ],
+    "explanation": "La confidencialidad y el apoyo institucional son claves para un manejo ético de la situación.",
+    "normativeJustification": "La confidencialidad y el apoyo institucional son claves para un manejo ético de la situación.",
+    "theoreticalJustification": "La confidencialidad y el apoyo institucional son claves para un manejo ético de la situación.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

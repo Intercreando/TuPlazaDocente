@@ -1,0 +1,329 @@
+[
+  {
+    "pos": 841,
+    "id": "dir-apt-ped-93",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "Hay un estudiante con discapacidad. Un colega propone “bajar la meta para todos” o “no evaluar”. Otro pide ajustar tiempos, metodologías o formas de evidencia sin renunciar al aprendizaje esencial.",
+    "stem": "En inclusión, ¿qué implica principalmente la flexibilización curricular?",
+    "options": [
+      "Reducir las expectativas de aprendizaje para todo el grupo.",
+      "Ajustar tiempos, metodologías o formas de evaluación sin renunciar a los propósitos esenciales.",
+      "Eliminar la evaluación para estudiantes con discapacidad.",
+      "Aplicarse únicamente en instituciones de educación especial."
+    ],
+    "explanation": "La flexibilización ajusta el 'cómo' sin renunciar a los propósitos de fondo del aprendizaje.",
+    "normativeJustification": "La flexibilización ajusta el 'cómo' sin renunciar a los propósitos de fondo del aprendizaje.",
+    "theoreticalJustification": "La flexibilización ajusta el 'cómo' sin renunciar a los propósitos de fondo del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 842,
+    "id": "dir-apt-ped-94",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se inicia “fracción” con el algoritmo y un quiz el mismo día, sin explorar ideas de parte-todo que los estudiantes ya traen del contexto. Un colega defiende “primero la fórmula, luego el sentido”. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Según Ausubel, ¿qué decisión hace significativo el aprendizaje de ese contenido?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Diagnosticar saberes previos de parte-todo y anclar el algoritmo a esa comprensión.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Idea central de Ausubel: anclar el nuevo aprendizaje en estructuras cognitivas previas.",
+    "normativeJustification": "Idea central de Ausubel: anclar el nuevo aprendizaje en estructuras cognitivas previas.",
+    "theoreticalJustification": "Idea central de Ausubel: anclar el nuevo aprendizaje en estructuras cognitivas previas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 843,
+    "id": "dir-apt-ped-95",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras resolver problemas, nunca se pide a los estudiantes explicar cómo pensaron. Solo se califica la respuesta. Un docente propone verbalizar estrategias y criterios de éxito. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "¿Qué práctica desarrolla metacognición de forma coherente con evaluación formativa?",
+    "options": [
+      "Incluir verbalización de estrategias y criterios de éxito, contrastados con la evidencia del trabajo.",
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "La metacognición implica que el estudiante piense sobre su propio pensamiento y ajuste estrategias.",
+    "normativeJustification": "La metacognición implica que el estudiante piense sobre su propio pensamiento y ajuste estrategias.",
+    "theoreticalJustification": "La metacognición implica que el estudiante piense sobre su propio pensamiento y ajuste estrategias.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 844,
+    "id": "dir-apt-ped-96",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Arman “grupos” donde uno copia y los demás esperan. Un docente diseña roles, meta común e interdependencia positiva, con responsabilidad individual. No es ausencia de roles ni retiro del docente.",
+    "stem": "A diferencia del trabajo meramente grupal, ¿qué caracteriza al trabajo colaborativo?",
+    "options": [
+      "La ausencia total de roles definidos.",
+      "Interdependencia positiva, con responsabilidad individual y colectiva sobre el resultado.",
+      "Evaluación exclusivamente individual, sin ningún componente de equipo.",
+      "Eliminar el rol del docente durante toda la actividad."
+    ],
+    "explanation": "El trabajo verdaderamente colaborativo exige interdependencia y responsabilidad compartida.",
+    "normativeJustification": "El trabajo verdaderamente colaborativo exige interdependencia y responsabilidad compartida.",
+    "theoreticalJustification": "El trabajo verdaderamente colaborativo exige interdependencia y responsabilidad compartida.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 845,
+    "id": "dir-apt-ped-97",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute La diferenciación pedagógica en el aula busca principalmente. Un actor propone: “Aplicar la misma actividad, en el mismo tiempo, a todos los estudiantes sin excepción”. Otro insiste: “Separar físicamente a los estudiantes según su rendimiento académico de forma permanente”. Un tercero sugiere: “Reemplazar la evaluación formativa por evaluación sumativa”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar la misma actividad, en el mismo tiempo, a todos los estudiantes sin excepción",
+      "Ajustar contenidos, procesos o productos según las necesidades y ritmos de aprendizaje de los estudiantes",
+      "Separar físicamente a los estudiantes según su rendimiento académico de forma permanente",
+      "Reemplazar la evaluación formativa por evaluación sumativa"
+    ],
+    "explanation": "La diferenciación responde a la diversidad del aula ajustando distintos elementos del proceso.",
+    "normativeJustification": "La diferenciación responde a la diversidad del aula ajustando distintos elementos del proceso.",
+    "theoreticalJustification": "La diferenciación responde a la diversidad del aula ajustando distintos elementos del proceso.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 846,
+    "id": "dir-apt-ped-98",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En media, orientación vocacional se reduce a “elegir carrera ya” o a un test. Un docente acompaña la reflexión de intereses, metas y decisiones. No reemplaza el área de ética ni impone un oficio.",
+    "stem": "¿Qué busca principalmente el Proyecto de Vida como estrategia en educación media?",
+    "options": [
+      "Definir de manera obligatoria la carrera profesional del estudiante.",
+      "Acompañar la reflexión sobre intereses, metas y decisiones futuras.",
+      "Reemplazar la orientación vocacional por pruebas estandarizadas únicas.",
+      "Evaluarse únicamente en el área de ética, sin acompañamiento."
+    ],
+    "explanation": "Es un proceso de acompañamiento y reflexión, no una definición vocacional obligatoria.",
+    "normativeJustification": "Es un proceso de acompañamiento y reflexión, no una definición vocacional obligatoria.",
+    "theoreticalJustification": "Es un proceso de acompañamiento y reflexión, no una definición vocacional obligatoria.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 847,
+    "id": "dir-apt-ped-99",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Competencias pedagógicas · Directivo. Un actor propone: “Un enfoque exclusivamente biológico y reproductivo”. Otro insiste: “Una sola sesión anual a cargo del área de ciencias naturales”. Un tercero sugiere: “La exclusión de los padres de familia del proceso”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Un enfoque exclusivamente biológico y reproductivo",
+      "Un enfoque integral que incluya dimensiones biológicas, socioafectivas y de derechos",
+      "Una sola sesión anual a cargo del área de ciencias naturales",
+      "La exclusión de los padres de familia del proceso"
+    ],
+    "explanation": "El enfoque integral, con participación de la comunidad educativa, es el esperado.",
+    "normativeJustification": "El enfoque integral, con participación de la comunidad educativa, es el esperado.",
+    "theoreticalJustification": "El enfoque integral, con participación de la comunidad educativa, es el esperado.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 848,
+    "id": "dir-apt-ped-100",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Competencias pedagógicas · Directivo. Un actor propone: “La opacidad de los criterios de evaluación”. Otro insiste: “La eliminación de la retroalimentación docente”. Un tercero sugiere: “La reducción del tiempo dedicado a la planeación”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "La opacidad de los criterios de evaluación, aunque parezca un trámite equitativo o suficiente.",
+      "La transparencia del proceso y la autorregulación del estudiante frente a lo que se espera de él",
+      "La eliminación de la retroalimentación docente, aunque se presente como solución rápida en la reunión.",
+      "La reducción del tiempo dedicado a la planeación, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Compartir los criterios previamente fortalece la transparencia y la autorregulación del estudiante.",
+    "normativeJustification": "Compartir los criterios previamente fortalece la transparencia y la autorregulación del estudiante.",
+    "theoreticalJustification": "Compartir los criterios previamente fortalece la transparencia y la autorregulación del estudiante.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 849,
+    "id": "dir-apt-lec-101",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La deserción escolar en Colombia tiende a incrementarse en el tránsito entre la básica primaria y la básica secundaria, período en el que muchos estudiantes deben desplazarse a una sede distinta o asumir jornadas más exigentes. Algunas instituciones han implementado estrategias de acompañamiento en este tránsito, como jornadas de inducción, seguimiento individual a estudiantes en riesgo y articulación entre los docentes de quinto y sexto grado, con el fin de que el cambio de nivel no se convierta en un factor adicional de abandono escolar.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El tránsito de primaria a secundaria es un momento crítico de deserción que algunas instituciones atienden con estrategias de acompañamiento",
+      "La deserción escolar solo ocurre en la educación media",
+      "El cambio de sede elimina por completo el riesgo de deserción",
+      "La articulación entre docentes de quinto y sexto grado es obligatoria por ley"
+    ],
+    "explanation": "El texto identifica ese tránsito como un momento crítico y describe estrategias institucionales de respuesta.",
+    "normativeJustification": "El texto identifica ese tránsito como un momento crítico y describe estrategias institucionales de respuesta.",
+    "theoreticalJustification": "El texto identifica ese tránsito como un momento crítico y describe estrategias institucionales de respuesta.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 850,
+    "id": "dir-apt-lec-102",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La deserción escolar en Colombia tiende a incrementarse en el tránsito entre la básica primaria y la básica secundaria, período en el que muchos estudiantes deben desplazarse a una sede distinta o asumir jornadas más exigentes. Algunas instituciones han implementado estrategias de acompañamiento en este tránsito, como jornadas de inducción, seguimiento individual a estudiantes en riesgo y articulación entre los docentes de quinto y sexto grado, con el fin de que el cambio de nivel no se convierta en un factor adicional de abandono escolar.",
+    "stem": "Según el texto, ¿qué estrategia se menciona para reducir el riesgo de deserción en ese tránsito?",
+    "options": [
+      "Reducir el número de sedes de la institución",
+      "Seguimiento individual a estudiantes en riesgo y articulación entre docentes de los grados implicados",
+      "Aumentar la exigencia académica en sexto grado",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual."
+    ],
+    "explanation": "El texto lo menciona explícitamente como una de las estrategias implementadas.",
+    "normativeJustification": "El texto lo menciona explícitamente como una de las estrategias implementadas.",
+    "theoreticalJustification": "El texto lo menciona explícitamente como una de las estrategias implementadas.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

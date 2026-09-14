@@ -1,0 +1,331 @@
+# -*- coding: utf-8 -*-
+"""Reescribe dir-apt-blan-43..52 (posiciones 791-800)."""
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(r"c:\Users\MSI\Documents\Proyectos\TuPlazaDocente")
+OUT = ROOT / "_tmp_out_791_800.json"
+
+FORBIDDEN = re.compile(
+    r"\b(siempre|nunca|solo|sólo|únicamente|unicamente|sin importar|totalmente)\b",
+    re.IGNORECASE,
+)
+OBVIOUS = (
+    "ignorar",
+    "sin planear",
+    "aunque rompa",
+    "aunque se presente como",
+    "aunque se presente",
+    "aunque ahorre",
+    "aunque parezca",
+    "actividad recreativa",
+    "eliminar toda evidencia",
+    "para que se note liderazgo",
+    "castigo del rincón",
+    "acta genérica",
+    "delegar el conflicto a familias",
+    "familias o chats",
+)
+KEYS_OK = {
+    "id",
+    "options",
+    "explanation",
+    "normativeJustification",
+    "theoreticalJustification",
+    "distractorAnalysis",
+}
+CI = {
+    "dir-apt-blan-43": 1,
+    "dir-apt-blan-44": 1,
+    "dir-apt-blan-45": 1,
+    "dir-apt-blan-46": 1,
+    "dir-apt-blan-47": 2,
+    "dir-apt-blan-48": 2,
+    "dir-apt-blan-49": 2,
+    "dir-apt-blan-50": 1,
+    "dir-apt-blan-51": 1,
+    "dir-apt-blan-52": 1,
+}
+
+ITEMS = [
+    {
+        "id": "dir-apt-blan-43",
+        "options": [
+            "Recibir al padre molesto en el pasillo de rectoría, prometerle «respuesta hoy» sobre la queja radicada hace una semana y prescindir de abrir el expediente, para que salga calmado y la institución luzca ágil ante quien reclama.",
+            "Escuchar al padre que exige respuesta inmediata, explicarle el estado real del expediente de la queja de una semana y comprometer una fecha concreta de respuesta, con reserva de la información y seguimiento por el canal de rectoría.",
+            "Trasladar de inmediato la queja de una semana al personero estudiantil, cerrar el canal de rectoría con el padre molesto y anunciarle que esa instancia del gobierno escolar formulará la respuesta, para respetar el conducto de participación.",
+            "Convocar una sesión del consejo de padres para «transparentar» la queja de una semana, de modo que el acudiente molesto exponga el caso ante la comunidad y la demora quede zanjada con veeduría social de las familias.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente ante el padre molesto y la queja de una semana sin resolver. Escuchar, informar el estado del expediente y fijar una fecha concreta atiende el derecho a una respuesta fundada y el debido proceso, sin improvisar un plazo de pasillo. El Decreto 1075 y el artículo 29 de la Constitución exigen canal institucional, contradicción y reserva; el rector, como representante legal, no puede simular celeridad ni exponer el caso. Recibir al acudiente en el corredor con «respuesta hoy» cuida la imagen de agilidad y no abre el expediente. Trasladar al personero y cerrar rectoría confunde una instancia de participación estudiantil con quien debe resolver. La sesión pública del consejo de padres vulnera confidencialidad y convierte un trámite en veeduría espectacular.",
+        "normativeJustification": "El Decreto 1075 y el artículo 29 de la Constitución exigen responder por canal institucional, con reserva y plazo cierto. El personero y el consejo de padres no sustituyen la competencia del rector ni autorizan a ventilar una queja de una semana en público.",
+        "theoreticalJustification": "La escucha con plazo cierto desescala sin simular. La celeridad de pasillo, el traslado a otra instancia o la sesión pública son salidas de imagen, de gobierno escolar mal leído o de transparencia que no resuelven el expediente ni cuidan la reserva.",
+        "distractorAnalysis": {
+            "0": "Trampa de dominio cruzado de la imagen de celeridad: atender en el pasillo y prometer «respuesta hoy» parece servicio al padre molesto. No abre el expediente de la queja de una semana y simula plazo; falla la reserva y el canal institucional que el stem exige.",
+            "2": "Trampa de la instancia cruzada del personero: trasladar la queja y cerrar rectoría luce como respeto al gobierno escolar. El personero representa estudiantes; no sustituye la competencia del rector de resolver ni de informar el estado del proceso.",
+            "3": "Trampa de la transparencia pública: la sesión del consejo de padres parece veeduría y cierra la demora ante la comunidad. Expone la queja de una semana, vulnera confidencialidad y convierte un expediente en espectáculo.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-44",
+        "options": [
+            "Permitir que la mayoría del Consejo Directivo vote la propuesta y anexar después una «reserva de rectoría» al acta, para no tensionar la sesión y dejar constancia formal de que el rector no compartía el acto contrario a la norma.",
+            "Explicar en la mesa las implicaciones normativas de la propuesta del Consejo Directivo y ofrecer alternativas legales viables, de modo que la deliberación se reconduzca al marco vigente y no se adopte un acto contrario a la norma.",
+            "Suspender la reunión del Consejo Directivo y consultar primero a la Secretaría de Educación, antes de argumentar en la mesa, para que un concepto externo determine si la propuesta se puede votar y el rector no cargue el disenso.",
+            "Solicitar que la Asociación de Padres ratifique o rechace la propuesta del Consejo Directivo, a fin de dotar de legitimidad comunitaria una decisión que el rector considera contraria a la normatividad vigente.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un miembro del Consejo Directivo propone un acto contrario a la norma. El liderazgo técnico del rector consiste en explicar las implicaciones jurídicas en la mesa y ofrecer alternativas legales, no en ceder a la mayoría ni en aplazar el argumento. El Decreto 1075, la Ley 115 y el Decreto 1860 sitúan al rector como representante legal y al Consejo Directivo dentro del marco; un acuerdo ilegal no se convalida por votación. Anexar una reserva después de votar es formalismo: el acto ya nacería viciado. Suspender para consultar a Secretaría dilata y desplaza la argumentación que corresponde en la sesión. Pedir ratificación a la Asociación de Padres confunde legitimidad comunitaria con legalidad.",
+        "normativeJustification": "La Ley 115, el Decreto 1860 y el Decreto 1075 sitúan al Consejo Directivo dentro del marco legal; el rector, como representante legal, debe impedir un acto contrario a la norma. Una reserva posterior, un concepto dilatorio de Secretaría o una ratificación de la Asociación no convalida lo ilegal.",
+        "theoreticalJustification": "El liderazgo técnico argumenta en la mesa y ofrece alternativas legales. Ceder a la votación, dilatar con Secretaría o plebiscitar con la Asociación son formalismo, trámite territorial o legitimidad comunitaria que no corrigen un acto ilegal.",
+        "distractorAnalysis": {
+            "0": "Trampa del formalismo de la reserva posterior: dejar votar a la mayoría y anexar disenso al acta parece prudencia y trazabilidad. El acto contrario a la norma ya nacería; la reserva no lo sana ni explica alternativas legales en la mesa.",
+            "2": "Trampa de dominio cruzado de la consulta a Secretaría: suspender y pedir concepto luce impecable como trámite territorial. Dilata el deber de argumentar en el Consejo Directivo y desplaza la conducción normativa que el stem pide al rector.",
+            "3": "Trampa de la ratificación comunitaria: que la Asociación de Padres avale o rechace la propuesta parece legitimidad. Confunde participación del 1286 con legalidad y no corrige el acto que el rector ya identifica como contrario a la norma.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-45",
+        "options": [
+            "Elevar el listón de recuperación en el SIEE para el estudiante de bajo rendimiento, de modo que el promedio quede comparable en el boletín y la visita de calidad perciba rigor, mientras las dificultades familiares quedan fuera del juicio académico.",
+            "Activar la ruta de apoyo psicosocial de la institución, en coordinación con el director de grupo que recibió el relato, y hacer seguimiento conjunto con el equipo docente al bajo rendimiento y a las dificultades familiares comunicadas.",
+            "Programar quizzes extra para subir el promedio del estudiante de bajo rendimiento, dejar esas evidencias en el SIEE y dar por gestionado el caso, sin articular apoyo a las dificultades familiares ya conocidas por el director de grupo.",
+            "Remitir el bajo rendimiento y las dificultades familiares al Comité Escolar de Convivencia como si fueran una situación de la Ley 1620, y dar por cerrado el acompañamiento académico del director de grupo y del equipo docente.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente frente al bajo rendimiento y a las dificultades familiares reveladas al director de grupo. Activar la ruta psicosocial y el seguimiento conjunto atiende la causa y el aprendizaje, en lugar de endurecer el SIEE o multiplicar quizzes. El Decreto 1290 exige evaluación integral y apoyo; la Ley 1620 y el Decreto 1075 mandan rutas de atención cuando hay barreras extraacadémicas; la Guía 34 pide gestión académica articulada al bienestar. Subir el listón de recuperación parece rigor comparable y no toca la familia. Los quizzes extra inflan evidencias y dejan intacta la causa. Remitir al Comité de Convivencia trata un problema de apoyo como conflicto 1620 y cierra lo académico.",
+        "normativeJustification": "El Decreto 1290 exige evaluación integral y estrategias de apoyo; la Ley 1620 y el Decreto 1075 articulan rutas psicosociales cuando hay barreras familiares. El SIEE no se endurece para simular rigor ni el Comité de Convivencia absorbe un caso de rendimiento.",
+        "theoreticalJustification": "El bajo rendimiento con causa familiar se aborda con ruta de apoyo y seguimiento de aula. El listón del SIEE, los quizzes extra o el Comité 1620 tratan el síntoma, inflan evidencias o cambian de dominio, y dejan intacta la dificultad familiar.",
+        "distractorAnalysis": {
+            "0": "Trampa del rigor del SIEE como listón comparable: subir la recuperación parece equidad de boletín y visita de calidad. Endurece el juicio del estudiante de bajo rendimiento y deja fuera las dificultades familiares que el director de grupo ya conoció.",
+            "2": "Trampa de los quizzes extra como recuperación: más evidencias en el SIEE lucen como apoyo académico. No articulan la ruta psicosocial ni el seguimiento conjunto; tratan el promedio y no la causa familiar del bajo rendimiento.",
+            "3": "Trampa de dominio cruzado del Comité 1620: remitir a convivencia parece ruta integral. Confunde dificultades familiares y rendimiento con una situación de convivencia, y da por cerrado el acompañamiento académico que el caso pide.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-46",
+        "options": [
+            "Publicar en la sala de docentes el ranking de componentes de la evaluación de desempeño, con el puntaje bajo del colega visible, para que el equipo compare resultados y la visita perciba transparencia en la aplicación del Decreto 1278.",
+            "Presentar en privado el resultado del componente bajo, explicar los criterios aplicados y concertar con el docente un plan de mejoramiento con plazos y evidencias, en el sentido formativo y administrativo del Decreto 1278.",
+            "Archivar el puntaje bajo y los instrumentos firmados en la carpeta de evaluación 1278, y prescindir de conversar el componente, porque la trazabilidad documental ya estaría completa para una visita de Secretaría de Educación.",
+            "Aplazar la retroalimentación del componente bajo hasta el siguiente ciclo anual de evaluación de desempeño, para proteger el clima laboral y no incomodar al docente en este momento de presión institucional y de tiempos del calendario.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente al comunicar un componente bajo en la evaluación de desempeño. Presentar el resultado, los criterios y un plan concertado cumple el sentido formativo y administrativo del Decreto 1278. La Guía 34 sitúa el desarrollo del talento docente como gestión directiva, no como ranking ni como archivo mudo. Publicar el puntaje en la sala de docentes finge transparencia y vulnera reserva laboral. Archivar instrumentos en la carpeta 1278 es trazabilidad vacía: hay expediente y no hay conversación. Aplazar al siguiente ciclo anual protege el clima aparente y niega la oportunidad de mejora que la evaluación acaba de abrir.",
+        "normativeJustification": "El Decreto 1278 concibe la evaluación anual como formativa y administrativa: resultado, criterios y plan concertado. La Guía 34 pide desarrollo profesional, no ranking en sala de docentes, archivo mudo ni aplazamiento al ciclo siguiente.",
+        "theoreticalJustification": "La retroalimentación concertada convierte un componente bajo en mejora. El ranking, el archivo 1278 sin conversación o el aplazamiento por clima miden imagen, trazabilidad vacía o evitación, no desarrollo profesional.",
+        "distractorAnalysis": {
+            "0": "Trampa del ranking público en la sala de docentes: exhibir el componente bajo parece transparencia del 1278 y aprendizaje entre pares. Vulnera reserva laboral y convierte un juicio de desempeño en comparativo de imagen, no en plan de mejora.",
+            "2": "Trampa de dominio cruzado del expediente 1278: archivar puntaje e instrumentos luce impecable para Secretaría. Hay trazabilidad y no hay conversación; el componente bajo queda sin criterios explicados ni plan concertado que el stem exige.",
+            "3": "Trampa de aplazar para proteger el clima: esperar al siguiente ciclo anual parece cuidado del ambiente laboral. Niega la retroalimentación oportuna del componente bajo y deja al docente sin ruta de mejora en el periodo que la evaluación acaba de cerrar.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-47",
+        "options": [
+            "Eliminar la prueba institucional y sustituirla por una encuesta de satisfacción a las familias sobre presión académica, para aliviar al grupo de docentes y mostrar sensibilidad comunitaria sin sostener el instrumento de evidencias periódicas.",
+            "Conservar la prueba institucional en las mismas condiciones y circular al claustro que está alineada con Saber, sin abrir mesa sobre la presión que los docentes reportan en los estudiantes ni revisar tiempos, apoyos o retroalimentación.",
+            "Explicar el propósito pedagógico de la prueba institucional y abrir un espacio para ajustar sus condiciones de aplicación, de modo que se atienda la preocupación válida sobre la presión estudiantil sin suprimir el instrumento de mejora.",
+            "Trasladar la decisión sobre la prueba institucional al Consejo Directivo como punto de presupuesto e imagen, para que el órgano de gobierno zanje el desacuerdo con los docentes y quede rastro de adopción en el acta de sesión.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando los docentes piden eliminar la prueba institucional por la presión sobre los estudiantes. El rector no comparte suprimirla, pero reconoce preocupaciones válidas: por eso explica el propósito pedagógico y abre ajuste de condiciones de aplicación. El Decreto 1290 y la Guía 34 respaldan evidencias periódicas al servicio del aprendizaje, no un instrumento inamovible ni su reemplazo por opinión familiar. Eliminarla y poner una encuesta de satisfacción cuida la imagen y pierde el insumo de mejora. Mantenerla idéntica con una circular «Saber» impone sin diálogo. Pasar el punto al Consejo Directivo como presupuesto o imagen desplaza un debate pedagógico a un órgano de adopción.",
+        "normativeJustification": "El Decreto 1290 y la Guía 34 respaldan pruebas institucionales al servicio del aprendizaje, con condiciones revisables. El Consejo Directivo adopta políticas, no sustituye el diálogo pedagógico; una encuesta familiar no reemplaza el instrumento.",
+        "theoreticalJustification": "Sostener el propósito de la prueba y ajustar condiciones atiende la presión sin vaciar el insumo. La encuesta familiar, la circular Saber o el traslado al Consejo Directivo sustituyen pedagogía por imagen, imposición o adopción formal.",
+        "distractorAnalysis": {
+            "0": "Trampa de la encuesta de satisfacción familiar: sustituir la prueba institucional por opinión de las familias parece sensibilidad ante la presión. Cede el conflicto con los docentes y pierde el insumo pedagógico que el rector considera necesario sostener.",
+            "1": "Trampa de la circular de alineación Saber: mantener el instrumento idéntico y ampararlo en pruebas nacionales parece rigor de calidad. No escucha la preocupación válida ni abre ajuste de condiciones; impone sin el diálogo que el stem pide.",
+            "3": "Trampa de dominio cruzado del Consejo Directivo: pasar el punto como presupuesto e imagen luce como gobierno escolar impecable. Desplaza un debate pedagógico a un órgano de adopción y no explica el propósito ni ajusta la aplicación.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-48",
+        "options": [
+            "Recalcular todas las notas del periodo de los estudiantes afectados por equidad de boletín, sin documentar el error puntual de registro ni delimitar qué valor se corrige en el sistema de calificación de la institución.",
+            "Convocar a los padres de los estudiantes afectados a una reunión para transparentar el error de registro de notas, de modo que la comunidad perciba que rectoría no oculta fallas y el caso quede socializado ante las familias.",
+            "Abordar el error de registro con el docente en privado, corregirlo formalmente en el sistema de notas de los varios estudiantes afectados y acordar controles de digitación para que no se repita, con constancia institucional.",
+            "Abrir de inmediato un proceso disciplinario del Decreto 1278 contra el docente, antes de corregir las notas de los estudiantes afectados, para dejar precedente de rigor en el registro académico y en la carpeta de desempeño.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente ante un error de registro de notas que afecta a varios estudiantes. Abordarlo en privado, corregirlo formalmente y acordar controles protege el derecho a una evaluación fidedigna y el respeto al docente. El Decreto 1290 exige trazabilidad del SIEE; el artículo 29 de la Constitución y el Decreto 1075 piden enmendar con procedimiento, no con espectáculo ni con sanción previa. Recalcular todo el periodo por equidad altera juicios que no estaban errados. Reunir a los padres para transparentar el error expone datos y cuida imagen. Abrir el 1278 antes de corregir las notas invierte el orden: primero se restablece el registro, después se valora si hay falta laboral.",
+        "normativeJustification": "El Decreto 1290 exige que el SIEE registre juicios fidedignos; el artículo 29 y el Decreto 1075 piden enmendar el error con procedimiento. El Decreto 1278 no se abre como primer paso antes de corregir las notas de los estudiantes afectados.",
+        "theoreticalJustification": "Corregir en privado con control posterior restaura el registro y el clima laboral. Recalcular el periodo, socializar el error con padres o abrir el 1278 antes de enmendar son equidad aparente, transparencia de imagen o rigor punitivo invertido.",
+        "distractorAnalysis": {
+            "0": "Trampa de la equidad que recálcula todo el periodo: rehacer las notas de los afectados parece justicia de boletín. No documenta el error puntual de registro y puede alterar juicios que no estaban equivocados, contra la fidedignidad del SIEE.",
+            "1": "Trampa de transparentar el error ante los padres: la reunión parece honestidad institucional. Expone el registro de varios estudiantes, vulnera reserva y cuida imagen comunitaria en lugar de enmendar primero el sistema de notas.",
+            "3": "Trampa de dominio cruzado del 1278 punitivo: abrir proceso disciplinario antes de corregir las notas luce como rigor laboral. Invierte el orden ético: el derecho de los estudiantes al registro fidedigno queda en segundo plano frente al expediente del docente.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-49",
+        "options": [
+            "Cederle la palabra al padre que interrumpe y alza la voz, y modificar en público la decisión académica cuestionada, para apaciguar la reunión de padres y que el resto de familias perciba disposición de rectoría ante el reclamo.",
+            "Cerrar de inmediato la reunión de padres y emitir un comunicado escrito de rectoría que ratifique la decisión académica, congelando el debate para que el tono elevado no escale en el auditorio ni quede constancia de la interrupción.",
+            "Mantener la calma, reconocer la preocupación del padre que interrumpe reiteradamente y proponer conversar la decisión académica en un espacio individual al finalizar, sin alterar el orden de la reunión ni el acto ya adoptado.",
+            "Activar el Comité Escolar de Convivencia contra el acudiente, tipificando el tono elevado en la reunión de padres como situación Tipo II de la Ley 1620, y dar por gestionada la interrupción con ruta de convivencia.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un padre interrumpe la reunión y alza la voz contra una decisión académica. Desescalar, reconocer la preocupación y ofrecer un espacio individual al finalizar cuida el orden del encuentro y el derecho a ser oído, sin ceder al tono. El Decreto 1075 y el gobierno escolar de la Ley 115 reservan las decisiones académicas a las instancias competentes; la Ley 1620 y la Guía 49 no convierten a un acudiente alterado en situación Tipo II. Cambiar la decisión en público apacigua y deshace el acto. Cerrar la reunión y emitir un comunicado congela administrativamente el conflicto. Activar el Comité de Convivencia contra el padre es un uso cruzado de la ruta prevista para estudiantes.",
+        "normativeJustification": "El gobierno escolar (Ley 115 y Decreto 1075) reserva las decisiones académicas a las instancias competentes. La Ley 1620 y la Guía 49 regulan situaciones entre estudiantes; no tipifican como Tipo II el tono elevado de un acudiente en una reunión de padres.",
+        "theoreticalJustification": "La calma con espacio individual posterior desescala y preserva el acto académico. Ceder en público, cerrar con comunicado o activar el 1620 contra el acudiente son apaciguamiento, congelamiento administrativo o ruta cruzada.",
+        "distractorAnalysis": {
+            "0": "Trampa del apaciguamiento público: ceder la palabra y cambiar la decisión académica parece escucha y clima. Premia el tono elevado, altera un acto ya adoptado y enseña al resto de la reunión de padres que la interrupción modifica el gobierno escolar.",
+            "1": "Trampa de dominio cruzado del comunicado que congela: cerrar la reunión y ratificar por escrito luce como control administrativo impecable. Evita oír al padre, no desescala en la sala y sustituye el espacio individual por un oficio de rectoría.",
+            "3": "Trampa del Comité 1620 contra el acudiente: tipificar el tono elevado como Tipo II parece protocolo de convivencia. La Ley 1620 no está pensada para sancionar padres en una reunión; desvía el conflicto académico hacia una ruta de estudiantes.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-50",
+        "options": [
+            "Reasignar esta semana el grupo numeroso a un docente antiguo, para que las familias perciban orden inmediato y la docente nueva quede en un curso más pequeño mientras toma ritmo de aula y el coordinador cierra la alerta de disciplina.",
+            "Ofrecer a la docente nueva acompañamiento pedagógico y estrategias de manejo de aula para el grupo numeroso, con seguimiento cercano del coordinador, acuerdos y evidencias de mejora, sin retirar el grupo de entrada ni exponerla ante las familias.",
+            "Anotar la dificultad de disciplina del grupo numeroso en la carpeta de evaluación 1278 de la docente nueva, como evidencia temprana del ciclo anual, y prescindir de un plan de apoyo en el aula mientras el coordinador deja rastro documental.",
+            "Pedir al consejo de padres que acompañe el aula del grupo numeroso, con acudientes en clase para sostener la disciplina, y dar por cubierto el apoyo institucional a la docente nueva con participación comunitaria visible.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente ante la docente nueva y el grupo numeroso con dificultades de disciplina. El acompañamiento pedagógico con estrategias de aula y seguimiento del coordinador es formación, no abandono ni recambio visible. El Decreto 1278 evalúa para mejorar; la Guía 34 exige gestión académica de apoyo al aula; el Decreto 1075 sitúa al rector y al coordinador en el desarrollo profesional. Reasignar el grupo a un docente antiguo esta semana alivia a las familias y retira el problema sin enseñar a manejarlo. Anotar la dificultad en la carpeta 1278 fabrica evidencia temprana y no sostiene el aula. Pedir al consejo de padres que entre a clase confunde participación comunitaria con manejo de disciplina.",
+        "normativeJustification": "La Guía 34 y el Decreto 1075 asignan al rector y al coordinador el acompañamiento pedagógico del aula. El Decreto 1278 evalúa para mejorar, no para archivar evidencia temprana ni para que el consejo de padres sustituya el manejo de disciplina.",
+        "theoreticalJustification": "El acompañamiento situado enseña a manejar el grupo numeroso. Reasignar para las familias, anotar el 1278 o meter al consejo de padres en el aula retiran el problema, fabrican cargo o cruzan la participación comunitaria.",
+        "distractorAnalysis": {
+            "0": "Trampa de reasignar el grupo para que las familias vean orden: pasar el curso numeroso a un docente antiguo parece protección del clima y de la matrícula. Retira el problema de la docente nueva sin enseñarle estrategias de aula ni dejar seguimiento del coordinador.",
+            "2": "Trampa de la evidencia temprana en la carpeta 1278: anotar la dificultad de disciplina luce como trazabilidad de desempeño. Convierte una necesidad de acompañamiento en cargo anticipado y prescinde del apoyo pedagógico que el caso pide.",
+            "3": "Trampa de dominio cruzado del consejo de padres en el aula: que los acudientes «sostengan» la disciplina parece alianza familia-escuela. Confunde participación comunitaria con manejo de clase y expone a la docente nueva ante las familias.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-51",
+        "options": [
+            "Aplicar la misma sanción a ambos estudiantes por equidad de manual, sin indagar quién inició la agresión en la pelea, y dejar constancia simétrica en las dos carpetas de convivencia de los grados distintos involucrados.",
+            "Escuchar por separado a cada estudiante, recoger la versión de testigos de la pelea entre grados distintos y aplicar el debido proceso del manual de convivencia, según la Ley 1620 y la Guía 49, antes de tipificar o sancionar.",
+            "Confrontar a ambas familias en el patio, delante de otros estudiantes, para reconciliar en público a los dos grados y mostrar que la institución no tolera peleas entre quienes se acusan mutuamente de haber iniciado la agresión.",
+            "Tipificar de entrada la pelea como situación Tipo III, avisar a Policía de Infancia y Adolescencia y dar por agotada la indagación escolar, porque ambos se acusan y el reporte a autoridad luciría como protocolo completo de protección.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente en la pelea entre dos estudiantes de grados distintos que se acusan mutuamente. Escuchar por separado, recoger testigos y seguir el debido proceso del manual, con la Ley 1620 y la Guía 49, es la vía proporcional antes de tipificar. El artículo 29 de la Constitución prohíbe sancionar de plano. La misma sanción a ambos por equidad homogeneiza y puede revictimizar a quien no inició. Confrontar familias en el patio expone a los estudiantes y finge restauración. Tipificar de entrada como Tipo III y avisar a Policía desplaza la indagación escolar y puede ser desproporcionado si aún no hay delito claro.",
+        "normativeJustification": "La Ley 1620, la Guía 49 y el artículo 29 de la Constitución exigen indagación imparcial, versiones por separado y proporcionalidad antes de tipificar. Una pelea con acusaciones cruzadas no se resuelve con sanción simétrica, patio público ni Tipo III automático.",
+        "theoreticalJustification": "El debido proceso reconstruye hechos antes de la medida. La sanción simétrica, la confrontación en el patio o el Tipo III con Policía homogeneizan, exponen o penalizan sin indagación escolar de la pelea entre los dos grados.",
+        "distractorAnalysis": {
+            "0": "Trampa de la equidad homogeneizadora de la sanción: aplicar la misma medida a ambos parece imparcialidad de manual. Omite indagar quién inició la pelea, puede revictimizar y no cumple el debido proceso que la Guía 49 exige antes de la consecuencia.",
+            "2": "Trampa de la reconciliación pública en el patio: confrontar a las dos familias delante de otros estudiantes parece restauración visible. Expone a los involucrados, rompe reserva y sustituye la indagación por separado por un espectáculo de clima.",
+            "3": "Trampa de dominio cruzado del Tipo III y la Policía: avisar de entrada a Infancia y Adolescencia luce como protocolo de protección. Puede ser desproporcionado si la pelea aún no configura delito, y agota la indagación escolar que el manual debe agotar primero.",
+        },
+    },
+    {
+        "id": "dir-apt-blan-52",
+        "options": [
+            "Ajustar el horario del docente mediante circular de personal que cite razones personales difíciles, para que el equipo cubra las clases y la novedad quede trazable en la carpeta de talento humano y en el organigrama de reemplazos de la jornada.",
+            "Escuchar con respeto lo que el docente confió, mantener la confidencialidad de la situación personal difícil y explorar juntos apoyos institucionales posibles (horarios, orientación o rutas de bienestar), sin exponer el caso al claustro.",
+            "Registrar de inmediato una caída de desempeño en el componente correspondiente del Decreto 1278 y formular un plan de mejora, sin ofrecer apoyo a la situación personal que el docente comunicó en reserva al rector de la institución.",
+            "Encauzar el relato confidencial como novedad de nómina o solicitud de licencia ante talento humano de la Secretaría, como si el apoyo institucional consistiera en el trámite administrativo de personal y no en una escucha reservada en rectoría.",
+        ],
+        "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un docente confía, en reserva, una situación personal difícil que afecta su desempeño. Escuchar, guardar confidencialidad y explorar apoyos institucionales protege la dignidad y abre una vía de sostenimiento laboral. El artículo 15 de la Constitución y el Decreto 1075 amparan intimidad y bienestar; el Decreto 1278 no se activa como primer gesto punitivo-formal. Una circular de personal que cite razones personales deja rastro público y rompe la reserva. Registrar de inmediato una caída de desempeño convierte el relato en cargo. Encauzar el caso a nómina o licencia de Secretaría administra un trámite y no ofrece el apoyo confidencial que el docente pidió al rector.",
+        "normativeJustification": "El artículo 15 de la Constitución y el Decreto 1075 amparan la intimidad y el bienestar del docente. El Decreto 1278 no convierte un relato confidencial en cargo inmediato; la circular de personal y la novedad de nómina no son el apoyo reservado que el caso pide.",
+        "theoreticalJustification": "La confidencialidad con apoyos posibles cuida dignidad y desempeño. La circular que cita razones personales, el 1278 inmediato o la licencia de nómina exponen, judicializan o administran un trámite que no es el apoyo pedido en rectoría.",
+        "distractorAnalysis": {
+            "0": "Trampa de la circular de personal que expone la reserva: ajustar el horario con un oficio que cita razones personales parece gestión ordenada de reemplazos. Deja rastro en el equipo y en la carpeta de talento humano, y rompe la confidencialidad que el docente pidió al rector.",
+            "2": "Trampa del plan 1278 sin apoyo a la situación personal: registrar la caída de desempeño y un plan de mejora luce como rigor formativo del estatuto. Convierte el relato confidencial en cargo y omite el sostenimiento institucional que el stem pide primero.",
+            "3": "Trampa de dominio cruzado de la novedad de nómina: encauzar el caso a licencia o trámite de Secretaría parece apoyo de talento humano. Administra un procedimiento territorial y no ofrece la escucha reservada ni los apoyos internos que el docente buscó en rectoría.",
+        },
+    },
+]
+
+
+def validate(items):
+    errors = []
+    opt_norm = {}
+    if len(items) != 10:
+        errors.append(f"COUNT {len(items)}")
+    for it in items:
+        tag = it.get("id")
+        extra = sorted(set(it.keys()) - KEYS_OK)
+        if extra:
+            errors.append(f"EXTRA KEYS {tag} {extra}")
+        for k in KEYS_OK:
+            if k not in it:
+                errors.append(f"MISSING KEY {tag} {k}")
+        ci = CI.get(tag)
+        opts = it.get("options")
+        if not isinstance(opts, list) or len(opts) != 4:
+            errors.append(f"OPTIONS LEN {tag}")
+            continue
+        lengths = [len(o) for o in opts]
+        if max(lengths) - min(lengths) > 180:
+            errors.append(f"LEN SKEW {tag} {lengths}")
+        for oi, opt in enumerate(opts):
+            if not isinstance(opt, str) or len(opt.strip()) < 80:
+                errors.append(f"SHORT OPTION {tag} idx {oi} {len(opt) if isinstance(opt, str) else None}")
+            if isinstance(opt, str) and len(opt) > 340:
+                errors.append(f"LONG OPTION {tag} idx {oi} {len(opt)}")
+            if oi != ci and isinstance(opt, str) and FORBIDDEN.search(opt):
+                errors.append(f"FORBIDDEN WORD {tag} idx {oi} {FORBIDDEN.search(opt).group(0)}")
+            low = (opt or "").lower()
+            if oi != ci and any(x in low for x in OBVIOUS):
+                errors.append(f"OBVIOUS BAD {tag} idx {oi}")
+            key = re.sub(r"\s+", " ", (opt or "").strip().lower())[:90]
+            opt_norm.setdefault(key, []).append((tag, oi))
+        da = it.get("distractorAnalysis") or {}
+        expected = [str(n) for n in range(4) if n != ci]
+        if sorted(da.keys()) != expected:
+            errors.append(f"DA KEYS {tag} {sorted(da.keys())} expected {expected}")
+        else:
+            for k, v in da.items():
+                if not isinstance(v, str) or len(v) < 80:
+                    errors.append(f"SHORT DA {tag} {k} {len(v) if isinstance(v, str) else None}")
+                if not str(v).startswith("Trampa"):
+                    errors.append(f"DA NO TRAMPA {tag} {k}")
+        expl = it.get("explanation") or ""
+        if len(expl) < 280:
+            errors.append(f"SHORT EXPLANATION {tag} {len(expl)}")
+        n_sent = len([s for s in re.split(r"(?<=[.!?])\s+", expl.strip()) if s])
+        if n_sent < 4 or n_sent > 7:
+            errors.append(f"SENTENCES {tag} {n_sent}")
+        for field in ("normativeJustification", "theoreticalJustification"):
+            val = it.get(field) or ""
+            if len(val) < 80:
+                errors.append(f"SHORT {field} {tag} {len(val)}")
+    for k, locs in opt_norm.items():
+        if len(locs) > 1:
+            errors.append(f"DUP PREFIX {locs} {k[:80]}")
+    return errors
+
+
+def main() -> int:
+    errors = validate(ITEMS)
+    print("=== longitudes opciones ===")
+    for it in ITEMS:
+        lens = [len(o) for o in it["options"]]
+        print(
+            it["id"],
+            "ci",
+            CI[it["id"]],
+            lens,
+            "skew",
+            max(lens) - min(lens),
+            "expl",
+            len(it["explanation"]),
+            "nj",
+            len(it["normativeJustification"]),
+            "tj",
+            len(it["theoreticalJustification"]),
+            "da",
+            {k: len(v) for k, v in it["distractorAnalysis"].items()},
+        )
+    if errors:
+        print("=== ERRORES ===")
+        for e in errors:
+            print(e)
+        print("errors", len(errors))
+        return 1
+    OUT.write_text(
+        json.dumps(ITEMS, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    loaded = json.loads(OUT.read_text(encoding="utf-8"))
+    errors2 = validate(loaded)
+    if errors2:
+        print("=== ERRORES POST-DUMP ===")
+        for e in errors2:
+            print(e)
+        return 1
+    print("WROTE", OUT)
+    print("items", len(loaded))
+    print("validation OK")
+    print("errors", 0)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

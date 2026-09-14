@@ -1,0 +1,427 @@
+[
+  {
+    "pos": 721,
+    "id": "oro-soc-05",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / territorio",
+    "subtopic": "Sociales / territorio",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "territorio"
+      },
+      {
+        "code": "dba",
+        "focus": "sociales"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La geografía se enseña solo con capitales memorizadas, sin mapas del municipio ni problemas de ordenamiento local. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Trabajar territorio, escalas y problemáticas locales con cartografía y análisis espacial",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Los referentes de sociales articulan pensamiento espacial y comprensión del territorio. La geografía escolar interpreta relaciones sociedad-espacio con evidencias cartográficas.",
+    "normativeJustification": "Los referentes de sociales articulan pensamiento espacial y comprensión del territorio.",
+    "theoreticalJustification": "La geografía escolar interpreta relaciones sociedad-espacio con evidencias cartográficas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 722,
+    "id": "oro-soc-06",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / dilemas éticos",
+    "subtopic": "Sociales / dilemas éticos",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "deliberación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Ante un dilema sobre privacidad en redes, el docente dicta 'la respuesta correcta' sin abrir deliberación. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Facilitar deliberación con argumentos, respeto a reglas y contraste de consecuencias",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Las competencias ciudadanas incluyen toma de decisiones y argumentación ética. La deliberación estructurada desarrolla perspectiva moral y escucha activa.",
+    "normativeJustification": "Las competencias ciudadanas incluyen toma de decisiones y argumentación ética.",
+    "theoreticalJustification": "La deliberación estructurada desarrolla perspectiva moral y escucha activa.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 723,
+    "id": "oro-soc-07",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / diversidad étnica",
+    "subtopic": "Sociales / diversidad étnica",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "diversidad"
+      },
+      {
+        "code": "ebc",
+        "focus": "identidad"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ley115",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En un aula intercultural, el currículo de sociales invisibiliza pueblos indígenas y comunidades negras del territorio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Incluir memorias, derechos y aportes de la diversidad étnica con rigor y respeto",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "explanation": "La Constitución y los referentes de sociales reconocen la nación multiétnica y pluricultural. La identidad y la ciudadanía se construyen reconociendo pluralidad y dignidad.",
+    "normativeJustification": "La Constitución y los referentes de sociales reconocen la nación multiétnica y pluricultural.",
+    "theoreticalJustification": "La identidad y la ciudadanía se construyen reconociendo pluralidad y dignidad.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 724,
+    "id": "oro-soc-08",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / causalidad histórica",
+    "subtopic": "Sociales / causalidad histórica",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "causalidad"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "historia"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "lineamientos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante explica un hecho histórico con una sola causa ('fue por una persona'). El docente acepta sin problematizar. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Guiar el análisis de múltiples causas (políticas, económicas, sociales) e interrelaciones",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "El pensamiento histórico exige comprensión multicausal de procesos. Los hechos sociales se explican por redes de factores, no por un único héroe.",
+    "normativeJustification": "El pensamiento histórico exige comprensión multicausal de procesos.",
+    "theoreticalJustification": "Los hechos sociales se explican por redes de factores, no por un único héroe.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 725,
+    "id": "oro-soc-09",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / participación escolar",
+    "subtopic": "Sociales / participación escolar",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "gobierno escolar"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "participación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El gobierno escolar existe en el papel, pero las decisiones se toman sin escuchar al consejo estudiantil. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Garantizar espacios reales de consulta e incidencia estudiantil según el gobierno escolar",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "Ley 115 y Decreto 1860 establecen órganos de participación estudiantil con funciones reales. Se aprende democracia ejerciéndola con mediación y responsabilidad.",
+    "normativeJustification": "Ley 115 y Decreto 1860 establecen órganos de participación estudiantil con funciones reales.",
+    "theoreticalJustification": "Se aprende democracia ejerciéndola con mediación y responsabilidad.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 726,
+    "id": "oro-soc-10",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / economía",
+    "subtopic": "Sociales / economía",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "economía y sociedad"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Al hablar de desigualdad, el docente usa solo juicios morales sin datos, gráficos ni comparación territorial. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Analizar indicadores, causas estructurales y consecuencias con información verificable",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Los EBC de sociales incluyen comprensión de dinámicas económicas y sociales con evidencia. El pensamiento social crítico combina datos, conceptos y argumentación ética.",
+    "normativeJustification": "Los EBC de sociales incluyen comprensión de dinámicas económicas y sociales con evidencia.",
+    "theoreticalJustification": "El pensamiento social crítico combina datos, conceptos y argumentación ética.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 727,
+    "id": "oro-soc-11",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / línea de tiempo",
+    "subtopic": "Sociales / línea de tiempo",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "tiempo histórico"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Los estudiantes ordenan hechos en una línea de tiempo, pero no explican cambios ni continuidades. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Interpretar cambios, continuidades y rupturas entre periodos",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "El pensamiento temporal histórico va más allá de cronologías: interpreta procesos. Cambio y continuidad son categorías clave del pensamiento histórico.",
+    "normativeJustification": "El pensamiento temporal histórico va más allá de cronologías: interpreta procesos.",
+    "theoreticalJustification": "Cambio y continuidad son categorías clave del pensamiento histórico.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 728,
+    "id": "oro-soc-12",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / discriminación",
+    "subtopic": "Sociales / discriminación",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "discriminación"
+      },
+      {
+        "code": "ebc",
+        "focus": "ciudadanas"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ley1620",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En un debate, un estudiante usa estereotipos discriminatorios. El docente ignora 'para no cortar la participación'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Interrumpir con respeto, marcar el límite normativo y transformar el momento en aprendizaje ciudadano",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "explanation": "Ley 1620 y el marco de derechos exigen prevenir y atender discriminación en la escuela. La participación tiene límites éticos: dignidad y no discriminación.",
+    "normativeJustification": "Ley 1620 y el marco de derechos exigen prevenir y atender discriminación en la escuela.",
+    "theoreticalJustification": "La participación tiene límites éticos: dignidad y no discriminación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 729,
+    "id": "oro-soc-13",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / proyecto ciudadano",
+    "subtopic": "Sociales / proyecto ciudadano",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "acción ciudadana"
+      },
+      {
+        "code": "ley115",
+        "focus": "participación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "ley115"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El 'proyecto de democracia' consiste en elegir un representante y no hacer nada más el resto del año. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Incluir diagnóstico, plan de acción, seguimiento y evaluación de impacto en la comunidad escolar",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Las competencias ciudadanas se desarrollan en ciclos de acción y reflexión en la comunidad. La ciudadanía activa implica agencia, no solo ritual electoral.",
+    "normativeJustification": "Las competencias ciudadanas se desarrollan en ciclos de acción y reflexión en la comunidad.",
+    "theoreticalJustification": "La ciudadanía activa implica agencia, no solo ritual electoral.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 730,
+    "id": "oro-soc-14",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / DBA",
+    "subtopic": "Sociales / DBA",
+    "knowledgeTags": [
+      {
+        "code": "dba",
+        "focus": "sociales"
+      },
+      {
+        "code": "ebc",
+        "focus": "planeación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "dba",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: La planeación de 8° ignora los DBA de sociales y se basa solo en 'lo que siempre se ha enseñado'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Tomarlos como referente de aprendizajes esperados para orientar planeación y evaluación",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Los DBA orientan saberes y habilidades por grado, complementarios a EBC y al PEI. La planeación coherente articula referentes, contexto y evidencias.",
+    "normativeJustification": "Los DBA orientan saberes y habilidades por grado, complementarios a EBC y al PEI.",
+    "theoreticalJustification": "La planeación coherente articula referentes, contexto y evidencias.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]

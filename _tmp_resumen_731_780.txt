@@ -1,0 +1,600 @@
+============================================================
+POS 731 | oro-soc-15 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / mapa mental vs análisis
+CASE: En una institución educativa oficial ocurre lo siguiente: Toda la evaluación del periodo es un mapa mental decorativo sin argumentación ni uso de fuentes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: El Decreto 1290 y los EBC exigen evidencias de comprensión y argumentación. En sociales, el desempeño clave es explicar y argumentar con soporte.
+   0 [121]: Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  *1 [102]: Pedir producciones que argumenten con fuentes, conceptos y evidencia (ensayo, debate, estudio de caso)
+   2 [105]: Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+   3 [107]: Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 732 | oro-soc-16 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / conflicto armado
+CASE: En una institución educativa oficial ocurre lo siguiente: Al abordar el conflicto armado colombiano, el docente impone una lectura única y silencia preguntas de estudiantes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: La Cátedra de la Paz y los referentes de sociales orientan memoria histórica con rigor y dignidad. Los temas sensibles requieren mediación ética, evidencia y cuidado emocional.
+   0 [108]: Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  *1 [89]: Mediar con rigor, fuentes diversas, respeto a víctimas y espacio para preguntas difíciles
+   2 [105]: Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+   3 [104]: Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 733 | oro-soc-17 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / derechos humanos
+CASE: En una institución educativa oficial ocurre lo siguiente: Se enseñan derechos humanos como lista para recitar, sin relacionarlos con casos escolares (bullying, debido proceso, participación). Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: La formación en derechos se articula a la convivencia escolar (Ley 1620) y a ciudadanas. Los derechos se comprenden cuando se aplican a situaciones reales.
+   0 [118]: Tratar el episodio como indisciplina de aula: amonestación y compromiso de “no repetir”, sin tipificar ni seguimiento.
+  *1 [89]: Analizar casos del contexto escolar a la luz de derechos, deberes y rutas institucionales
+   2 [111]: Pedir a las familias que “se pongan de acuerdo” por WhatsApp y archivar el caso cuando baje la tensión visible.
+   3 [109]: Hacer una charla general de valores y cambiar de puesto a quien reporta, sin registro ni monitoreo del clima.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 734 | oro-soc-18 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / comparación histórica
+CASE: En una institución educativa oficial ocurre lo siguiente: Al comparar dos periodos, los estudiantes solo dicen 'antes era peor / ahora es mejor' sin criterios. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: El pensamiento histórico incluye comparación fundamentada entre sociedades y periodos. Comparar con criterios evita anacronismos y opiniones vacías.
+   0 [108]: Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  *1 [108]: Definir criterios de comparación (economía, derechos, participación, territorio) y soportarlos con evidencia
+   2 [105]: Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+   3 [104]: Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 735 | oro-soc-19 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / fake news
+CASE: En una institución educativa oficial ocurre lo siguiente: Circula un meme falso sobre una decisión del Concejo municipal. Estudiantes lo comparten como noticia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: La ciudadanía digital crítica es parte de la formación social contemporánea. Verificar información es una competencia social transferable.
+   0 [121]: Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  *1 [101]: Hacer una práctica de verificación (fuentes, contraste, sesgos) y producir una conclusión argumentada
+   2 [105]: Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+   3 [107]: Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 736 | oro-soc-20 | ci=1 | diff=intermedio/2 | pedagogico | Sociales / Estado y poder
+CASE: En una institución educativa oficial ocurre lo siguiente: Al explicar ramas del poder público, el docente no conecta con ejemplos cercanos (Alcaldía, Concejo, jueces). Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: Los EBC buscan comprender la organización del Estado y la participación democrática. Anclar conceptos políticos en el entorno facilita el aprendizaje significativo.
+   0 [94]: Quedarse en el esquema abstracto del libro, aunque parezca un trámite equitativo o suficiente.
+  *1 [90]: Ilustrar funciones con instituciones locales y casos verificables de separación de poderes
+   2 [95]: Afirmar que 'en la práctica no importa', aunque se presente como solución rápida en la reunión.
+   3 [93]: Evaluar solo el dibujo de un organigrama, aunque ahorre tiempo visible de clase o de consejo.
+  DA0: Lo abstracto sin anclaje suele olvidarse.
+  DA2: Minimizar el tema debilita la ciudadanía.
+  DA3: El dibujo no acredita comprensión funcional.
+============================================================
+POS 737 | oro-soc-21 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / trabajo con datos
+CASE: En una institución educativa oficial ocurre lo siguiente: En un estudio sobre migración, no se usan tablas ni mapas; solo anécdotas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: El área integra métodos cuantitativos y cualitativos para explicar lo social. Triangular evidencias fortalece la explicación social.
+   0 [108]: Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  *1 [64]: Combinar relatos con datos, mapas y análisis de causas y efectos
+   2 [105]: Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+   3 [104]: Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 738 | oro-soc-22 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / género
+CASE: Al estudiar liderazgo histórico, el material solo muestra hombres y presenta a las mujeres como 'apoyo doméstico'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: La educación debe promover equidad de género y reconocimiento de aportes históricos diversos. Visibilizar y problematizar estereotipos forma ciudadanía democrática.
+   0 [129]: Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.
+  *1 [81]: Diversificar fuentes y problematizar roles de género en la historia y la sociedad
+   2 [116]: Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.
+   3 [113]: Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 739 | oro-soc-23 | ci=1 | diff=intermedio/2 | pedagogico | Sociales / simulación
+CASE: En una institución educativa oficial ocurre lo siguiente: Se hace un 'Congreso escolar' sin preparación de argumentos ni reglas de respeto; termina en gritos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: Las estrategias activas requieren andamiaje y normas de participación democrática. La simulación es potente si hay preparación, reglas y metacognición.
+   0 [43]: Repetir el caos porque 'así es la política'
+  *1 [86]: Preparar roles, evidencias, reglas de deliberación y cierre reflexivo sobre el proceso
+   2 [40]: Cancelar definitivamente toda simulación
+   3 [60]: Dejar que un solo estudiante monopolice el uso de la palabra
+  DA0: Naturalizar el caos no educa.
+  DA2: Bien mediada, la simulación es valiosa.
+  DA3: Monopolizar niega participación equitativa.
+============================================================
+POS 740 | oro-soc-24 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / globalización
+CASE: Al tratar globalización, se presenta solo como 'avance tecnológico' sin impactos laborales, culturales o ambientales. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: Los EBC buscan comprender interdependencias globales con mirada crítica. Los procesos globales son multidimensionales y requieren balance de efectos.
+   0 [109]: Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.
+  *1 [86]: Examinar oportunidades y tensiones (económicas, culturales, ambientales) con evidencia
+   2 [126]: Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.
+   3 [90]: Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 741 | oro-soc-25 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / evaluación por rúbrica
+CASE: En una institución educativa oficial ocurre lo siguiente: En un debate evaluado, los estudiantes no conocían si se valoraba el uso de fuentes, el respeto o solo 'hablar mucho'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: El Decreto 1290 exige criterios claros y conocidos por los estudiantes. La transparencia evaluativa orienta el desempeño durante la deliberación.
+   0 [108]: Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  *1 [77]: Socializar rúbrica previa: argumentos, evidencia, escucha y respeto normativo
+   2 [105]: Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+   3 [104]: Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 742 | oro-soc-26 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / patrimonio
+CASE: En una institución educativa oficial ocurre lo siguiente: El patrimonio local se aborda solo como 'cosa vieja' sin vínculo con identidad y cuidado comunitario. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: Los referentes de sociales incluyen identidad cultural y valoración del patrimonio. El patrimonio se comprende como construcción social viva, no como objeto muerto.
+   0 [121]: Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  *1 [95]: Relacionar patrimonio material/inmaterial con identidad, memoria y responsabilidades ciudadanas
+   2 [105]: Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+   3 [107]: Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 743 | oro-soc-27 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / migración en el aula
+CASE: En una institución educativa oficial ocurre lo siguiente: Hay estudiantes migrantes y aparecen comentarios xenófobos. El docente dice que 'no es tema de la clase'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: Ley 1620 y el marco de derechos obligan a prevenir y atender discriminación. El aula de sociales es espacio privilegiado para trabajar dignidad y convivencia.
+   0 [120]: Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.
+  *1 [95]: Abordar el hecho con enfoque de derechos, cuidado a las víctimas y formación antidiscriminación
+   2 [121]: Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.
+   3 [109]: Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 744 | oro-soc-28 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / anacronismo
+CASE: En una institución educativa oficial ocurre lo siguiente: Un estudiante juzga una sociedad del siglo XIX con criterios del presente sin historicizar. El docente valida el juicio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: El pensamiento histórico combate el anacronismo y promueve comprensión contextual. Historicizar no es relativismo ciego: es comprender para explicar con rigor.
+   0 [121]: Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  *1 [111]: Enseñar a historicizar: comprender el contexto de época sin justificar opresiones, y distinguir presente/pasado
+   2 [105]: Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+   3 [107]: Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 745 | oro-soc-29 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / medio ambiente y sociedad
+CASE: En una institución educativa oficial ocurre lo siguiente: Un conflicto por el uso del río se enseña solo como 'tema de biología', sin actores sociales ni normas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: Las ciencias sociales explican conflictos socioambientales con categorías de poder, territorio y ciudadanía. La interdisciplinariedad potencia la comprensión de problemas complejos.
+   0 [109]: Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  *1 [80]: Analizar actores, intereses, normas y conflictos socioambientales del territorio
+   2 [115]: Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.
+   3 [101]: Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 746 | oro-soc-30 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / entrevista oral
+CASE: En una institución educativa oficial ocurre lo siguiente: Estudiantes entrevistan a abuelos sobre el barrio, pero no contrastan con archivos ni contextualizan. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: La historia oral es fuente válida si se critica y se contrasta metodológicamente. Toda fuente tiene sesgo; la triangulación fortalece la explicación.
+   0 [108]: Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  *1 [88]: Tratarla como fuente: triangular con otras evidencias y analizar contexto del testimonio
+   2 [105]: Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+   3 [104]: Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 747 | oro-soc-31 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / servicio social
+CASE: En una institución educativa oficial ocurre lo siguiente: El servicio social estudiantil se cumple como 'horas firmadas' sin reflexión sobre impacto comunitario. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: El servicio social tiene sentido formativo de solidaridad y participación ciudadana. La experiencia comunitaria educa cuando se reflexiona y se vincula a aprendizajes.
+   0 [121]: Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.
+  *1 [78]: Articular servicio, diagnóstico comunitario y reflexión ética sobre el impacto
+   2 [105]: Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.
+   3 [107]: Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 748 | oro-soc-32 | ci=1 | diff=avanzado/3 | pedagogico | Sociales / articulación con lenguaje
+CASE: En una institución educativa oficial ocurre lo siguiente: Sociales pide ensayos argumentativos, pero no coordina con lenguaje criterios de tesis, evidencia y cohesión. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.
+STEM: Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?
+EXPL: La argumentación es competencia transversal reforzada por EBC de lenguaje y sociales. La coherencia interdisciplinar mejora la calidad de las producciones estudiantiles.
+   0 [108]: Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.
+  *1 [86]: Acordar con lenguaje una rúbrica compartida de argumentación aplicada a temas sociales
+   2 [105]: Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.
+   3 [104]: Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo.
+  DA0: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA2: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+  DA3: Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.
+============================================================
+POS 749 | dir-apt-lec-01 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: En la Institución Educativa El Progreso, los conflictos entre estudiantes durante el descanso habían aumentado un 30% en un semestre. El rector, con el Consejo Académico, implementó un programa de mediación liderado por estudiantes capacitados como 'gestores de convivencia'. Tras tres meses, los reportes disciplinarios disminuyeron, aunque algunos docentes señalaron que el programa exigía tiempo adicional fuera de la jornada. El rector decidió mantenerlo, ajustando los horarios de capacitación p
+STEM: ¿Cuál es la idea central del texto?
+EXPL: El texto describe la implementación del programa, sus resultados positivos y el ajuste realizado ante una dificultad señalada.
+   0 [67]: Los estudiantes deben resolver solos todos los conflictos escolares
+  *1 [105]: Un programa de mediación estudiantil redujo los conflictos, pero requirió ajustes de tiempo institucional
+   2 [56]: El aumento de conflictos se debió a la falta de docentes
+   3 [64]: El Consejo Académico eliminó el programa por falta de resultados
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 750 | dir-apt-lec-02 | ci=2 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: En la Institución Educativa El Progreso, los conflictos entre estudiantes durante el descanso habían aumentado un 30% en un semestre. El rector, con el Consejo Académico, implementó un programa de mediación liderado por estudiantes capacitados como 'gestores de convivencia'. Tras tres meses, los reportes disciplinarios disminuyeron, aunque algunos docentes señalaron que el programa exigía tiempo adicional fuera de la jornada. El rector decidió mantenerlo, ajustando los horarios de capacitación p
+STEM: ¿Qué se puede inferir sobre la actitud del rector frente a las críticas de los docentes?
+EXPL: El rector ajustó los horarios tras escuchar la observación docente, sin eliminar el programa.
+   0 [53]: Ignoró las críticas y mantuvo el programa sin cambios
+   1 [38]: Canceló el programa para evitar quejas
+  *2 [87]: Reconoció la dificultad señalada y ajustó la implementación sin abandonar la estrategia
+   3 [50]: Delegó la decisión únicamente al Consejo Académico
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA1: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 751 | dir-apt-lec-03 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Decreto 1290 de 2009 otorgó a las instituciones educativas colombianas autonomía para definir su Sistema Institucional de Evaluación de Estudiantes (SIEE), dentro de unos criterios mínimos fijados por el MEN. Esto generó diversidad de escalas de valoración entre colegios, lo que ha dificultado, en algunos casos, la homologación de calificaciones cuando un estudiante se traslada de institución. Por eso, muchos rectores consideran prioritario revisar y actualizar el SIEE periódicamente, con par
+STEM: Según el texto, ¿qué otorgó el Decreto 1290 de 2009?
+EXPL: El texto lo afirma directamente: autonomía para definir el SIEE dentro de criterios mínimos del MEN.
+   0 [54]: Una escala numérica única obligatoria a nivel nacional
+  *1 [78]: Autonomía institucional para definir el SIEE, dentro de unos criterios mínimos
+   2 [48]: La eliminación de la evaluación por competencias
+   3 [44]: La centralización de la evaluación en el MEN
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 752 | dir-apt-lec-04 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Decreto 1290 de 2009 otorgó a las instituciones educativas colombianas autonomía para definir su Sistema Institucional de Evaluación de Estudiantes (SIEE), dentro de unos criterios mínimos fijados por el MEN. Esto generó diversidad de escalas de valoración entre colegios, lo que ha dificultado, en algunos casos, la homologación de calificaciones cuando un estudiante se traslada de institución. Por eso, muchos rectores consideran prioritario revisar y actualizar el SIEE periódicamente, con par
+STEM: ¿Cuál ha sido una consecuencia de la diversidad de escalas de valoración?
+EXPL: El texto menciona explícitamente dificultades de homologación entre instituciones.
+   0 [52]: Una mejora generalizada en los resultados académicos
+  *1 [62]: Dificultades para homologar calificaciones entre instituciones
+   2 [43]: La desaparición del SIEE en varios colegios
+   3 [43]: Una reducción en la autonomía institucional
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 753 | dir-apt-lec-05 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La implementación de la Jornada Única busca aumentar el tiempo de permanencia de los estudiantes en la institución educativa, con el fin de fortalecer el aprendizaje y reducir su exposición a riesgos del entorno. Sin embargo, su viabilidad depende de condiciones como la disponibilidad de infraestructura, el número de docentes y, de manera crítica, la cobertura del Programa de Alimentación Escolar (PAE), pues una jornada más extensa exige garantizar como mínimo un complemento alimentario adiciona
+STEM: Según el texto, ¿cuál es uno de los propósitos principales de la Jornada Única?
+EXPL: El propósito enunciado es aumentar el tiempo de permanencia para fortalecer el aprendizaje.
+   0 [56]: Reducir el número de docentes requeridos por institución
+  *1 [72]: Aumentar el tiempo de permanencia escolar para fortalecer el aprendizaje
+   2 [58]: Eliminar la necesidad del Programa de Alimentación Escolar
+   3 [48]: Disminuir la infraestructura educativa requerida
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 754 | dir-apt-lec-06 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La implementación de la Jornada Única busca aumentar el tiempo de permanencia de los estudiantes en la institución educativa, con el fin de fortalecer el aprendizaje y reducir su exposición a riesgos del entorno. Sin embargo, su viabilidad depende de condiciones como la disponibilidad de infraestructura, el número de docentes y, de manera crítica, la cobertura del Programa de Alimentación Escolar (PAE), pues una jornada más extensa exige garantizar como mínimo un complemento alimentario adiciona
+STEM: ¿Qué condición señala el texto como crítica para la viabilidad de la Jornada Única?
+EXPL: El texto marca como crítica la cobertura del PAE ante una jornada más extensa.
+   0 [51]: La reducción del número de estudiantes matriculados
+  *1 [58]: La cobertura adecuada del Programa de Alimentación Escolar
+   2 [39]: La eliminación de la evaluación docente
+   3 [42]: La reducción de la jornada de los docentes
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 755 | dir-apt-lec-07 | ci=2 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: Durante la pandemia, muchas instituciones educativas rurales evidenciaron una marcada brecha digital: mientras algunos estudiantes contaban con conectividad y dispositivos propios, otros dependían de guías impresas entregadas periódicamente. Superada la emergencia, varios rectores optaron por mantener estrategias híbridas, combinando el uso de plataformas digitales cuando había conectividad con materiales físicos como respaldo, en lugar de asumir que toda la comunidad educativa contaba con acces
+STEM: ¿Cuál es la idea principal del texto?
+EXPL: El texto describe la brecha digital y la respuesta institucional de mantener una estrategia híbrida.
+   0 [71]: La pandemia eliminó por completo la brecha digital en las zonas rurales
+   1 [55]: La conectividad rural es igual de estable que la urbana
+  *2 [125]: Ante la desigualdad de acceso digital, varios rectores mantuvieron estrategias híbridas combinando medios digitales y físicos
+   3 [58]: Los materiales impresos dejaron de usarse tras la pandemia
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA1: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 756 | dir-apt-lec-08 | ci=0 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: Durante la pandemia, muchas instituciones educativas rurales evidenciaron una marcada brecha digital: mientras algunos estudiantes contaban con conectividad y dispositivos propios, otros dependían de guías impresas entregadas periódicamente. Superada la emergencia, varios rectores optaron por mantener estrategias híbridas, combinando el uso de plataformas digitales cuando había conectividad con materiales físicos como respaldo, en lugar de asumir que toda la comunidad educativa contaba con acces
+STEM: ¿Qué se puede inferir sobre la decisión de mantener estrategias híbridas?
+EXPL: La decisión evita asumir acceso permanente a internet para toda la comunidad.
+  *0 [76]: Buscaba no dejar en desventaja a los estudiantes sin conectividad permanente
+   1 [44]: Buscaba reducir costos de impresión de guías
+   2 [44]: Respondía a una exigencia normativa nacional
+   3 [54]: Se tomó exclusivamente por preferencia de los docentes
+  DA1: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 757 | dir-apt-lec-09 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La Ley 1620 de 2013 creó el Sistema Nacional de Convivencia Escolar y estableció que cada institución educativa debe conformar un Comité Escolar de Convivencia, integrado por el rector, un docente por cada nivel, el personero estudiantil y el presidente del consejo de padres, entre otros. Este comité tiene la función de activar la ruta de atención integral ante situaciones que afecten la convivencia escolar, clasificándolas según su gravedad y orientando la respuesta institucional correspondient
+STEM: Según el texto, ¿qué estableció la Ley 1620 de 2013?
+EXPL: El texto indica explícitamente la obligación de conformar el Comité Escolar de Convivencia.
+   0 [40]: La eliminación del manual de convivencia
+  *1 [79]: La obligación de conformar un Comité Escolar de Convivencia en cada institución
+   2 [66]: La creación del Sistema Institucional de Evaluación de Estudiantes
+   3 [72]: La centralización de la disciplina escolar en la Secretaría de Educación
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 758 | dir-apt-lec-10 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La Ley 1620 de 2013 creó el Sistema Nacional de Convivencia Escolar y estableció que cada institución educativa debe conformar un Comité Escolar de Convivencia, integrado por el rector, un docente por cada nivel, el personero estudiantil y el presidente del consejo de padres, entre otros. Este comité tiene la función de activar la ruta de atención integral ante situaciones que afecten la convivencia escolar, clasificándolas según su gravedad y orientando la respuesta institucional correspondient
+STEM: ¿Cuál es la función principal del Comité Escolar de Convivencia según el texto?
+EXPL: El comité activa la ruta de atención integral según la gravedad.
+   0 [109]: Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  *1 [70]: Activar la ruta de atención integral según la gravedad de la situación
+   2 [54]: Reemplazar al Consejo Directivo en todas sus funciones
+   3 [46]: Evaluar el desempeño académico de los docentes
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 759 | dir-apt-lec-11 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Decreto 1421 de 2017 reglamentó la atención educativa a la población con discapacidad, estableciendo el Plan Individual de Ajustes Razonables (PIAR) como herramienta para identificar las barreras que enfrenta un estudiante y definir los apoyos necesarios para su participación plena. A diferencia de un currículo paralelo, el PIAR parte del currículo general de la institución y propone ajustes específicos, evitando así procesos de exclusión disfrazados de atención especializada.
+STEM: Según el texto, ¿qué propósito tiene el PIAR?
+EXPL: El PIAR identifica barreras y define apoyos a partir del currículo general.
+   0 [77]: Crear un currículo completamente distinto para el estudiante con discapacidad
+  *1 [80]: Identificar barreras y definir ajustes razonables a partir del currículo general
+   2 [60]: Trasladar automáticamente al estudiante a educación especial
+   3 [56]: Eliminar la evaluación para estudiantes con discapacidad
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 760 | dir-apt-lec-12 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Decreto 1421 de 2017 reglamentó la atención educativa a la población con discapacidad, estableciendo el Plan Individual de Ajustes Razonables (PIAR) como herramienta para identificar las barreras que enfrenta un estudiante y definir los apoyos necesarios para su participación plena. A diferencia de un currículo paralelo, el PIAR parte del currículo general de la institución y propone ajustes específicos, evitando así procesos de exclusión disfrazados de atención especializada.
+STEM: ¿Qué distingue al PIAR de un 'currículo paralelo', según el texto?
+EXPL: El texto contrasta el PIAR con un currículo paralelo: parte del currículo general.
+   0 [56]: El PIAR no tiene relación con el currículo institucional
+  *1 [84]: El PIAR parte del currículo general y propone ajustes, evitando exclusión disfrazada
+   2 [50]: El PIAR solo aplica a estudiantes sin discapacidad
+   3 [61]: El PIAR reemplaza completamente la planeación docente regular
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 761 | dir-apt-lec-13 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La evaluación anual de desempeño laboral de los docentes, contemplada en el Decreto 1278 de 2002 para quienes ingresaron por concurso bajo ese régimen, tiene un carácter formativo además de administrativo. Su resultado no busca únicamente calificar, sino identificar fortalezas y aspectos por mejorar, que deben traducirse en un plan de desarrollo profesional concertado entre el docente y su evaluador, generalmente el rector o coordinador.
+STEM: Según el texto, ¿cuál es uno de los propósitos de la evaluación anual de desempeño?
+EXPL: Tiene carácter formativo: identifica fortalezas y aspectos a mejorar con plan concertado.
+   0 [73]: usar como medida punitiva automáticamente a los docentes con bajo puntaje
+  *1 [87]: Identificar fortalezas y aspectos por mejorar mediante un plan de desarrollo concertado
+   2 [55]: Reemplazar el concurso de méritos como forma de ingreso
+   3 [66]: Evaluar exclusivamente los conocimientos disciplinares del docente
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 762 | dir-apt-lec-14 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La evaluación anual de desempeño laboral de los docentes, contemplada en el Decreto 1278 de 2002 para quienes ingresaron por concurso bajo ese régimen, tiene un carácter formativo además de administrativo. Su resultado no busca únicamente calificar, sino identificar fortalezas y aspectos por mejorar, que deben traducirse en un plan de desarrollo profesional concertado entre el docente y su evaluador, generalmente el rector o coordinador.
+STEM: ¿Quién suele actuar como evaluador en este proceso, según el texto?
+EXPL: El texto indica que el evaluador suele ser el rector o coordinador.
+   0 [45]: Un docente elegido por sorteo entre sus pares
+  *1 [23]: El rector o coordinador
+   2 [41]: Exclusivamente la Secretaría de Educación
+   3 [109]: Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 763 | dir-apt-lec-15 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La alta rotación de docentes en instituciones rurales, frecuentemente asociada a nombramientos provisionales, dificulta la continuidad de los procesos pedagógicos y el fortalecimiento de una cultura institucional estable. Algunos rectores han buscado mitigar este efecto mediante estrategias de inducción rápida y acompañamiento entre pares, de modo que un docente nuevo pueda apropiarse en pocas semanas del Proyecto Educativo Institucional y de las dinámicas propias de la comunidad.
+STEM: ¿Cuál es el problema principal descrito en el texto?
+EXPL: La idea central es la alta rotación y su efecto sobre la continuidad pedagógica.
+   0 [48]: El exceso de docentes de planta en zonas rurales
+  *1 [68]: La alta rotación docente y su efecto sobre la continuidad pedagógica
+   2 [51]: La falta de interés de los estudiantes por aprender
+   3 [49]: El exceso de presupuesto destinado a capacitación
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 764 | dir-apt-lec-16 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: La alta rotación de docentes en instituciones rurales, frecuentemente asociada a nombramientos provisionales, dificulta la continuidad de los procesos pedagógicos y el fortalecimiento de una cultura institucional estable. Algunos rectores han buscado mitigar este efecto mediante estrategias de inducción rápida y acompañamiento entre pares, de modo que un docente nuevo pueda apropiarse en pocas semanas del Proyecto Educativo Institucional y de las dinámicas propias de la comunidad.
+STEM: ¿Qué estrategia institucional se menciona para mitigar este problema?
+EXPL: Se menciona inducción rápida y acompañamiento entre pares.
+   0 [41]: Reducir el número de docentes contratados
+  *1 [66]: Inducción rápida y acompañamiento entre pares para nuevos docentes
+   2 [40]: Eliminar los nombramientos provisionales
+   3 [109]: Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 765 | dir-apt-lec-17 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Consejo de Padres, contemplado en el Decreto 1286 de 2005, es una instancia de participación de las familias en el proceso educativo, distinta de la Asociación de Padres de Familia, que es una persona jurídica de carácter voluntario. Mientras el Consejo de Padres tiene representantes por cada grado y participa en aspectos como la revisión del PEI, la Asociación se enfoca en actividades de apoyo y bienestar, y su conformación no es obligatoria para el funcionamiento de la institución.
+STEM: Según el texto, ¿cuál es una diferencia entre el Consejo de Padres y la Asociación de Padres de Familia?
+EXPL: El Consejo de Padres participa en el PEI; la Asociación es voluntaria.
+   0 [62]: Ambos son exactamente la misma instancia con nombres distintos
+  *1 [100]: El Consejo de Padres es obligatorio y participa en aspectos como el PEI; la Asociación es voluntaria
+   2 [59]: La Asociación de Padres tiene representantes por cada grado
+   3 [55]: El Consejo de Padres es una persona jurídica voluntaria
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 766 | dir-apt-lec-18 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Consejo de Padres, contemplado en el Decreto 1286 de 2005, es una instancia de participación de las familias en el proceso educativo, distinta de la Asociación de Padres de Familia, que es una persona jurídica de carácter voluntario. Mientras el Consejo de Padres tiene representantes por cada grado y participa en aspectos como la revisión del PEI, la Asociación se enfoca en actividades de apoyo y bienestar, y su conformación no es obligatoria para el funcionamiento de la institución.
+STEM: ¿En qué aspecto puede participar el Consejo de Padres, según el texto?
+EXPL: El texto menciona participación en la revisión del PEI.
+   0 [109]: Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.
+  *1 [51]: En la revisión del Proyecto Educativo Institucional
+   2 [38]: En la evaluación del desempeño docente
+   3 [53]: En la administración del presupuesto de mantenimiento
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 767 | dir-apt-lec-19 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Plan Escolar de Gestión del Riesgo es un instrumento que permite a cada institución educativa identificar amenazas propias de su entorno —como deslizamientos, inundaciones o riesgos eléctricos— y definir protocolos de respuesta, rutas de evacuación y responsables por cada zona. Su elaboración no es una tarea exclusiva del rector, sino que debe involucrar a docentes, personal administrativo y, en lo posible, a organismos de socorro locales, para que los simulacros reflejen condiciones reales d
+STEM: ¿Cuál es el propósito del Plan Escolar de Gestión del Riesgo, según el texto?
+EXPL: Sirve para identificar amenazas y definir protocolos de respuesta.
+   0 [81]: usar como medida punitiva a los estudiantes que incumplan las rutas de evacuación
+  *1 [83]: Identificar amenazas del entorno y definir protocolos de respuesta ante emergencias
+   2 [49]: Reemplazar el manual de convivencia institucional
+   3 [61]: Evaluar el desempeño de los docentes en situaciones de riesgo
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 768 | dir-apt-lec-20 | ci=1 | diff=intermedio/2 | lecturaCritica | Lectura crítica · Directivo
+CASE: El Plan Escolar de Gestión del Riesgo es un instrumento que permite a cada institución educativa identificar amenazas propias de su entorno —como deslizamientos, inundaciones o riesgos eléctricos— y definir protocolos de respuesta, rutas de evacuación y responsables por cada zona. Su elaboración no es una tarea exclusiva del rector, sino que debe involucrar a docentes, personal administrativo y, en lo posible, a organismos de socorro locales, para que los simulacros reflejen condiciones reales d
+STEM: Según el texto, ¿quiénes deberían participar en la elaboración del plan?
+EXPL: Debe involucrar docentes, administrativos y, de ser posible, organismos de socorro.
+   0 [38]: Únicamente el rector de la institución
+  *1 [82]: Docentes, personal administrativo y, de ser posible, organismos de socorro locales
+   2 [44]: Exclusivamente los estudiantes de grado once
+   3 [41]: Solo la Secretaría de Educación municipal
+  DA0: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA2: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+  DA3: No se sostiene con el texto, la norma o el criterio de actuación adecuado.
+============================================================
+POS 769 | dir-apt-num-21 | ci=1 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Una institución tiene 840 estudiantes matriculados. El 35% pertenece a la jornada de la tarde. Un docente propone reportar 252 (otra base, redondeo o indicador distinto); otro insiste en 284. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: 840 × 0,35 = 294 estudiantes.
+   0 [3]: 252
+  *1 [3]: 294
+   2 [3]: 284
+   3 [3]: 315
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA2: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 770 | dir-apt-num-22 | ci=1 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un rector debe distribuir 45 computadores entre 3 sedes, de forma proporcional al número de estudiantes: Sede A 300, Sede B 200, Sede C 100. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 20. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: Total = 600. Sede B = 200/600 = 1/3. 45 × 1/3 = 15.
+   0 [2]: 10
+  *1 [2]: 15
+   2 [2]: 20
+   3 [2]: 22
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA2: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 771 | dir-apt-num-23 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El promedio de 25 estudiantes en una prueba (escala 1 a 5) fue 3,8. Se retira un estudiante con nota 1,0. Un docente propone reportar 3,80 (otra base, redondeo o indicador distinto); otro insiste en 3,85. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: Suma total = 25 × 3,8 = 95. Nueva suma = 94. Nuevo promedio = 94/24 = 3,92.
+   0 [4]: 3,80
+   1 [4]: 3,85
+  *2 [4]: 3,92
+   3 [4]: 4,00
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 772 | dir-apt-num-24 | ci=1 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La jornada escolar dura 6 horas diarias, 5 días a la semana. El mínimo exigido para primaria es 25 horas semanales. Un docente propone reportar 3 horas (otra base, redondeo o indicador distinto); otro insiste en 6 horas. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: 6 × 5 = 30 horas semanales. 30 − 25 = 5 horas adicionales.
+   0 [7]: 3 horas
+  *1 [7]: 5 horas
+   2 [7]: 6 horas
+   3 [7]: 8 horas
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA2: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 773 | dir-apt-num-25 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. De un presupuesto anual de mantenimiento de $60.000.000, se ha ejecutado el 40% en el primer semestre. Un docente propone reportar $24.000.000 (otra base, redondeo o indicador distinto); otro insiste en $30.000.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: $60.000.000 × 0,60 = $36.000.000 disponibles.
+   0 [11]: $24.000.000
+   1 [11]: $30.000.000
+  *2 [11]: $36.000.000
+   3 [11]: $40.000.000
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 774 | dir-apt-num-26 | ci=1 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un descanso dura 45 minutos y se organiza vigilancia en turnos de 15 minutos por patio. Un docente propone reportar 2 (otra base, redondeo o indicador distinto); otro insiste en 4. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: 45 / 15 = 3 turnos por patio.
+   0 [1]: 2
+  *1 [1]: 3
+   2 [1]: 4
+   3 [1]: 5
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA2: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 775 | dir-apt-num-27 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una institución, la relación estudiante-docente es de 28 a 1. Hay 1.120 estudiantes. Un docente propone reportar 35 (otra base, redondeo o indicador distinto); otro insiste en 38. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: 1.120 / 28 = 40 docentes.
+   0 [2]: 35
+   1 [2]: 38
+  *2 [2]: 40
+   3 [2]: 42
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 776 | dir-apt-num-28 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. De 500 estudiantes evaluados en pruebas Saber, el 18% se ubicó en nivel insuficiente. Un docente propone reportar 80 (otra base, redondeo o indicador distinto); otro insiste en 85. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: 500 × 0,18 = 90 estudiantes.
+   0 [2]: 80
+   1 [2]: 85
+  *2 [2]: 90
+   3 [2]: 95
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 777 | dir-apt-num-29 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La matrícula de una institución pasó de 950 a 1.045 estudiantes en un año. Un docente propone reportar 8% (otra base, redondeo o indicador distinto); otro insiste en 9%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: Incremento = 95. 95/950 = 0,10 = 10%.
+   0 [2]: 8%
+   1 [2]: 9%
+  *2 [3]: 10%
+   3 [3]: 12%
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 778 | dir-apt-num-30 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un rector organiza 6 grupos de grado sexto con un promedio de 32 estudiantes cada uno. Se reorganiza en 8 grupos manteniendo el mismo total de estudiantes. Un docente propone reportar 20 (otra base, redondeo o indicador distinto); otro insiste en 22. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: Total = 6 × 32 = 192. 192/8 = 24 estudiantes por grupo.
+   0 [2]: 20
+   1 [2]: 22
+  *2 [2]: 24
+   3 [2]: 26
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 779 | dir-apt-num-31 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En la biblioteca escolar hay 2.400 libros. El 25% corresponde a literatura infantil y el 15% a textos de referencia. Un docente propone reportar 1.200 (otra base, redondeo o indicador distinto); otro insiste en 1.320. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: 25% + 15% = 40%. Restante = 60%. 2.400 × 0,60 = 1.440.
+   0 [5]: 1.200
+   1 [5]: 1.320
+  *2 [5]: 1.440
+   3 [5]: 1.500
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+============================================================
+POS 780 | dir-apt-num-32 | ci=2 | diff=intermedio/2 | aptitudNumerica | Razonamiento cuantitativo · Directivo
+CASE: En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente califica 40 evaluaciones a un ritmo promedio de 6 minutos cada una. Dedica una jornada de 3 horas exclusivamente a esta tarea. Un docente propone reportar 30 minutos (otra base, redondeo o indicador distinto); otro insiste en 45 minutos. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.
+STEM: Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?
+EXPL: Tiempo requerido = 40 × 6 = 240 min (4 h). Disponible = 180 min. Faltan 60 minutos.
+   0 [10]: 30 minutos
+   1 [10]: 45 minutos
+  *2 [10]: 60 minutos
+   3 [10]: 90 minutos
+  DA0: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA1: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.
+  DA3: Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.

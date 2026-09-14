@@ -1,0 +1,107 @@
+[
+  {
+    "pos": 757,
+    "id": "dir-apt-lec-09",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "La Ley 1620 de 2013 creó el Sistema Nacional de Convivencia Escolar y estableció que cada institución educativa debe conformar un Comité Escolar de Convivencia, integrado por el rector, un docente por cada nivel, el personero estudiantil y el presidente del consejo de padres, entre otros. Este comité tiene la función de activar la ruta de atención integral ante situaciones que afecten la convivencia escolar, clasificándolas según su gravedad y orientando la respuesta institucional correspondiente.",
+    "stem": "Según el texto, ¿qué estableció la Ley 1620 de 2013?",
+    "options": [
+      "La derogación del manual de convivencia, sustituido por el Comité Escolar de Convivencia como instancia que concentra la disciplina y la ruta de atención integral en cada colegio.",
+      "La obligación de que cada institución educativa conforme un Comité Escolar de Convivencia, integrado entre otros por el rector, un docente por nivel, el personero estudiantil y el presidente del consejo de padres.",
+      "La creación del Sistema Institucional de Evaluación de Estudiantes (SIEE) y de las escalas de valoración, competencia que el Decreto 1290 atribuye a cada establecimiento educativo.",
+      "La centralización de la disciplina escolar en la Secretaría de Educación, que activaría la ruta de atención integral y clasificaría las situaciones de convivencia según su gravedad."
+    ],
+    "explanation": "Según el texto, la Ley 1620 de 2013 creó el Sistema Nacional de Convivencia Escolar y estableció que cada institución debe conformar un Comité Escolar de Convivencia, con una integración que incluye al rector, un docente por nivel, el personero estudiantil y el presidente del consejo de padres, entre otros. El stem pregunta qué estableció esa ley; la opción correcta recoge la obligación de conformar el comité, anclada al pasaje. No dice que se derogue el manual de convivencia ni que la disciplina se centralice en la Secretaría. El SIEE es creación del Decreto 1290, no de la 1620: quien responde de memoria confunde dos pilares normativos y no lee el enunciado.",
+    "distractorAnalysis": {
+      "0": "Trampa de la sustitución del manual: concentrar la disciplina en el Comité Escolar de Convivencia parece actualización de la Ley 1620. El texto no deroga el manual; establece la obligación de conformar el comité en cada institución.",
+      "2": "Trampa de dominio cruzado del Decreto 1290: el SIEE y las escalas de valoración son objeto de esa norma, no de la Ley 1620. Quien responde de memoria mezcla evaluación de estudiantes y convivencia escolar.",
+      "3": "Trampa de la centralización en Secretaría: atribuir a esa instancia la ruta de atención y la clasificación por gravedad desplaza lo que el pasaje sitúa en cada institución y en su Comité Escolar de Convivencia."
+    }
+  },
+  {
+    "pos": 778,
+    "id": "dir-apt-num-30",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un rector organiza 6 grupos de grado sexto con un promedio de 32 estudiantes cada uno. Se reorganiza en 8 grupos manteniendo el mismo total de estudiantes. Un docente propone reportar 20 (otra base, redondeo o indicador distinto); otro insiste en 22. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Reportar 20 estudiantes por grupo, como si 192 se repartieran en 9 o 10 grupos, o restando 12 al promedio de 32, cifra que suele citarse como tope «cómodo» de calidad en otra sede.",
+      "Consignar 22 por grupo, aproximando 192/8,7 o cruzando 32×8/12, un recálculo de otra reorganización de sede que deja un tamaño intermedio para el acta de calidad.",
+      "Consignar 24 estudiantes por grupo: el total 6×32=192 se reparte en 8 grupos (192/8), sin reducir el denominador ni usar el 32 original como si no hubiera reorganización.",
+      "Registrar 26 por grupo, dividiendo 192 entre 7,4 o restando 6 al promedio de 32, para mostrar un recorte «moderado» de tamaño en el informe de calidad y el PMI."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos, sin redondear ni cambiar la base. El total se conserva: 6×32=192 estudiantes; al pasar a 8 grupos, 192/8=24 por grupo. Esa es la cifra del acta. 20 supone ~9,6 grupos o resta 12 al 32; 22 aproxima 192/8,7 o cruza 32×8/12; 26 usa ~7,4 grupos o 32−6. Todas cambian n de grupos o el total.",
+    "distractorAnalysis": {
+      "0": "Trampa del tope «cómodo» de 20: 192/9,6 o 32−12, típico de otra sede o de un cupo de calidad. Cambia el número de grupos o resta al promedio viejo; no es 192/8.",
+      "1": "Trampa del tamaño intermedio 22: 192/8,7 o 32×8/12, recálculo de otra malla de grupos. Mezcla bases de otra reorganización y no divide el total de 192 entre 8.",
+      "3": "Trampa del recorte moderado a 26: 192/7,4 o 32−6. Conserva un eco del promedio original y un denominador distinto de 8; no opera (6×32)/8=24."
+    }
+  },
+  {
+    "pos": 770,
+    "id": "dir-apt-num-22",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un rector debe distribuir 45 computadores entre 3 sedes, de forma proporcional al número de estudiantes: Sede A 300, Sede B 200, Sede C 100. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 20. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Asignar 10 computadores a la sede B, producto de reservar 15 equipos para un nodo de calidad y repartir por igual los 30 restantes entre las tres sedes (30 ÷ 3 = 10), abandonando la proporcionalidad a la matrícula del caso.",
+      "Asignar 15 computadores a la sede B, cifra que resulta de la proporción 200/600 sobre 45 equipos (45 × 200/600 = 15), con total de matrícula 300 + 200 + 100 = 600, sin excluir sedes ni cambiar la base en el acta.",
+      "Asignar 20 computadores a la sede B, calculados como 45 × 200/450 = 20, al excluir la sede C (100 estudiantes) del denominador y operar como si el total fueran 450, no los 600 que suman las tres sedes.",
+      "Asignar 22 computadores a la sede B, tomando la cifra de la sede A (45 × 300/600 = 22,5, reportada como 22) y atribuyéndola a B en el acta del PMI, de modo que se carga en B el cupo proporcional de otra sede."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con el reparto proporcional, sin redondear ni cambiar la base. Hay 45 computadores y tres sedes: A 300, B 200 y C 100; el total es 300 + 200 + 100 = 600. La sede B corresponde a 200/600 = 1/3; 45 × 200/600 = 15. Esa es la cifra del acta. 10 sale de reservar 15 para un «nodo de calidad» y partir 30 ÷ 3, igualdad que abandona la matrícula. 20 sale de 45 × 200/450, al excluir C del denominador. 22 es la cifra de A (45 × 300/600 = 22,5, reportada como 22) atribuida a B. Secretaría pide no mezclar otra base; 15 es la proporción exacta de B.",
+    "distractorAnalysis": {
+      "0": "Trampa del remanente igualitario: reservar 15 y partir 30 ÷ 3 = 10 parece equidad de sedes y un nodo de calidad. Abandona 45 × 200/600 y no es proporcional a la matrícula de B.",
+      "2": "Trampa de excluir C del denominador: 45 × 200/450 = 20 usa 450 en vez de 600. Infla la sede B al sacar a C de la base y deja de ser el reparto de las tres sedes.",
+      "3": "Trampa de atribuir la cifra de A: 45 × 300/600 = 22,5, reportada como 22, es la proporción de la sede A. El acta carga en B el cupo de otra sede y altera la regla de tres."
+    }
+  },
+  {
+    "pos": 760,
+    "id": "dir-apt-lec-12",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "El Decreto 1421 de 2017 reglamentó la atención educativa a la población con discapacidad, estableciendo el Plan Individual de Ajustes Razonables (PIAR) como herramienta para identificar las barreras que enfrenta un estudiante y definir los apoyos necesarios para su participación plena. A diferencia de un currículo paralelo, el PIAR parte del currículo general de la institución y propone ajustes específicos, evitando así procesos de exclusión disfrazados de atención especializada.",
+    "stem": "¿Qué distingue al PIAR de un 'currículo paralelo', según el texto?",
+    "options": [
+      "El PIAR se formula al margen del currículo institucional, como un plan de estudios propio que no se relaciona con el plan general de la institución educativa.",
+      "El PIAR parte del currículo general de la institución y propone ajustes específicos, evitando así procesos de exclusión disfrazados de atención especializada.",
+      "El PIAR se destina a estudiantes sin discapacidad y opera como instrumento general de planeación de aula, equivalente al Diseño Universal del Aprendizaje para todo el grupo.",
+      "El PIAR reemplaza la planeación docente regular y el Proyecto Educativo Institucional, de modo que la programación de clase queda supeditada al formato individual de ajustes."
+    ],
+    "explanation": "El pasaje distingue el PIAR de un currículo paralelo: parte del currículo general de la institución y propone ajustes específicos, evitando procesos de exclusión disfrazados de atención especializada. Esa es la diferencia que el stem solicita. Afirmar que el PIAR no se relaciona con el currículo institucional invierte el contraste. Destinarlo a estudiantes sin discapacidad o igualarlo al Diseño Universal para todo el grupo desborda y distorsiona el texto, aunque el DUA sea un referente verdadero de inclusión. Reemplazar la planeación docente regular o el PEI convierte un instrumento individual de ajustes en un sucedáneo del gobierno institucional, lectura que el pasaje no sostiene.",
+    "distractorAnalysis": {
+      "0": "Trampa de la desconexión curricular: afirmar que el PIAR no se relaciona con el currículo institucional invierte el contraste del pasaje. La distinción frente al currículo paralelo es, precisamente, partir del plan general.",
+      "2": "Trampa de la sobregeneralización al grupo sin discapacidad: tratar el PIAR como planeación universal o como DUA para todos desborda el Decreto 1421 que el texto sitúa en la población con discapacidad y en ajustes individuales.",
+      "3": "Trampa de dominio cruzado del gobierno institucional: reemplazar la planeación docente o el PEI por el formato PIAR convierte un ajuste individual en sucedáneo del proyecto educativo. El texto no sostiene esa sustitución."
+    }
+  },
+  {
+    "pos": 773,
+    "id": "dir-apt-num-25",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. De un presupuesto anual de mantenimiento de $60.000.000, se ha ejecutado el 40% en el primer semestre. Un docente propone reportar $24.000.000 (otra base, redondeo o indicador distinto); otro insiste en $30.000.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "Consignar $24.000.000 como cifra del semestre en el PMI, correspondiente al 40% ya ejecutado del presupuesto de $60.000.000, porque es el giro trazable en tesorería y en el acta de compras.",
+      "Reportar $30.000.000 como saldo disponible, tomando la mitad del presupuesto anual de $60.000.000 para igualar semestres y dejar un cupo simétrico en el tablero de calidad.",
+      "Consignar $36.000.000 como saldo no ejecutado: el 40% de $60.000.000 ya se usó, resta el 60% exacto para el segundo semestre, sin cambiar la base ni reportar la ejecución como si fuera el disponible.",
+      "Registrar $40.000.000 como cupo del segundo semestre, aproximando dos tercios del presupuesto o el 40% «al alza», para dejar un techo de gestión holgado en el PMI y ante Secretaría."
+    ],
+    "explanation": "La condición de calidad pide la cifra coherente con los datos, sin redondear ni cambiar la base. Ejecutado el 40% de $60.000.000, el no ejecutado es el 60%: 60.000.000×0,60=$36.000.000, que es el disponible del segundo semestre. $24.000.000 es la ejecución (otro indicador); $30.000.000 parte el presupuesto por mitades; $40.000.000 usa dos tercios o un cupo redondeado de gestión.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado de la ejecución: $24.000.000 es el 40% ya girado, indicador correcto de tesorería y compras. No es el saldo; confunde lo ejecutado con lo disponible para el segundo semestre.",
+      "1": "Trampa de la mitad simétrica: $30.000.000 divide $60.000.000 entre dos semestres iguales. Cambia el 60% no ejecutado por un 50% de conveniencia de tablero y no opera 60.000.000×0,60.",
+      "3": "Trampa del cupo redondeado a $40.000.000: dos tercios o un 40% «al alza» lucen como techo holgado de gestión. Alteran el porcentaje y no conservan el 60% exacto de la base de $60.000.000."
+    }
+  }
+]

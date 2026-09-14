@@ -1,0 +1,369 @@
+[
+  {
+    "pos": 751,
+    "id": "dir-apt-lec-03",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1290"
+    ],
+    "caseContext": "El Decreto 1290 de 2009 otorgó a las instituciones educativas colombianas autonomía para definir su Sistema Institucional de Evaluación de Estudiantes (SIEE), dentro de unos criterios mínimos fijados por el MEN. Esto generó diversidad de escalas de valoración entre colegios, lo que ha dificultado, en algunos casos, la homologación de calificaciones cuando un estudiante se traslada de institución. Por eso, muchos rectores consideran prioritario revisar y actualizar el SIEE periódicamente, con participación de toda la comunidad educativa.",
+    "stem": "Según el texto, ¿qué otorgó el Decreto 1290 de 2009?",
+    "options": [
+      "Una escala numérica única obligatoria a nivel nacional",
+      "Autonomía institucional para definir el SIEE, dentro de unos criterios mínimos",
+      "La eliminación de la evaluación por competencias",
+      "La centralización de la evaluación en el MEN"
+    ],
+    "explanation": "El texto lo afirma directamente: autonomía para definir el SIEE dentro de criterios mínimos del MEN.",
+    "normativeJustification": "El texto lo afirma directamente: autonomía para definir el SIEE dentro de criterios mínimos del MEN.",
+    "theoreticalJustification": "El texto lo afirma directamente: autonomía para definir el SIEE dentro de criterios mínimos del MEN.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 752,
+    "id": "dir-apt-lec-04",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1290"
+    ],
+    "caseContext": "El Decreto 1290 de 2009 otorgó a las instituciones educativas colombianas autonomía para definir su Sistema Institucional de Evaluación de Estudiantes (SIEE), dentro de unos criterios mínimos fijados por el MEN. Esto generó diversidad de escalas de valoración entre colegios, lo que ha dificultado, en algunos casos, la homologación de calificaciones cuando un estudiante se traslada de institución. Por eso, muchos rectores consideran prioritario revisar y actualizar el SIEE periódicamente, con participación de toda la comunidad educativa.",
+    "stem": "¿Cuál ha sido una consecuencia de la diversidad de escalas de valoración?",
+    "options": [
+      "Una mejora generalizada en los resultados académicos",
+      "Dificultades para homologar calificaciones entre instituciones",
+      "La desaparición del SIEE en varios colegios",
+      "Una reducción en la autonomía institucional"
+    ],
+    "explanation": "El texto menciona explícitamente dificultades de homologación entre instituciones.",
+    "normativeJustification": "El texto menciona explícitamente dificultades de homologación entre instituciones.",
+    "theoreticalJustification": "El texto menciona explícitamente dificultades de homologación entre instituciones.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 753,
+    "id": "dir-apt-lec-05",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La implementación de la Jornada Única busca aumentar el tiempo de permanencia de los estudiantes en la institución educativa, con el fin de fortalecer el aprendizaje y reducir su exposición a riesgos del entorno. Sin embargo, su viabilidad depende de condiciones como la disponibilidad de infraestructura, el número de docentes y, de manera crítica, la cobertura del Programa de Alimentación Escolar (PAE), pues una jornada más extensa exige garantizar como mínimo un complemento alimentario adicional para los estudiantes.",
+    "stem": "Según el texto, ¿cuál es uno de los propósitos principales de la Jornada Única?",
+    "options": [
+      "Reducir el número de docentes requeridos por institución",
+      "Aumentar el tiempo de permanencia escolar para fortalecer el aprendizaje",
+      "Eliminar la necesidad del Programa de Alimentación Escolar",
+      "Disminuir la infraestructura educativa requerida"
+    ],
+    "explanation": "El propósito enunciado es aumentar el tiempo de permanencia para fortalecer el aprendizaje.",
+    "normativeJustification": "El propósito enunciado es aumentar el tiempo de permanencia para fortalecer el aprendizaje.",
+    "theoreticalJustification": "El propósito enunciado es aumentar el tiempo de permanencia para fortalecer el aprendizaje.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 754,
+    "id": "dir-apt-lec-06",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La implementación de la Jornada Única busca aumentar el tiempo de permanencia de los estudiantes en la institución educativa, con el fin de fortalecer el aprendizaje y reducir su exposición a riesgos del entorno. Sin embargo, su viabilidad depende de condiciones como la disponibilidad de infraestructura, el número de docentes y, de manera crítica, la cobertura del Programa de Alimentación Escolar (PAE), pues una jornada más extensa exige garantizar como mínimo un complemento alimentario adicional para los estudiantes.",
+    "stem": "¿Qué condición señala el texto como crítica para la viabilidad de la Jornada Única?",
+    "options": [
+      "La reducción del número de estudiantes matriculados",
+      "La cobertura adecuada del Programa de Alimentación Escolar",
+      "La eliminación de la evaluación docente",
+      "La reducción de la jornada de los docentes"
+    ],
+    "explanation": "El texto marca como crítica la cobertura del PAE ante una jornada más extensa.",
+    "normativeJustification": "El texto marca como crítica la cobertura del PAE ante una jornada más extensa.",
+    "theoreticalJustification": "El texto marca como crítica la cobertura del PAE ante una jornada más extensa.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 755,
+    "id": "dir-apt-lec-07",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Durante la pandemia, muchas instituciones educativas rurales evidenciaron una marcada brecha digital: mientras algunos estudiantes contaban con conectividad y dispositivos propios, otros dependían de guías impresas entregadas periódicamente. Superada la emergencia, varios rectores optaron por mantener estrategias híbridas, combinando el uso de plataformas digitales cuando había conectividad con materiales físicos como respaldo, en lugar de asumir que toda la comunidad educativa contaba con acceso permanente a internet.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "La pandemia eliminó por completo la brecha digital en las zonas rurales",
+      "La conectividad rural es igual de estable que la urbana",
+      "Ante la desigualdad de acceso digital, varios rectores mantuvieron estrategias híbridas combinando medios digitales y físicos",
+      "Los materiales impresos dejaron de usarse tras la pandemia"
+    ],
+    "explanation": "El texto describe la brecha digital y la respuesta institucional de mantener una estrategia híbrida.",
+    "normativeJustification": "El texto describe la brecha digital y la respuesta institucional de mantener una estrategia híbrida.",
+    "theoreticalJustification": "El texto describe la brecha digital y la respuesta institucional de mantener una estrategia híbrida.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 756,
+    "id": "dir-apt-lec-08",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Durante la pandemia, muchas instituciones educativas rurales evidenciaron una marcada brecha digital: mientras algunos estudiantes contaban con conectividad y dispositivos propios, otros dependían de guías impresas entregadas periódicamente. Superada la emergencia, varios rectores optaron por mantener estrategias híbridas, combinando el uso de plataformas digitales cuando había conectividad con materiales físicos como respaldo, en lugar de asumir que toda la comunidad educativa contaba con acceso permanente a internet.",
+    "stem": "¿Qué se puede inferir sobre la decisión de mantener estrategias híbridas?",
+    "options": [
+      "Buscaba no dejar en desventaja a los estudiantes sin conectividad permanente",
+      "Buscaba reducir costos de impresión de guías",
+      "Respondía a una exigencia normativa nacional",
+      "Se tomó exclusivamente por preferencia de los docentes"
+    ],
+    "explanation": "La decisión evita asumir acceso permanente a internet para toda la comunidad.",
+    "normativeJustification": "La decisión evita asumir acceso permanente a internet para toda la comunidad.",
+    "theoreticalJustification": "La decisión evita asumir acceso permanente a internet para toda la comunidad.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 757,
+    "id": "dir-apt-lec-09",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620"
+    ],
+    "caseContext": "La Ley 1620 de 2013 creó el Sistema Nacional de Convivencia Escolar y estableció que cada institución educativa debe conformar un Comité Escolar de Convivencia, integrado por el rector, un docente por cada nivel, el personero estudiantil y el presidente del consejo de padres, entre otros. Este comité tiene la función de activar la ruta de atención integral ante situaciones que afecten la convivencia escolar, clasificándolas según su gravedad y orientando la respuesta institucional correspondiente.",
+    "stem": "Según el texto, ¿qué estableció la Ley 1620 de 2013?",
+    "options": [
+      "La eliminación del manual de convivencia",
+      "La obligación de conformar un Comité Escolar de Convivencia en cada institución",
+      "La creación del Sistema Institucional de Evaluación de Estudiantes",
+      "La centralización de la disciplina escolar en la Secretaría de Educación"
+    ],
+    "explanation": "El texto indica explícitamente la obligación de conformar el Comité Escolar de Convivencia.",
+    "normativeJustification": "El texto indica explícitamente la obligación de conformar el Comité Escolar de Convivencia.",
+    "theoreticalJustification": "El texto indica explícitamente la obligación de conformar el Comité Escolar de Convivencia.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 758,
+    "id": "dir-apt-lec-10",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "La Ley 1620 de 2013 creó el Sistema Nacional de Convivencia Escolar y estableció que cada institución educativa debe conformar un Comité Escolar de Convivencia, integrado por el rector, un docente por cada nivel, el personero estudiantil y el presidente del consejo de padres, entre otros. Este comité tiene la función de activar la ruta de atención integral ante situaciones que afecten la convivencia escolar, clasificándolas según su gravedad y orientando la respuesta institucional correspondiente.",
+    "stem": "¿Cuál es la función principal del Comité Escolar de Convivencia según el texto?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Activar la ruta de atención integral según la gravedad de la situación",
+      "Reemplazar al Consejo Directivo en todas sus funciones",
+      "Evaluar el desempeño académico de los docentes"
+    ],
+    "explanation": "El comité activa la ruta de atención integral según la gravedad.",
+    "normativeJustification": "El comité activa la ruta de atención integral según la gravedad.",
+    "theoreticalJustification": "El comité activa la ruta de atención integral según la gravedad.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 759,
+    "id": "dir-apt-lec-11",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "El Decreto 1421 de 2017 reglamentó la atención educativa a la población con discapacidad, estableciendo el Plan Individual de Ajustes Razonables (PIAR) como herramienta para identificar las barreras que enfrenta un estudiante y definir los apoyos necesarios para su participación plena. A diferencia de un currículo paralelo, el PIAR parte del currículo general de la institución y propone ajustes específicos, evitando así procesos de exclusión disfrazados de atención especializada.",
+    "stem": "Según el texto, ¿qué propósito tiene el PIAR?",
+    "options": [
+      "Crear un currículo completamente distinto para el estudiante con discapacidad",
+      "Identificar barreras y definir ajustes razonables a partir del currículo general",
+      "Trasladar automáticamente al estudiante a educación especial",
+      "Eliminar la evaluación para estudiantes con discapacidad"
+    ],
+    "explanation": "El PIAR identifica barreras y define apoyos a partir del currículo general.",
+    "normativeJustification": "El PIAR identifica barreras y define apoyos a partir del currículo general.",
+    "theoreticalJustification": "El PIAR identifica barreras y define apoyos a partir del currículo general.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 760,
+    "id": "dir-apt-lec-12",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "El Decreto 1421 de 2017 reglamentó la atención educativa a la población con discapacidad, estableciendo el Plan Individual de Ajustes Razonables (PIAR) como herramienta para identificar las barreras que enfrenta un estudiante y definir los apoyos necesarios para su participación plena. A diferencia de un currículo paralelo, el PIAR parte del currículo general de la institución y propone ajustes específicos, evitando así procesos de exclusión disfrazados de atención especializada.",
+    "stem": "¿Qué distingue al PIAR de un 'currículo paralelo', según el texto?",
+    "options": [
+      "El PIAR no tiene relación con el currículo institucional",
+      "El PIAR parte del currículo general y propone ajustes, evitando exclusión disfrazada",
+      "El PIAR solo aplica a estudiantes sin discapacidad",
+      "El PIAR reemplaza completamente la planeación docente regular"
+    ],
+    "explanation": "El texto contrasta el PIAR con un currículo paralelo: parte del currículo general.",
+    "normativeJustification": "El texto contrasta el PIAR con un currículo paralelo: parte del currículo general.",
+    "theoreticalJustification": "El texto contrasta el PIAR con un currículo paralelo: parte del currículo general.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

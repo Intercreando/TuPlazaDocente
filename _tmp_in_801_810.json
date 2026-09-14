@@ -1,0 +1,358 @@
+[
+  {
+    "pos": 801,
+    "id": "dir-apt-blan-53",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En el Consejo Directivo, un rector debe decidir entre dos propuestas de inversión: una mejora la conectividad a internet y otra repara la cubierta de un patio con filtraciones que representan riesgo en época de lluvias. ¿Qué actuación refleja mejor una toma de decisiones basada en priorización? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Elegir la propuesta más económica sin analizar el riesgo",
+      "Priorizar la reparación que atiende un riesgo de seguridad inminente, dejando la otra para una siguiente vigencia",
+      "Dividir el presupuesto en partes iguales sin evaluar la urgencia de cada una",
+      "Posponer ambas decisiones hasta el siguiente año escolar"
+    ],
+    "explanation": "Ante un riesgo de seguridad, priorizar según urgencia es la actuación más responsable de un directivo.",
+    "normativeJustification": "Ante un riesgo de seguridad, priorizar según urgencia es la actuación más responsable de un directivo.",
+    "theoreticalJustification": "Ante un riesgo de seguridad, priorizar según urgencia es la actuación más responsable de un directivo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 802,
+    "id": "dir-apt-blan-54",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante denuncia, mediante el conducto del personero estudiantil, una situación de trato inadecuado por parte de un docente. ¿Cuál sería la actuación institucional más apropiada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Activar el protocolo correspondiente, indagar los hechos con imparcialidad y garantizar el debido proceso para ambas partes",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El manejo imparcial y garantista es esencial ante cualquier denuncia, sin prejuzgar a ninguna de las partes.",
+    "normativeJustification": "El manejo imparcial y garantista es esencial ante cualquier denuncia, sin prejuzgar a ninguna de las partes.",
+    "theoreticalJustification": "El manejo imparcial y garantista es esencial ante cualquier denuncia, sin prejuzgar a ninguna de las partes.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 803,
+    "id": "dir-apt-blan-55",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Al implementar un cambio en la metodología de evaluación institucional, varios docentes expresan resistencia porque sienten que no fueron consultados. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Imponer el cambio de todas formas, ya que es una decisión directiva",
+      "Reconocer la falta de consulta previa, abrir un espacio de retroalimentación y ajustar el proceso de implementación",
+      "Retirar el cambio por completo ante la primera señal de resistencia",
+      "Culpar a los docentes por resistirse a las mejoras institucionales"
+    ],
+    "explanation": "Reconocer el error de proceso y abrir espacios de participación fortalece la legitimidad del cambio.",
+    "normativeJustification": "Reconocer el error de proceso y abrir espacios de participación fortalece la legitimidad del cambio.",
+    "theoreticalJustification": "Reconocer el error de proceso y abrir espacios de participación fortalece la legitimidad del cambio.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 804,
+    "id": "dir-apt-blan-56",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un miembro del personal administrativo comete una falta leve por primera vez, relacionada con un retraso reiterado en la entrega de informes. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Conversar con la persona para entender las causas y acordar un plan de mejora, dejando constancia del compromiso",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Ante una falta leve y sin antecedentes, el diálogo formativo es proporcional y constructivo.",
+    "normativeJustification": "Ante una falta leve y sin antecedentes, el diálogo formativo es proporcional y constructivo.",
+    "theoreticalJustification": "Ante una falta leve y sin antecedentes, el diálogo formativo es proporcional y constructivo.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 805,
+    "id": "dir-apt-blan-57",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Durante una emergencia de salud de un estudiante, varios miembros del personal actúan de forma desorganizada porque no conocen bien el protocolo. ¿Qué actuación posterior sería más adecuada por parte del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Revisar lo ocurrido con el equipo, identificar fallas en el protocolo y realizar un simulacro de refuerzo",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El aprendizaje institucional tras una crisis requiere análisis y refuerzo del protocolo, no solo atribuir culpas.",
+    "normativeJustification": "El aprendizaje institucional tras una crisis requiere análisis y refuerzo del protocolo, no solo atribuir culpas.",
+    "theoreticalJustification": "El aprendizaje institucional tras una crisis requiere análisis y refuerzo del protocolo, no solo atribuir culpas.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 806,
+    "id": "dir-apt-blan-58",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente de mayor antigüedad se muestra reacio a incorporar herramientas digitales en su práctica pedagógica, a pesar de las capacitaciones ofrecidas. ¿Cuál sería la actuación más adecuada del coordinador? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Obligarlo a usar las herramientas bajo amenaza de sanción",
+      "Indagar las razones de la resistencia y ofrecer acompañamiento personalizado y gradual",
+      "Excluirlo de las decisiones pedagógicas del área",
+      "Aceptar que nunca las use, sin ningún acompañamiento adicional"
+    ],
+    "explanation": "Comprender las causas de la resistencia permite un acompañamiento más efectivo que la imposición.",
+    "normativeJustification": "Comprender las causas de la resistencia permite un acompañamiento más efectivo que la imposición.",
+    "theoreticalJustification": "Comprender las causas de la resistencia permite un acompañamiento más efectivo que la imposición.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 807,
+    "id": "dir-apt-blan-59",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área, un docente critica de forma poco respetuosa el trabajo de un colega frente a todo el grupo. ¿Cuál sería la intervención más adecuada del coordinador que lidera la reunión? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "No intervenir, para no involucrarse en dinámicas entre docentes",
+      "Interrumpir con respeto, recordar las normas de comunicación asertiva y proponer abordar el tema en privado si es necesario",
+      "Sumarse a la crítica si coincide con la opinión del coordinador",
+      "Finalizar la reunión de inmediato sin abordar la situación"
+    ],
+    "explanation": "Mediar oportunamente protege un ambiente de trabajo respetuoso sin evitar el conflicto.",
+    "normativeJustification": "Mediar oportunamente protege un ambiente de trabajo respetuoso sin evitar el conflicto.",
+    "theoreticalJustification": "Mediar oportunamente protege un ambiente de trabajo respetuoso sin evitar el conflicto.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 808,
+    "id": "dir-apt-blan-60",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo",
+    "subtopic": "Valoración de competencias blandas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un rector debe decidir sobre la reasignación de un docente a una sede con mayores necesidades, lo cual el docente rechaza por motivos de desplazamiento. ¿Cuál sería la actuación más equilibrada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Imponer la reasignación sin dialogar con el docente",
+      "Escuchar sus razones, revisar alternativas dentro del marco normativo y comunicar con claridad los criterios de la decisión final",
+      "Cancelar la reasignación únicamente porque el docente no está de acuerdo",
+      "Tomar la decisión sin informarle hasta el último momento"
+    ],
+    "explanation": "El equilibrio entre necesidades institucionales y comunicación transparente es clave en la gestión del talento humano.",
+    "normativeJustification": "El equilibrio entre necesidades institucionales y comunicación transparente es clave en la gestión del talento humano.",
+    "theoreticalJustification": "El equilibrio entre necesidades institucionales y comunicación transparente es clave en la gestión del talento humano.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 809,
+    "id": "dir-apt-ges-61",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "ley115"
+    ],
+    "caseContext": "Al actualizar el PEI, un rector organiza solo “lo académico y lo disciplinario”. El pagador pide un capítulo financiero aparte, desconectado. El Consejo Directivo exige el mapa de la Guía 34 para la autoevaluación.",
+    "stem": "¿Qué cuatro áreas de gestión debe articular el PEI, según el mapa de la Guía 34?",
+    "options": [
+      "Directiva, académica, administrativa-financiera y comunitaria.",
+      "Pedagógica, financiera, disciplinaria y deportiva, como capítulos de imagen.",
+      "Directiva, académica, deportiva y cultural, omitiendo lo comunitario y lo financiero.",
+      "Administrativa, comunitaria, financiera y tecnológica, sin gestión directiva ni académica."
+    ],
+    "explanation": "La Guía 34 organiza la gestión institucional en estas cuatro áreas articuladas.",
+    "normativeJustification": "La Guía 34 organiza la gestión institucional en estas cuatro áreas articuladas.",
+    "theoreticalJustification": "La Guía 34 organiza la gestión institucional en estas cuatro áreas articuladas.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 810,
+    "id": "dir-apt-ges-62",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "El rector quiere adoptar un nuevo manual de convivencia esta semana por circular. El Consejo Académico dice que le corresponde porque toca disciplina de aula. Padres piden votarlo en asamblea general.",
+    "stem": "En este desacuerdo sobre quién adopta el manual, ¿qué instancia corresponde en el gobierno escolar (Ley 115 y Decreto 1860)?",
+    "options": [
+      "El Consejo Académico",
+      "El Consejo Directivo",
+      "El Personero Estudiantil",
+      "La Asociación de Padres de Familia"
+    ],
+    "explanation": "El Consejo Directivo adopta el manual de convivencia como parte de sus funciones.",
+    "normativeJustification": "El Consejo Directivo adopta el manual de convivencia como parte de sus funciones.",
+    "theoreticalJustification": "El Consejo Directivo adopta el manual de convivencia como parte de sus funciones.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

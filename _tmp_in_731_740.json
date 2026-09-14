@@ -1,0 +1,432 @@
+[
+  {
+    "pos": 731,
+    "id": "oro-soc-15",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / mapa mental vs análisis",
+    "subtopic": "Sociales / mapa mental vs análisis",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "evidencias"
+      },
+      {
+        "code": "ebc",
+        "focus": "argumentación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "decreto1290",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Toda la evaluación del periodo es un mapa mental decorativo sin argumentación ni uso de fuentes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Pedir producciones que argumenten con fuentes, conceptos y evidencia (ensayo, debate, estudio de caso)",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "El Decreto 1290 y los EBC exigen evidencias de comprensión y argumentación. En sociales, el desempeño clave es explicar y argumentar con soporte.",
+    "normativeJustification": "El Decreto 1290 y los EBC exigen evidencias de comprensión y argumentación.",
+    "theoreticalJustification": "En sociales, el desempeño clave es explicar y argumentar con soporte.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 732,
+    "id": "oro-soc-16",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / conflicto armado",
+    "subtopic": "Sociales / conflicto armado",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "memoria"
+      },
+      {
+        "code": "ley1620",
+        "focus": "cuidado"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "ley1620"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Al abordar el conflicto armado colombiano, el docente impone una lectura única y silencia preguntas de estudiantes. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Mediar con rigor, fuentes diversas, respeto a víctimas y espacio para preguntas difíciles",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "La Cátedra de la Paz y los referentes de sociales orientan memoria histórica con rigor y dignidad. Los temas sensibles requieren mediación ética, evidencia y cuidado emocional.",
+    "normativeJustification": "La Cátedra de la Paz y los referentes de sociales orientan memoria histórica con rigor y dignidad.",
+    "theoreticalJustification": "Los temas sensibles requieren mediación ética, evidencia y cuidado emocional.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 733,
+    "id": "oro-soc-17",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / derechos humanos",
+    "subtopic": "Sociales / derechos humanos",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "derechos"
+      },
+      {
+        "code": "ebc",
+        "focus": "ciudadanas"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ley1620",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se enseñan derechos humanos como lista para recitar, sin relacionarlos con casos escolares (bullying, debido proceso, participación). Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Tratar el episodio como indisciplina de aula: amonestación y compromiso de “no repetir”, sin tipificar ni seguimiento.",
+      "Analizar casos del contexto escolar a la luz de derechos, deberes y rutas institucionales",
+      "Pedir a las familias que “se pongan de acuerdo” por WhatsApp y archivar el caso cuando baje la tensión visible.",
+      "Hacer una charla general de valores y cambiar de puesto a quien reporta, sin registro ni monitoreo del clima."
+    ],
+    "explanation": "La formación en derechos se articula a la convivencia escolar (Ley 1620) y a ciudadanas. Los derechos se comprenden cuando se aplican a situaciones reales.",
+    "normativeJustification": "La formación en derechos se articula a la convivencia escolar (Ley 1620) y a ciudadanas.",
+    "theoreticalJustification": "Los derechos se comprenden cuando se aplican a situaciones reales.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 734,
+    "id": "oro-soc-18",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / comparación histórica",
+    "subtopic": "Sociales / comparación histórica",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "comparación histórica"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Al comparar dos periodos, los estudiantes solo dicen 'antes era peor / ahora es mejor' sin criterios. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Definir criterios de comparación (economía, derechos, participación, territorio) y soportarlos con evidencia",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "El pensamiento histórico incluye comparación fundamentada entre sociedades y periodos. Comparar con criterios evita anacronismos y opiniones vacías.",
+    "normativeJustification": "El pensamiento histórico incluye comparación fundamentada entre sociedades y periodos.",
+    "theoreticalJustification": "Comparar con criterios evita anacronismos y opiniones vacías.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 735,
+    "id": "oro-soc-19",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / fake news",
+    "subtopic": "Sociales / fake news",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "información"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "sociales"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "lineamientos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Circula un meme falso sobre una decisión del Concejo municipal. Estudiantes lo comparten como noticia. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Hacer una práctica de verificación (fuentes, contraste, sesgos) y producir una conclusión argumentada",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "La ciudadanía digital crítica es parte de la formación social contemporánea. Verificar información es una competencia social transferable.",
+    "normativeJustification": "La ciudadanía digital crítica es parte de la formación social contemporánea.",
+    "theoreticalJustification": "Verificar información es una competencia social transferable.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 736,
+    "id": "oro-soc-20",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Sociales / Estado y poder",
+    "subtopic": "Sociales / Estado y poder",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "Estado"
+      },
+      {
+        "code": "ausubel",
+        "focus": "anclaje"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "ausubel"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Al explicar ramas del poder público, el docente no conecta con ejemplos cercanos (Alcaldía, Concejo, jueces). Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Quedarse en el esquema abstracto del libro, aunque parezca un trámite equitativo o suficiente.",
+      "Ilustrar funciones con instituciones locales y casos verificables de separación de poderes",
+      "Afirmar que 'en la práctica no importa', aunque se presente como solución rápida en la reunión.",
+      "Evaluar solo el dibujo de un organigrama, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Los EBC buscan comprender la organización del Estado y la participación democrática. Anclar conceptos políticos en el entorno facilita el aprendizaje significativo.",
+    "normativeJustification": "Los EBC buscan comprender la organización del Estado y la participación democrática.",
+    "theoreticalJustification": "Anclar conceptos políticos en el entorno facilita el aprendizaje significativo.",
+    "distractorAnalysis": {
+      "0": "Lo abstracto sin anclaje suele olvidarse.",
+      "2": "Minimizar el tema debilita la ciudadanía.",
+      "3": "El dibujo no acredita comprensión funcional."
+    }
+  },
+  {
+    "pos": 737,
+    "id": "oro-soc-21",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / trabajo con datos",
+    "subtopic": "Sociales / trabajo con datos",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "métodos"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "sociales"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "lineamientos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En un estudio sobre migración, no se usan tablas ni mapas; solo anécdotas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Combinar relatos con datos, mapas y análisis de causas y efectos",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "El área integra métodos cuantitativos y cualitativos para explicar lo social. Triangular evidencias fortalece la explicación social.",
+    "normativeJustification": "El área integra métodos cuantitativos y cualitativos para explicar lo social.",
+    "theoreticalJustification": "Triangular evidencias fortalece la explicación social.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 738,
+    "id": "oro-soc-22",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / género",
+    "subtopic": "Sociales / género",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "equidad"
+      },
+      {
+        "code": "ley115",
+        "focus": "formación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "ley115"
+    ],
+    "caseContext": "Al estudiar liderazgo histórico, el material solo muestra hombres y presenta a las mujeres como 'apoyo doméstico'. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Diversificar fuentes y problematizar roles de género en la historia y la sociedad",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "explanation": "La educación debe promover equidad de género y reconocimiento de aportes históricos diversos. Visibilizar y problematizar estereotipos forma ciudadanía democrática.",
+    "normativeJustification": "La educación debe promover equidad de género y reconocimiento de aportes históricos diversos.",
+    "theoreticalJustification": "Visibilizar y problematizar estereotipos forma ciudadanía democrática.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 739,
+    "id": "oro-soc-23",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Sociales / simulación",
+    "subtopic": "Sociales / simulación",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "deliberación"
+      },
+      {
+        "code": "vygotsky",
+        "focus": "andamiaje"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "vygotsky"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se hace un 'Congreso escolar' sin preparación de argumentos ni reglas de respeto; termina en gritos. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Repetir el caos porque 'así es la política'",
+      "Preparar roles, evidencias, reglas de deliberación y cierre reflexivo sobre el proceso",
+      "Cancelar definitivamente toda simulación",
+      "Dejar que un solo estudiante monopolice el uso de la palabra"
+    ],
+    "explanation": "Las estrategias activas requieren andamiaje y normas de participación democrática. La simulación es potente si hay preparación, reglas y metacognición.",
+    "normativeJustification": "Las estrategias activas requieren andamiaje y normas de participación democrática.",
+    "theoreticalJustification": "La simulación es potente si hay preparación, reglas y metacognición.",
+    "distractorAnalysis": {
+      "0": "Naturalizar el caos no educa.",
+      "2": "Bien mediada, la simulación es valiosa.",
+      "3": "Monopolizar niega participación equitativa."
+    }
+  },
+  {
+    "pos": 740,
+    "id": "oro-soc-24",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / globalización",
+    "subtopic": "Sociales / globalización",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "globalización"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "Al tratar globalización, se presenta solo como 'avance tecnológico' sin impactos laborales, culturales o ambientales. Un actor pide resolver por circular o por costumbre; otro exige criterio público y evidencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Seguir el índice del libro o un recurso viral, aunque desborde u omita los aprendizajes esenciales del grado.",
+      "Examinar oportunidades y tensiones (económicas, culturales, ambientales) con evidencia",
+      "Evaluar solo el producto final de reproducción literal (definición, respuesta u ortografía), sin procesos ni representaciones.",
+      "Integrar un proyecto atractivo sin metas de aprendizaje ligadas a EBC, DBA o lineamientos."
+    ],
+    "explanation": "Los EBC buscan comprender interdependencias globales con mirada crítica. Los procesos globales son multidimensionales y requieren balance de efectos.",
+    "normativeJustification": "Los EBC buscan comprender interdependencias globales con mirada crítica.",
+    "theoreticalJustification": "Los procesos globales son multidimensionales y requieren balance de efectos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]

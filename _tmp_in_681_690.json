@@ -1,0 +1,412 @@
+[
+  {
+    "pos": 681,
+    "id": "fs-ped-d1421-57",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "d1421",
+    "subtopic": "d1421",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "El PIAR prevé base diez en la evaluación de matemáticas. El día de la prueba se niega el material “para que sea justo”. El estudiante comprende con esa representación y se bloquea en el algoritmo solo.",
+    "stem": "¿Qué decisión sostiene el ajuste razonable sin bajar la meta esencial?",
+    "options": [
+      "Negar el material previsto, para que la evidencia sea comparable con el resto.",
+      "Permitir la representación acordada en el PIAR y valorar el aprendizaje esencial del grado.",
+      "Cambiar el DBA del grado de forma informal, sin actualizar el PIAR.",
+      "Sustituir matemáticas por una actividad recreativa permanente."
+    ],
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "theoreticalJustification": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 682,
+    "id": "fs-ped-piaget-58",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "piaget",
+    "subtopic": "piaget",
+    "knowledgeTags": [
+      {
+        "code": "piaget",
+        "focus": "estadios"
+      },
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      }
+    ],
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En transición exigen planas y un promedio numérico semanal. Castigan el juego simbólico por “perder tiempo”. Familias piden “que se vea como primero”.",
+    "stem": "¿Qué decisión alinea desarrollo, juego y evaluación cualitativa en inicial?",
+    "options": [
+      "Sustituir el juego por planas y ranking semanal, para evidenciar rigor, aunque se presente como solución rápida en la reunión.",
+      "Mediar el juego y las rutinas como espacio de lenguaje y pensamiento, y documentar procesos con devolución a las familias.",
+      "Aplicar un examen escrito estandarizado para homologar con primaria, aunque ahorre tiempo visible de clase o de consejo.",
+      "Eliminar toda evidencia y dejar solo cuidado asistencial, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "normativeJustification": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "theoreticalJustification": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 683,
+    "id": "fs-ped-bruner-59",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "bruner",
+    "subtopic": "bruner",
+    "knowledgeTags": [
+      {
+        "code": "bruner",
+        "focus": "representación"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En 3° pasan de material concreto a la ecuación en un solo paso. Quienes no simbolizan de inmediato se etiquetan como “sin lógica”. Un colega propone más hojas de algoritmos.",
+    "stem": "¿Qué secuencia de representación es la más defendible para mediar el aprendizaje?",
+    "options": [
+      "Insistir de inmediato en el símbolo, con más ejercicios idénticos.",
+      "Transitar concreto → pictórico → simbólico, conectando cada modo con la meta del grado.",
+      "Quedarse indefinidamente en el concreto, sin formalizar.",
+      "Evaluar solo la respuesta final del algoritmo, sin representaciones."
+    ],
+    "explanation": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "normativeJustification": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "theoreticalJustification": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 684,
+    "id": "fs-ped-ebc-60",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ebc",
+    "subtopic": "ebc",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "El plan de área copia el índice del libro y un recurso viral. No hay metas de “saber hacer” por grupos de grados. La visita de calidad pregunta por EBC/DBA.",
+    "stem": "¿Qué decisión alinea la planeación con los Estándares Básicos de Competencias?",
+    "options": [
+      "Seguir el libro y el recurso viral, porque ya “cubren contenidos”, aunque parezca un trámite equitativo o suficiente.",
+      "Definir desempeños de saber y saber hacer por grupos de grados, y evaluar procesos no solo productos memorísticos.",
+      "Usar los EBC como lista de supervisión de asistencia docente, aunque se presente como solución rápida en la reunión.",
+      "Reemplazar el PEI por el índice del texto escolar, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "normativeJustification": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "theoreticalJustification": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 685,
+    "id": "oro-cie-01",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias / indagación",
+    "subtopic": "Ciencias / indagación",
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "indagación"
+      },
+      {
+        "code": "ebc",
+        "focus": "ciencias"
+      }
+    ],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "caseContext": "En grado 6°, el docente pide copiar del tablero la definición de “hipótesis” y recitarla en el quiz, sin formular preguntas ni observar fenómenos. Un colega defiende que “así se cubre el tema más rápido”.",
+    "stem": "En este episodio, ¿cuál decisión está menos alineada con el enfoque de indagación en ciencias?",
+    "options": [
+      "Partir de una pregunta investigable, observar y contrastar explicaciones con evidencia registrada.",
+      "Reducir el aprendizaje a recitar definiciones del tablero, sin explorar fenómenos ni registrar observaciones.",
+      "Registrar observaciones del fenómeno y discutir con el grupo posibles explicaciones antes de formalizar.",
+      "Revisar con el grupo el diseño experimental (variables, controles) antes de sacar conclusiones."
+    ],
+    "explanation": "Los Lineamientos y EBC de Ciencias Naturales orientan el aprendizaje por indagación y explicación de fenómenos. La indagación moviliza pregunta, evidencia y explicación; la definición aislada no construye pensamiento científico.",
+    "normativeJustification": "Los Lineamientos y EBC de Ciencias Naturales orientan el aprendizaje por indagación y explicación de fenómenos.",
+    "theoreticalJustification": "La indagación moviliza pregunta, evidencia y explicación; la definición aislada no construye pensamiento científico.",
+    "distractorAnalysis": {
+      "0": "Sí es coherente con indagación.",
+      "2": "Observar y explicar es núcleo del área.",
+      "3": "Revisar el diseño fortalece la investigación escolar."
+    }
+  },
+  {
+    "pos": 686,
+    "id": "oro-cie-02",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Ciencias / variables experimentales",
+    "subtopic": "Ciencias / variables experimentales",
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "experimento"
+      },
+      {
+        "code": "ebc",
+        "focus": "ciencias"
+      }
+    ],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Estudiantes quieren saber si la temperatura del agua afecta la disolución de azúcar. Cambian a la vez temperatura, cantidad de azúcar y tipo de recipiente. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Dejar que cambien todas las variables a la vez 'para ir más rápido', aunque ahorre tiempo visible de clase o de consejo.",
+      "Ayudarles a controlar variables: modificar solo la temperatura y mantener constantes las demás",
+      "Eliminar el experimento y dictar la conclusión, aunque parezca un trámite equitativo o suficiente.",
+      "Evaluar solo la limpieza del laboratorio, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Los referentes de ciencias privilegian el diseño experimental con control de variables. Identificar variable independiente, dependiente y controladas es parte del pensamiento científico escolar.",
+    "normativeJustification": "Los referentes de ciencias privilegian el diseño experimental con control de variables.",
+    "theoreticalJustification": "Identificar variable independiente, dependiente y controladas es parte del pensamiento científico escolar.",
+    "distractorAnalysis": {
+      "0": "Cambiar varias variables impide atribuir causas.",
+      "2": "Dictar la conclusión anula la indagación.",
+      "3": "La higiene importa, pero no sustituye el aprendizaje experimental."
+    }
+  },
+  {
+    "pos": 687,
+    "id": "oro-cie-03",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias / DBA",
+    "subtopic": "Ciencias / DBA",
+    "knowledgeTags": [
+      {
+        "code": "dba",
+        "focus": "ciencias"
+      },
+      {
+        "code": "ebc",
+        "focus": "planeación"
+      }
+    ],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [
+      "dba",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un docente de 5° planea solo con el libro de texto y no revisa los DBA del grado para ciencias. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Usarlos como referente de saberes y habilidades esperadas para orientar planeación y evaluación",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Los DBA son un referente de planeación curricular complementario a EBC y al PEI. Alinear propósitos, actividades y evidencias con referentes nacionales mejora la coherencia del área.",
+    "normativeJustification": "Los DBA son un referente de planeación curricular complementario a EBC y al PEI.",
+    "theoreticalJustification": "Alinear propósitos, actividades y evidencias con referentes nacionales mejora la coherencia del área.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 688,
+    "id": "oro-cie-04",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias / modelos",
+    "subtopic": "Ciencias / modelos",
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "modelos"
+      },
+      {
+        "code": "ebc",
+        "focus": "ciencias"
+      }
+    ],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [
+      "lineamientos",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Para enseñar el sistema solar, el docente usa solo un dibujo plano en el cuaderno y afirma que 'los planetas están fijados en el cielo'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Usar modelos (maquetas, simulaciones) y discutir límites del modelo frente al fenómeno real",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Los lineamientos de ciencias promueven modelos y representaciones para explicar fenómenos. Los modelos son herramientas de pensamiento: se construyen, se contrastan y se reconocen sus límites.",
+    "normativeJustification": "Los lineamientos de ciencias promueven modelos y representaciones para explicar fenómenos.",
+    "theoreticalJustification": "Los modelos son herramientas de pensamiento: se construyen, se contrastan y se reconocen sus límites.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 689,
+    "id": "oro-cie-05",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Ciencias / PRAE",
+    "subtopic": "Ciencias / PRAE",
+    "knowledgeTags": [
+      {
+        "code": "lineamientos",
+        "focus": "PRAE"
+      },
+      {
+        "code": "ley115",
+        "focus": "proyectos transversales"
+      }
+    ],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [
+      "lineamientos",
+      "ley115"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El colegio tiene PRAE en el PEI, pero ciencias lo trata como una cartelera anual sin articulación con biología, química ni el entorno cercano. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Dejar el PRAE como decoración institucional, aunque parezca un trámite equitativo o suficiente.",
+      "Articular el PRAE con preguntas del entorno (agua, residuos, biodiversidad) y con el currículo de ciencias",
+      "Eliminar el PRAE porque 'no es evaluable en Saber', aunque ahorre tiempo visible de clase o de consejo.",
+      "Delegarlo solo a la jornada complementaria sin docentes del área, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "El PRAE es un proyecto pedagógico transversal que articula la dimensión ambiental con el currículo. La educación ambiental gana sentido cuando se ancla en problemas reales del contexto escolar.",
+    "normativeJustification": "El PRAE es un proyecto pedagógico transversal que articula la dimensión ambiental con el currículo.",
+    "theoreticalJustification": "La educación ambiental gana sentido cuando se ancla en problemas reales del contexto escolar.",
+    "distractorAnalysis": {
+      "0": "El PRAE no es ornamento.",
+      "2": "Su valor no se reduce a pruebas estandarizadas.",
+      "3": "Requiere liderazgo pedagógico del área."
+    }
+  },
+  {
+    "pos": 690,
+    "id": "oro-cie-06",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Ciencias / ideas alternativas",
+    "subtopic": "Ciencias / ideas alternativas",
+    "knowledgeTags": [
+      {
+        "code": "ausubel",
+        "focus": "saberes previos"
+      },
+      {
+        "code": "decreto1290",
+        "focus": "formativa"
+      }
+    ],
+    "specialtyTags": [
+      "ciencias"
+    ],
+    "targetCargo": "ciencias",
+    "normativeRefs": [
+      "ausubel",
+      "decreto1290"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Varios estudiantes afirman que 'las plantas se alimentan solo de tierra'. El docente marca incorrecto y pasa al siguiente tema. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Explicitar la idea alternativa, contrastarla con evidencia (fotosíntesis/experimentos) y reconstruir la explicación",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "La evaluación formativa en ciencias usa el error como insumo para reorganizar ideas. El cambio conceptual requiere confrontar ideas previas con evidencia y nuevas explicaciones (Ausubel/constructivismo).",
+    "normativeJustification": "La evaluación formativa en ciencias usa el error como insumo para reorganizar ideas.",
+    "theoreticalJustification": "El cambio conceptual requiere confrontar ideas previas con evidencia y nuevas explicaciones (Ausubel/constructivismo).",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]

@@ -1,0 +1,322 @@
+[
+  {
+    "pos": 771,
+    "id": "dir-apt-num-23",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El promedio de 25 estudiantes en una prueba (escala 1 a 5) fue 3,8. Se retira un estudiante con nota 1,0. Un docente propone reportar 3,80 (otra base, redondeo o indicador distinto); otro insiste en 3,85. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "3,80",
+      "3,85",
+      "3,92",
+      "4,00"
+    ],
+    "explanation": "Suma total = 25 × 3,8 = 95. Nueva suma = 94. Nuevo promedio = 94/24 = 3,92.",
+    "normativeJustification": "Suma total = 25 × 3,8 = 95. Nueva suma = 94. Nuevo promedio = 94/24 = 3,92.",
+    "theoreticalJustification": "Suma total = 25 × 3,8 = 95. Nueva suma = 94. Nuevo promedio = 94/24 = 3,92.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 772,
+    "id": "dir-apt-num-24",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La jornada escolar dura 6 horas diarias, 5 días a la semana. El mínimo exigido para primaria es 25 horas semanales. Un docente propone reportar 3 horas (otra base, redondeo o indicador distinto); otro insiste en 6 horas. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "3 horas",
+      "5 horas",
+      "6 horas",
+      "8 horas"
+    ],
+    "explanation": "6 × 5 = 30 horas semanales. 30 − 25 = 5 horas adicionales.",
+    "normativeJustification": "6 × 5 = 30 horas semanales. 30 − 25 = 5 horas adicionales.",
+    "theoreticalJustification": "6 × 5 = 30 horas semanales. 30 − 25 = 5 horas adicionales.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 773,
+    "id": "dir-apt-num-25",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. De un presupuesto anual de mantenimiento de $60.000.000, se ha ejecutado el 40% en el primer semestre. Un docente propone reportar $24.000.000 (otra base, redondeo o indicador distinto); otro insiste en $30.000.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$24.000.000",
+      "$30.000.000",
+      "$36.000.000",
+      "$40.000.000"
+    ],
+    "explanation": "$60.000.000 × 0,60 = $36.000.000 disponibles.",
+    "normativeJustification": "$60.000.000 × 0,60 = $36.000.000 disponibles.",
+    "theoreticalJustification": "$60.000.000 × 0,60 = $36.000.000 disponibles.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 774,
+    "id": "dir-apt-num-26",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un descanso dura 45 minutos y se organiza vigilancia en turnos de 15 minutos por patio. Un docente propone reportar 2 (otra base, redondeo o indicador distinto); otro insiste en 4. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "45 / 15 = 3 turnos por patio.",
+    "normativeJustification": "45 / 15 = 3 turnos por patio.",
+    "theoreticalJustification": "45 / 15 = 3 turnos por patio.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 775,
+    "id": "dir-apt-num-27",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una institución, la relación estudiante-docente es de 28 a 1. Hay 1.120 estudiantes. Un docente propone reportar 35 (otra base, redondeo o indicador distinto); otro insiste en 38. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "35",
+      "38",
+      "40",
+      "42"
+    ],
+    "explanation": "1.120 / 28 = 40 docentes.",
+    "normativeJustification": "1.120 / 28 = 40 docentes.",
+    "theoreticalJustification": "1.120 / 28 = 40 docentes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 776,
+    "id": "dir-apt-num-28",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. De 500 estudiantes evaluados en pruebas Saber, el 18% se ubicó en nivel insuficiente. Un docente propone reportar 80 (otra base, redondeo o indicador distinto); otro insiste en 85. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "80",
+      "85",
+      "90",
+      "95"
+    ],
+    "explanation": "500 × 0,18 = 90 estudiantes.",
+    "normativeJustification": "500 × 0,18 = 90 estudiantes.",
+    "theoreticalJustification": "500 × 0,18 = 90 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 777,
+    "id": "dir-apt-num-29",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La matrícula de una institución pasó de 950 a 1.045 estudiantes en un año. Un docente propone reportar 8% (otra base, redondeo o indicador distinto); otro insiste en 9%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "8%",
+      "9%",
+      "10%",
+      "12%"
+    ],
+    "explanation": "Incremento = 95. 95/950 = 0,10 = 10%.",
+    "normativeJustification": "Incremento = 95. 95/950 = 0,10 = 10%.",
+    "theoreticalJustification": "Incremento = 95. 95/950 = 0,10 = 10%.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 778,
+    "id": "dir-apt-num-30",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un rector organiza 6 grupos de grado sexto con un promedio de 32 estudiantes cada uno. Se reorganiza en 8 grupos manteniendo el mismo total de estudiantes. Un docente propone reportar 20 (otra base, redondeo o indicador distinto); otro insiste en 22. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "explanation": "Total = 6 × 32 = 192. 192/8 = 24 estudiantes por grupo.",
+    "normativeJustification": "Total = 6 × 32 = 192. 192/8 = 24 estudiantes por grupo.",
+    "theoreticalJustification": "Total = 6 × 32 = 192. 192/8 = 24 estudiantes por grupo.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 779,
+    "id": "dir-apt-num-31",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En la biblioteca escolar hay 2.400 libros. El 25% corresponde a literatura infantil y el 15% a textos de referencia. Un docente propone reportar 1.200 (otra base, redondeo o indicador distinto); otro insiste en 1.320. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "1.200",
+      "1.320",
+      "1.440",
+      "1.500"
+    ],
+    "explanation": "25% + 15% = 40%. Restante = 60%. 2.400 × 0,60 = 1.440.",
+    "normativeJustification": "25% + 15% = 40%. Restante = 60%. 2.400 × 0,60 = 1.440.",
+    "theoreticalJustification": "25% + 15% = 40%. Restante = 60%. 2.400 × 0,60 = 1.440.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 780,
+    "id": "dir-apt-num-32",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo",
+    "subtopic": "Razonamiento cuantitativo · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente califica 40 evaluaciones a un ritmo promedio de 6 minutos cada una. Dedica una jornada de 3 horas exclusivamente a esta tarea. Un docente propone reportar 30 minutos (otra base, redondeo o indicador distinto); otro insiste en 45 minutos. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "30 minutos",
+      "45 minutos",
+      "60 minutos",
+      "90 minutos"
+    ],
+    "explanation": "Tiempo requerido = 40 × 6 = 240 min (4 h). Disponible = 180 min. Faltan 60 minutos.",
+    "normativeJustification": "Tiempo requerido = 40 × 6 = 240 min (4 h). Disponible = 180 min. Faltan 60 minutos.",
+    "theoreticalJustification": "Tiempo requerido = 40 × 6 = 240 min (4 h). Disponible = 180 min. Faltan 60 minutos.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  }
+]

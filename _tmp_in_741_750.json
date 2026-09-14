@@ -1,0 +1,410 @@
+[
+  {
+    "pos": 741,
+    "id": "oro-soc-25",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / evaluación por rúbrica",
+    "subtopic": "Sociales / evaluación por rúbrica",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "rúbrica"
+      },
+      {
+        "code": "ebc",
+        "focus": "debate"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "decreto1290",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: En un debate evaluado, los estudiantes no conocían si se valoraba el uso de fuentes, el respeto o solo 'hablar mucho'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Socializar rúbrica previa: argumentos, evidencia, escucha y respeto normativo",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "El Decreto 1290 exige criterios claros y conocidos por los estudiantes. La transparencia evaluativa orienta el desempeño durante la deliberación.",
+    "normativeJustification": "El Decreto 1290 exige criterios claros y conocidos por los estudiantes.",
+    "theoreticalJustification": "La transparencia evaluativa orienta el desempeño durante la deliberación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 742,
+    "id": "oro-soc-26",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / patrimonio",
+    "subtopic": "Sociales / patrimonio",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "patrimonio"
+      },
+      {
+        "code": "dba",
+        "focus": "identidad"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "dba"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El patrimonio local se aborda solo como 'cosa vieja' sin vínculo con identidad y cuidado comunitario. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Relacionar patrimonio material/inmaterial con identidad, memoria y responsabilidades ciudadanas",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Los referentes de sociales incluyen identidad cultural y valoración del patrimonio. El patrimonio se comprende como construcción social viva, no como objeto muerto.",
+    "normativeJustification": "Los referentes de sociales incluyen identidad cultural y valoración del patrimonio.",
+    "theoreticalJustification": "El patrimonio se comprende como construcción social viva, no como objeto muerto.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 743,
+    "id": "oro-soc-27",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / migración en el aula",
+    "subtopic": "Sociales / migración en el aula",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "xenofobia"
+      },
+      {
+        "code": "ebc",
+        "focus": "derechos"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ley1620",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Hay estudiantes migrantes y aparecen comentarios xenófobos. El docente dice que 'no es tema de la clase'. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Mantener el PIAR como documento de matrícula, sin traducirlo a materiales, tiempos y formas de demostrar el aprendizaje.",
+      "Abordar el hecho con enfoque de derechos, cuidado a las víctimas y formación antidiscriminación",
+      "Evaluar con un formato no acordado de antemano, sin rúbrica previa ni relación explícita con los aprendizajes esenciales.",
+      "Remitir el caso a otra institución “mejor preparada” mientras el aula conserva las mismas barreras de acceso."
+    ],
+    "explanation": "Ley 1620 y el marco de derechos obligan a prevenir y atender discriminación. El aula de sociales es espacio privilegiado para trabajar dignidad y convivencia.",
+    "normativeJustification": "Ley 1620 y el marco de derechos obligan a prevenir y atender discriminación.",
+    "theoreticalJustification": "El aula de sociales es espacio privilegiado para trabajar dignidad y convivencia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 744,
+    "id": "oro-soc-28",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / anacronismo",
+    "subtopic": "Sociales / anacronismo",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "historicidad"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un estudiante juzga una sociedad del siglo XIX con criterios del presente sin historicizar. El docente valida el juicio. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Enseñar a historicizar: comprender el contexto de época sin justificar opresiones, y distinguir presente/pasado",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "El pensamiento histórico combate el anacronismo y promueve comprensión contextual. Historicizar no es relativismo ciego: es comprender para explicar con rigor.",
+    "normativeJustification": "El pensamiento histórico combate el anacronismo y promueve comprensión contextual.",
+    "theoreticalJustification": "Historicizar no es relativismo ciego: es comprender para explicar con rigor.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 745,
+    "id": "oro-soc-29",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / medio ambiente y sociedad",
+    "subtopic": "Sociales / medio ambiente y sociedad",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "socioambiental"
+      },
+      {
+        "code": "lineamientos",
+        "focus": "territorio"
+      }
+    ],
+    "specialtyTags": [
+      "sociales",
+      "ciencias"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "lineamientos"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un conflicto por el uso del río se enseña solo como 'tema de biología', sin actores sociales ni normas. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Analizar actores, intereses, normas y conflictos socioambientales del territorio",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "explanation": "Las ciencias sociales explican conflictos socioambientales con categorías de poder, territorio y ciudadanía. La interdisciplinariedad potencia la comprensión de problemas complejos.",
+    "normativeJustification": "Las ciencias sociales explican conflictos socioambientales con categorías de poder, territorio y ciudadanía.",
+    "theoreticalJustification": "La interdisciplinariedad potencia la comprensión de problemas complejos.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 746,
+    "id": "oro-soc-30",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / entrevista oral",
+    "subtopic": "Sociales / entrevista oral",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "fuentes orales"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Estudiantes entrevistan a abuelos sobre el barrio, pero no contrastan con archivos ni contextualizan. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Tratarla como fuente: triangular con otras evidencias y analizar contexto del testimonio",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "La historia oral es fuente válida si se critica y se contrasta metodológicamente. Toda fuente tiene sesgo; la triangulación fortalece la explicación.",
+    "normativeJustification": "La historia oral es fuente válida si se critica y se contrasta metodológicamente.",
+    "theoreticalJustification": "Toda fuente tiene sesgo; la triangulación fortalece la explicación.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 747,
+    "id": "oro-soc-31",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / servicio social",
+    "subtopic": "Sociales / servicio social",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "servicio social"
+      },
+      {
+        "code": "ebc",
+        "focus": "ciudadanía"
+      }
+    ],
+    "specialtyTags": [
+      "sociales"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ley115",
+      "ebc"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: El servicio social estudiantil se cumple como 'horas firmadas' sin reflexión sobre impacto comunitario. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Articular servicio, diagnóstico comunitario y reflexión ética sobre el impacto",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "El servicio social tiene sentido formativo de solidaridad y participación ciudadana. La experiencia comunitaria educa cuando se reflexiona y se vincula a aprendizajes.",
+    "normativeJustification": "El servicio social tiene sentido formativo de solidaridad y participación ciudadana.",
+    "theoreticalJustification": "La experiencia comunitaria educa cuando se reflexiona y se vincula a aprendizajes.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 748,
+    "id": "oro-soc-32",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Sociales / articulación con lenguaje",
+    "subtopic": "Sociales / articulación con lenguaje",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "argumentación"
+      },
+      {
+        "code": "ley115",
+        "focus": "articulación"
+      }
+    ],
+    "specialtyTags": [
+      "sociales",
+      "lenguaje"
+    ],
+    "targetCargo": "sociales",
+    "normativeRefs": [
+      "ebc",
+      "ley115"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Sociales pide ensayos argumentativos, pero no coordina con lenguaje criterios de tesis, evidencia y cohesión. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Acordar con lenguaje una rúbrica compartida de argumentación aplicada a temas sociales",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "La argumentación es competencia transversal reforzada por EBC de lenguaje y sociales. La coherencia interdisciplinar mejora la calidad de las producciones estudiantiles.",
+    "normativeJustification": "La argumentación es competencia transversal reforzada por EBC de lenguaje y sociales.",
+    "theoreticalJustification": "La coherencia interdisciplinar mejora la calidad de las producciones estudiantiles.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 749,
+    "id": "dir-apt-lec-01",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En la Institución Educativa El Progreso, los conflictos entre estudiantes durante el descanso habían aumentado un 30% en un semestre. El rector, con el Consejo Académico, implementó un programa de mediación liderado por estudiantes capacitados como 'gestores de convivencia'. Tras tres meses, los reportes disciplinarios disminuyeron, aunque algunos docentes señalaron que el programa exigía tiempo adicional fuera de la jornada. El rector decidió mantenerlo, ajustando los horarios de capacitación para no interferir con las clases.",
+    "stem": "¿Cuál es la idea central del texto?",
+    "options": [
+      "Los estudiantes deben resolver solos todos los conflictos escolares",
+      "Un programa de mediación estudiantil redujo los conflictos, pero requirió ajustes de tiempo institucional",
+      "El aumento de conflictos se debió a la falta de docentes",
+      "El Consejo Académico eliminó el programa por falta de resultados"
+    ],
+    "explanation": "El texto describe la implementación del programa, sus resultados positivos y el ajuste realizado ante una dificultad señalada.",
+    "normativeJustification": "El texto describe la implementación del programa, sus resultados positivos y el ajuste realizado ante una dificultad señalada.",
+    "theoreticalJustification": "El texto describe la implementación del programa, sus resultados positivos y el ajuste realizado ante una dificultad señalada.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 750,
+    "id": "dir-apt-lec-02",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo",
+    "subtopic": "Lectura crítica · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En la Institución Educativa El Progreso, los conflictos entre estudiantes durante el descanso habían aumentado un 30% en un semestre. El rector, con el Consejo Académico, implementó un programa de mediación liderado por estudiantes capacitados como 'gestores de convivencia'. Tras tres meses, los reportes disciplinarios disminuyeron, aunque algunos docentes señalaron que el programa exigía tiempo adicional fuera de la jornada. El rector decidió mantenerlo, ajustando los horarios de capacitación para no interferir con las clases.",
+    "stem": "¿Qué se puede inferir sobre la actitud del rector frente a las críticas de los docentes?",
+    "options": [
+      "Ignoró las críticas y mantuvo el programa sin cambios",
+      "Canceló el programa para evitar quejas",
+      "Reconoció la dificultad señalada y ajustó la implementación sin abandonar la estrategia",
+      "Delegó la decisión únicamente al Consejo Académico"
+    ],
+    "explanation": "El rector ajustó los horarios tras escuchar la observación docente, sin eliminar el programa.",
+    "normativeJustification": "El rector ajustó los horarios tras escuchar la observación docente, sin eliminar el programa.",
+    "theoreticalJustification": "El rector ajustó los horarios tras escuchar la observación docente, sin eliminar el programa.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

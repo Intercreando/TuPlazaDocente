@@ -1,0 +1,336 @@
+[
+  {
+    "pos": 851,
+    "id": "dir-apt-lec-103",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "El Proyecto Educativo Institucional no es un documento estático redactado únicamente por el rector, sino que la Ley 115 de 1994 concibe su construcción como un proceso participativo que debe involucrar a docentes, estudiantes, padres de familia y, cuando es pertinente, a egresados y sector productivo. En la práctica, muchas instituciones dedican jornadas pedagógicas específicas para revisar componentes del PEI, de modo que los ajustes respondan a necesidades reales identificadas por la comunidad educativa y no solo a exigencias normativas.",
+    "stem": "Según el texto, ¿cómo concibe la Ley 115 de 1994 la construcción del PEI?",
+    "options": [
+      "Como una tarea exclusiva y unilateral del rector",
+      "Como un documento que no requiere actualización",
+      "Como un proceso participativo que involucra a distintos actores de la comunidad educativa",
+      "Como una exigencia exclusiva de la Secretaría de Educación"
+    ],
+    "explanation": "El texto lo indica explícitamente: construcción participativa con diversos actores.",
+    "normativeJustification": "El texto lo indica explícitamente: construcción participativa con diversos actores.",
+    "theoreticalJustification": "El texto lo indica explícitamente: construcción participativa con diversos actores.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 852,
+    "id": "dir-apt-lec-104",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "El Proyecto Educativo Institucional no es un documento estático redactado únicamente por el rector, sino que la Ley 115 de 1994 concibe su construcción como un proceso participativo que debe involucrar a docentes, estudiantes, padres de familia y, cuando es pertinente, a egresados y sector productivo. En la práctica, muchas instituciones dedican jornadas pedagógicas específicas para revisar componentes del PEI, de modo que los ajustes respondan a necesidades reales identificadas por la comunidad educativa y no solo a exigencias normativas.",
+    "stem": "¿Qué propósito tienen las jornadas pedagógicas mencionadas en el texto?",
+    "options": [
+      "Sustituir las reuniones del Consejo Directivo",
+      "Reemplazar la evaluación institucional anual",
+      "Definir exclusivamente el calendario académico",
+      "Revisar componentes del PEI para que respondan a necesidades reales de la comunidad"
+    ],
+    "explanation": "El texto señala que se dedican a revisar el PEI según necesidades reales de la comunidad.",
+    "normativeJustification": "El texto señala que se dedican a revisar el PEI según necesidades reales de la comunidad.",
+    "theoreticalJustification": "El texto señala que se dedican a revisar el PEI según necesidades reales de la comunidad.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 853,
+    "id": "dir-apt-lec-105",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los programas de fortalecimiento del inglés en instituciones oficiales enfrentan retos particulares: la disponibilidad de docentes licenciados en el área suele ser menor en zonas rurales, y la intensidad horaria destinada a la asignatura no siempre resulta suficiente para alcanzar los niveles de dominio esperados según el Marco Común Europeo. Algunos rectores han optado por articular proyectos con universidades o programas de cooperación internacional para complementar la formación docente y ofrecer inmersión adicional a los estudiantes.",
+    "stem": "Según el texto, ¿cuál es uno de los retos de los programas de bilingüismo en zonas rurales?",
+    "options": [
+      "La menor disponibilidad de docentes licenciados en el área",
+      "El exceso de docentes licenciados en inglés",
+      "La eliminación de la intensidad horaria de inglés",
+      "La ausencia total de estudiantes interesados"
+    ],
+    "explanation": "El texto menciona explícitamente la menor disponibilidad de docentes licenciados en zonas rurales.",
+    "normativeJustification": "El texto menciona explícitamente la menor disponibilidad de docentes licenciados en zonas rurales.",
+    "theoreticalJustification": "El texto menciona explícitamente la menor disponibilidad de docentes licenciados en zonas rurales.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 854,
+    "id": "dir-apt-lec-106",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los programas de fortalecimiento del inglés en instituciones oficiales enfrentan retos particulares: la disponibilidad de docentes licenciados en el área suele ser menor en zonas rurales, y la intensidad horaria destinada a la asignatura no siempre resulta suficiente para alcanzar los niveles de dominio esperados según el Marco Común Europeo. Algunos rectores han optado por articular proyectos con universidades o programas de cooperación internacional para complementar la formación docente y ofrecer inmersión adicional a los estudiantes.",
+    "stem": "¿Qué estrategia se menciona para complementar la formación docente en esta área?",
+    "options": [
+      "Reducir la intensidad horaria de inglés",
+      "Articular proyectos con universidades o programas de cooperación internacional",
+      "Eliminar la evaluación de los estudiantes en esta asignatura",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual."
+    ],
+    "explanation": "El texto señala la articulación con universidades o cooperación internacional.",
+    "normativeJustification": "El texto señala la articulación con universidades o cooperación internacional.",
+    "theoreticalJustification": "El texto señala la articulación con universidades o cooperación internacional.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 855,
+    "id": "dir-apt-lec-107",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Diversos estudios han señalado una correlación entre el acceso frecuente a la biblioteca escolar y el desempeño en pruebas de lectura crítica. Sin embargo, contar con una colección amplia no garantiza por sí sola el fomento a la lectura: la mediación de un bibliotecario o docente encargado, que oriente a los estudiantes y organice actividades como clubes de lectura o ferias del libro, resulta determinante para que la biblioteca se convierta en un espacio realmente utilizado por la comunidad educativa.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Tener una colección amplia de libros es suficiente para fomentar la lectura",
+      "Las bibliotecas escolares no influyen en el desempeño en lectura crítica",
+      "La mediación pedagógica es determinante para que la biblioteca cumpla su función, más allá del tamaño de la colección",
+      "Los clubes de lectura deben ser obligatorios en todas las instituciones"
+    ],
+    "explanation": "El texto plantea que la mediación, y no solo la colección, es lo determinante.",
+    "normativeJustification": "El texto plantea que la mediación, y no solo la colección, es lo determinante.",
+    "theoreticalJustification": "El texto plantea que la mediación, y no solo la colección, es lo determinante.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 856,
+    "id": "dir-apt-lec-108",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Diversos estudios han señalado una correlación entre el acceso frecuente a la biblioteca escolar y el desempeño en pruebas de lectura crítica. Sin embargo, contar con una colección amplia no garantiza por sí sola el fomento a la lectura: la mediación de un bibliotecario o docente encargado, que oriente a los estudiantes y organice actividades como clubes de lectura o ferias del libro, resulta determinante para que la biblioteca se convierta en un espacio realmente utilizado por la comunidad educativa.",
+    "stem": "Según el texto, ¿qué actividades se mencionan como parte de esa mediación pedagógica?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Clubes de lectura y ferias del libro"
+    ],
+    "explanation": "El texto las menciona explícitamente como ejemplos de esa mediación.",
+    "normativeJustification": "El texto las menciona explícitamente como ejemplos de esa mediación.",
+    "theoreticalJustification": "El texto las menciona explícitamente como ejemplos de esa mediación.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 857,
+    "id": "dir-apt-lec-109",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La articulación de la educación media con instituciones como el SENA permite que los estudiantes de grados décimo y undécimo cursen formación técnica laboral, obteniendo una certificación adicional a su título de bachiller. Para que esta articulación funcione, la institución educativa debe garantizar espacios, tiempos y, en algunos casos, instructores calificados, además de gestionar convenios formales que definan las responsabilidades de cada entidad participante en el proceso.",
+    "stem": "¿Qué permite la articulación de la educación media con el SENA, según el texto?",
+    "options": [
+      "Que los estudiantes obtengan una certificación técnica laboral adicional a su título de bachiller",
+      "Eliminar el título de bachiller para los estudiantes articulados",
+      "Reemplazar completamente el currículo de la educación media",
+      "Suspender la jornada académica regular"
+    ],
+    "explanation": "El texto indica que permite una certificación técnica laboral adicional al bachillerato.",
+    "normativeJustification": "El texto indica que permite una certificación técnica laboral adicional al bachillerato.",
+    "theoreticalJustification": "El texto indica que permite una certificación técnica laboral adicional al bachillerato.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 858,
+    "id": "dir-apt-lec-110",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La articulación de la educación media con instituciones como el SENA permite que los estudiantes de grados décimo y undécimo cursen formación técnica laboral, obteniendo una certificación adicional a su título de bachiller. Para que esta articulación funcione, la institución educativa debe garantizar espacios, tiempos y, en algunos casos, instructores calificados, además de gestionar convenios formales que definan las responsabilidades de cada entidad participante en el proceso.",
+    "stem": "Según el texto, ¿qué debe garantizar la institución educativa para que la articulación funcione?",
+    "options": [
+      "Únicamente el pago de una matrícula adicional",
+      "Espacios, tiempos y convenios formales que definan responsabilidades entre las entidades",
+      "La eliminación de otras áreas del currículo",
+      "Que todos los estudiantes se articulen obligatoriamente"
+    ],
+    "explanation": "El texto menciona espacios, tiempos y convenios formales como condiciones necesarias.",
+    "normativeJustification": "El texto menciona espacios, tiempos y convenios formales como condiciones necesarias.",
+    "theoreticalJustification": "El texto menciona espacios, tiempos y convenios formales como condiciones necesarias.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 859,
+    "id": "dir-apt-lec-111",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La operación de un comedor escolar en el marco del Programa de Alimentación Escolar exige el cumplimiento de normas sanitarias estrictas, incluyendo la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y la infraestructura. El rector, aunque no es responsable directo de la operación del operador contratado, debe realizar seguimiento y reportar oportunamente cualquier irregularidad que ponga en riesgo la salud de los estudiantes.",
+    "stem": "Según el texto, ¿cuál es el rol del rector frente al comedor escolar?",
+    "options": [
+      "Es el único responsable de la manipulación de alimentos",
+      "No tiene ninguna responsabilidad relacionada con el PAE",
+      "Debe hacer seguimiento y reportar irregularidades, aunque el operador contratado opera el servicio",
+      "Debe cocinar directamente los alimentos en caso de ausencia del personal"
+    ],
+    "explanation": "El texto describe el rol de seguimiento y reporte, distinto de la operación directa.",
+    "normativeJustification": "El texto describe el rol de seguimiento y reporte, distinto de la operación directa.",
+    "theoreticalJustification": "El texto describe el rol de seguimiento y reporte, distinto de la operación directa.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 860,
+    "id": "dir-apt-lec-112",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La operación de un comedor escolar en el marco del Programa de Alimentación Escolar exige el cumplimiento de normas sanitarias estrictas, incluyendo la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y la infraestructura. El rector, aunque no es responsable directo de la operación del operador contratado, debe realizar seguimiento y reportar oportunamente cualquier irregularidad que ponga en riesgo la salud de los estudiantes.",
+    "stem": "¿Qué aspectos menciona el texto como parte de las normas sanitarias exigidas?",
+    "options": [
+      "El horario de clases de la institución",
+      "El número de estudiantes matriculados",
+      "La evaluación docente del personal de cocina",
+      "La cadena de frío y las condiciones de higiene del personal y la infraestructura"
+    ],
+    "explanation": "El texto los menciona explícitamente como parte del cumplimiento normativo.",
+    "normativeJustification": "El texto los menciona explícitamente como parte del cumplimiento normativo.",
+    "theoreticalJustification": "El texto los menciona explícitamente como parte del cumplimiento normativo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

@@ -1,0 +1,329 @@
+[
+  {
+    "pos": 831,
+    "id": "dir-apt-ped-83",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En ciencias se plantea un problema abierto; los estudiantes exploran, se equivocan y reformulan. Un colega pide “dictar la ley y repetirla” para no perder tiempo. Coordinación pregunta qué enfoque está en juego.",
+    "stem": "¿Qué enfoque aplica principalmente quien organiza la situación problema para construir conocimiento con exploración y error?",
+    "options": [
+      "Conductista: reforzar la respuesta correcta sin mediación del error.",
+      "Constructivista: el aprendizaje se construye activamente a partir de la exploración.",
+      "Memorístico: copiar la definición y evaluarla al día siguiente.",
+      "Transmisionista: exponer la conclusión y pedir reproducción literal."
+    ],
+    "explanation": "El constructivismo entiende el aprendizaje como construcción activa a partir de la exploración.",
+    "normativeJustification": "El constructivismo entiende el aprendizaje como construcción activa a partir de la exploración.",
+    "theoreticalJustification": "El constructivismo entiende el aprendizaje como construcción activa a partir de la exploración.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 832,
+    "id": "dir-apt-ped-84",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El plan de área copia el índice del libro. Un docente propone usar los DBA como saberes y habilidades básicos por grado para planear. Otro dice que los DBA “reemplazan EBC y PEI” o que “solo sirven para evaluar docentes”.",
+    "stem": "En esta discusión de planeación, ¿cuál es el propósito principal de los DBA como referente del MEN?",
+    "options": [
+      "Reemplazar los Estándares Básicos de Competencias y anular la autonomía curricular de la IE.",
+      "Establecer saberes y habilidades básicos esperados por grado, como referente de planeación curricular.",
+      "Definir de forma exclusiva los criterios de evaluación docente y de la visita de supervisión.",
+      "Sustituir el Proyecto Educativo Institucional por un listado de desempeños desconectado del PEI."
+    ],
+    "explanation": "Los DBA son un referente de planeación curricular, complementario a los Estándares.",
+    "normativeJustification": "Los DBA son un referente de planeación curricular, complementario a los Estándares.",
+    "theoreticalJustification": "Los DBA son un referente de planeación curricular, complementario a los Estándares.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 833,
+    "id": "dir-apt-ped-85",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "En una IE oficial el equipo discute En un aula con estudiantes en condición de discapacidad, el Plan Individual de Ajustes Razonables (PIAR) tiene como finalidad. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "En un aula con estudiantes en condición de discapacidad, el Plan Individual de Ajustes Razonables (PIAR) tiene como finalidad:",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Definir los apoyos y ajustes específicos que garanticen su participación y aprendizaje en igualdad de condiciones",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "explanation": "El PIAR identifica barreras y define apoyos concretos, sin excluir al estudiante del proceso regular.",
+    "normativeJustification": "El PIAR identifica barreras y define apoyos concretos, sin excluir al estudiante del proceso regular.",
+    "theoreticalJustification": "El PIAR identifica barreras y define apoyos concretos, sin excluir al estudiante del proceso regular.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 834,
+    "id": "dir-apt-ped-86",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Se califica “de ojo” y se entrega la rúbrica el día de los resultados. Estudiantes piden niveles de desempeño conocidos de antemano. Un colega dice que la rúbrica “reemplaza toda devolución oral” o “solo sirve en matemáticas”.",
+    "stem": "¿Qué permite principalmente una rúbrica de evaluación, según el marco y la evidencia del caso?",
+    "options": [
+      "Ocultar los criterios hasta el final del período, para que “no se adelanten”.",
+      "Describir niveles de desempeño con criterios explícitos y comunicables al estudiante.",
+      "Reemplazar por completo la retroalimentación oral del docente.",
+      "Usarse únicamente en evaluaciones de matemáticas."
+    ],
+    "explanation": "La rúbrica hace explícitos los criterios y niveles de desempeño esperados.",
+    "normativeJustification": "La rúbrica hace explícitos los criterios y niveles de desempeño esperados.",
+    "theoreticalJustification": "La rúbrica hace explícitos los criterios y niveles de desempeño esperados.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 835,
+    "id": "dir-apt-ped-87",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Quieren “cumplir la Cátedra de la Paz” copiando artículos o reemplazando sociales. Un docente propone desarrollar competencias ciudadanas y cultura de paz en la comunidad, sin sustituir el manual ni el área.",
+    "stem": "En este intento de “cumplir” copiando artículos o reemplazando un área, ¿cuál es el propósito principal de la Cátedra de la Paz?",
+    "options": [
+      "Reemplazar el área de ciencias sociales.",
+      "Fomentar competencias ciudadanas y una cultura de paz en la comunidad educativa.",
+      "Sustituir el manual de convivencia por una cartilla conmemorativa.",
+      "Evaluar solo con un quiz de fechas del conflicto, sin prácticas de convivencia."
+    ],
+    "explanation": "Busca desarrollar competencias para la convivencia pacífica, como parte de la formación ciudadana.",
+    "normativeJustification": "Busca desarrollar competencias para la convivencia pacífica, como parte de la formación ciudadana.",
+    "theoreticalJustification": "Busca desarrollar competencias para la convivencia pacífica, como parte de la formación ciudadana.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 836,
+    "id": "dir-apt-ped-88",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute El Proyecto Ambiental Escolar (PRAE) se caracteriza principalmente por. Un actor propone: “Ser un área independiente con intensidad horaria propia”. Otro insiste: “Aplicarse únicamente en zonas rurales”. Un tercero sugiere: “Reemplazar el Proyecto Educativo Institucional”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Ser un área independiente con intensidad horaria propia, aunque parezca un trámite equitativo o suficiente.",
+      "Ser un proyecto pedagógico transversal que articula la dimensión ambiental con distintas áreas del currículo",
+      "Aplicarse únicamente en zonas rurales, aunque ahorre tiempo visible de clase o de consejo.",
+      "Reemplazar el Proyecto Educativo Institucional, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Los proyectos pedagógicos transversales, como el PRAE, atraviesan varias áreas sin ser una asignatura aparte.",
+    "normativeJustification": "Los proyectos pedagógicos transversales, como el PRAE, atraviesan varias áreas sin ser una asignatura aparte.",
+    "theoreticalJustification": "Los proyectos pedagógicos transversales, como el PRAE, atraviesan varias áreas sin ser una asignatura aparte.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 837,
+    "id": "dir-apt-ped-89",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un plan de área es lista de temas. Otro articula saber, saber hacer y saber ser para resolver situaciones. Un colega cree que “competencias” significa prescindir de contenidos o evaluar solo actitudes.",
+    "stem": "¿En qué se diferencia la planeación por competencias de un enfoque solo por contenidos?",
+    "options": [
+      "Prescinde por completo de los contenidos disciplinares.",
+      "Articula saberes, habilidades y actitudes que el estudiante moviliza para resolver situaciones.",
+      "Se centra únicamente en la actitud y omite el saber disciplinar.",
+      "Sustituye la evaluación por un concepto de “participación” sin evidencias."
+    ],
+    "explanation": "Un enfoque por competencias integra saber, saber hacer y saber ser, no solo contenidos.",
+    "normativeJustification": "Un enfoque por competencias integra saber, saber hacer y saber ser, no solo contenidos.",
+    "theoreticalJustification": "Un enfoque por competencias integra saber, saber hacer y saber ser, no solo contenidos.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 838,
+    "id": "dir-apt-ped-90",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En la planeación, los verbos son “identificar, recordar, listar”. Un docente propone tareas de evaluar (juzgar con criterios). Coordinación pide no confundir nivel superior con más ítems de memoria.",
+    "stem": "Según la taxonomía de Bloom revisada, ¿qué verbo se asocia a un nivel superior de pensamiento?",
+    "options": [
+      "Identificar.",
+      "Recordar.",
+      "Evaluar.",
+      "Listar."
+    ],
+    "explanation": "'Evaluar' corresponde a un nivel superior de pensamiento, a diferencia de 'recordar' o 'identificar'.",
+    "normativeJustification": "'Evaluar' corresponde a un nivel superior de pensamiento, a diferencia de 'recordar' o 'identificar'.",
+    "theoreticalJustification": "'Evaluar' corresponde a un nivel superior de pensamiento, a diferencia de 'recordar' o 'identificar'.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 839,
+    "id": "dir-apt-ped-91",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Proponen “un proyecto” que es más quizzes y un examen sorpresa. Otro equipo parte de una pregunta auténtica y un producto con sentido. Se pide distinguir ABP de activismo o de más notas.",
+    "stem": "¿Qué caracteriza principalmente al aprendizaje basado en proyectos, según el marco y la evidencia del caso?",
+    "options": [
+      "Aumentar quizzes para tener más notas, sin producto ni pregunta auténtica.",
+      "Resolver un problema o pregunta auténtica mediante un producto final significativo.",
+      "Dejar la autoevaluación como trámite de caritas, sin contrastar el producto.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa."
+    ],
+    "explanation": "El ABP parte de una pregunta o reto real que orienta el proceso hacia un producto tangible.",
+    "normativeJustification": "El ABP parte de una pregunta o reto real que orienta el proceso hacia un producto tangible.",
+    "theoreticalJustification": "El ABP parte de una pregunta o reto real que orienta el proceso hacia un producto tangible.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 840,
+    "id": "dir-apt-ped-92",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La visita de calidad pregunta por EBC. El área muestra el índice del libro. Un docente explica que los EBC fijan criterios comunes de saber y saber hacer por grupos de grados, sin anular la autonomía curricular ni reemplazar el PEI.",
+    "stem": "¿Cuál es la función principal de los Estándares Básicos de Competencias del MEN?",
+    "options": [
+      "Reemplazar la autonomía curricular de las instituciones, aunque parezca un trámite equitativo o suficiente.",
+      "Establecer criterios comunes sobre lo que los estudiantes deben saber y saber hacer en cada área y grupo de grados.",
+      "Definir el horario y la planta de cargos de la IE, aunque ahorre tiempo visible de clase o de consejo.",
+      "Sustituir los DBA y el SIEE por un único listado de temas, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Son un referente nacional de calidad que orienta, sin reemplazar, la autonomía curricular.",
+    "normativeJustification": "Son un referente nacional de calidad que orienta, sin reemplazar, la autonomía curricular.",
+    "theoreticalJustification": "Son un referente nacional de calidad que orienta, sin reemplazar, la autonomía curricular.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

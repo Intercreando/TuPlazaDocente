@@ -1,0 +1,391 @@
+[
+  {
+    "pos": 821,
+    "id": "dir-apt-ges-73",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1860",
+      "ley115"
+    ],
+    "caseContext": "Van a revisar el plan de estudios. El Consejo Directivo quiere decidir solo. El académico pide ser consultado. El consejo de padres exige veto.",
+    "stem": "En la revisión del plan de estudios, ¿qué instancia es órgano consultivo del currículo (Decreto 1860)?",
+    "options": [
+      "El Consejo Directivo",
+      "El Consejo Académico",
+      "El Consejo de Padres",
+      "La Contraloría Estudiantil"
+    ],
+    "explanation": "El Consejo Académico orienta la actividad pedagógica y revisa el currículo institucional.",
+    "normativeJustification": "El Consejo Académico orienta la actividad pedagógica y revisa el currículo institucional.",
+    "theoreticalJustification": "El Consejo Académico orienta la actividad pedagógica y revisa el currículo institucional.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 822,
+    "id": "dir-apt-ges-74",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En una IE oficial el equipo discute El Sistema Especial de Carrera Docente regulado por el Decreto 1278 de 2002 aplica a. Un actor propone: “Todos los docentes sin importar la fecha de su vinculación”. Otro insiste: “Únicamente a los rectores de instituciones privadas”. Un tercero sugiere: “Los docentes vinculados antes de 1979”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Todos los docentes sin importar la fecha de su vinculación",
+      "Los docentes y directivos docentes que ingresaron a la carrera a partir de junio de 2002",
+      "Únicamente a los rectores de instituciones privadas",
+      "Los docentes vinculados antes de 1979"
+    ],
+    "explanation": "El Decreto 1278 rige a quienes ingresaron desde su expedición; el 2277 rige a los vinculados antes.",
+    "normativeJustification": "El Decreto 1278 rige a quienes ingresaron desde su expedición; el 2277 rige a los vinculados antes.",
+    "theoreticalJustification": "El Decreto 1278 rige a quienes ingresaron desde su expedición; el 2277 rige a los vinculados antes.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 823,
+    "id": "dir-apt-ges-75",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1290"
+    ],
+    "caseContext": "Al reportar valoración para homologación, un área usa 1–100 y otra cinco niveles propios. Coordinación pide una escala nacional común en el SIEE.",
+    "stem": "Para homologar valoraciones entre áreas, ¿qué escala nacional debe incluir el SIEE?",
+    "options": [
+      "Una escala cualitativa de cinco niveles obligatoria",
+      "La escala nacional: Desempeño Superior, Alto, Básico y Bajo",
+      "Una escala numérica de 1 a 100 obligatoria",
+      "La institución no está obligada a reportar ninguna escala nacional"
+    ],
+    "explanation": "El Decreto 1290 exige incluir la escala de valoración nacional para facilitar la movilidad.",
+    "normativeJustification": "El Decreto 1290 exige incluir la escala de valoración nacional para facilitar la movilidad.",
+    "theoreticalJustification": "El Decreto 1290 exige incluir la escala de valoración nacional para facilitar la movilidad.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 824,
+    "id": "dir-apt-ges-76",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1290",
+      "decreto1860"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Gestión escolar · Directivo. Un actor propone: “El docente que asignó la calificación, sin posibilidad de otra instancia”. Otro insiste: “La Personería Municipal”. Un tercero sugiere: “El Ministerio de Educación Nacional”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "El docente que asignó la calificación, sin posibilidad de otra instancia",
+      "El Consejo Académico",
+      "La Personería Municipal",
+      "El Ministerio de Educación Nacional"
+    ],
+    "explanation": "El Consejo Académico suele actuar como segunda instancia en reclamos sobre evaluación.",
+    "normativeJustification": "El Consejo Académico suele actuar como segunda instancia en reclamos sobre evaluación.",
+    "theoreticalJustification": "El Consejo Académico suele actuar como segunda instancia en reclamos sobre evaluación.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 825,
+    "id": "dir-apt-ges-77",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "Llega un episodio de convivencia. Un docente lo trata como “indisciplina de aula” sin tipificar. Orientación pide clasificar según la Ley 1620 (Tipo I, II o III) para activar la ruta proporcional. El rector duda si “todos los casos son Tipo III para que se vea firmeza”.",
+    "stem": "Para activar la ruta proporcional, ¿cuál es la clasificación de situaciones que afectan la convivencia escolar?",
+    "options": [
+      "Leve, grave y gravísima, copiada del código penal, sin ruta escolar.",
+      "Tipo I, Tipo II y Tipo III, según gravedad e impacto, para orientar la atención.",
+      "Académica, disciplinaria y laboral, mezclando faltas de personal con estudiantes.",
+      "Solo Tipo III, porque toda agresión debe judicializarse de inmediato."
+    ],
+    "explanation": "La Ley 1620 y su decreto reglamentario clasifican las situaciones en Tipo I, II y III.",
+    "normativeJustification": "La Ley 1620 y su decreto reglamentario clasifican las situaciones en Tipo I, II y III.",
+    "theoreticalJustification": "La Ley 1620 y su decreto reglamentario clasifican las situaciones en Tipo I, II y III.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 826,
+    "id": "dir-apt-ges-78",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Respecto al Índice Sintético de Calidad Educativa (ISCE), ¿qué mide el componente de Progreso?. Un actor propone: “El porcentaje de docentes con maestría”. Otro insiste: “El número de estudiantes que permanecen en la jornada única”. Un tercero sugiere: “El estado de la infraestructura física”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "El porcentaje de docentes con maestría, aunque parezca un trámite equitativo o suficiente.",
+      "La mejora de los resultados de la institución en pruebas Saber respecto al año anterior",
+      "El número de estudiantes que permanecen en la jornada única, aunque ahorre tiempo visible de clase o de consejo.",
+      "El estado de la infraestructura física, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El componente Progreso compara los resultados de la institución con los del año anterior.",
+    "normativeJustification": "El componente Progreso compara los resultados de la institución con los del año anterior.",
+    "theoreticalJustification": "El componente Progreso compara los resultados de la institución con los del año anterior.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 827,
+    "id": "dir-apt-ges-79",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Gestión escolar · Directivo. Un actor propone: “El rector de la institución, de forma autónoma”. Otro insiste: “El Consejo Directivo de cada institución”. Un tercero sugiere: “La Comisión Nacional del Servicio Civil”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "El rector de la institución, de forma autónoma, aunque se presente como solución rápida en la reunión.",
+      "La entidad territorial certificada, con base en criterios técnicos definidos por el MEN",
+      "El Consejo Directivo de cada institución, aunque parezca un trámite equitativo o suficiente.",
+      "La Comisión Nacional del Servicio Civil, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "La definición de la planta corresponde a la entidad territorial certificada.",
+    "normativeJustification": "La definición de la planta corresponde a la entidad territorial certificada.",
+    "theoreticalJustification": "La definición de la planta corresponde a la entidad territorial certificada.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 828,
+    "id": "dir-apt-ges-80",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "Tras la autoevaluación, el rector quiere “archivar el informe y seguir el PEI como está”. El Consejo Directivo pide un PMI con metas, acciones y responsables. Un docente sugiere que el PMI reemplace al PEI y al SIEE.",
+    "stem": "¿Cuál es el propósito principal del Plan de Mejoramiento Institucional derivado de la autoevaluación?",
+    "options": [
+      "Sustituir el Proyecto Educativo Institucional.",
+      "Establecer metas, acciones y responsables para superar las debilidades identificadas.",
+      "Definir exclusivamente el calendario académico.",
+      "Reemplazar el Sistema Institucional de Evaluación de Estudiantes."
+    ],
+    "explanation": "El PMI traduce los hallazgos de la autoevaluación en un plan de acción concreto.",
+    "normativeJustification": "El PMI traduce los hallazgos de la autoevaluación en un plan de acción concreto.",
+    "theoreticalJustification": "El PMI traduce los hallazgos de la autoevaluación en un plan de acción concreto.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 829,
+    "id": "dir-apt-ped-81",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En 4° planean “un solo canal: fotocopia y quiz”. Un docente de apoyo pide DUA: múltiples formas de representación, acción/expresión y compromiso desde el diseño, no un ajuste improvisado el día de la prueba.",
+    "stem": "Según el DUA, ¿qué debe ofrecer la planeación desde el inicio, según el marco y la evidencia del caso?",
+    "options": [
+      "Un único instrumento sumativo cronometrado, igual para todos, como garantía de equidad.",
+      "Múltiples formas de representación, de acción/expresión y de motivación/compromiso.",
+      "Solo calificación numérica más frecuente, sin cambiar materiales ni formas de evidenciar.",
+      "Distribuir el tiempo de clase en ranking público, sin opciones de acceso ni expresión."
+    ],
+    "explanation": "Son los tres principios centrales del DUA para diseñar experiencias accesibles desde el diseño.",
+    "normativeJustification": "Son los tres principios centrales del DUA para diseñar experiencias accesibles desde el diseño.",
+    "theoreticalJustification": "Son los tres principios centrales del DUA para diseñar experiencias accesibles desde el diseño.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 830,
+    "id": "dir-apt-ped-82",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un área solo califica al final del periodo. Durante las semanas no hay devolución. Estudiantes repiten los mismos errores. El SIEE describe evaluación formativa. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "¿Qué práctica de evaluación es la más defendible para ajustar la enseñanza a tiempo?",
+    "options": [
+      "Asignar una sola calificación final, sin retroalimentación de proceso.",
+      "Brindar retroalimentación continua con criterios, para ajustar enseñanza y aprendizaje durante el periodo.",
+      "Aplicar evaluación únicamente el último día, “para que estudien todo”.",
+      "Comparar estudiantes entre sí (ranking) como principal devolución."
+    ],
+    "explanation": "La evaluación formativa acompaña el proceso y orienta ajustes, a diferencia de la sumativa.",
+    "normativeJustification": "La evaluación formativa acompaña el proceso y orienta ajustes, a diferencia de la sumativa.",
+    "theoreticalJustification": "La evaluación formativa acompaña el proceso y orienta ajustes, a diferencia de la sumativa.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  }
+]

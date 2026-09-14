@@ -1,0 +1,410 @@
+[
+  {
+    "pos": 811,
+    "id": "dir-apt-ges-63",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1290",
+      "ley115"
+    ],
+    "caseContext": "Un rector publica el SIEE en la página web sin pasar por instancias. Docentes reclaman que no participaron. La secretaría pide el acto de adopción.",
+    "stem": "Tras reclamos de participación, ¿quién debe aprobar el SIEE para que el acto de adopción sea válido?",
+    "options": [
+      "El rector de manera unilateral",
+      "El Consejo Directivo, tras el proceso de construcción participativa",
+      "La Secretaría de Educación municipal",
+      "Cada docente de forma independiente para su asignatura"
+    ],
+    "explanation": "El SIEE hace parte del PEI y se aprueba mediante acuerdo del Consejo Directivo.",
+    "normativeJustification": "El SIEE hace parte del PEI y se aprueba mediante acuerdo del Consejo Directivo.",
+    "theoreticalJustification": "El SIEE hace parte del PEI y se aprueba mediante acuerdo del Consejo Directivo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 812,
+    "id": "dir-apt-ges-64",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "ley115"
+    ],
+    "caseContext": "Una secretaría pide “que el coordinador firme como representante legal” mientras el rector está en comisión. El coordinador alega que “en la práctica es lo mismo”. El Consejo Directivo duda quién responde ante terceros.",
+    "stem": "¿Cuál es la diferencia funcional más precisa entre rector y coordinador?",
+    "options": [
+      "El coordinador tiene mayor jerarquía normativa que el rector en representación legal.",
+      "El rector es el representante legal; el coordinador apoya la gestión académica y de convivencia bajo su orientación.",
+      "El coordinador es elegido por votación estudiantil y sustituye al rector en todo acto.",
+      "No hay diferencia funcional: ambos firman indistintamente contratos y actos de personal."
+    ],
+    "explanation": "El rector representa legalmente el establecimiento; el coordinador apoya la gestión bajo su orientación.",
+    "normativeJustification": "El rector representa legalmente el establecimiento; el coordinador apoya la gestión bajo su orientación.",
+    "theoreticalJustification": "El rector representa legalmente el establecimiento; el coordinador apoya la gestión bajo su orientación.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 813,
+    "id": "dir-apt-ges-65",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el Día E, un docente presenta el ISCE como “asistencia, disciplina e infraestructura”. Otro trae el desagregado MEN: progreso, desempeño, eficiencia y ambiente escolar. Coordinación pide no mezclar indicadores de planta física con el índice.",
+    "stem": "¿Qué componentes corresponden al ISCE, según el desagregado oficial con el que se diseñó ese índice?",
+    "options": [
+      "Progreso, desempeño, eficiencia y ambiente escolar.",
+      "Asistencia, disciplina, infraestructura y presupuesto.",
+      "Matrícula, deserción, cobertura y nómina docente.",
+      "Evaluación docente, planta física, transporte y PAE."
+    ],
+    "explanation": "Estos son los cuatro componentes definidos por el MEN para el ISCE.",
+    "normativeJustification": "Estos son los cuatro componentes definidos por el MEN para el ISCE.",
+    "theoreticalJustification": "Estos son los cuatro componentes definidos por el MEN para el ISCE.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 814,
+    "id": "dir-apt-ges-66",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1860"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Gestión escolar · Directivo. Un actor propone: “El rector de la institución educativa”. Otro insiste: “La Comisión Nacional del Servicio Civil directamente”. Un tercero sugiere: “El Consejo Directivo de cada institución”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "El rector de la institución educativa",
+      "El nominador de la entidad territorial certificada",
+      "La Comisión Nacional del Servicio Civil directamente",
+      "El Consejo Directivo de cada institución"
+    ],
+    "explanation": "El nombramiento corresponde al nominador de la entidad territorial certificada.",
+    "normativeJustification": "El nombramiento corresponde al nominador de la entidad territorial certificada.",
+    "theoreticalJustification": "El nombramiento corresponde al nominador de la entidad territorial certificada.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 815,
+    "id": "dir-apt-ges-67",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "Llega un rector nuevo y encuentra tres documentos vigentes: un manual de convivencia actualizado, un POA de caja y un SIEE. Falta claridad sobre qué orienta la organización pedagógica, administrativa y de gestión.",
+    "stem": "De esos documentos vigentes, ¿cuál orienta la organización pedagógica, administrativa y de gestión de la IE?",
+    "options": [
+      "El Manual de Convivencia",
+      "El Proyecto Educativo Institucional (PEI)",
+      "El Plan Operativo Anual",
+      "El Sistema Institucional de Evaluación"
+    ],
+    "explanation": "El PEI es el instrumento marco según el artículo 73 de la Ley 115.",
+    "normativeJustification": "El PEI es el instrumento marco según el artículo 73 de la Ley 115.",
+    "theoreticalJustification": "El PEI es el instrumento marco según el artículo 73 de la Ley 115.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 816,
+    "id": "dir-apt-ges-68",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1860",
+      "ley115"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Según el Decreto 1860 de 1994, ¿cuáles son los órganos del gobierno escolar en toda institución educativa?. Un actor propone: “Rector, coordinador y secretario académico”. Otro insiste: “Consejo Directivo, Asociación de Padres y personero estudiantil”. Un tercero sugiere: “Rector, Consejo Estudiantil y Contraloría Estudiantil”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Rector, Consejo Directivo y Consejo Académico",
+      "Rector, coordinador y secretario académico",
+      "Consejo Directivo, Asociación de Padres y personero estudiantil",
+      "Rector, Consejo Estudiantil y Contraloría Estudiantil"
+    ],
+    "explanation": "El Decreto 1860 establece estos tres órganos como los del gobierno escolar.",
+    "normativeJustification": "El Decreto 1860 establece estos tres órganos como los del gobierno escolar.",
+    "theoreticalJustification": "El Decreto 1860 establece estos tres órganos como los del gobierno escolar.",
+    "distractorAnalysis": {
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 817,
+    "id": "dir-apt-ges-69",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "El personero estudiantil es presionado para “defender al rector en Secretaría” y para “aprobar el presupuesto”. Estudiantes le piden que los represente en derechos y deberes.",
+    "stem": "Ante esas presiones, ¿cuál es la función principal del personero estudiantil?",
+    "options": [
+      "Representar al Consejo Directivo ante la Secretaría de Educación",
+      "Promover el ejercicio de los derechos y deberes de los estudiantes",
+      "Definir el currículo institucional",
+      "Aprobar el presupuesto anual de la institución"
+    ],
+    "explanation": "Es la función central del personero, elegido por votación entre los estudiantes.",
+    "normativeJustification": "Es la función central del personero, elegido por votación entre los estudiantes.",
+    "theoreticalJustification": "Es la función central del personero, elegido por votación entre los estudiantes.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 818,
+    "id": "dir-apt-ges-70",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1860",
+      "ley115"
+    ],
+    "caseContext": "En una IE oficial el equipo discute El Fondo de Servicios Educativos (FSE), compilado hoy en el Decreto 1075 de 2015, es administrado principalmente por. Un actor propone: “La Secretaría de Educación municipal exclusivamente”. Otro insiste: “La Asociación de Padres de Familia”. Un tercero sugiere: “El Consejo Académico”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "El Consejo Directivo, a través del rector como ordenador del gasto",
+      "La Secretaría de Educación municipal exclusivamente",
+      "La Asociación de Padres de Familia",
+      "El Consejo Académico"
+    ],
+    "explanation": "El rector actúa como ordenador del gasto, con la aprobación presupuestal del Consejo Directivo.",
+    "normativeJustification": "El rector actúa como ordenador del gasto, con la aprobación presupuestal del Consejo Directivo.",
+    "theoreticalJustification": "El rector actúa como ordenador del gasto, con la aprobación presupuestal del Consejo Directivo.",
+    "distractorAnalysis": {
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 819,
+    "id": "dir-apt-ges-71",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "Un concejal afirma que “el colegio contrata toda la planta con recursos propios”. El rector responde que el SGP transfiere recursos con competencias entre Nación y entidades territoriales. La visita pide el marco de la Ley 715, no un relato de caja.",
+    "stem": "En este desacuerdo sobre financiación y competencias, ¿qué establece el SGP para educación?",
+    "options": [
+      "Elimina la financiación estatal de la educación pública, aunque parezca un trámite equitativo o suficiente.",
+      "Define la distribución de recursos entre la Nación y las entidades territoriales para prestar el servicio educativo.",
+      "Centraliza toda la contratación docente en el Ministerio de Educación, aunque ahorre tiempo visible de clase o de consejo.",
+      "Regula exclusivamente la evaluación de estudiantes y deja el financiamiento por fuera, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "La Ley 715 organiza el sistema de transferencias y competencias entre niveles de gobierno.",
+    "normativeJustification": "La Ley 715 organiza el sistema de transferencias y competencias entre niveles de gobierno.",
+    "theoreticalJustification": "La Ley 715 organiza el sistema de transferencias y competencias entre niveles de gobierno.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 820,
+    "id": "dir-apt-ges-72",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo",
+    "subtopic": "Gestión escolar · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "Quieren “autoevaluar” copiando el formato del año anterior y publicando un ranking de sedes. Un coordinador pide identificar fortalezas y brechas en las cuatro áreas de gestión como insumo del PMI. El Consejo Directivo pide evidencia, no imagen.",
+    "stem": "¿Cuál es el propósito principal de la autoevaluación institucional anual en ese ciclo de mejoramiento?",
+    "options": [
+      "Usar el ejercicio como ranking punitivo de sedes o docentes, como si el fin fuera la imagen pública.",
+      "Identificar fortalezas y oportunidades de mejora en las cuatro áreas de gestión, como insumo del plan de mejoramiento.",
+      "Sustituir el PEI por un informe de prensa para la secretaría, sin un PMI que traduzca la autoevaluación.",
+      "Reemplazar el PMI y el SIEE por un único promedio de satisfacción familiar, sin evidencias de gestión."
+    ],
+    "explanation": "Es la base del ciclo de mejoramiento continuo propuesto por el MEN.",
+    "normativeJustification": "Es la base del ciclo de mejoramiento continuo propuesto por el MEN.",
+    "theoreticalJustification": "Es la base del ciclo de mejoramiento continuo propuesto por el MEN.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]

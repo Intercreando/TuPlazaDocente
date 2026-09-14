@@ -1,0 +1,345 @@
+# -*- coding: utf-8 -*-
+"""Reescribe dir-apt-lec-103..112 (posiciones 851-860) y valida el lote de lectura crítica."""
+import json
+import re
+import sys
+from pathlib import Path
+
+ROOT = Path(r"c:\Users\MSI\Documents\Proyectos\TuPlazaDocente")
+OUT = ROOT / "_tmp_out_851_860.json"
+
+FORBIDDEN = re.compile(
+    r"\b(siempre|nunca|solo|sólo|únicamente|unicamente|sin importar|totalmente)\b",
+    re.IGNORECASE,
+)
+OBVIOUS = (
+    "ignorar",
+    "sin planear",
+    "aunque rompa",
+    "aunque se presente como",
+    "aunque ahorre",
+    "aunque parezca",
+    "actividad recreativa",
+    "eliminar toda evidencia",
+    "para que se note liderazgo",
+    "castigo del rincón",
+    "adelantar contenidos",
+    "una sola representación",
+    "contextualizar con actividades locales sueltas",
+)
+KEYS_OK = {
+    "id",
+    "options",
+    "explanation",
+    "normativeJustification",
+    "theoreticalJustification",
+    "distractorAnalysis",
+}
+CI = {
+    "dir-apt-lec-103": 2,
+    "dir-apt-lec-104": 3,
+    "dir-apt-lec-105": 0,
+    "dir-apt-lec-106": 1,
+    "dir-apt-lec-107": 2,
+    "dir-apt-lec-108": 3,
+    "dir-apt-lec-109": 0,
+    "dir-apt-lec-110": 1,
+    "dir-apt-lec-111": 2,
+    "dir-apt-lec-112": 3,
+}
+
+ITEMS = [
+    {
+        "id": "dir-apt-lec-103",
+        "options": [
+            "La Ley 115 concibe la construcción del PEI como una tarea unilateral del rector, quien redacta el documento de dirección y lo adopta sin la participación de docentes, estudiantes, familias, egresados ni sector productivo.",
+            "La Ley 115 concibe el PEI como un documento estático, cerrado al momento de su adopción, que no requiere revisión ni actualización posterior porque su vigencia se agota en el acto de formulación inicial.",
+            "La Ley 115 concibe la construcción del PEI como un proceso participativo que involucra a docentes, estudiantes y padres de familia y, cuando es pertinente, a egresados y al sector productivo de la comunidad educativa.",
+            "La Ley 115 concibe la construcción del PEI como una exigencia de supervisión de la Secretaría de Educación, de modo que el documento se elabora para acreditar cumplimiento ante la visita de calidad y no ante las necesidades de la comunidad.",
+        ],
+        "explanation": "La condición de calidad pide cómo concibe la Ley 115 la construcción del PEI, según el texto. El pasaje afirma que no es un documento estático redactado por el rector, sino un proceso participativo con docentes, estudiantes, padres y, cuando es pertinente, egresados y sector productivo. Presentar la construcción como tarea unilateral del rector contradice esa formulación y convierte en autor a quien el relato menciona precisamente para negar la redacción en solitario. Tratar el PEI como un texto que no se actualiza invierte el carácter no estático del pasaje. Atribuir la concepción a una exigencia de supervisión de la Secretaría introduce un saber de control territorial que el texto contrapone a las necesidades reales de la comunidad educativa.",
+        "normativeJustification": "El ítem evalúa la lectura del fragmento sobre la Ley 115, no un recuento autónomo del artículo 73. Lo que el texto afirma es construcción participativa con varios actores; no la autoría unilateral del rector, ni un PEI inmóvil, ni un documento hecho para la Secretaría.",
+        "theoreticalJustification": "La pregunta pide la concepción legal que el texto enuncia. Un actor nombrado para ser negado, un atributo explícitamente rechazado y un control de supervisión no dicho son inferencias ilegítimas frente a la paráfrasis fiel.",
+        "distractorAnalysis": {
+            "0": "Trampa del detalle del rector como autor: el pasaje nombra al rector para negar que redacte el PEI en solitario. Convertir esa mención en tarea unilateral parece liderazgo de dirección y contradice el proceso participativo que se pregunta.",
+            "1": "Trampa del documento estático: tratar el PEI como texto cerrado que no se actualiza parece seguridad jurídica de un acto de adopción. El relato niega ese carácter y sitúa la construcción como proceso, no como formulación inicial agotada.",
+            "3": "Trampa de dominio cruzado de la supervisión territorial: elaborar el PEI para la Secretaría y la visita de calidad es un saber real de control. El texto contrapone las necesidades de la comunidad a las meras exigencias normativas y no atribuye a esa supervisión la concepción de la Ley 115.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-104",
+        "options": [
+            "Dedicar las jornadas pedagógicas a sustituir las reuniones del Consejo Directivo, de modo que esa instancia de gobierno escolar quede relevada y los ajustes del PEI se adopten en la jornada docente sin pasar por el órgano que aprueba el proyecto.",
+            "Usar las jornadas pedagógicas para reemplazar la autoevaluación institucional anual de la Guía 34, de modo que la revisión del PEI sustituya el ejercicio de las cuatro áreas de gestión y el plan de mejoramiento derivado de ese diagnóstico.",
+            "Orientar las jornadas pedagógicas a definir el calendario académico de la vigencia, con periodos, recesos y fechas de evaluación, como acto de organización escolar que agota el propósito de esos espacios de trabajo docente.",
+            "Revisar en esas jornadas los componentes del PEI para que los ajustes respondan a necesidades reales identificadas por la comunidad educativa, y no se agoten en exigencias normativas ajenas al diagnóstico institucional.",
+        ],
+        "explanation": "La condición de calidad pide el propósito de las jornadas pedagógicas mencionadas en el texto. El pasaje indica que muchas instituciones las dedican a revisar componentes del PEI para que los ajustes respondan a necesidades reales de la comunidad educativa, y no a meras exigencias normativas. Sustituir con ellas las reuniones del Consejo Directivo proyecta una función de gobierno escolar que el relato no atribuye a esas jornadas. Reemplazar la autoevaluación de la Guía 34 es un propósito de calidad externo, no el que el texto describe. Definir el calendario académico reduce la jornada a un acto de gestión horaria ajeno al pasaje.",
+        "normativeJustification": "El ítem lee el propósito que el texto asigna a las jornadas, no las funciones del Decreto 1860 ni el ciclo de la Guía 34. Lo afirmado es revisión del PEI según necesidades de la comunidad; no el relevo del Directivo, ni la autoevaluación anual, ni el calendario.",
+        "theoreticalJustification": "El propósito se ancla en la finalidad enunciada, no en un órgano de gobierno, en un instrumento de calidad ni en un acto de calendario. Esos desplazamientos suenan profesionales y no responden al stem.",
+        "distractorAnalysis": {
+            "0": "Trampa de sustituir el gobierno escolar: relevar al Consejo Directivo con jornadas pedagógicas parece agilizar la adopción del PEI. El texto no atribuye a esas jornadas la función de reemplazar al órgano que aprueba el proyecto educativo.",
+            "1": "Trampa de dominio cruzado de la Guía 34: reemplazar la autoevaluación institucional anual parece un atajo de calidad. Ese ejercicio de las cuatro áreas de gestión no es el propósito que el pasaje asigna a las jornadas de revisión del PEI.",
+            "2": "Trampa del calendario como propósito: definir periodos y recesos en la jornada pedagógica parece organización impecable de la vigencia. El relato las dedica a revisar componentes del PEI según necesidades de la comunidad, no a fechar el año lectivo.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-105",
+        "options": [
+            "Uno de los retos en zonas rurales es la menor disponibilidad de docentes licenciados en inglés, lo que limita la capacidad de las instituciones oficiales para sostener el fortalecimiento de esa lengua en esas sedes.",
+            "El reto principal en zonas rurales es el exceso de docentes licenciados en inglés, de modo que la planta sobredimensionada en el área dificulta organizar la intensidad horaria y los grupos de la asignatura.",
+            "El reto consiste en suprimir la intensidad horaria de inglés en las sedes rurales, porque esa carga no alcanza los niveles esperados y conviene retirarla del plan de estudios de las instituciones oficiales.",
+            "El reto principal es homologar los niveles del Marco Común Europeo como indicador de calidad del programa, de modo que el reporte de bandas de dominio sustituya el diagnóstico de disponibilidad docente en la zona rural.",
+        ],
+        "explanation": "La condición de calidad pide uno de los retos de los programas de bilingüismo en zonas rurales, según el texto. El pasaje señala que la disponibilidad de docentes licenciados en el área suele ser menor en esas zonas, y que la intensidad horaria no siempre basta para los niveles del Marco Común Europeo. Afirmar un exceso de licenciados invierte el diagnóstico de escasez. Presentar la supresión de la intensidad de inglés como el reto distorsiona un detalle: el texto habla de insuficiencia, no de retiro de la asignatura. Homologar niveles del Marco Común Europeo como indicador de calidad es un referente de dominio citado, no el reto de disponibilidad que se pregunta.",
+        "normativeJustification": "La lectura debe anclarse en el reto enunciado: menor disponibilidad de licenciados en zona rural. El Marco Común Europeo aparece como horizonte de dominio; no autoriza a convertirlo en el desafío principal que el stem solicita.",
+        "theoreticalJustification": "Un reto se identifica por lo que el texto diagnostica, no por su inverso ni por un recorte curricular. Elevar el referente de lengua a indicador de calidad desplaza la pregunta de planta docente rural.",
+        "distractorAnalysis": {
+            "1": "Trampa de la inversión de planta: afirmar un exceso de licenciados en inglés en zona rural parece diagnóstico de organización de grupos. El texto sostiene lo contrario: la disponibilidad de docentes licenciados suele ser menor en esas sedes.",
+            "2": "Trampa de la supresión horaria: retirar la intensidad de inglés parece una respuesta a que esa carga no basta. El pasaje describe insuficiencia para los niveles esperados, no la eliminación de la asignatura en el plan de estudios.",
+            "3": "Trampa de dominio cruzado del Marco Común Europeo: homologar bandas de dominio como indicador de calidad es un referente verdadero de lengua. El texto lo cita como horizonte de dominio, no como el reto de disponibilidad docente en la zona rural.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-106",
+        "options": [
+            "Reducir la intensidad horaria de inglés en el plan de estudios, para aliviar la falta de licenciados en zonas rurales y presentar ese recorte como estrategia de fortalecimiento de la formación docente en el área.",
+            "Articular proyectos con universidades o con programas de cooperación internacional, a fin de complementar la formación docente en inglés y ofrecer, además, inmersión adicional a los estudiantes de la institución oficial.",
+            "Concentrar la estrategia en la inmersión adicional de los estudiantes, de modo que esa experiencia de lengua reemplace la cualificación de los docentes y se tome como el dispositivo de formación del área.",
+            "Usar la evaluación de desempeño del Decreto 1278 como dispositivo de formación en inglés, de modo que el instrumento de carrera docente sustituya la articulación con universidades o con cooperación internacional que el texto describe.",
+        ],
+        "explanation": "La condición de calidad pide la estrategia mencionada para complementar la formación docente en esta área. El texto indica que algunos rectores articulan proyectos con universidades o con cooperación internacional para complementar esa formación y ofrecer inmersión adicional a los estudiantes. Reducir la intensidad horaria invierte un reto del programa y no es la estrategia de cualificación. Tomar la inmersión estudiantil como si fuera el dispositivo de formación docente convierte un detalle complementario en la respuesta. Usar la evaluación de desempeño del Decreto 1278 como formación en inglés es un saber de carrera que el pasaje no afirma.",
+        "normativeJustification": "Lo que el texto describe es articulación con universidades o cooperación internacional. El Decreto 1278 regula desempeño de carrera oficial; ese saber no sustituye la estrategia de formación en lengua que el fragmento menciona.",
+        "theoreticalJustification": "La estrategia se lee en el verbo del relato: articular proyectos. Recortar horas, elevar la inmersión estudiantil a formación docente o importar el 1278 cambian el objeto de la pregunta.",
+        "distractorAnalysis": {
+            "0": "Trampa de recortar la intensidad: reducir horas de inglés parece aliviar la falta de licenciados. El texto presenta la intensidad insuficiente como un reto del programa, no como la estrategia de formación docente que el stem pregunta.",
+            "2": "Trampa del detalle de la inmersión: la inmersión adicional a estudiantes sí se menciona y suena a fortalecimiento del área. Es un complemento del proyecto; la estrategia de formación docente es la articulación con universidades o cooperación.",
+            "3": "Trampa de dominio cruzado del Decreto 1278: usar la evaluación de desempeño como formación en inglés es un dispositivo real de carrera docente. El texto no lo afirma; describe proyectos con universidades o con cooperación internacional.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-107",
+        "options": [
+            "La idea principal es que una colección amplia de libros basta para fomentar la lectura y mejorar el desempeño en lectura crítica, de modo que el tamaño del acervo garantiza por sí el uso de la biblioteca escolar.",
+            "La idea principal es que las bibliotecas escolares no influyen en el desempeño en lectura crítica, de modo que el acceso frecuente a esos espacios resulta irrelevante para las pruebas y para el fomento lector de la comunidad.",
+            "La idea principal es que la mediación pedagógica de un bibliotecario o de un docente encargado resulta determinante para que la biblioteca se use, más allá del tamaño de la colección y de la correlación con lectura crítica.",
+            "La idea principal es que los clubes de lectura deben figurar como proyecto pedagógico obligatorio del PEI, por mandato de la Ley 115, y que sin esa incorporación la biblioteca no puede mediar la lectura en la institución.",
+        ],
+        "explanation": "La condición de calidad pide la idea principal del texto. El pasaje correlaciona el acceso frecuente a la biblioteca con el desempeño en lectura crítica, pero sostiene que una colección amplia no garantiza el fomento a la lectura: la mediación del bibliotecario o del docente encargado es determinante. Afirmar que la colección basta toma un elemento mencionado y lo eleva a tesis, contra la adversativa del relato. Negar la influencia de las bibliotecas contradice la correlación inicial. Convertir los clubes de lectura en proyecto obligatorio del PEI importa un mandato de la Ley 115 que el texto no formula.",
+        "normativeJustification": "El ítem evalúa la tesis del fragmento, no la obligatoriedad de proyectos del PEI en la Ley 115. Lo afirmado es mediación determinante más allá del tamaño de la colección; los clubes son ejemplo, no mandato legal.",
+        "theoreticalJustification": "La idea principal articula correlación, límite de la colección y peso de la mediación. Un detalle elevado a tesis, la negación de la correlación y un deber de PEI no dicho son lecturas ilegítimas.",
+        "distractorAnalysis": {
+            "0": "Trampa de la colección como tesis: una colección amplia aparece en el texto y parece la palanca lectora. El pasaje niega que baste: sin mediación, el acervo no garantiza el fomento ni el uso real de la biblioteca escolar.",
+            "1": "Trampa de negar la correlación: descartar la influencia de la biblioteca parece cautela frente a estudios. El texto afirma correlación entre acceso frecuente y desempeño en lectura crítica, y luego precisa el papel de la mediación.",
+            "3": "Trampa de dominio cruzado del PEI y de la Ley 115: volver obligatorios los clubes de lectura en el PEI parece mandato curricular. El texto los cita como ejemplo de mediación, no como proyecto de ley que toda institución deba incorporar.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-108",
+        "options": [
+            "Tomar el inventario y la ampliación de la colección de volúmenes como la mediación pedagógica misma, de modo que el número de títulos disponibles acredite el fomento a la lectura en la biblioteca escolar.",
+            "Reportar en el PMI el préstamo de libros y el indicador de volúmenes por estudiante, o registrar esa circulación en el SIMAT, como evidencia de mediación lectora para la visita de calidad de la institución.",
+            "Dejar la biblioteca en régimen de autoservicio, sin bibliotecario ni docente encargado que oriente a los estudiantes, para que el uso autónomo del espacio sustituya la mediación y las actividades organizadas.",
+            "Organizar clubes de lectura y ferias del libro, a cargo del bibliotecario o del docente encargado, que oriente a los estudiantes y convierta la biblioteca en un espacio realmente utilizado por la comunidad educativa.",
+        ],
+        "explanation": "La condición de calidad pide las actividades de mediación que el texto menciona. El pasaje ejemplifica esa mediación con clubes de lectura y ferias del libro, organizados por un bibliotecario o un docente encargado que orienta a los estudiantes. Ampliar el inventario de volúmenes presenta la colección como si fuera mediación, cuando el texto dice que la colección no basta. Reportar préstamos o volúmenes por estudiante como indicador de calidad sustituye la mediación por un dato de gestión. Dejar la biblioteca en autoservicio niega el rol del mediador que el relato considera determinante.",
+        "normativeJustification": "La respuesta se ciñe a las actividades nombradas en el fragmento. El PMI, el SIMAT y el inventario de colección son instrumentos de gestión o de acervo; no son los clubes de lectura ni las ferias del libro que el texto cita.",
+        "theoreticalJustification": "Mediación es orientación y actividad organizada, no stock ni indicador. El inventario, el reporte de calidad y el autoservicio miden acervo, tablero o autonomía, no lo que el stem solicita.",
+        "distractorAnalysis": {
+            "0": "Trampa del inventario como mediación: ampliar volúmenes y llevar el inventario parece gestión seria de biblioteca. El texto sostiene que la colección amplia no basta y ejemplifica la mediación con clubes de lectura y ferias del libro.",
+            "1": "Trampa de dominio cruzado del PMI y del SIMAT: reportar préstamos o volúmenes por estudiante es un indicador plausible de calidad. No es la actividad de mediación que el texto nombra: clubes de lectura y ferias del libro con un encargado que oriente.",
+            "2": "Trampa del autoservicio lector: dejar la biblioteca sin encargado parece fomentar autonomía estudiantil. Niega la mediación del bibliotecario o del docente, que el pasaje considera determinante para el uso real del espacio.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-109",
+        "options": [
+            "Que los estudiantes de décimo y undécimo cursen formación técnica laboral y obtengan una certificación adicional a su título de bachiller, mediante la articulación de la educación media con instituciones como el SENA.",
+            "Que la certificación técnica laboral del SENA sustituya el título de bachiller de los estudiantes articulados de décimo y undécimo, de modo que la media se cierre con el certificado de la entidad de formación para el trabajo.",
+            "Que el currículo de la educación media se reemplace por entero por la malla del SENA, de modo que las áreas de la institución cedan su lugar al programa técnico y desaparezca el plan de estudios de décimo y undécimo.",
+            "Que la articulación sustituya la financiación de la educación media a cargo del Sistema General de Participaciones, de modo que los cupos SENA releven a la institución y a la entidad territorial de la Ley 715 en esos grados.",
+        ],
+        "explanation": "La condición de calidad pide qué permite la articulación de la educación media con el SENA, según el texto. El pasaje afirma que estudiantes de décimo y undécimo cursan formación técnica laboral y obtienen una certificación adicional a su título de bachiller. Sustituir el bachillerato por la certificación SENA invierte el carácter adicional de esa titulación. Reemplazar por entero el currículo de media sobregeneraliza una articulación que el texto no presenta como supresión de la malla. Afirmar que la articulación releva la financiación de la media por cupos SENA introduce un saber de la Ley 715 y del SGP que el relato no sostiene.",
+        "normativeJustification": "Lo leído es certificación técnica laboral adicional al bachillerato en décimo y undécimo. La Ley 715 y el SGP financian la prestación; el texto no afirma que la articulación sustituya esa financiación ni el título de bachiller.",
+        "theoreticalJustification": "Adicional no es sustituto. Cambiar el título, borrar el currículo de media o mover el presupuesto son inferencias de gestión que el fragmento no autoriza.",
+        "distractorAnalysis": {
+            "1": "Trampa de sustituir el bachillerato: cerrar la media con el certificado SENA parece doble vía laboral. El texto afirma una certificación adicional al título de bachiller, no el reemplazo de ese título para los estudiantes articulados.",
+            "2": "Trampa de reemplazar el currículo: ceder toda la malla de décimo y undécimo al SENA parece articulación profunda. El pasaje describe formación técnica laboral concurrente, no la supresión del plan de estudios de la educación media.",
+            "3": "Trampa de dominio cruzado de la Ley 715 y del SGP: relevar la financiación de media con cupos SENA parece eficiencia de recursos. El texto no afirma esa sustitución presupuestal; habla de certificación adicional al bachillerato.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-110",
+        "options": [
+            "Condicionar la articulación con el SENA a un cobro de matrícula adicional a las familias de décimo y undécimo, de modo que ese pago habilite los cupos, los instructores y el convenio entre las entidades participantes.",
+            "Garantizar espacios y tiempos y, en algunos casos, instructores calificados, además de gestionar convenios formales que definan las responsabilidades de cada entidad participante en el proceso de articulación con el SENA.",
+            "Suprimir otras áreas del currículo de décimo y undécimo para ceder la jornada completa a la formación del SENA, de modo que la media quede organizada en torno al programa técnico y no al plan de estudios institucional.",
+            "Articular de manera obligatoria a toda la matrícula de educación media para elevar el indicador de doble titulación en el reporte de cobertura, y presentar ese cubrimiento masivo como la garantía institucional del convenio con el SENA.",
+        ],
+        "explanation": "La condición de calidad pide qué debe garantizar la institución educativa para que la articulación funcione. El texto menciona espacios, tiempos y, en algunos casos, instructores calificados, además de convenios formales que definan responsabilidades de cada entidad. Condicionar el proceso a un cobro de matrícula adicional no aparece en el pasaje. Ceder otras áreas del currículo para alojar la formación SENA sobregeneraliza la garantía de tiempos. Articular de manera forzosa a toda la media para el indicador de doble titulación es una meta de cobertura que el texto no exige.",
+        "normativeJustification": "La garantía leída es de condiciones operativas y de convenio, no de cobro familiar ni de cubrimiento masivo de matrícula. El indicador de doble titulación es un saber de cobertura ajeno a lo que el fragmento pide a la institución.",
+        "theoreticalJustification": "Funcionar, en el relato, es asegurar espacio, tiempo, a veces instructor, y responsabilidades por escrito. Un peaje, un recorte de malla o un tablero de cobertura miden otra cosa.",
+        "distractorAnalysis": {
+            "0": "Trampa del cobro habilitante: una matrícula adicional parece financiar instructores y el convenio. El texto no condiciona la articulación a un pago familiar; pide espacios, tiempos, a veces instructores, y convenios formales de responsabilidades.",
+            "2": "Trampa de ceder el currículo: suprimir otras áreas para alojar al SENA parece garantizar tiempos de formación. El relato pide garantizar tiempos, no desmontar el plan de estudios de media como condición de la articulación.",
+            "3": "Trampa de dominio cruzado de la cobertura: articular a toda la media para el indicador de doble titulación es una meta de tablero plausible. El texto no exige cubrimiento masivo; describe condiciones institucionales del convenio.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-111",
+        "options": [
+            "Asumir como responsable de la operación la manipulación cotidiana de los alimentos y el control directo del comedor, en lugar del operador contratado, y tratar esa ejecución como el rol sanitario de la rectoría.",
+            "Renunciar al seguimiento del Programa de Alimentación Escolar porque existe un operador contratado, y tratar las irregularidades del comedor como un asunto ajeno a la rectoría y al reporte institucional.",
+            "Realizar seguimiento al servicio y reportar de manera oportuna cualquier irregularidad que ponga en riesgo la salud de los estudiantes, aunque el operador contratado sea quien ejecuta la operación cotidiana del comedor.",
+            "Asumir la gestión de la planta de personal del operador, nombrando o reubicando al equipo del comedor como si formara parte de la planta oficial de la institución, conforme a la definición de cargos de la Ley 715.",
+        ],
+        "explanation": "La condición de calidad pide el rol del rector frente al comedor escolar, según el texto. El pasaje distingue: el rector no es responsable directo de la operación del operador contratado, pero debe hacer seguimiento y reportar oportunamente irregularidades que pongan en riesgo la salud de los estudiantes. Asumir la manipulación cotidiana de alimentos confunde seguimiento con operación. Declinar cualquier responsabilidad porque hay operador niega el deber de reporte. Gestionar la planta de cocina como si fuera personal oficial de la institución desplaza el rol sanitario hacia un saber de cargos que el texto no asigna al rector.",
+        "normativeJustification": "El fragmento separa operación del contratista y deber de seguimiento de rectoría. La Ley 715 define planta de la entidad territorial; ese saber no convierte al rector en nominador del personal del operador del PAE.",
+        "theoreticalJustification": "El rol se lee en la distinción operación versus vigilancia. Ejecutar el comedor, desentenderse del contrato o administrar la planta del operador cambian el objeto del stem.",
+        "distractorAnalysis": {
+            "0": "Trampa de confundir operación y seguimiento: manipular alimentos y controlar el comedor parece rigor sanitario de rectoría. El texto distingue: el rector no opera el servicio; hace seguimiento y reporta irregularidades a tiempo.",
+            "1": "Trampa de la delegación absoluta: si hay operador, desentenderse del PAE parece respeto al contrato. El pasaje mantiene el deber de seguimiento y de reporte oportuno, precisamente porque la operación no es del rector.",
+            "3": "Trampa de dominio cruzado de la planta: nombrar o reubicar al equipo del comedor como planta oficial es un saber de la Ley 715. El texto no asigna al rector esa gestión de cargos; le pide seguimiento y reporte sanitario.",
+        },
+    },
+    {
+        "id": "dir-apt-lec-112",
+        "options": [
+            "Incluir el horario de clases y la organización de la jornada como requisito sanitario del comedor escolar, de modo que la malla curricular y los periodos lectivos acrediten el cumplimiento de las normas del Programa de Alimentación Escolar.",
+            "Tomar el número de estudiantes matriculados en el SIMAT como norma sanitaria del comedor, de modo que la cobertura reportada sustituya el control de la cadena de frío y la verificación de higiene del personal y de la infraestructura.",
+            "Incluir la evaluación de desempeño del Decreto 1278 aplicada al personal de cocina como norma sanitaria del PAE, de modo que el instrumento de carrera docente acredite la higiene y la manipulación de alimentos del comedor.",
+            "La manipulación adecuada de los alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y de la infraestructura que opera el comedor escolar en el marco del PAE.",
+        ],
+        "explanation": "La condición de calidad pide los aspectos que el texto menciona como parte de las normas sanitarias exigidas. El pasaje cita la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de la higiene del personal y de la infraestructura. El horario de clases no figura como requisito sanitario. El número de matriculados en el SIMAT es un dato de cobertura, no una norma de higiene del comedor. Evaluar el desempeño del personal de cocina con el Decreto 1278 es un saber de carrera docente ajeno a las condiciones sanitarias descritas.",
+        "normativeJustification": "Lo enumerado en el fragmento es manipulación, cadena de frío e higiene de personal e infraestructura. Ni el SIMAT, ni el horario lectivo, ni el Decreto 1278 aparecen como normas sanitarias del PAE en ese relato.",
+        "theoreticalJustification": "Una lista de requisitos se responde con los elementos citados, no con un dato de matrícula, un horario de clases ni un instrumento de evaluación de carrera. Esos desplazamientos suenan a gestión y no leen el pasaje.",
+        "distractorAnalysis": {
+            "0": "Trampa del horario como higiene: acreditar el PAE con la malla y la jornada parece orden institucional. El texto no incluye el horario de clases entre las normas sanitarias; cita cadena de frío, manipulación e higiene.",
+            "1": "Trampa de la matrícula como norma: el SIMAT es el dato de cobertura y suena a control del comedor. No es una norma sanitaria del pasaje; el relato apunta a cadena de frío, higiene del personal y de la infraestructura.",
+            "2": "Trampa de dominio cruzado del Decreto 1278: evaluar el desempeño del personal de cocina es un instrumento real de carrera docente. El texto no lo menciona; las normas sanitarias son manipulación, cadena de frío e higiene.",
+        },
+    },
+]
+
+
+def expected_da_keys(ci: int) -> list[str]:
+    return sorted(str(i) for i in range(4) if i != ci)
+
+
+def public_item(it: dict) -> dict:
+    return {k: it[k] for k in ("id", "options", "explanation", "normativeJustification", "theoreticalJustification", "distractorAnalysis")}
+
+
+def validate(items: list) -> list[str]:
+    errors: list[str] = []
+    if len(items) != 10:
+        errors.append(f"COUNT {len(items)}")
+    ids = [it.get("id") for it in items]
+    expected_ids = list(CI)
+    if ids != expected_ids:
+        errors.append(f"ORDER {ids}")
+    for it in items:
+        tag = it.get("id")
+        extra = set(it) - KEYS_OK
+        missing = KEYS_OK - set(it)
+        if extra:
+            errors.append(f"EXTRA KEYS {tag} {extra}")
+        if missing:
+            errors.append(f"MISSING KEYS {tag} {missing}")
+        ci = CI[tag]
+        opts = it["options"]
+        if not isinstance(opts, list) or len(opts) != 4:
+            errors.append(f"OPTIONS {tag}")
+            continue
+        lengths = [len(o) for o in opts]
+        skew = max(lengths) - min(lengths)
+        if skew >= 180:
+            errors.append(f"LEN SKEW {tag} {lengths} skew={skew}")
+        for oi, opt in enumerate(opts):
+            n = len(opt)
+            if n < 80:
+                errors.append(f"SHORT OPTION {tag} idx {oi} {n}")
+            if n > 340:
+                errors.append(f"LONG OPTION {tag} idx {oi} {n}")
+            if oi != ci:
+                m = FORBIDDEN.search(opt)
+                if m:
+                    errors.append(f"FORBIDDEN WORD {tag} idx {oi} {m.group(0)}")
+                low = opt.lower()
+                if any(x in low for x in OBVIOUS):
+                    errors.append(f"OBVIOUS BAD {tag} idx {oi}")
+        da = it["distractorAnalysis"]
+        expected = expected_da_keys(ci)
+        if sorted(da.keys()) != expected:
+            errors.append(f"DA KEYS {tag} {sorted(da.keys())} expected {expected} ci={ci}")
+        else:
+            for k, v in da.items():
+                if not isinstance(v, str) or len(v) < 80:
+                    errors.append(f"SHORT DA {tag} {k} {len(v) if isinstance(v, str) else None}")
+                if not str(v).startswith("Trampa de"):
+                    errors.append(f"DA PREFIX {tag} {k}")
+        expl = it.get("explanation") or ""
+        if len(expl) < 280:
+            errors.append(f"SHORT EXPLANATION {tag} {len(expl)}")
+        n_sent = expl.count(".") + expl.count("?") + expl.count("!")
+        if n_sent < 4 or n_sent > 7:
+            errors.append(f"SENTENCES {tag} {n_sent}")
+        for field in ("normativeJustification", "theoreticalJustification"):
+            val = it.get(field) or ""
+            if len(val) < 80:
+                errors.append(f"SHORT {field} {tag} {len(val)}")
+        n_cross = sum(1 for v in da.values() if "dominio cruzado" in v.lower())
+        if n_cross != 1:
+            errors.append(f"CROSS DOMAIN {tag} {n_cross}")
+    return errors
+
+
+def main() -> int:
+    public = [public_item(it) for it in ITEMS]
+    errors = validate(public)
+    print("=== longitudes opciones ===")
+    for it in public:
+        lens = [len(o) for o in it["options"]]
+        ci = CI[it["id"]]
+        print(
+            it["id"],
+            "ci",
+            ci,
+            lens,
+            "skew",
+            max(lens) - min(lens),
+            "expl",
+            len(it["explanation"]),
+            "NJ",
+            len(it["normativeJustification"]),
+            "TJ",
+            len(it["theoreticalJustification"]),
+            "DA",
+            {k: len(v) for k, v in it["distractorAnalysis"].items()},
+        )
+    if errors:
+        print("=== ERRORES ===")
+        for e in errors:
+            print(e)
+        print("errors", len(errors))
+        return 1
+    OUT.write_text(
+        json.dumps(public, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    loaded = json.loads(OUT.read_text(encoding="utf-8"))
+    errors2 = validate(loaded)
+    if errors2:
+        print("=== ERRORES POST-DUMP ===")
+        for e in errors2:
+            print(e)
+        return 1
+    print("WROTE", OUT)
+    print("items", len(loaded))
+    print("errors", 0)
+    print("validation OK")
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

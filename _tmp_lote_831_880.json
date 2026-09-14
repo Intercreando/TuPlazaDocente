@@ -1,0 +1,1678 @@
+[
+  {
+    "pos": 831,
+    "id": "dir-apt-ped-83",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En ciencias se plantea un problema abierto; los estudiantes exploran, se equivocan y reformulan. Un colega pide “dictar la ley y repetirla” para no perder tiempo. Coordinación pregunta qué enfoque está en juego.",
+    "stem": "¿Qué enfoque aplica principalmente quien organiza la situación problema para construir conocimiento con exploración y error?",
+    "options": [
+      "Conductista: reforzar la respuesta correcta sin mediación del error.",
+      "Constructivista: el aprendizaje se construye activamente a partir de la exploración.",
+      "Memorístico: copiar la definición y evaluarla al día siguiente.",
+      "Transmisionista: exponer la conclusión y pedir reproducción literal."
+    ],
+    "explanation": "El constructivismo entiende el aprendizaje como construcción activa a partir de la exploración.",
+    "normativeJustification": "El constructivismo entiende el aprendizaje como construcción activa a partir de la exploración.",
+    "theoreticalJustification": "El constructivismo entiende el aprendizaje como construcción activa a partir de la exploración.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 832,
+    "id": "dir-apt-ped-84",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El plan de área copia el índice del libro. Un docente propone usar los DBA como saberes y habilidades básicos por grado para planear. Otro dice que los DBA “reemplazan EBC y PEI” o que “solo sirven para evaluar docentes”.",
+    "stem": "En esta discusión de planeación, ¿cuál es el propósito principal de los DBA como referente del MEN?",
+    "options": [
+      "Reemplazar los Estándares Básicos de Competencias y anular la autonomía curricular de la IE.",
+      "Establecer saberes y habilidades básicos esperados por grado, como referente de planeación curricular.",
+      "Definir de forma exclusiva los criterios de evaluación docente y de la visita de supervisión.",
+      "Sustituir el Proyecto Educativo Institucional por un listado de desempeños desconectado del PEI."
+    ],
+    "explanation": "Los DBA son un referente de planeación curricular, complementario a los Estándares.",
+    "normativeJustification": "Los DBA son un referente de planeación curricular, complementario a los Estándares.",
+    "theoreticalJustification": "Los DBA son un referente de planeación curricular, complementario a los Estándares.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 833,
+    "id": "dir-apt-ped-85",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "En una IE oficial el equipo discute En un aula con estudiantes en condición de discapacidad, el Plan Individual de Ajustes Razonables (PIAR) tiene como finalidad. Un actor propone: “Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.”. Otro insiste: “Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.”. Un tercero sugiere: “Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos.”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "En un aula con estudiantes en condición de discapacidad, el Plan Individual de Ajustes Razonables (PIAR) tiene como finalidad:",
+    "options": [
+      "Aplicar a todo el grupo el mismo instrumento, tiempo y formato, argumentando que la equidad consiste en tratar a todos por igual.",
+      "Definir los apoyos y ajustes específicos que garanticen su participación y aprendizaje en igualdad de condiciones",
+      "Conceder de palabra un ajuste solo en esa sesión, sin registrarlo ni revisarlo con el docente de apoyo y la familia.",
+      "Sustituir de forma permanente la evidencia esencial del grado por una actividad recreativa, para evitar reclamos."
+    ],
+    "explanation": "El PIAR identifica barreras y define apoyos concretos, sin excluir al estudiante del proceso regular.",
+    "normativeJustification": "El PIAR identifica barreras y define apoyos concretos, sin excluir al estudiante del proceso regular.",
+    "theoreticalJustification": "El PIAR identifica barreras y define apoyos concretos, sin excluir al estudiante del proceso regular.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 834,
+    "id": "dir-apt-ped-86",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Se califica “de ojo” y se entrega la rúbrica el día de los resultados. Estudiantes piden niveles de desempeño conocidos de antemano. Un colega dice que la rúbrica “reemplaza toda devolución oral” o “solo sirve en matemáticas”.",
+    "stem": "¿Qué permite principalmente una rúbrica de evaluación, según el marco y la evidencia del caso?",
+    "options": [
+      "Ocultar los criterios hasta el final del período, para que “no se adelanten”.",
+      "Describir niveles de desempeño con criterios explícitos y comunicables al estudiante.",
+      "Reemplazar por completo la retroalimentación oral del docente.",
+      "Usarse únicamente en evaluaciones de matemáticas."
+    ],
+    "explanation": "La rúbrica hace explícitos los criterios y niveles de desempeño esperados.",
+    "normativeJustification": "La rúbrica hace explícitos los criterios y niveles de desempeño esperados.",
+    "theoreticalJustification": "La rúbrica hace explícitos los criterios y niveles de desempeño esperados.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 835,
+    "id": "dir-apt-ped-87",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Quieren “cumplir la Cátedra de la Paz” copiando artículos o reemplazando sociales. Un docente propone desarrollar competencias ciudadanas y cultura de paz en la comunidad, sin sustituir el manual ni el área.",
+    "stem": "En este intento de “cumplir” copiando artículos o reemplazando un área, ¿cuál es el propósito principal de la Cátedra de la Paz?",
+    "options": [
+      "Reemplazar el área de ciencias sociales.",
+      "Fomentar competencias ciudadanas y una cultura de paz en la comunidad educativa.",
+      "Sustituir el manual de convivencia por una cartilla conmemorativa.",
+      "Evaluar solo con un quiz de fechas del conflicto, sin prácticas de convivencia."
+    ],
+    "explanation": "Busca desarrollar competencias para la convivencia pacífica, como parte de la formación ciudadana.",
+    "normativeJustification": "Busca desarrollar competencias para la convivencia pacífica, como parte de la formación ciudadana.",
+    "theoreticalJustification": "Busca desarrollar competencias para la convivencia pacífica, como parte de la formación ciudadana.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 836,
+    "id": "dir-apt-ped-88",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute El Proyecto Ambiental Escolar (PRAE) se caracteriza principalmente por. Un actor propone: “Ser un área independiente con intensidad horaria propia”. Otro insiste: “Aplicarse únicamente en zonas rurales”. Un tercero sugiere: “Reemplazar el Proyecto Educativo Institucional”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Ser un área independiente con intensidad horaria propia, aunque parezca un trámite equitativo o suficiente.",
+      "Ser un proyecto pedagógico transversal que articula la dimensión ambiental con distintas áreas del currículo",
+      "Aplicarse únicamente en zonas rurales, aunque ahorre tiempo visible de clase o de consejo.",
+      "Reemplazar el Proyecto Educativo Institucional, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Los proyectos pedagógicos transversales, como el PRAE, atraviesan varias áreas sin ser una asignatura aparte.",
+    "normativeJustification": "Los proyectos pedagógicos transversales, como el PRAE, atraviesan varias áreas sin ser una asignatura aparte.",
+    "theoreticalJustification": "Los proyectos pedagógicos transversales, como el PRAE, atraviesan varias áreas sin ser una asignatura aparte.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 837,
+    "id": "dir-apt-ped-89",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un plan de área es lista de temas. Otro articula saber, saber hacer y saber ser para resolver situaciones. Un colega cree que “competencias” significa prescindir de contenidos o evaluar solo actitudes.",
+    "stem": "¿En qué se diferencia la planeación por competencias de un enfoque solo por contenidos?",
+    "options": [
+      "Prescinde por completo de los contenidos disciplinares.",
+      "Articula saberes, habilidades y actitudes que el estudiante moviliza para resolver situaciones.",
+      "Se centra únicamente en la actitud y omite el saber disciplinar.",
+      "Sustituye la evaluación por un concepto de “participación” sin evidencias."
+    ],
+    "explanation": "Un enfoque por competencias integra saber, saber hacer y saber ser, no solo contenidos.",
+    "normativeJustification": "Un enfoque por competencias integra saber, saber hacer y saber ser, no solo contenidos.",
+    "theoreticalJustification": "Un enfoque por competencias integra saber, saber hacer y saber ser, no solo contenidos.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 838,
+    "id": "dir-apt-ped-90",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En la planeación, los verbos son “identificar, recordar, listar”. Un docente propone tareas de evaluar (juzgar con criterios). Coordinación pide no confundir nivel superior con más ítems de memoria.",
+    "stem": "Según la taxonomía de Bloom revisada, ¿qué verbo se asocia a un nivel superior de pensamiento?",
+    "options": [
+      "Identificar.",
+      "Recordar.",
+      "Evaluar.",
+      "Listar."
+    ],
+    "explanation": "'Evaluar' corresponde a un nivel superior de pensamiento, a diferencia de 'recordar' o 'identificar'.",
+    "normativeJustification": "'Evaluar' corresponde a un nivel superior de pensamiento, a diferencia de 'recordar' o 'identificar'.",
+    "theoreticalJustification": "'Evaluar' corresponde a un nivel superior de pensamiento, a diferencia de 'recordar' o 'identificar'.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 839,
+    "id": "dir-apt-ped-91",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Proponen “un proyecto” que es más quizzes y un examen sorpresa. Otro equipo parte de una pregunta auténtica y un producto con sentido. Se pide distinguir ABP de activismo o de más notas.",
+    "stem": "¿Qué caracteriza principalmente al aprendizaje basado en proyectos, según el marco y la evidencia del caso?",
+    "options": [
+      "Aumentar quizzes para tener más notas, sin producto ni pregunta auténtica.",
+      "Resolver un problema o pregunta auténtica mediante un producto final significativo.",
+      "Dejar la autoevaluación como trámite de caritas, sin contrastar el producto.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa."
+    ],
+    "explanation": "El ABP parte de una pregunta o reto real que orienta el proceso hacia un producto tangible.",
+    "normativeJustification": "El ABP parte de una pregunta o reto real que orienta el proceso hacia un producto tangible.",
+    "theoreticalJustification": "El ABP parte de una pregunta o reto real que orienta el proceso hacia un producto tangible.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 840,
+    "id": "dir-apt-ped-92",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La visita de calidad pregunta por EBC. El área muestra el índice del libro. Un docente explica que los EBC fijan criterios comunes de saber y saber hacer por grupos de grados, sin anular la autonomía curricular ni reemplazar el PEI.",
+    "stem": "¿Cuál es la función principal de los Estándares Básicos de Competencias del MEN?",
+    "options": [
+      "Reemplazar la autonomía curricular de las instituciones, aunque parezca un trámite equitativo o suficiente.",
+      "Establecer criterios comunes sobre lo que los estudiantes deben saber y saber hacer en cada área y grupo de grados.",
+      "Definir el horario y la planta de cargos de la IE, aunque ahorre tiempo visible de clase o de consejo.",
+      "Sustituir los DBA y el SIEE por un único listado de temas, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Son un referente nacional de calidad que orienta, sin reemplazar, la autonomía curricular.",
+    "normativeJustification": "Son un referente nacional de calidad que orienta, sin reemplazar, la autonomía curricular.",
+    "theoreticalJustification": "Son un referente nacional de calidad que orienta, sin reemplazar, la autonomía curricular.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 841,
+    "id": "dir-apt-ped-93",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "Hay un estudiante con discapacidad. Un colega propone “bajar la meta para todos” o “no evaluar”. Otro pide ajustar tiempos, metodologías o formas de evidencia sin renunciar al aprendizaje esencial.",
+    "stem": "En inclusión, ¿qué implica principalmente la flexibilización curricular?",
+    "options": [
+      "Reducir las expectativas de aprendizaje para todo el grupo.",
+      "Ajustar tiempos, metodologías o formas de evaluación sin renunciar a los propósitos esenciales.",
+      "Eliminar la evaluación para estudiantes con discapacidad.",
+      "Aplicarse únicamente en instituciones de educación especial."
+    ],
+    "explanation": "La flexibilización ajusta el 'cómo' sin renunciar a los propósitos de fondo del aprendizaje.",
+    "normativeJustification": "La flexibilización ajusta el 'cómo' sin renunciar a los propósitos de fondo del aprendizaje.",
+    "theoreticalJustification": "La flexibilización ajusta el 'cómo' sin renunciar a los propósitos de fondo del aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 842,
+    "id": "dir-apt-ped-94",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Se inicia “fracción” con el algoritmo y un quiz el mismo día, sin explorar ideas de parte-todo que los estudiantes ya traen del contexto. Un colega defiende “primero la fórmula, luego el sentido”. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Según Ausubel, ¿qué decisión hace significativo el aprendizaje de ese contenido?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Diagnosticar saberes previos de parte-todo y anclar el algoritmo a esa comprensión.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Idea central de Ausubel: anclar el nuevo aprendizaje en estructuras cognitivas previas.",
+    "normativeJustification": "Idea central de Ausubel: anclar el nuevo aprendizaje en estructuras cognitivas previas.",
+    "theoreticalJustification": "Idea central de Ausubel: anclar el nuevo aprendizaje en estructuras cognitivas previas.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 843,
+    "id": "dir-apt-ped-95",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Tras resolver problemas, nunca se pide a los estudiantes explicar cómo pensaron. Solo se califica la respuesta. Un docente propone verbalizar estrategias y criterios de éxito. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "¿Qué práctica desarrolla metacognición de forma coherente con evaluación formativa?",
+    "options": [
+      "Incluir verbalización de estrategias y criterios de éxito, contrastados con la evidencia del trabajo.",
+      "Aumentar el número de quizzes para “tener más notas”, sin devolver criterios ni un siguiente paso de mejora.",
+      "Dejar la autoevaluación como trámite de caritas o porcentajes, sin contrastarla con el trabajo producido.",
+      "Unificar la evidencia en un único examen acumulativo sorpresa, aunque el SIEE prevea carácter formativo."
+    ],
+    "explanation": "La metacognición implica que el estudiante piense sobre su propio pensamiento y ajuste estrategias.",
+    "normativeJustification": "La metacognición implica que el estudiante piense sobre su propio pensamiento y ajuste estrategias.",
+    "theoreticalJustification": "La metacognición implica que el estudiante piense sobre su propio pensamiento y ajuste estrategias.",
+    "distractorAnalysis": {
+      "1": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  },
+  {
+    "pos": 844,
+    "id": "dir-apt-ped-96",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Arman “grupos” donde uno copia y los demás esperan. Un docente diseña roles, meta común e interdependencia positiva, con responsabilidad individual. No es ausencia de roles ni retiro del docente.",
+    "stem": "A diferencia del trabajo meramente grupal, ¿qué caracteriza al trabajo colaborativo?",
+    "options": [
+      "La ausencia total de roles definidos.",
+      "Interdependencia positiva, con responsabilidad individual y colectiva sobre el resultado.",
+      "Evaluación exclusivamente individual, sin ningún componente de equipo.",
+      "Eliminar el rol del docente durante toda la actividad."
+    ],
+    "explanation": "El trabajo verdaderamente colaborativo exige interdependencia y responsabilidad compartida.",
+    "normativeJustification": "El trabajo verdaderamente colaborativo exige interdependencia y responsabilidad compartida.",
+    "theoreticalJustification": "El trabajo verdaderamente colaborativo exige interdependencia y responsabilidad compartida.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 845,
+    "id": "dir-apt-ped-97",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute La diferenciación pedagógica en el aula busca principalmente. Un actor propone: “Aplicar la misma actividad, en el mismo tiempo, a todos los estudiantes sin excepción”. Otro insiste: “Separar físicamente a los estudiantes según su rendimiento académico de forma permanente”. Un tercero sugiere: “Reemplazar la evaluación formativa por evaluación sumativa”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Aplicar la misma actividad, en el mismo tiempo, a todos los estudiantes sin excepción",
+      "Ajustar contenidos, procesos o productos según las necesidades y ritmos de aprendizaje de los estudiantes",
+      "Separar físicamente a los estudiantes según su rendimiento académico de forma permanente",
+      "Reemplazar la evaluación formativa por evaluación sumativa"
+    ],
+    "explanation": "La diferenciación responde a la diversidad del aula ajustando distintos elementos del proceso.",
+    "normativeJustification": "La diferenciación responde a la diversidad del aula ajustando distintos elementos del proceso.",
+    "theoreticalJustification": "La diferenciación responde a la diversidad del aula ajustando distintos elementos del proceso.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 846,
+    "id": "dir-apt-ped-98",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En media, orientación vocacional se reduce a “elegir carrera ya” o a un test. Un docente acompaña la reflexión de intereses, metas y decisiones. No reemplaza el área de ética ni impone un oficio.",
+    "stem": "¿Qué busca principalmente el Proyecto de Vida como estrategia en educación media?",
+    "options": [
+      "Definir de manera obligatoria la carrera profesional del estudiante.",
+      "Acompañar la reflexión sobre intereses, metas y decisiones futuras.",
+      "Reemplazar la orientación vocacional por pruebas estandarizadas únicas.",
+      "Evaluarse únicamente en el área de ética, sin acompañamiento."
+    ],
+    "explanation": "Es un proceso de acompañamiento y reflexión, no una definición vocacional obligatoria.",
+    "normativeJustification": "Es un proceso de acompañamiento y reflexión, no una definición vocacional obligatoria.",
+    "theoreticalJustification": "Es un proceso de acompañamiento y reflexión, no una definición vocacional obligatoria.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 847,
+    "id": "dir-apt-ped-99",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Competencias pedagógicas · Directivo. Un actor propone: “Un enfoque exclusivamente biológico y reproductivo”. Otro insiste: “Una sola sesión anual a cargo del área de ciencias naturales”. Un tercero sugiere: “La exclusión de los padres de familia del proceso”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Un enfoque exclusivamente biológico y reproductivo",
+      "Un enfoque integral que incluya dimensiones biológicas, socioafectivas y de derechos",
+      "Una sola sesión anual a cargo del área de ciencias naturales",
+      "La exclusión de los padres de familia del proceso"
+    ],
+    "explanation": "El enfoque integral, con participación de la comunidad educativa, es el esperado.",
+    "normativeJustification": "El enfoque integral, con participación de la comunidad educativa, es el esperado.",
+    "theoreticalJustification": "El enfoque integral, con participación de la comunidad educativa, es el esperado.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 848,
+    "id": "dir-apt-ped-100",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo",
+    "subtopic": "Competencias pedagógicas · Directivo",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute Competencias pedagógicas · Directivo. Un actor propone: “La opacidad de los criterios de evaluación”. Otro insiste: “La eliminación de la retroalimentación docente”. Un tercero sugiere: “La reducción del tiempo dedicado a la planeación”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "La opacidad de los criterios de evaluación, aunque parezca un trámite equitativo o suficiente.",
+      "La transparencia del proceso y la autorregulación del estudiante frente a lo que se espera de él",
+      "La eliminación de la retroalimentación docente, aunque se presente como solución rápida en la reunión.",
+      "La reducción del tiempo dedicado a la planeación, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Compartir los criterios previamente fortalece la transparencia y la autorregulación del estudiante.",
+    "normativeJustification": "Compartir los criterios previamente fortalece la transparencia y la autorregulación del estudiante.",
+    "theoreticalJustification": "Compartir los criterios previamente fortalece la transparencia y la autorregulación del estudiante.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 849,
+    "id": "dir-apt-lec-101",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La deserción escolar en Colombia tiende a incrementarse en el tránsito entre la básica primaria y la básica secundaria, período en el que muchos estudiantes deben desplazarse a una sede distinta o asumir jornadas más exigentes. Algunas instituciones han implementado estrategias de acompañamiento en este tránsito, como jornadas de inducción, seguimiento individual a estudiantes en riesgo y articulación entre los docentes de quinto y sexto grado, con el fin de que el cambio de nivel no se convierta en un factor adicional de abandono escolar.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "El tránsito de primaria a secundaria es un momento crítico de deserción que algunas instituciones atienden con estrategias de acompañamiento",
+      "La deserción escolar solo ocurre en la educación media",
+      "El cambio de sede elimina por completo el riesgo de deserción",
+      "La articulación entre docentes de quinto y sexto grado es obligatoria por ley"
+    ],
+    "explanation": "El texto identifica ese tránsito como un momento crítico y describe estrategias institucionales de respuesta.",
+    "normativeJustification": "El texto identifica ese tránsito como un momento crítico y describe estrategias institucionales de respuesta.",
+    "theoreticalJustification": "El texto identifica ese tránsito como un momento crítico y describe estrategias institucionales de respuesta.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 850,
+    "id": "dir-apt-lec-102",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La deserción escolar en Colombia tiende a incrementarse en el tránsito entre la básica primaria y la básica secundaria, período en el que muchos estudiantes deben desplazarse a una sede distinta o asumir jornadas más exigentes. Algunas instituciones han implementado estrategias de acompañamiento en este tránsito, como jornadas de inducción, seguimiento individual a estudiantes en riesgo y articulación entre los docentes de quinto y sexto grado, con el fin de que el cambio de nivel no se convierta en un factor adicional de abandono escolar.",
+    "stem": "Según el texto, ¿qué estrategia se menciona para reducir el riesgo de deserción en ese tránsito?",
+    "options": [
+      "Reducir el número de sedes de la institución",
+      "Seguimiento individual a estudiantes en riesgo y articulación entre docentes de los grados implicados",
+      "Aumentar la exigencia académica en sexto grado",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual."
+    ],
+    "explanation": "El texto lo menciona explícitamente como una de las estrategias implementadas.",
+    "normativeJustification": "El texto lo menciona explícitamente como una de las estrategias implementadas.",
+    "theoreticalJustification": "El texto lo menciona explícitamente como una de las estrategias implementadas.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 851,
+    "id": "dir-apt-lec-103",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "El Proyecto Educativo Institucional no es un documento estático redactado únicamente por el rector, sino que la Ley 115 de 1994 concibe su construcción como un proceso participativo que debe involucrar a docentes, estudiantes, padres de familia y, cuando es pertinente, a egresados y sector productivo. En la práctica, muchas instituciones dedican jornadas pedagógicas específicas para revisar componentes del PEI, de modo que los ajustes respondan a necesidades reales identificadas por la comunidad educativa y no solo a exigencias normativas.",
+    "stem": "Según el texto, ¿cómo concibe la Ley 115 de 1994 la construcción del PEI?",
+    "options": [
+      "Como una tarea exclusiva y unilateral del rector",
+      "Como un documento que no requiere actualización",
+      "Como un proceso participativo que involucra a distintos actores de la comunidad educativa",
+      "Como una exigencia exclusiva de la Secretaría de Educación"
+    ],
+    "explanation": "El texto lo indica explícitamente: construcción participativa con diversos actores.",
+    "normativeJustification": "El texto lo indica explícitamente: construcción participativa con diversos actores.",
+    "theoreticalJustification": "El texto lo indica explícitamente: construcción participativa con diversos actores.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 852,
+    "id": "dir-apt-lec-104",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "El Proyecto Educativo Institucional no es un documento estático redactado únicamente por el rector, sino que la Ley 115 de 1994 concibe su construcción como un proceso participativo que debe involucrar a docentes, estudiantes, padres de familia y, cuando es pertinente, a egresados y sector productivo. En la práctica, muchas instituciones dedican jornadas pedagógicas específicas para revisar componentes del PEI, de modo que los ajustes respondan a necesidades reales identificadas por la comunidad educativa y no solo a exigencias normativas.",
+    "stem": "¿Qué propósito tienen las jornadas pedagógicas mencionadas en el texto?",
+    "options": [
+      "Sustituir las reuniones del Consejo Directivo",
+      "Reemplazar la evaluación institucional anual",
+      "Definir exclusivamente el calendario académico",
+      "Revisar componentes del PEI para que respondan a necesidades reales de la comunidad"
+    ],
+    "explanation": "El texto señala que se dedican a revisar el PEI según necesidades reales de la comunidad.",
+    "normativeJustification": "El texto señala que se dedican a revisar el PEI según necesidades reales de la comunidad.",
+    "theoreticalJustification": "El texto señala que se dedican a revisar el PEI según necesidades reales de la comunidad.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 853,
+    "id": "dir-apt-lec-105",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los programas de fortalecimiento del inglés en instituciones oficiales enfrentan retos particulares: la disponibilidad de docentes licenciados en el área suele ser menor en zonas rurales, y la intensidad horaria destinada a la asignatura no siempre resulta suficiente para alcanzar los niveles de dominio esperados según el Marco Común Europeo. Algunos rectores han optado por articular proyectos con universidades o programas de cooperación internacional para complementar la formación docente y ofrecer inmersión adicional a los estudiantes.",
+    "stem": "Según el texto, ¿cuál es uno de los retos de los programas de bilingüismo en zonas rurales?",
+    "options": [
+      "La menor disponibilidad de docentes licenciados en el área",
+      "El exceso de docentes licenciados en inglés",
+      "La eliminación de la intensidad horaria de inglés",
+      "La ausencia total de estudiantes interesados"
+    ],
+    "explanation": "El texto menciona explícitamente la menor disponibilidad de docentes licenciados en zonas rurales.",
+    "normativeJustification": "El texto menciona explícitamente la menor disponibilidad de docentes licenciados en zonas rurales.",
+    "theoreticalJustification": "El texto menciona explícitamente la menor disponibilidad de docentes licenciados en zonas rurales.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 854,
+    "id": "dir-apt-lec-106",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los programas de fortalecimiento del inglés en instituciones oficiales enfrentan retos particulares: la disponibilidad de docentes licenciados en el área suele ser menor en zonas rurales, y la intensidad horaria destinada a la asignatura no siempre resulta suficiente para alcanzar los niveles de dominio esperados según el Marco Común Europeo. Algunos rectores han optado por articular proyectos con universidades o programas de cooperación internacional para complementar la formación docente y ofrecer inmersión adicional a los estudiantes.",
+    "stem": "¿Qué estrategia se menciona para complementar la formación docente en esta área?",
+    "options": [
+      "Reducir la intensidad horaria de inglés",
+      "Articular proyectos con universidades o programas de cooperación internacional",
+      "Eliminar la evaluación de los estudiantes en esta asignatura",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual."
+    ],
+    "explanation": "El texto señala la articulación con universidades o cooperación internacional.",
+    "normativeJustification": "El texto señala la articulación con universidades o cooperación internacional.",
+    "theoreticalJustification": "El texto señala la articulación con universidades o cooperación internacional.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 855,
+    "id": "dir-apt-lec-107",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Diversos estudios han señalado una correlación entre el acceso frecuente a la biblioteca escolar y el desempeño en pruebas de lectura crítica. Sin embargo, contar con una colección amplia no garantiza por sí sola el fomento a la lectura: la mediación de un bibliotecario o docente encargado, que oriente a los estudiantes y organice actividades como clubes de lectura o ferias del libro, resulta determinante para que la biblioteca se convierta en un espacio realmente utilizado por la comunidad educativa.",
+    "stem": "¿Cuál es la idea principal del texto?",
+    "options": [
+      "Tener una colección amplia de libros es suficiente para fomentar la lectura",
+      "Las bibliotecas escolares no influyen en el desempeño en lectura crítica",
+      "La mediación pedagógica es determinante para que la biblioteca cumpla su función, más allá del tamaño de la colección",
+      "Los clubes de lectura deben ser obligatorios en todas las instituciones"
+    ],
+    "explanation": "El texto plantea que la mediación, y no solo la colección, es lo determinante.",
+    "normativeJustification": "El texto plantea que la mediación, y no solo la colección, es lo determinante.",
+    "theoreticalJustification": "El texto plantea que la mediación, y no solo la colección, es lo determinante.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 856,
+    "id": "dir-apt-lec-108",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Diversos estudios han señalado una correlación entre el acceso frecuente a la biblioteca escolar y el desempeño en pruebas de lectura crítica. Sin embargo, contar con una colección amplia no garantiza por sí sola el fomento a la lectura: la mediación de un bibliotecario o docente encargado, que oriente a los estudiantes y organice actividades como clubes de lectura o ferias del libro, resulta determinante para que la biblioteca se convierta en un espacio realmente utilizado por la comunidad educativa.",
+    "stem": "Según el texto, ¿qué actividades se mencionan como parte de esa mediación pedagógica?",
+    "options": [
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige.",
+      "Clubes de lectura y ferias del libro"
+    ],
+    "explanation": "El texto las menciona explícitamente como ejemplos de esa mediación.",
+    "normativeJustification": "El texto las menciona explícitamente como ejemplos de esa mediación.",
+    "theoreticalJustification": "El texto las menciona explícitamente como ejemplos de esa mediación.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 857,
+    "id": "dir-apt-lec-109",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La articulación de la educación media con instituciones como el SENA permite que los estudiantes de grados décimo y undécimo cursen formación técnica laboral, obteniendo una certificación adicional a su título de bachiller. Para que esta articulación funcione, la institución educativa debe garantizar espacios, tiempos y, en algunos casos, instructores calificados, además de gestionar convenios formales que definan las responsabilidades de cada entidad participante en el proceso.",
+    "stem": "¿Qué permite la articulación de la educación media con el SENA, según el texto?",
+    "options": [
+      "Que los estudiantes obtengan una certificación técnica laboral adicional a su título de bachiller",
+      "Eliminar el título de bachiller para los estudiantes articulados",
+      "Reemplazar completamente el currículo de la educación media",
+      "Suspender la jornada académica regular"
+    ],
+    "explanation": "El texto indica que permite una certificación técnica laboral adicional al bachillerato.",
+    "normativeJustification": "El texto indica que permite una certificación técnica laboral adicional al bachillerato.",
+    "theoreticalJustification": "El texto indica que permite una certificación técnica laboral adicional al bachillerato.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 858,
+    "id": "dir-apt-lec-110",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La articulación de la educación media con instituciones como el SENA permite que los estudiantes de grados décimo y undécimo cursen formación técnica laboral, obteniendo una certificación adicional a su título de bachiller. Para que esta articulación funcione, la institución educativa debe garantizar espacios, tiempos y, en algunos casos, instructores calificados, además de gestionar convenios formales que definan las responsabilidades de cada entidad participante en el proceso.",
+    "stem": "Según el texto, ¿qué debe garantizar la institución educativa para que la articulación funcione?",
+    "options": [
+      "Únicamente el pago de una matrícula adicional",
+      "Espacios, tiempos y convenios formales que definan responsabilidades entre las entidades",
+      "La eliminación de otras áreas del currículo",
+      "Que todos los estudiantes se articulen obligatoriamente"
+    ],
+    "explanation": "El texto menciona espacios, tiempos y convenios formales como condiciones necesarias.",
+    "normativeJustification": "El texto menciona espacios, tiempos y convenios formales como condiciones necesarias.",
+    "theoreticalJustification": "El texto menciona espacios, tiempos y convenios formales como condiciones necesarias.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 859,
+    "id": "dir-apt-lec-111",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La operación de un comedor escolar en el marco del Programa de Alimentación Escolar exige el cumplimiento de normas sanitarias estrictas, incluyendo la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y la infraestructura. El rector, aunque no es responsable directo de la operación del operador contratado, debe realizar seguimiento y reportar oportunamente cualquier irregularidad que ponga en riesgo la salud de los estudiantes.",
+    "stem": "Según el texto, ¿cuál es el rol del rector frente al comedor escolar?",
+    "options": [
+      "Es el único responsable de la manipulación de alimentos",
+      "No tiene ninguna responsabilidad relacionada con el PAE",
+      "Debe hacer seguimiento y reportar irregularidades, aunque el operador contratado opera el servicio",
+      "Debe cocinar directamente los alimentos en caso de ausencia del personal"
+    ],
+    "explanation": "El texto describe el rol de seguimiento y reporte, distinto de la operación directa.",
+    "normativeJustification": "El texto describe el rol de seguimiento y reporte, distinto de la operación directa.",
+    "theoreticalJustification": "El texto describe el rol de seguimiento y reporte, distinto de la operación directa.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 860,
+    "id": "dir-apt-lec-112",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "La operación de un comedor escolar en el marco del Programa de Alimentación Escolar exige el cumplimiento de normas sanitarias estrictas, incluyendo la manipulación adecuada de alimentos, el control de la cadena de frío y la verificación periódica de las condiciones de higiene del personal y la infraestructura. El rector, aunque no es responsable directo de la operación del operador contratado, debe realizar seguimiento y reportar oportunamente cualquier irregularidad que ponga en riesgo la salud de los estudiantes.",
+    "stem": "¿Qué aspectos menciona el texto como parte de las normas sanitarias exigidas?",
+    "options": [
+      "El horario de clases de la institución",
+      "El número de estudiantes matriculados",
+      "La evaluación docente del personal de cocina",
+      "La cadena de frío y las condiciones de higiene del personal y la infraestructura"
+    ],
+    "explanation": "El texto los menciona explícitamente como parte del cumplimiento normativo.",
+    "normativeJustification": "El texto los menciona explícitamente como parte del cumplimiento normativo.",
+    "theoreticalJustification": "El texto los menciona explícitamente como parte del cumplimiento normativo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 861,
+    "id": "dir-apt-lec-113",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "La regulación del uso de dispositivos móviles en las instituciones educativas ha generado posiciones diversas: mientras algunos rectores optan por prohibiciones estrictas durante toda la jornada, otros prefieren permitir su uso pedagógico controlado en momentos específicos de la clase, argumentando que la prohibición total dificulta preparar a los estudiantes para un uso responsable de la tecnología. En cualquier caso, la normativa institucional al respecto debe quedar consignada en el manual de convivencia, tras un proceso de discusión con la comunidad educativa.",
+    "stem": "Según el texto, ¿qué posiciones existen frente al uso de celulares en el aula?",
+    "options": [
+      "Existen posiciones diversas, desde la prohibición estricta hasta el uso pedagógico controlado",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "La ley exige permitir su uso libre en todo momento",
+      "El tema no puede regularse institucionalmente"
+    ],
+    "explanation": "El texto describe ambas posiciones como opciones existentes entre instituciones.",
+    "normativeJustification": "El texto describe ambas posiciones como opciones existentes entre instituciones.",
+    "theoreticalJustification": "El texto describe ambas posiciones como opciones existentes entre instituciones.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 862,
+    "id": "dir-apt-lec-114",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "La regulación del uso de dispositivos móviles en las instituciones educativas ha generado posiciones diversas: mientras algunos rectores optan por prohibiciones estrictas durante toda la jornada, otros prefieren permitir su uso pedagógico controlado en momentos específicos de la clase, argumentando que la prohibición total dificulta preparar a los estudiantes para un uso responsable de la tecnología. En cualquier caso, la normativa institucional al respecto debe quedar consignada en el manual de convivencia, tras un proceso de discusión con la comunidad educativa.",
+    "stem": "¿Dónde debe quedar consignada la normativa institucional sobre este tema, según el texto?",
+    "options": [
+      "En el Proyecto Educativo Institucional exclusivamente",
+      "En el manual de convivencia, tras discusión con la comunidad educativa",
+      "En una circular exclusiva del Ministerio de Educación",
+      "No requiere quedar consignada en ningún documento institucional"
+    ],
+    "explanation": "El texto lo señala explícitamente: manual de convivencia tras discusión comunitaria.",
+    "normativeJustification": "El texto lo señala explícitamente: manual de convivencia tras discusión comunitaria.",
+    "theoreticalJustification": "El texto lo señala explícitamente: manual de convivencia tras discusión comunitaria.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 863,
+    "id": "dir-apt-lec-115",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "A diferencia de un conflicto puntual entre estudiantes, el acoso escolar se caracteriza por la repetición sistemática de una agresión, un desequilibrio de poder entre quien agrede y quien es agredido, y la intención de causar daño de manera sostenida en el tiempo. Identificar correctamente esta diferencia es clave para que la institución active la ruta de atención adecuada según la Ley 1620 de 2013, en lugar de tratar la situación como un conflicto aislado que se resuelve con una simple mediación puntual.",
+    "stem": "Según el texto, ¿qué caracteriza específicamente al acoso escolar frente a un conflicto puntual?",
+    "options": [
+      "La ocurrencia de un solo incidente aislado",
+      "La participación exclusiva de estudiantes de un mismo grado",
+      "La repetición sistemática, el desequilibrio de poder y la intención sostenida de causar daño",
+      "La ausencia de cualquier tipo de agresión física"
+    ],
+    "explanation": "El texto lo define explícitamente con estos tres elementos.",
+    "normativeJustification": "El texto lo define explícitamente con estos tres elementos.",
+    "theoreticalJustification": "El texto lo define explícitamente con estos tres elementos.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 864,
+    "id": "dir-apt-lec-116",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "A diferencia de un conflicto puntual entre estudiantes, el acoso escolar se caracteriza por la repetición sistemática de una agresión, un desequilibrio de poder entre quien agrede y quien es agredido, y la intención de causar daño de manera sostenida en el tiempo. Identificar correctamente esta diferencia es clave para que la institución active la ruta de atención adecuada según la Ley 1620 de 2013, en lugar de tratar la situación como un conflicto aislado que se resuelve con una simple mediación puntual.",
+    "stem": "¿Por qué es importante, según el texto, identificar correctamente esta diferencia?",
+    "options": [
+      "Para evitar activar cualquier ruta de atención",
+      "Para usar como medida punitiva automáticamente a ambos estudiantes involucrados",
+      "Para trasladar la responsabilidad exclusivamente a la familia",
+      "Para activar la ruta de atención adecuada, en lugar de tratarlo como un conflicto aislado"
+    ],
+    "explanation": "El texto indica que permite activar la ruta adecuada según la Ley 1620.",
+    "normativeJustification": "El texto indica que permite activar la ruta adecuada según la Ley 1620.",
+    "theoreticalJustification": "El texto indica que permite activar la ruta adecuada según la Ley 1620.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 865,
+    "id": "dir-apt-lec-117",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los modelos educativos flexibles, como la Aceleración del Aprendizaje o los programas para población en extraedad, están diseñados para atender a estudiantes que, por diversas circunstancias, presentan un rezago escolar significativo respecto a su edad. Estos modelos, avalados por el Ministerio de Educación, permiten cursar en menos tiempo los contenidos correspondientes a varios grados, siempre que se garantice el logro de las competencias básicas esperadas, y no simplemente la promoción acelerada sin verificación de aprendizajes.",
+    "stem": "¿A qué población están dirigidos los modelos educativos flexibles mencionados en el texto?",
+    "options": [
+      "A estudiantes con rezago escolar significativo respecto a su edad",
+      "Exclusivamente a estudiantes con mejor desempeño académico",
+      "Únicamente a estudiantes de instituciones privadas",
+      "A docentes en proceso de formación continua"
+    ],
+    "explanation": "El texto lo indica en la primera oración: estudiantes con rezago escolar significativo.",
+    "normativeJustification": "El texto lo indica en la primera oración: estudiantes con rezago escolar significativo.",
+    "theoreticalJustification": "El texto lo indica en la primera oración: estudiantes con rezago escolar significativo.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 866,
+    "id": "dir-apt-lec-118",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Los modelos educativos flexibles, como la Aceleración del Aprendizaje o los programas para población en extraedad, están diseñados para atender a estudiantes que, por diversas circunstancias, presentan un rezago escolar significativo respecto a su edad. Estos modelos, avalados por el Ministerio de Educación, permiten cursar en menos tiempo los contenidos correspondientes a varios grados, siempre que se garantice el logro de las competencias básicas esperadas, y no simplemente la promoción acelerada sin verificación de aprendizajes.",
+    "stem": "Según el texto, ¿qué condición debe garantizarse en estos modelos, más allá de la reducción del tiempo escolar?",
+    "options": [
+      "La eliminación total de la evaluación",
+      "El logro de las competencias básicas esperadas, no solo la promoción acelerada",
+      "Que los estudiantes repitan el mismo grado varias veces",
+      "Que se excluya a estos estudiantes de las pruebas Saber"
+    ],
+    "explanation": "El texto señala el logro de competencias básicas, no solo la promoción acelerada.",
+    "normativeJustification": "El texto señala el logro de competencias básicas, no solo la promoción acelerada.",
+    "theoreticalJustification": "El texto señala el logro de competencias básicas, no solo la promoción acelerada.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 867,
+    "id": "dir-apt-lec-119",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En muchas zonas rurales, la distancia entre la vivienda de los estudiantes y la sede educativa constituye una barrera significativa para la asistencia regular, especialmente en épocas de lluvias que dificultan el desplazamiento por caminos destapados. El transporte escolar, cuando existe, suele depender de la gestión conjunta entre la institución, la entidad territorial y, en algunos casos, recursos de regalías, lo que hace que su continuidad no siempre esté garantizada de un año a otro.",
+    "stem": "Según el texto, ¿qué barrera enfrentan los estudiantes rurales para la asistencia regular?",
+    "options": [
+      "El exceso de oferta de transporte escolar",
+      "La falta de interés en asistir a clases",
+      "La distancia hasta la sede educativa, agravada en épocas de lluvias",
+      "La reducción del calendario académico"
+    ],
+    "explanation": "El texto identifica la distancia, agravada por las lluvias, como la barrera central.",
+    "normativeJustification": "El texto identifica la distancia, agravada por las lluvias, como la barrera central.",
+    "theoreticalJustification": "El texto identifica la distancia, agravada por las lluvias, como la barrera central.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 868,
+    "id": "dir-apt-lec-120",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "lecturaCritica",
+    "topic": "Lectura crítica · Directivo (ola 2)",
+    "subtopic": "Lectura crítica · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En muchas zonas rurales, la distancia entre la vivienda de los estudiantes y la sede educativa constituye una barrera significativa para la asistencia regular, especialmente en épocas de lluvias que dificultan el desplazamiento por caminos destapados. El transporte escolar, cuando existe, suele depender de la gestión conjunta entre la institución, la entidad territorial y, en algunos casos, recursos de regalías, lo que hace que su continuidad no siempre esté garantizada de un año a otro.",
+    "stem": "¿Qué se puede inferir sobre la continuidad del transporte escolar rural, según el texto?",
+    "options": [
+      "Está garantizada permanentemente por ley",
+      "Es responsabilidad exclusiva de las familias",
+      "No requiere ningún tipo de gestión institucional",
+      "Depende de gestión conjunta entre varias entidades y no siempre está asegurada de un año a otro"
+    ],
+    "explanation": "El texto lo señala explícitamente en la última oración.",
+    "normativeJustification": "El texto lo señala explícitamente en la última oración.",
+    "theoreticalJustification": "El texto lo señala explícitamente en la última oración.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 869,
+    "id": "dir-apt-num-121",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Una institución tiene 3 sedes con 420, 380 y 310 estudiantes. Se debe asignar un refrigerio adicional per cápita de $1.200 diarios para todos. Un docente propone reportar $1.200.000 (otra base, redondeo o indicador distinto); otro insiste en $1.280.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$1.332.000",
+      "$1.200.000",
+      "$1.280.000",
+      "$1.400.000"
+    ],
+    "explanation": "420 + 380 + 310 = 1.110 estudiantes. 1.110 × $1.200 = $1.332.000.",
+    "normativeJustification": "420 + 380 + 310 = 1.110 estudiantes. 1.110 × $1.200 = $1.332.000.",
+    "theoreticalJustification": "420 + 380 + 310 = 1.110 estudiantes. 1.110 × $1.200 = $1.332.000.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 870,
+    "id": "dir-apt-num-122",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una jornada de evaluación docente, se citan 45 docentes en grupos de 9 para las entrevistas. Un docente propone reportar 4 (otra base, redondeo o indicador distinto); otro insiste en 6. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "9"
+    ],
+    "explanation": "45 ÷ 9 = 5 grupos.",
+    "normativeJustification": "45 ÷ 9 = 5 grupos.",
+    "theoreticalJustification": "45 ÷ 9 = 5 grupos.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 871,
+    "id": "dir-apt-num-123",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El PEI de una institución establece que el 60% de las horas de libre inversión se destinan a proyectos transversales. Hay 20 horas de libre inversión al mes. Un docente propone reportar 10 (otra base, redondeo o indicador distinto); otro insiste en 11. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "explanation": "20 × 0,60 = 12 horas.",
+    "normativeJustification": "20 × 0,60 = 12 horas.",
+    "theoreticalJustification": "20 × 0,60 = 12 horas.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 872,
+    "id": "dir-apt-num-124",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un colegio tiene una tasa de aprobación del 88% sobre 625 estudiantes evaluados. Un docente propone reportar 65 (otra base, redondeo o indicador distinto); otro insiste en 70. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "65",
+      "70",
+      "80",
+      "75"
+    ],
+    "explanation": "Aprobados = 625 × 0,88 = 550. No aprobados = 625 − 550 = 75.",
+    "normativeJustification": "Aprobados = 625 × 0,88 = 550. No aprobados = 625 − 550 = 75.",
+    "theoreticalJustification": "Aprobados = 625 × 0,88 = 550. No aprobados = 625 − 550 = 75.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 873,
+    "id": "dir-apt-num-125",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Se debe imprimir el manual de convivencia para 780 estudiantes, a razón de $850 por ejemplar. Ya se imprimieron 300. Un docente propone reportar $380.000 (otra base, redondeo o indicador distinto); otro insiste en $396.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$408.000",
+      "$380.000",
+      "$396.000",
+      "$420.000"
+    ],
+    "explanation": "Restantes = 780 − 300 = 480. Costo = 480 × $850 = $408.000.",
+    "normativeJustification": "Restantes = 780 − 300 = 480. Costo = 480 × $850 = $408.000.",
+    "theoreticalJustification": "Restantes = 780 − 300 = 480. Costo = 480 × $850 = $408.000.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 874,
+    "id": "dir-apt-num-126",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un coordinador debe distribuir 96 sillas nuevas entre 4 salones, de forma proporcional al número de estudiantes de cada uno: Salón A tiene 90, Salón B 60, Salón C 60 y Salón D 30 estudiantes (total 240). Un docente propone reportar 20 (otra base, redondeo o indicador distinto); otro insiste en 22. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "20",
+      "24",
+      "22",
+      "26"
+    ],
+    "explanation": "Salón B = 60/240 = 1/4. 96 × 1/4 = 24 sillas.",
+    "normativeJustification": "Salón B = 60/240 = 1/4. 96 × 1/4 = 24 sillas.",
+    "theoreticalJustification": "Salón B = 60/240 = 1/4. 96 × 1/4 = 24 sillas.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 875,
+    "id": "dir-apt-num-127",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un simulacro de evacuación, un colegio de 900 estudiantes debe evacuar en grupos de 45 por punto de encuentro asignado. Un docente propone reportar 15 (otra base, redondeo o indicador distinto); otro insiste en 18. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "15",
+      "18",
+      "20",
+      "22"
+    ],
+    "explanation": "900 ÷ 45 = 20 puntos de encuentro.",
+    "normativeJustification": "900 ÷ 45 = 20 puntos de encuentro.",
+    "theoreticalJustification": "900 ÷ 45 = 20 puntos de encuentro.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 876,
+    "id": "dir-apt-num-128",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El presupuesto de una institución para material didáctico es de $18.000.000 al año, distribuido en partes iguales entre 4 períodos académicos. Un docente propone reportar $4.000.000 (otra base, redondeo o indicador distinto); otro insiste en $4.250.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$4.000.000",
+      "$4.250.000",
+      "$4.750.000",
+      "$4.500.000"
+    ],
+    "explanation": "18.000.000 ÷ 4 = $4.500.000.",
+    "normativeJustification": "18.000.000 ÷ 4 = $4.500.000.",
+    "theoreticalJustification": "18.000.000 ÷ 4 = $4.500.000.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 877,
+    "id": "dir-apt-num-129",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Una IE oficial tiene 950 estudiantes en básica. El SIEE identifica que el 42% requiere plan de apoyo académico este periodo. Coordinación necesita el número exacto para organizar docentes de apoyo y no inflar ni subestimar la carga.",
+    "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
+    "options": [
+      "399",
+      "380",
+      "390",
+      "410"
+    ],
+    "explanation": "950 × 0,42 = 399 estudiantes.",
+    "normativeJustification": "950 × 0,42 = 399 estudiantes.",
+    "theoreticalJustification": "950 × 0,42 = 399 estudiantes.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 878,
+    "id": "dir-apt-num-130",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un docente dicta 22 horas de clase a la semana. El año escolar tiene 40 semanas efectivas. Un docente propone reportar 840 (otra base, redondeo o indicador distinto); otro insiste en 800. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "840",
+      "880",
+      "800",
+      "900"
+    ],
+    "explanation": "22 × 40 = 880 horas.",
+    "normativeJustification": "22 × 40 = 880 horas.",
+    "theoreticalJustification": "22 × 40 = 880 horas.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 879,
+    "id": "dir-apt-num-131",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una prueba diagnóstica, un curso de 36 estudiantes obtuvo los siguientes resultados: 9 en nivel superior, 15 en nivel alto, 8 en nivel básico y el resto en nivel bajo. Un docente propone reportar 2 (otra base, redondeo o indicador distinto); otro insiste en 3. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "explanation": "9 + 15 + 8 = 32. 36 − 32 = 4 estudiantes.",
+    "normativeJustification": "9 + 15 + 8 = 32. 36 − 32 = 4 estudiantes.",
+    "theoreticalJustification": "9 + 15 + 8 = 32. 36 − 32 = 4 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 880,
+    "id": "dir-apt-num-132",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Una rectoría debe repartir $2.400.000 en bonificaciones entre 8 docentes que participaron en un proyecto especial, en partes iguales. Un docente propone reportar $250.000 (otra base, redondeo o indicador distinto); otro insiste en $280.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$250.000",
+      "$280.000",
+      "$320.000",
+      "$300.000"
+    ],
+    "explanation": "2.400.000 ÷ 8 = $300.000.",
+    "normativeJustification": "2.400.000 ÷ 8 = $300.000.",
+    "theoreticalJustification": "2.400.000 ÷ 8 = $300.000.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  }
+]
