@@ -1,0 +1,1756 @@
+[
+  {
+    "pos": 881,
+    "id": "dir-apt-num-133",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El aforo máximo del auditorio institucional es de 250 personas. Hay 180 personas confirmadas para un evento, y se espera un 20% adicional de acompañantes no confirmados sobre esas 180. Un docente propone reportar 198 (otra base, redondeo o indicador distinto); otro insiste en 208. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "216",
+      "198",
+      "208",
+      "225"
+    ],
+    "explanation": "20% de 180 = 36. 180 + 36 = 216 personas esperadas.",
+    "normativeJustification": "20% de 180 = 36. 180 + 36 = 216 personas esperadas.",
+    "theoreticalJustification": "20% de 180 = 36. 180 + 36 = 216 personas esperadas.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 882,
+    "id": "dir-apt-num-134",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Una institución debe entregar 3 kits escolares por cada 5 estudiantes de los grados de transición. Hay 145 estudiantes en transición. Un docente propone reportar 80 (otra base, redondeo o indicador distinto); otro insiste en 84. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "80",
+      "87",
+      "84",
+      "90"
+    ],
+    "explanation": "145 ÷ 5 = 29 grupos de 5. 29 × 3 = 87 kits.",
+    "normativeJustification": "145 ÷ 5 = 29 grupos de 5. 29 × 3 = 87 kits.",
+    "theoreticalJustification": "145 ÷ 5 = 29 grupos de 5. 29 × 3 = 87 kits.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 883,
+    "id": "dir-apt-num-135",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. El tiempo estimado para calificar una prueba de comprensión lectora es de 4 minutos por estudiante. Dos docentes se reparten equitativamente la calificación de 130 pruebas. Un docente propone reportar 3h 40min (otra base, redondeo o indicador distinto); otro insiste en 4h 00min. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "3h 40min",
+      "4h 00min",
+      "4h 20min",
+      "4h 40min"
+    ],
+    "explanation": "130 ÷ 2 = 65 pruebas cada uno. 65 × 4 = 260 minutos = 4h 20min.",
+    "normativeJustification": "130 ÷ 2 = 65 pruebas cada uno. 65 × 4 = 260 minutos = 4h 20min.",
+    "theoreticalJustification": "130 ÷ 2 = 65 pruebas cada uno. 65 × 4 = 260 minutos = 4h 20min.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 884,
+    "id": "dir-apt-num-136",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. La meta institucional es que el 75% de los estudiantes de grado once presenten las pruebas Saber en la fecha oficial, y la institución tiene 96 estudiantes en ese grado. Un docente propone reportar 68 (otra base, redondeo o indicador distinto); otro insiste en 70. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "68",
+      "70",
+      "76",
+      "72"
+    ],
+    "explanation": "96 × 0,75 = 72 estudiantes.",
+    "normativeJustification": "96 × 0,75 = 72 estudiantes.",
+    "theoreticalJustification": "96 × 0,75 = 72 estudiantes.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 885,
+    "id": "dir-apt-num-137",
+    "correctIndex": 0,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Un colegio compró 60 tablets con un presupuesto de $54.000.000. El precio subió un 10% para la siguiente compra. Un docente propone reportar $56.500.000 (otra base, redondeo o indicador distinto); otro insiste en $57.800.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$59.400.000",
+      "$56.500.000",
+      "$57.800.000",
+      "$60.000.000"
+    ],
+    "explanation": "Precio unitario = 54.000.000 ÷ 60 = $900.000. Nuevo = 900.000 × 1,10 = $990.000. Total = 990.000 × 60 = $59.400.000.",
+    "normativeJustification": "Precio unitario = 54.000.000 ÷ 60 = $900.000. Nuevo = 900.000 × 1,10 = $990.000. Total = 990.000 × 60 = $59.400.000.",
+    "theoreticalJustification": "Precio unitario = 54.000.000 ÷ 60 = $900.000. Nuevo = 900.000 × 1,10 = $990.000. Total = 990.000 × 60 = $59.400.000.",
+    "distractorAnalysis": {
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 886,
+    "id": "dir-apt-num-138",
+    "correctIndex": 1,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En una encuesta de clima escolar aplicada a 240 docentes y administrativos, el 65% calificó el ambiente laboral como bueno o excelente. Un docente propone reportar 70 (otra base, redondeo o indicador distinto); otro insiste en 78. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "70",
+      "84",
+      "78",
+      "90"
+    ],
+    "explanation": "65% de 240 = 156. 240 − 156 = 84 personas.",
+    "normativeJustification": "65% de 240 = 156. 240 − 156 = 84 personas.",
+    "theoreticalJustification": "65% de 240 = 156. 240 − 156 = 84 personas.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 887,
+    "id": "dir-apt-num-139",
+    "correctIndex": 2,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. En un informe de asistencia semanal, un curso de 33 estudiantes matriculados registró: lunes 32 presentes, martes 30, miércoles 31, jueves 29 y viernes 28. Un docente propone reportar 85% (otra base, redondeo o indicador distinto); otro insiste en 88%. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "85%",
+      "88%",
+      "91%",
+      "94%"
+    ],
+    "explanation": "Promedio de presentes = (32+30+31+29+28)/5 = 30. 30/33 ≈ 0,909 = 91%.",
+    "normativeJustification": "Promedio de presentes = (32+30+31+29+28)/5 = 30. 30/33 ≈ 0,909 = 91%.",
+    "theoreticalJustification": "Promedio de presentes = (32+30+31+29+28)/5 = 30. 30/33 ≈ 0,909 = 91%.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "3": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 888,
+    "id": "dir-apt-num-140",
+    "correctIndex": 3,
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "pillar": "aptitudNumerica",
+    "topic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "subtopic": "Razonamiento cuantitativo · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En el comité de calidad de una IE oficial se arma el informe para el PMI y el SIMAT. Para el cálculo del valor de una bonificación por desempeño, se aplica el 15% sobre el salario básico mensual de un docente que devenga $3.200.000. Un docente propone reportar $420.000 (otra base, redondeo o indicador distinto); otro insiste en $450.000. Secretaría pide la cifra exacta, sin mezclar jornadas, periodos ni porcentajes de otro proceso.",
+    "stem": "Para el acta institucional, ¿qué cifra es coherente con los datos del caso y la operación que se pide, sin redondear ni cambiar la base?",
+    "options": [
+      "$420.000",
+      "$450.000",
+      "$500.000",
+      "$480.000"
+    ],
+    "explanation": "3.200.000 × 0,15 = $480.000.",
+    "normativeJustification": "3.200.000 × 0,15 = $480.000.",
+    "theoreticalJustification": "3.200.000 × 0,15 = $480.000.",
+    "distractorAnalysis": {
+      "0": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "1": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso.",
+      "2": "Cifra plausible si se cambia la base, se redondea o se opera un indicador distinto al del caso."
+    }
+  },
+  {
+    "pos": 889,
+    "id": "dir-apt-blan-141",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Llega a la rectoría una queja anónima que señala a un docente de mostrar favoritismo hacia ciertos estudiantes en la asignación de calificaciones. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Revisar de manera discreta y objetiva los registros de evaluación del docente, y conversar con él antes de tomar cualquier decisión",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Ante una denuncia anónima, la verificación objetiva y discreta antecede cualquier acción, respetando el debido proceso.",
+    "normativeJustification": "Ante una denuncia anónima, la verificación objetiva y discreta antecede cualquier acción, respetando el debido proceso.",
+    "theoreticalJustification": "Ante una denuncia anónima, la verificación objetiva y discreta antecede cualquier acción, respetando el debido proceso.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 890,
+    "id": "dir-apt-blan-142",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante que había firmado un compromiso de convivencia tras una falta anterior incurre nuevamente en una situación similar semanas después. ¿Cuál sería la actuación más adecuada, siguiendo el manual de convivencia? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Aplicar el debido proceso considerando la reincidencia, y evaluar con el equipo de convivencia si se requiere un apoyo adicional o una medida más estructurada",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La reincidencia debe abordarse dentro del debido proceso, valorando también posibles causas de fondo y apoyos adicionales.",
+    "normativeJustification": "La reincidencia debe abordarse dentro del debido proceso, valorando también posibles causas de fondo y apoyos adicionales.",
+    "theoreticalJustification": "La reincidencia debe abordarse dentro del debido proceso, valorando también posibles causas de fondo y apoyos adicionales.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 891,
+    "id": "dir-apt-blan-143",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente solicita, la misma mañana, permiso por una emergencia familiar justo el día en que debía aplicar una prueba institucional a su grupo. ¿Cuál sería la actuación más adecuada del coordinador? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Negar el permiso porque la prueba ya estaba programada",
+      "Pedirle al docente que aplace su emergencia hasta después de la prueba",
+      "Conceder el permiso considerando la emergencia y organizar de inmediato un reemplazo o reprogramación de la prueba",
+      "Cancelar la prueba para todo el año escolar"
+    ],
+    "explanation": "Priorizar la situación humana del docente y resolver operativamente la contingencia refleja un liderazgo equilibrado.",
+    "normativeJustification": "Priorizar la situación humana del docente y resolver operativamente la contingencia refleja un liderazgo equilibrado.",
+    "theoreticalJustification": "Priorizar la situación humana del docente y resolver operativamente la contingencia refleja un liderazgo equilibrado.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 892,
+    "id": "dir-apt-blan-144",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El coordinador académico y el coordinador de convivencia no logran ponerse de acuerdo sobre la medida más adecuada para un estudiante con dificultades tanto académicas como disciplinarias. ¿Cuál sería la actuación más apropiada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Tomar la decisión final sin consultar a ninguno de los dos coordinadores",
+      "Pedirle al estudiante que elija con cuál coordinador prefiere trabajar",
+      "Asignar el caso al coordinador con mayor antigüedad, sin más análisis",
+      "Facilitar un espacio conjunto de análisis del caso entre ambos coordinadores, buscando una decisión integral y consensuada"
+    ],
+    "explanation": "Un caso con dimensiones académicas y de convivencia requiere una mirada integral y consensuada.",
+    "normativeJustification": "Un caso con dimensiones académicas y de convivencia requiere una mirada integral y consensuada.",
+    "theoreticalJustification": "Un caso con dimensiones académicas y de convivencia requiere una mirada integral y consensuada.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 893,
+    "id": "dir-apt-blan-145",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente publica en sus redes sociales personales una crítica pública hacia una decisión institucional reciente, generando comentarios de padres de familia. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Conversar en privado con el docente sobre el impacto institucional de la publicación y explicar los canales internos disponibles para expresar desacuerdos",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El diálogo privado, con orientación hacia canales internos, es la vía más constructiva.",
+    "normativeJustification": "El diálogo privado, con orientación hacia canales internos, es la vía más constructiva.",
+    "theoreticalJustification": "El diálogo privado, con orientación hacia canales internos, es la vía más constructiva.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 894,
+    "id": "dir-apt-blan-146",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "decreto1421",
+      "guiaMen49"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un estudiante en condición de discapacidad es objeto de comentarios discriminatorios por parte de algunos compañeros. ¿Cuál sería la actuación institucional más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Activar la ruta de convivencia correspondiente, atender la situación con el estudiante afectado y trabajar procesos formativos sobre inclusión con el grupo",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La respuesta debe combinar atención al afectado con trabajo formativo preventivo en el grupo.",
+    "normativeJustification": "La respuesta debe combinar atención al afectado con trabajo formativo preventivo en el grupo.",
+    "theoreticalJustification": "La respuesta debe combinar atención al afectado con trabajo formativo preventivo en el grupo.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 895,
+    "id": "dir-apt-blan-147",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El rector debe comunicar a un docente provisional que su contrato no será renovado por razones presupuestales ajenas a su desempeño. ¿Cuál sería la forma más adecuada de comunicarlo? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Comunicarlo mediante un mensaje escrito sin ninguna reunión previa",
+      "Anunciarlo primero a todo el equipo docente antes que al docente afectado",
+      "Reunirse en privado con el docente, explicar con claridad y respeto las razones de la decisión, y ofrecer la información pertinente sobre el proceso",
+      "Evitar dar explicaciones para no generar más incomodidad"
+    ],
+    "explanation": "Una comunicación clara, respetuosa y en privado es la forma más adecuada de manejar una noticia laboral difícil.",
+    "normativeJustification": "Una comunicación clara, respetuosa y en privado es la forma más adecuada de manejar una noticia laboral difícil.",
+    "theoreticalJustification": "Una comunicación clara, respetuosa y en privado es la forma más adecuada de manejar una noticia laboral difícil.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 896,
+    "id": "dir-apt-blan-148",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un grupo de padres de familia se reúne informalmente a la entrada de la institución para expresar su inconformidad por el estado de la infraestructura. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Acercarse a escuchar sus inquietudes, explicar el estado real de las gestiones realizadas y proponer un espacio formal de seguimiento"
+    ],
+    "explanation": "Escuchar, informar con transparencia y ofrecer seguimiento formal atiende la inquietud sin falsas expectativas.",
+    "normativeJustification": "Escuchar, informar con transparencia y ofrecer seguimiento formal atiende la inquietud sin falsas expectativas.",
+    "theoreticalJustification": "Escuchar, informar con transparencia y ofrecer seguimiento formal atiende la inquietud sin falsas expectativas.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 897,
+    "id": "dir-apt-blan-149",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente solicita al rector un reconocimiento público por un logro obtenido con sus estudiantes. Al concederlo, algunos colegas expresan que sienten que existe favoritismo hacia ese docente. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Mantener criterios claros y conocidos por todos para los reconocimientos institucionales, y explicarlos abiertamente cuando surjan percepciones de inequidad",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La transparencia en los criterios de reconocimiento previene y responde a percepciones de inequidad.",
+    "normativeJustification": "La transparencia en los criterios de reconocimiento previene y responde a percepciones de inequidad.",
+    "theoreticalJustification": "La transparencia en los criterios de reconocimiento previene y responde a percepciones de inequidad.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 898,
+    "id": "dir-apt-blan-150",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente informa al rector que un estudiante le manifestó, en una conversación reciente, pensamientos relacionados con quitarse la vida. ¿Cuál sería la actuación institucional más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Pedirle al docente que maneje la situación por su cuenta, sin involucrar a más personas",
+      "Activar de inmediato la ruta de atención en salud mental de la institución, contactar a la familia y a los profesionales de apoyo psicosocial disponibles, sin minimizar la situación",
+      "Esperar a que el estudiante lo mencione directamente al rector antes de actuar",
+      "Tratar el tema como un asunto exclusivamente disciplinario"
+    ],
+    "explanation": "Ante riesgo de este tipo, la activación inmediata de la ruta y el apoyo profesional es la respuesta apropiada.",
+    "normativeJustification": "Ante riesgo de este tipo, la activación inmediata de la ruta y el apoyo profesional es la respuesta apropiada.",
+    "theoreticalJustification": "Ante riesgo de este tipo, la activación inmediata de la ruta y el apoyo profesional es la respuesta apropiada.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 899,
+    "id": "dir-apt-blan-151",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Se plantea una inquietud, aún sin pruebas contundentes, sobre un posible conflicto de interés de un docente encargado de recibir cotizaciones para una compra institucional. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Revisar el proceso de manera objetiva, solicitar los soportes documentales correspondientes y, si es necesario, reasignar la responsabilidad mientras se aclara la situación",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La verificación objetiva y documentada, con medidas preventivas proporcionales, es la actuación más prudente.",
+    "normativeJustification": "La verificación objetiva y documentada, con medidas preventivas proporcionales, es la actuación más prudente.",
+    "theoreticalJustification": "La verificación objetiva y documentada, con medidas preventivas proporcionales, es la actuación más prudente.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 900,
+    "id": "dir-apt-blan-152",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Al recibir retroalimentación sobre su evaluación de desempeño, un docente reacciona de forma muy defensiva y cuestiona la validez del proceso. ¿Cuál sería la actuación más adecuada del coordinador? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Terminar la conversación de inmediato ante la reacción defensiva",
+      "Retirar la evaluación para evitar el conflicto",
+      "Responder también de forma confrontativa para poner límites",
+      "Escuchar su punto de vista, explicar con claridad los criterios y evidencias utilizados, y mantener la conversación en un tono respetuoso y profesional"
+    ],
+    "explanation": "Mantener la calma, explicar criterios y sostener un diálogo profesional favorece la retroalimentación constructiva.",
+    "normativeJustification": "Mantener la calma, explicar criterios y sostener un diálogo profesional favorece la retroalimentación constructiva.",
+    "theoreticalJustification": "Mantener la calma, explicar criterios y sostener un diálogo profesional favorece la retroalimentación constructiva.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 901,
+    "id": "dir-apt-blan-153",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Una institución obtiene resultados más bajos de lo esperado en las pruebas Saber. El rector debe comunicar esta información a la comunidad educativa. ¿Cuál sería el enfoque más adecuado? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Presentar los resultados con transparencia, contextualizarlos y compartir el plan de acción institucional para atender las áreas de oportunidad identificadas",
+      "Minimizar la difusión de los resultados para evitar preocupación",
+      "Atribuir públicamente la responsabilidad exclusivamente a los docentes de las áreas evaluadas",
+      "Esperar a que la comunidad pregunte directamente por los resultados"
+    ],
+    "explanation": "La transparencia acompañada de un plan de acción concreto fortalece la confianza institucional.",
+    "normativeJustification": "La transparencia acompañada de un plan de acción concreto fortalece la confianza institucional.",
+    "theoreticalJustification": "La transparencia acompañada de un plan de acción concreto fortalece la confianza institucional.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 902,
+    "id": "dir-apt-blan-154",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un grupo de estudiantes de grado once solicita apoyo institucional para organizar una feria de emprendimiento, pero no existe un rubro presupuestal asignado para esta actividad. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Negar la solicitud de inmediato por falta de presupuesto",
+      "Explorar con los estudiantes alternativas de gestión (alianzas, autogestión, apoyo de padres) y orientar el proceso, en lugar de negar la iniciativa de entrada",
+      "Aprobar la actividad sin ningún acompañamiento ni orientación",
+      "Delegar toda la responsabilidad económica en los estudiantes sin ningún apoyo institucional"
+    ],
+    "explanation": "Acompañar la búsqueda de alternativas fomenta la iniciativa sin comprometer recursos inexistentes.",
+    "normativeJustification": "Acompañar la búsqueda de alternativas fomenta la iniciativa sin comprometer recursos inexistentes.",
+    "theoreticalJustification": "Acompañar la búsqueda de alternativas fomenta la iniciativa sin comprometer recursos inexistentes.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 903,
+    "id": "dir-apt-blan-155",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos docentes compiten de forma poco sana por ser reconocidos como 'mejor docente del año', lo que ha generado tensión en el equipo. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Conversar por separado con cada docente sobre el impacto de esta dinámica en el equipo, y reforzar que el reconocimiento no debe entenderse como una competencia entre colegas",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "Abordar la causa de la tensión y reforzar el sentido colaborativo del reconocimiento es más constructivo.",
+    "normativeJustification": "Abordar la causa de la tensión y reforzar el sentido colaborativo del reconocimiento es más constructivo.",
+    "theoreticalJustification": "Abordar la causa de la tensión y reforzar el sentido colaborativo del reconocimiento es más constructivo.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 904,
+    "id": "dir-apt-blan-156",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un padre de familia solicita al rector información confidencial sobre otro estudiante involucrado en un incidente con su hijo. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Compartir toda la información solicitada para ser transparente",
+      "Negarse a dar cualquier información sobre el proceso, incluida la que corresponde a su propio hijo",
+      "Remitirlo directamente a buscar la información por sus propios medios",
+      "Explicarle con respeto que, por razones de confidencialidad y protección de datos de menores, esa información no puede compartirse, y orientarlo sobre lo que sí puede conocer del proceso que involucra a su hijo"
+    ],
+    "explanation": "La confidencialidad de terceros debe protegerse, sin dejar de informar lo que sí le corresponde sobre su hijo.",
+    "normativeJustification": "La confidencialidad de terceros debe protegerse, sin dejar de informar lo que sí le corresponde sobre su hijo.",
+    "theoreticalJustification": "La confidencialidad de terceros debe protegerse, sin dejar de informar lo que sí le corresponde sobre su hijo.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 905,
+    "id": "dir-apt-blan-157",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente en período de prueba muestra un desempeño irregular, y se acerca la fecha límite para la evaluación que definirá su continuidad. ¿Cuál sería la actuación más adecuada del rector? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Realizar un acompañamiento y retroalimentación oportuna antes de la fecha límite, documentando el proceso, para que la decisión final esté sustentada en evidencias claras",
+      "Esperar hasta el último día para informarle sobre su desempeño",
+      "Aprobar su continuidad automáticamente para evitar un proceso incómodo",
+      "Tomar la decisión final sin ningún registro documentado del proceso"
+    ],
+    "explanation": "El acompañamiento oportuno y la documentación del proceso son claves para una decisión justa.",
+    "normativeJustification": "El acompañamiento oportuno y la documentación del proceso son claves para una decisión justa.",
+    "theoreticalJustification": "El acompañamiento oportuno y la documentación del proceso son claves para una decisión justa.",
+    "distractorAnalysis": {
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 906,
+    "id": "dir-apt-blan-158",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Llega a oídos del coordinador un rumor no confirmado sobre una posible situación de acoso entre estudiantes de un mismo curso. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Indagar con discreción y de manera oportuna, sin exponer a los estudiantes involucrados, para verificar si existe una situación real que deba activarse formalmente",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "La indagación discreta y oportuna permite verificar sin exponer innecesariamente a los estudiantes.",
+    "normativeJustification": "La indagación discreta y oportuna permite verificar sin exponer innecesariamente a los estudiantes.",
+    "theoreticalJustification": "La indagación discreta y oportuna permite verificar sin exponer innecesariamente a los estudiantes.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 907,
+    "id": "dir-apt-blan-159",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El rector debe decidir entre dos candidatos internos, igualmente calificados, para ocupar un cargo vacante de coordinación. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Elegir al candidato con quien tenga mejor relación personal",
+      "Dejar la decisión en manos de una votación informal entre los docentes",
+      "Definir y aplicar criterios objetivos adicionales (como experiencia específica, evaluación de desempeño o entrevista estructurada) y comunicar la decisión con transparencia a ambos candidatos",
+      "Aplazar la decisión indefinidamente para evitar el conflicto"
+    ],
+    "explanation": "Aplicar criterios objetivos y comunicar con transparencia fortalece la legitimidad del proceso.",
+    "normativeJustification": "Aplicar criterios objetivos y comunicar con transparencia fortalece la legitimidad del proceso.",
+    "theoreticalJustification": "Aplicar criterios objetivos y comunicar con transparencia fortalece la legitimidad del proceso.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "1": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 908,
+    "id": "dir-apt-blan-160",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "subtopic": "Valoración de competencias blandas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un docente, en medio de una discusión con un estudiante durante la clase, alza la voz de forma notoria frente a todo el grupo. ¿Cuál sería la actuación más adecuada del coordinador al enterarse? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro.",
+      "Conversar en privado con el docente sobre lo ocurrido, revisar la situación con calma, y acordar estrategias para manejar situaciones similares sin perder la calma frente al grupo"
+    ],
+    "explanation": "El abordaje privado y formativo corrige la situación sin exponer públicamente al docente.",
+    "normativeJustification": "El abordaje privado y formativo corrige la situación sin exponer públicamente al docente.",
+    "theoreticalJustification": "El abordaje privado y formativo corrige la situación sin exponer públicamente al docente.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 909,
+    "id": "dir-apt-ges-161",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1860"
+    ],
+    "caseContext": "En un consejo, alguien cita “el decreto de evaluación” y otro “el 1278” como si fueran el único cuerpo. Un abogado de la secretaría aclara que el 1075 de 2015 compiló decretos reglamentarios del sector en un DUR. Piden no confundirlo con una ley de SGP ni con la CNSC.",
+    "stem": "¿Qué es el Decreto 1075 de 2015 en el sector educativo colombiano, según el marco y la evidencia del caso?",
+    "options": [
+      "El Decreto Único Reglamentario del Sector Educación, que compila decretos reglamentarios previos.",
+      "Una ley que crea el Sistema General de Participaciones.",
+      "El decreto que regula exclusivamente la evaluación de estudiantes (SIEE).",
+      "El decreto que crea la Comisión Nacional del Servicio Civil."
+    ],
+    "explanation": "El Decreto 1075 de 2015 es el Decreto Único Reglamentario del Sector Educación.",
+    "normativeJustification": "El Decreto 1075 de 2015 es el Decreto Único Reglamentario del Sector Educación.",
+    "theoreticalJustification": "El Decreto 1075 de 2015 es el Decreto Único Reglamentario del Sector Educación.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 910,
+    "id": "dir-apt-ges-162",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un alcalde de municipio no certificado anuncia que nombrará toda la planta docente “porque el colegio está en su territorio”. El rector duda entre acatar, pedir aval al departamento o esperar al MEN. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "En este anuncio del alcalde de un municipio no certificado, ¿quién administra el servicio educativo en esa jurisdicción?",
+    "options": [
+      "El colegio, si supera 1.000 estudiantes, porque el tamaño equivale a certificación.",
+      "La entidad territorial certificada (departamento, distrito o municipio que asumió la administración del servicio).",
+      "La universidad más cercana con acreditación, por convenio de práctica.",
+      "El colegio privado con convenio, que puede absorber la planta oficial."
+    ],
+    "explanation": "La certificación otorga a departamentos, distritos y ciertos municipios la administración autónoma de la educación.",
+    "normativeJustification": "La certificación otorga a departamentos, distritos y ciertos municipios la administración autónoma de la educación.",
+    "theoreticalJustification": "La certificación otorga a departamentos, distritos y ciertos municipios la administración autónoma de la educación.",
+    "distractorAnalysis": {
+      "0": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "2": "No se sostiene con el texto, la norma o el criterio de actuación adecuado.",
+      "3": "No se sostiene con el texto, la norma o el criterio de actuación adecuado."
+    }
+  },
+  {
+    "pos": 911,
+    "id": "dir-apt-ges-163",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Según el Decreto 1278 de 2002, la evaluación del docente durante el período de prueba tiene como finalidad principal. Un actor propone: “Sustituir la evaluación anual de desempeño de años posteriores”. Otro insiste: “Definir exclusivamente el salario inicial del docente”. Un tercero sugiere: “Reemplazar la valoración de antecedentes del concurso”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Sustituir la evaluación anual de desempeño de años posteriores, aunque ahorre tiempo visible de clase o de consejo.",
+      "Definir exclusivamente el salario inicial del docente, aunque se presente como solución rápida en la reunión.",
+      "Determinar si el docente reúne las condiciones idóneas para continuar en la carrera docente tras superar el concurso de méritos",
+      "Reemplazar la valoración de antecedentes del concurso, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Busca confirmar la idoneidad del docente para su inscripción definitiva en el escalafón.",
+    "normativeJustification": "Busca confirmar la idoneidad del docente para su inscripción definitiva en el escalafón.",
+    "theoreticalJustification": "Busca confirmar la idoneidad del docente para su inscripción definitiva en el escalafón.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 912,
+    "id": "dir-apt-ges-164",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute ¿Cuál de las siguientes es una etapa propia del proceso de selección por concurso de méritos administrado por la CNSC para cargos docentes?. Un actor propone: “La afiliación automática a un sindicato docente”. Otro insiste: “La elección del cargo por votación de la comunidad educativa”. Un tercero sugiere: “La asignación directa sin ningún tipo de evaluación”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "La afiliación automática a un sindicato docente, aunque parezca un trámite equitativo o suficiente.",
+      "La elección del cargo por votación de la comunidad educativa, aunque se presente como solución rápida en la reunión.",
+      "La asignación directa sin ningún tipo de evaluación, aunque ahorre tiempo visible de clase o de consejo.",
+      "La valoración de antecedentes académicos y de experiencia, posterior a la prueba de aptitudes y competencias básicas"
+    ],
+    "explanation": "Tras superar la prueba eliminatoria, se realiza la valoración de antecedentes como parte del puntaje total.",
+    "normativeJustification": "Tras superar la prueba eliminatoria, se realiza la valoración de antecedentes como parte del puntaje total.",
+    "theoreticalJustification": "Tras superar la prueba eliminatoria, se realiza la valoración de antecedentes como parte del puntaje total.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 913,
+    "id": "dir-apt-ges-165",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un elegible pide nombramiento “cuando quiera, porque la lista no vence”. Talento humano cita la regla general de vigencia (habitualmente dos años desde la conformación), salvo que el acto del concurso disponga otra cosa. El rector no puede “guardar” la lista indefinidamente.",
+    "stem": "¿Cuál es, de manera general, la vigencia de las listas de elegibles de un concurso docente?",
+    "options": [
+      "Dos años desde su conformación, salvo disposición distinta en el acto administrativo del concurso.",
+      "Diez años, sin posibilidad de vencimiento, como derecho adquirido absoluto.",
+      "Seis meses únicamente, aunque el acto del concurso fije otro término.",
+      "Vigencia indefinida mientras el elegible conserve el puntaje."
+    ],
+    "explanation": "Las listas de elegibles tienen, por regla general, vigencia limitada (habitualmente dos años).",
+    "normativeJustification": "Las listas de elegibles tienen, por regla general, vigencia limitada (habitualmente dos años).",
+    "theoreticalJustification": "Las listas de elegibles tienen, por regla general, vigencia limitada (habitualmente dos años).",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 914,
+    "id": "dir-apt-ges-166",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "Al revisar el manual, solo hay “prohibiciones y sanciones”. Faltan pautas de comportamiento, debido proceso y rutas de la Ley 1620. El comité pide completar el mínimo normativo, no un código penal escolar.",
+    "stem": "¿Qué debe contener, como mínimo, el manual de convivencia según la normatividad de convivencia escolar?",
+    "options": [
+      "Solo el listado de sanciones y el uniforme, sin rutas ni debido proceso.",
+      "Pautas de comportamiento esperado, debido proceso ante faltas y rutas de atención integral.",
+      "Únicamente el horario de clase y el calendario de izadas de bandera.",
+      "El reglamento interno de trabajo del personal administrativo, como si fuera el mismo documento."
+    ],
+    "explanation": "El manual debe incluir pautas, debido proceso y rutas de atención (Ley 1620 y su reglamentación).",
+    "normativeJustification": "El manual debe incluir pautas, debido proceso y rutas de atención (Ley 1620 y su reglamentación).",
+    "theoreticalJustification": "El manual debe incluir pautas, debido proceso y rutas de atención (Ley 1620 y su reglamentación).",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 915,
+    "id": "dir-apt-ges-167",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620"
+    ],
+    "caseContext": "Quieren usar el manual de convivencia para amonestar a un administrativo por horario laboral. El pagador dice que eso es reglamento interno de trabajo. El comité escolar de convivencia no es el de convivencia laboral.",
+    "stem": "¿Cuál es la diferencia principal entre manual de convivencia y reglamento interno de trabajo?",
+    "options": [
+      "Son el mismo documento con dos carátulas distintas, aunque ahorre tiempo visible de clase o de consejo.",
+      "El reglamento interno de trabajo regula a los estudiantes y el manual al personal, aunque se presente como solución rápida en la reunión.",
+      "El manual regula la relación con estudiantes y comunidad educativa; el RIT, las relaciones laborales del personal.",
+      "El manual de convivencia solo aplica a docentes y no a estudiantes, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Ambos documentos regulan ámbitos distintos: convivencia escolar y relaciones laborales.",
+    "normativeJustification": "Ambos documentos regulan ámbitos distintos: convivencia escolar y relaciones laborales.",
+    "theoreticalJustification": "Ambos documentos regulan ámbitos distintos: convivencia escolar y relaciones laborales.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 916,
+    "id": "dir-apt-ges-168",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Hay un conflicto entre dos docentes por presunto acoso laboral. El rector lo remite al Comité Escolar de Convivencia (estudiantes). Un colega recuerda la Resolución 652 de 2012: el Comité de Convivencia Laboral atiende acoso entre trabajadores.",
+    "stem": "¿Cuál es el propósito principal del Comité de Convivencia Laboral (Res. 652 de 2012)?",
+    "options": [
+      "usar como medida punitiva estudiantes por faltas Tipo I como si fueran acoso laboral.",
+      "Reemplazar al Comité Escolar de Convivencia en todos los casos de aula.",
+      "Adoptar el manual de convivencia institucional en lugar del Consejo Directivo.",
+      "Prevenir y atender situaciones de acoso laboral entre los trabajadores de la institución."
+    ],
+    "explanation": "Es una instancia distinta del Comité Escolar de Convivencia, enfocada en relaciones laborales.",
+    "normativeJustification": "Es una instancia distinta del Comité Escolar de Convivencia, enfocada en relaciones laborales.",
+    "theoreticalJustification": "Es una instancia distinta del Comité Escolar de Convivencia, enfocada en relaciones laborales.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 917,
+    "id": "dir-apt-ges-169",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "Un docente 1278 quiere “subir de grado” solo con años de servicio, sin evaluación de competencias. Otro cita que esa evaluación es el mecanismo de ascenso/reubicación salarial del estatuto. No equivale a ingresar sin concurso.",
+    "stem": "En el Decreto 1278 de 2002, ¿qué permite la evaluación de competencias?",
+    "options": [
+      "Ascender de grado o de nivel salarial dentro del escalafón, según el desempeño demostrado.",
+      "Ingresar a la carrera docente sin concurso de méritos.",
+      "Obtener nombramiento definitivo automático al primer año, sin periodo de prueba.",
+      "Sustituir la evaluación anual de desempeño por un curso corto de actualización."
+    ],
+    "explanation": "Es uno de los mecanismos de ascenso y reubicación salarial del Estatuto de Profesionalización Docente.",
+    "normativeJustification": "Es uno de los mecanismos de ascenso y reubicación salarial del Estatuto de Profesionalización Docente.",
+    "theoreticalJustification": "Es uno de los mecanismos de ascenso y reubicación salarial del Estatuto de Profesionalización Docente.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 918,
+    "id": "dir-apt-ges-170",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En nómina, alguien agrupa a todos los 1278 en “un único nivel por antigüedad”. Talento humano explica grados según título y niveles salariales dentro de cada grado. El rector pide no usar el número de estudiantes a cargo como categoría de escalafón.",
+    "stem": "¿Cómo organiza el escalafón docente del Decreto 1278 de 2002 a los educadores?",
+    "options": [
+      "Solo por antigüedad, sin relación con el título académico.",
+      "En grados (según título académico) y niveles salariales dentro de cada grado.",
+      "En un único nivel salarial para todos los docentes oficiales.",
+      "Por el número de estudiantes a cargo en cada jornada."
+    ],
+    "explanation": "Se organiza en grados asociados a la formación académica y niveles salariales dentro de cada grado.",
+    "normativeJustification": "Se organiza en grados asociados a la formación académica y niveles salariales dentro de cada grado.",
+    "theoreticalJustification": "Se organiza en grados asociados a la formación académica y niveles salariales dentro de cada grado.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 919,
+    "id": "dir-apt-ges-171",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Ingresa un estudiante con discapacidad. El rector dice que el PIAR lo arma “solo orientación”. Un docente de aula sostiene que sin él no hay ajustes en clase. La familia pide ser escuchada. Un médico externo envió un diagnóstico y la secretaría aún no ha visitado la sede. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Exclusivamente el médico especialista, porque el PIAR es un documento clínico, aunque se presente como solución rápida en la reunión.",
+      "Únicamente la Secretaría de Educación, porque la IE no puede ajustar sin visita previa, aunque ahorre tiempo visible de clase o de consejo.",
+      "El docente de aula, con apoyo del docente de apoyo pedagógico y participación de la familia; el diagnóstico informa, no reemplaza el plan de aula.",
+      "Exclusivamente el rector, sin el docente de aula, para unificar el criterio institucional, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Decreto 1421 sitúa el PIAR en la atención educativa del aula: lo lidera el docente con apoyo pedagógico y la familia. El diagnóstico y la secretaría aportan, no sustituyen esa corresponsabilidad.",
+    "normativeJustification": "El Decreto 1421 de 2017 concibe el PIAR como herramienta de la atención educativa, elaborada por el docente de aula con apoyo pedagógico y participación familiar.",
+    "theoreticalJustification": "Los ajustes razonables ocurren en la enseñanza y la evaluación cotidianas; por eso no pueden quedar solo en un dictamen externo ni en un acto administrativo.",
+    "distractorAnalysis": {
+      "0": "Medicaliza el PIAR y lo saca del aula.",
+      "1": "La secretaría apoya el sistema, pero no reemplaza el plan de aula.",
+      "3": "El liderazgo rectoral no elimina la responsabilidad docente sobre los ajustes."
+    }
+  },
+  {
+    "pos": 920,
+    "id": "dir-apt-ges-172",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "Un docente pide tres días de permiso. El rector “autoriza de palabra”. Talento humano de la secretaría aclara que la autorización formal de permisos y licencias corresponde a la entidad territorial certificada, más allá del reporte inicial al rector.",
+    "stem": "¿Quién tiene la competencia para autorizar formalmente permisos y licencias de un docente oficial?",
+    "options": [
+      "Exclusivamente el Consejo Directivo, como si fuera un acto de gobierno escolar, aunque se presente como solución rápida en la reunión.",
+      "La asociación de padres, porque “paga impuestos”, aunque parezca un trámite equitativo o suficiente.",
+      "El Consejo Académico, por ser órgano consultivo del currículo, aunque parezca un trámite equitativo o suficiente.",
+      "La entidad territorial certificada, a través de la dependencia de talento humano de la Secretaría de Educación."
+    ],
+    "explanation": "La autorización formal corresponde a la entidad territorial certificada (talento humano).",
+    "normativeJustification": "La autorización formal corresponde a la entidad territorial certificada (talento humano).",
+    "theoreticalJustification": "La autorización formal corresponde a la entidad territorial certificada (talento humano).",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 921,
+    "id": "dir-apt-ges-173",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Proponen “reemplazar la jornada regular por solo danza y fútbol”. El rector aclara que la Jornada Escolar Complementaria suma arte, deporte o cultura en horario adicional, sin sustituir el plan de estudios ni el PAE.",
+    "stem": "¿Qué caracteriza a la Jornada Escolar Complementaria promovida por el MEN?",
+    "options": [
+      "Ofrecer actividades extracurriculares (deportivas, artísticas o culturales) en horario adicional a la jornada regular.",
+      "Reemplazar por completo la jornada académica regular, aunque se presente como solución rápida en la reunión.",
+      "Ser obligatoria únicamente para grado once como requisito de grado, aunque ahorre tiempo visible de clase o de consejo.",
+      "Sustituir el Programa de Alimentación Escolar, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Complementa, sin reemplazar, la jornada académica regular con actividades extracurriculares.",
+    "normativeJustification": "Complementa, sin reemplazar, la jornada académica regular con actividades extracurriculares.",
+    "theoreticalJustification": "Complementa, sin reemplazar, la jornada académica regular con actividades extracurriculares.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 922,
+    "id": "dir-apt-ges-174",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El calendario marca Día E. Un sector pide “día recreativo sin clases ni análisis”. El equipo de calidad quiere reflexionar el ISCE y ajustar el PMI. No es evaluación de directivos ni reemplazo de las semanas de desarrollo institucional.",
+    "stem": "En esa jornada del calendario, ¿cuál es el propósito principal del Día E promovido por el MEN?",
+    "options": [
+      "Suspender clases para actividades exclusivamente recreativas, sin análisis de resultados.",
+      "Dedicar una jornada a la reflexión pedagógica sobre el ISCE y la construcción de planes de mejoramiento.",
+      "Evaluar únicamente el desempeño de los directivos docentes, como si fuera un acto de personal.",
+      "Reemplazar la semana de desarrollo institucional y la autoevaluación anual de la Guía 34."
+    ],
+    "explanation": "El Día E se dedica a la reflexión institucional sobre el ISCE y la planeación de mejoras.",
+    "normativeJustification": "El Día E se dedica a la reflexión institucional sobre el ISCE y la planeación de mejoras.",
+    "theoreticalJustification": "El Día E se dedica a la reflexión institucional sobre el ISCE y la planeación de mejoras.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 923,
+    "id": "dir-apt-ges-175",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En semana de desarrollo institucional, familias exigen “clases normales”. Un docente pide usarla para planeación, autoevaluación y formación, sin atención directa a estudiantes. No es semana de pruebas Saber ni de recreación estudiantil.",
+    "stem": "¿A qué están destinadas principalmente las Semanas de Desarrollo Institucional del calendario?",
+    "options": [
+      "Actividades exclusivamente recreativas para estudiantes, aunque se presente como solución rápida en la reunión.",
+      "Aplicar pruebas Saber a todos los grados, aunque ahorre tiempo visible de clase o de consejo.",
+      "Planeación, evaluación institucional y capacitación docente, sin atención directa a estudiantes.",
+      "Sustituir el Día E y la rendición de cuentas a la comunidad, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Se destinan a planeación, evaluación y desarrollo profesional docente, no a atención directa de estudiantes.",
+    "normativeJustification": "Se destinan a planeación, evaluación y desarrollo profesional docente, no a atención directa de estudiantes.",
+    "theoreticalJustification": "Se destinan a planeación, evaluación y desarrollo profesional docente, no a atención directa de estudiantes.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 924,
+    "id": "dir-apt-ges-176",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "Un rector publica “su” calendario (vacaciones distintas a las de la secretaría). El Consejo Directivo cree que le corresponde. La ETC recuerda que el calendario de IE oficiales lo define la secretaría, dentro de parámetros del MEN.",
+    "stem": "¿Quién define el calendario académico de las IE oficiales de un municipio certificado?",
+    "options": [
+      "Cada rector, de manera independiente para su sede, aunque parezca un trámite equitativo o suficiente.",
+      "El Consejo Directivo de cada institución, como acto de autonomía plena, aunque ahorre tiempo visible de clase o de consejo.",
+      "La Comisión Nacional del Servicio Civil, aunque ahorre tiempo visible de clase o de consejo.",
+      "La Secretaría de Educación de la entidad territorial certificada, dentro de los parámetros generales del MEN."
+    ],
+    "explanation": "Lo define la entidad territorial certificada, respetando lineamientos generales del MEN.",
+    "normativeJustification": "Lo define la entidad territorial certificada, respetando lineamientos generales del MEN.",
+    "theoreticalJustification": "Lo define la entidad territorial certificada, respetando lineamientos generales del MEN.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 925,
+    "id": "dir-apt-ges-177",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Una familia pide traslado “con una carta al rector de origen”. El rector de destino dice que “si hay cupo, él decide solo”. La secretaría indica que el traslado entre oficiales del mismo municipio certificado se gestiona por el sistema de matrícula, con las IE involucradas.",
+    "stem": "En este pedido de cambio de IE oficial, ¿a quién corresponde principalmente autorizar el traslado?",
+    "options": [
+      "A la Secretaría de Educación municipal, mediante su sistema de matrícula, con la gestión de las instituciones involucradas.",
+      "Exclusivamente al rector de origen, sin registro en el sistema de matrícula de la entidad territorial.",
+      "Al personero estudiantil, como si el traslado fuera un derecho que él autoriza por representación.",
+      "Al Consejo Académico, por ser órgano consultivo del plan de estudios y no de matrícula."
+    ],
+    "explanation": "Los traslados se gestionan vía sistema de matrícula de la Secretaría, con participación de las IE.",
+    "normativeJustification": "Los traslados se gestionan vía sistema de matrícula de la Secretaría, con participación de las IE.",
+    "theoreticalJustification": "Los traslados se gestionan vía sistema de matrícula de la Secretaría, con participación de las IE.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 926,
+    "id": "dir-apt-ges-178",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un docente y un coordinador discuten una orden de servicio. El docente quiere ir mañana a un noticiero. El coordinador propone agotar diálogo interno y, si hay acoso, el Comité de Convivencia Laboral, antes de instancias externas.",
+    "stem": "Ante un desacuerdo administrativo persistente, ¿cuál vía institucional es la más apropiada antes de escalar afuera?",
+    "options": [
+      "Acudir de inmediato a medios de comunicación, sin registro interno, aunque se presente como solución rápida en la reunión.",
+      "Agotar espacios internos de diálogo y, si es pertinente, el Comité de Convivencia Laboral, antes de instancias externas.",
+      "Imponer la orden por chat, sin acta ni derecho de defensa, aunque ahorre tiempo visible de clase o de consejo.",
+      "Delegar el conflicto a las familias del curso, para “que presionen”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Agotar instancias internas de diálogo y conciliación es el camino institucional apropiado.",
+    "normativeJustification": "Agotar instancias internas de diálogo y conciliación es el camino institucional apropiado.",
+    "theoreticalJustification": "Agotar instancias internas de diálogo y conciliación es el camino institucional apropiado.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 927,
+    "id": "dir-apt-ges-179",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "En una vereda sin oferta oficial suficiente, proponen “un acuerdo verbal con un colegio privado” o “cerrar lo oficial”. La secretaría recuerda que la contratación del servicio con particulares tiene marco de calidad, cobertura y supervisión, no un trato de palabra del rector.",
+    "stem": "Cuando la oferta oficial no alcanza, ¿qué rige principalmente esa contratación del servicio educativo?",
+    "options": [
+      "La libre decisión de cada familia, sin marco de calidad, cobertura ni supervisión estatal.",
+      "La eliminación total de la educación oficial en esa zona, como si el contrato sustituyera al Estado.",
+      "La normatividad que regula la prestación por particulares mediante contrato con el Estado, sujeta a calidad y cobertura.",
+      "Un acuerdo exclusivamente verbal entre el rector y el particular, sin acto de la entidad territorial."
+    ],
+    "explanation": "Está sujeta a un marco normativo de calidad, cobertura y supervisión.",
+    "normativeJustification": "Está sujeta a un marco normativo de calidad, cobertura y supervisión.",
+    "theoreticalJustification": "Está sujeta a un marco normativo de calidad, cobertura y supervisión.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 928,
+    "id": "dir-apt-ges-180",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El rector considera la rendición de cuentas “un acto estético de fin de año”. El Consejo Directivo pide informar uso de recursos y avances del PMI a la comunidad. No sustituye al Consejo Directivo ni a la autoevaluación anual; las complementa.",
+    "stem": "¿Por qué es importante que una IE oficial rinda cuentas a la comunidad educativa?",
+    "options": [
+      "Porque es un requisito exclusivamente estético, sin efecto práctico, aunque parezca un trámite equitativo o suficiente.",
+      "Porque reemplaza la necesidad de un Consejo Directivo, aunque se presente como solución rápida en la reunión.",
+      "Porque sustituye la autoevaluación institucional anual, aunque se presente como solución rápida en la reunión.",
+      "Porque fortalece la transparencia en el uso de recursos públicos y la participación en el seguimiento a la gestión."
+    ],
+    "explanation": "Fortalece transparencia y participación comunitaria en el seguimiento de la gestión.",
+    "normativeJustification": "Fortalece transparencia y participación comunitaria en el seguimiento de la gestión.",
+    "theoreticalJustification": "Fortalece transparencia y participación comunitaria en el seguimiento de la gestión.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 929,
+    "id": "dir-apt-ped-181",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un “trabajo en grupo” es competencia por nota. Un docente de Johnson y Johnson diseña interdependencia positiva: el éxito de cada uno depende del trabajo conjunto, con responsabilidad individual.",
+    "stem": "Según Johnson y Johnson, ¿cuál es un elemento esencial del aprendizaje cooperativo?",
+    "options": [
+      "La interdependencia positiva, donde el éxito de cada integrante depende del trabajo conjunto.",
+      "La competencia individual entre integrantes como motor único.",
+      "La evaluación solo grupal, sin ninguna responsabilidad individual.",
+      "La ausencia de roles y de meta común."
+    ],
+    "explanation": "La interdependencia positiva es uno de los cinco elementos básicos del aprendizaje cooperativo.",
+    "normativeJustification": "La interdependencia positiva es uno de los cinco elementos básicos del aprendizaje cooperativo.",
+    "theoreticalJustification": "La interdependencia positiva es uno de los cinco elementos básicos del aprendizaje cooperativo.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 930,
+    "id": "dir-apt-ped-182",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "vygotsky",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "vygotsky"
+    ],
+    "caseContext": "En 4°, un estudiante no resuelve restas con dificultad de forma autónoma. Con la guía de un compañero que ya las comprende y con pistas decrecientes del docente, llega al procedimiento. Coordinación pide “evaluación estrictamente individual, sin ayudas”, para que el boletín sea comparable.",
+    "stem": "Si el propósito es el aprendizaje (no solo certificar), ¿qué decisión articula la Zona de Desarrollo Próximo con una evaluación formativa?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Diseñar andamiaje (pares y pistas) en la zona entre lo que ya hace solo y lo que logra con ayuda, y evaluar el progreso hacia la autonomía con retirada gradual.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Vygotsky define la ZDP como la distancia entre el desempeño autónomo y el que se alcanza con mediación. El Decreto 1290 orienta evaluación formativa que reconoce ritmos y consolida aprendizajes; el andamiaje con retirada gradual materializa ambas ideas.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación formativa que reconoce ritmos e intereses para consolidar aprendizajes, no solo certificar en aislamiento.",
+    "theoreticalJustification": "La ZDP no es “el máximo sin ayuda” ni un tiempo de clase: es la distancia entre lo autónomo y lo mediado. El andamiaje opera en esa distancia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "pos": 907,
+    "id": "dir-apt-blan-159",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: El rector debe decidir entre dos candidatos internos, igualmente calificados, para ocupar un cargo vacante de coordinación. ¿Cuál sería la actuación más adecuada? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Priorizar al candidato interno que ya reemplaza de hecho la coordinación vacante, para no interrumpir el servicio ni desmontar los acuerdos de la jornada, y explicar al otro que el encargo existente resolvió el empate de calificaciones.",
+      "Aplicar una encuesta anónima al equipo docente sobre cuál de los dos candidatos internos genera mejor clima, y adoptar el resultado como criterio de legitimidad para cubrir la coordinación vacante entre igualmente calificados.",
+      "Definir y aplicar criterios objetivos adicionales —experiencia específica, evaluación de desempeño o entrevista estructurada— y comunicar la decisión con transparencia a ambos candidatos internos igualmente calificados para la coordinación.",
+      "Rotar el encargo de coordinación mes a mes entre los dos candidatos internos hasta que baje la tensión del equipo, y dejar la vacante en interinidad mientras el clima laboral se estabiliza y cesa la comparación."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente al decidir entre dos candidatos internos igualmente calificados para la coordinación vacante. Criterios objetivos adicionales —experiencia específica, desempeño, entrevista estructurada— y comunicación transparente a ambos dan legitimidad al empate. Priorizar a quien ya reemplaza de hecho cuida la continuidad del servicio y convierte el encargo informal en ventaja indebida. La encuesta anónima al equipo plebiscita el clima y no evalúa méritos del cargo. Rotar el encargo mes a mes hasta que baje la tensión dilata la provisión y trata la vacante como termómetro laboral.",
+    "distractorAnalysis": {
+      "0": "Trampa de la continuidad del servicio: priorizar a quien ya reemplaza de hecho la coordinación parece no interrumpir la jornada. Convierte el encargo informal en ventaja y deja al otro candidato interno sin criterios objetivos ante el empate.",
+      "1": "Trampa de la encuesta de clima: el voto anónimo del equipo parece legitimidad y cuida el ambiente. Plebiscita simpatías y no aplica experiencia específica, desempeño ni entrevista estructurada al cargo vacante.",
+      "3": "Trampa de dominio cruzado de dilación por clima: rotar el encargo mes a mes hasta que baje la tensión luce como cuidado del equipo. Dilata la provisión de la coordinación y trata la vacante como termómetro laboral, no como decisión de mérito."
+    }
+  },
+  {
+    "pos": 928,
+    "id": "dir-apt-ges-180",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "El rector considera la rendición de cuentas “un acto estético de fin de año”. El Consejo Directivo pide informar uso de recursos y avances del PMI a la comunidad. No sustituye al Consejo Directivo ni a la autoevaluación anual; las complementa.",
+    "stem": "¿Por qué es importante que una IE oficial rinda cuentas a la comunidad educativa?",
+    "options": [
+      "Presentar un informe estético de logros de fin de año, sin cifras de ejecución ni avances del PMI, como acto de imagen ante la comunidad y no como seguimiento al uso de recursos públicos de la institución.",
+      "Usar la rendición de cuentas como sesión que reemplaza al Consejo Directivo en la aprobación del presupuesto, de modo que la asamblea de comunidad vote el gasto y el órgano de gobierno escolar quede sin esa función.",
+      "Hacer que el informe de rendición sustituya la autoevaluación institucional anual de la Guía 34, unificando transparencia y mejoramiento en un documento de fin de año y omitiendo el proceso de gestión de calidad.",
+      "Rendir cuentas para fortalecer la transparencia en el uso de recursos públicos y la participación de la comunidad educativa en el seguimiento a la gestión, complementando al Consejo Directivo y a la autoevaluación anual, sin sustituirlos."
+    ],
+    "explanation": "La condición de calidad pregunta por qué es importante que una institución educativa oficial rinda cuentas a la comunidad. Fortalece la transparencia en el uso de recursos públicos y la participación en el seguimiento a la gestión. Un informe estético de fin de año, sin cifras de ejecución, es imagen y no rendición. Reemplazar al Consejo Directivo en la aprobación del presupuesto confunde información con gobierno. Sustituir la autoevaluación de la Guía 34 mezcla transparencia con el ciclo de calidad. La rendición complementa esos dispositivos, no los reemplaza.",
+    "distractorAnalysis": {
+      "0": "Trampa del informe estético: un balance de logros sin cifras parece el acto de fin de año que el rector considera suficiente. Omite ejecución y PMI; no fortalece transparencia ni participación en el seguimiento.",
+      "1": "Trampa de reemplazar al Directivo: que la asamblea vote el presupuesto parece participación plena. Confunde rendición con gobierno escolar; el Consejo Directivo no cede esa función al informe de cuentas.",
+      "2": "Trampa de dominio cruzado de la Guía 34: unificar rendición y autoevaluación en un documento de cierre parece ciclo de calidad completo. La Guía 34 no se agota en el informe a la comunidad; la rendición no la sustituye."
+    }
+  },
+  {
+    "pos": 920,
+    "id": "dir-apt-ges-172",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "Un docente pide tres días de permiso. El rector “autoriza de palabra”. Talento humano de la secretaría aclara que la autorización formal de permisos y licencias corresponde a la entidad territorial certificada, más allá del reporte inicial al rector.",
+    "stem": "¿Quién tiene la competencia para autorizar formalmente permisos y licencias de un docente oficial?",
+    "options": [
+      "Atribuir la autorización formal al Consejo Directivo, como acto de gobierno escolar, de modo que el permiso de tres días quede resuelto en esa instancia y no en talento humano de la secretaría.",
+      "Dejar la autorización formal del permiso de tres días en la asociación de padres, como instancia de participación que vigila el uso del tiempo de la planta docente y el servicio que las familias sostienen.",
+      "Atribuir la autorización al Consejo Académico, por ser órgano consultivo del plan de estudios, de modo que el permiso se valore según el impacto curricular de los tres días de ausencia.",
+      "Reservar la autorización formal a la entidad territorial certificada, a través de la dependencia de talento humano de la Secretaría de Educación, más allá del reporte inicial al rector."
+    ],
+    "explanation": "La condición de calidad pregunta quién tiene la competencia para autorizar formalmente permisos y licencias de un docente oficial. Esa autorización corresponde a la entidad territorial certificada, a través de talento humano de la Secretaría de Educación. El reporte al rector no equivale al acto formal del permiso de tres días. El Consejo Directivo no resuelve esa ausencia como gobierno escolar. El Consejo Académico asesora el plan de estudios y no otorga licencias.",
+    "distractorAnalysis": {
+      "0": "Trampa de gobierno escolar: autorizar en el Consejo Directivo parece un acto institucional sólido frente al permiso de palabra del rector. Esa instancia no administra la planta; el acto formal es de la ETC.",
+      "1": "Trampa de la veeduría de padres: dejar el permiso en la asociación parece control social del tiempo docente. La participación familiar no sustituye la competencia de talento humano de la secretaría.",
+      "2": "Trampa de dominio cruzado curricular: el Consejo Académico, como órgano consultivo del plan de estudios, parece la instancia idónea para pesar los tres días de ausencia. El stem pide quién autoriza formalmente el permiso, no quién asesora el currículo."
+    }
+  },
+  {
+    "pos": 910,
+    "id": "dir-apt-ges-162",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Un alcalde de municipio no certificado anuncia que nombrará toda la planta docente “porque el colegio está en su territorio”. El rector duda entre acatar, pedir aval al departamento o esperar al MEN. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "En este anuncio del alcalde de un municipio no certificado, ¿quién administra el servicio educativo en esa jurisdicción?",
+    "options": [
+      "Que el colegio administre el servicio y la planta si supera mil estudiantes, porque ese tamaño equivaldría a certificación y respaldaría el anuncio del alcalde de nombrar docentes por estar el establecimiento en su territorio.",
+      "Que administre el servicio la entidad territorial certificada: el departamento, en este municipio no certificado, o un distrito o municipio que sí haya asumido la administración, y no el alcalde por el hecho de que el colegio esté en su territorio.",
+      "Que administre el servicio la universidad más cercana con acreditación de alta calidad, mediante un convenio de práctica docente, para que el anuncio del alcalde quede mediado por un referente de excelencia y no por la disputa territorial.",
+      "Que el colegio privado con convenio absorba la planta oficial de la institución, de modo que el alcalde del municipio no certificado no nombre docentes y la cobertura quede a cargo del particular aliado."
+    ],
+    "explanation": "La condición de calidad pregunta quién administra el servicio educativo en la jurisdicción del alcalde de un municipio no certificado. La administración corresponde a la entidad territorial certificada: en este caso el departamento, y no el municipio por el mero hecho de que el colegio esté en su territorio. Superar mil estudiantes no equivale a certificación ni autoriza al colegio a nombrar la planta que el alcalde anuncia. La universidad acreditada más cercana puede convenir prácticas, pero no administra el servicio oficial. El colegio privado con convenio no absorbe la planta oficial ni sustituye a la ETC en la cobertura.",
+    "distractorAnalysis": {
+      "0": "Trampa del tamaño como certificación: si el colegio supera mil estudiantes parece que ya administra y respalda al alcalde. El umbral de matrícula no certifica al municipio ni transfiere la planta al establecimiento.",
+      "2": "Trampa de dominio cruzado de calidad: la universidad acreditada con convenio de práctica luce como referente de excelencia. No administra el servicio educativo oficial en un municipio no certificado ni sustituye a la ETC.",
+      "3": "Trampa del convenio de cobertura: que el privado absorba la planta oficial parece resolver el anuncio del alcalde. El convenio no sustituye a la ETC ni habilita al particular a tomar la planta del colegio oficial."
+    }
+  },
+  {
+    "pos": 923,
+    "id": "dir-apt-ges-175",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "caseContext": "En semana de desarrollo institucional, familias exigen “clases normales”. Un docente pide usarla para planeación, autoevaluación y formación, sin atención directa a estudiantes. No es semana de pruebas Saber ni de recreación estudiantil.",
+    "stem": "¿A qué están destinadas principalmente las Semanas de Desarrollo Institucional del calendario?",
+    "options": [
+      "Responder a las familias con un día de convivencia estudiantil sin planeación ni formación docente, manteniendo a los estudiantes en la sede durante la Semana de Desarrollo Institucional como si fuera clase regular.",
+      "Aplicar pruebas tipo Saber a todos los grados durante la Semana de Desarrollo Institucional, para aprovechar el calendario sin clase regular y producir evidencia comparable de calidad ante el ICFES y el tablero de resultados.",
+      "Destinar las Semanas de Desarrollo Institucional a la planeación, la evaluación institucional y la capacitación docente, sin atención directa a estudiantes, como propone el docente frente a la exigencia de clases normales.",
+      "Sustituir el Día E y la rendición de cuentas a la comunidad por las Semanas de Desarrollo Institucional, argumentando que la formación interna ya cubre la reflexión del ISCE y el informe público de gestión."
+    ],
+    "explanation": "La condición de calidad pregunta a qué están destinadas principalmente las Semanas de Desarrollo Institucional del calendario. Se destinan a planeación, evaluación institucional y capacitación docente, sin atención directa a estudiantes. Un día de convivencia estudiantil sin planeación cede a la presión de las familias y niega el tiempo de formación. Aplicar pruebas Saber a todos los grados usa el calendario como ventana del ICFES, no como desarrollo institucional. Sustituir el Día E y la rendición de cuentas mezcla tres dispositivos de calidad. La decisión defendible es formar al equipo sin clase, como propone el docente.",
+    "distractorAnalysis": {
+      "0": "Trampa de la convivencia estudiantil: mantener a los estudiantes en la sede parece atender a las familias que exigen clases normales. Convierte la semana en atención directa y niega planeación y formación docente.",
+      "1": "Trampa de dominio cruzado de las pruebas Saber: aplicar ICFES a todos los grados aprovecha el calendario sin clase y produce evidencia comparable. No es la destinación de las SDI, que son planeación y capacitación sin estudiantes.",
+      "3": "Trampa de sustituir Día E y rendición: la formación interna parece cubrir ISCE e informe público. El calendario distingue esos dispositivos; las SDI no los reemplazan."
+    }
+  }
+]

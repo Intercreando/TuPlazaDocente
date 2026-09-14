@@ -1,0 +1,343 @@
+[
+  {
+    "pos": 921,
+    "id": "dir-apt-ges-173",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Proponen “reemplazar la jornada regular por solo danza y fútbol”. El rector aclara que la Jornada Escolar Complementaria suma arte, deporte o cultura en horario adicional, sin sustituir el plan de estudios ni el PAE.",
+    "stem": "¿Qué caracteriza a la Jornada Escolar Complementaria promovida por el MEN?",
+    "options": [
+      "Ofrecer actividades extracurriculares (deportivas, artísticas o culturales) en horario adicional a la jornada regular.",
+      "Reemplazar por completo la jornada académica regular, aunque se presente como solución rápida en la reunión.",
+      "Ser obligatoria únicamente para grado once como requisito de grado, aunque ahorre tiempo visible de clase o de consejo.",
+      "Sustituir el Programa de Alimentación Escolar, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Complementa, sin reemplazar, la jornada académica regular con actividades extracurriculares.",
+    "normativeJustification": "Complementa, sin reemplazar, la jornada académica regular con actividades extracurriculares.",
+    "theoreticalJustification": "Complementa, sin reemplazar, la jornada académica regular con actividades extracurriculares.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 922,
+    "id": "dir-apt-ges-174",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El calendario marca Día E. Un sector pide “día recreativo sin clases ni análisis”. El equipo de calidad quiere reflexionar el ISCE y ajustar el PMI. No es evaluación de directivos ni reemplazo de las semanas de desarrollo institucional.",
+    "stem": "En esa jornada del calendario, ¿cuál es el propósito principal del Día E promovido por el MEN?",
+    "options": [
+      "Suspender clases para actividades exclusivamente recreativas, sin análisis de resultados.",
+      "Dedicar una jornada a la reflexión pedagógica sobre el ISCE y la construcción de planes de mejoramiento.",
+      "Evaluar únicamente el desempeño de los directivos docentes, como si fuera un acto de personal.",
+      "Reemplazar la semana de desarrollo institucional y la autoevaluación anual de la Guía 34."
+    ],
+    "explanation": "El Día E se dedica a la reflexión institucional sobre el ISCE y la planeación de mejoras.",
+    "normativeJustification": "El Día E se dedica a la reflexión institucional sobre el ISCE y la planeación de mejoras.",
+    "theoreticalJustification": "El Día E se dedica a la reflexión institucional sobre el ISCE y la planeación de mejoras.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 923,
+    "id": "dir-apt-ges-175",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En semana de desarrollo institucional, familias exigen “clases normales”. Un docente pide usarla para planeación, autoevaluación y formación, sin atención directa a estudiantes. No es semana de pruebas Saber ni de recreación estudiantil.",
+    "stem": "¿A qué están destinadas principalmente las Semanas de Desarrollo Institucional del calendario?",
+    "options": [
+      "Actividades exclusivamente recreativas para estudiantes, aunque se presente como solución rápida en la reunión.",
+      "Aplicar pruebas Saber a todos los grados, aunque ahorre tiempo visible de clase o de consejo.",
+      "Planeación, evaluación institucional y capacitación docente, sin atención directa a estudiantes.",
+      "Sustituir el Día E y la rendición de cuentas a la comunidad, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "Se destinan a planeación, evaluación y desarrollo profesional docente, no a atención directa de estudiantes.",
+    "normativeJustification": "Se destinan a planeación, evaluación y desarrollo profesional docente, no a atención directa de estudiantes.",
+    "theoreticalJustification": "Se destinan a planeación, evaluación y desarrollo profesional docente, no a atención directa de estudiantes.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 924,
+    "id": "dir-apt-ges-176",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "Un rector publica “su” calendario (vacaciones distintas a las de la secretaría). El Consejo Directivo cree que le corresponde. La ETC recuerda que el calendario de IE oficiales lo define la secretaría, dentro de parámetros del MEN.",
+    "stem": "¿Quién define el calendario académico de las IE oficiales de un municipio certificado?",
+    "options": [
+      "Cada rector, de manera independiente para su sede, aunque parezca un trámite equitativo o suficiente.",
+      "El Consejo Directivo de cada institución, como acto de autonomía plena, aunque ahorre tiempo visible de clase o de consejo.",
+      "La Comisión Nacional del Servicio Civil, aunque ahorre tiempo visible de clase o de consejo.",
+      "La Secretaría de Educación de la entidad territorial certificada, dentro de los parámetros generales del MEN."
+    ],
+    "explanation": "Lo define la entidad territorial certificada, respetando lineamientos generales del MEN.",
+    "normativeJustification": "Lo define la entidad territorial certificada, respetando lineamientos generales del MEN.",
+    "theoreticalJustification": "Lo define la entidad territorial certificada, respetando lineamientos generales del MEN.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 925,
+    "id": "dir-apt-ges-177",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Una familia pide traslado “con una carta al rector de origen”. El rector de destino dice que “si hay cupo, él decide solo”. La secretaría indica que el traslado entre oficiales del mismo municipio certificado se gestiona por el sistema de matrícula, con las IE involucradas.",
+    "stem": "En este pedido de cambio de IE oficial, ¿a quién corresponde principalmente autorizar el traslado?",
+    "options": [
+      "A la Secretaría de Educación municipal, mediante su sistema de matrícula, con la gestión de las instituciones involucradas.",
+      "Exclusivamente al rector de origen, sin registro en el sistema de matrícula de la entidad territorial.",
+      "Al personero estudiantil, como si el traslado fuera un derecho que él autoriza por representación.",
+      "Al Consejo Académico, por ser órgano consultivo del plan de estudios y no de matrícula."
+    ],
+    "explanation": "Los traslados se gestionan vía sistema de matrícula de la Secretaría, con participación de las IE.",
+    "normativeJustification": "Los traslados se gestionan vía sistema de matrícula de la Secretaría, con participación de las IE.",
+    "theoreticalJustification": "Los traslados se gestionan vía sistema de matrícula de la Secretaría, con participación de las IE.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 926,
+    "id": "dir-apt-ges-178",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un docente y un coordinador discuten una orden de servicio. El docente quiere ir mañana a un noticiero. El coordinador propone agotar diálogo interno y, si hay acoso, el Comité de Convivencia Laboral, antes de instancias externas.",
+    "stem": "Ante un desacuerdo administrativo persistente, ¿cuál vía institucional es la más apropiada antes de escalar afuera?",
+    "options": [
+      "Acudir de inmediato a medios de comunicación, sin registro interno, aunque se presente como solución rápida en la reunión.",
+      "Agotar espacios internos de diálogo y, si es pertinente, el Comité de Convivencia Laboral, antes de instancias externas.",
+      "Imponer la orden por chat, sin acta ni derecho de defensa, aunque ahorre tiempo visible de clase o de consejo.",
+      "Delegar el conflicto a las familias del curso, para “que presionen”, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Agotar instancias internas de diálogo y conciliación es el camino institucional apropiado.",
+    "normativeJustification": "Agotar instancias internas de diálogo y conciliación es el camino institucional apropiado.",
+    "theoreticalJustification": "Agotar instancias internas de diálogo y conciliación es el camino institucional apropiado.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 927,
+    "id": "dir-apt-ges-179",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115"
+    ],
+    "caseContext": "En una vereda sin oferta oficial suficiente, proponen “un acuerdo verbal con un colegio privado” o “cerrar lo oficial”. La secretaría recuerda que la contratación del servicio con particulares tiene marco de calidad, cobertura y supervisión, no un trato de palabra del rector.",
+    "stem": "Cuando la oferta oficial no alcanza, ¿qué rige principalmente esa contratación del servicio educativo?",
+    "options": [
+      "La libre decisión de cada familia, sin marco de calidad, cobertura ni supervisión estatal.",
+      "La eliminación total de la educación oficial en esa zona, como si el contrato sustituyera al Estado.",
+      "La normatividad que regula la prestación por particulares mediante contrato con el Estado, sujeta a calidad y cobertura.",
+      "Un acuerdo exclusivamente verbal entre el rector y el particular, sin acto de la entidad territorial."
+    ],
+    "explanation": "Está sujeta a un marco normativo de calidad, cobertura y supervisión.",
+    "normativeJustification": "Está sujeta a un marco normativo de calidad, cobertura y supervisión.",
+    "theoreticalJustification": "Está sujeta a un marco normativo de calidad, cobertura y supervisión.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 928,
+    "id": "dir-apt-ges-180",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "El rector considera la rendición de cuentas “un acto estético de fin de año”. El Consejo Directivo pide informar uso de recursos y avances del PMI a la comunidad. No sustituye al Consejo Directivo ni a la autoevaluación anual; las complementa.",
+    "stem": "¿Por qué es importante que una IE oficial rinda cuentas a la comunidad educativa?",
+    "options": [
+      "Porque es un requisito exclusivamente estético, sin efecto práctico, aunque parezca un trámite equitativo o suficiente.",
+      "Porque reemplaza la necesidad de un Consejo Directivo, aunque se presente como solución rápida en la reunión.",
+      "Porque sustituye la autoevaluación institucional anual, aunque se presente como solución rápida en la reunión.",
+      "Porque fortalece la transparencia en el uso de recursos públicos y la participación en el seguimiento a la gestión."
+    ],
+    "explanation": "Fortalece transparencia y participación comunitaria en el seguimiento de la gestión.",
+    "normativeJustification": "Fortalece transparencia y participación comunitaria en el seguimiento de la gestión.",
+    "theoreticalJustification": "Fortalece transparencia y participación comunitaria en el seguimiento de la gestión.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 929,
+    "id": "dir-apt-ped-181",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un “trabajo en grupo” es competencia por nota. Un docente de Johnson y Johnson diseña interdependencia positiva: el éxito de cada uno depende del trabajo conjunto, con responsabilidad individual.",
+    "stem": "Según Johnson y Johnson, ¿cuál es un elemento esencial del aprendizaje cooperativo?",
+    "options": [
+      "La interdependencia positiva, donde el éxito de cada integrante depende del trabajo conjunto.",
+      "La competencia individual entre integrantes como motor único.",
+      "La evaluación solo grupal, sin ninguna responsabilidad individual.",
+      "La ausencia de roles y de meta común."
+    ],
+    "explanation": "La interdependencia positiva es uno de los cinco elementos básicos del aprendizaje cooperativo.",
+    "normativeJustification": "La interdependencia positiva es uno de los cinco elementos básicos del aprendizaje cooperativo.",
+    "theoreticalJustification": "La interdependencia positiva es uno de los cinco elementos básicos del aprendizaje cooperativo.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 930,
+    "id": "dir-apt-ped-182",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Competencias pedagógicas · Directivo (ola 2)",
+    "subtopic": "Competencias pedagógicas · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "vygotsky",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "vygotsky"
+    ],
+    "caseContext": "En 4°, un estudiante no resuelve restas con dificultad de forma autónoma. Con la guía de un compañero que ya las comprende y con pistas decrecientes del docente, llega al procedimiento. Coordinación pide “evaluación estrictamente individual, sin ayudas”, para que el boletín sea comparable.",
+    "stem": "Si el propósito es el aprendizaje (no solo certificar), ¿qué decisión articula la Zona de Desarrollo Próximo con una evaluación formativa?",
+    "options": [
+      "Entregar la nota al cierre del periodo y ofrecer recuperación como repetición del mismo instrumento, sin nueva enseñanza.",
+      "Diseñar andamiaje (pares y pistas) en la zona entre lo que ya hace solo y lo que logra con ayuda, y evaluar el progreso hacia la autonomía con retirada gradual.",
+      "Socializar la rúbrica el mismo día de los resultados, para “no adelantar la respuesta” a los estudiantes.",
+      "Decidir promoción con el promedio aritmético y un concepto cualitativo genérico, sin evidencias de proceso."
+    ],
+    "explanation": "Vygotsky define la ZDP como la distancia entre el desempeño autónomo y el que se alcanza con mediación. El Decreto 1290 orienta evaluación formativa que reconoce ritmos y consolida aprendizajes; el andamiaje con retirada gradual materializa ambas ideas.",
+    "normativeJustification": "El Decreto 1290 orienta una evaluación formativa que reconoce ritmos e intereses para consolidar aprendizajes, no solo certificar en aislamiento.",
+    "theoreticalJustification": "La ZDP no es “el máximo sin ayuda” ni un tiempo de clase: es la distancia entre lo autónomo y lo mediado. El andamiaje opera en esa distancia.",
+    "distractorAnalysis": {
+      "0": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "2": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial.",
+      "3": "Parece profesional o equitativa, pero es parcial: omite mediación, registro o el aprendizaje/protección esencial."
+    }
+  }
+]

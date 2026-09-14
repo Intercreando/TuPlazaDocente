@@ -1,0 +1,381 @@
+[
+  {
+    "pos": 911,
+    "id": "dir-apt-ges-163",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En una IE oficial el equipo discute Según el Decreto 1278 de 2002, la evaluación del docente durante el período de prueba tiene como finalidad principal. Un actor propone: “Sustituir la evaluación anual de desempeño de años posteriores”. Otro insiste: “Definir exclusivamente el salario inicial del docente”. Un tercero sugiere: “Reemplazar la valoración de antecedentes del concurso”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Sustituir la evaluación anual de desempeño de años posteriores, aunque ahorre tiempo visible de clase o de consejo.",
+      "Definir exclusivamente el salario inicial del docente, aunque se presente como solución rápida en la reunión.",
+      "Determinar si el docente reúne las condiciones idóneas para continuar en la carrera docente tras superar el concurso de méritos",
+      "Reemplazar la valoración de antecedentes del concurso, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Busca confirmar la idoneidad del docente para su inscripción definitiva en el escalafón.",
+    "normativeJustification": "Busca confirmar la idoneidad del docente para su inscripción definitiva en el escalafón.",
+    "theoreticalJustification": "Busca confirmar la idoneidad del docente para su inscripción definitiva en el escalafón.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "3": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 912,
+    "id": "dir-apt-ges-164",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "En una IE oficial el equipo discute ¿Cuál de las siguientes es una etapa propia del proceso de selección por concurso de méritos administrado por la CNSC para cargos docentes?. Un actor propone: “La afiliación automática a un sindicato docente”. Otro insiste: “La elección del cargo por votación de la comunidad educativa”. Un tercero sugiere: “La asignación directa sin ningún tipo de evaluación”. Se pide una decisión alineada al marco, con evidencia, no por circular.",
+    "stem": "Con base en las propuestas en conflicto, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "La afiliación automática a un sindicato docente, aunque parezca un trámite equitativo o suficiente.",
+      "La elección del cargo por votación de la comunidad educativa, aunque se presente como solución rápida en la reunión.",
+      "La asignación directa sin ningún tipo de evaluación, aunque ahorre tiempo visible de clase o de consejo.",
+      "La valoración de antecedentes académicos y de experiencia, posterior a la prueba de aptitudes y competencias básicas"
+    ],
+    "explanation": "Tras superar la prueba eliminatoria, se realiza la valoración de antecedentes como parte del puntaje total.",
+    "normativeJustification": "Tras superar la prueba eliminatoria, se realiza la valoración de antecedentes como parte del puntaje total.",
+    "theoreticalJustification": "Tras superar la prueba eliminatoria, se realiza la valoración de antecedentes como parte del puntaje total.",
+    "distractorAnalysis": {
+      "0": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "1": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso.",
+      "2": "Opción cercana o habitual que no articula el referente, la evidencia o la instancia del caso."
+    }
+  },
+  {
+    "pos": 913,
+    "id": "dir-apt-ges-165",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Un elegible pide nombramiento “cuando quiera, porque la lista no vence”. Talento humano cita la regla general de vigencia (habitualmente dos años desde la conformación), salvo que el acto del concurso disponga otra cosa. El rector no puede “guardar” la lista indefinidamente.",
+    "stem": "¿Cuál es, de manera general, la vigencia de las listas de elegibles de un concurso docente?",
+    "options": [
+      "Dos años desde su conformación, salvo disposición distinta en el acto administrativo del concurso.",
+      "Diez años, sin posibilidad de vencimiento, como derecho adquirido absoluto.",
+      "Seis meses únicamente, aunque el acto del concurso fije otro término.",
+      "Vigencia indefinida mientras el elegible conserve el puntaje."
+    ],
+    "explanation": "Las listas de elegibles tienen, por regla general, vigencia limitada (habitualmente dos años).",
+    "normativeJustification": "Las listas de elegibles tienen, por regla general, vigencia limitada (habitualmente dos años).",
+    "theoreticalJustification": "Las listas de elegibles tienen, por regla general, vigencia limitada (habitualmente dos años).",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 914,
+    "id": "dir-apt-ges-166",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "guiaMen49",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620",
+      "guiaMen49"
+    ],
+    "caseContext": "Al revisar el manual, solo hay “prohibiciones y sanciones”. Faltan pautas de comportamiento, debido proceso y rutas de la Ley 1620. El comité pide completar el mínimo normativo, no un código penal escolar.",
+    "stem": "¿Qué debe contener, como mínimo, el manual de convivencia según la normatividad de convivencia escolar?",
+    "options": [
+      "Solo el listado de sanciones y el uniforme, sin rutas ni debido proceso.",
+      "Pautas de comportamiento esperado, debido proceso ante faltas y rutas de atención integral.",
+      "Únicamente el horario de clase y el calendario de izadas de bandera.",
+      "El reglamento interno de trabajo del personal administrativo, como si fuera el mismo documento."
+    ],
+    "explanation": "El manual debe incluir pautas, debido proceso y rutas de atención (Ley 1620 y su reglamentación).",
+    "normativeJustification": "El manual debe incluir pautas, debido proceso y rutas de atención (Ley 1620 y su reglamentación).",
+    "theoreticalJustification": "El manual debe incluir pautas, debido proceso y rutas de atención (Ley 1620 y su reglamentación).",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 915,
+    "id": "dir-apt-ges-167",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley1620",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley1620"
+    ],
+    "caseContext": "Quieren usar el manual de convivencia para amonestar a un administrativo por horario laboral. El pagador dice que eso es reglamento interno de trabajo. El comité escolar de convivencia no es el de convivencia laboral.",
+    "stem": "¿Cuál es la diferencia principal entre manual de convivencia y reglamento interno de trabajo?",
+    "options": [
+      "Son el mismo documento con dos carátulas distintas, aunque ahorre tiempo visible de clase o de consejo.",
+      "El reglamento interno de trabajo regula a los estudiantes y el manual al personal, aunque se presente como solución rápida en la reunión.",
+      "El manual regula la relación con estudiantes y comunidad educativa; el RIT, las relaciones laborales del personal.",
+      "El manual de convivencia solo aplica a docentes y no a estudiantes, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Ambos documentos regulan ámbitos distintos: convivencia escolar y relaciones laborales.",
+    "normativeJustification": "Ambos documentos regulan ámbitos distintos: convivencia escolar y relaciones laborales.",
+    "theoreticalJustification": "Ambos documentos regulan ámbitos distintos: convivencia escolar y relaciones laborales.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 916,
+    "id": "dir-apt-ges-168",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [],
+    "caseContext": "Hay un conflicto entre dos docentes por presunto acoso laboral. El rector lo remite al Comité Escolar de Convivencia (estudiantes). Un colega recuerda la Resolución 652 de 2012: el Comité de Convivencia Laboral atiende acoso entre trabajadores.",
+    "stem": "¿Cuál es el propósito principal del Comité de Convivencia Laboral (Res. 652 de 2012)?",
+    "options": [
+      "usar como medida punitiva estudiantes por faltas Tipo I como si fueran acoso laboral.",
+      "Reemplazar al Comité Escolar de Convivencia en todos los casos de aula.",
+      "Adoptar el manual de convivencia institucional en lugar del Consejo Directivo.",
+      "Prevenir y atender situaciones de acoso laboral entre los trabajadores de la institución."
+    ],
+    "explanation": "Es una instancia distinta del Comité Escolar de Convivencia, enfocada en relaciones laborales.",
+    "normativeJustification": "Es una instancia distinta del Comité Escolar de Convivencia, enfocada en relaciones laborales.",
+    "theoreticalJustification": "Es una instancia distinta del Comité Escolar de Convivencia, enfocada en relaciones laborales.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 917,
+    "id": "dir-apt-ges-169",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "Un docente 1278 quiere “subir de grado” solo con años de servicio, sin evaluación de competencias. Otro cita que esa evaluación es el mecanismo de ascenso/reubicación salarial del estatuto. No equivale a ingresar sin concurso.",
+    "stem": "En el Decreto 1278 de 2002, ¿qué permite la evaluación de competencias?",
+    "options": [
+      "Ascender de grado o de nivel salarial dentro del escalafón, según el desempeño demostrado.",
+      "Ingresar a la carrera docente sin concurso de méritos.",
+      "Obtener nombramiento definitivo automático al primer año, sin periodo de prueba.",
+      "Sustituir la evaluación anual de desempeño por un curso corto de actualización."
+    ],
+    "explanation": "Es uno de los mecanismos de ascenso y reubicación salarial del Estatuto de Profesionalización Docente.",
+    "normativeJustification": "Es uno de los mecanismos de ascenso y reubicación salarial del Estatuto de Profesionalización Docente.",
+    "theoreticalJustification": "Es uno de los mecanismos de ascenso y reubicación salarial del Estatuto de Profesionalización Docente.",
+    "distractorAnalysis": {
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 918,
+    "id": "dir-apt-ges-170",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1278",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1278"
+    ],
+    "caseContext": "En nómina, alguien agrupa a todos los 1278 en “un único nivel por antigüedad”. Talento humano explica grados según título y niveles salariales dentro de cada grado. El rector pide no usar el número de estudiantes a cargo como categoría de escalafón.",
+    "stem": "¿Cómo organiza el escalafón docente del Decreto 1278 de 2002 a los educadores?",
+    "options": [
+      "Solo por antigüedad, sin relación con el título académico.",
+      "En grados (según título académico) y niveles salariales dentro de cada grado.",
+      "En un único nivel salarial para todos los docentes oficiales.",
+      "Por el número de estudiantes a cargo en cada jornada."
+    ],
+    "explanation": "Se organiza en grados asociados a la formación académica y niveles salariales dentro de cada grado.",
+    "normativeJustification": "Se organiza en grados asociados a la formación académica y niveles salariales dentro de cada grado.",
+    "theoreticalJustification": "Se organiza en grados asociados a la formación académica y niveles salariales dentro de cada grado.",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "3": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  },
+  {
+    "pos": 919,
+    "id": "dir-apt-ges-171",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "decreto1421"
+    ],
+    "caseContext": "En una institución educativa oficial ocurre lo siguiente: Ingresa un estudiante con discapacidad. El rector dice que el PIAR lo arma “solo orientación”. Un docente de aula sostiene que sin él no hay ajustes en clase. La familia pide ser escuchada. Un médico externo envió un diagnóstico y la secretaría aún no ha visitado la sede. Un sector de la comunidad pide una salida inmediata y visible; un colega propone “tratar a todos igual” para evitar reclamos. La decisión debe ser trazable (criterios, evidencia e instancias) y pedagógicamente mediada, no una ocurrencia.",
+    "stem": "Con base en el episodio descrito, ¿qué decisión es la más defendible pedagógica e institucionalmente?",
+    "options": [
+      "Exclusivamente el médico especialista, porque el PIAR es un documento clínico, aunque se presente como solución rápida en la reunión.",
+      "Únicamente la Secretaría de Educación, porque la IE no puede ajustar sin visita previa, aunque ahorre tiempo visible de clase o de consejo.",
+      "El docente de aula, con apoyo del docente de apoyo pedagógico y participación de la familia; el diagnóstico informa, no reemplaza el plan de aula.",
+      "Exclusivamente el rector, sin el docente de aula, para unificar el criterio institucional, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Decreto 1421 sitúa el PIAR en la atención educativa del aula: lo lidera el docente con apoyo pedagógico y la familia. El diagnóstico y la secretaría aportan, no sustituyen esa corresponsabilidad.",
+    "normativeJustification": "El Decreto 1421 de 2017 concibe el PIAR como herramienta de la atención educativa, elaborada por el docente de aula con apoyo pedagógico y participación familiar.",
+    "theoreticalJustification": "Los ajustes razonables ocurren en la enseñanza y la evaluación cotidianas; por eso no pueden quedar solo en un dictamen externo ni en un acto administrativo.",
+    "distractorAnalysis": {
+      "0": "Medicaliza el PIAR y lo saca del aula.",
+      "1": "La secretaría apoya el sistema, pero no reemplaza el plan de aula.",
+      "3": "El liderazgo rectoral no elimina la responsabilidad docente sobre los ajustes."
+    }
+  },
+  {
+    "pos": 920,
+    "id": "dir-apt-ges-172",
+    "correctIndex": 3,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "Gestión escolar · Directivo (ola 2)",
+    "subtopic": "Gestión escolar · Directivo (ola 2)",
+    "knowledgeTags": [
+      {
+        "code": "ley115",
+        "focus": "Directivo · práctica"
+      },
+      {
+        "code": "decreto1860",
+        "focus": "Directivo · práctica"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": "directivos",
+    "normativeRefs": [
+      "ley115",
+      "decreto1860"
+    ],
+    "caseContext": "Un docente pide tres días de permiso. El rector “autoriza de palabra”. Talento humano de la secretaría aclara que la autorización formal de permisos y licencias corresponde a la entidad territorial certificada, más allá del reporte inicial al rector.",
+    "stem": "¿Quién tiene la competencia para autorizar formalmente permisos y licencias de un docente oficial?",
+    "options": [
+      "Exclusivamente el Consejo Directivo, como si fuera un acto de gobierno escolar, aunque se presente como solución rápida en la reunión.",
+      "La asociación de padres, porque “paga impuestos”, aunque parezca un trámite equitativo o suficiente.",
+      "El Consejo Académico, por ser órgano consultivo del currículo, aunque parezca un trámite equitativo o suficiente.",
+      "La entidad territorial certificada, a través de la dependencia de talento humano de la Secretaría de Educación."
+    ],
+    "explanation": "La autorización formal corresponde a la entidad territorial certificada (talento humano).",
+    "normativeJustification": "La autorización formal corresponde a la entidad territorial certificada (talento humano).",
+    "theoreticalJustification": "La autorización formal corresponde a la entidad territorial certificada (talento humano).",
+    "distractorAnalysis": {
+      "0": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "1": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso.",
+      "2": "Propuesta plausible (instancia vecina, rigor vacío o flexibilidad sin evidencia) que no corresponde al marco del caso."
+    }
+  }
+]
