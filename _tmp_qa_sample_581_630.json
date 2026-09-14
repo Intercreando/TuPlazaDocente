@@ -1,0 +1,102 @@
+[
+  {
+    "pos": 595,
+    "id": "fs-com-16",
+    "topic": "trabajo en equipo",
+    "correctIndex": 2,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Convocar el Comité Escolar de Convivencia de la IE para dirimir el desacuerdo técnico de criterios del área, con el argumento de que hay tensión entre docentes y la Ley 1620 cubre todo conflicto que afecte el clima de la sede.",
+      "Solicitar a rectoría una circular que adopte el criterio del docente con mejor resultado en Pruebas Saber, para unificar por prestigio externo y cerrar el debate de área sin examinar las evidencias locales de aprendizaje.",
+      "Facilitar la deliberación del área con evidencias de aprendizaje, contrastar las propuestas con el SIEE y el PEI, y dejar acuerdos escritos sobre criterios, instrumentos y fechas de revisión, con responsables del seguimiento.",
+      "Promediar las dos rúbricas en disputa y aplicar el resultado al grupo, para ser equitativos entre colegas y bajar la tensión, sin examinar las evidencias de los estudiantes ni el referente del SIEE de la institución."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando el área no logra acordar criterios. El Decreto 1290 y las Leyes 115 y 1860 exigen que los criterios de evaluación sean colegiados, públicos y coherentes con el SIEE y el PEI, no un promedio diplomático ni un decreto por prestigio de Saber. El DAFP y el Decreto 1278 valoran el trabajo en equipo como deliberación con evidencia, no como elusión del desacuerdo. La Ley 1620 no es la instancia para un debate técnico de rúbricas. La opción correcta facilita el acuerdo con evidencias, norma institucional y registro de responsables: hay colegialidad y trazabilidad. El Comité de Convivencia es dominio cruzado de clima. La circular del «mejor Saber» sustituye el juicio local por un ranking. Promediar rúbricas simula equidad y deja el criterio ilegible para las familias.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado de convivencia: llevar el desacuerdo de criterios al Comité Escolar suena a Ley 1620 y a cuidado del clima. Convierte un debate técnico del SIEE en un caso de convivencia y desplaza al área que debe acordar la evaluación.",
+      "1": "Trampa de la rendición de cuentas externa: unificar por el docente de mejor Saber parece calidad y cierre directivo. Sustituye las evidencias locales y el SIEE por un prestigio de prueba estandarizada, y cancela la deliberación de equipo que el stem pide.",
+      "3": "Trampa de la equidad entre colegas: promediar las rúbricas parece acuerdo y baja de tensión. Produce un criterio híbrido ilegible, no contrastado con evidencias ni con el SIEE, y simula trabajo en equipo sin un referente defendible ante las familias."
+    }
+  },
+  {
+    "pos": 605,
+    "id": "fs-com-26",
+    "topic": "trabajo en equipo",
+    "correctIndex": 2,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Trasladar el desacuerdo de criterios al Comité Escolar de Convivencia para que, como tribunal, decida qué enfoque debe prevalecer en el área, cubriendo un conflicto curricular con la ruta de atención de la Ley 1620 de 2013.",
+      "Radicar el desacuerdo de criterios en Secretaría de Educación como primer paso, para que el nivel territorial zanje el enfoque del área antes de agotar el Consejo Académico, el SIEE y los acuerdos pedagógicos del PEI institucional.",
+      "Facilitar que el área coteje evidencias de aprendizaje, el SIEE y los acuerdos del PEI, y deje en acta criterios comunes, responsables y fecha de revisión, de modo que el desacuerdo se resuelva con norma institucional y no con imposiciones.",
+      "Proponer que el jefe de área fije el criterio sin contrastar evidencias, para cumplir el cronograma de mallas y dejar la decisión en un acta de asistencia, y el resto del equipo se limite a firmar de enterado al cierre de la reunión."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente en un desacuerdo fuerte de área sobre criterios. El trabajo en equipo docente se sostiene en el Consejo Académico, el SIEE (Decreto 1290) y el PEI (Ley 115 y Decreto 1075): evidencias, norma compartida, acta con responsables y fecha. La Ley 1620 crea el Comité Escolar de Convivencia para clima y ruta de atención, no para arbitrar un conflicto curricular. Secretaría de Educación es instancia territorial, no el primer paso de un desacuerdo de rúbricas. La opción correcta facilita acuerdos con evidencias y normas: hay ética (no se impone ni se evade) e institución (hay colegialidad y trazabilidad). Usar el Comité como tribunal es dominio cruzado de convivencia. Radicar en Secretaría judicializa lo pedagógico. Que el jefe fije el criterio sin evidencias es jerarquía que simula unidad.",
+    "distractorAnalysis": {
+      "0": "Trampa de dominio cruzado de convivencia: llevar el desacuerdo de criterios al Comité de Convivencia como tribunal parece Ley 1620 y clima escolar. Usa la ruta de atención para un conflicto curricular y desplaza al SIEE, al PEI y al Consejo Académico.",
+      "1": "Trampa de control territorial: radicar en Secretaría de Educación como primer paso suena a garantía y a «subir el caso». Omite agotar área, SIEE y Consejo Académico, y convierte un disenso pedagógico en controversia administrativa externa.",
+      "3": "Trampa jerárquica de eficiencia: que el jefe fije el criterio sin evidencias y el equipo firme asistencia parece liderazgo y cumplimiento de cronograma. Simula unidad, anula la deliberación colegiada y deja criterios no defendibles ante el SIEE."
+    }
+  },
+  {
+    "pos": 607,
+    "id": "fs-com-28",
+    "topic": "orientación al ciudadano",
+    "correctIndex": 0,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Atender al acudiente con escucha activa, mostrar evidencias y criterios del SIEE del período e indicar la ruta de aclaración —docente, coordinación y Consejo Académico—, sin modificar la valoración en el momento del reclamo de la familia.",
+      "Revisar el boletín y, para calmar a la familia, acordar ajustar la valoración del período en esa misma reunión, con el argumento de que la escucha debe traducirse en un gesto concreto en el sistema de notas y en el boletín escolar.",
+      "Entregar al acudiente, en un espacio de circulación, copia del observador y de planillas de varios estudiantes para que compare y verifique equidad, y así la familia compruebe que no hubo privilegios en la valoración del período.",
+      "Convocar al Comité Escolar de Convivencia para que revise si la nota fue justa, como si se tratara de una situación de clima, y desplazar al SIEE y al Consejo Académico en un asunto de evaluación de aprendizajes del período."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un acudiente reclama una nota. El Decreto 1290, el SIEE y el gobierno escolar (Ley 115, Decreto 1860, Decreto 1075) fijan criterios, evidencias y ruta interna de aclaración. La orientación al ciudadano es escuchar, mostrar evidencia y ofrecer esa ruta, no negociar la valoración ni exhibir datos de terceros. La Ley 1581 y el artículo 15 constitucional impiden entregar planillas o el observador de otros estudiantes «para que compare». La Ley 1620 no habilita al Comité de Convivencia como tribunal de notas. La opción correcta articula escucha, evidencia y conducto, sin alterar la nota en la reunión. Ajustar la valoración para calmar convierte el SIEE en moneda de clima. Mostrar planillas ajenas es un exceso de «transparencia» que vulnera reserva. El Comité de Convivencia desplaza la instancia evaluativa.",
+    "distractorAnalysis": {
+      "1": "Trampa de la escucha que se traduce en ceder: ajustar la valoración «en esa misma reunión» para calmar a la familia parece orientación al ciudadano. Rompe el Decreto 1290 y enseña que el reclamo emocional modifica el SIEE al instante.",
+      "2": "Trampa de dominio cruzado de transparencia: entregar observador y planillas de varios estudiantes «para que compare» suena a equidad y a servicio. Vulnera la Ley 1581, expone a terceros y no es la ruta de aclaración de una nota individual.",
+      "3": "Trampa de convivencia como tribunal evaluativo: convocar al Comité de Convivencia para juzgar si la nota fue justa parece Ley 1620. Desplaza al SIEE y al Consejo Académico y convierte un asunto de aprendizajes en situación de clima."
+    }
+  },
+  {
+    "pos": 608,
+    "id": "fs-com-29",
+    "topic": "integridad",
+    "correctIndex": 0,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Negarte con respeto a entregar información reservada del proceso interno, citar la Ley 1581 y el deber de confidencialidad, y orientar al solicitante al conducto regular de archivo y reserva que define la rectoría de la institución educativa.",
+      "Entregar al concejal un informe extraoficial con extractos y nombres del proceso, argumentando apoyo al control político local, y pedirle que no lo radique para evitar un trámite de transparencia, reserva y archivo institucional.",
+      "Subir el expediente a una carpeta compartida con enlace abierto para facilitar la consulta y avisar al interesado por chat, sin clasificación de reserva ni autorización del archivo institucional que custodia el proceso interno.",
+      "Autorizar una nota en la red del colegio que resume el proceso interno para que no circule el rumor, con el argumento de transparencia preventiva, sin reserva de datos ni el conducto de comunicaciones oficiales de rectoría."
+    ],
+    "explanation": "La condición de calidad pide la conducta más defendible ética e institucionalmente cuando solicitan información confidencial de un proceso interno. La integridad se concreta en negar con respeto lo reservado y en ofrecer el conducto: Ley 1581, artículo 15 constitucional, Ley 1952 y archivo institucional (Decreto 1075). El control político de un concejal no habilita un informe extraoficial con nombres; la Ley 1712 exige clasificación y canal, no un favor discrecional. Un enlace abierto o una nota en redes convierten la reserva en publicidad. La opción correcta niega, fundamenta y redirige a rectoría o al responsable del archivo: hay ética (no se filtra) e institución (hay instancia). El informe al concejal es dominio cruzado de control político. La carpeta compartida simula transparencia técnica. La nota en la red combate el rumor con otra filtración.",
+    "distractorAnalysis": {
+      "1": "Trampa de dominio cruzado de control político: el informe extraoficial al concejal parece apoyo a la veeduría y a la transparencia. Entrega nombres por fuera del conducto, pide que no se radique y convierte la reserva en un favor personal a una autoridad electa.",
+      "2": "Trampa técnica de transparencia: el enlace abierto y el aviso por chat parecen modernizar el acceso a la información. Omiten clasificación de reserva, autorización de archivo y Ley 1581, y dejan el expediente expuesto a cualquiera que reciba el vínculo.",
+      "3": "Trampa de la comunicación preventiva: resumir el proceso en la red del colegio «para que no circule el rumor» suena a gestión de crisis. Publica lo reservado, salta el conducto de comunicaciones y agrava la filtración que la integridad debía impedir."
+    }
+  },
+  {
+    "pos": 630,
+    "id": "fs-ped-d1290-6",
+    "topic": "d1290",
+    "correctIndex": 1,
+    "caseContext": "El periodo se cierra con quizzes secretos y un ranking en cartelera. No hubo rúbricas previas. Padres piden “más rigor”; un colega dice que socializar criterios “regala la respuesta”. El SIEE habla de evaluación formativa.",
+    "stem": "¿Qué decisión articula el Decreto 1290 sin caer en rigor vacío ni en flexibilidad sin evidencia?",
+    "options": [
+      "Mantener los quizzes secretos y el ranking en cartelera, y entregar la rúbrica el día de los resultados «para no sesgar», de modo que las familias perciban rigor y nadie anticipe la respuesta del instrumento.",
+      "Socializar criterios de antemano, recoger evidencias diversas de proceso y de producto, y devolver un siguiente paso de mejora; el promedio entra como un insumo más del SIEE, no como ranking de cartelera.",
+      "Sustituir quizzes y ranking por un concepto cualitativo pactado con las familias en reunión, sin criterios públicos del SIEE, para bajar la tensión del periodo y mostrar una evaluación más cercana a la comunidad.",
+      "Repetir el mismo quiz en varias sesiones hasta que suba el promedio del curso, sin reenseñar ni ofrecer otra forma de demostrar el aprendizaje, y publicar el nuevo ranking como prueba de mejoramiento."
+    ],
+    "explanation": "La condición de calidad articula el Decreto 1290 sin rigor vacío ni flexibilidad sin evidencia: criterios públicos, evidencias diversas y devolución con siguiente paso; el promedio es insumo del SIEE, no ranking. Socializar el referente no «regala la respuesta»: permite autorregulación, que es el corazón formativo de la norma. La opción correcta hace eso y evita la cartelera clasificatoria. Conservar quizzes secretos y entregar la rúbrica con los resultados es rigor como opacidad. El concepto cualitativo pactado con familias, sin SIEE público, es consenso que reemplaza el sistema. Repetir el mismo quiz hasta que suba el promedio simula mejoramiento y no reenseña.",
+    "distractorAnalysis": {
+      "0": "Trampa del rigor como opacidad: quizzes secretos, ranking y rúbrica el día de los resultados «para no sesgar» parecen objetividad y responden a los padres que piden exigencia. Niegan criterios previos y convierten el SIEE en espectáculo clasificatorio.",
+      "2": "Trampa del concepto cualitativo pactado con familias: el acuerdo en reunión parece humanización y baja la tensión. Al no haber criterios públicos del SIEE, el juicio queda en un consenso privado y se pierde la evaluabilidad institucional que el 1290 exige.",
+      "3": "Trampa de repetir el quiz hasta que suba el promedio: la reiteración parece recuperación y el nuevo ranking «prueba» mejoramiento. Sin reenseñanza ni otra evidencia, se entrena el instrumento y no se forma; el número se mueve y el aprendizaje no."
+    }
+  }
+]

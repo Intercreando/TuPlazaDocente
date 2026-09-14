@@ -1,0 +1,616 @@
+
+===== 581 fs-com-2 ci=2 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (232c) Pedir al coordinador de convivencia que, en el mismo salón, amoneste a ambos docentes y deje el llamado en el observador del grupo, para que los estudiantes vean una corrección inmediata y el clima quede enmendado ante la comunidad.
+   [1] (237c) Permanecer en el aula registrando el intercambio sin interrumpir, para elaborar luego un informe a rectoría con relatos de estudiantes testigos y así proteger a la institución con un expediente minucioso de lo ocurrido delante del grupo.
+>> [2] (256c) Intervenir con serenidad, bajar el tono frente al grupo y reconducir a los dos colegas a un espacio privado institucional —coordinación o rectoría—, protegiendo a los estudiantes y dejando el desacuerdo en el canal formal, con registro si el caso lo exige.
+   [3] (249c) Proponer un círculo restaurativo en el acto, con los mismos estudiantes como mediadores, para que el grupo aprenda a resolver conflictos y los colegas se reconcilien en público, mostrando pedagogía de paz sin cambiar de espacio ni de interlocutores.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando dos colegas discuten frente a estudiantes. El Código de Integridad del DAFP (respeto, honestidad, diligencia) y el Decreto 1278 exigen proteger el clima de aula y la dignidad de los servidores. La Ley 1620 y la Ley 115 mandan un ambiente de aprendizaje; el conflicto entre adultos no se tramita como falta estu
+DA0: Trampa de la sanción visible de convivencia: amonestar en el salón y anotar en el observador suena a clima y a autoridad inmediata. Trata a los docentes como si fueran estudiantes, expone el diferendo y omite el debido proceso laboral o disciplinario.
+DA1: Trampa del expediente como prudencia: no interrumpir y recoger testigos estudiantiles parece diligencia y trazabilidad. Deja el conflicto en escena, usa a menores como prueba y posterga la protección del grupo, que es el deber inmediato.
+DA3: Trampa de dominio cruzado pedagógico (Ley 1620): el círculo con estudiantes-mediadores es plausible en convivencia entre pares. Aquí expone a los menores, rompe confidencialidad del conflicto adulto y simula paz en lugar de reconducir al canal institucional.
+
+===== 582 fs-com-3 ci=2 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (223c) Recibir a cada actor por turnos, tomar nota empática y comprometer una respuesta cuando baje la presión de la jornada, sin explicar todavía los criterios institucionales ni indicar la ruta y los plazos para aclarar el caso.
+   [1] (221c) Solicitar a rectoría un comunicado breve para la comunidad, con un mensaje de calma y de atención en curso, de modo que la imagen institucional se preserve mientras el fondo del reclamo y las evidencias quedan pospuestos.
+>> [2] (242c) Escuchar el reclamo con respeto, explicar los criterios con evidencias del caso y del reglamento interno, y ofrecer la ruta institucional de aclaración —instancia, plazos y registro—, sin improvisar excepciones bajo la presión de los actores.
+   [3] (232c) Convocar una votación exprés entre los presentes para decidir en clave democrática el criterio en disputa y dejar constancia de la mayoría, de modo que el colegio muestre participación ciudadana y cierre el tema en la misma reunión.
+EXPL: La condición de calidad exige la conducta más defendible ética e institucionalmente ante presión de tiempo y de varios actores. Orientar al ciudadano, en el Código de Integridad del DAFP y en el deber de diligencia de la Ley 1952 de 2019, no es calmar el clima ni improvisar una mayoría: es escuchar, hacer explícitos los criterios con evidencia y abrir la ruta de aclaración (quién, cuándo, con qué 
+DA0: Trampa de la prudencia empática: recibir, anotar y diferir parece cuidado y manejo de la presión. Falla la orientación: el actor se va sin criterios, sin evidencia y sin ruta de aclaración, que es lo que el stem exige defender.
+DA1: Trampa de dominio cruzado de imagen institucional: el comunicado de calma es gestión reputacional plausible. No explica el caso, no ofrece evidencia ni instancia, y convierte el servicio en un mensaje genérico que deja el fondo intacto.
+DA3: Trampa de la votación inmediata democrática: la mayoría exprés suena a participación y a equidad formal. Un criterio institucional se sostiene en norma y evidencia, no en el recuento de presentes presionados en una reunión.
+
+===== 583 fs-com-4 ci=3 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (219c) Entregar copia del expediente del proceso interno invocando la Ley 1712 de transparencia, para no parecer opaco y demostrar que una institución pública abre sus archivos a quien los solicita de manera directa y urgente.
+   [1] (217c) Indicar que radique un derecho de petición y, para adelantar diligencia, comentarle de palabra nombres, fechas y hallazgos del proceso, con el fin de orientar al ciudadano mientras llega el oficio formal de respuesta.
+   [2] (228c) Consultar en el descanso con varios colegas del área si conviene compartir el expediente, para no asumir una respuesta individual y construir un criterio colectivo de transparencia antes de contestar a quien pide la información.
+>> [3] (247c) Negarte con respeto a entregar datos reservados del proceso interno, explicar el deber de confidencialidad y reconducir la solicitud al conducto regular —ventanilla, clasificación de la información y respuesta escrita—, sin divulgar el expediente.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando solicitan información confidencial de un proceso interno. La integridad del servidor (Código de Integridad DAFP; Ley 1952 de 2019) y la reserva de datos (Ley 1581; clasificación de la Ley 1712) impiden entregar o comentar el expediente por fuera del conducto. La Ley 1712 no es un cheque en blanco: hay informa
+DA0: Trampa de transparencia Ley 1712 versus reserva: invocar publicidad y entregar el expediente suena legal y antiopaco. Ignora que procesos internos, datos de terceros y de menores pueden ser reservados o clasificados y se responden por conducto, no en copia inmediata.
+DA1: Trampa de la orientación oficiosa: pedir el derecho de petición y adelantar de palabra nombres y hallazgos parece servicio diligente. La oralidad filtra lo reservado y deja al colegio sin control de qué se dijo, cuándo y a quién.
+DA2: Trampa del consenso de pasillo: consultar con colegas si se comparte el expediente parece trabajo en equipo y criterio colectivo. Multiplica destinatarios de información reservada y diluye la responsabilidad de quien debía negar y reconducir.
+
+===== 584 fs-com-5 ci=0 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (241c) Diagnosticar con el equipo las brechas reales de apropiación del PEI, socializar su sentido pedagógico y de gestión, y acordar rutinas de uso en planeación, evaluación y gobierno escolar, con responsables y fechas de seguimiento verificable.
+   [1] (238c) Convocar de inmediato una jornada pedagógica masiva de reinducción al PEI para todo el personal, con lista de asistencia y registro fotográfico para la visita, sin haber indagado en qué prácticas el equipo aún no se apropia del documento.
+   [2] (228c) Designar un comité reducido que reescriba el PEI en pocos días, con metas más atractivas para la comunidad, y presentarlo como logro de gestión directiva ante el Consejo Académico, sin un proceso amplio de sentido y de práctica.
+   [3] (230c) Publicar un tablero de indicadores de alineación al PEI en la sala de profesores y pedir reportes semanales de cumplimiento, para generar control de gestión visible, sin espacios de sentido ni de práctica compartida del documento.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente ante la baja apropiación del PEI. El liderazgo directivo, en la Ley 115, el Decreto 1860 y el Decreto 1278, no se demuestra con un evento masivo ni con un tablero de control: se demuestra diagnosticando brechas, devolviendo el sentido del horizonte institucional y acordando rutinas verificables en planeación, evalua
+DA1: Trampa de la jornada pedagógica masiva sin diagnóstico: asistencia y fotos lucen como gestión y como preparación de visita. Saltan la pregunta de en qué no se apropia el equipo y convierten el PEI en un acto, no en una práctica.
+DA2: Trampa del rediseño express como liderazgo: un comité que reescribe metas atractivas parece agilidad directiva. Produce un texto de vitrina, excluye al gobierno escolar y no atiende la baja apropiación del PEI vigente.
+DA3: Trampa de dominio cruzado administrativo: el tablero y los reportes semanales son control plausible. Presionan el cumplimiento formal y omiten socializar sentido y acordar rutinas de uso, que es el núcleo ético-institucional del caso.
+
+===== 585 fs-com-6 ci=2 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (226c) Levantar un acta breve de que se conversó y se continuará, sin acuerdos, responsables ni fecha de seguimiento, para dejar rastro de que hubo reunión y poder exhibir trazabilidad si alguien pregunta por el conflicto del equipo.
+   [1] (229c) Pedir a la coordinación que fije por oficio un criterio único para destrabar la jornada, de modo que el equipo retome clases con una instrucción clara y se evite seguir deliberando con evidencias y con las normas institucionales.
+>> [2] (243c) Facilitar un acuerdo de equipo anclado en evidencias del caso y en las normas institucionales vigentes —PEI, SIEE o reglamento, según el objeto del desacuerdo—, registrando compromisos, responsables y seguimiento en el canal de la institución.
+   [3] (227c) Invitar a un representante de familias a la reunión del equipo para que humanice el acuerdo y le dé legitimidad social, desplazando la deliberación normativa del colegio hacia la voz de un actor externo presionado por el clima.
+EXPL: La condición de calidad exige la conducta más defendible ética e institucionalmente en un trabajo de equipo bajo presión de actores y de tiempo. Colaborar, en el Código de Integridad y en el gobierno escolar (Ley 115, Decreto 1860), es producir un acuerdo trazable: evidencias, norma que rige el objeto (PEI, SIEE, reglamento) y responsables. El acta genérica de «se conversó» simula trazabilidad y d
+DA0: Trampa del acta genérica que simula trazabilidad: el rastro de que «se reunieron» parece prudencia documental. Sin acuerdos, responsables ni fecha, el archivo cubre al equipo y el conflicto queda sin decisión ética ni institucional.
+DA1: Trampa de dominio cruzado administrativo y de celeridad: el oficio de coordinación destrabar la jornada es gestión visible. Impone un criterio sin evidencias ni normas deliberadas y vacía el trabajo en equipo que el stem pide defender.
+DA3: Trampa de la legitimidad comunitaria: invitar a un acudiente a humanizar el pacto suena a apertura y a orientación al ciudadano. Traslada un diferendo profesional a un actor externo y debilita el foro normativo del equipo.
+
+===== 586 fs-com-7 ci=2 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (232c) Invitar a ambos colegas a continuar el desacuerdo en un chat de docentes para no exponer más la escena en el aula y retomar cuando baje la tensión, de modo que el grupo no vea el conflicto y no quede huella en un acta institucional.
+   [1] (233c) Pedir al grupo que salga al patio o a la biblioteca unos minutos, para que los colegas terminen de discutir en el salón vacío y no se afecte el clima, y luego reanudar la clase como si el incidente no mereciera trámite institucional.
+>> [2] (244c) Interrumpir con calma el intercambio, proteger al grupo y trasladar la conversación a un espacio privado de la institución —coordinación, rectoría u oficina de área—, para tramitar el desacuerdo con respeto, confidencialidad y conducto regular.
+   [3] (227c) Pedir al personero o a un monitor que medie entre los dos docentes delante del curso, para dar participación y mostrar que el gobierno estudiantil también puede resolver conflictos de adultos en la vida cotidiana de la escuela.
+EXPL: La condición de calidad vuelve a pedir la conducta más defendible ética e institucionalmente ante dos colegas que discuten frente a estudiantes. El deber de cuidado (Ley 1098, Ley 1620) y el de reserva entre servidores (Ley 1952 de 2019, Código de Integridad) coinciden: se baja el tono, se protege al grupo y se cambia el escenario a un espacio privado institucional. El chat de docentes «para no de
+DA0: Trampa del chat de docentes para no dejar huella: continuar por mensajería parece proteger al grupo y a las personas. Rompe el canal, impide garantías y deja el conflicto en un medio sin acta, sin responsables y sin confidencialidad real.
+DA1: Trampa del retiro del grupo como cuidado: sacar a los estudiantes al patio parece clima y prudencia. Permite que el desacuerdo siga en el aula, finge que nada ocurrió y omite reconducir a coordinación o rectoría.
+DA3: Trampa de dominio cruzado de participación (Ley 115): el personero mediando suena a gobierno escolar vivo. Instrumentaliza a un menor en un conflicto de adultos, expone el diferendo y confunde competencias de instancias.
+
+===== 587 fs-com-8 ci=1 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (225c) Mostrar al acudiente el listado de calificaciones del curso, con nombres visibles, para que vea con transparencia que no hubo favoritismo y compare el resultado de su hijo con el de los compañeros en la misma prueba aplicada.
+>> [1] (236c) Escuchar el malestar del acudiente, explicar los criterios y las evidencias de la calificación a la luz del SIEE y del Decreto 1290, y ofrecer la ruta de aclaración y reclamación, protegiendo el habeas data del estudiante y de terceros.
+   [2] (239c) Ofrecer, como gesto de mediación y de cuidado de la alianza familia-escuela, ajustar la nota en el registro para cerrar el malestar, sin pasar por los procedimientos, plazos y evidencias que el SIEE establece para modificar una valoración.
+   [3] (228c) Proponer una actividad extra de recuperación en el acto, pensada para subir el puntaje y calmar al acudiente, sin verificar si el SIEE contempla esa oportunidad ni dejar criterios públicos de cómo se valorará la nueva evidencia.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un acudiente llega molesto por una nota. Orientar al ciudadano aquí es escuchar, mostrar la evidencia y los criterios del SIEE (Decreto 1290) y ofrecer la ruta de aclaración, con habeas data (Ley 1581): se habla del estudiante, no del listado del curso. Cambiar la nota como mediación pedagógica rompe la igual
+DA0: Trampa de la equidad formal y de la transparencia mal entendida: mostrar el listado con nombres parece probar imparcialidad. Entrega datos de otros menores, viola Ley 1581 y no explica el criterio del caso, que es lo que el acudiente tiene derecho a entender.
+DA2: Trampa de la mediación pedagógica que cambia la nota sin SIEE: ajustar el registro para cerrar el malestar suena a alianza y a cuidado. Alterar la valoración sin procedimiento, plazos ni evidencias rompe igualdad, trazabilidad y honestidad del juicio.
+DA3: Trampa de la recuperación express como servicio: una actividad inmediata para subir el puntaje parece segunda oportunidad y calma. Si el SIEE no la contempla con criterios públicos, es un privilegio de presión, no una ruta de aclaración.
+
+===== 588 fs-com-9 ci=2 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (243c) Agendar una reunión oficiosa de humanización del proceso en la que se comenten de manera informal los avances internos, para que quien pregunta sienta cercanía y baje la tensión, sin pasar por ventanilla ni por clasificación de la información.
+   [1] (240c) Abrir el expediente del proceso interno al acudiente que lo solicita, argumentando que el servicio al ciudadano implica no reservar papeles y que una institución de puertas abiertas genera más confianza que un conducto regular de respuesta.
+>> [2] (244c) Negarte con respeto a filtrar o entregar datos reservados del proceso interno, explicar que la reserva protege a las personas involucradas y reconducir el pedido al conducto regular de información pública y de habeas data, con respuesta formal.
+   [3] (224c) Pedir a secretaría una copia extra del proceso para la carpeta de la familia, con sello de recibido, de modo que quede constancia de atención y el colegio pueda mostrar diligencia si surge una queja por falta de información.
+EXPL: La condición de calidad exige la conducta más defendible ética e institucionalmente cuando, bajo presión, piden filtrar o conocer datos de un proceso interno. Integridad no es frialdad: es negar con respeto la entrega reservada y reconducir a ventanilla, clasificación (Ley 1712) y habeas data (Ley 1581). Abrir el expediente al acudiente «por servicio» confunde orientación al ciudadano con acceso i
+DA0: Trampa de la cercanía oficiosa: humanizar comentando avances internos parece orientación y manejo de clima. Adelanta de palabra lo reservado, sin clasificación ni registro, y convierte la integridad en una conversación de pasillo.
+DA1: Trampa de abrir el expediente al acudiente por servicio: puertas abiertas y confianza suenan a Código de Integridad mal leído. El servicio no anula reserva de terceros, de menores ni de actuaciones en curso; el conducto regular existe precisamente para eso.
+DA3: Trampa de dominio cruzado administrativo: la copia extra con sello es trazabilidad y atención al usuario. Documenta una entrega que no debió ocurrir y confunde constancia de diligencia con legalidad de la información entregada.
+
+===== 589 fs-com-10 ci=1 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (250c) Contratar una asesoría externa que presente el PEI en una plenaria con diapositivas atractivas y un video institucional, para actualizar la mirada del equipo, sin diagnosticar brechas de uso cotidiano ni acordar rutinas de apropiación en la práctica.
+>> [1] (252c) Levantar un diagnóstico participativo de las brechas de apropiación del PEI, socializar su sentido con el gobierno escolar y acordar rutinas concretas de planeación, seguimiento y evaluación, con responsables y evidencias de práctica en aula y en área.
+   [2] (233c) Adaptar el PEI de otra institución que ya pasó la visita de inspección, ajustando nombres y fechas, para ganar tiempo y ofrecer al equipo un documento ya validado, en lugar de construir apropiación del propio horizonte institucional.
+   [3] (240c) Organizar un concurso interno de recitación de principios del PEI, con reconocimientos en acto cívico, para visibilizar compromiso y motivación, sin revisar si la planeación de aula y las decisiones de área se anclan de verdad al documento.
+EXPL: La condición de calidad pide de nuevo la conducta más defendible ética e institucionalmente ante la baja apropiación del PEI, ahora con trampas distintas a la jornada masiva. El PEI es pacto de la comunidad (Ley 115, Decreto 1860), no un producto que se compra, se copia o se recita. Diagnosticar brechas, socializar sentido con el gobierno escolar y acordar rutinas de planeación y seguimiento es li
+DA0: Trampa de la inducción cosmética: plenaria, diapositivas y video parecen actualización profesional. No diagnostican dónde el equipo no usa el PEI ni acuerdan rutinas; sustituyen apropiación por una experiencia de comunicación.
+DA2: Trampa de copiar el PEI de otro colegio que ya pasó visita: adaptar un documento validado parece eficiencia y aseguramiento de calidad. Falsea el horizonte propio, salta la participación y enseña al equipo que el PEI es un trámite de inspección.
+DA3: Trampa de dominio cruzado de clima y de imagen: el concurso y el acto cívico visibilizan compromiso. Premian la recitación y no revisan planeación ni decisiones de área, que es donde se juega la apropiación real.
+
+===== 590 fs-com-11 ci=3 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (246c) Dejar que cada docente conserve su propio criterio de evaluación en su curso hasta una próxima reunión, para respetar la autonomía profesional y aliviar la tensión del equipo, sin unificar todavía evidencias de aprendizaje ni las reglas del SIEE.
+   [1] (239c) Escalar de inmediato el desacuerdo al Consejo Directivo para que fije un criterio único en la misma jornada y cierre el día, de modo que el área retome clases con una decisión de máxima instancia y quede constancia jerárquica del criterio.
+   [2] (238c) Pedir a coordinación académica que redacte durante el descanso una rúbrica unificada, la circule por correo y se aplique al día siguiente, para ganar celeridad y mostrar gestión, sin contrastar evidencias ni deliberar el SIEE con el área.
+>> [3] (258c) Facilitar la deliberación del área hasta un acuerdo sobre los criterios en disputa, contrastando evidencias de aula y las reglas del SIEE, y dejar el pacto en el canal institucional —acta, responsables y seguimiento—, sin atajos de jerarquía ni de celeridad.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando el área discrepa con fuerza sobre criterios. El trabajo en equipo, anclado en el SIEE (Decreto 1290) y en el gobierno escolar (Ley 115, Decreto 1860), se cumple facilitando un acuerdo con evidencias, norma y registro. Conservar cada uno su criterio «por autonomía» fragmenta el derecho de los estudiantes a reg
+DA0: Trampa de la autonomía como tregua: conservar cada quien su criterio parece respeto profesional y baja la tensión. Produce evaluaciones no comparables, vulnera la publicidad del SIEE y aplaza el acuerdo que el equipo debía construir.
+DA1: Trampa de escalar al Consejo Directivo para cerrar el día: la máxima instancia y la constancia jerárquica suenan a institucionalidad fuerte. Saltan la deliberación de área y el contraste con el SIEE, y usan el gobierno escolar como tapón de agenda.
+DA2: Trampa de dominio cruzado de rapidez administrativa: la rúbrica del descanso, circulada por correo, es gestión visible. No hay evidencias ni deliberación normativa; hay un instrumento impuesto que finge acuerdo de equipo.
+
+===== 591 fs-com-12 ci=2 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (206c) Grabar el altercado entre adultos y circular el video al equipo «como evidencia», para que coordinación disponga de prueba audiovisual y el incidente en zona de estudiantes quede documentado ante una queja.
+   [1] (209c) Instalar de inmediato un círculo restaurativo en el corredor, con estudiantes como comunidad de apoyo, para aplicar la Ley 1620 al conflicto de adultos y firmar un acuerdo a la vista de quien transite la zona.
+>> [2] (211c) Intervenir con calma, detener el altercado entre adultos en zona de estudiantes, reconducirlos a un espacio privado institucional y dejar registro interno para mediación, protegiendo a los menores de esa escena.
+   [3] (203c) Citar el mismo día a familias de los cursos cercanos a una reunión informativa sobre el incidente, para anticipar rumores y mostrar que la institución informa con transparencia lo ocurrido entre adultos.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando el conflicto estalla entre adultos a la vista de estudiantes. El Código de Infancia y la Ley 1620 obligan a proteger a los menores de escenas que no les corresponden; el Decreto 1278 y el Código de Integridad del DAFP exigen serenidad, canal institucional y registro. La Ley 1952 impide convertir un incidente 
+DA0: Trampa de la evidencia audiovisual: grabar y circular el altercado parece prudencia jurídica y trabajo en equipo. Vulnera reserva, revictimiza a quienes aparecen y convierte a estudiantes en parte del material, en contra de la Ley 1581 y de la protección de menores.
+DA1: Trampa de dominio cruzado de convivencia: el círculo restaurativo con estudiantes suena a Ley 1620 impecable. Aplica una ruta de aula a un conflicto laboral de adultos y mantiene la escena en zona pública, que es precisamente lo que el stem pide desactivar.
+DA3: Trampa de la transparencia comunicativa: citar familias el mismo día parece orientación al ciudadano y control de rumores. Expone un conflicto interno, salta el conducto de personal y usa la comunidad como auditorio, no como garante del debido proceso.
+
+===== 592 fs-com-13 ci=0 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (221c) Recibir al acudiente en espacio y horario institucionales, escuchar el motivo de la inconformidad, explicar la nota con evidencias y criterios del SIEE, y ofrecer la ruta de aclaración y reclamación prevista en el manual.
+   [1] (214c) Atender la queja por WhatsApp personal «para ser más ágil», enviar fotos del cuaderno y acordar un ajuste de la nota en el chat, de modo que el acudiente se calme el mismo día sin cita presencial en la institución.
+   [2] (220c) Remitir al acudiente el mismo día a la Comisión de Evaluación y Promoción prevista en el SIEE, con oficio, para que el órgano decida la nota y el docente evite un diálogo que podría tensionar la relación familia-escuela.
+   [3] (212c) Citar al estudiante al pasillo de la sede para que explique y defienda su nota frente al acudiente, de modo que la familia perciba rigor y el menor asuma en público la justificación de la evidencia de evaluación.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente ante un acudiente molesto por una nota. El Decreto 1290 y el SIEE del PEI (Leyes 115 y 1860) ordenan un primer nivel de atención: escucha, criterios públicos, evidencias y ruta de aclaración, no un cambio improvisado ni un salto de instancia. El DAFP define la orientación al ciudadano como servicio con canal oficial
+DA1: Trampa del canal ágil: el WhatsApp personal parece servicio cercano y oportuno. Mezcla dato sensible de un menor, deja la nota en un chat no institucional y abre un ajuste sin SIEE, en contra de la Ley 1581 y del Decreto 1290.
+DA2: Trampa de dominio cruzado de gobierno escolar: remitir de entrada a la Comisión de Evaluación suena a apego normativo. Salta el primer nivel de aclaración con el docente, judicializa la nota y evade la orientación directa que el stem pide.
+DA3: Trampa de la rigurosidad visible: que el estudiante «explique» en el pasillo parece transparencia y formación en la responsabilidad. Expone al menor, desplaza el deber docente de argumentar criterios y tensiona la relación en un espacio no institucional.
+
+===== 593 fs-com-14 ci=3 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (211c) Entregar copia del expediente disciplinario «porque es padre de familia» y tiene derecho a conocer, dejando constancia de recibido para atender el reclamo ciudadano y prevenir una queja por falta de información.
+   [1] (210c) Responder por escrito invocando la Ley 1712 de transparencia, con un resumen del proceso interno que incluya nombres y estado, argumentando que una IE oficial no puede reservar lo que ocurre en gestión pública.
+   [2] (209c) Recibir al interesado, anotar lo que pregunta y comprometerse a averiguar el detalle y devolvérselo al día siguiente, para no cerrar la puerta y mantener una relación de servicio con quien reclama información.
+>> [3] (210c) Explicar con respeto que la información del proceso interno está reservada, abstenerse de entregar datos o copias, y orientar al interesado por el conducto regular de la institución y las reglas de habeas data.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando solicitan información confidencial de un proceso interno. La Ley 1952, el Decreto 1278 y el DAFP sitúan la integridad en no revelar lo reservado, incluso bajo presión de un acudiente o de un relato de «transparencia». La Ley 1581 protege datos de terceros y de menores; la Ley 1712 no autoriza a entregar exped
+DA0: Trampa del derecho de familia: entregar el expediente «porque es padre» parece orientación al ciudadano y prevención de quejas. Confunde la calidad de acudiente con legitimación para conocer un proceso interno y vulnera reserva disciplinaria y habeas data.
+DA1: Trampa de dominio cruzado de transparencia: invocar la Ley 1712 con nombres y estado del proceso suena a gestión pública impecable. Ignora las excepciones de reserva y la Ley 1581; publica lo que el stem pide no revelar.
+DA2: Trampa del servicio diferido: comprometerse a averiguar y devolver el dato parece amabilidad y no cierre en falso. Aplaza la filtración, crea expectativa de acceso indebido y evade el no respetuoso que la integridad exige el mismo día.
+
+===== 594 fs-com-15 ci=0 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (214c) Diagnosticar con el equipo las brechas de apropiación del PEI, socializar su sentido pedagógico y de gestión, y acordar rutinas de uso en planeación, evaluación y seguimiento, con responsables y fechas de revisión.
+   [1] (211c) Contratar un taller externo de liderazgo y apropiación del PEI, sin un diagnóstico previo de brechas del equipo, de modo que quede una jornada de capacitación visible y un certificado para el archivo de calidad.
+   [2] (213c) Expedir una circular que ordene colgar el PEI en cada aula y recoger fotos para la visita, argumentando que la apropiación se demuestra con el documento a la vista y un registro fotográfico homogéneo de las sedes.
+   [3] (216c) Trasladar la apropiación del PEI al Consejo de Padres, pidiendo una campaña de difusión comunitaria, para que las familias impulsen al equipo docente y el liderazgo directivo no se desgaste en más reuniones internas.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando el equipo muestra baja apropiación del PEI. Las Leyes 115 y 1860 sitúan el PEI como horizonte colectivo de la IE, no como afiche ni como evento de un proveedor. El Decreto 1278 y el DAFP definen el liderazgo directivo como diagnóstico, sentido compartido y rutinas de seguimiento, no como visibilidad de capaci
+DA1: Trampa de la capacitación visible: el taller externo de liderazgo parece gestión directiva y evidencia de calidad. Sin diagnóstico de brechas, compra un certificado y deja intacta la baja apropiación que el caso pide intervenir con el equipo.
+DA2: Trampa de dominio cruzado de inspección: circular, afiche en el aula y fotos para la visita suenan a trazabilidad impecable. Demuestran exhibición del documento, no uso en planeación y evaluación, y confunden archivo con liderazgo pedagógico.
+DA3: Trampa de la corresponsabilidad familiar: pedir al Consejo de Padres que «tire» del PEI parece Ley 115 y participación. Desplaza al equipo que debe apropiar el horizonte y convierte un problema de liderazgo interno en campaña comunitaria.
+
+===== 595 fs-com-16 ci=2 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (226c) Convocar el Comité Escolar de Convivencia de la IE para dirimir el desacuerdo técnico de criterios del área, con el argumento de que hay tensión entre docentes y la Ley 1620 cubre todo conflicto que afecte el clima de la sede.
+   [1] (221c) Solicitar a rectoría una circular que adopte el criterio del docente con mejor resultado en Pruebas Saber, para unificar por prestigio externo y cerrar el debate de área sin examinar las evidencias locales de aprendizaje.
+>> [2] (225c) Facilitar la deliberación del área con evidencias de aprendizaje, contrastar las propuestas con el SIEE y el PEI, y dejar acuerdos escritos sobre criterios, instrumentos y fechas de revisión, con responsables del seguimiento.
+   [3] (216c) Promediar las dos rúbricas en disputa y aplicar el resultado al grupo, para ser equitativos entre colegas y bajar la tensión, sin examinar las evidencias de los estudiantes ni el referente del SIEE de la institución.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando el área no logra acordar criterios. El Decreto 1290 y las Leyes 115 y 1860 exigen que los criterios de evaluación sean colegiados, públicos y coherentes con el SIEE y el PEI, no un promedio diplomático ni un decreto por prestigio de Saber. El DAFP y el Decreto 1278 valoran el trabajo en equipo como deliberaci
+DA0: Trampa de dominio cruzado de convivencia: llevar el desacuerdo de criterios al Comité Escolar suena a Ley 1620 y a cuidado del clima. Convierte un debate técnico del SIEE en un caso de convivencia y desplaza al área que debe acordar la evaluación.
+DA1: Trampa de la rendición de cuentas externa: unificar por el docente de mejor Saber parece calidad y cierre directivo. Sustituye las evidencias locales y el SIEE por un prestigio de prueba estandarizada, y cancela la deliberación de equipo que el stem pide.
+DA3: Trampa de la equidad entre colegas: promediar las rúbricas parece acuerdo y baja de tensión. Produce un criterio híbrido ilegible, no contrastado con evidencias ni con el SIEE, y simula trabajo en equipo sin un referente defendible ante las familias.
+
+===== 596 fs-com-17 ci=2 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (213c) Pedir a orientación escolar que cierre el caso entre los colegas, sin mediación de aula ni acuerdo de los implicados, para que el área de apoyo emita un visto bueno y la clase retome sin más trámite institucional.
+   [1] (223c) Sacar al grupo al patio para que no presencie el resto de la escena y dejar que los colegas terminen el desacuerdo en el aula vacía, sin reconducir el caso a un tercero institucional ni dejar registro escrito del incidente.
+>> [2] (226c) Pausar con respeto la discusión entre colegas frente al grupo, reubicar el diálogo en un recinto institucional fuera del aula, proteger a los estudiantes de ese conflicto de adultos y activar la mediación interna con registro.
+   [3] (213c) Elevar de inmediato un memorial a la secretaría de educación relatando la discusión, con copia a las familias del grupo, para que la autoridad externa ponga orden y quede rastro de que no se encubrió el incidente.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando dos colegas discuten frente a estudiantes. El Decreto 1278, la Ley 1952 y el DAFP exigen intervenir con mesura, cortar la exposición de terceros y usar el conducto interno. La Ley 1620 y el Código de Infancia obligan a no dejar a los menores como público de un conflicto laboral. La opción correcta pausa la es
+DA0: Trampa del cierre por apoyo: pedir a orientación que archive el caso parece ruta de convivencia y cuidado del clima. Omite la mediación de aula entre colegas, convierte un incidente relacional en un visto bueno y no reubica la escena que los estudiantes ya vieron.
+DA1: Trampa de la práctica casi correcta: sacar al grupo al patio parece protección inmediata. Deja el conflicto activo en el aula, sin espacio institucional ni registro, y no cumple la reconducción que el stem pide como conducta ética.
+DA3: Trampa de dominio cruzado de control externo: el memorial a secretaría con copia a familias suena a transparencia y a no encubrimiento. Expone un asunto interno, salta el conducto de la IE y usa a la comunidad como presión, en contra de la reserva de la Ley 1952.
+
+===== 597 fs-com-18 ci=3 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (206c) Invitar a la familia al Consejo Académico que sesiona el mismo día, para que exponga la queja de evaluación ante el órgano y se sienta escuchada en el máximo escenario académico de la institución educativa.
+   [1] (203c) Ofrecer una prueba extra diseñada en el momento, con la familia presente, para demostrar disposición de servicio y cerrar la queja el mismo día sin pasar por la ruta de aclaración y reclamación del SIEE.
+   [2] (208c) Remitir a la familia a la oficina jurídica de la secretaría con un modelo de derecho de petición, para que el reclamo de evaluación quede por escrito ante la autoridad y la IE se anticipe a un trámite formal.
+>> [3] (201c) Atender a la familia en espacio institucional, escuchar la queja de evaluación, mostrar criterios y evidencias del SIEE, y explicar la ruta de aclaración y reclamación sin improvisar un cambio de nota.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente al atender una familia con queja de evaluación. El Decreto 1290 y el SIEE —articulados a las Leyes 115 y 1860— ordenan un primer nivel de escucha, evidencias y ruta de aclaración, no un cambio improvisado ni un salto al máximo órgano. El DAFP define la orientación al ciudadano como canal oportuno y oficial. El Conse
+DA0: Trampa de dominio cruzado de gobierno escolar: invitar al Consejo Académico el mismo día parece el máximo respeto institucional. Salta el primer nivel del SIEE, usa un órgano de política para un caso individual y puede exponer la queja ante terceros sin reserva.
+DA1: Trampa del servicio inmediato: la prueba extra con la familia presente parece disposición y cierre oportuno. Improvisa un instrumento, rompe la comparabilidad del Decreto 1290 y sustituye la ruta de aclaración por un gesto de complacencia.
+DA2: Trampa de la formalización jurídica: el derecho de petición a la secretaría parece trazabilidad y prevención. Escala un reclamo que aún no recorrió el SIEE, tensiona a la familia y desplaza la orientación que el docente debía prestar en la IE.
+
+===== 598 fs-com-19 ci=2 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (226c) Publicar en la cartelera de la sede, «para transparencia», nombres y calificaciones ligadas al proceso interno, de modo que la comunidad vea que en una institución pública no se reservan los asuntos que ya circulan de palabra.
+   [1] (225c) Facilitar al personero estudiantil una copia del expediente interno para que medie con la comunidad, argumentando que el gobierno escolar justifica ese acceso y así se atiende el reclamo sin que el docente figure como emisor.
+>> [2] (217c) Negar con respeto la entrega de datos reservados del proceso interno, explicar el límite de confidencialidad y habeas data, y orientar al solicitante al conducto regular y a los canales oficiales de petición de la IE.
+   [3] (216c) Autorizar una visita al archivo con el interesado y dejarlo leer el proceso interno sin sacar copias, para equilibrar el derecho de petición con la idea de que no se entrega material y se atiende de forma presencial.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando insisten en información confidencial de un proceso interno. La Ley 1952, el Decreto 1278 y el DAFP exigen un no respetuoso y el conducto regular; la Ley 1581 cubre datos de terceros y de menores. La Ley 1712 no autoriza a publicar en cartelera nombres y notas ni a exhibir el expediente. La opción correcta se 
+DA0: Trampa de la transparencia pública: publicar nombres y calificaciones en cartelera parece Ley 1712 y control de rumores. Expone datos sensibles, revictimiza a implicados y contradice de frente la reserva que el caso de integridad exige.
+DA1: Trampa de dominio cruzado de gobierno escolar: entregar el expediente al personero parece participación y mediación estudiantil. Usa una figura de la Ley 115 para acceder a un proceso reservado y mantiene la fuga de información, ahora con otro emisor.
+DA3: Trampa del acceso sin copia: dejar leer el archivo parece un equilibrio prudente entre petición y reserva. El conocimiento indebido se produce igual; no hay legitimación ni habeas data, y se simula integridad con un gesto presencial.
+
+===== 599 fs-com-20 ci=0 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (225c) Identificar, con evidencias de práctica, dónde el PEI no orienta aún la planeación y la evaluación; socializar su horizonte con el equipo y pactar rutinas breves de apropiación, seguimiento y ajuste, antes de lanzar campañas.
+   [1] (224c) Dejar constancia en la red social institucional de un compromiso colectivo con el PEI, con fotos del equipo, para visibilizar liderazgo y sustituir el diagnóstico de brechas por un relato público de unidad ante la comunidad.
+   [2] (219c) Encargar a un docente de apoyo que redacte un PEI más corto y comunicable en un fin de semana, para presentarlo a las familias en la próxima asamblea y dar por superada la baja apropiación del equipo docente de la sede.
+   [3] (221c) Incluir en la evaluación de desempeño del Decreto 1278 un ítem de apropiación del PEI en el mes en curso, para acelerar el cumplimiento por la vía de la calificación y no por un trabajo colectivo de sentido con el equipo.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando hay baja apropiación del PEI. Las Leyes 115 y 1860 exigen que el proyecto se viva en la práctica pedagógica, no en un post ni en un texto «vendible». El Decreto 1278 y el DAFP describen el liderazgo como lectura de brechas, construcción de sentido y rutinas, no como presión de puntaje ni como campaña digital.
+DA1: Trampa de la constancia en redes: el post de compromiso con fotos parece liderazgo comunicativo y transparencia. Sustituye el diagnóstico de brechas por una vitrina, y no cambia planeación ni evaluación, que es donde el PEI debería operar.
+DA2: Trampa de la pieza comunicable: un PEI corto redactado en un fin de semana parece agilidad y servicio a las familias. Cosmetiza el documento, excluye al equipo y da por cerrada una apropiación que aún no ocurrió en la práctica.
+DA3: Trampa de dominio cruzado de gestión del talento: el ítem 1278 de apropiación del PEI parece alineación y rigor directivo. Usa la calificación de desempeño como amenaza, salta el trabajo de sentido y tensiona el clima que el liderazgo debía cuidar.
+
+===== 600 fs-com-21 ci=3 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (205c) Unificar los criterios copiando la rúbrica de otro colegio reconocido, imprimiéndola con el logo de la IE, para ganar tiempo en la planeación y exhibir un instrumento ya validado ante quien revise el área.
+   [1] (211c) Invitar a un grupo de acudientes a la reunión de área para que voten los criterios en clave de servicio, de modo que el desacuerdo docente se resuelva con la voz de quien recibe la evaluación de los estudiantes.
+   [2] (206c) Aplazar la planeación conjunta y trabajar cada docente con su propio criterio hasta el siguiente período, dejando acta de que se respetó la autonomía, sin un referente común de área ni fecha de unificación.
+>> [3] (206c) Mediar en la planeación de área el desacuerdo de criterios con evidencias de estudiantes, contrastar con el SIEE y el PEI, y protocolizar instrumentos, niveles de desempeño y una fecha de revisión conjunta.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando la planeación de área se tensa por criterios distintos. El Decreto 1290 exige instrumentos y niveles coherentes con el SIEE y el PEI de esa IE, no una rúbrica ajena ni un voto de familias. Las Leyes 115 y 1860 reconocen autonomía profesional dentro de acuerdos colegiados, no como licencia para que cada quien 
+DA0: Trampa del instrumento ya validado: copiar la rúbrica de otro colegio parece benchmarking y ahorro de tiempo. Desconoce el SIEE propio, el contexto y las evidencias locales, y exhibe calidad ajena en lugar de un acuerdo de equipo.
+DA1: Trampa de dominio cruzado de orientación al ciudadano: que las familias voten los criterios parece servicio y participación. Traslada un juicio técnico del área a un auditorio no experto y debilita el SIEE como referente profesional de la IE.
+DA2: Trampa de la autonomía mal leída: el acta de que cada quien evalúa a su manera parece respeto a la Ley 115. Aplaza el acuerdo de planeación, deja criterios no comparables y convierte el desacuerdo en una política de hecho hasta el siguiente período.
+
+===== 601 fs-com-22 ci=0 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (243c) [1P] Intervengo con calma, pido a los colegas que desescalen el tono y los convoco a un espacio institucional sin estudiantes, para que coordinación medie el desacuerdo con reserva y registro, y el grupo no quede como público del conflicto laboral.
+   [1] (228c) [1P] Facilito un círculo restaurativo en el mismo salón, con el grupo como testigo de los acuerdos, para modelar la Ley 1620 y cerrar el incidente en caliente, sin retirar a los estudiantes del escenario del desacuerdo entre adultos.
+   [2] (238c) Solicito a rectoría el inicio inmediato de investigación disciplinaria a ambos docentes, con informe al Comité de Convivencia, para sentar precedente de que el aula no es foro de rencillas y el clima quede ejemplarizado ante la comunidad.
+   [3] (226c) Pido al personero estudiantil que medie entre los docentes frente al grupo, para fortalecer el gobierno escolar y dar voz a los estudiantes, y dejo el conducto de coordinación y reserva para un momento posterior de la jornada.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando dos colegas discuten frente a estudiantes. La Ley 1620 de 2013, el Decreto 1965 de 2013 y la Guía 49 del MEN obligan a proteger el clima, la dignidad de quien no es parte y la reserva: un conflicto laboral no se convierte en contenido pedagógico ni en espectáculo. El Decreto 1075 de 2015 y los deberes del ser
+DA1: Trampa de dominio cruzado restaurativo: el círculo en el salón suena a Ley 1620 y a modelar diálogo, pero convierte al grupo en testigo de un conflicto laboral. La mediación entre adultos exige espacio institucional reservado, no pedagogía improvisada frente a estudiantes.
+DA2: Trampa disciplinaria de control: abrir investigación inmediata «para sentar precedente» parece integridad y liderazgo. Salta la desescalada, el debido proceso y la mediación, y usa el Comité de Convivencia como palanca punitiva de un desacuerdo entre colegas.
+DA3: Trampa de participación estudiantil mal aplicada: pedir al personero que medie entre docentes frente al grupo parece gobierno escolar. Invierte roles, expone a NNA y evade el conducto de coordinación, que es la instancia ética e institucional del caso.
+
+===== 602 fs-com-23 ci=2 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (237c) En la misma reunión acuerdo modificar la valoración del período para calmar al acudiente, dejo constancia de buena disposición y cito otra fecha cuando bajen los ánimos, sin reabrir evidencias del SIEE ni la ruta de reclamación prevista.
+   [1] (223c) Oriento al acudiente a tutelar o a radicar de inmediato en Personería y Secretaría de Educación, como primera instancia, para que el control externo revise la nota antes de agotar el SIEE, el docente y el Consejo Académico.
+>> [2] (236c) [1P] Escucho el reclamo con respeto, explico los criterios públicos del SIEE con evidencias del proceso del estudiante y ofrezco la ruta institucional de aclaración y reclamación, sin alterar la nota en el momento de la visita del acudiente.
+   [3] (234c) Levanto un compromiso verbal de revisar la nota en cuanto se pueda, sin fecha, sin responsable y sin evidencias del SIEE, para que la familia sienta atención inmediata y se retire del colegio ese mismo día con una sensación de avance.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente ante un acudiente molesto por una nota. El Decreto 1290 de 2009 y el SIEE de la institución (Ley 115 y Decreto 1075) definen criterios públicos, evidencias y una ruta de aclaración y reclamación que se agota en el establecimiento —docente, coordinación, Consejo Académico— antes de acudir a control externo. La orient
+DA0: Trampa de la hospitalidad que cede el criterio: modificar la valoración «en la reunión» para calmar al acudiente parece servicio y desescalada. Rompe el Decreto 1290, el SIEE y el debido proceso, y enseña que la nota se negocia con la emoción del momento.
+DA1: Trampa de dominio cruzado de control: tutelar o ir a Personería y Secretaría como primer paso suena a garantía de derechos. Omite agotar SIEE y gobierno escolar, judicializa una aclaración de nota y debilita la instancia ética e institucional del colegio.
+DA3: Trampa del formalismo incompleto: el compromiso verbal sin fecha, responsable ni evidencias parece atención inmediata. Simula orientación al ciudadano y deja el reclamo sin trazabilidad, sin SIEE y sin ruta de reclamación.
+
+===== 603 fs-com-24 ci=1 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (221c) Envío al interesado un resumen del proceso interno por WhatsApp, con nombres y estado, argumentando agilidad y confianza interpersonal, y le pido que no lo radique para evitar el trámite de archivo, reserva y habeas data.
+>> [1] (233c) [1P] Me niego con respeto a revelar datos del proceso interno, explico reserva, Ley 1581 y deber de confidencialidad, y oriento a radicar la solicitud por el conducto institucional para que el responsable del archivo resuelva con reserva.
+   [2] (239c) Entrego de inmediato copia del expediente invocando la Ley 1712 de transparencia, sin consultar clasificación de reserva ni autorización de rectoría, para demostrar apertura institucional y evitar un roce con quien pregunta por el proceso.
+   [3] (216c) Acuerdo un informe verbal en el pasillo esa misma tarde, sin fecha de entrega formal ni responsable de archivo, para no burocratizar el pedido y mantener la relación con quien consulta el proceso interno del colegio.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando piden datos de un proceso interno. La integridad del servidor público (Ley 1952 de 2019), la Ley 1581 de 2012 (habeas data) y la reserva de actuaciones administrativas y disciplinarias impiden entregar nombres, estados o copias por fuera del conducto. La Ley 1712 de 2014 de transparencia no borra la clasifica
+DA0: Trampa de la agilidad relacional: el resumen por WhatsApp con nombres parece servicio y confianza. Es una filtración extraoficial que evade archivo, Ley 1581 y reserva, y pide al interesado que no radique precisamente para ocultar el conducto.
+DA2: Trampa de dominio cruzado de transparencia: invocar la Ley 1712 y entregar el expediente suena a integridad pública. Omite clasificar reserva, autorización de rectoría y habeas data; convierte un proceso interno en publicidad improvisada.
+DA3: Trampa del servicio informal: el informe verbal en el pasillo, sin fecha ni responsable, parece hospitalidad y baja burocracia. Deja el dato sin archivo, sin reserva y sin instancia, y debilita la integridad que el stem exige defender.
+
+===== 604 fs-com-25 ci=2 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (228c) Imprimo el PEI vigente y lo fijo en portería y carteleras de acceso para que la comunidad lo vea, y reporto cumplimiento formal ante la visita, sin jornadas internas de sentido ni rutinas de aula acordadas con el equipo docente.
+   [1] (236c) Expido un memo de coordinación que ordena alinear los planeadores al PEI en ocho días, sin diagnóstico de brechas ni deliberación de áreas, para dejar rastro de liderazgo visible en la carpeta de calidad y en el cronograma de la visita.
+>> [2] (238c) [1P] Diagnostico con el equipo las brechas de apropiación del PEI, socializo su sentido pedagógico en el gobierno escolar y acuerdo rutinas de aula, responsables y seguimiento, para que el horizonte institucional oriente la práctica cotidiana.
+   [3] (218c) Llevo el PEI al Consejo Directivo para que se readopte en un acta con firmas y sello, y doy por resuelta la baja apropiación, sin caracterizar brechas del equipo ni acordar rutinas pedagógicas de aula y de seguimiento.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente ante la baja apropiación del PEI. La Ley 115 de 1994, el Decreto 1860 de 1994 y el Decreto 1075 de 2015 definen el PEI como pacto vivo del gobierno escolar, no como afiche de portería ni como circular de acatamiento. El liderazgo directivo y docente consiste en diagnosticar brechas, socializar el sentido pedagógico 
+DA0: Trampa de la rendición de cuentas ornamental: imprimir el PEI en portería «para que la comunidad lo vea» parece participación y preparación de visita. Cumple el archivo visual y omite el trabajo pedagógico interno de apropiación con el equipo.
+DA1: Trampa de dominio cruzado gerencial: el memo de coordinación que alinea planeadores en ocho días, sin diagnóstico ni deliberación, suena a liderazgo ejecutivo. Impone acatamiento, salta el gobierno escolar y no construye sentido ni rutinas de aula.
+DA3: Trampa administrativa del gobierno escolar: readoptar el PEI en Consejo Directivo con firmas y sello es instancia formal impecable. Da por cerrada la baja apropiación y deja sin diagnóstico ni rutinas la práctica cotidiana que el liderazgo debía activar.
+
+===== 605 fs-com-26 ci=2 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (222c) Traslado el desacuerdo de criterios al Comité Escolar de Convivencia para que, como tribunal, decida qué enfoque debe prevalecer en el área, cubriendo un conflicto curricular con la ruta de atención de la Ley 1620 de 2013.
+   [1] (230c) Radico el desacuerdo de criterios en Secretaría de Educación como primer paso, para que el nivel territorial zanje el enfoque del área antes de agotar el Consejo Académico, el SIEE y los acuerdos pedagógicos del PEI institucional.
+>> [2] (239c) [1P] Facilito que el área coteje evidencias de aprendizaje, el SIEE y los acuerdos del PEI, y deje en acta criterios comunes, responsables y fecha de revisión, de modo que el desacuerdo se resuelva con norma institucional y no con imposiciones.
+   [3] (233c) Propongo que el jefe de área fije el criterio sin contrastar evidencias, para cumplir el cronograma de mallas y dejar la decisión en un acta de asistencia, y el resto del equipo se limite a firmar de enterado al cierre de la reunión.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente en un desacuerdo fuerte de área sobre criterios. El trabajo en equipo docente se sostiene en el Consejo Académico, el SIEE (Decreto 1290) y el PEI (Ley 115 y Decreto 1075): evidencias, norma compartida, acta con responsables y fecha. La Ley 1620 crea el Comité Escolar de Convivencia para clima y ruta de atención, no
+DA0: Trampa de dominio cruzado de convivencia: llevar el desacuerdo de criterios al Comité de Convivencia como tribunal parece Ley 1620 y clima escolar. Usa la ruta de atención para un conflicto curricular y desplaza al SIEE, al PEI y al Consejo Académico.
+DA1: Trampa de control territorial: radicar en Secretaría de Educación como primer paso suena a garantía y a «subir el caso». Omite agotar área, SIEE y Consejo Académico, y convierte un disenso pedagógico en controversia administrativa externa.
+DA3: Trampa jerárquica de eficiencia: que el jefe fije el criterio sin evidencias y el equipo firme asistencia parece liderazgo y cumplimiento de cronograma. Simula unidad, anula la deliberación colegiada y deja criterios no defendibles ante el SIEE.
+
+===== 606 fs-com-27 ci=0 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (243c) [1P] Intervengo con calma en el pasillo, detengo el intercambio frente a terceros y convoco a las partes a un espacio institucional reservado, con mediación de coordinación y registro, para que el conflicto público no se vuelva espectáculo escolar.
+   [1] (239c) Invito a un círculo restaurativo ahí mismo, con quienes transitan el pasillo como testigos del acuerdo, para modelar ciudadanía de la Ley 1620 y enfriar el incidente sin retirar a estudiantes ni acudientes del lugar de circulación pública.
+   [2] (237c) Pido a rectoría levantar de inmediato proceso disciplinario a quien alzó la voz, para sentar precedente de respeto en zonas comunes, y dejo la mediación del caso concreto para cuando el expediente disciplinario haya avanzado en rectoría.
+   [3] (235c) Aplazo el incidente y lanzo esa semana una encuesta anónima de clima a docentes y familias, para diagnosticar el ambiente general del colegio, en lugar de mediar el conflicto concreto que está ocurriendo entre las partes en el pasillo.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente ante un conflicto público en el pasillo —entre docentes o con un acudiente— frente a terceros. La Ley 1620, el Decreto 1965 y la Guía 49 exigen proteger el clima y la dignidad, con mediación proporcional y reserva; el Decreto 1075 y la Ley 1952 obligan a desescalar y a usar el conducto (coordinación, rectoría), no a
+DA1: Trampa restaurativa de escenario público: el círculo en el pasillo, con transeúntes como testigos, suena a Ley 1620 y a modelar ciudadanía. Expone a estudiantes y acudientes, y convierte la mediación entre adultos en pedagogía improvisada en un lugar de circulación.
+DA2: Trampa disciplinaria de precedente: levantar proceso inmediato a quien alzó la voz parece autoridad y respeto institucional. Salta la desescalada y el debido proceso, y deja el conflicto actual sin mediación mientras el expediente «avanza».
+DA3: Trampa de dominio cruzado de gestión del clima: la encuesta anónima parece participación y diagnóstico serio. Sustituye la mediación del incidente concreto por un instrumento de percepción general y aplaza la responsabilidad ética del momento.
+
+===== 607 fs-com-28 ci=0 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (240c) [1P] Atiendo al acudiente con escucha activa, muestro evidencias y criterios del SIEE del período y le indico la ruta de aclaración —docente, coordinación y Consejo Académico—, sin modificar la valoración en el momento del reclamo de la familia.
+   [1] (233c) Revisamos el boletín y, para calmar a la familia, acuerdo ajustar la valoración del período en esa misma reunión, con el argumento de que la escucha debe traducirse en un gesto concreto en el sistema de notas y en el boletín escolar.
+   [2] (228c) Entrego al acudiente, en un espacio de circulación, copia del observador y de planillas de varios estudiantes para que compare y verifique equidad, y así la familia compruebe que no hubo privilegios en la valoración del período.
+   [3] (222c) Convoco al Comité Escolar de Convivencia para que revise si la nota fue justa, como si se tratara de una situación de clima, y desplazo al SIEE y al Consejo Académico en un asunto de evaluación de aprendizajes del período.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un acudiente reclama una nota. El Decreto 1290, el SIEE y el gobierno escolar (Ley 115, Decreto 1860, Decreto 1075) fijan criterios, evidencias y ruta interna de aclaración. La orientación al ciudadano es escuchar, mostrar evidencia y ofrecer esa ruta, no negociar la valoración ni exhibir datos de terceros. L
+DA1: Trampa de la escucha que se traduce en ceder: ajustar la valoración «en esa misma reunión» para calmar a la familia parece orientación al ciudadano. Rompe el Decreto 1290 y enseña que el reclamo emocional modifica el SIEE al instante.
+DA2: Trampa de dominio cruzado de transparencia: entregar observador y planillas de varios estudiantes «para que compare» suena a equidad y a servicio. Vulnera la Ley 1581, expone a terceros y no es la ruta de aclaración de una nota individual.
+DA3: Trampa de convivencia como tribunal evaluativo: convocar al Comité de Convivencia para juzgar si la nota fue justa parece Ley 1620. Desplaza al SIEE y al Consejo Académico y convierte un asunto de aprendizajes en situación de clima.
+
+===== 608 fs-com-29 ci=0 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (241c) [1P] Niego con respeto la entrega de información reservada del proceso interno, cito la Ley 1581 y el deber de confidencialidad, y oriento al solicitante al conducto regular de archivo y reserva que define la rectoría de la institución educativa.
+   [1] (228c) Entrego al concejal un informe extraoficial con extractos y nombres del proceso, argumentando apoyo al control político local, y le pido que no lo radique para evitar un trámite de transparencia, reserva y archivo institucional.
+   [2] (225c) Subo el expediente a una carpeta compartida con enlace abierto para facilitar la consulta y aviso al interesado por chat, sin clasificación de reserva ni autorización del archivo institucional que custodia el proceso interno.
+   [3] (222c) Autorizo una nota en la red del colegio que resume el proceso interno para que no circule el rumor, con el argumento de transparencia preventiva, sin reserva de datos ni el conducto de comunicaciones oficiales de rectoría.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando solicitan información confidencial de un proceso interno. La integridad se concreta en negar con respeto lo reservado y en ofrecer el conducto: Ley 1581, artículo 15 constitucional, Ley 1952 y archivo institucional (Decreto 1075). El control político de un concejal no habilita un informe extraoficial con nomb
+DA1: Trampa de dominio cruzado de control político: el informe extraoficial al concejal parece apoyo a la veeduría y a la transparencia. Entrega nombres por fuera del conducto, pide que no se radique y convierte la reserva en un favor personal a una autoridad electa.
+DA2: Trampa técnica de transparencia: el enlace abierto y el aviso por chat parecen modernizar el acceso a la información. Omiten clasificación de reserva, autorización de archivo y Ley 1581, y dejan el expediente expuesto a cualquiera que reciba el vínculo.
+DA3: Trampa de la comunicación preventiva: resumir el proceso en la red del colegio «para que no circule el rumor» suena a gestión de crisis. Publica lo reservado, salta el conducto de comunicaciones y agrava la filtración que la integridad debía impedir.
+
+===== 609 fs-com-30 ci=2 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (229c) Envío el PDF del PEI por el grupo masivo de WhatsApp de acudientes y lo dejo en portería para que se vea, y considero resuelta la baja apropiación del equipo, sin jornadas internas de sentido ni rutinas de seguimiento en el aula.
+   [1] (246c) Firmo una circular de rectoría que ordena alinear todas las áreas al PEI en la siguiente semana, sin diagnóstico de brechas ni deliberación colegiada, para dejar constancia de liderazgo directivo ante la visita de calidad y el archivo de gestión.
+>> [2] (241c) [1P] Como directivo, caracterizo las brechas de apropiación del PEI con el Consejo Académico, socializo el horizonte en jornadas de equipo y acuerdo rutinas de seguimiento en aula y actas, para que el proyecto deje de ser un documento de archivo.
+   [3] (249c) Aperturo investigación disciplinaria a quienes no citan el PEI en sus planeadores, para sentar precedente de apropiación institucional, y dejo el trabajo de sentido y de rutinas de aula para un taller posterior que aún no tiene fecha ni responsable.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando hay baja apropiación del PEI y el actor es un directivo. El liderazgo pedagógico (Ley 115, Decreto 1860 y Decreto 1075) no se agota en difundir el PDF ni en una circular de acatamiento: caracteriza brechas con el Consejo Académico, socializa el horizonte con el equipo y acuerda rutinas de aula con seguimiento
+DA0: Trampa de la visibilidad comunitaria: el PDF por WhatsApp y el ejemplar en portería «para que se vea» parecen rendición de cuentas y liderazgo comunicativo. Dan por resuelta la baja apropiación del equipo y omiten el trabajo pedagógico interno.
+DA1: Trampa gerencial del memo directivo: la circular que ordena alinear áreas en una semana, sin diagnóstico ni deliberación, suena a liderazgo firme ante la visita. Impone acatamiento, salta el Consejo Académico y no crea rutinas de aula.
+DA3: Trampa disciplinaria de precedente: investigar a quienes no citan el PEI parece integridad y autoridad. Convierte un vacío de sentido en falta, y deja sin fecha ni responsable el trabajo pedagógico que el liderazgo debía encabezar.
+
+===== 610 fs-com-31 ci=2 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (234c) Pido que el Comité Escolar de Convivencia arbitre el desacuerdo de rúbricas como si fuera una situación Tipo II, para que una instancia de clima escolar zanje un conflicto curricular y el área salga unificada al término de la reunión.
+   [1] (228c) Solicito a coordinación un memo que imponga el criterio de un subgrupo sin deliberación del área, para salir a tiempo y dejar unidad de criterio en la carpeta de calidad, sin contraste con DBA, SIEE ni acuerdos vigentes del PEI.
+>> [2] (233c) [1P] Modero la reunión para que el área contraste evidencias, DBA y SIEE, construya acuerdos escritos de criterio, responsables y fecha de seguimiento, y eleve al Consejo Académico lo que exceda al equipo, con respeto al gobierno escolar.
+   [3] (223c) Cerramos con un apretón de manos y el compromiso de alinearnos en el espíritu del área, sin fecha ni responsable, para no tensionar al equipo y dejar que cada aula conserve, en la práctica, su propio criterio de valoración.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente en una reunión de área con desacuerdo fuerte sobre criterios. El trabajo en equipo se realiza cotejando evidencias, DBA, SIEE (Decreto 1290) y PEI, con acta de acuerdos, responsables y fecha, y con elevación al Consejo Académico cuando el tema exceda al área (Ley 115, Decreto 1860, Decreto 1075). La Ley 1620 y el De
+DA0: Trampa de dominio cruzado de convivencia: pedir al Comité que arbitre rúbricas como Tipo II parece Ley 1620 y cierre institucional. Confunde un desacuerdo curricular con una situación de clima y desplaza al SIEE y al Consejo Académico.
+DA1: Trampa gerencial del memo: que coordinación imponga el criterio de un subgrupo sin deliberación parece eficiencia y unidad de carpeta. Anula el trabajo en equipo, ignora DBA y SIEE, y deja un acatamiento no deliberado.
+DA3: Trampa de la armonía sin trazabilidad: el apretón de manos y el «espíritu del área», sin fecha ni responsable, parecen cuidado del clima. Dejan cada aula con su criterio y evaden el acuerdo escrito que el stem pide defender institucionalmente.
+
+===== 611 fs-com-32 ci=2 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (223c) Separar a los dos docentes delante del grupo, con voz firme de autoridad, para modelar límites y que el estudiantado observe cómo la institución corrige en público el desacuerdo entre adultos y restablece el orden del aula.
+   [1] (211c) Solicitar a tres estudiantes que relaten lo oído, protocolizar esos testimonios en un formato de convivencia y remitirlos el mismo día a coordinación, para que el incidente quede foliado y haya rastro inmediato.
+>> [2] (218c) Intervenir con calma, bajar el tono del intercambio y reconducir a ambos colegas a un espacio privado con coordinación o rectoría, de modo que el estudiantado quede al margen y el diferendo siga el canal institucional.
+   [3] (204c) Retirarse del lugar para no interferir entre colegas, enviar después un correo detallado a rectoría describiendo lo visto y esperar a que el conducto regular convoque cuando exista agenda en coordinación.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando dos colegas discuten frente a estudiantes. La Ley 1620 de 2013 y el Decreto 1965 sitúan al docente como garante del clima escolar: el conflicto entre adultos no se convierte en espectáculo ni en contenido de la clase. La Ley 1098 exige proteger el interés superior y la dignidad de niños, niñas y adolescentes;
+DA0: Trampa de liderazgo visible y de modelamiento: separar a los docentes en público con voz de autoridad parece pedagogía del límite y control del aula. Expone a los colegas, convierte el conflicto adulto en lección y vulnera dignidad y reserva.
+DA1: Trampa de dominio cruzado administrativo-convivencia: protocolizar relatos de estudiantes folia el incidente con rapidez. Instrumentaliza a NNA como testigos, viola la Ley 1098 y no contiene la escena ni abre canal entre pares.
+DA3: Trampa de la prudencia y del conducto diferido: retirarse y escribir luego a rectoría suena a no interferir y a respetar jerarquía. Deja a los estudiantes como audiencia del conflicto y omite la contención ética del momento.
+
+===== 612 fs-com-33 ci=1 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (223c) Ofrecer de inmediato una reunión de flexibilidad de nota o un esquema tipo homeschooling, presentándolo como servicio al acudiente, para calmar la tensión y demostrar que la institución se adapta a la demanda de la familia.
+>> [1] (213c) Escuchar el motivo de la familia, explicar los criterios con evidencias del SIEE y del trabajo del estudiante, y ofrecer la ruta institucional de aclaración —coordinación, consejo académico o derecho de petición—.
+   [2] (204c) Convocar al personero estudiantil a la reunión con la familia, para que la veeduría del gobierno escolar medie la atención, quede registro de participación y la institución demuestre apertura democrática.
+   [3] (209c) Expedir en el acto un oficio de PQRS con sello de «atendido» y radicado visible, para cumplir el término de atención al usuario, dejar constancia de oportunidad administrativa y cerrar el caso ante la familia.
+EXPL: La condición de calidad exige la conducta más defendible ética e institucionalmente en la atención a la familia como ciudadana del servicio educativo. El Decreto 1290 y el SIEE de la IE fijan criterios, evidencias y rutas de reclamación; la orientación al ciudadano no es ceder la nota ni inventar un homeschooling de cortesía. La Ley 1437 ampara el derecho de petición y la información clara, no un 
+DA0: Trampa de la orientación como complacencia: la flexibilidad de nota o el homeschooling suenan a servicio y a calmar a la familia. Negocian el SIEE, crean privilegio y fallan ética e institucionalmente frente al Decreto 1290.
+DA2: Trampa de dominio cruzado de gobierno escolar: convocar al personero parece participación y veeduría democrática. Desplaza la atención ciudadana sobre una nota a una instancia estudiantil que no aclara criterios ni evidencias del SIEE.
+DA3: Trampa administrativa de oportunidad: el oficio de PQRS con sello de «atendido» cumple el término y deja rastro. Sin escucha ni evidencias, es trámite vacío y no orientación de fondo.
+
+===== 613 fs-com-34 ci=2 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (199c) Entregar un extracto del expediente con sello de «uso reservado», argumentando que el derecho de petición prima sobre la reserva y que el sello ya protege al titular del dato frente a quien pregunta.
+   [1] (197c) Comentar el rumor en el grupo de WhatsApp de la Junta de Padres, pidiendo discreción, para que la comunidad se entere por un canal de familias y deje de especular en los pasillos de la institución.
+>> [2] (196c) Negarte con respeto a revelar el contenido reservado, explicar el deber de confidencialidad y orientar a quien pregunta hacia el conducto regular y las instancias competentes para acceder al dato.
+   [3] (201c) Citar a quienes solicitan la información y compartir el archivo completo en una mesa cerrada, con el compromiso verbal de no difundirlo, para resolver con transparencia y evitar un escrito de petición.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando solicitan información confidencial de un proceso interno. La Ley 1581 de 2012, la Ley 1098 y el artículo 15 de la Constitución protegen datos personales y la intimidad, con refuerzo si hay niños, niñas o adolescentes. La Ley 1437 no convierte el derecho de petición en llave universal: hay información reservad
+DA0: Trampa de dominio cruzado del derecho de petición: entregar un extracto con sello de «uso reservado» parece cumplir la Ley 1437 y proteger con un formalismo. Cede el contenido reservado; el sello no crea habilitación legal.
+DA1: Trampa de la transparencia comunitaria: comentar el rumor en el WhatsApp de la Junta, pidiendo discreción, parece cortar la especulación por un canal de familias. Difunde el proceso, viola reserva y Ley 1581, y escala el conflicto.
+DA3: Trampa de la transparencia controlada: la mesa cerrada con compromiso verbal suena a solución discreta y a evitar un escrito. Entrega el archivo a quien no tiene competencia y deja la reserva en una promesa.
+
+===== 614 fs-com-35 ci=3 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (218c) Expedir una circular de compromiso con el PEI, recoger firmas del personal y tomar una foto para la visita de inspección, de modo que haya rastro visible de adhesión y la visita encuentre el documento ya protocolizado.
+   [1] (219c) Lanzar un microcurrículo nuevo de revitalización del PEI, diseñado con rapidez por un núcleo reducido, para mostrar iniciativa, renovar el discurso institucional y recuperar el ánimo del equipo ante la baja apropiación.
+   [2] (207c) Encargar a un docente de confianza que redacte el PEI actualizado en ocho días y lo lleve al consejo directivo, para destrabar la baja apropiación con una decisión ejecutiva y un texto ya listo para aprobar.
+>> [3] (202c) Diagnosticar con el equipo las brechas de apropiación del PEI, socializar su sentido pedagógico y acordar rutinas reales de uso en planeación, consejo académico y seguimiento, con responsables y fechas.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando hay baja apropiación del PEI. La Ley 115 (arts. 73 y 87) y el Decreto 1860 definen el PEI como pacto colectivo de la comunidad educativa, no como circular de adhesión ni como texto de un redactor rápido. El Decreto 1075 y la gestión directiva exigen diagnóstico, socialización y rutinas; el liderazgo no se dem
+DA0: Trampa de dominio cruzado de inspección: circular, firmas y foto para la visita dejan rastro impecable de «compromiso». Simulan apropiación, omiten el diagnóstico y no instalan rutinas de uso del PEI.
+DA1: Trampa de la innovación sin contexto: el microcurrículo de revitalización parece liderazgo curricular y ánimo del equipo. Sustituye el PEI vigente por novedad, sin leer brechas ni socializar el pacto colectivo.
+DA2: Trampa del liderazgo ejecutivo: encargar a un docente de confianza un PEI en ocho días parece destrabar el tema con un texto listo. Concentra el proyecto, vacía la colegialidad y convierte el pacto en trámite de consejo.
+
+===== 615 fs-com-36 ci=3 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (204c) Grabar la reunión del equipo docente y subir el audio al drive institucional como evidencia viva, argumentando que el archivo reemplaza el acta y documenta la tensión si el conflicto entre colegas escala.
+   [1] (221c) Pedir a rectoría que imponga el criterio de quien tiene más antigüedad en la planta, para cerrar la tensión con una decisión jerárquica, reanudar de inmediato el trabajo del equipo y evitar que el desacuerdo se prolongue.
+   [2] (197c) Invitar a dos acudientes del consejo de padres a la reunión del equipo, para que la veeduría ciudadana desempate el desacuerdo profesional y el pacto gane legitimidad comunitaria ante las familias.
+>> [3] (207c) Facilitar un acuerdo del equipo sustentado en evidencias de aula y en las normas institucionales —SIEE, PEI y acuerdos de área—, con responsables, criterios escritos, registro en acta y fecha de seguimiento.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente ante una tensión del equipo docente. El trabajo colaborativo en el Decreto 1075, el SIEE (Decreto 1290) y los acuerdos de área se construye con evidencias y norma, no con un audio en el drive ni con la antigüedad como argumento de cierre. La Ley 1581 y la reserva laboral protegen la voz de los colegas; grabar y subi
+DA0: Trampa de dominio cruzado de archivo digital: grabar y subir el audio al drive parece evidencia institucional y reemplazo moderno del acta. Omite acuerdos, vulnera reserva de los colegas y convierte la reunión en prueba de cargo.
+DA1: Trampa de la jerarquía por antigüedad: pedir a rectoría que imponga el criterio del más antiguo cierra la tensión con autoridad. Sustituye evidencia y norma por rango y deja el equipo sin acuerdo de fondo.
+DA2: Trampa de la veeduría ciudadana: invitar acudientes a desempatar parece participación y transparencia. Desplaza un desacuerdo profesional al gobierno de familias y expone la tensión interna.
+
+===== 616 fs-com-37 ci=1 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (222c) Aplicar al colega el capítulo del manual de convivencia sobre irrespeto, clasificar el episodio como situación de estudiante y foliar la falta, para modelar que la norma institucional vale para el conjunto de la comunidad.
+>> [1] (212c) Intervenir con serenidad, interrumpir el intercambio a la vista del grupo y trasladar el diferendo a un espacio reservado con el conducto institucional, protegiendo a los estudiantes y la dignidad de los colegas.
+   [2] (204c) Sacar al grupo al patio para que no escuche y dejar que los colegas terminen la discusión en el aula vacía, como gesto de protección del clima y de autonomía del conflicto entre adultos de la institución.
+   [3] (210c) Informar de inmediato a la Secretaría de Educación y solicitar visita de inspección, para que una autoridad externa contenga el clima laboral y la institución no quede expuesta ante el incidente entre docentes.
+EXPL: La condición de calidad exige la conducta más defendible ética e institucionalmente cuando dos colegas discuten frente a estudiantes. La Ley 1620 y el manual de convivencia regulan situaciones entre estudiantes y la Ruta de Atención Integral; no se aplican al par como si fuera educando. La Ley 1098 obliga a no exponer a NNA al conflicto adulto; sacarlos al patio y dejar la disputa en el aula vacía
+DA0: Trampa de dominio cruzado de convivencia escolar: aplicar el manual al colega y foliar la falta parece equidad de norma («vale para todos»). Escolariza al par, ignora el régimen disciplinario docente y no protege al grupo en el momento.
+DA2: Trampa de la práctica casi correcta: sacar al grupo al patio parece proteger oídos. Deja la disputa sin mediación ni canal, y el conflicto adulto sigue sin registro institucional ni cierre ético.
+DA3: Trampa de la escalada administrativa: informar a la Secretaría y pedir visita parece rigor y resguardo de la IE. Sustituye la contención local, expone el clima laboral y desborda la competencia del caso.
+
+===== 617 fs-com-38 ci=2 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (218c) Ajustar la nota en el sistema durante la misma reunión, con un comentario de «revisión por atención a la familia», para calmar al acudiente y demostrar orientación oportuna al ciudadano en el mismo espacio de atención.
+   [1] (199c) Citar al acudiente con el estudiante presente y abrir el consolidado del grupo, para que por transparencia compare la nota con la de compañeros y se convenza de que no hay trato desigual en el curso.
+>> [2] (204c) Escuchar la inconformidad, mostrar las evidencias y los criterios públicos del SIEE, y ofrecer la ruta de aclaración o reclamación prevista institucionalmente, sin alterar el juicio evaluativo en el acto.
+   [3] (213c) Remitir al acudiente al Comité de convivencia escolar para que la molestia se tramite como situación de clima, quede un protocolo de la ruta de atención y conste el seguimiento del caso en el libro de convivencia.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando un acudiente llega molesto por una nota. El Decreto 1290 y el SIEE exigen criterios públicos, evidencias y una ruta de reclamación; alterar la nota en la reunión para «prestar servicio» rompe integridad y debido proceso evaluativo. La Ley 1581 y la Ley 1098 prohíben exhibir el consolidado de terceros —los com
+DA0: Trampa de la orientación como privilegio: ajustar la nota en la reunión con un comentario de «revisión» parece servicio y desescalamiento. Viola el SIEE, el Decreto 1290 y la integridad del juicio evaluativo.
+DA1: Trampa de la transparencia con datos de terceros: citar con el estudiante y abrir el consolidado del grupo parece equidad y convicción. Expone notas ajenas, vulnera Ley 1581 y 1098, y desplaza el criterio del caso.
+DA3: Trampa de dominio cruzado de convivencia: remitir al Comité protocoliza el tono del acudiente y deja fuera evidencias, SIEE y ruta de reclamación que el objeto de la visita exige.
+
+===== 618 fs-com-39 ci=1 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (207c) Pedir un concepto jurídico a un abogado externo antes de cualquier respuesta o mediación, para respaldar la decisión con un dictamen escrito y actuar con asesoría en un asunto de reserva del proceso interno.
+>> [1] (195c) Negarte con respeto a divulgar datos del proceso, recordar el deber de reserva y orientar la solicitud al conducto regular y a las instancias que sí tienen competencia para conocer el expediente.
+   [2] (204c) Compartir el archivo con un grupo informal de colegas de confianza para validar qué se puede decir, de modo que la decisión sea colegiada y el criterio de reserva se construya entre pares del mismo ciclo.
+   [3] (198c) Radicar la petición como PQRS y anexar copias del expediente reservado como contexto, para que el trámite de atención al ciudadano quede completo y el término legal de respuesta se cumpla con fondo.
+EXPL: La condición de calidad exige la conducta más defendible ética e institucionalmente cuando la integridad se pone a prueba en la reserva de un proceso interno. El Código General Disciplinario, la Ley 1581 y, si hay NNA, la Ley 1098 imponen confidencialidad; el conducto regular —rectoría, secretaría académica, comité competente— es quien habilita el acceso. Un abogado externo no es instancia de la I
+DA0: Trampa de dominio cruzado jurídico: pedir concepto a un abogado externo antes de mediar parece debido proceso y prudencia. Retrasa el deber de reserva, pone el expediente en un tercero y sustituye el conducto de la IE.
+DA2: Trampa de la colegialidad informal: compartir el archivo con colegas de confianza para «validar qué se puede decir» parece trabajo en equipo. Circula el dato reservado entre quien no tiene competencia.
+DA3: Trampa de la atención ciudadana completa: radicar PQRS y anexar el expediente reservado como contexto cumple el término y el «fondo». Entrega el secreto en el mismo acto de responder.
+
+===== 619 fs-com-40 ci=0 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+>> [0] (203c) Diagnosticar las brechas de apropiación con el consejo académico y el equipo, socializar el sentido del PEI y acordar rutinas de uso en planeación y seguimiento, con responsables y evidencias periódicas.
+   [1] (218c) Homologar el PEI con los indicadores de gestión de la Secretaría, adoptando la matriz de la circular vigente, para alinear de inmediato el documento a la visita y ganar coherencia con el sistema territorial de calidad.
+   [2] (207c) Contratar una asesoría externa que redacte el PEI a la medida del instrumento de inspección en un fin de semana, para cumplir el requerimiento de la visita y aliviar la carga de escritura del equipo docente.
+   [3] (197c) Publicar el PEI vigente en la cartelera, recoger firma de enterado del personal y archivar la lista, para dejar rastro de socialización y dar por cerrada la baja apropiación detectada en el equipo.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente como acción inicial de liderazgo ante la baja apropiación del PEI. La Ley 115 y el Decreto 1860 conciben el PEI como construcción y práctica de la comunidad educativa, no como matriz copiada de la Secretaría ni como texto de una asesoría de fin de semana. El Decreto 1075 articula consejo académico, planeación y segu
+DA1: Trampa de dominio cruzado de gestión territorial: homologar el PEI con la matriz de la Secretaría parece calidad y coherencia con la visita. Sustituye la apropiación docente por indicadores ajenos al pacto pedagógico de la IE.
+DA2: Trampa de la consultoría de inspección: la asesoría que redacta el PEI en un fin de semana alivia carga y «cumple» el instrumento. Entrega un texto sin equipo y convierte el liderazgo en compra de documento.
+DA3: Trampa del formalismo de socialización: cartelera, firma de enterado y archivo parecen difusión institucional. Cierran el diagnóstico de baja apropiación sin rutinas de uso ni sentido compartido.
+
+===== 620 fs-com-41 ci=3 trabajo en equipo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (208c) Sortear el criterio de evaluación entre las posturas del área, argumentando que el azar evita privilegios de voz, reparte de manera imparcial la decisión y cierra el desacuerdo con equidad entre los docentes.
+   [1] (201c) Adoptar el criterio del docente cuyos grupos obtuvieron mejor resultado en Pruebas Saber, argumentando que la evidencia externa ya validó su enfoque y que el área debe alinearse a ese logro de calidad.
+   [2] (209c) Elevar el desacuerdo a un chat de acudientes del grado para que la comunidad vote qué criterio le parece más justo y el área recupere legitimidad social frente a las familias del ciclo y del consejo de padres.
+>> [3] (202c) Facilitar un acuerdo de área sustentado en evidencias de aprendizaje y en el SIEE, dejar criterios, desempeños y ponderaciones por escrito, y fijar responsables y fecha de revisión en consejo académico.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando en la reunión de área hay un desacuerdo fuerte sobre criterios. El Decreto 1290 y el SIEE exigen criterios colegiados, públicos y coherentes con aprendizajes; el azar no es equidad evaluativa. Las Pruebas Saber informan calidad externa, pero no sustituyen el acuerdo de área ni el SIEE. El gobierno escolar (Le
+DA0: Trampa de la equidad como azar: sortear el criterio parece imparcialidad y cierre justo del desacuerdo. Abandona evidencia, SIEE y argumentación profesional; el juicio evaluativo no es un sorteo entre posturas.
+DA1: Trampa de dominio cruzado de accountability: adoptar el criterio del docente con mejor Saber parece calidad y dato duro. Sustituye el acuerdo de área y el SIEE por un ranking externo y por la voz de un par.
+DA2: Trampa de la legitimidad social: llevar el desacuerdo al chat de acudientes para votar el criterio parece participación y recuperación de confianza. Cede la competencia técnica del área y expone el conflicto interno.
+
+===== 621 fs-com-42 ci=1 resolución de conflictos =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (202c) Pedir a portería el video de las cámaras del pasillo y proyectarlo en la reunión de padres, para dejar rastro del incidente y mostrar que el conflicto se atendió con evidencia visible ante la comunidad.
+>> [1] (199c) Intervenir con calma, apartar a las partes del escenario público y reconducir el caso a un espacio privado e institucional, con escucha, registro y acuerdos de seguimiento en el canal de convivencia.
+   [2] (202c) Aplicar una corrección verbal en el mismo lugar del incidente, con el grupo como testigo, para restablecer el orden de inmediato, dejar memoria colectiva y cortar el rumor que ya corre por los pasillos.
+   [3] (194c) Convocar a las familias en el mismo corredor para que aclaren el asunto frente a los estudiantes, de modo que el incidente se cierre en la jornada y no ocupe la agenda del comité de convivencia.
+EXPL: La condición de calidad pide la conducta más defendible ética e institucionalmente cuando el conflicto ya es público y hay riesgo de escalarlo o de romper la reserva. La Ley 1620 y el Decreto 1965 sitúan la gestión en el sistema de convivencia, con confidencialidad, debido proceso y registro; el Código de Integridad del servidor público exige serenidad y conducto regular. La opción correcta interv
+DA0: Trampa de dominio cruzado de portería y cámaras: el video proyectado en reunión de padres parece evidencia objetiva y rigor documental. Convierte el incidente en espectáculo, expone a menores y desplaza al comité de convivencia.
+DA2: Trampa de la ejemplaridad pública: corregir en el mismo lugar, con el grupo de testigo, suena a autoridad y a cortar el rumor. Escala el conflicto, vulnera la reserva y confunde el patio con instancia de debido proceso.
+DA3: Trampa de la mediación familiar improvisada: aclarar el asunto en el corredor parece agilidad y corresponsabilidad. Cede el canal institucional a un cara a cara expuesto y deja el comité de convivencia fuera del caso.
+
+===== 622 fs-com-43 ci=1 orientación al ciudadano =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (189c) Remitir de entrada al acudiente a la mesa de atención al ciudadano de la alcaldía, para que radique el reclamo como PQRS y el colegio responda cuando llegue el oficio con sello de recibido.
+>> [1] (193c) Escuchar el malestar del acudiente, mostrar las evidencias y los criterios del SIEE que sustentan la nota, y ofrecer la ruta institucional de aclaración y reclamación, con plazos y responsable.
+   [2] (201c) Ajustar la nota en el sistema durante esa misma reunión, para restablecer la confianza, dejar constancia de que el colegio atiende de inmediato al ciudadano y evitar que el reclamo escale a secretaría.
+   [3] (200c) Invitar al acudiente a exponer el reclamo en el grupo de WhatsApp de padres del curso, para que la comunidad vea disposición al diálogo y el asunto no quede como un trámite cerrado a puertas internas.
+EXPL: La condición de calidad pide orientación al ciudadano ética e institucional: un acudiente molesto por una nota no se atiende con un favor ni con un desvío a otro mostrador. El Decreto 1290 y el SIEE fijan evidencia, criterios conocidos y una ruta de aclaración; la Ley 1437 y el servicio público exigen escucha, información veraz y conducto. La opción correcta escucha, muestra la carpeta y los crite
+DA0: Trampa de dominio cruzado administrativo territorial: la mesa de atención al ciudadano de la alcaldía es un canal PQRS impecable. Desplaza el reclamo de evaluación fuera del SIEE y aplaza la escucha pedagógica que el acudiente pide hoy al colegio.
+DA2: Trampa del servicio como cesión: ajustar la nota en la misma reunión parece orientación inmediata y previene el escalamiento. Compra la paz, anula evidencias y criterios, y confunde atención ciudadana con falta de integridad evaluativa.
+DA3: Trampa de la transparencia en redes: el WhatsApp de padres parece diálogo abierto y disposición. Expone un conflicto de nota ante terceros, vulnera reserva y sustituye la ruta de reclamación del SIEE por un juicio de tribuna.
+
+===== 623 fs-com-44 ci=3 integridad =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (192c) Entregar la información pedida invocando transparencia activa de la Ley 1712, con copias al expediente y a quien la solicita, para que no se interprete reserva como ocultamiento institucional.
+   [1] (192c) Compartir un resumen verbal reservado con quien pregunta, para preservar la relación de trabajo y evitar un roce, y dejar nota de que se cooperó de buena fe con el proceso interno del colegio.
+   [2] (194c) Reenviar la petición a las familias involucradas por el chat institucional, para que ellas autoricen qué dato se entrega, y archivar las capturas como prueba de que el colegio no negó el acceso.
+>> [3] (205c) Negarte con respeto a entregar datos reservados, explicar el límite de confidencialidad que protege a menores y orientar la solicitud por el conducto regular de la institución, con registro de la petición.
+EXPL: La condición de calidad exige integridad ética e institucional cuando piden información confidencial de un proceso interno. La reserva de datos de niñas, niños y adolescentes (Ley 1581, Código de Infancia y Adolescencia y Ley 1620) prima sobre el impulso de «no ocultar»; la Ley 1712 de transparencia no autoriza a circular datos de menores ni piezas de un proceso disciplinario o de convivencia a qu
+DA0: Trampa de dominio cruzado de transparencia activa: invocar la Ley 1712 y anexar copias parece legalidad y lucha contra el ocultamiento. Aplica mal el acceso a la información sobre datos de menores y piezas de un proceso reservado.
+DA1: Trampa de la cooperación oficiosa: un resumen verbal reservado parece lealtad de equipo y previene el roce. Sigue siendo una filtración, sin legitimación ni registro del canal, y deja al docente expuesto e inconsistente con la reserva.
+DA2: Trampa del consentimiento por chat: reenviar la petición a las familias parece corresponsabilidad y deja capturas de «no negamos el dato». Desplaza el conducto, expone el proceso y confunde autorización informal con habilitación normativa.
+
+===== 624 fs-com-45 ci=2 liderazgo =====
+STEM: En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?
+CASE: En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.
+   [0] (205c) Levantar un acta de clima laboral con acuerdos genéricos para la próxima vigencia, para cuidar al equipo en una jornada de alta carga y retomar la apropiación del PEI cuando baje la presión administrativa.
+   [1] (210c) Lanzar de inmediato un plan de mejoramiento institucional según la Guía 34, con matriz de indicadores y cronograma de calidad, para convertir la tensión del equipo en un proceso certificable ante la secretaría.
+>> [2] (207c) Diagnosticar con el equipo las brechas de apropiación del PEI, socializar el sentido de los acuerdos pedagógicos y pactar rutinas de seguimiento en el aula, en consejo de área y en la revisión de evidencias.
+   [3] (209c) Expedir una circular de cumplimiento inmediato del PEI, leída en la formación general del personal, para unificar conductas, dejar constancia pública de la dirección y dar por cerrado el debate en esa jornada.
+EXPL: La condición de calidad pide liderazgo ético e institucional, no un gesto de archivo ni una orden visible. La Ley 115 y el Decreto 1075 sitúan al directivo en la apropiación del PEI; la Guía 34 orienta el mejoramiento cuando hay un diagnóstico de la gestión, no como respuesta automática a una tensión interpersonal. La opción correcta diagnostica brechas de apropiación, socializa el sentido y pacta
+DA0: Trampa de la prudencia administrativa: el acta de clima laboral con acuerdos genéricos parece cuidado del equipo en una jornada cargada. Aplaza el diagnóstico de apropiación del PEI y no pacta responsables, rutinas ni fecha de seguimiento.
+DA1: Trampa de dominio cruzado de la Guía 34: lanzar un PMI con matriz y cronograma parece liderazgo de calidad y deja producto certificable. Responde a una tensión de personas con un formato de gestión y no diagnostica ni socializa el PEI en el aula.
+DA3: Trampa de la imagen de mando: la circular leída en formación parece decisión firme y unifica el discurso. Sustituye el trabajo de sentido y de rutinas por un acatamiento público, y cierra el debate sin apropiación.
+
+===== 625 fs-ped-d1290-1 ci=1 d1290 =====
+STEM: Según el carácter formativo del Decreto 1290, ¿qué práctica es la más defendible?
+CASE: Un área evalúa solo un examen acumulativo sorpresa. Estudiantes que avanzaron en talleres no tienen esas evidencias en la promoción. Coordinación defiende el examen “porque es igual para todos”.
+   [0] (210c) Conservar el examen acumulativo sorpresa, con el mismo instrumento y el mismo tiempo para todo el grupo, de modo que la homogeneidad quede a salvo y coordinación pueda defender equidad formal ante las familias.
+>> [1] (219c) Triangular evidencias de proceso y de producto —talleres, desempeños y la prueba—, con criterios conocidos de antemano, y usar el examen como una evidencia más del juicio de promoción, no como el referente que lo agota.
+   [2] (207c) Entregar la rúbrica el día de los resultados «para no sesgar» al estudiantado, conservar la prueba sorpresa acumulativa y argumentar que así hay objetividad y las familias perciben rigor comparable del área.
+   [3] (206c) Registrar el examen y la planilla de asistencia en el SIEE, con visto bueno de coordinación, para responder a la visita con trazabilidad y unificar el juicio de promoción en un producto comparable del área.
+EXPL: La condición de calidad es el carácter formativo del Decreto 1290: la evaluación es continua, integral y al servicio del aprendizaje, no un evento sorpresa homogéneo que certifica. Los artículos sobre propósitos y características de la evaluación piden criterios conocidos, diversas evidencias y uso pedagógico del error; la promoción no puede descansar en una sola prueba acumulativa si hubo tallere
+DA0: Trampa de la equidad como homogeneidad: el mismo examen, el mismo tiempo y la defensa de coordinación suenan a justicia comparable. Uniforman el instrumento, niegan los talleres de proceso y confunden igualdad formal con evaluación formativa del 1290.
+DA2: Trampa de la rúbrica entregada el día de los resultados: «no sesgar» parece objetividad y rigor. Si el criterio llega cuando ya no hay tiempo de mejorar, se niega el carácter formativo y se conserva la prueba sorpresa como teatro de imparcialidad.
+DA3: Trampa de dominio cruzado de trazabilidad: examen y asistencia sellados en el SIEE lucen impecables ante la visita. Unifican el juicio en un producto comparable y dejan fuera los talleres de proceso que el caso ya había producido.
+
+===== 626 fs-ped-d1421-2 ci=1 d1421 =====
+STEM: ¿Qué decisión es coherente con ajustes razonables (Decreto 1421) y evaluación formativa?
+CASE: Una estudiante con baja visión presenta la misma prueba cronometrada en fotocopia densa. La familia pide nota mínima automática. Un colega dice que cualquier ajuste “rompe la equidad del grupo”.
+   [0] (202c) Aplicar a todo el grupo la misma fotocopia densa, el mismo tiempo y el mismo formato cronometrado, argumentando que la equidad es un instrumento idéntico y que un ajuste abriría reclamos de favoritismo.
+>> [1] (217c) Acordar en el PIAR materiales accesibles, tiempo adicional y una forma de evidencia que conserve los aprendizajes esenciales del grado, y evaluar esos esenciales con criterios públicos, no con una nota de solidaridad.
+   [2] (202c) Consignar una valoración mínima de periodo por inclusión, con oficio a la familia y visto bueno de coordinación, para atender el reclamo de manera humana y dejar constancia de que el colegio no excluye.
+   [3] (208c) Diligenciar el formato PIAR con el diagnóstico de baja visión, recoger firmas de enterado y conservar la prueba cronometrada en fotocopia densa, para que el expediente de inclusión esté al día ante la visita.
+EXPL: La condición de calidad articula ajustes razonables del Decreto 1421 con evaluación formativa: se transforma el acceso y la forma de demostrar, no se borra la meta ni se iguala la barrera. La estudiante con baja visión enfrenta una fotocopia densa y un tiempo que evalúan agudeza, no el aprendizaje esencial; el DUA y el PIAR obligan a material, tiempo y formato accesibles, con criterios públicos. L
+DA0: Trampa de la equidad como homogeneidad: la misma fotocopia, el mismo tiempo y el mismo cronómetro suenan a justicia y a prevención de favoritismo —el argumento del colega—. Uniforman la barrera visual y niegan el ajuste razonable del 1421.
+DA2: Trampa de la nota de solidaridad: la valoración mínima con oficio a la familia parece inclusión humana y calma el reclamo. Otorga un número sin PIAR de acceso y sin evidencia del esencial; es promoción simbólica, no ajuste ni evaluación formativa.
+DA3: Trampa del PIAR como trámite: diligenciar el formato, recoger firmas y dejar la prueba cronometrada en fotocopia densa luce como expediente de inclusión. El diagnóstico queda archivado y la barrera de material, tiempo y forma permanece intacta.
+
+===== 627 fs-ped-piaget-3 ci=1 piaget =====
+STEM: ¿Qué decisión alinea desarrollo, juego y evaluación cualitativa en inicial?
+CASE: En transición exigen planas y un promedio numérico semanal. Castigan el juego simbólico por “perder tiempo”. Familias piden “que se vea como primero”.
+   [0] (208c) Sustituir el juego simbólico por planas diarias y un ranking numérico semanal, para que las familias perciban rigor de primaria y la transición se presente en la reunión como un grado que ya «parece primero».
+>> [1] (209c) Mediar el juego y las rutinas como escenario de lenguaje, representación y pensamiento, y documentar procesos con devoluciones cualitativas a las familias, coherentes con el desarrollo de la educación inicial.
+   [2] (215c) Aplicar un examen escrito semanal homologable con primero, con promedio en planilla institucional, para unificar criterios con primaria y mostrar a inspección que ya hay evaluación comparable con el ciclo siguiente.
+   [3] (212c) Protocolizar en acta de calidad que el juego queda como recreo dirigido y que la evidencia oficial serán las planas firmadas, para responder a la visita con productos visibles y calmar la demanda de las familias.
+EXPL: La condición de calidad alinea desarrollo, juego y evaluación cualitativa en inicial. Piaget sitúa a la primera infancia en un pensamiento que se construye por acción, representación y juego simbólico; las Bases Curriculares y la Guía 50 del MEN rechazan la escolarización prematura y el promedio numérico como lenguaje de transición. El Decreto 2247 y el 1290, en este nivel, privilegian seguimiento
+DA0: Trampa de las planas y el ranking «para que se vea primaria»: el promedio semanal parece rigor y calma a las familias que piden que transición «parezca primero». Sustituye el juego simbólico por producto gráfico y niega la evaluación cualitativa del nivel.
+DA2: Trampa de la escolarización prematura: el examen escrito homologable con primero parece articulación de ciclos y evidencia «en serio» para inspección. Adelanta un formato operatorio y numérico a un estadio que aún construye representación en el juego.
+DA3: Trampa de dominio cruzado de calidad documental: protocolizar el juego como recreo y las planas firmadas como evidencia oficial luce impecable en la visita. Convierte el desarrollo en archivo de productos y vacía el juego de su función cognitiva.
+
+===== 628 fs-ped-bruner-4 ci=1 bruner =====
+STEM: ¿Qué secuencia de representación es la más defendible para mediar el aprendizaje?
+CASE: En 3° pasan de material concreto a la ecuación en un solo paso. Quienes no simbolizan de inmediato se etiquetan como “sin lógica”. Un colega propone más hojas de algoritmos.
+   [0] (195c) Pasar de una vez a la ecuación y entregar más hojas de algoritmos idénticos, para afianzar el símbolo, unificar el formato del grado y evitar que parte del grupo se quede en el material concreto.
+>> [1] (203c) Transitar de lo concreto a lo pictórico y luego a lo simbólico, conectando cada modo de representación con la meta del grado y evaluando el significado de la operación, no el salto abrupto a la ecuación.
+   [2] (204c) Prolongar el material concreto durante el resto del periodo, sin pasar al registro pictórico ni al simbólico, en nombre del respeto a los ritmos, y evaluar el recuento con fichas como evidencia del grado.
+   [3] (198c) Registrar en el observador a quienes no simbolizan de inmediato como «dificultad de lógica matemática», con firma de coordinación, para dejar trazabilidad y justificar las hojas extra de algoritmos.
+EXPL: La condición de calidad pide la secuencia de representación más defendible para mediar: Bruner describe el tránsito enactivo (concreto), icónico (pictórico) y simbólico, articulado a la meta, no un salto ni un eterno manipulativo. Los lineamientos de matemáticas y los DBA de 3.° exigen significado de la operación y progresión hacia el lenguaje convencional; etiquetar a quien aún no simboliza confu
+DA0: Trampa del salto al símbolo: más hojas de algoritmos idénticos parecen afianzamiento y unifican el formato del grado —la propuesta del colega—. Omiten lo pictórico, etiquetan de hecho a quien aún no simboliza y confunden repetición con mediación.
+DA2: Trampa de quedarse en manipulativos «respetando ritmos»: prolongar las fichas parece respeto al desarrollo. Si no hay paso a lo pictórico ni a lo simbólico, se evade la meta del grado y se evalúa recuento concreto como si ya fuera el desempeño esperado.
+DA3: Trampa de dominio cruzado del observador: registrar «dificultad de lógica» con firma de coordinación parece trazabilidad y justifica las hojas extra. Convierte un problema de secuencia representacional en etiqueta de déficit y no enseña el tránsito.
+
+===== 629 fs-ped-ebc-5 ci=1 ebc =====
+STEM: ¿Qué decisión alinea la planeación con los Estándares Básicos de Competencias?
+CASE: El plan de área copia el índice del libro y un recurso viral. No hay metas de “saber hacer” por grupos de grados. La visita de calidad pregunta por EBC/DBA.
+   [0] (195c) Conservar el índice del libro y el recurso viral como malla del área, marcando temas vistos para la visita, y argumentar que los contenidos del texto ya cubren los estándares del grupo de grados.
+>> [1] (207c) Definir desempeños de saber y de saber hacer por grupos de grados, articularlos con DBA, y evaluar procesos de uso del conocimiento en situaciones, no meros productos de memoria tomados del índice editorial.
+   [2] (194c) Convertir los EBC en una lista de chequeo de asistencia docente y de temas dictados, con rúbrica de cobertura para supervisión, de modo que el archivo de calidad quede listo el día de la visita.
+   [3] (192c) Adoptar el índice del texto escolar como referente del PEI en el acta de área, con sello de coordinación, para unificar la planeación y mostrar coherencia documental ante la visita de calidad.
+EXPL: La condición de calidad es alinear la planeación con los Estándares Básicos de Competencias: los EBC describen lo que se debe saber y saber hacer por grupos de grados, en diálogo con DBA, no el índice de una editorial ni un recurso viral. El Decreto 1075 y los lineamientos de calidad piden mallas de desempeños y evaluación de procesos; un libro puede ser medio, no referente. La opción correcta def
+DA0: Trampa de los EBC como índice de libro: marcar temas del texto y del recurso viral parece cobertura y deja malla lista para la visita. Confunde contenidos de editorial con desempeños de saber y saber hacer por grupos de grados.
+DA2: Trampa de los EBC como checklist de supervisión: la lista de asistencia y de temas dictados, con rúbrica de cobertura, parece gestión de calidad. Convierte el estándar en control de dictado y no evalúa procesos ni saber hacer del estudiante.
+DA3: Trampa de dominio cruzado documental: adoptar el índice del texto como referente del PEI, con sello de área, unifica papeles y luce coherente ante la visita. Sustituye el proyecto institucional por la editorial y deja los EBC fuera de la planeación real.
+
+===== 630 fs-ped-d1290-6 ci=1 d1290 =====
+STEM: ¿Qué decisión articula el Decreto 1290 sin caer en rigor vacío ni en flexibilidad sin evidencia?
+CASE: El periodo se cierra con quizzes secretos y un ranking en cartelera. No hubo rúbricas previas. Padres piden “más rigor”; un colega dice que socializar criterios “regala la respuesta”. El SIEE habla de evaluación formativa.
+   [0] (208c) Mantener los quizzes secretos y el ranking en cartelera, y entregar la rúbrica el día de los resultados «para no sesgar», de modo que las familias perciban rigor y nadie anticipe la respuesta del instrumento.
+>> [1] (204c) Socializar criterios de antemano, recoger evidencias diversas de proceso y de producto, y devolver un siguiente paso de mejora; el promedio entra como un insumo más del SIEE, no como ranking de cartelera.
+   [2] (212c) Sustituir quizzes y ranking por un concepto cualitativo pactado con las familias en reunión, sin criterios públicos del SIEE, para bajar la tensión del periodo y mostrar una evaluación más cercana a la comunidad.
+   [3] (200c) Repetir el mismo quiz en varias sesiones hasta que suba el promedio del curso, sin reenseñar ni ofrecer otra forma de demostrar el aprendizaje, y publicar el nuevo ranking como prueba de mejoramiento.
+EXPL: La condición de calidad articula el Decreto 1290 sin rigor vacío ni flexibilidad sin evidencia: criterios públicos, evidencias diversas y devolución con siguiente paso; el promedio es insumo del SIEE, no ranking. Socializar el referente no «regala la respuesta»: permite autorregulación, que es el corazón formativo de la norma. La opción correcta hace eso y evita la cartelera clasificatoria. Conser
+DA0: Trampa del rigor como opacidad: quizzes secretos, ranking y rúbrica el día de los resultados «para no sesgar» parecen objetividad y responden a los padres que piden exigencia. Niegan criterios previos y convierten el SIEE en espectáculo clasificatorio.
+DA2: Trampa del concepto cualitativo pactado con familias: el acuerdo en reunión parece humanización y baja la tensión. Al no haber criterios públicos del SIEE, el juicio queda en un consenso privado y se pierde la evaluabilidad institucional que el 1290 exige.
+DA3: Trampa de repetir el quiz hasta que suba el promedio: la reiteración parece recuperación y el nuevo ranking «prueba» mejoramiento. Sin reenseñanza ni otra evidencia, se entrena el instrumento y no se forma; el número se mueve y el aprendizaje no.
+
+===== DUPLICADOS =====
+2 [('fs-com-15', 0), ('fs-com-35', 3)] :: diagnosticar con el equipo las brechas de apropiación del pei, socializar su sentido pedag
+dup groups 1
+
+===== VOZ (1P vs infinitivo) =====
+MIXED VOICE fs-com-22 ci=0 flags=[True, True, False, False]
+MIXED VOICE fs-com-23 ci=2 flags=[False, False, True, False]
+MIXED VOICE fs-com-24 ci=1 flags=[False, True, False, False]
+MIXED VOICE fs-com-25 ci=2 flags=[False, False, True, False]
+MIXED VOICE fs-com-26 ci=2 flags=[False, False, True, False]
+MIXED VOICE fs-com-27 ci=0 flags=[True, False, False, False]
+MIXED VOICE fs-com-28 ci=0 flags=[True, False, False, False]
+MIXED VOICE fs-com-29 ci=0 flags=[True, False, False, False]
+MIXED VOICE fs-com-30 ci=2 flags=[False, False, True, False]
+MIXED VOICE fs-com-31 ci=2 flags=[False, False, True, False]

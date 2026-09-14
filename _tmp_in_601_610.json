@@ -1,0 +1,356 @@
+[
+  {
+    "pos": 601,
+    "id": "fs-com-22",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "resolución de conflictos",
+    "subtopic": "resolución de conflictos",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "resolución de conflictos"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Dos colegas discuten frente a estudiantes. Como compañero, ¿qué haces? Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Intervenir con calma y reconducir a espacio privado/institucional",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza resolución de conflictos con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 602,
+    "id": "fs-com-23",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "orientación al ciudadano",
+    "subtopic": "orientación al ciudadano",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "orientación al ciudadano"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Escuchar, explicar criterios con evidencia y ofrecer ruta de aclaración",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza orientación al ciudadano con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 603,
+    "id": "fs-com-24",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "integridad",
+    "subtopic": "integridad",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "integridad"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Negarte con respeto y seguir el conducto regular",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza integridad con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 604,
+    "id": "fs-com-25",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "liderazgo",
+    "subtopic": "liderazgo",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "liderazgo"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Baja apropiación del PEI en el equipo. La mejor acción inicial de liderazgo es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Diagnosticar brechas, socializar sentido y acordar rutinas de apropiación",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza liderazgo con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 605,
+    "id": "fs-com-26",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "trabajo en equipo",
+    "subtopic": "trabajo en equipo",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "trabajo en equipo"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Facilitar acuerdos basados en evidencias y normas institucionales",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza trabajo en equipo con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 606,
+    "id": "fs-com-27",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "resolución de conflictos",
+    "subtopic": "resolución de conflictos",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "resolución de conflictos"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Intervenir con calma y reconducir a espacio privado/institucional",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza resolución de conflictos con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 607,
+    "id": "fs-com-28",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "orientación al ciudadano",
+    "subtopic": "orientación al ciudadano",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "orientación al ciudadano"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Un acudiente llega molesto por una nota. La respuesta más profesional es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Escuchar, explicar criterios con evidencia y ofrecer ruta de aclaración",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza orientación al ciudadano con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 608,
+    "id": "fs-com-29",
+    "correctIndex": 0,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "integridad",
+    "subtopic": "integridad",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "integridad"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Te piden información confidencial de un proceso interno. Debes: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Negarte con respeto y seguir el conducto regular",
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza integridad con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "2": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 609,
+    "id": "fs-com-30",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "liderazgo",
+    "subtopic": "liderazgo",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "liderazgo"
+      }
+    ],
+    "specialtyTags": [
+      "directivos"
+    ],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: Situación real de colegio con presión de tiempo y múltiples actores. Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Diagnosticar brechas, socializar sentido y acordar rutinas de apropiación",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza liderazgo con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  },
+  {
+    "pos": 610,
+    "id": "fs-com-31",
+    "correctIndex": 2,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "comportamental",
+    "topic": "trabajo en equipo",
+    "subtopic": "trabajo en equipo",
+    "knowledgeTags": [
+      {
+        "code": "comportamental",
+        "focus": "trabajo en equipo"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En una IE oficial, con presión de tiempo y varios actores, ocurre: En una reunión de área hay desacuerdo fuerte sobre criterios. La conducta más alineada es: Hay riesgo de escalar el conflicto, de simular o de vulnerar confidencialidad.",
+    "stem": "En este conflicto de intereses, ¿qué conducta es la más defendible ética e institucionalmente?",
+    "options": [
+      "Aplazar la decisión con un acta genérica, sin acuerdos, responsables ni fecha de seguimiento.",
+      "Imponer una salida visible “para que se note liderazgo”, aunque rompa el debido proceso o la confidencialidad.",
+      "Facilitar acuerdos basados en evidencias y normas institucionales",
+      "Delegar el conflicto a familias o chats, sin canal institucional ni registro."
+    ],
+    "explanation": "El perfil comportamental del servicio público valora integridad, escucha, evidencia y clima escolar.",
+    "normativeJustification": "Las competencias comportamentales del concurso priorizan servicio público, integridad y trabajo colaborativo en contextos escolares.",
+    "theoreticalJustification": "La opción correcta maximiza trabajo en equipo con apego a canales institucionales y respeto.",
+    "distractorAnalysis": {
+      "0": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "1": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional.",
+      "3": "Parece práctica o prudente, pero evade integridad, evidencia o canal institucional."
+    }
+  }
+]
