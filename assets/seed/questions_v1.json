@@ -23347,19 +23347,19 @@
       "subtopic": "Porcentajes sin calculadora",
       "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
       "options": [
-        "84",
+        "130",
         "80",
         "70",
-        "62"
+        "7"
       ],
       "correctIndex": 2,
-      "explanation": "35% de 200 = (35/100)×200 = 70.",
-      "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
-      "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+      "explanation": "Para hallar el 35 % de 200 se convierte a decimal: 0,35 x 200 = 70. Ruta fraccionaria: 35 % = 7/20; (7/20)x200 = 70. En la CNSC la clave es convertir el porcentaje a fraccion antes de operar, eliminando errores de posicion decimal bajo presion de tiempo.",
+      "normativeJustification": "El dominio de porcentajes sin calculadora evalua velocidad operacional y conversion de representaciones numericas (Decreto 1278/2002, arts. 35-36).",
+      "theoreticalJustification": "Dividir entre 100 antes de multiplicar por la base minimiza el error de posicion decimal. Las confusiones mas frecuentes: (a) calcular el complemento en lugar del valor pedido; (b) dividir entre 1000 en lugar de 100.",
       "distractorAnalysis": {
-        "0": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
-        "1": "Confusión entre aumento porcentual y porcentaje directo.",
-        "3": "Redondeo o proporción invertida."
+        "0": "Trampa de dominio cruzado: 130 = 65 % x 200, el numero de estudiantes que NO requieren apoyo (100%-35%=65%). Calcula correctamente el complemento pero responde la pregunta contraria.",
+        "1": "Error de redondeo amigable: sustituye 35% por 40% y obtiene 0,40x200=80. Redondear la tasa antes de operar introduce un error sistematico del +14 % sobre el valor correcto.",
+        "3": "Error de posicion decimal: multiplica 35x200=7000 pero divide entre 1000 en lugar de 100, obteniendo 7. Confunde porcentaje (div 100) con permilaje (div 1000)."
       },
       "knowledgeTags": [
         {
@@ -23386,18 +23386,18 @@
       "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
       "options": [
         "10",
-        "20",
+        "70",
         "12",
-        "2"
+        "8"
       ],
       "correctIndex": 0,
-      "explanation": "12.5% de 80 = (12.5/100)×80 = 10.",
-      "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
-      "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+      "explanation": "El 12,5 % de 80: (12,5/100)x80=0,125x80=10. Atajo fraccionario: 12,5%=1/8; 80/8=10. Reconocer la equivalencia 12,5%=1/8 permite resolver sin calculadora en segundos. Esta lectura de equivalencias es la habilidad que realmente evalua la CNSC en porcentajes fraccionarios.",
+      "normativeJustification": "El dominio de porcentajes fraccionarios sin calculadora evalua fluidez operacional y conversion entre porcentajes, fracciones y decimales, competencias clave en la prueba de Aptitud Numerica CNSC.",
+      "theoreticalJustification": "Los porcentajes decimales (12,5%; 33,3%; 66,7%) corresponden a fracciones simples (1/8, 1/3, 2/3). Reconocer estas equivalencias elimina la multiplicacion decimal y reduce el tiempo de resolucion. El error mas comun es redondear la tasa antes de multiplicar.",
       "distractorAnalysis": {
-        "1": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
-        "2": "Redondeo o proporción invertida.",
-        "3": "Confusión entre aumento porcentual y porcentaje directo."
+        "1": "Trampa de dominio cruzado: 70=87,5%x80, el numero de estudiantes que NO requieren apoyo (100%-12,5%=87,5%). Calcula el complemento correctamente pero responde la pregunta equivocada.",
+        "2": "Error de redondeo de la tasa: sustituye 12,5% por 15% (tasa amigable multiplo de 5) y calcula 0,15x80=12. Redondear el porcentaje antes de operar introduce un error de 2 unidades.",
+        "3": "Error de redondeo hacia abajo: sustituye 12,5% por 10% (multiplo de 10 mas proximo hacia abajo) y calcula 0,10x80=8. Los valores 8 y 12 enmarcan al correcto (10) para parecer plausibles."
       },
       "knowledgeTags": [
         {
@@ -23423,19 +23423,19 @@
       "subtopic": "Porcentajes sin calculadora",
       "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
       "options": [
-        "136",
-        "173",
-        "154",
+        "176",
+        "160",
+        "128",
         "144"
       ],
       "correctIndex": 3,
-      "explanation": "45% de 320 = (45/100)×320 = 144.",
-      "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
-      "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+      "explanation": "El 45% de 320: 0,45x320=144. Estrategia mental: 50% de 320=160; 5% de 320=16; 160-16=144. Descomponer 45%=(50%-5%) es el atajo estandar cuando el porcentaje no es multiplo limpio de 10. Esta habilidad de descomposicion aditiva es lo que realmente evalua la CNSC en aptitud numerica.",
+      "normativeJustification": "Porcentajes de totales de tres cifras sin calculadora miden velocidad y precision aritmetica bajo condiciones de examen real (CNSC, prueba de Aptitud Numerica).",
+      "theoreticalJustification": "La estrategia del porcentaje ancla consiste en calcular el multiplo de 10 mas cercano (50%) y ajustar. 45%=50%-5% permite dos operaciones simples en lugar de una multiplicacion decimal directa. El error mas frecuente es omitir el ajuste y reportar el ancla.",
       "distractorAnalysis": {
-        "0": "Confusión entre aumento porcentual y porcentaje directo.",
-        "1": "Redondeo o proporción invertida.",
-        "2": "Error típico: operar el porcentaje como entero sin dividir entre 100."
+        "0": "Trampa de dominio cruzado: 176=55%x320, el numero de estudiantes que NO requieren apoyo (100%-45%=55%). El aspirante calcula el complemento con precision pero invierte el referente pedido.",
+        "1": "Error de redondeo hacia arriba: aproxima 45% a 50% y calcula 0,50x320=160. Usa el porcentaje de referencia sin descontar los 5 puntos de diferencia.",
+        "2": "Error de redondeo hacia abajo: aproxima 45% a 40% y calcula 0,40x320=128. Los tres valores {128, 144, 160} forman un conjunto plausible que desorienta al aspirante sin entrenamiento especifico."
       },
       "knowledgeTags": [
         {
@@ -23462,18 +23462,18 @@
       "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
       "options": [
         "54",
-        "55",
+        "50",
         "45",
-        "37"
+        "38"
       ],
       "correctIndex": 2,
-      "explanation": "18% de 250 = (18/100)×250 = 45.",
-      "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
-      "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+      "explanation": "El 18% de 250: 0,18x250=45. Estrategia mental: 20% de 250=50; 2% de 250=5; 50-5=45. Descomponer 18%=(20%-2%) transforma una multiplicacion decimal en dos operaciones sencillas. Verificacion: 0,18x250=9x5=45. Esta tecnica de porcentaje ancla+ajuste es clave para la prueba CNSC.",
+      "normativeJustification": "El calculo de porcentajes mediante descomposicion evalua la aptitud numerica del aspirante y su capacidad de operar con precision sin calculadora en tiempo limitado.",
+      "theoreticalJustification": "La estrategia de porcentaje ancla (20%-2%) transforma 0,18x250 en (20/100)x250-(2/100)x250=50-5=45. El error mas frecuente es omitir el ajuste y reportar el ancla directamente (50). El segundo error es usar una base incorrecta.",
       "distractorAnalysis": {
-        "0": "Redondeo o proporción invertida.",
-        "1": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
-        "3": "Confusión entre aumento porcentual y porcentaje directo."
+        "0": "Error de base incorrecta: usa 300 como total en lugar de 250 (p. ej., confunde el enunciado): 0,18x300=54. El procedimiento es correcto pero opera sobre el dato equivocado.",
+        "1": "Error de ancla sin ajuste: calcula correctamente 20% de 250=50 pero olvida restar la diferencia del 2%: 50-5=45. Reporta el valor intermedio del proceso como si fuera la respuesta final.",
+        "3": "Error de redondeo hacia abajo: sustituye 18% por 15% (multiplo de 5 hacia abajo) y calcula 0,15x250=37,5~38. Junto con 50, enmarca al valor correcto 45 en un rango plausible."
       },
       "knowledgeTags": [
         {
@@ -23499,19 +23499,19 @@
       "subtopic": "Proporción directa",
       "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
       "options": [
-        "5",
-        "13",
+        "18",
+        "9",
         "8",
-        "10"
+        "5"
       ],
       "correctIndex": 2,
-      "explanation": "(6/9)×12 = 8.",
-      "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
-      "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+      "explanation": "Razon: 9 docentes -> 6 rubricas. Tasa unitaria=6/9=2/3 rubrica/docente. Para 12 docentes: (2/3)x12=8. Regla de tres directa: 9|6 -> 12|x; x=(6x12)/9=72/9=8. Verificacion: 8/12=6/9=2/3. La identificacion de la tasa unitaria y su escala al nuevo valor es el proceso que evalua la CNSC en proporcionalidad directa.",
+      "normativeJustification": "La proporcionalidad directa es competencia basica de aptitud numerica evaluada sin calculadora en el concurso docente CNSC (Res. 14296/2021).",
+      "theoreticalJustification": "En proporcion directa la razon entre variable dependiente e independiente es constante. El metodo de la razon unitaria (tasa=valor/base) y el metodo cruzado (producto cruzado) son equivalentes. El error mas frecuente es invertir numerador y denominador al plantear la proporcion.",
       "distractorAnalysis": {
-        "0": "Invertir la razón.",
-        "1": "Olvidar la tasa unitaria.",
-        "3": "Sumar en lugar de proporcionalizar."
+        "0": "Error de razon invertida: el aspirante calcula (9/6)x12=1,5x12=18, usando la razon reciprocada (docentes/rubricas en vez de rubricas/docentes). El resultado 18>12 es incoherente pero sin analisis critico pasa desapercibido.",
+        "1": "Error de adicion directa: extrapola sumando la diferencia: 6+(12-9)=6+3=9. Aplica aritmetica aditiva donde corresponde multiplicacion proporcional, patron de error muy frecuente en candidatos no entrenados.",
+        "3": "Error de proporcion cruzada invertida: plantea 6/12=x/9, despeja x=(6x9)/12=54/12=4,5~5. Coloca las rubricas del numerador y las docentes en el denominador en posicion invertida."
       },
       "knowledgeTags": [
         {
@@ -23538,18 +23538,18 @@
       "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
       "options": [
         "20",
-        "12",
+        "13",
         "15",
-        "17"
+        "7"
       ],
       "correctIndex": 2,
-      "explanation": "(9/6)×10 = 15.",
-      "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
-      "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+      "explanation": "Razon: 6 docentes -> 9 rubricas. Tasa=9/6=3/2=1,5 rubricas/docente. Para 10 docentes: 1,5x10=15. Regla de tres: 6|9 -> 10|x; x=(9x10)/6=90/6=15. Verificacion: 15/10=9/6=1,5. La razon 3/2>1 indica que cada docente produce mas de una rubrica, por lo que el resultado (15) debe superar el numero de docentes (10): verificar esta coherencia es habito diferenciador en la CNSC.",
+      "normativeJustification": "Proporcionalidad directa con tasa mayor que 1 evalua si el aspirante comprende que la produccion por unidad puede superar la unidad (Aptitud Numerica CNSC).",
+      "theoreticalJustification": "Cuando la tasa de produccion es >1 cada docente produce mas de una unidad y el resultado escala hacia arriba. Un error conceptual frecuente es tratar la proporcion como 1:1 (suma de diferencias). Otro es sobre-redondear la tasa (1,5->2), inflando el resultado.",
       "distractorAnalysis": {
-        "0": "Olvidar la tasa unitaria.",
-        "1": "Invertir la razón.",
-        "3": "Sumar en lugar de proporcionalizar."
+        "0": "Error de tasa sobreestimada: redondea la razon 9/6=1,5 al entero superior 2, y calcula 2x10=20. Un redondeo que parece conservador produce un error del 33% en el resultado.",
+        "1": "Error de adicion con diferencia: suma la diferencia de docentes (10-6=4) a las rubricas originales: 9+4=13. Aplica aritmetica aditiva donde corresponde multiplicacion proporcional.",
+        "3": "Error de razon invertida: calcula (6/9)x10=0,667x10=6,7~7. El resultado 7<10 deberia alertar (si cada docente produce >1 rubrica, el total no puede ser menor que el numero de docentes), pero bajo presion no se detecta."
       },
       "knowledgeTags": [
         {
@@ -23577,17 +23577,17 @@
       "options": [
         "1",
         "2",
-        "7",
-        "4"
+        "13",
+        "3"
       ],
       "correctIndex": 1,
-      "explanation": "(5/15)×6 = 2.",
-      "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
-      "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+      "explanation": "Razon: 15 docentes -> 5 rubricas. Tasa=5/15=1/3 rubrica/docente. Para 6 docentes: (1/3)x6=2. Regla de tres: 15|5 -> 6|x; x=(5x6)/15=30/15=2. Verificacion: 2/6=5/15=1/3. La trampa cognitiva: la tasa 1/3 produce un resultado (2) menor que el numero de docentes (6), lo que viola la intuicion de muchos aspirantes. Este nivel de inversion en la ratio es caracteristico de items avanzados CNSC.",
+      "normativeJustification": "Proporciones con tasa <1 evaluan si el aspirante puede operar sin la heuristica automatica de asumir que mas input implica mas output proporcional. La CNSC incluye este tipo de items en nivel avanzado.",
+      "theoreticalJustification": "Cuando la tasa de produccion es <1 se necesitan varios docentes por unidad producida. La trampa es esperar que el resultado sea cercano a 5 (rubricas originales) o a 6 (docentes nuevos) sin respetar la razon real 1/3.",
       "distractorAnalysis": {
-        "0": "Sumar en lugar de proporcionalizar.",
-        "2": "Olvidar la tasa unitaria.",
-        "3": "Invertir la razón."
+        "0": "Error de truncamiento: calcula (5/15)x6=2 correctamente pero lo redondea a 1 interpretando que fraccion de rubrica no cuenta, o usa 6/(15-5)=6/10=0,6~1. Aplica un criterio de entero conservador incorrecto.",
+        "2": "Proporcion inversa total: plantea 5/6=x/15, despejando x=5x15/6=12,5~13. Invierte la posicion de los datos en la proporcion, obteniendo la razon contraria aplicada al nuevo valor.",
+        "3": "Tasa aproximada: redondea la tasa 1/3 al valor 1/2 (fraccion unitaria mas cercana mentalmente) y calcula (1/2)x6=3. Aproximar 1/3 como 1/2 introduce un error del 50% en el resultado."
       },
       "knowledgeTags": [
         {
@@ -23619,13 +23619,13 @@
         "7"
       ],
       "correctIndex": 2,
-      "explanation": "(5/14)×28 = 10.",
-      "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
-      "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+      "explanation": "Razon: 14 docentes -> 5 rubricas. Atajo clave: 28=2x14, el equipo exactamente se duplico. Si se duplican los docentes, se duplican las rubricas: 2x5=10. Regla de tres: 14|5 -> 28|x; x=(5x28)/14=140/14=10. Detectar que 28 es multiplo exacto de 14 elimina operar con decimales (5/14=0,357...) y es la agilidad numerica que distingue el nivel avanzado CNSC.",
+      "normativeJustification": "Reconocer relaciones multiplicativas entre los datos (28=2x14) antes de aplicar la regla de tres es competencia de nivel avanzado en aptitud numerica CNSC.",
+      "theoreticalJustification": "En proporcion directa, cuando el nuevo valor de la variable independiente es multiplo exacto del valor de referencia, el resultado es el mismo multiplo aplicado a la dependiente. Este patron (factor de escala entero) permite calcular con certeza absoluta sin operar decimales.",
       "distractorAnalysis": {
-        "0": "Sumar en lugar de proporcionalizar.",
-        "1": "Invertir la razón.",
-        "3": "Olvidar la tasa unitaria."
+        "0": "Error de escala incorrecta: identifica que 28>14 pero confunde el factor: asume 28~3x14 en lugar de 2x14, y calcula 3x5=15. La verificacion 3x14=42 != 28 no se realiza bajo presion de tiempo.",
+        "1": "Decimales truncados: calcula la tasa 5/14~0,35 (redondeando 0,357), luego multiplica 0,35x28=9,8~10... pero si usa 0,43: 0,43x28~12. Redondear anticipadamente la tasa introduce un error que se amplifica al multiplicar por 28.",
+        "3": "Adicion directa: suma la diferencia de docentes al resultado: 5+(28-14)/4~7. O bien: calcula el factor 28/14=2 correctamente pero resta en lugar de multiplicar: 5-2+4=7. La trampa del cociente mal aplicado."
       },
       "knowledgeTags": [
         {
@@ -23657,13 +23657,13 @@
         "10"
       ],
       "correctIndex": 3,
-      "explanation": "(6/9)×15 = 10.",
-      "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
-      "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+      "explanation": "Razon: 9 docentes -> 6 rubricas. Tasa=6/9=2/3 rubrica/docente. Para 15 docentes: (2/3)x15=10. Atajo: 15=5x3 y (2/3)x3=2, entonces 5x2=10. Regla de tres: 9|6 -> 15|x; x=(6x15)/9=90/9=10. El cociente 90/9=10 es entero exacto: verificar que el resultado es entero cuando los datos del problema lo son confirma que el planteamiento es correcto.",
+      "normativeJustification": "Proporciones con producto cruzado entero evaluan la capacidad del aspirante de verificar coherencia numerica del resultado, competencia diferenciadora en el nivel intermedio de aptitud numerica CNSC.",
+      "theoreticalJustification": "La verificacion post-calculo (resultado entero cuando los datos son enteros) es un habito psicometrico que previene errores de configuracion de la proporcion. Si el resultado no es entero cuando los datos si lo son, el planteamiento suele estar invertido.",
       "distractorAnalysis": {
-        "0": "Invertir la razón.",
-        "1": "Olvidar la tasa unitaria.",
-        "2": "Sumar en lugar de proporcionalizar."
+        "0": "Trampa de dominio cruzado: 15 es el dato de entrada del problema (docentes nuevos), no el resultado. El aspirante que lee apresuradamente confunde la incognita con el dato dado, reportando el input como output.",
+        "1": "Tasa aproximada hacia abajo: redondea 6/9=0,667 al valor 0,5 (la mitad, fraccion mas cercana) y calcula 0,5x15=7,5~7. Aproximar 2/3 como 1/2 introduce un error del 30% en el resultado.",
+        "2": "Tasa aproximada hacia arriba: redondea 6/9=0,667 al valor 0,8 (aproximando a 4/5) y calcula 0,8x15=12. El valor 12 parece razonable entre 10 y 15, pero la razon 6/9 no es 0,8 sino 0,667."
       },
       "knowledgeTags": [
         {
@@ -23690,18 +23690,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "73",
-        "81",
-        "77",
-        "68"
+        "69",
+        "70",
+        "78"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (61+71+66+79+x)/5=70. Multiplicando: 277+x=350 -> x=350-277=73. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 277+73=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "1": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (61+71+66+79)/4=69.25~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=277+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.4 != 73.",
+        "3": "Error aritmetico: calcula 350-277=78 en lugar de 73, cometiendo un carry error de 5 pts. Ver: 277+78=355 != 350; correcto 277+73=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23728,18 +23728,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "71",
-        "79",
-        "75",
-        "66"
+        "70",
+        "76",
+        "67"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (62+72+67+78+x)/5=70. Multiplicando: 279+x=350 -> x=350-279=71. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 279+71=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Error de signo al despejar.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "1": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (62+72+67+78)/4=69.75~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 69.8 != 71.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 274 en lugar de 279 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 76 en lugar de 71. Ver: 279+76=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 283 en lugar de 279 (score anotado 4 pts mas alto). Al restar obtiene 67. Ver: 279+67=346 != 350; correcto: 279+71=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23766,18 +23766,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "69",
-        "77",
-        "64",
-        "73"
+        "70",
+        "74",
+        "65"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (63+73+68+77+x)/5=70. Multiplicando: 281+x=350 -> x=350-281=69. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 281+69=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "1": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (63+73+68+77)/4=70.25~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 70.2 != 69.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 276 en lugar de 281 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 74 en lugar de 69. Ver: 281+74=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 285 en lugar de 281 (score anotado 4 pts mas alto). Al restar obtiene 65. Ver: 281+65=346 != 350; correcto: 281+69=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23803,19 +23803,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "75",
         "71",
+        "70",
         "67",
-        "62"
+        "72"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (64+74+69+76+x)/5=70. Multiplicando: 283+x=350 -> x=350-283=67. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 283+67=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (64+74+69+76)/4=70.75~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=283+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.6 != 67.",
+        "3": "Error aritmetico: calcula 350-283=72 en lugar de 67, cometiendo un carry error de 5 pts. Ver: 283+72=355 != 350; correcto 283+67=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23841,19 +23841,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "74",
-        "78",
-        "65",
+        "71",
+        "75",
+        "66",
         "70"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (65+70+70+75+x)/5=70. Multiplicando: 280+x=350 -> x=350-280=70. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 280+70=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante toma el promedio objetivo (70) y suma 1 por margen de seguridad: 71. Si el quinto diera 71, el promedio seria 70.2, no 70.",
+        "1": "Trampa de meta inflada: usa 71 como meta en lugar de 70 (el ajuste del primer docente del enunciado): 5x71-280=75. Con 75 el promedio seria 71.0 != 70.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 284 en lugar de 280 (p.ej. anota un puntaje 4 pts mas alto). Al restar de 350 obtiene 66. Verificacion: 280+66=346 != 350; 280+70=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23879,19 +23879,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "66",
+        "72",
         "70",
-        "57",
+        "67",
         "62"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (66+71+71+80+x)/5=70. Multiplicando: 288+x=350 -> x=350-288=62. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 288+62=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (66+71+71+80)/4=72.0~72. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=288+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.6 != 62.",
+        "2": "Error aritmetico: calcula 350-288=67 en lugar de 62, cometiendo un carry error de 5 pts. Ver: 288+67=355 != 350; correcto 288+62=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23918,18 +23918,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "71",
-        "62",
+        "70",
         "67",
-        "75"
+        "72"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (60+72+72+79+x)/5=70. Multiplicando: 283+x=350 -> x=350-283=67. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 283+67=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Error de signo al despejar.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (60+72+72+79)/4=70.75~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=283+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.6 != 67.",
+        "3": "Error aritmetico: calcula 350-283=72 en lugar de 67, cometiendo un carry error de 5 pts. Ver: 283+72=355 != 350; correcto 283+67=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23956,18 +23956,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "65",
-        "73",
-        "60",
-        "69"
+        "71",
+        "70",
+        "61"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (61+73+73+78+x)/5=70. Multiplicando: 285+x=350 -> x=350-285=65. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 285+65=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "1": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (61+73+73+78)/4=71.25~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=285+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.0 != 65.",
+        "3": "Error aritmetico: calcula 350-285=61 en lugar de 65, restando 4 de mas. Ver: 285+61=346 != 350; correcto 285+65=350 ok."
       },
       "knowledgeTags": [
         {
@@ -23993,19 +23993,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "76",
-        "67",
+        "70",
+        "77",
         "72",
-        "80"
+        "68"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (62+74+65+77+x)/5=70. Multiplicando: 278+x=350 -> x=350-278=72. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 278+72=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (62+74+65+77)/4=69.5~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 69.6 != 72.",
+        "1": "Error aritmetico: suma los cuatro puntajes obteniendo 273 en lugar de 278 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 77 en lugar de 72. Ver: 278+77=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 282 en lugar de 278 (score anotado 4 pts mas alto). Al restar obtiene 68. Ver: 278+68=346 != 350; correcto: 278+72=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24031,19 +24031,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "83",
-        "79",
+        "69",
         "70",
+        "80",
         "75"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 275. Meta 5×70=350. Falta 75.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (63+70+66+76+x)/5=70. Multiplicando: 275+x=350 -> x=350-275=75. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 275+75=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (63+70+66+76)/4=68.75~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=275+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.0 != 75.",
+        "2": "Error aritmetico: calcula 350-275=80 en lugar de 75, cometiendo un carry error de 5 pts. Ver: 275+80=355 != 350; correcto 275+75=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24069,19 +24069,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "81",
-        "68",
-        "77",
+        "69",
+        "70",
+        "78",
         "73"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (64+71+67+75+x)/5=70. Multiplicando: 277+x=350 -> x=350-277=73. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 277+73=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (64+71+67+75)/4=69.25~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=277+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.4 != 73.",
+        "2": "Error aritmetico: calcula 350-277=78 en lugar de 73, cometiendo un carry error de 5 pts. Ver: 277+78=355 != 350; correcto 277+73=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24107,19 +24107,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "73",
+        "71",
         "65",
-        "60",
-        "69"
+        "70",
+        "61"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (65+72+68+80+x)/5=70. Multiplicando: 285+x=350 -> x=350-285=65. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 285+65=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (65+72+68+80)/4=71.25~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=285+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.0 != 65.",
+        "3": "Error aritmetico: calcula 350-285=61 en lugar de 65, restando 4 de mas. Ver: 285+61=346 != 350; correcto 285+65=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24145,19 +24145,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "58",
+        "72",
         "63",
-        "71",
-        "67"
+        "70",
+        "68"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 287. Meta 5×70=350. Falta 63.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (66+73+69+79+x)/5=70. Multiplicando: 287+x=350 -> x=350-287=63. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 287+63=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (66+73+69+79)/4=71.75~72. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=287+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.4 != 63.",
+        "3": "Error aritmetico: calcula 350-287=68 en lugar de 63, cometiendo un carry error de 5 pts. Ver: 287+68=355 != 350; correcto 287+63=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24183,19 +24183,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "72",
+        "71",
         "68",
-        "63",
-        "76"
+        "70",
+        "73"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (60+74+70+78+x)/5=70. Multiplicando: 282+x=350 -> x=350-282=68. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 282+68=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (60+74+70+78)/4=70.5~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=282+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.4 != 68.",
+        "3": "Error aritmetico: calcula 350-282=73 en lugar de 68, cometiendo un carry error de 5 pts. Ver: 282+73=355 != 350; correcto 282+68=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24221,19 +24221,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "75",
-        "79",
+        "70",
+        "76",
         "71",
-        "66"
+        "67"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (61+70+71+77+x)/5=70. Multiplicando: 279+x=350 -> x=350-279=71. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 279+71=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (61+70+71+77)/4=69.75~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 69.8 != 71.",
+        "1": "Error aritmetico: suma los cuatro puntajes obteniendo 274 en lugar de 279 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 76 en lugar de 71. Ver: 279+76=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 283 en lugar de 279 (score anotado 4 pts mas alto). Al restar obtiene 67. Ver: 279+67=346 != 350; correcto: 279+71=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24259,19 +24259,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "73",
-        "64",
+        "70",
+        "74",
         "69",
-        "77"
+        "65"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (62+71+72+76+x)/5=70. Multiplicando: 281+x=350 -> x=350-281=69. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 281+69=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (62+71+72+76)/4=70.25~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 70.2 != 69.",
+        "1": "Error aritmetico: suma los cuatro puntajes obteniendo 276 en lugar de 281 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 74 en lugar de 69. Ver: 281+74=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 285 en lugar de 281 (score anotado 4 pts mas alto). Al restar obtiene 65. Ver: 281+65=346 != 350; correcto: 281+69=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24299,17 +24299,17 @@
       "options": [
         "67",
         "71",
-        "75",
-        "62"
+        "70",
+        "72"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (63+72+73+75+x)/5=70. Multiplicando: 283+x=350 -> x=350-283=67. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 283+67=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Error de signo al despejar.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "1": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (63+72+73+75)/4=70.75~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=283+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.6 != 67.",
+        "3": "Error aritmetico: calcula 350-283=72 en lugar de 67, cometiendo un carry error de 5 pts. Ver: 283+72=355 != 350; correcto 283+67=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24335,19 +24335,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "72",
-        "76",
-        "63",
+        "71",
+        "70",
+        "73",
         "68"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (64+73+65+80+x)/5=70. Multiplicando: 282+x=350 -> x=350-282=68. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 282+68=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (64+73+65+80)/4=70.5~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=282+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.4 != 68.",
+        "2": "Error aritmetico: calcula 350-282=73 en lugar de 68, cometiendo un carry error de 5 pts. Ver: 282+73=355 != 350; correcto 282+68=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24373,19 +24373,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "74",
+        "71",
         "66",
         "70",
-        "61"
+        "62"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 284. Meta 5×70=350. Falta 66.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (65+74+66+79+x)/5=70. Multiplicando: 284+x=350 -> x=350-284=66. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 284+66=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (65+74+66+79)/4=71.0~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=284+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.8 != 66.",
+        "3": "Error aritmetico: calcula 350-284=62 en lugar de 66, restando 4 de mas. Ver: 284+62=346 != 350; correcto 284+66=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24411,19 +24411,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "64",
-        "73",
+        "70",
+        "74",
         "69",
-        "77"
+        "65"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (66+70+67+78+x)/5=70. Multiplicando: 281+x=350 -> x=350-281=69. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 281+69=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Error de signo al despejar."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (66+70+67+78)/4=70.25~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 70.2 != 69.",
+        "1": "Error aritmetico: suma los cuatro puntajes obteniendo 276 en lugar de 281 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 74 en lugar de 69. Ver: 281+74=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 285 en lugar de 281 (score anotado 4 pts mas alto). Al restar obtiene 65. Ver: 281+65=346 != 350; correcto: 281+69=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24449,19 +24449,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "78",
-        "82",
         "69",
+        "70",
+        "79",
         "74"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 276. Meta 5×70=350. Falta 74.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (60+71+68+77+x)/5=70. Multiplicando: 276+x=350 -> x=350-276=74. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 276+74=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (60+71+68+77)/4=69.0~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=276+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.2 != 74.",
+        "2": "Error aritmetico: calcula 350-276=79 en lugar de 74, cometiendo un carry error de 5 pts. Ver: 276+79=355 != 350; correcto 276+74=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24487,19 +24487,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "80",
+        "70",
         "72",
-        "67",
-        "76"
+        "77",
+        "68"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (61+72+69+76+x)/5=70. Multiplicando: 278+x=350 -> x=350-278=72. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 278+72=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (61+72+69+76)/4=69.5~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 69.6 != 72.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 273 en lugar de 278 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 77 en lugar de 72. Ver: 278+77=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 282 en lugar de 278 (score anotado 4 pts mas alto). Al restar obtiene 68. Ver: 278+68=346 != 350; correcto: 278+72=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24525,19 +24525,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "78",
-        "74",
-        "65",
+        "71",
+        "75",
+        "66",
         "70"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (62+73+70+75+x)/5=70. Multiplicando: 280+x=350 -> x=350-280=70. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 280+70=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante toma el promedio objetivo (70) y suma 1 por margen de seguridad: 71. Si el quinto diera 71, el promedio seria 70.2, no 70.",
+        "1": "Trampa de meta inflada: usa 71 como meta en lugar de 70 (el ajuste del primer docente del enunciado): 5x71-280=75. Con 75 el promedio seria 71.0 != 70.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 284 en lugar de 280 (p.ej. anota un puntaje 4 pts mas alto). Al restar de 350 obtiene 66. Verificacion: 280+66=346 != 350; 280+70=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24563,19 +24563,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
+        "72",
         "70",
-        "66",
-        "57",
+        "67",
         "62"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (63+74+71+80+x)/5=70. Multiplicando: 288+x=350 -> x=350-288=62. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 288+62=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (63+74+71+80)/4=72.0~72. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=288+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.6 != 62.",
+        "2": "Error aritmetico: calcula 350-288=67 en lugar de 62, cometiendo un carry error de 5 pts. Ver: 288+67=355 != 350; correcto 288+62=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24601,19 +24601,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "60",
-        "69",
+        "71",
+        "70",
         "65",
-        "73"
+        "61"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (64+70+72+79+x)/5=70. Multiplicando: 285+x=350 -> x=350-285=65. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 285+65=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (64+70+72+79)/4=71.25~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=285+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.0 != 65.",
+        "3": "Error aritmetico: calcula 350-285=61 en lugar de 65, restando 4 de mas. Ver: 285+61=346 != 350; correcto 285+65=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24639,19 +24639,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "67",
+        "72",
         "63",
-        "58",
-        "71"
+        "70",
+        "68"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 287. Meta 5×70=350. Falta 63.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (65+71+73+78+x)/5=70. Multiplicando: 287+x=350 -> x=350-287=63. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 287+63=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (65+71+73+78)/4=71.75~72. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=287+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.4 != 63.",
+        "3": "Error aritmetico: calcula 350-287=68 en lugar de 63, cometiendo un carry error de 5 pts. Ver: 287+68=355 != 350; correcto 287+63=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24677,19 +24677,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "78",
-        "74",
+        "71",
+        "75",
         "70",
-        "65"
+        "66"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (66+72+65+77+x)/5=70. Multiplicando: 280+x=350 -> x=350-280=70. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 280+70=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "El aspirante toma el promedio objetivo (70) y suma 1 por margen de seguridad: 71. Si el quinto diera 71, el promedio seria 70.2, no 70.",
+        "1": "Trampa de meta inflada: usa 71 como meta en lugar de 70 (el ajuste del primer docente del enunciado): 5x71-280=75. Con 75 el promedio seria 71.0 != 70.",
+        "3": "Error aritmetico: suma los cuatro puntajes obteniendo 284 en lugar de 280 (p.ej. anota un puntaje 4 pts mas alto). Al restar de 350 obtiene 66. Verificacion: 280+66=346 != 350; 280+70=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24716,18 +24716,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "75",
+        "69",
         "70",
-        "83",
-        "79"
+        "80"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 275. Meta 5×70=350. Falta 75.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (60+73+66+76+x)/5=70. Multiplicando: 275+x=350 -> x=350-275=75. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 275+75=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "3": "Usar la mediana u otro estadístico."
+        "1": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (60+73+66+76)/4=68.75~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=275+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.0 != 75.",
+        "3": "Error aritmetico: calcula 350-275=80 en lugar de 75, cometiendo un carry error de 5 pts. Ver: 275+80=355 != 350; correcto 275+75=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24753,19 +24753,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "81",
-        "77",
-        "68",
+        "69",
+        "70",
+        "78",
         "73"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (61+74+67+75+x)/5=70. Multiplicando: 277+x=350 -> x=350-277=73. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 277+73=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Usar la mediana u otro estadístico.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (61+74+67+75)/4=69.25~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=277+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.4 != 73.",
+        "2": "Error aritmetico: calcula 350-277=78 en lugar de 73, cometiendo un carry error de 5 pts. Ver: 277+78=355 != 350; correcto 277+73=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24791,19 +24791,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "65",
-        "78",
-        "74",
+        "71",
+        "75",
+        "66",
         "70"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (62+70+68+80+x)/5=70. Multiplicando: 280+x=350 -> x=350-280=70. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 280+70=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "1": "Error de signo al despejar.",
-        "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante toma el promedio objetivo (70) y suma 1 por margen de seguridad: 71. Si el quinto diera 71, el promedio seria 70.2, no 70.",
+        "1": "Trampa de meta inflada: usa 71 como meta en lugar de 70 (el ajuste del primer docente del enunciado): 5x71-280=75. Con 75 el promedio seria 71.0 != 70.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 284 en lugar de 280 (p.ej. anota un puntaje 4 pts mas alto). Al restar de 350 obtiene 66. Verificacion: 280+66=346 != 350; 280+70=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24830,18 +24830,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "68",
-        "72",
-        "63",
-        "76"
+        "71",
+        "70",
+        "73"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (63+71+69+79+x)/5=70. Multiplicando: 282+x=350 -> x=350-282=68. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 282+68=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "1": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (63+71+69+79)/4=70.5~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=282+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.4 != 68.",
+        "3": "Error aritmetico: calcula 350-282=73 en lugar de 68, cometiendo un carry error de 5 pts. Ver: 282+73=355 != 350; correcto 282+68=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24867,19 +24867,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "61",
+        "71",
         "66",
-        "74",
-        "70"
+        "70",
+        "62"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 284. Meta 5×70=350. Falta 66.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (64+72+70+78+x)/5=70. Multiplicando: 284+x=350 -> x=350-284=66. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 284+66=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "2": "Error de signo al despejar.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (64+72+70+78)/4=71.0~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=284+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.8 != 66.",
+        "3": "Error aritmetico: calcula 350-284=62 en lugar de 66, restando 4 de mas. Ver: 284+62=346 != 350; correcto 284+66=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24907,17 +24907,17 @@
       "options": [
         "72",
         "64",
-        "68",
-        "59"
+        "70",
+        "69"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 286. Meta 5×70=350. Falta 64.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (65+73+71+77+x)/5=70. Multiplicando: 286+x=350 -> x=350-286=64. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 286+64=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (65+73+71+77)/4=71.5~72. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=286+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.2 != 64.",
+        "3": "Error aritmetico: calcula 350-286=69 en lugar de 64, cometiendo un carry error de 5 pts. Ver: 286+69=355 != 350; correcto 286+64=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24943,19 +24943,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
+        "72",
         "70",
-        "57",
-        "66",
+        "67",
         "62"
       ],
       "correctIndex": 3,
-      "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (66+74+72+76+x)/5=70. Multiplicando: 288+x=350 -> x=350-288=62. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 288+62=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Error de signo al despejar.",
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (66+74+72+76)/4=72.0~72. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=288+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 71.6 != 62.",
+        "2": "Error aritmetico: calcula 350-288=67 en lugar de 62, cometiendo un carry error de 5 pts. Ver: 288+67=355 != 350; correcto 288+62=350 ok."
       },
       "knowledgeTags": [
         {
@@ -24981,19 +24981,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "80",
+        "70",
         "72",
-        "67",
-        "76"
+        "77",
+        "68"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (60+70+73+75+x)/5=70. Multiplicando: 278+x=350 -> x=350-278=72. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 278+72=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Usar la mediana u otro estadístico.",
-        "2": "Error de signo al despejar.",
-        "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (60+70+73+75)/4=69.5~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 69.6 != 72.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 273 en lugar de 278 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 77 en lugar de 72. Ver: 278+77=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 282 en lugar de 278 (score anotado 4 pts mas alto). Al restar obtiene 68. Ver: 278+68=346 != 350; correcto: 278+72=350 ok."
       },
       "knowledgeTags": [
         {
@@ -25020,18 +25020,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "73",
-        "81",
-        "77",
-        "68"
+        "69",
+        "70",
+        "78"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (61+71+65+80+x)/5=70. Multiplicando: 277+x=350 -> x=350-277=73. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 277+73=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "1": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (61+71+65+80)/4=69.25~69. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=277+x.",
+        "2": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 69.4 != 73.",
+        "3": "Error aritmetico: calcula 350-277=78 en lugar de 73, cometiendo un carry error de 5 pts. Ver: 277+78=355 != 350; correcto 277+73=350 ok."
       },
       "knowledgeTags": [
         {
@@ -25057,19 +25057,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "79",
+        "70",
         "71",
-        "66",
-        "75"
+        "76",
+        "67"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (62+72+66+79+x)/5=70. Multiplicando: 279+x=350 -> x=350-279=71. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 279+71=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (62+72+66+79)/4=69.75~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 69.8 != 71.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 274 en lugar de 279 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 76 en lugar de 71. Ver: 279+76=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 283 en lugar de 279 (score anotado 4 pts mas alto). Al restar obtiene 67. Ver: 279+67=346 != 350; correcto: 279+71=350 ok."
       },
       "knowledgeTags": [
         {
@@ -25095,19 +25095,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "77",
+        "70",
         "69",
-        "64",
-        "73"
+        "74",
+        "65"
       ],
       "correctIndex": 1,
-      "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (63+73+67+78+x)/5=70. Multiplicando: 281+x=350 -> x=350-281=69. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 281+69=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "0": "Doble trampa: el valor 70 surge de dos errores: (a) promedio de los cuatro simulacros (63+73+67+78)/4=70.25~70; o (b) reportar la meta grupal (70) directamente. Si el quinto diera 70, el promedio seria 70.2 != 69.",
+        "2": "Error aritmetico: suma los cuatro puntajes obteniendo 276 en lugar de 281 (ej. anota un score 5 pts menos). Al restar de 350 obtiene 74 en lugar de 69. Ver: 281+74=355 != 350.",
+        "3": "Error aritmetico: suma obteniendo 285 en lugar de 281 (score anotado 4 pts mas alto). Al restar obtiene 65. Ver: 281+65=346 != 350; correcto: 281+69=350 ok."
       },
       "knowledgeTags": [
         {
@@ -25133,19 +25133,19 @@
       "subtopic": "Promedio aritmético",
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
-        "75",
-        "62",
+        "71",
+        "70",
         "67",
-        "71"
+        "72"
       ],
       "correctIndex": 2,
-      "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (64+74+68+77+x)/5=70. Multiplicando: 283+x=350 -> x=350-283=67. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 283+67=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "1": "Error de signo al despejar.",
-        "3": "Usar la mediana u otro estadístico."
+        "0": "El aspirante calcula el promedio de los cuatro simulacros conocidos: (64+74+68+77)/4=70.75~71. Confunde el promedio del grupo actual con el puntaje que debe lograrse en el quinto. No despeja la incognita de 5x70=283+x.",
+        "1": "El aspirante reporta el promedio objetivo (70) como si fuera el puntaje del quinto simulacro. Confunde la meta grupal con la variable individual. Si el quinto diera 70, el promedio seria 70.6 != 67.",
+        "3": "Error aritmetico: calcula 350-283=72 en lugar de 67, cometiendo un carry error de 5 pts. Ver: 283+72=355 != 350; correcto 283+67=350 ok."
       },
       "knowledgeTags": [
         {
@@ -25172,18 +25172,18 @@
       "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
       "options": [
         "70",
-        "74",
-        "65",
-        "78"
+        "71",
+        "75",
+        "66"
       ],
       "correctIndex": 0,
-      "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
-      "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
-      "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+      "explanation": "Se despeja x de la ecuacion: (65+70+69+76+x)/5=70. Multiplicando: 280+x=350 -> x=350-280=70. La clave es multiplicar la meta (70) por el total de evidencias (5) ANTES de restar la suma acumulada. Verificacion: 280+70=350; 350/5=70 ok.",
+      "normativeJustification": "En la prueba de Aptitud Numerica del concurso docente CNSC el calculo del valor faltante para alcanzar un promedio meta entrena la lectura algebraica de enunciados y la precision operacional sin calculadora.",
+      "theoreticalJustification": "El promedio aritmetico se define como la suma de valores dividida entre su cantidad. Cuando se conocen n-1 valores y el promedio deseado, la incognita se despeja: x = n*media - suma_conocida. Errores mas frecuentes: (1) calcular y reportar el promedio de los datos conocidos; (2) reportar la meta grupal (70) como el puntaje individual; (3) usar n=4 en lugar de n=5.",
       "distractorAnalysis": {
-        "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
-        "2": "Usar la mediana u otro estadístico.",
-        "3": "Error de signo al despejar."
+        "1": "El aspirante toma el promedio objetivo (70) y suma 1 por margen de seguridad: 71. Si el quinto diera 71, el promedio seria 70.2, no 70.",
+        "2": "Trampa de meta inflada: usa 71 como meta en lugar de 70 (el ajuste del primer docente del enunciado): 5x71-280=75. Con 75 el promedio seria 71.0 != 70.",
+        "3": "Error aritmetico: suma los cuatro puntajes obteniendo 284 en lugar de 280 (p.ej. anota un puntaje 4 pts mas alto). Al restar de 350 obtiene 66. Verificacion: 280+66=346 != 350; 280+70=350 ok."
       },
       "knowledgeTags": [
         {
@@ -25209,19 +25209,19 @@
       "subtopic": "Premisas, conectores e inferencias",
       "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es:",
       "options": [
-        "Deducción modus tollens",
-        "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
-        "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
-        "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+        "Modus tollens: negacion del consecuente sobre un condicional necesario",
+        "Modus ponens: afirmacion del antecedente para concluir el consecuente",
+        "Falacia de la negacion del antecedente (forma invalida P->Q, no-P, por tanto no-Q)",
+        "Razonamiento inductivo por generalizacion a partir de un caso particular"
       ],
       "correctIndex": 0,
-      "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
-      "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
-      "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+      "explanation": "Solo si hay participacion (P), el PEI es legitimo (Q) equivale a Q->P (P es condicion NECESARIA de Q; la legitimidad implica la participacion). La premisa 2 niega P (no hubo participacion) y la conclusion niega Q (no es legitimo). Por modus tollens sobre Q->P: si Q->P y no-P, entonces no-Q. El argumento es deductivo y valido. La distincion clave: solo si P, Q (Q->P) es distinto de si P entonces Q (P->Q). Esta diferencia entre condicion necesaria y suficiente es la trampa central del item y es evaluada en lectura critica de la prueba CNSC.",
+      "normativeJustification": "La prueba de Lectura Critica de la CNSC evalua la identificacion de estructuras argumentativas validas e invalidas, incluyendo modus ponens, modus tollens y falacias formales, como parte de las competencias de razonamiento logico del aspirante docente.",
+      "theoreticalJustification": "Modus tollens: P->Q, no-Q, por tanto no-P (negar el consecuente para negar el antecedente). En este caso la premisa condicional es Q->P (solo si P, Q), por lo que negar P permite negar Q por modus tollens aplicado a la contrareciproca. Modus ponens (P->Q, P, por tanto Q) afirma el antecedente; no aplica aqui porque la condicion de participacion se NIEGA, no se afirma.",
       "distractorAnalysis": {
-        "1": "Confunde la estructura o el conector evaluado.",
-        "2": "Selecciona una categoría cercana pero incorrecta.",
-        "3": "Sobreinterpreta más allá del texto."
+        "1": "Modus ponens (afirmacion del antecedente): su forma es P->Q, P, por tanto Q. En este argumento la condicion (participacion) se NIEGA, no se afirma; ademas la condicional real es Q->P, no P->Q. El aspirante que confunde ponens con tollens, o que no distingue condicion necesaria de suficiente, seleccionara esta opcion.",
+        "2": "Falacia de la negacion del antecedente: si la condicional fuera P->Q, negar P no justificaria negar Q (argumento invalido). Esta es la trampa mas sofisticada: parece describir exactamente el argumento del texto. Sin embargo, como la condicional real es Q->P (no P->Q), negar P para concluir no-Q ES modus tollens valido, no una falacia. El aspirante que no descompone correctamente solo si P, Q caera aqui.",
+        "3": "Razonamiento inductivo por generalizacion: concluye una regla general desde casos particulares. En el texto hay una premisa condicional universal + un caso particular: eso es deduccion, no induccion. El aspirante que no distingue entre razonamiento deductivo e inductivo seleccionara esta opcion."
       },
       "knowledgeTags": [
         {
@@ -49573,5 +49573,11 @@
     "sanitize": 0,
     "stem": 0,
     "balance": 102
+  },
+  "contestUpgradeWave6": {
+    "at": "2026-09-14T16:07:24.000Z",
+    "itemsTouched": 50,
+    "range": "items[480:530]",
+    "note": "Reglas CNSC aplicadas: opciones plausibles, explanation profunda, distractorAnalysis especifico, fs-lec-1 opciones corregidas"
   }
 }

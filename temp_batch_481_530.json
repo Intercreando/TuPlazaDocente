@@ -1,0 +1,1901 @@
+[
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-pct-2",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "module": "Aptitud numérica",
+    "subtopic": "Porcentajes sin calculadora",
+    "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
+    "options": [
+      "84",
+      "80",
+      "70",
+      "62"
+    ],
+    "correctIndex": 2,
+    "explanation": "35% de 200 = (35/100)×200 = 70.",
+    "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
+    "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+    "distractorAnalysis": {
+      "0": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
+      "1": "Confusión entre aumento porcentual y porcentaje directo.",
+      "3": "Redondeo o proporción invertida."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "porcentajes"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "Una IE oficial tiene 200 estudiantes en básica. El SIEE identifica que el 35% requiere plan de apoyo académico este periodo. Coordinación necesita el número exacto para organizar docentes de apoyo y no inflar ni subestimar la carga.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-pct-3",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "module": "Aptitud numérica",
+    "subtopic": "Porcentajes sin calculadora",
+    "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
+    "options": [
+      "10",
+      "20",
+      "12",
+      "2"
+    ],
+    "correctIndex": 0,
+    "explanation": "12.5% de 80 = (12.5/100)×80 = 10.",
+    "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
+    "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+    "distractorAnalysis": {
+      "1": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
+      "2": "Redondeo o proporción invertida.",
+      "3": "Confusión entre aumento porcentual y porcentaje directo."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "porcentajes"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "Una IE oficial tiene 80 estudiantes en básica. El SIEE identifica que el 12.5% requiere plan de apoyo académico este periodo. Coordinación necesita el número exacto para organizar docentes de apoyo y no inflar ni subestimar la carga.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-pct-4",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "module": "Aptitud numérica",
+    "subtopic": "Porcentajes sin calculadora",
+    "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
+    "options": [
+      "136",
+      "173",
+      "154",
+      "144"
+    ],
+    "correctIndex": 3,
+    "explanation": "45% de 320 = (45/100)×320 = 144.",
+    "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
+    "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+    "distractorAnalysis": {
+      "0": "Confusión entre aumento porcentual y porcentaje directo.",
+      "1": "Redondeo o proporción invertida.",
+      "2": "Error típico: operar el porcentaje como entero sin dividir entre 100."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "porcentajes"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "Una IE oficial tiene 320 estudiantes en básica. El SIEE identifica que el 45% requiere plan de apoyo académico este periodo. Coordinación necesita el número exacto para organizar docentes de apoyo y no inflar ni subestimar la carga.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-pct-5",
+    "pillar": "aptitudNumerica",
+    "topic": "Porcentajes",
+    "module": "Aptitud numérica",
+    "subtopic": "Porcentajes sin calculadora",
+    "stem": "¿Cuántos estudiantes deben entrar al plan de apoyo?",
+    "options": [
+      "54",
+      "55",
+      "45",
+      "37"
+    ],
+    "correctIndex": 2,
+    "explanation": "18% de 250 = (18/100)×250 = 45.",
+    "normativeJustification": "En la prueba de aptitud numérica se evalúa cálculo mental y proporciones sin calculadora, como en el examen real.",
+    "theoreticalJustification": "La competencia implica traducir porcentaje a fracción/decimal y operar con precisión bajo presión de tiempo.",
+    "distractorAnalysis": {
+      "0": "Redondeo o proporción invertida.",
+      "1": "Error típico: operar el porcentaje como entero sin dividir entre 100.",
+      "3": "Confusión entre aumento porcentual y porcentaje directo."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "porcentajes"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "Una IE oficial tiene 250 estudiantes en básica. El SIEE identifica que el 18% requiere plan de apoyo académico este periodo. Coordinación necesita el número exacto para organizar docentes de apoyo y no inflar ni subestimar la carga.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-r3-6",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "module": "Aptitud numérica",
+    "subtopic": "Proporción directa",
+    "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
+    "options": [
+      "5",
+      "13",
+      "8",
+      "10"
+    ],
+    "correctIndex": 2,
+    "explanation": "(6/9)×12 = 8.",
+    "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
+    "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+    "distractorAnalysis": {
+      "0": "Invertir la razón.",
+      "1": "Olvidar la tasa unitaria.",
+      "3": "Sumar en lugar de proporcionalizar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "regla de tres"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "En una jornada de construcción de rúbricas se trabaja a ritmo constante. Si 9 docentes elaboran 6 rúbricas en el mismo tiempo, ¿cuántas elaborarán 12 docentes a igual ritmo? Coordinación debe estimar el producto sin asumir horas extra.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-r3-7",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "module": "Aptitud numérica",
+    "subtopic": "Proporción directa",
+    "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
+    "options": [
+      "20",
+      "12",
+      "15",
+      "17"
+    ],
+    "correctIndex": 2,
+    "explanation": "(9/6)×10 = 15.",
+    "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
+    "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+    "distractorAnalysis": {
+      "0": "Olvidar la tasa unitaria.",
+      "1": "Invertir la razón.",
+      "3": "Sumar en lugar de proporcionalizar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "regla de tres"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "En una jornada de construcción de rúbricas se trabaja a ritmo constante. Si 6 docentes elaboran 9 rúbricas en el mismo tiempo, ¿cuántas elaborarán 10 docentes a igual ritmo? Coordinación debe estimar el producto sin asumir horas extra.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-r3-8",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "module": "Aptitud numérica",
+    "subtopic": "Proporción directa",
+    "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
+    "options": [
+      "1",
+      "2",
+      "7",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "(5/15)×6 = 2.",
+    "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
+    "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+    "distractorAnalysis": {
+      "0": "Sumar en lugar de proporcionalizar.",
+      "2": "Olvidar la tasa unitaria.",
+      "3": "Invertir la razón."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "regla de tres"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "En una jornada de construcción de rúbricas se trabaja a ritmo constante. Si 15 docentes elaboran 5 rúbricas en el mismo tiempo, ¿cuántas elaborarán 6 docentes a igual ritmo? Coordinación debe estimar el producto sin asumir horas extra.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-r3-9",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "module": "Aptitud numérica",
+    "subtopic": "Proporción directa",
+    "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
+    "options": [
+      "15",
+      "12",
+      "10",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "(5/14)×28 = 10.",
+    "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
+    "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+    "distractorAnalysis": {
+      "0": "Sumar en lugar de proporcionalizar.",
+      "1": "Invertir la razón.",
+      "3": "Olvidar la tasa unitaria."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "regla de tres"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "En una jornada de construcción de rúbricas se trabaja a ritmo constante. Si 14 docentes elaboran 5 rúbricas en el mismo tiempo, ¿cuántas elaborarán 28 docentes a igual ritmo? Coordinación debe estimar el producto sin asumir horas extra.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-r3-10",
+    "pillar": "aptitudNumerica",
+    "topic": "Regla de tres",
+    "module": "Aptitud numérica",
+    "subtopic": "Proporción directa",
+    "stem": "A igual ritmo, ¿cuál es la cantidad coherente con una proporción directa?",
+    "options": [
+      "15",
+      "7",
+      "12",
+      "10"
+    ],
+    "correctIndex": 3,
+    "explanation": "(6/9)×15 = 10.",
+    "normativeJustification": "La aptitud numérica del concurso privilegia proporciones directas e inversas de uso escolar cotidiano.",
+    "theoreticalJustification": "Modelar la razón unitaria y escalar es el procedimiento robusto de regla de tres simple.",
+    "distractorAnalysis": {
+      "0": "Invertir la razón.",
+      "1": "Olvidar la tasa unitaria.",
+      "2": "Sumar en lugar de proporcionalizar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "regla de tres"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 80,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "En una jornada de construcción de rúbricas se trabaja a ritmo constante. Si 9 docentes elaboran 6 rúbricas en el mismo tiempo, ¿cuántas elaborarán 15 docentes a igual ritmo? Coordinación debe estimar el producto sin asumir horas extra.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-1",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "73",
+      "81",
+      "77",
+      "68"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Usar la mediana u otro estadístico.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 61, 71, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-2",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "71",
+      "79",
+      "75",
+      "66"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Usar la mediana u otro estadístico.",
+      "2": "Error de signo al despejar.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 62, 72, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-3",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "69",
+      "77",
+      "64",
+      "73"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 63, 73, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-4",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "75",
+      "71",
+      "67",
+      "62"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "1": "Error de signo al despejar.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 64, 74, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-5",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "74",
+      "78",
+      "65",
+      "70"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 65, 70, 70, 75. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-6",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "66",
+      "70",
+      "57",
+      "62"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 66, 71, 71, 80. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-7",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "71",
+      "62",
+      "67",
+      "75"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Usar la mediana u otro estadístico.",
+      "1": "Error de signo al despejar.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 80,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 60, 72, 72, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-8",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "65",
+      "73",
+      "60",
+      "69"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Error de signo al despejar.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 61, 73, 73, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-9",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "76",
+      "67",
+      "72",
+      "80"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Usar la mediana u otro estadístico.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 62, 74, 65, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-10",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "83",
+      "79",
+      "70",
+      "75"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 275. Meta 5×70=350. Falta 75.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 63, 70, 66, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-11",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "81",
+      "68",
+      "77",
+      "73"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Usar la mediana u otro estadístico.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 64, 71, 67, 75. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-12",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "73",
+      "65",
+      "60",
+      "69"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 65, 72, 68, 80. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-13",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "58",
+      "63",
+      "71",
+      "67"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 287. Meta 5×70=350. Falta 63.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Error de signo al despejar.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 66, 73, 69, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-14",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "72",
+      "68",
+      "63",
+      "76"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 60, 74, 70, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-15",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "75",
+      "79",
+      "71",
+      "66"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 61, 70, 71, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-16",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "73",
+      "64",
+      "69",
+      "77"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Usar la mediana u otro estadístico.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 62, 71, 72, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-17",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "67",
+      "71",
+      "75",
+      "62"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Usar la mediana u otro estadístico.",
+      "2": "Error de signo al despejar.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 63, 72, 73, 75. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-18",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "72",
+      "76",
+      "63",
+      "68"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "1": "Error de signo al despejar.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 64, 73, 65, 80. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-19",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "74",
+      "66",
+      "70",
+      "61"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 284. Meta 5×70=350. Falta 66.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 80,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 65, 74, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-20",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "64",
+      "73",
+      "69",
+      "77"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Usar la mediana u otro estadístico.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 66, 70, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-21",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "78",
+      "82",
+      "69",
+      "74"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 276. Meta 5×70=350. Falta 74.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Usar la mediana u otro estadístico.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 60, 71, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-22",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "80",
+      "72",
+      "67",
+      "76"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 61, 72, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-23",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "78",
+      "74",
+      "65",
+      "70"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "1": "Error de signo al despejar.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 62, 73, 70, 75. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-24",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "70",
+      "66",
+      "57",
+      "62"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 63, 74, 71, 80. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-25",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "60",
+      "69",
+      "65",
+      "73"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 285. Meta 5×70=350. Falta 65.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "1": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 64, 70, 72, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-26",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "67",
+      "63",
+      "58",
+      "71"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 287. Meta 5×70=350. Falta 63.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 65, 71, 73, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-27",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "78",
+      "74",
+      "70",
+      "65"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 66, 72, 65, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-28",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "75",
+      "70",
+      "83",
+      "79"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 275. Meta 5×70=350. Falta 75.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Error de signo al despejar.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 60, 73, 66, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-29",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "81",
+      "77",
+      "68",
+      "73"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Usar la mediana u otro estadístico.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 61, 74, 67, 75. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-30",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "65",
+      "78",
+      "74",
+      "70"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Usar la mediana u otro estadístico.",
+      "1": "Error de signo al despejar.",
+      "2": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 62, 70, 68, 80. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-31",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "68",
+      "72",
+      "63",
+      "76"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 282. Meta 5×70=350. Falta 68.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Error de signo al despejar.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 63, 71, 69, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-32",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "61",
+      "66",
+      "74",
+      "70"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 284. Meta 5×70=350. Falta 66.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Usar la mediana u otro estadístico.",
+      "2": "Error de signo al despejar.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 64, 72, 70, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-33",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "72",
+      "64",
+      "68",
+      "59"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 286. Meta 5×70=350. Falta 64.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 65, 73, 71, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-34",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "70",
+      "57",
+      "66",
+      "62"
+    ],
+    "correctIndex": 3,
+    "explanation": "Suma actual 288. Meta 5×70=350. Falta 62.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Error de signo al despejar.",
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 66, 74, 72, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-35",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "80",
+      "72",
+      "67",
+      "76"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 278. Meta 5×70=350. Falta 72.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Usar la mediana u otro estadístico.",
+      "2": "Error de signo al despejar.",
+      "3": "Promediar solo los cuatro puntajes sin proyectar el quinto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 60, 70, 73, 75. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-36",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "73",
+      "81",
+      "77",
+      "68"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 277. Meta 5×70=350. Falta 73.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Error de signo al despejar.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 61, 71, 65, 80. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-37",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "79",
+      "71",
+      "66",
+      "75"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 279. Meta 5×70=350. Falta 71.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "recommendedSeconds": 110,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 62, 72, 66, 79. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-38",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "77",
+      "69",
+      "64",
+      "73"
+    ],
+    "correctIndex": 1,
+    "explanation": "Suma actual 281. Meta 5×70=350. Falta 69.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 63, 73, 67, 78. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-39",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "75",
+      "62",
+      "67",
+      "71"
+    ],
+    "correctIndex": 2,
+    "explanation": "Suma actual 283. Meta 5×70=350. Falta 67.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "0": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "1": "Error de signo al despejar.",
+      "3": "Usar la mediana u otro estadístico."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 60,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 64, 74, 68, 77. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-num-avg-40",
+    "pillar": "aptitudNumerica",
+    "topic": "Promedios",
+    "module": "Aptitud numérica",
+    "subtopic": "Promedio aritmético",
+    "stem": "Si la meta institucional es ese promedio, ¿qué puntaje se necesita en la evidencia que falta?",
+    "options": [
+      "70",
+      "74",
+      "65",
+      "78"
+    ],
+    "correctIndex": 0,
+    "explanation": "Suma actual 280. Meta 5×70=350. Falta 70.",
+    "normativeJustification": "La gestión del puntaje en simulacros entrena cálculo rápido de metas, útil bajo temporizador.",
+    "theoreticalJustification": "El promedio aritmético es una medida de tendencia central básica en interpretación de resultados.",
+    "distractorAnalysis": {
+      "1": "Promediar solo los cuatro puntajes sin proyectar el quinto.",
+      "2": "Usar la mediana u otro estadístico.",
+      "3": "Error de signo al despejar."
+    },
+    "knowledgeTags": [
+      {
+        "code": "aptitud",
+        "focus": "promedios"
+      }
+    ],
+    "difficulty": "basico",
+    "dificultad": 1,
+    "recommendedSeconds": 45,
+    "isCaseStudy": true,
+    "specialtyTags": [],
+    "caseContext": "El comité de calidad revisa resultados de simulacros para el PMI. Cuatro simulacros dieron 65, 70, 69, 76. ¿Qué puntaje se necesita en el quinto para promedio 70? Un docente propone “redondear hacia arriba por clima”; otro insiste en el cálculo exacto del promedio meta.",
+    "qualityHardened": true
+  },
+  {
+    "published": true,
+    "schemaVersion": 1,
+    "id": "fs-lec-1",
+    "pillar": "lecturaCritica",
+    "topic": "Argumentación",
+    "module": "Lectura crítica",
+    "subtopic": "Premisas, conectores e inferencias",
+    "stem": "“Solo si hay participación de la comunidad, el PEI es legítimo. Este PEI no tuvo participación. Por tanto, no es legítimo.” La estructura predominante es:",
+    "options": [
+      "Deducción modus tollens",
+      "Adelantar contenidos de grados superiores “por el concurso”, sin asegurar las bases del DBA del grado actual.",
+      "Mantener una sola representación (símbolo, copia o dictado) aunque el estudiante evidencie otra vía de comprensión.",
+      "Contextualizar con actividades locales sueltas, sin formalizar la competencia que el referente exige."
+    ],
+    "correctIndex": 0,
+    "explanation": "Modus tollens: si P→Q y no Q, entonces no P.",
+    "normativeJustification": "En lectura crítica se evalúa identificación de estructuras argumentativas válidas.",
+    "theoreticalJustification": "Modus tollens: si P→Q y no Q, entonces no P.",
+    "distractorAnalysis": {
+      "1": "Confunde la estructura o el conector evaluado.",
+      "2": "Selecciona una categoría cercana pero incorrecta.",
+      "3": "Sobreinterpreta más allá del texto."
+    },
+    "knowledgeTags": [
+      {
+        "code": "lectura",
+        "focus": "argumentación"
+      }
+    ],
+    "difficulty": "intermedio",
+    "dificultad": 2,
+    "recommendedSeconds": 80,
+    "isCaseStudy": false,
+    "specialtyTags": [],
+    "qualityHardened": true
+  }
+]
