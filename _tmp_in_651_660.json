@@ -1,0 +1,364 @@
+[
+  {
+    "pos": 651,
+    "id": "fs-ped-d1421-27",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "d1421",
+    "subtopic": "d1421",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "El PIAR prevé base diez en la evaluación de matemáticas. El día de la prueba se niega el material “para que sea justo”. El estudiante comprende con esa representación y se bloquea en el algoritmo solo.",
+    "stem": "¿Qué decisión sostiene el ajuste razonable sin bajar la meta esencial?",
+    "options": [
+      "Negar el material previsto, para que la evidencia sea comparable con el resto.",
+      "Permitir la representación acordada en el PIAR y valorar el aprendizaje esencial del grado.",
+      "Cambiar el DBA del grado de forma informal, sin actualizar el PIAR.",
+      "Sustituir matemáticas por una actividad recreativa permanente."
+    ],
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "theoreticalJustification": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 652,
+    "id": "fs-ped-piaget-28",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "piaget",
+    "subtopic": "piaget",
+    "knowledgeTags": [
+      {
+        "code": "piaget",
+        "focus": "estadios"
+      },
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      }
+    ],
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En transición exigen planas y un promedio numérico semanal. Castigan el juego simbólico por “perder tiempo”. Familias piden “que se vea como primero”.",
+    "stem": "¿Qué decisión alinea desarrollo, juego y evaluación cualitativa en inicial?",
+    "options": [
+      "Sustituir el juego por planas y ranking semanal, para evidenciar rigor, aunque se presente como solución rápida en la reunión.",
+      "Mediar el juego y las rutinas como espacio de lenguaje y pensamiento, y documentar procesos con devolución a las familias.",
+      "Aplicar un examen escrito estandarizado para homologar con primaria, aunque ahorre tiempo visible de clase o de consejo.",
+      "Eliminar toda evidencia y dejar solo cuidado asistencial, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "normativeJustification": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "theoreticalJustification": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 653,
+    "id": "fs-ped-bruner-29",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "bruner",
+    "subtopic": "bruner",
+    "knowledgeTags": [
+      {
+        "code": "bruner",
+        "focus": "representación"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En 3° pasan de material concreto a la ecuación en un solo paso. Quienes no simbolizan de inmediato se etiquetan como “sin lógica”. Un colega propone más hojas de algoritmos.",
+    "stem": "¿Qué secuencia de representación es la más defendible para mediar el aprendizaje?",
+    "options": [
+      "Insistir de inmediato en el símbolo, con más ejercicios idénticos.",
+      "Transitar concreto → pictórico → simbólico, conectando cada modo con la meta del grado.",
+      "Quedarse indefinidamente en el concreto, sin formalizar.",
+      "Evaluar solo la respuesta final del algoritmo, sin representaciones."
+    ],
+    "explanation": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "normativeJustification": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "theoreticalJustification": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 654,
+    "id": "fs-ped-ebc-30",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ebc",
+    "subtopic": "ebc",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "El plan de área copia el índice del libro y un recurso viral. No hay metas de “saber hacer” por grupos de grados. La visita de calidad pregunta por EBC/DBA.",
+    "stem": "¿Qué decisión alinea la planeación con los Estándares Básicos de Competencias?",
+    "options": [
+      "Seguir el libro y el recurso viral, porque ya “cubren contenidos”, aunque se presente como solución rápida en la reunión.",
+      "Definir desempeños de saber y saber hacer por grupos de grados, y evaluar procesos no solo productos memorísticos.",
+      "Usar los EBC como lista de supervisión de asistencia docente, aunque parezca un trámite equitativo o suficiente.",
+      "Reemplazar el PEI por el índice del texto escolar, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "normativeJustification": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "theoreticalJustification": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 655,
+    "id": "fs-ped-d1290-31",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "d1290",
+    "subtopic": "d1290",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "enfoque"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "Un área evalúa solo un examen acumulativo sorpresa. Estudiantes que avanzaron en talleres no tienen esas evidencias en la promoción. Coordinación defiende el examen “porque es igual para todos”.",
+    "stem": "Según el carácter formativo del Decreto 1290, ¿qué práctica es la más defendible?",
+    "options": [
+      "Conservar el examen sorpresa como único insumo, para garantizar homogeneidad, aunque se presente como solución rápida en la reunión.",
+      "Triangular evidencias de proceso y de producto, con criterios conocidos, y usar el examen como una evidencia más.",
+      "Promover por asistencia y “actitud”, sin evidencias de aprendizaje esencial, aunque ahorre tiempo visible de clase o de consejo.",
+      "Publicar solo el promedio del curso, sin devolución individual, aunque parezca un trámite equitativo o suficiente."
+    ],
+    "explanation": "El Decreto 1290 concibe la evaluación como integral, flexible y formativa, al servicio del aprendizaje, no solo de la certificación.",
+    "normativeJustification": "El Decreto 1290 concibe la evaluación como integral, flexible y formativa, al servicio del aprendizaje, no solo de la certificación.",
+    "theoreticalJustification": "El Decreto 1290 concibe la evaluación como integral, flexible y formativa, al servicio del aprendizaje, no solo de la certificación.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 656,
+    "id": "fs-ped-d1421-32",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "d1421",
+    "subtopic": "d1421",
+    "knowledgeTags": [
+      {
+        "code": "decreto1421",
+        "focus": "ajustes"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "Una estudiante con baja visión presenta la misma prueba cronometrada en fotocopia densa. La familia pide nota mínima automática. Un colega dice que cualquier ajuste “rompe la equidad del grupo”.",
+    "stem": "¿Qué decisión es coherente con ajustes razonables (Decreto 1421) y evaluación formativa?",
+    "options": [
+      "Aplicar idéntico formato y tiempo a todo el grupo, porque equidad sería tratar a todos igual.",
+      "Acordar en PIAR materiales, tiempo y forma de evidencia, manteniendo los aprendizajes esenciales del grado.",
+      "Sustituir de forma permanente las evidencias del área por una actividad recreativa, para evitar reclamos.",
+      "Aceptar de palabra una nota mínima, sin registro en el PIAR ni revisión con el equipo de apoyo."
+    ],
+    "explanation": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "normativeJustification": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "theoreticalJustification": "El Decreto 1421 exige PIAR y ajustes razonables: se cambia acceso y forma de demostrar, no se elimina la meta esencial ni se homogeneiza “por equidad”.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 657,
+    "id": "fs-ped-piaget-33",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "piaget",
+    "subtopic": "piaget",
+    "knowledgeTags": [
+      {
+        "code": "piaget",
+        "focus": "estadios"
+      },
+      {
+        "code": "guiaMen50",
+        "focus": "inicial"
+      }
+    ],
+    "specialtyTags": [
+      "preescolar"
+    ],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En transición exigen planas y un promedio numérico semanal. Castigan el juego simbólico por “perder tiempo”. Familias piden “que se vea como primero”.",
+    "stem": "¿Qué decisión alinea desarrollo, juego y evaluación cualitativa en inicial?",
+    "options": [
+      "Sustituir el juego por planas y ranking semanal, para evidenciar rigor, aunque parezca un trámite equitativo o suficiente.",
+      "Mediar el juego y las rutinas como espacio de lenguaje y pensamiento, y documentar procesos con devolución a las familias.",
+      "Aplicar un examen escrito estandarizado para homologar con primaria, aunque se presente como solución rápida en la reunión.",
+      "Eliminar toda evidencia y dejar solo cuidado asistencial, aunque ahorre tiempo visible de clase o de consejo."
+    ],
+    "explanation": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "normativeJustification": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "theoreticalJustification": "En inicial, el pensamiento se construye por acción y representación según el desarrollo (Piaget) y las orientaciones MEN de educación inicial, no por escolarización prematura.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 658,
+    "id": "fs-ped-bruner-34",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "bruner",
+    "subtopic": "bruner",
+    "knowledgeTags": [
+      {
+        "code": "bruner",
+        "focus": "representación"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "En 3° pasan de material concreto a la ecuación en un solo paso. Quienes no simbolizan de inmediato se etiquetan como “sin lógica”. Un colega propone más hojas de algoritmos.",
+    "stem": "¿Qué secuencia de representación es la más defendible para mediar el aprendizaje?",
+    "options": [
+      "Insistir de inmediato en el símbolo, con más ejercicios idénticos.",
+      "Transitar concreto → pictórico → simbólico, conectando cada modo con la meta del grado.",
+      "Quedarse indefinidamente en el concreto, sin formalizar.",
+      "Evaluar solo la respuesta final del algoritmo, sin representaciones."
+    ],
+    "explanation": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "normativeJustification": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "theoreticalJustification": "Bruner propone transitar enactivo → icónico → simbólico. Saltar al símbolo o quedarse solo en lo concreto sin formalizar rompe la mediación.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 659,
+    "id": "fs-ped-ebc-35",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "ebc",
+    "subtopic": "ebc",
+    "knowledgeTags": [
+      {
+        "code": "ebc",
+        "focus": "competencias"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "El plan de área copia el índice del libro y un recurso viral. No hay metas de “saber hacer” por grupos de grados. La visita de calidad pregunta por EBC/DBA.",
+    "stem": "¿Qué decisión alinea la planeación con los Estándares Básicos de Competencias?",
+    "options": [
+      "Seguir el libro y el recurso viral, porque ya “cubren contenidos”, aunque se presente como solución rápida en la reunión.",
+      "Definir desempeños de saber y saber hacer por grupos de grados, y evaluar procesos no solo productos memorísticos.",
+      "Usar los EBC como lista de supervisión de asistencia docente, aunque parezca un trámite equitativo o suficiente.",
+      "Reemplazar el PEI por el índice del texto escolar, aunque se presente como solución rápida en la reunión."
+    ],
+    "explanation": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "normativeJustification": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "theoreticalJustification": "Los EBC describen lo que el estudiante debe saber y saber hacer por grupos de grados; no son el índice de un libro ni un instrumento administrativo.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  },
+  {
+    "pos": 660,
+    "id": "fs-ped-d1290-36",
+    "correctIndex": 1,
+    "difficulty": "avanzado",
+    "dificultad": 3,
+    "pillar": "pedagogico",
+    "topic": "d1290",
+    "subtopic": "d1290",
+    "knowledgeTags": [
+      {
+        "code": "decreto1290",
+        "focus": "enfoque"
+      }
+    ],
+    "specialtyTags": [],
+    "targetCargo": null,
+    "normativeRefs": null,
+    "caseContext": "El periodo se cierra con quizzes secretos y un ranking en cartelera. No hubo rúbricas previas. Padres piden “más rigor”; un colega dice que socializar criterios “regala la respuesta”. El SIEE habla de evaluación formativa.",
+    "stem": "¿Qué decisión articula el Decreto 1290 sin caer en rigor vacío ni en flexibilidad sin evidencia?",
+    "options": [
+      "Mantener los quizzes secretos y el ranking, y entregar la rúbrica el día de los resultados.",
+      "Socializar criterios, recoger evidencias diversas y devolver un siguiente paso; el promedio es un insumo más del SIEE.",
+      "Sustituir toda evidencia por un concepto cualitativo acordado con las familias, sin rúbrica conocida por la comunidad.",
+      "Repetir el mismo quiz hasta que el promedio suba, sin reenseñar ni otra forma de demostrar el aprendizaje."
+    ],
+    "explanation": "El Decreto 1290 concibe la evaluación como integral, flexible y formativa, al servicio del aprendizaje, no solo de la certificación.",
+    "normativeJustification": "El Decreto 1290 concibe la evaluación como integral, flexible y formativa, al servicio del aprendizaje, no solo de la certificación.",
+    "theoreticalJustification": "El Decreto 1290 concibe la evaluación como integral, flexible y formativa, al servicio del aprendizaje, no solo de la certificación.",
+    "distractorAnalysis": {
+      "0": "Simula rigor o equidad formal, pero niega mediación, criterios o acceso.",
+      "2": "Flexibiliza hasta eliminar evidencia o meta esencial.",
+      "3": "Reduce el referente a trámite, exclusión o producto vacío."
+    }
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "fs-ped-bruner-49",
+    "caseContext": "En 3° pasan de material concreto a la ecuación en un solo paso. Quienes no simbolizan de inmediato se etiquetan como “sin lógica”. Un colega propone más hojas de algoritmos.",
+    "stem": "¿Qué secuencia de representación es la más defendible para mediar el aprendizaje?",
+    "correctIndex": 1,
+    "options": [
+      "Ofrecer fichas como «múltiple medio DUA» en la clase y, el día del quiz, saltar a la ecuación sin paso pictórico, argumentando que el concreto ya cumplió el diseño universal.",
+      "Transitar enactivo, icónico y simbólico hasta la meta de 3.°, para que la ecuación se sostenga en la acción y en el dibujo, y se evalúe el significado de la operación.",
+      "Permanecer en el concreto el resto del periodo «porque el DUA pide partir de lo que hay», sin formalizar pictórico ni simbólico, y evaluar el recuento con fichas como logro del grado.",
+      "Consignar en el expediente un informe psicopedagógico de «déficit simbólico», con adjuntos clínicos, y conservar las hojas de algoritmos, sin enseñar el tránsito de representaciones."
+    ],
+    "explanation": "La secuencia más defendible es enactiva, icónica y simbólica, atada a la meta de 3.°. Bruner no admite el salto al signo ni el anclaje permanente en el objeto. Usar fichas como «múltiple medio» y pasar al quiz de ecuación omite el pictórico: hay catálogo de materiales, no mediación. Invocar que el DUA «parte de lo que hay» para no formalizar abandona el DBA. El informe de «déficit simbólico» en el expediente etiqueta lo que la enseñanza no medió y deja los algoritmos como aparente rigor clínico.",
+    "distractorAnalysis": {
+      "0": "Trampa del múltiple medio mal citado: las fichas parecen DUA de representación y el quiz de ecuación parece cierre. Se omite el icónico y se evalúa un salto que la clase no enseñó.",
+      "2": "Trampa de partir de lo que hay: quedarse en concreto parece respeto DUA al punto de partida. Si no hay pictórico ni símbolo, se evade la meta de 3.° y se evalúa manipulación como si fuera el desempeño.",
+      "3": "Trampa de dominio cruzado clínico: el informe de «déficit simbólico» en el expediente parece diagnóstico serio. Sustituye la enseñanza del tránsito por una etiqueta y conserva el algoritmo desnudo."
+    }
+  },
+  {
+    "id": "fs-ped-bruner-54",
+    "caseContext": "En 3° pasan de material concreto a la ecuación en un solo paso. Quienes no simbolizan de inmediato se etiquetan como “sin lógica”. Un colega propone más hojas de algoritmos.",
+    "stem": "¿Qué secuencia de representación es la más defendible para mediar el aprendizaje?",
+    "correctIndex": 1,
+    "options": [
+      "Asignar una app de algoritmos con lector de pantalla, invocar accesibilidad DUA y pasar al quiz de ecuaciones sin mediación pictórica, de modo que el símbolo llegue «ya adaptado».",
+      "Encadenar manipulación, registro gráfico y notación, atando cada representación a la meta de 3.°, y valorar cómo el estudiante explica la operación antes de automatizar la ecuación.",
+      "Dejar que cada niño elija «el medio que prefiera» y, si pide quedarse en concreto, no formalizar, invocando DUA de autonomía y dejando la meta de 3.° fuera del periodo.",
+      "Pedir autorización de datos para grabar la clase de ecuaciones y archivar el video como «evidencia DUA» del salto al símbolo, al amparo de la Ley 1581, sin haber mediado lo pictórico."
+    ],
+    "explanation": "Mediar el aprendizaje es encadenar representaciones hasta el símbolo de 3.°, no elegir un canal accesible que salte el pictórico. El lector de pantalla sobre una app de algoritmos quita una barrera perceptual y conserva el salto cognitivo. Dejar el medio «a preferencia» y congelar el concreto cita mal el DUA: la preferencia no deroga el DBA. Autorizar la grabación de la clase de ecuaciones produce un dato lícito (1581) y una evidencia falsa de tránsito: se archiva el salto, no se enseña el icónico.",
+    "distractorAnalysis": {
+      "0": "Trampa de la app accesible: el lector de pantalla parece DUA ejemplar. El canal se adapta y el pictórico desaparece; el quiz de ecuaciones evalúa un salto que no se enseñó.",
+      "2": "Trampa de la preferencia como DUA: elegir el medio y quedarse en concreto parece autonomía y respeto. Deja la meta de 3.° fuera del periodo y no formaliza.",
+      "3": "Trampa de dominio cruzado del video 1581: la autorización de datos para grabar ecuaciones parece evidencia DUA impecable. Archiva el salto al símbolo y no media el tránsito icónico."
+    }
+  },
+  {
+    "id": "fs-ped-d1290-36",
+    "caseContext": "El periodo se cierra con quizzes secretos y un ranking en cartelera. No hubo rúbricas previas. Padres piden “más rigor”; un colega dice que socializar criterios “regala la respuesta”. El SIEE habla de evaluación formativa.",
+    "stem": "¿Qué decisión articula el Decreto 1290 sin caer en rigor vacío ni en flexibilidad sin evidencia?",
+    "correctIndex": 1,
+    "options": [
+      "Mantener los quizzes secretos y el ranking en cartelera «como las pruebas externas», y entregar la rúbrica el día de los resultados, para que las familias perciban rigor ICFES y nadie anticipe el instrumento.",
+      "Dar a conocer los criterios antes de recoger evidencias, articular talleres y prueba, y devolver a cada estudiante un siguiente paso; el promedio es un insumo del SIEE, no un ranking de rigor vacío.",
+      "Reemplazar quizzes y ranking por un concepto cualitativo acordado con las familias, para «humanizar los indicadores» del PMI, y omitir la publicación de criterios del SIEE y la evidencia del aprendizaje esencial.",
+      "Cargar el ranking del curso al tablero de calidad y al PMI como evidencia de rigor ante Secretaría, con foto de la cartelera, para que la Guía 34 documente exigencia comparable a las pruebas externas."
+    ],
+    "explanation": "La condición de calidad articula el Decreto 1290 sin rigor vacío ni flexibilidad sin evidencia. Quizzes secretos y ranking «como las pruebas externas» con rúbrica tardía miden sorpresa, no formación. Un concepto cualitativo para «humanizar indicadores» del PMI, omitiendo el SIEE público, es consenso que reemplaza el sistema. Cargar el ranking al tablero de calidad documenta rigor ante Secretaría y convierte la clasificación en evidencia Guía 34. La opción correcta socializa criterios, recoge evidencias y devuelve un siguiente paso; el promedio es insumo, no cartelera.",
+    "distractorAnalysis": {
+      "0": "Trampa del rigor como prueba externa: quizzes secretos, ranking y rúbrica tardía «como ICFES» parecen objetividad. Niegan criterios previos y convierten el SIEE en espectáculo clasificatorio para las familias.",
+      "2": "Trampa de humanizar el PMI: el concepto cualitativo pactado con familias parece cercanía. Al omitir criterios públicos del SIEE y la evidencia del esencial, el juicio queda en un consenso que no es evaluable institucionalmente.",
+      "3": "Trampa de dominio cruzado del tablero de calidad: cargar el ranking al PMI con foto de cartelera luce exigencia Guía 34 ante Secretaría. Documenta clasificación y no formación; el rigor se vuelve indicador, no aprendizaje."
+    }
+  },
+  {
+    "id": "fs-ped-d1290-46",
+    "caseContext": "El periodo se cierra con quizzes secretos y un ranking en cartelera. No hubo rúbricas previas. Padres piden “más rigor”; un colega dice que socializar criterios “regala la respuesta”. El SIEE habla de evaluación formativa.",
+    "stem": "¿Qué decisión articula el Decreto 1290 sin caer en rigor vacío ni en flexibilidad sin evidencia?",
+    "correctIndex": 1,
+    "options": [
+      "Conservar los quizzes secretos, publicar el ranking en cartelera como «estímulo de convivencia y mérito» y entregar la rúbrica el día de los resultados, para que las familias perciban rigor y el clima premie el esfuerzo.",
+      "Dar a conocer los criterios antes de evaluar, recoger evidencias de proceso y de producto, devolver un siguiente paso de mejora y tratar el promedio como insumo del SIEE, no como clasificación expuesta en cartelera.",
+      "Sustituir quizzes y ranking por un concepto cualitativo «acordado en mediación con familias», sin criterios públicos del SIEE, para bajar la tensión del periodo y mostrar cercanía restaurativa.",
+      "Solicitar al Comité Escolar de Convivencia que publique el ranking «para prevenir rumores», invocando la Ley 1620 como transparencia de clima, y dejar intactos los quizzes secretos y la rúbrica tardía."
+    ],
+    "explanation": "La condición de calidad articula el Decreto 1290 sin rigor vacío ni flexibilidad sin evidencia: criterios públicos, evidencias diversas y devolución con siguiente paso; el promedio es insumo del SIEE, no ranking. Publicar la clasificación como «estímulo de convivencia y mérito» y entregar la rúbrica al final es opacidad premiada como clima. El concepto cualitativo mediado con familias, sin SIEE, es consenso que reemplaza el sistema. Pedir al Comité que publique el ranking «para prevenir rumores» aplica mal la Ley 1620: la prevención de rumores no autoriza a clasificar públicamente ni a omitir criterios previos.",
+    "distractorAnalysis": {
+      "0": "Trampa del ranking como estímulo de convivencia: la cartelera de mérito y la rúbrica tardía parecen rigor y premio al esfuerzo. Niegan criterios previos y convierten el SIEE en clasificación de clima.",
+      "2": "Trampa del concepto mediado con familias: el acuerdo cualitativo parece cercanía restaurativa y baja la tensión. Al no haber criterios públicos del SIEE, el juicio queda en un consenso privado y se pierde evaluabilidad.",
+      "3": "Trampa de dominio cruzado de la Ley 1620: publicar el ranking «para prevenir rumores» parece prevención de clima. Aplica mal el Comité, expone clasificaciones y deja intactos los quizzes secretos y la rúbrica tardía."
+    }
+  },
+  {
+    "id": "fs-ped-piaget-33",
+    "caseContext": "En transición exigen planas y un promedio numérico semanal. Castigan el juego simbólico por “perder tiempo”. Familias piden “que se vea como primero”.",
+    "stem": "¿Qué decisión alinea desarrollo, juego y evaluación cualitativa en inicial?",
+    "correctIndex": 1,
+    "options": [
+      "Adoptar una rúbrica numérica de transición de 1 a 5, homologable con el SIEE de primaria, para que la visita de Secretaría vea continuidad de ciclos y un lenguaje de calidad comparable con primero.",
+      "Sostener el juego mediado como escenario de pensamiento y lenguaje, y hacer seguimiento cualitativo de procesos —observación, relatos y devolución a las familias—, coherente con el desarrollo de inicial.",
+      "Retirar el juego del horario y destinar esas franjas a «horas de lectoescritura medibles» en el PMI, con planas como evidencia, para subir el indicador de preparación lectora que pide la Secretaría.",
+      "Remitir a Secretaría un informe de calidad de inicial con fotografías de planas firmadas como evidencia al estilo Guía 34, y argumentar que esos productos demuestran escolarización temprana de calidad."
+    ],
+    "explanation": "La condición de calidad vuelve a pedir desarrollo, juego y evaluación cualitativa, ahora frente a la homologación con primaria. Una rúbrica 1-5 para «hablar el SIEE» en la visita escolariza el nivel. Quitar el juego para «horas de lectoescritura medibles» del PMI sacrifica el medio cognitivo del estadio. El informe a Secretaría con fotos de planas fabrica calidad de inicial con producto gráfico. Piaget y las Bases Curriculares exigen juego mediado y seguimiento cualitativo: observación, relatos y devolución, no promedio homologable.",
+    "distractorAnalysis": {
+      "0": "Trampa de la rúbrica 1-5 homologable: hablar el lenguaje del SIEE de primaria parece continuidad de ciclos para la visita. Impone un promedio ajeno a inicial y niega la evaluación cualitativa del desarrollo.",
+      "2": "Trampa de las horas medibles del PMI: retirar el juego para lectoescritura cuantificable parece preparación lectora ante Secretaría. Sacrifica el medio cognitivo del estadio y reduce el nivel a plana contable.",
+      "3": "Trampa de dominio cruzado del informe a Secretaría: fotos de planas firmadas al estilo Guía 34 lucen evidencia de calidad. Fabrican escolarización temprana certificable y dejan el juego fuera del relato institucional."
+    }
+  }
+]

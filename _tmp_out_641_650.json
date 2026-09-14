@@ -1,0 +1,172 @@
+[
+  {
+    "id": "fs-ped-d1421-17",
+    "options": [
+      "En la reunión de padres, explicar que se negó la base diez del PIAR para aplicar la misma prueba al curso y evitar privilegios, y conservar el algoritmo escrito como evidencia comparable del desempeño.",
+      "Permitir la representación de base diez acordada en el PIAR, valorar con criterios públicos el esencial de matemáticas del grado y registrar cómo esa mediación hace visible el desempeño esperado.",
+      "Aceptar la nota mínima que pide la familia «en un gesto de inclusión», guardar el mensaje del chat de acudientes como constancia de buena voluntad y omitir evidencias de que se demostró el esencial de matemáticas.",
+      "Pedir al personero que someta a votación si la base diez «rompe la equidad» del curso, y aplicar o retirar el material de la prueba según el recuento de esa consulta estudiantil de participación."
+    ],
+    "explanation": "La condición de calidad pide sostener el ajuste razonable sin bajar la meta esencial. El Decreto 1421 se juega el día de la prueba: si el PIAR prevé base diez, esa representación es el acceso legítimo al esencial de matemáticas, no un privilegio que se retire para «igualar» al grupo. Negar el material y explicarlo en reunión de padres como anti-favoritismo mide el algoritmo que el estudiante no puede usar. La nota mínima pedida por la familia simula inclusión y apaga la evidencia. Que el personero vote la equidad es gobierno estudiantil en el dominio equivocado. Permitir la representación y valorar el esencial con criterios públicos es la decisión defendible.",
+    "normativeJustification": "El Decreto 1421 vincula el PIAR a materiales y formas de evidencia, conservando el aprendizaje esencial. El personero (Ley 115) representa al estudiantado; no decide el acceso a la prueba. El Decreto 1290 califica desempeño demostrado, no un gesto de cortesía familiar.",
+    "theoreticalJustification": "Cambiar la forma de representar permite demostrar el mismo objeto de aprendizaje. Igualar el instrumento convierte la barrera en criterio. Una nota pactada con acudientes y un referendo estudiantil miden clima o participación, no el esencial de matemáticas.",
+    "distractorAnalysis": {
+      "0": "Trampa de la «misma prueba» en reunión de padres: negar la base diez y presentarlo como anti-privilegio parece justicia comparable. Homogeneiza el formato, incumple el PIAR el día de la evidencia y evalúa el algoritmo que el estudiante no puede usar.",
+      "2": "Trampa del gesto de inclusión con nota mínima: atender el pedido familiar y archivar el chat parece humanización. Otorga un número sin evidencia del esencial y confunde inclusión con cesión de la meta del grado.",
+      "3": "Trampa de dominio cruzado del personero-referendo: votar si el material «rompe la equidad» suena a participación y a escucha estudiantil. Desplaza el ajuste razonable a una consulta y deja el PIAR en manos de quien no es instancia de evaluación inclusiva."
+    }
+  },
+  {
+    "id": "fs-ped-piaget-18",
+    "options": [
+      "En la escuela de padres, exhibir planas y un ranking semanal para que transición «se vea primero», y sustituir el juego simbólico por esos productos como evidencia de rigor ante las familias.",
+      "Mediar el juego, las rutinas y la representación como escenario de pensamiento, y devolver a las familias un seguimiento cualitativo de procesos, coherente con el desarrollo de la educación inicial.",
+      "Ofrecer un taller con familias para «enseñar a hacer planas en casa», recoger esos cuadernos y calificarlos como evidencia oficial del periodo, de modo que el hogar prolongue el formato de primaria.",
+      "Pasar una encuesta a acudientes («¿prefieren juego o planas?») y adoptar la mayoría como política de transición en el PEI, presentándola como escucha auténtica de la comunidad educativa."
+    ],
+    "explanation": "La condición de calidad alinea desarrollo, juego y evaluación cualitativa en inicial. Piaget sitúa el pensamiento de esta edad en la acción y en el juego simbólico; las orientaciones MEN de educación inicial y el Decreto 2247 rechazan la escolarización prematura y el ranking como lenguaje de transición. Exhibir planas en la escuela de padres calma la demanda de que «se vea primero», pero mide producto gráfico, no proceso. El taller de planas en casa convierte a la familia en ejecutora de un formato de primaria. La encuesta al PEI es participación plausible y desplaza el referente de desarrollo a una mayoría de acudientes. La decisión defendible media el juego y documenta cualitativamente.",
+    "normativeJustification": "El Decreto 2247 y las orientaciones MEN de inicial sitúan el juego y el seguimiento cualitativo como eje del nivel. Una encuesta de acudientes no redacta el PEI de transición. El ranking semanal no es lenguaje de evaluación de este ciclo.",
+    "theoreticalJustification": "El pensamiento de esta edad avanza con acción, símbolo lúdico y mediación adulta. Planas, ranking y talleres en casa adelantan primaria. La encuesta de preferencia sustituye el desarrollo por voto; la devolución cualitativa hace legible el proceso.",
+    "distractorAnalysis": {
+      "0": "Trampa de la escuela de padres como vitrina de primaria: mostrar planas y ranking para que «se vea primero» parece rigor y calma a las familias. Sustituye el juego simbólico por producto gráfico y niega la evaluación cualitativa del nivel.",
+      "2": "Trampa del taller familiar de planas: enseñar el formato en casa y calificar esos cuadernos parece corresponsabilidad y evidencia visible. Escolariza el hogar, convierte a la familia en ejecutora de primaria y vacía el juego de su función cognitiva.",
+      "3": "Trampa de dominio cruzado de la encuesta al PEI: preguntar si prefieren juego o planas y adoptar la mayoría suena a escucha de la comunidad. Convierte un referente de desarrollo en preferencia de acudientes y desfigura el PEI de transición."
+    }
+  },
+  {
+    "id": "fs-ped-bruner-19",
+    "options": [
+      "Enviar a casa las hojas extra de algoritmos que propone el colega, pedir a las familias que las supervisen por la tarde y evaluar esas hojas como evidencia principal del paso a la ecuación en 3.°.",
+      "Transitar de lo concreto a lo pictórico y de ahí a lo simbólico, articulando cada representación con la meta de 3.° y evaluando el significado de la operación antes de exigir la ecuación.",
+      "Conservar el material concreto el resto del periodo porque las familias dicen que «aún son niños», y omitir el paso al registro pictórico y al símbolo que el grado ya demanda.",
+      "En la reunión de padres, explicar que quien no arma la ecuación «no tiene lógica», recoger firmas de enterado y archivarlas como constancia de que las familias conocen el criterio de etiqueta."
+    ],
+    "explanation": "La condición de calidad pide la secuencia de representación más defendible para mediar. Bruner ordena hacer, imaginar y simbolizar, atados a la meta de 3.°; los DBA piden sentido de la operación, no el salto al algoritmo ni el concreto indefinido. Enviar a casa las hojas extra que pide el colega externaliza la repetición y evalúa un formato. Quedarse en fichas porque las familias «aún los ven niños» evade la formalización. Recoger firmas de «no tiene lógica» archiva un déficit ante acudientes. La decisión defendible transita los tres modos y evalúa el sentido conectado al grado.",
+    "normativeJustification": "DBA y EBC de matemáticas de 3.° piden justificar operaciones con representaciones progresivas. El Decreto 1290 valora el proceso de aprendizaje. Un acta de firmas de etiqueta en reunión de padres no reemplaza esa mediación.",
+    "theoreticalJustification": "Bruner articula tres modos: enactivo, icónico y simbólico. Brincar al algoritmo o congelar la ficha porque «aún son niños» corta esa escalera. Hojas extra en casa y firmas de déficit documentan repetición o estigma, no mediación.",
+    "distractorAnalysis": {
+      "0": "Trampa de las hojas extra enviadas a casa: supervisar algoritmos en familia parece refuerzo y atiende al colega. Omiten lo pictórico, externalizan la repetición y evalúan un salto al símbolo como si ya fuera mediación del grado.",
+      "2": "Trampa del concreto eterno «porque aún son niños»: conservar fichas a pedido de las familias parece respeto al desarrollo. Si no hay paso a lo pictórico ni a lo simbólico, se evade la meta de 3.° y se evalúa recuento concreto como desempeño del grado.",
+      "3": "Trampa de dominio cruzado de la etiqueta y las firmas: explicar en reunión que quien no arma la ecuación «no tiene lógica» y recoger enterados parece transparencia. Convierte un problema de secuencia en déficit archivado y no enseña el tránsito."
+    }
+  },
+  {
+    "id": "fs-ped-ebc-20",
+    "options": [
+      "Compartir el recurso viral en el chat de padres como «malla ciudadana» del área y seguir ese índice junto al del libro, argumentando que la comunidad ya validó los contenidos a enseñar.",
+      "Definir desempeños de saber y de saber hacer por grupos de grados, articularlos con DBA y evaluar procesos de uso del conocimiento, tomando el libro como medio de trabajo y no como referente de la malla.",
+      "Preguntar a las familias qué temas del libro «valen la pena» y armar el plan de área con esa votación, para que la planeación nazca de la escucha comunitaria y gane legitimidad ante acudientes.",
+      "Presentar el índice del texto escolar en el consejo de padres como evidencia de que el área «cubre estándares», y dejar esa acta como respaldo de calidad curricular ante la visita."
+    ],
+    "explanation": "La condición de calidad es alinear la planeación con los Estándares Básicos de Competencias: los EBC describen lo que se debe saber y saber hacer por grupos de grados, en diálogo con DBA, no un recurso viral ni el índice de una editorial. Difundir el viral en el chat como «malla ciudadana» simula validación comunitaria y deja el referente nacional fuera. Votar temas del libro con las familias es escucha plausible y sustituye la competencia por preferencia. Mostrar el índice en el consejo de padres parece rendición de cuentas curricular y confunde cobertura editorial con estándar. La decisión defendible define desempeños, los articula con DBA y evalúa uso del conocimiento.",
+    "normativeJustification": "EBC y DBA del MEN fijan desempeños por grupos de grados. El plan de área se ancla a ese marco. Ni el chat de acudientes ni el índice de una editorial ni el consejo de padres redactan el referente de competencia.",
+    "theoreticalJustification": "El estándar describe usos del saber, no capítulos de un texto ni virales. Un chat, una votación de temas o un índice exhibido a padres reordenan el currículo alrededor del medio o de la opinión, no de la competencia.",
+    "distractorAnalysis": {
+      "0": "Trampa de la malla ciudadana en el chat: compartir el recurso viral como plan validado por padres parece escucha y modernidad. Confunde un contenido de moda con desempeños de saber y saber hacer por grupos de grados.",
+      "2": "Trampa de la votación familiar de temas: preguntar qué capítulos «valen la pena» y armar el plan con esa mayoría parece corresponsabilidad. Sustituye EBC y DBA por preferencia de acudientes y deja el saber hacer sin referente de grado.",
+      "3": "Trampa de dominio cruzado del índice en consejo de padres: exhibir el sumario del texto como prueba de que el área cubre estándares luce calidad y participación. Sustituye el referente nacional por la editorial y deja los EBC fuera de la malla real."
+    }
+  },
+  {
+    "id": "fs-ped-d1290-21",
+    "options": [
+      "Defender en la reunión de padres el examen sorpresa acumulativo como equidad, porque «nadie se entera antes», y conservar esa prueba como insumo de promoción, al margen de los talleres ya realizados.",
+      "Triangular evidencias de proceso —los talleres— y de producto, dar a conocer los criterios con antelación y usar el examen como una evidencia más del SIEE, al servicio de la mejora y de la promoción.",
+      "Promover a quien el acudiente «responde por el esfuerzo» en la reunión de padres, prescindiendo de carpeta de evidencias de aprendizaje esencial y cerrando el periodo con ese aval familiar.",
+      "Publicar el ranking del examen en el grupo de WhatsApp de padres «para que haya transparencia», con nombres y puestos, como rendición de cuentas de la evaluación ante las familias del curso."
+    ],
+    "explanation": "La condición de calidad pide la práctica más defendible según el carácter formativo del Decreto 1290. La evaluación es integral, flexible y al servicio del aprendizaje: criterios conocidos, evidencias de proceso y de producto, y el examen como un insumo más, no como sorpresa que borra los talleres. Defender el examen sorpresa en reunión de padres como equidad («nadie se entera») confunde opacidad con imparcialidad. Promover por el aval del acudiente humaniza y elimina la evidencia. El ranking en el chat de padres es transparencia plausible y convierte la nota en espectáculo. La decisión defendible triangula, publica criterios y conserva el examen en su justa medida.",
+    "normativeJustification": "El Decreto 1290 concibe la evaluación como formativa, continua y con criterios públicos, al servicio de la promoción según el SIEE. El examen sorpresa, el aval del acudiente y el ranking en un chat no son esa práctica.",
+    "theoreticalJustification": "Se forma cuando el referente es conocido y hay evidencias sucesivas de proceso y de producto. Ocultar el examen mide control de información; el aval familiar mide confianza; el ranking en WhatsApp mide exposición, no aprendizaje.",
+    "distractorAnalysis": {
+      "0": "Trampa del examen sorpresa como equidad de reunión: argumentar que «nadie se entera antes» parece justicia comparable. Niega criterios previos, deja fuera los talleres de proceso y confunde homogeneidad del instrumento con evaluación formativa.",
+      "2": "Trampa de la promoción por aval del acudiente: que la familia «responda por el esfuerzo» parece inclusión y escucha. Cierra el periodo sin evidencias de aprendizaje esencial y sustituye el SIEE por un gesto de confianza parental.",
+      "3": "Trampa de dominio cruzado del ranking en el grupo de padres: publicar puestos «para que haya transparencia» suena a rendición de cuentas. Expone datos de evaluación, clasifica al grupo y desplaza el carácter formativo del 1290 a un espectáculo comunitario."
+    }
+  },
+  {
+    "id": "fs-ped-d1421-22",
+    "options": [
+      "Aplicar el mismo instrumento cronometrado en fotocopia densa y explicarlo a la familia como medida anti-favoritismo, para que el curso no reclame un trato distinto en la prueba.",
+      "Acordar en el PIAR materiales accesibles, tiempo y forma de evidencia, y valorar los aprendizajes esenciales del grado con criterios públicos, no con una concesión numérica de cortesía.",
+      "Conceder la nota mínima que pide la familia, anexar una carta de «buena voluntad inclusiva» al observador y prescindir de evidencias accesibles del esencial de matemáticas del grado.",
+      "Llevar el reclamo a la asamblea de padres para que el curso vote si el ajuste visual es justo, y aplicar o negar el material accesible según esa mayoría comunitaria de acudientes."
+    ],
+    "explanation": "La condición de calidad pide coherencia entre ajustes razonables y evaluación formativa. Con baja visión, la fotocopia densa y el cronómetro examinan agudeza, no el esencial del grado. El Decreto 1421 y el DUA exigen material, tiempo y forma accesibles, con la meta intacta. Explicar a la familia que el instrumento idéntico evita favoritismos convierte la barrera en equidad. La carta de buena voluntad entrega un número. La asamblea de padres que vota el ajuste es participación en el foro equivocado. Acordar en el PIAR el acceso y evidenciar los esenciales es la decisión defendible.",
+    "normativeJustification": "El Decreto 1421 obliga a materializar el PIAR en materiales, tiempo y forma de evidencia, conservando el esencial. El 1290 exige evidencias pertinentes al objeto evaluado. Una asamblea de acudientes no habilita ni niega un ajuste razonable.",
+    "theoreticalJustification": "Si la barrera es perceptual, el instrumento idéntico mide visión. Un número de cortesía mide archivo de buen trato. El ajuste cambia soporte, tiempo y formato para que el mismo desempeño del grado pueda verse.",
+    "distractorAnalysis": {
+      "0": "Trampa del cronómetro anti-favoritismo ante la familia: el mismo formato y el mismo tiempo parecen justicia y previenen reclamos. Uniforman la barrera visual, incumplen el PIAR y evalúan agudeza, no el aprendizaje esencial del grado.",
+      "2": "Trampa de la carta de buena voluntad inclusiva: conceder la nota mínima con un escrito a la familia parece humanización y calma el reclamo. Otorga un número sin acceso real ni evidencia del esencial; es solidaridad de archivo, no ajuste.",
+      "3": "Trampa de dominio cruzado de la asamblea que vota el ajuste: llevar el reclamo a padres para que el curso decida si es justo suena a escucha de la comunidad. Convierte un derecho de acceso en referendo y deja el PIAR en manos de una mayoría de acudientes."
+    }
+  },
+  {
+    "id": "fs-ped-piaget-23",
+    "options": [
+      "Entregar un boletín con barras numéricas tipo primaria «para que las familias comparen con hermanos mayores», y usar esas barras como evidencia de rigor y de avance en transición.",
+      "Sostener el juego simbólico y las rutinas como espacio de lenguaje y pensamiento, y documentar el progreso con relatos cualitativos que las familias comprendan, propios de la educación inicial.",
+      "Sustituir el juego simbólico por ensayos de dictado visibles en la puerta al recoger a los niños, y calificar esos ensayos como evidencia que las familias pueden verificar al salir.",
+      "Levantar un acta del consejo de padres que aprueba el ranking semanal como política de transición, y adoptarla como acuerdo de comunidad para unificar el lenguaje de evaluación del nivel."
+    ],
+    "explanation": "La condición de calidad alinea desarrollo, juego y evaluación cualitativa en inicial, ahora frente a la comparación con hermanos de primaria. Piaget y las Bases Curriculares del MEN sitúan el pensamiento en el juego y la representación; el boletín de barras traduce transición al lenguaje de otro ciclo. Los dictados en la puerta dan visibilidad a las familias y adelantan un formato operatorio. El acta del consejo de padres que aprueba el ranking es gobierno escolar plausible y no convierte esa práctica en política de nivel. La decisión defendible sostiene el juego y documenta con relatos cualitativos comprensibles para las familias.",
+    "normativeJustification": "Decreto 2247 y orientaciones MEN de inicial: juego y seguimiento cualitativo. El consejo de padres (Ley 115, Decreto 1860) participa del gobierno escolar; no puede convertir un ranking semanal ni un boletín tipo primaria en política de transición.",
+    "theoreticalJustification": "Comparar barras con hermanos mayores mide prestigio familiar, no desarrollo. El dictado visible en la puerta escolariza la salida; el juego mediado y el relato cualitativo hacen visible el pensamiento sin adelantar el estadio.",
+    "distractorAnalysis": {
+      "0": "Trampa del boletín de barras para comparar hermanos: el formato numérico de primaria parece claridad y rigor ante las familias. Homologa transición con un ciclo posterior, niega la evaluación cualitativa y fabrica una competencia entre hermanos.",
+      "2": "Trampa de los ensayos de dictado en la puerta: sustituir el juego por dictados que las familias ven al recoger parece evidencia transparente. Adelanta un formato de primaria, castiga el juego simbólico y evalúa ejecución gráfica, no pensamiento.",
+      "3": "Trampa de dominio cruzado del acta del consejo de padres: aprobar el ranking semanal como política de transición parece legitimidad comunitaria. Convierte una práctica inadecuada en acuerdo de gobierno escolar y desplaza el referente de desarrollo."
+    }
+  },
+  {
+    "id": "fs-ped-bruner-24",
+    "options": [
+      "Grabar un video para padres de resolución rápida de ecuaciones y evaluar al grupo por la velocidad de ese formato, como prueba visible de que el curso ya dominó el paso al símbolo.",
+      "Diseñar una secuencia enactiva, icónica y simbólica hacia el lenguaje convencional de 3.°, de modo que la ecuación se sostenga en acciones y dibujos previos y se evalúe el sentido de la operación.",
+      "Pactar con las familias un portafolio de fotos de fichas y recuentos concretos, y valorarlo como evidencia del grado, omitiendo el paso al registro pictórico y al lenguaje simbólico.",
+      "Ante la queja de un padre de que «se estancan en concreto», acatar la circular de coordinación que ordena pasar a la ecuación esta semana y unificar el formato del curso en ese salto."
+    ],
+    "explanation": "La condición de calidad pide la secuencia de representación más defendible, ahora bajo presión familiar de velocidad y de una circular de coordinación. Bruner no mide rapidez de ecuación ni un álbum de fichas: mide el tránsito enactivo–icónico–simbólico hasta el objeto de 3.°. El video de «resolución rápida» para padres convierte la mediación en espectáculo de destreza. El portafolio fotográfico pactado con familias documenta concreto y congela el grado. Acatar la circular que manda «pasar a la ecuación esta semana» es obediencia jerárquica plausible y reproduce el salto que el caso ya mostró como fracaso. La decisión defendible diseña la secuencia y evalúa el sentido de la operación.",
+    "normativeJustification": "DBA y EBC de 3.° piden significado y representaciones progresivas. Una circular de coordinación no deroga esa progresión. El Decreto 1290 valora el proceso de aprender, no la velocidad de un formato exhibido a padres.",
+    "theoreticalJustification": "La representación simbólica se sostiene en acciones e imágenes previas. Evaluar velocidad, fotografiar fichas o saltar por oficio miden imagen, archivo o jerarquía; la secuencia de modos es la mediación que permite simbolizar.",
+    "distractorAnalysis": {
+      "0": "Trampa del video de velocidad para padres: mostrar resolución rápida de ecuaciones y evaluar esa destreza parece rigor y comunicación familiar. Mide rapidez de un formato, omite lo enactivo y lo icónico, y confunde espectáculo con mediación.",
+      "2": "Trampa del portafolio de fotos de fichas: pactar con familias un álbum concreto parece seguimiento y corresponsabilidad. Si no hay paso a lo pictórico ni a lo simbólico, se evalúa manipulación como si ya fuera el desempeño de 3.°.",
+      "3": "Trampa de dominio cruzado de la circular de coordinación: acatar el oficio de «pasar a la ecuación esta semana» tras la queja de un padre parece conducto y respuesta a la comunidad. Reproduce el salto abrupto y sustituye la mediación por obediencia jerárquica."
+    }
+  },
+  {
+    "id": "fs-ped-ebc-25",
+    "options": [
+      "Fotocopiar el índice del libro para cada familia como «plan de área ciudadano», y seguir ese listado como malla, argumentando que ya hay transparencia curricular hacia los acudientes.",
+      "Reconstruir el plan de área desde EBC y DBA: metas de competencia por grupos de grados, evidencias de saber hacer y el texto escolar como recurso, no como índice que sustituye el referente nacional.",
+      "Reemplazar los desempeños por proyectos que las familias eligen en una feria, y evaluar esos productos como plan de área, prescindiendo del referente de grupos de grados y de los DBA.",
+      "Adoptar como malla el recurso viral que el personero presenta como innovación estudiantil, y comunicarlo en el chat de acudientes como logro de participación de la comunidad educativa."
+    ],
+    "explanation": "La condición de calidad vuelve a pedir alineación con los EBC, ahora bajo la figura de un «plan ciudadano» y de una innovación presentada por el personero. Los EBC y los DBA fijan saber y saber hacer por grupos de grados; fotocopiar el índice a cada familia simula transparencia y deja la editorial como referente. Los proyectos elegidos en feria por las familias pueden ser ricos y, sin referente de grado, no constituyen malla. Adoptar el viral que trae el personero es gobierno estudiantil plausible y confunde participación con diseño curricular. La decisión defendible reconstruye el plan desde estándares y DBA, y usa el libro como recurso.",
+    "normativeJustification": "EBC y DBA del MEN son el referente de competencia por grupos de grados. Personero y familias entran al gobierno escolar; no convierten un viral, una feria o un índice fotocopiado en malla oficial del área.",
+    "theoreticalJustification": "El medio (libro, feria, viral) no define la competencia. Planear desde un índice fotocopiado, desde preferencias de feria o desde una innovación estudiantil invierte el orden: el espectáculo o el recurso se vuelven fin.",
+    "distractorAnalysis": {
+      "0": "Trampa del índice fotocopiado como plan ciudadano: entregar el sumario del libro a cada familia parece transparencia curricular. Confunde cobertura editorial con desempeños de saber y saber hacer, y deja los EBC fuera de la malla real.",
+      "2": "Trampa de la feria de proyectos elegidos por familias: reemplazar desempeños por lo que acudientes escogen parece escucha y trabajo por proyectos. Sin referente de grado ni DBA, el plan queda en preferencia comunitaria y no evalúa la competencia esperada.",
+      "3": "Trampa de dominio cruzado de la innovación del personero: adoptar el recurso viral como malla y anunciarlo en el chat parece participación estudiantil y modernidad. Desplaza EBC y DBA a un contenido de moda legitimado por gobierno escolar."
+    }
+  },
+  {
+    "id": "fs-ped-d1290-26",
+    "options": [
+      "Publicar el ranking de los quizzes secretos en cartelera y en el grupo de padres, y entregar la rúbrica el día de los resultados, para mostrar rigor y transparencia a las familias al mismo tiempo.",
+      "Dar a conocer los criterios antes de las evidencias, triangular producciones de proceso y de cierre, devolver una ruta de mejora y registrar el promedio como insumo del SIEE, no como clasificación pública.",
+      "Pactar en la escuela de padres un concepto cualitativo del periodo, prescindiendo de un SIEE público de criterios, para bajar la tensión y mostrar cercanía evaluativa con las familias.",
+      "Atender el pedido del personero de publicar notas para transparencia estudiantil y difundir el ranking de quizzes en la cartelera y en los canales del gobierno escolar de la institución."
+    ],
+    "explanation": "La condición de calidad articula el Decreto 1290 sin rigor vacío ni flexibilidad sin evidencia: criterios previos, evidencias diversas y un siguiente paso; el promedio es insumo del SIEE, no ranking. Socializar el referente no «regala la respuesta». Publicar el ranking en cartelera y en el grupo de padres, con rúbrica el día de resultados, suma opacidad y exhibición. El concepto pactado en escuela de padres humaniza y deja el SIEE sin criterios públicos. Acatar al personero que pide publicar notas es transparencia estudiantil plausible y convierte la evaluación en clasificación. La decisión defendible anticipa criterios, triangula y devuelve mejora.",
+    "normativeJustification": "El 1290 exige criterios públicos, evidencias diversas y promoción según el SIEE. El ranking en chats, el concepto privado con padres y la publicación que pide el personero no reemplazan ese sistema de evaluación.",
+    "theoreticalJustification": "El SIEE forma cuando el criterio llega a tiempo, hay más de una evidencia y hay devolución con siguiente paso. Ranking en cartelera y chat, rúbrica tardía, concepto pactado en escuela de padres y publicación pedida por el personero miden imagen, no mejora.",
+    "distractorAnalysis": {
+      "0": "Trampa del ranking doble y la rúbrica tardía: cartelera, grupo de padres y rúbrica el día de resultados parecen rigor más transparencia. Niegan criterios previos, clasifican al grupo y convierten el SIEE en espectáculo cuando ya no hay tiempo de mejorar.",
+      "2": "Trampa del concepto negociado en escuela de padres: el acuerdo cualitativo parece humanización y baja la tensión del periodo. Al no haber SIEE público de criterios, el juicio queda en un consenso privado y se pierde la evaluabilidad institucional del 1290.",
+      "3": "Trampa de dominio cruzado de la transparencia del personero: publicar el ranking porque lo pide la representación estudiantil suena a participación y a acceso a la información. Expone notas, clasifica y desplaza el carácter formativo a un acto de gobierno escolar."
+    }
+  }
+]
